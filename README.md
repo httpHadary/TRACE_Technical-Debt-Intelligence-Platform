@@ -20,3 +20,10 @@ python3 -m venv .venv
 
 Missing values remain missing. Offline software PASS is not scientific approval or permission
 to rescan, train, or execute the separate TechDebt360 V3 experiment.
+# MVP phase status
+
+Phase 0 verification and Phase 1 read-only historical ingestion are available in
+[`forecasting_mvp/`](forecasting_mvp/README.md). See
+[`PHASE_1_IMPLEMENTATION_REPORT.md`](PHASE_1_IMPLEMENTATION_REPORT.md) for source
+limitations and test evidence. No future labels or forecasting models have run.
+[`GITHUB_SYNC.md`](GITHUB_SYNC.md) documents the central repository and safe sync.

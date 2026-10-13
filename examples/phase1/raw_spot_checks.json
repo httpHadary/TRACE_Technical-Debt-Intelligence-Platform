@@ -1,0 +1,78 @@
+{
+  "checked_records": 12,
+  "checks": [
+    {
+      "observation_id": "1e5c6e497996d28d6228fed08f0191f28b5e697012093d7a732b7634cd00b417",
+      "source_project_id": "org.apache:archiva",
+      "analysis_id": "AWd6CKRKC4KKKThc-udt",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "6bab4c94e7ba8bd7e86de97a5a0ec5ebc5366374453f5a758db64f30278bc971",
+      "source_project_id": "org.apache:batik",
+      "analysis_id": "AWMbpEMVO48jNFNDCCR5",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "a19f1a79f6c6345588f121da475fd805299148e4c95df90ba6c165c6d6f18d75",
+      "source_project_id": "org.apache:bcel",
+      "analysis_id": "AV3YN2bKJIufLPH4zgmh",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "b76e4541df6e84feafd4cd81eea9d8c8f33cedd57d9373ab692584090534931f",
+      "source_project_id": "org.apache:beanutils",
+      "analysis_id": "AV4fvI_XG0XxMwG_Vr6c",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "9fd046e1d161b458a3958fb150cfcc9bfd1e6ea30207351c30c397d9eb0298b2",
+      "source_project_id": "org.apache:cayenne",
+      "analysis_id": "AWd5_psxC4KKKThc-qK6",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "1ed143cb5816bcfe1d2b13787b6009394d20fcd693a7cd9204732002ed4ed4b8",
+      "source_project_id": "org.apache:cocoon",
+      "analysis_id": "AV4laW8sG0XxMwG_V0EC",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "089f2c0c61b3867795007398387253bb33fe44d7f025f3c84815c07cfad5d0fd",
+      "source_project_id": "org.apache:codec",
+      "analysis_id": "AV4fvyTbG0XxMwG_Vr_X",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "d68d6825f808399538ff77719ba42c35b4ddb25acd429e1fb44d2eaf79ac82d6",
+      "source_project_id": "org.apache:collections",
+      "analysis_id": "AV4lYbMNG0XxMwG_Vzz2",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "a602f0d0b645d743fe5882832fa5ff8fc9f10edee5871a1fcaf644ff641083e9",
+      "source_project_id": "org.apache:commons-cli",
+      "analysis_id": "AVyYMRPfmpmQlk3HXh7E",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "a1aaf8e9e9c4ab68fb5c8c3b09278a2d8737ba29fc5fcc09653dbd45d6dbc4a5",
+      "source_project_id": "org.apache:commons-exec",
+      "analysis_id": "AV31mYn6JIufLPH4zvny",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "b994b5f69e581ff6d5f094a3e67703eb82547334592c1ac4a239cee36703232e",
+      "source_project_id": "org.apache:commons-fileupload",
+      "analysis_id": "AV31moHIJIufLPH4zvrm",
+      "exact_raw_record_match": true
+    },
+    {
+      "observation_id": "11d469ba11998818b596a927b495b01046d74897c6869524d1190157b13876bd",
+      "source_project_id": "org.apache:commons-io",
+      "analysis_id": "AV4TLnKAG0XxMwG_VNgy",
+      "exact_raw_record_match": true
+    }
+  ],
+  "future_labels_read": false
+}

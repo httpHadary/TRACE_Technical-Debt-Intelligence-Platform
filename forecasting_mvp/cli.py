@@ -1,4 +1,4 @@
-"""Phase 0 verification commands only. Later workflow commands are absent."""
+"""Phase 0 verification and Phase 1 ingestion; no labels, fitting or prediction."""
 import argparse
 import json
 import sqlite3
@@ -22,6 +22,9 @@ def main(argv=None):
     env.add_argument("--disk-path", required=True)
     verify = commands.add_parser("verify-bundle")
     verify.add_argument("--bundle", required=True)
+    ingest = commands.add_parser("ingest-history", help="Phase 1 historical measurements and ancestry audit only")
+    ingest.add_argument("--config", required=True)
+    ingest.add_argument("--out", required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -37,6 +40,9 @@ def main(argv=None):
                 raise ValueError("Audit output must be inside registered output root")
             record = audit_v2(config.dataset_path)
             write_json(output, record)
+        elif args.command == "ingest-history":
+            from .v2_import import HistoryConfig, ingest_history
+            record = ingest_history(HistoryConfig.load(args.config), args.out)
         elif args.command == "environment":
             record = environment_record(args.disk_path)
         else:

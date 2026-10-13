@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "excluded_records.json": "292745f6759211720be61d42b4e6a7b8e8083fd2a2adfaa58ec6ff5fa1408684",
+    "git_history.csv": "06f21ead1899354becda2c5f676e03a4a72fc4b66d9458e0f761c0d2bcb25571",
+    "historical_data_audit.json": "223b295e002bc1a3158bc807ff70a83c9655905ee31847b322e56971a5dfc2cf",
+    "historical_debt.csv": "ebed49fc838a2e28c601674c3e771e0d3272ac72679f17929f42359935244bff",
+    "historical_debt_sample.csv": "b05424664161a93fddb89986d677f851928fb46b66c18b22b7b3a4ae04772a37"
+  },
+  "metadata": {
+    "future_labels_constructed": false,
+    "models_executed": false,
+    "phase": 1,
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "status": "PARTIAL"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

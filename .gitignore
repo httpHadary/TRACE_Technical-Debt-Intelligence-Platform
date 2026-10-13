@@ -23,3 +23,27 @@ module_generation.json
 .generations/
 .env*
 *token*
+
+# MVP data/model artifacts and private local runtime settings
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.cbm
+checkpoints/
+model_cache/
+.venv*/
+historical_debt.csv
+git_history.csv
+excluded_records.json
+study.*.local.json
+*.pem
+*.key
+secrets/
+credentials*.json
