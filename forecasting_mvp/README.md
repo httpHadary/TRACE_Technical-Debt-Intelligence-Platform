@@ -1,7 +1,7 @@
 # Forecasting MVP — verification and historical ingestion
 
-This package implements **Phase 0 verification and Phase 1 historical ingestion**.
-No future labels, model loaders, training, forecasts, API or dashboard are implemented. The legacy
+This package implements **Phase 0 verification, Phase 1 ingestion and Phase 2 exact-target datasets**.
+No model loaders, training, forecasts, API or dashboard are implemented. The legacy
 `forecasting/` and collector remain unchanged.
 
 From the project root, using the existing dependency-checked environment:
@@ -21,8 +21,8 @@ output filename inside the config's output root):
 ```
 
 Phase 0 adds verification-only `validate-config`, `environment`, `verify-bundle`
-commands alongside the limited `audit-v2`. The planning document's later grid,
-split and prediction command contracts are **not implemented**. `audit-v2`
+commands alongside the limited `audit-v2`. Training and prediction commands are
+**not implemented**. `audit-v2`
 returns a JSON audit file, not a forecasting dataset or certified historical scan.
 Exit 0 means verification passed, 2 means partial/data insufficiency, 3 means an
 invalid configuration/artifact or I/O/database error.
@@ -73,7 +73,58 @@ Profile/chronology segments describe observed metadata only.
 Exit 2/PARTIAL means usable measurements were published with documented source
 limitations/exclusions. It does not mean the CSV should be mistaken for a ready
 forecast dataset. Exit 3 means an invalid source/configuration/publication input;
-no COMPLETE bundle is published. Future labels and models remain out of scope.
+no COMPLETE bundle is published. Phase 1 alone creates no future labels or models.
 
 See [Phase 1 report](../PHASE_1_IMPLEMENTATION_REPORT.md) and [GitHub sync
-instructions](../GITHUB_SYNC.md). Stop before Phase 2 without authorization.
+instructions](../GITHUB_SYNC.md).
+
+## Phase 2 — exact forecasting dataset, no models
+
+Copy `study.phase2.example.json` to a private local configuration and adjust the
+verified Phase 1 bundle and output root. The output directory must be new.
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv-forecast/bin/python -m forecasting_mvp build-forecasting-dataset \
+  --config forecasting_mvp/study.phase2.example.json \
+  --out /home/hp/tst/research/forecasting_mvp/phase2/2026-10-14/run-003
+```
+
+Artifacts: required `forecasting_dataset.csv`, `forecasting_splits.json`,
+`forecasting_feasibility.json`; separate past-only `forecasting_features.csv` and
+`forecasting_contexts.jsonl.gz`; evaluator-only `forecasting_labels.csv`; small
+sample and checksummed manifest. Gzip has a fixed zero timestamp for deterministic
+publication. Local full artifacts are ignored by Git; audit, hashes, split summary
+and small samples are published under `examples/phase2/`.
+
+Origins are Mondays at 00:00 UTC. Targets are exact 30/60/90 elapsed UTC days. Last
+reachable first-parent state selects the **revision**, then only its matching
+measurement supplies debt. No nearest scan, interpolation or carry across an
+unmeasured change. Same-state reuse requires an identical selected revision and
+known observed metadata with archived coverage through the endpoint. Imported
+history still does not prove historical online availability or complete analyzer
+invariance. Missing/changed profiles are barriers even between daily grid points.
+
+Ambiguous-tip and nonmonotonic repositories are excluded with reasons, preserving
+Phase 1 evidence for possible later recovery. Complete 90-day contexts define
+`core90`; separate `masked90` preserves missing values and requires at least 80%
+known values plus observed origin/endpoint. TTM 60/90 require complete 180/512-day
+contexts and separate matched cohorts; TTM 30 uses the complete 90-day track.
+
+The split builder freezes the largest metadata/eligibility-only shared calendar
+cohort with at least 630 days of coverage, following the planned 60%/80% chronological
+boundaries and 90-day validation/test embargo. Training labels crossing validation
+start are purged; held repositories never enter train/validation. Core is primary
+only when the six-repository/all-phase/all-horizon gate passes; otherwise the same
+data-only gate tests masked contexts. Sparse shared cohorts are reported as blocked
+or partial without random splits. These thresholds are project protocol choices,
+not guarantees of statistical power.
+
+Later prediction runners must receive **only an origin-filtered past context and
+feature projection**. The combined dataset/labels and other origins must not be
+mounted or passed as covariates. Separate artifacts enforce a reproducible data
+boundary; no trainer/runner is implemented here. Any future transformations must
+fit training data only, and the test cohort remains untuned.
+
+See [Phase 2 report](../PHASE_2_IMPLEMENTATION_REPORT.md). Stop before Phase 3 until
+explicit authorization. Exit 2 reflects imported-history limitations even if the
+data-cohort gate passes; exit 3 rejects invalid/corrupt inputs or changed code/data.

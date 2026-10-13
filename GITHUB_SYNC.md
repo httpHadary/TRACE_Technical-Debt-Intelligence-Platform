@@ -40,5 +40,5 @@ audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 1 ingestion/audit and its GitHub push.
-Phase 2 labels or model work require a new authorization.
+Current authorization ends after Phase 2 dataset construction, verification and its GitHub push.
+Phase 3 training or model inference requires a new authorization.

@@ -47,3 +47,8 @@ study.*.local.json
 *.key
 secrets/
 credentials*.json
+forecasting_dataset.csv
+forecasting_splits.json
+forecasting_features.csv
+forecasting_labels.csv
+forecasting_contexts.jsonl*

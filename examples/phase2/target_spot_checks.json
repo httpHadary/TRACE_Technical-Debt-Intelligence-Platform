@@ -1,0 +1,119 @@
+{
+  "examples": 16,
+  "raw_measurement_checks": 32,
+  "passed": true,
+  "checks": [
+    {
+      "forecast_id": "12b68e9300c1394c478ec5187eb74d97c7f1345b5abc9e2205f9777532aee12a",
+      "horizon_days": 30,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "3c8242ddff5b42bd468058517db23ee0df93c6a8edc36d48ca480eb78c8eab14",
+      "horizon_days": 30,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "fb8226179793b8ce8eb7810f4c2f8bb9d21e5f2ff064bf94f8f18306e0f751f5",
+      "horizon_days": 60,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c20dc79c1ddd373a2a345ef97cc0ab221b913d16",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "5d20d8f0447fd405b3010a2e65b061a38a9db6d781b313f11ef3360a19d1b3be",
+      "horizon_days": 60,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c20dc79c1ddd373a2a345ef97cc0ab221b913d16",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "8a96f2ba6be6911807b64b9991916aea3c0900dac46fd3be0510fac18b7ec4cf",
+      "horizon_days": 90,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "fcb1f1dc86e216faca4bdb9626200d99a6d9915a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "272db30fce7df6eea6c8def18f51394fb6e8a0e9aa14020a1b21797025010df6",
+      "horizon_days": 90,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "4b111024ee9b99b49a05815d22df3695304f5ddb7ae144af7ad287c41a560041",
+      "horizon_days": 30,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "0e9ba0661a95e2e06f38c6600f4e52c17ab796a0ea26a1e3c4325d0eaf66ff78",
+      "horizon_days": 30,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "1da96e74f4709c0e660f362e7790cef0660bf5759c24e78b9d5d420590678369",
+      "horizon_days": 60,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c20dc79c1ddd373a2a345ef97cc0ab221b913d16",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "995fdbbb1abf183e21a89f492c599c24a288ae4382c2cbda1a7088aac1419a53",
+      "horizon_days": 60,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "c20dc79c1ddd373a2a345ef97cc0ab221b913d16",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "7a4708c9af1ccac0df9ac4489f264c2c0bf9bec0d4e7aa507ed2dc1ea1113fa4",
+      "horizon_days": 90,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "fcb1f1dc86e216faca4bdb9626200d99a6d9915a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "a8349a0c0af016231b9c3d95d2f2bbe8277362850e4adc352c3a5aa48aa0c76f",
+      "horizon_days": 90,
+      "origin_revision": "c39b5b1cfaca258fec0bfb8e597ae264bf5fae93",
+      "endpoint_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "3ebe2abcc0d6c9c99349b1f356114b97359c400a34497d1f32ba9e20ca3b9523",
+      "horizon_days": 60,
+      "origin_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "endpoint_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "216c03ece4b4eee2df6b5064bf82b8dad38fb1df1da5ef04055bd22aebfd1042",
+      "horizon_days": 60,
+      "origin_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "endpoint_revision": "db7b3426781854f492c1ba2427abe660a4c2b58a",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "936584d800b09d415acf0225f9dac8d40c2293072a1eb348c723080f38873759",
+      "horizon_days": 90,
+      "origin_revision": "036e8c4cf49e623f0ba1067ffc14c143dee8d85a",
+      "endpoint_revision": "95cddf5d03419405f083f2256cfa973ce83e48f4",
+      "raw_sonar_values_match": true
+    },
+    {
+      "forecast_id": "07ddf9a8b6deefe585f1006042141ec4a2e40dcfb2d79b193eb4168f10a2d490",
+      "horizon_days": 90,
+      "origin_revision": "036e8c4cf49e623f0ba1067ffc14c143dee8d85a",
+      "endpoint_revision": "1cd9f6757e0c006a7782fe45f13d42d5108e765f",
+      "raw_sonar_values_match": true
+    }
+  ]
+}

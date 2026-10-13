@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "forecasting_contexts.jsonl.gz": "f5e94c00f3d51c033b8cffcee463cd3a38e429b37744f54e36f1eb2ae1cce27a",
+    "forecasting_dataset.csv": "97c6ea0fa6560e28fce72bc128047827980f028528c99aab1b5ad84c6b5552ac",
+    "forecasting_dataset_sample.csv": "560fca34ee13d763829d2312a9fd447b0f281e6b6c7426a71d3e2abf61056faa",
+    "forecasting_feasibility.json": "68563ee04033cc2315a67263835504b1d73a2fb04f315338b4f0dc9ca7edd8fb",
+    "forecasting_features.csv": "70cb91253b1c3f4af1b0c2262f2ac130ba042caf152fd9fca6462b37824a15ae",
+    "forecasting_labels.csv": "b1de67992ed5f5fee6affbf242bb4258ce006312400daa2ae8148d7edc636842",
+    "forecasting_splits.json": "6a695e05403b89bd74d9560a3fe9f3900727d8782c4f4f048fb7abc98927a6e1"
+  },
+  "metadata": {
+    "models_executed": false,
+    "phase": 2,
+    "primary_track": "core90",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "status": "PARTIAL"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

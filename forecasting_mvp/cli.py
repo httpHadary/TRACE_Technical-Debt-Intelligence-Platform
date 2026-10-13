@@ -1,4 +1,4 @@
-"""Phase 0 verification and Phase 1 ingestion; no labels, fitting or prediction."""
+"""Verification, history ingestion and dataset construction; no fitting or prediction."""
 import argparse
 import json
 import sqlite3
@@ -25,6 +25,9 @@ def main(argv=None):
     ingest = commands.add_parser("ingest-history", help="Phase 1 historical measurements and ancestry audit only")
     ingest.add_argument("--config", required=True)
     ingest.add_argument("--out", required=True)
+    dataset = commands.add_parser("build-forecasting-dataset", help="Phase 2 exact targets/splits; no models")
+    dataset.add_argument("--config", required=True)
+    dataset.add_argument("--out", required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -43,6 +46,9 @@ def main(argv=None):
         elif args.command == "ingest-history":
             from .v2_import import HistoryConfig, ingest_history
             record = ingest_history(HistoryConfig.load(args.config), args.out)
+        elif args.command == "build-forecasting-dataset":
+            from .dataset import DatasetConfig, construct_dataset
+            record = construct_dataset(DatasetConfig.load(args.config), args.out)
         elif args.command == "environment":
             record = environment_record(args.disk_path)
         else:
