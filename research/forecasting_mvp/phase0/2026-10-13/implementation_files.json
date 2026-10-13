@@ -1,0 +1,16 @@
+{
+  "phase": 0,
+  "files": {
+    "forecasting_mvp/__init__.py": "3f982b35aced1777ba977af31b12a6b8ab55682693eed645c69c59a2d291a882",
+    "forecasting_mvp/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "forecasting_mvp/cli.py": "67ee0673710bb149afd01aec60e4613ee6b4f26e752be175da8675fe0c754493",
+    "forecasting_mvp/config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "forecasting_mvp/contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "forecasting_mvp/io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "forecasting_mvp/verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c",
+    "forecasting_mvp/study.phase0.json": "da19f87d2c53cb570f21e699a24159f5fe68e550c49d22fa884c00cd435070be",
+    "forecasting_mvp/README.md": "c42cbc6e14c05189253d9f4aae1478d9838346c1fba652f5f8b5c6987e24f8b0",
+    "tests/test_forecasting_mvp_phase0.py": "40c6c39538e76290726d8a1f28d66c52ad2e35072786e7dea434716f9cf61ee0",
+    "PHASE_0_IMPLEMENTATION_REPORT.md": "97f5a27e3b4659f8513db8b6681924bae36d71707580cf9358a94a9f68a03a08"
+  }
+}

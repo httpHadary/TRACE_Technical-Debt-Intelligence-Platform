@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "additional_datasets.json": "ec0157d31e9f25ca5a8a4b9f339adc33768f1f31a120ef03b86547f00e027819",
+    "compatibility_tests.log": "0760e20c361a556ea5d5958a05f5cb278dff786095b7b2a8bfebff83583bd513",
+    "compatibility_tests.xml": "8bd1ced5f1613b164b0f053683db6cf6808171a4050798fe9184c51bb0c86fca",
+    "environment_forecast.json": "03fad6971b8c417ff15ac22e840293fe516c50e35067bf9e97c29b61ce729cc9",
+    "environment_system.json": "eacb053666eda279e794b065900da24f7b937f8d2d41fddcfb918d8edbfb14a2",
+    "implementation_files.json": "56e8d5641b9e7f7600af88e1429ee4fc8957402d92ad8e6b13baeeb8afcd5278",
+    "model_metadata.json": "8fc57aa0c3d713b78feb93075b2dac16e49fca5b08e233c95829c8b170d18e2f",
+    "phase0_tests.xml": "dd1306ffb0396ccc42055a616cbef4e23cfc3bdb918804d657864a01e865105e",
+    "pip_check.log": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+    "source_baseline.json": "f780b6764dfb9de46f76b35c7f785f42cdf28b4be46532f359e8ebbc019a20fe",
+    "source_preservation.json": "2de753d4ee29f55d5001f177a94932729880681473a71af94bad1b92b1d2ba44",
+    "tool_versions.json": "288756ff2688498ab13f57c0d182af75158a29203afb5bae6d90b297228d3c9d",
+    "torch_system.json": "3b3ca803cc4281c97655b26c0d1d29721f4dd1ab87ba05ba33d395ad51196ceb",
+    "v2_audit.json": "817254bb96c598e3b99edaa9e96711a30776456099c4158cbc9916f3a1935306",
+    "v2_audit_command.log": "ee613d49c1aa02ed048f5ceb52e7fa7cb376806a6bf6f7fdf792a1f856b408fc"
+  },
+  "metadata": {
+    "dataset_integrity": "PASS",
+    "foundation_status": "PASS",
+    "model_loading": "NOT_ATTEMPTED",
+    "next_phase": "NOT_STARTED",
+    "phase": 0,
+    "phase_status": "PARTIAL",
+    "report": "/home/hp/tst/td_pipeline_module_level/td_pipeline/PHASE_0_IMPLEMENTATION_REPORT.md",
+    "tests": "200 passed, 1 training test deselected"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

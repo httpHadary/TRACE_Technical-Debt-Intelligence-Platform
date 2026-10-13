@@ -1,0 +1,54 @@
+{
+  "study_id": "phase-0-2026-10-13",
+  "phase": 0,
+  "mvp_schema_version": 1,
+  "dataset_path": "/home/hp/TECH_DEBT/td_V2.db",
+  "dataset_source": "https://github.com/clowee/The-Technical-Debt-Dataset/releases/tag/2.0.1",
+  "dataset_license": "CC-BY-NC-SA-4.0",
+  "output_root": "/home/hp/tst/research/forecasting_mvp/phase0/2026-10-13",
+  "horizons_days": [
+    30,
+    60,
+    90
+  ],
+  "smoke_timeout_seconds": 900,
+  "pilot_budget_seconds": 28800,
+  "models": [
+    {
+      "name": "chronos-small",
+      "model_id": "autogluon/chronos-2-small",
+      "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+      "license": "Apache-2.0",
+      "role": "primary_pretrained",
+      "context_days": 90,
+      "native_horizon_steps": 1024
+    },
+    {
+      "name": "ttm-daily30",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r3",
+      "revision": "417bfc83545095031c2a002ddfe73ac6b700ea1a",
+      "license": "Apache-2.0",
+      "role": "conditional_comparator",
+      "context_days": 90,
+      "native_horizon_steps": 30
+    },
+    {
+      "name": "ttm-daily60",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r3",
+      "revision": "1ec010e9aca3da90fc5159d109749ae96b01806e",
+      "license": "Apache-2.0",
+      "role": "conditional_comparator",
+      "context_days": 180,
+      "native_horizon_steps": 60
+    },
+    {
+      "name": "ttm-daily90",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r3",
+      "revision": "7b070728ff280ee2bb682bd8dfbe71da21ca2c7c",
+      "license": "Apache-2.0",
+      "role": "conditional_comparator",
+      "context_days": 512,
+      "native_horizon_steps": 96
+    }
+  ]
+}

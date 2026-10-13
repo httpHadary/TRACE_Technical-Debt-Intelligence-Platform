@@ -1,0 +1,39 @@
+{
+  "python": "3.12.3",
+  "executable": "/usr/bin/python3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "sqlite": "3.45.1",
+  "logical_cpus": 12,
+  "cpu_model": "AMD Ryzen 5 PRO 5650U with Radeon Graphics",
+  "packages": {
+    "pytest": "9.0.3",
+    "requests": "2.31.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "scikit-learn": "1.8.0",
+    "catboost": null,
+    "networkx": "3.6.1",
+    "torch": "2.11.0+cpu",
+    "transformers": null,
+    "accelerate": null,
+    "chronos-forecasting": null,
+    "granite-tsfm": null,
+    "einops": "0.8.2"
+  },
+  "memory": {
+    "MemTotal_bytes": 16036028416,
+    "MemAvailable_bytes": 4334837760,
+    "SwapTotal_bytes": 4294963200,
+    "SwapFree_bytes": 39874560
+  },
+  "cgroup_limits": {},
+  "disk": {
+    "path": "/home/hp/tst",
+    "total_bytes": 501809635328,
+    "free_bytes": 29991505920
+  },
+  "nvidia_smi": null,
+  "cuda_devices": [],
+  "model_loading": "NOT_ATTEMPTED",
+  "compatibility": "METADATA_ONLY"
+}
