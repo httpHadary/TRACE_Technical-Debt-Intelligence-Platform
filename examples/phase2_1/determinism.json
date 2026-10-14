@@ -1,0 +1,25 @@
+{
+  "artifact_checks": {
+    "dataset_quality.json": {
+      "byte_equal": true,
+      "sha256": "cb79d131c7f93f2ae430c12f4ffdd27ce9ec538696b60547c0d0182026ef6224"
+    },
+    "dataset_validation.json": {
+      "byte_equal": true,
+      "sha256": "87a1bd68272b75103db978f310448c0e8325df6b860790d8f5ca3d89cfa8fda5"
+    },
+    "manifest.json": {
+      "byte_equal": true,
+      "sha256": "ba691c98415bfad9b2b9f249ead44eb49680f455cff260e54e04255060937da4"
+    },
+    "raw_sql_validation_sample.csv": {
+      "byte_equal": true,
+      "sha256": "519c26d7798e61fee49e0d31c8129e18d6c302d4fd966dafea663b3454d0f452"
+    }
+  },
+  "final_run": "run-003",
+  "frozen_inputs_modified": false,
+  "models_executed": false,
+  "repeat_run": "run-004",
+  "status": "PASS"
+}

@@ -128,3 +128,34 @@ fit training data only, and the test cohort remains untuned.
 See [Phase 2 report](../PHASE_2_IMPLEMENTATION_REPORT.md). Stop before Phase 3 until
 explicit authorization. Exit 2 reflects imported-history limitations even if the
 data-cohort gate passes; exit 3 rejects invalid/corrupt inputs or changed code/data.
+
+## Phase 2.1: hardening a frozen bundle
+
+```bash
+python3 -m forecasting_mvp validate-frozen-dataset \
+  --bundle /absolute/phase2/frozen-run \
+  --source-db /absolute/td_V2.db \
+  --out /absolute/phase2_1/new-run
+```
+
+The read-only audit requires the original checksummed SQLite database, a COMPLETE
+Phase 2 bundle and a new separate output directory. It validates every forecast
+identity/split, every serialized context/feature/label projection and at least
+100 deterministic stratified examples against independently reconstructed raw-SQL
+first-parent states. It preserves all frozen cohorts, labels and input bytes.
+The default study ID is `phase-2-v2-calendar-v1`; pass `--study-id` if a different
+registered study produced the frozen splits. Failures return exit 3 without a
+COMPLETE evidence manifest. Integrity PASS returns exit 0; the result separately
+records PARTIAL Phase 3 readiness due to imported provenance and unverified runtimes.
+
+`admit_prediction_input` requires one allowlisted context, an externally bound
+origin and historical timestamps for referenced measurements. Its immutable
+request exposes only past values/timestamps and horizon through `model_payload`.
+It rejects targets, split labels, unknown fields, future references, incorrect
+daily grids and tampered context identities. A future authorized runner must use
+this boundary and must not receive label files, combined rows or the full context
+store. It is an admission contract, not an operating-system sandbox or a model
+runner. Train-only fitting and final evaluation isolation remain Phase 3 obligations.
+
+See [Phase 2.1 report](../PHASE_2_1_VALIDATION_REPORT.md). No forecasting or training
+commands were added. Original module forecasting functionality remains unchanged.

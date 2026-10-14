@@ -27,3 +27,8 @@ Phase 0 verification, Phase 1 ingestion and Phase 2 exact-target construction ar
 [`PHASE_2_IMPLEMENTATION_REPORT.md`](PHASE_2_IMPLEMENTATION_REPORT.md) for dataset
 statistics, limitations and test evidence. No forecasting models have run.
 [`GITHUB_SYNC.md`](GITHUB_SYNC.md) documents the central repository and safe sync.
+
+Phase 2.1 adds raw-SQL validation, independence diagnostics and a strict past-only
+input boundary. See [PHASE_2_1_VALIDATION_REPORT.md](PHASE_2_1_VALIDATION_REPORT.md)
+and [small evidence files](examples/phase2_1/README.md). The Phase 2 dataset and
+splits remain frozen. No Phase 3 model execution is authorized or implemented.

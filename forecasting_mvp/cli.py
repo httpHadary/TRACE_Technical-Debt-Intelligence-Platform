@@ -28,6 +28,11 @@ def main(argv=None):
     dataset = commands.add_parser("build-forecasting-dataset", help="Phase 2 exact targets/splits; no models")
     dataset.add_argument("--config", required=True)
     dataset.add_argument("--out", required=True)
+    harden = commands.add_parser("validate-frozen-dataset", help="Phase 2.1 read-only data/SQL hardening; no models")
+    harden.add_argument("--bundle", required=True)
+    harden.add_argument("--source-db", required=True)
+    harden.add_argument("--out", required=True)
+    harden.add_argument("--study-id", default="phase-2-v2-calendar-v1")
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -49,6 +54,10 @@ def main(argv=None):
         elif args.command == "build-forecasting-dataset":
             from .dataset import DatasetConfig, construct_dataset
             record = construct_dataset(DatasetConfig.load(args.config), args.out)
+        elif args.command == "validate-frozen-dataset":
+            from .hardening import audit_dataset
+            result = audit_dataset(args.bundle, args.source_db, args.out, study_id=args.study_id)
+            record = {k: v for k, v in result.items() if k not in ("raw_sql_checks", "raw_sql_queries", "frozen_artifact_hashes")}
         elif args.command == "environment":
             record = environment_record(args.disk_path)
         else:
