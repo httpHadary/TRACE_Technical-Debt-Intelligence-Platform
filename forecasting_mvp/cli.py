@@ -38,6 +38,16 @@ def main(argv=None):
     baseline.add_argument("--history-bundle", required=True)
     baseline.add_argument("--hardening-bundle", required=True)
     baseline.add_argument("--out", required=True)
+    prepare = commands.add_parser("prepare-chronos-smoke", help="Freeze six train/validation-only smoke contexts; no model")
+    prepare.add_argument("--bundle", required=True)
+    prepare.add_argument("--history-bundle", required=True)
+    prepare.add_argument("--baseline-bundle", required=True)
+    prepare.add_argument("--registration", default="forecasting_mvp/study.phase0.json")
+    prepare.add_argument("--out", required=True)
+    smoke = commands.add_parser("chronos-smoke", help="Bounded CPU smoke only; no test-cohort benchmark")
+    smoke.add_argument("--requests-bundle", required=True)
+    smoke.add_argument("--checkpoint", required=True)
+    smoke.add_argument("--out", required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -68,6 +78,12 @@ def main(argv=None):
         elif args.command == "run-baselines":
             from .baseline_run import run_baselines
             record = run_baselines(args.bundle, args.history_bundle, args.hardening_bundle, args.out)
+        elif args.command == "prepare-chronos-smoke":
+            from .chronos_smoke import prepare_smoke
+            record = prepare_smoke(args.bundle,args.history_bundle,args.baseline_bundle,args.registration,args.out)
+        elif args.command == "chronos-smoke":
+            from .chronos_smoke import run_smoke
+            record = run_smoke(args.requests_bundle,args.checkpoint,args.out)
         else:
             record = verify_bundle(args.bundle)
     except (ValueError, OSError, TypeError, KeyError, sqlite3.Error) as exc:

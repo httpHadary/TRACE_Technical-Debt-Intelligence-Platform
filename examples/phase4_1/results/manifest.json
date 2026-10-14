@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "chronos_smoke_paths.csv": "d98eee1476c687f71665c09ce0bfda8ea1b148d3cb51edcd6e25e20986800369",
+    "chronos_smoke_predictions.csv": "d8feeb55344e13d4c17cc87e179db663c1f522fd4d4a35615a51542d3c7ce730",
+    "chronos_smoke_summary.json": "6308fd571ec55c2ca4ed6762593a33b6fe7937971f36b4bb018097f6d53c0f4a"
+  },
+  "metadata": {
+    "phase": "4.1",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "stage": "runtime_smoke_only",
+    "status": "PASS"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

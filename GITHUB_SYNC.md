@@ -40,5 +40,5 @@ audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 3 statistical baselines, verification and its GitHub push.
-Phase 4 pretrained models, CatBoost, supervised training and dashboard work require a new authorization.
+Current authorization ends after Phase 4.1 isolated Chronos CPU runtime/smoke, verification and its GitHub push.
+Full pretrained benchmarks, test-cohort inference, CatBoost, Granite, training and dashboards require a new authorization.

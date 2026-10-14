@@ -1,7 +1,7 @@
 # Forecasting MVP — verification and historical ingestion
 
-This package implements **Phases 0–2.1 data verification and Phase 3 statistical baseline forecasting**.
-Pretrained model loaders, supervised training, APIs and dashboards are not implemented. The legacy
+This package implements **Phases 0–2.1 verification, Phase 3 baselines and Phase 4.1 bounded Chronos CPU smoke**.
+Full pretrained benchmarks, supervised training, APIs and dashboards are not implemented. The legacy
 `forecasting/` and collector remain unchanged.
 
 From the project root, using the existing dependency-checked environment:
@@ -195,3 +195,52 @@ bounds on observed errors, not future predictive intervals.
 See [Phase 3 report](../PHASE_3_IMPLEMENTATION_REPORT.md). Further pretrained,
 CatBoost or dashboard work requires another authorization. Older phase statements
 above record their authorization boundaries when those phases were completed.
+
+## Phase 4.1: isolated Chronos CPU smoke
+
+New commands are limited to `prepare-chronos-smoke` (exactly six metadata-selected
+train/validation contexts) and `chronos-smoke` (900-second / 2-GiB-RSS worker).
+No general benchmark or test-cohort inference command is added. The worker has
+no label file inputs and uses only the published past-only smoke request bundle.
+
+Install the separate runtime in a new `.venv-chronos-cpu`, preserving every prior lock:
+
+```bash
+uv venv --python /usr/bin/python3 .venv-chronos-cpu
+uv pip install --python .venv-chronos-cpu/bin/python --index-strategy unsafe-best-match \
+  -r requirements-chronos-cpu-lock.txt
+uv pip check --python .venv-chronos-cpu/bin/python
+```
+
+The registered model is `autogluon/chronos-2-small` at
+`ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a`. Download only its pinned
+`config.json`, `README.md`, `model.safetensors` into an ignored/local checkpoint
+directory, copy `examples/phase4_1/checkpoint_admission.json` there, and verify its
+SHA-256 inventory with `verify_checkpoint`. Weights are deliberately not uploaded.
+The report contains the exact download and full-data preparation commands.
+
+The small published requests are also independently reproducible without the
+full historical database or evaluation labels:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv-chronos-cpu/bin/python -m forecasting_mvp chronos-smoke \
+  --requests-bundle examples/phase4_1/requests \
+  --checkpoint /absolute/local/pinned-checkpoint \
+  --out /absolute/new-smoke-run
+```
+
+The adapter sends only target values on a 90-point daily grid, uses CPU float32,
+two intra-op/one inter-op threads, native q10/q50/q90, no future covariates or
+cross-learning, and saves a 90-step path. Indices 29/59/89 preserve exact original
+forecast identities. Native q50 is the point; all quantiles retain raw values and
+use the same nonnegative stock clipping policy as baselines.
+
+Chronos 2.3.2 needs UTC-naive `datetime64[ns]` at its DataFrame edge; the adapter
+converts already verified UTC times without changing their values, then restores
+explicit UTC and verifies all returned daily timestamps. Shape, identity,
+nonfinite outputs and quantile crossings fail closed. Each of the six contexts
+is repeated twice in the same pinned CPU worker; this is runtime/determinism
+evidence, not model accuracy or interval calibration.
+
+See [Phase 4.1 report](../PHASE_4_1_IMPLEMENTATION_REPORT.md). Further inference,
+test scoring, tuning, CatBoost, Granite or dashboard work requires authorization.

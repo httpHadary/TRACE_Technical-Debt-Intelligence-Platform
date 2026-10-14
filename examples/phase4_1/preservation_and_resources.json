@@ -1,0 +1,20 @@
+{
+  "disk_free_bytes": 24951418880,
+  "environment_path": "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-chronos-cpu",
+  "host_memory_bytes": {
+    "MemAvailable": 7450148864,
+    "MemTotal": 16036028416,
+    "SwapFree": 330641408,
+    "SwapTotal": 4294963200
+  },
+  "preservation_checks": {
+    "phase3_manifest_unchanged": true,
+    "requirements-dev.txt": true,
+    "requirements-forecast-lock.txt": true,
+    "requirements-forecast.txt": true,
+    "requirements.txt": true
+  },
+  "smoke_budget_seconds": 900,
+  "smoke_max_rss_bytes": 2147483648,
+  "status": "PASS"
+}

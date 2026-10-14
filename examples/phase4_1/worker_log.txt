@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "phase": "4.1",
+  "model_id": "autogluon/chronos-2-small",
+  "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+  "license": "Apache-2.0",
+  "runtime_versions": {
+    "torch": "2.11.0+cpu",
+    "chronos-forecasting": "2.3.2",
+    "transformers": "4.57.6",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "device": "cpu",
+  "dtype": "float32",
+  "contexts": 6,
+  "endpoint_predictions": 18,
+  "native_path_rows": 540,
+  "forward_requests": 12,
+  "prediction_steps": 90,
+  "point_kind": "native_q50",
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "clipping_policy": "max_zero_all_quantiles_save_raw",
+  "raw_negative_path_quantiles": {
+    "raw_q10": 0,
+    "raw_q50": 0,
+    "raw_q90": 0
+  },
+  "quantile_crossings": 0,
+  "cpu_threads": 2,
+  "cpu_interop_threads": 1,
+  "deterministic_algorithms": true,
+  "seed": 42,
+  "model_parameter_count": 27934624,
+  "model_load_seconds": 3.623472216000664,
+  "worker_elapsed_seconds": 4.332970564006246,
+  "worker_peak_rss_kib": 477764,
+  "request_manifest_sha256": "e1ccb4c389ac49e5213824a2b1b2c579ffa7cc496139ca45780afb2d7a291541",
+  "test_inference_count": 0,
+  "labels_opened": false,
+  "accuracy_evaluated": false,
+  "full_benchmark_run": false,
+  "readiness": "RUNTIME_SMOKE_PASS_full_evaluation_requires_separate_authorization_and_domain_caveats"
+}

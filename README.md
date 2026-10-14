@@ -36,5 +36,10 @@ splits remain frozen.
 Phase 3 statistical baselines have been implemented and evaluated on those
 frozen cohorts. See [PHASE_3_IMPLEMENTATION_REPORT.md](PHASE_3_IMPLEMENTATION_REPORT.md)
 and [results](examples/phase3/README.md). Persistence, rolling mean and linear trend
-are available through the offline `run-baselines` command. Pretrained models,
-CatBoost, dashboards and Phase 4 remain outside this implementation.
+are available through the offline `run-baselines` command. Full pretrained
+benchmarks, CatBoost and dashboards remain outside this implementation.
+
+Phase 4.1 now admits a separate CPU Chronos-2 Small runtime and a six-context
+training/validation smoke test. See [PHASE_4_1_IMPLEMENTATION_REPORT.md](PHASE_4_1_IMPLEMENTATION_REPORT.md)
+and [smoke evidence](examples/phase4_1/README.md). Full Chronos benchmarking,
+CatBoost, Granite and dashboards remain unauthorized.

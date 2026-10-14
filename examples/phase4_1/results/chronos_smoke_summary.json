@@ -1,0 +1,191 @@
+{
+  "accuracy_evaluated": false,
+  "checkpoint_admission": {
+    "artifacts": {
+      "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+      "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+      "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+    },
+    "license": "Apache-2.0",
+    "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+    "model_id": "autogluon/chronos-2-small",
+    "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+    "safetensors_bytes": 111749048
+  },
+  "clipping_policy": "max_zero_all_quantiles_save_raw",
+  "contexts": 6,
+  "cpu_interop_threads": 1,
+  "cpu_threads": 2,
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "endpoint_predictions": 18,
+  "forward_requests": 12,
+  "full_benchmark_run": false,
+  "implementation_sha256": {
+    "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+    "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "baseline_evaluation.py": "6523210c2893d49f8cd7b0161264288f410756becce4012ab6e809836ace3d83",
+    "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+    "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+    "chronos_adapter.py": "70229464eb4f353f1e14f5cc641e1f92d5befe9991e87619d96e5de9c8c7ea75",
+    "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+    "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+    "cli.py": "ee3f0bcb4debc4f41c48595c78f7ac6162ba2d7b19b8dc4b72387671651b370f",
+    "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+    "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+    "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+    "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+    "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+    "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+    "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+  },
+  "labels_opened": false,
+  "license": "Apache-2.0",
+  "model_id": "autogluon/chronos-2-small",
+  "model_load_seconds": 3.623472216000664,
+  "model_parameter_count": 27934624,
+  "native_path_rows": 540,
+  "phase": "4.1",
+  "point_kind": "native_q50",
+  "prediction_steps": 90,
+  "quantile_crossings": 0,
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "raw_negative_path_quantiles": {
+    "raw_q10": 0,
+    "raw_q50": 0,
+    "raw_q90": 0
+  },
+  "readiness": "RUNTIME_SMOKE_PASS_full_evaluation_requires_separate_authorization_and_domain_caveats",
+  "request_manifest_sha256": "e1ccb4c389ac49e5213824a2b1b2c579ffa7cc496139ca45780afb2d7a291541",
+  "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+  "runtime_versions": {
+    "chronos-forecasting": "2.3.2",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "torch": "2.11.0+cpu",
+    "transformers": "4.57.6"
+  },
+  "samples": [
+    {
+      "context_days": 90,
+      "current_minutes": 52416.0,
+      "distinct_context_measurements": 1,
+      "distinct_context_values": 1,
+      "evaluation_phase": "train",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "constant",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "569bdf865a3089dbbc66e55835f6a20ced101452f43615cbc7936348d66fbebb",
+      "repeat_seconds": [
+        0.06646404800267192,
+        0.04065696700126864
+      ],
+      "sample_id": "db7688c992989747b045b4a76e5723198cfed198b8862bdd0fff95da0f96ae11"
+    },
+    {
+      "context_days": 90,
+      "current_minutes": 33580.0,
+      "distinct_context_measurements": 38,
+      "distinct_context_values": 29,
+      "evaluation_phase": "train",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "decreasing",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "3b60d4875ea512d48da0a7d4ca49d2e9d4893cdaf6b934d48ce899edf49b15a6",
+      "repeat_seconds": [
+        0.04005911000422202,
+        0.04062253199663246
+      ],
+      "sample_id": "3b71557fdc862b7d6300865c4dcc431a4e5b555b9103eec113d5c86d412c5d7c"
+    },
+    {
+      "context_days": 90,
+      "current_minutes": 37490.0,
+      "distinct_context_measurements": 50,
+      "distinct_context_values": 38,
+      "evaluation_phase": "train",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "increasing",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "6889ca30461905e73d4abc9aa42aec6f61aac7c2b57dd618b7125f213c11c290",
+      "repeat_seconds": [
+        0.04043976800312521,
+        0.03993894300219836
+      ],
+      "sample_id": "4f7b1938c947aa6319b10b90f8bda5d27fea5fdac6a1751dcacceb3319bce97a"
+    },
+    {
+      "context_days": 90,
+      "current_minutes": 42212.0,
+      "distinct_context_measurements": 1,
+      "distinct_context_values": 1,
+      "evaluation_phase": "validation",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "constant",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "6f96f1632d9be1a4ba0ae460fa604b7e9d1cbd6f69061d838f7e03b63da8cd57",
+      "repeat_seconds": [
+        0.040842978000000585,
+        0.04005783700267784
+      ],
+      "sample_id": "ef5a202af8552082432f6076a1fcdeff2e9ec66213063aa01b171b4c329e30c4"
+    },
+    {
+      "context_days": 90,
+      "current_minutes": 38729.0,
+      "distinct_context_measurements": 22,
+      "distinct_context_values": 12,
+      "evaluation_phase": "validation",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "decreasing",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "fcfdb9157215156d31bf28ac11ab8345fdedf6abf29e01192c37c0140afa5594",
+      "repeat_seconds": [
+        0.044975883000006434,
+        0.04377642100007506
+      ],
+      "sample_id": "fc7e09650d88c38290ab9cb45908d118a8cbebbd776a98d147f04cbd272b64ca"
+    },
+    {
+      "context_days": 90,
+      "current_minutes": 28375.0,
+      "distinct_context_measurements": 28,
+      "distinct_context_values": 16,
+      "evaluation_phase": "validation",
+      "maximum_absolute_repeat_difference": 0.0,
+      "native_columns": 7,
+      "native_rows": 90,
+      "pattern": "increasing",
+      "repeat_byte_equal": true,
+      "repeat_path_digest": "ce376621292515eb74ae39db0067fcb0c4eabd66aff66062c3bddd311375aba0",
+      "repeat_seconds": [
+        0.04051288500340888,
+        0.04100039500190178
+      ],
+      "sample_id": "8b633ed93dfa332ed408933b7ea173ba013308364889bb231b5ba71d803136f8"
+    }
+  ],
+  "seed": 42,
+  "status": "PASS",
+  "test_inference_count": 0,
+  "worker_elapsed_seconds": 4.332970564006246,
+  "worker_peak_rss_kib": 477764
+}

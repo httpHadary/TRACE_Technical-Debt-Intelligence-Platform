@@ -1,0 +1,53 @@
+{
+  "fresh_worker_prediction_equality": {
+    "chronos_smoke_paths.csv": {
+      "byte_equal": true,
+      "sha256": "d98eee1476c687f71665c09ce0bfda8ea1b148d3cb51edcd6e25e20986800369"
+    },
+    "chronos_smoke_predictions.csv": {
+      "byte_equal": true,
+      "sha256": "d8feeb55344e13d4c17cc87e179db663c1f522fd4d4a35615a51542d3c7ce730"
+    }
+  },
+  "labels_opened": false,
+  "request_preparation_byte_equal": {
+    "manifest.json": true,
+    "smoke_policy.json": true,
+    "smoke_requests.jsonl": true
+  },
+  "same_process_native_paths": {
+    "3b71557fdc862b7d6300865c4dcc431a4e5b555b9103eec113d5c86d412c5d7c": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "3b60d4875ea512d48da0a7d4ca49d2e9d4893cdaf6b934d48ce899edf49b15a6"
+    },
+    "4f7b1938c947aa6319b10b90f8bda5d27fea5fdac6a1751dcacceb3319bce97a": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "6889ca30461905e73d4abc9aa42aec6f61aac7c2b57dd618b7125f213c11c290"
+    },
+    "8b633ed93dfa332ed408933b7ea173ba013308364889bb231b5ba71d803136f8": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "ce376621292515eb74ae39db0067fcb0c4eabd66aff66062c3bddd311375aba0"
+    },
+    "db7688c992989747b045b4a76e5723198cfed198b8862bdd0fff95da0f96ae11": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "569bdf865a3089dbbc66e55835f6a20ced101452f43615cbc7936348d66fbebb"
+    },
+    "ef5a202af8552082432f6076a1fcdeff2e9ec66213063aa01b171b4c329e30c4": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "6f96f1632d9be1a4ba0ae460fa604b7e9d1cbd6f69061d838f7e03b63da8cd57"
+    },
+    "fc7e09650d88c38290ab9cb45908d118a8cbebbd776a98d147f04cbd272b64ca": {
+      "exact_repeat_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "path_digest": "fcfdb9157215156d31bf28ac11ab8345fdedf6abf29e01192c37c0140afa5594"
+    }
+  },
+  "scope": "same_pinned_runtime_same_host_two_repeats_each",
+  "status": "PASS",
+  "test_inference_count": 0
+}
