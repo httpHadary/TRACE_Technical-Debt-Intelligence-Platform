@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "diagnostic_raw_quantiles.csv": "154d6e91850ac05ce4124a3aeb7f6816e94dc8934baaed5133e8eec98d449ddb",
+    "diagnostic_summary.json": "71e4e0a40b3b9d0af7ecc8b7cb21567e79ae332ca4318e34f683272c40d8bc65",
+    "failed_context_inputs.json": "a0a57370205d2522a284e77bb664498243ed1de494abb0c9e071440e29b1aeba",
+    "published_interval_diagnostics.json": "f2e8322a0ba8024e4e3c4f135fe9b0abe70f122a94a1e2fd01e9eb5b8c8f4744"
+  },
+  "metadata": {
+    "phase": "4.2.1",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "status": "PASS"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

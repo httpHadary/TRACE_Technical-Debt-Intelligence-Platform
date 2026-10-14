@@ -1,0 +1,9 @@
+{
+  "elapsed_seconds": 5.7164345179999145,
+  "failure": null,
+  "max_rss_bytes": 2147483648,
+  "observed_peak_rss_bytes": 493850624,
+  "status": "PASS",
+  "timeout_seconds": 300,
+  "worker_exit_code": 0
+}

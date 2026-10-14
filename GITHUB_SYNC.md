@@ -40,5 +40,7 @@ audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 4.2 frozen-cohort Chronos evaluation, verification and its GitHub push.
-Further model tuning, retraining, CatBoost, Granite, dashboards and later phases require new authorization.
+Current authorization ends after Phase 4.2.1 diagnostic hardening, verification and its GitHub push.
+The published Phase 4.2 experiment is immutable. No benchmark rerun, new model
+experiment, tuning, recalibration, retraining, CatBoost, Granite or dashboard work
+is authorized by this diagnostic phase.

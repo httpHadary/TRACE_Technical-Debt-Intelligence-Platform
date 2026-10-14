@@ -49,3 +49,8 @@ the unchanged validation, temporal-test and held-repository cohorts. See
 [PHASE_4_2_IMPLEMENTATION_REPORT.md](PHASE_4_2_IMPLEMENTATION_REPORT.md) and
 [comparison evidence](examples/phase4_2/README.md) for coverage, failure handling,
 point/interval metrics and limitations. Later phases remain unauthorized.
+
+Phase 4.2.1 hardens typed inference recovery and audits only the 12 previously
+failed contexts. The original experiment remains frozen. See the
+[diagnostic report](PHASE_4_2_1_DIAGNOSTIC_REPORT.md) and
+[diagnostic evidence](examples/phase4_2_1/README.md). No benchmark was rerun.

@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "publication_base": "187dcc1df247a88c95acaf56482da239c67059a8",
+  "protected_published_phase4_2_files": {
+    "PHASE_4_2_IMPLEMENTATION_REPORT.md": true,
+    "examples/phase4_2/manifest.json": true,
+    "examples/phase4_2/chronos_comparison.png": true,
+    "examples/phase4_2/pip_check.txt": true,
+    "examples/phase4_2/determinism.json": true,
+    "examples/phase4_2/run_audit.json": true,
+    "examples/phase4_2/validation_prediction_seal.json": true,
+    "examples/phase4_2/chronos_comparison_metrics.csv": true,
+    "examples/phase4_2/study.json": true,
+    "examples/phase4_2/regression_tests.xml": true,
+    "examples/phase4_2/run_resources.txt": true,
+    "examples/phase4_2/full_local_output_hashes.json": true,
+    "examples/phase4_2/selection.json": true,
+    "examples/phase4_2/README.md": true,
+    "examples/phase4_2/chronos_interval_metrics.csv": true,
+    "examples/phase4_2/working_regression_tests.xml": true,
+    "examples/phase4_2/test_prediction_seal.json": true,
+    "examples/phase4_2/repeat_resources.txt": true,
+    "examples/phase4_2/chronos_predictions_sample.csv": true,
+    "examples/phase4_2/preservation.json": true,
+    "examples/phase4_2/chronos_success_matched_metrics.csv": true,
+    "examples/phase4_2/pilot/worker_summary.json": true,
+    "examples/phase4_2/pilot/full_local_worker_hashes.json": true,
+    "examples/phase4_2/pilot/resources.json": true,
+    "examples/phase4_2/validation/worker_summary.json": true,
+    "examples/phase4_2/validation/full_local_worker_hashes.json": true,
+    "examples/phase4_2/validation/resources.json": true,
+    "examples/phase4_2/test/worker_summary.json": true,
+    "examples/phase4_2/test/full_local_worker_hashes.json": true,
+    "examples/phase4_2/test/resources.json": true
+  },
+  "working_dependency_and_past_input_files": {
+    "requirements-chronos-cpu.txt": true,
+    "requirements-chronos-cpu-lock.txt": true,
+    "requirements-forecast-lock.txt": true,
+    "requirements-dev.txt": true,
+    "requirements.txt": true,
+    "requirements-forecast.txt": true,
+    "forecasting_mvp/prediction_input.py": true
+  },
+  "frozen_prior_bundles_equal_original_study": {
+    "phase1": true,
+    "phase2": true,
+    "phase3": true,
+    "phase4_1": true
+  },
+  "original_full_phase4_2_bundles": {
+    "run-004": "COMPLETE",
+    "run-005": "COMPLETE"
+  },
+  "canonical_phase4_2_manifest_matches_published_receipt": true,
+  "checkpoint_files_unchanged": {
+    "README.md": true,
+    "config.json": true,
+    "model.safetensors": true
+  },
+  "diagnostic_bundle": "COMPLETE",
+  "diagnostic_code_matches_recorded_hashes": true,
+  "model_calls": 24,
+  "failed_contexts_only": 12,
+  "no_benchmark_rerun": true,
+  "no_numerical_label_file_opened": true,
+  "no_original_prediction_or_metric_replacement": true,
+  "working_main_before_sync": "2e7999ea436d49449652e6c52e9066ef2e514419",
+  "working_main_unchanged": true,
+  "worker_result_files_byte_identical_to_diagnostic_bundle": true
+}

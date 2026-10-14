@@ -297,3 +297,26 @@ Exit 0 means complete native success; exit 2/PARTIAL explicitly reports recovere
 inference failures; exit 3 blocks corrupt inputs, missing coverage, code changes,
 invalid seals or runtime/resource failures. See [Phase 4.2 report](../PHASE_4_2_IMPLEMENTATION_REPORT.md).
 Stop after publication. No Granite, CatBoost, training or dashboard work is added.
+
+## Phase 4.2.1: diagnostic-only hardening
+
+The original Phase 4.2 source snapshot is Git commit `187dcc1`; its predictions,
+metrics, study/config, failure records and evidence remain unchanged. Hardened
+workers recover only `NativeQuantileCrossingError` raised after complete output
+identity, timestamp and finiteness validation. Unexpected runtime/software/shape
+errors abort. Any failure after a valid first pilot path, including a repeat
+crossing, is fatal. Whole-path rejection and zero ordering tolerance are retained.
+
+`python -m forecasting_mvp.chronos_diagnostics --benchmark ORIGINAL_RUN
+--checkpoint PINNED_CHECKPOINT --runtime-python CPU_PYTHON --out NEW_DIAGNOSTIC_RUN`
+is a separate bounded diagnostic entry point. Supply the arguments on one shell
+line or use continuations as in the report. It admits only the original published
+study and exactly its 12 failed contexts, with two raw-path captures each, under
+300 seconds and 2 GiB. It does not invoke the benchmark, inspect numerical labels,
+infer other contexts, replace forecasts or recalibrate intervals. Saved interval
+metrics provide descriptive undercoverage/collapse diagnostics only.
+
+See [Phase 4.2.1 report](../PHASE_4_2_1_DIAGNOSTIC_REPORT.md) for exact commands,
+typed/fatal recovery tests, raw magnitudes/endpoints and immutable artifact proofs.
+Stop after diagnostic verification and publication; later experiments remain
+unauthorized.

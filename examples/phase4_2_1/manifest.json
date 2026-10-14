@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "README.md": "0d61a035e060f0bfda3c291f73293768f5d015eea7c4892f250ac192004a637e",
+    "constant_precision_evidence.json": "cc1d0b14e4e810e70aaf1b3b2da7ffb982293a512ca995117d15bb2f806788b0",
+    "diagnostic_raw_quantiles.csv": "154d6e91850ac05ce4124a3aeb7f6816e94dc8934baaed5133e8eec98d449ddb",
+    "diagnostic_summary.json": "71e4e0a40b3b9d0af7ecc8b7cb21567e79ae332ca4318e34f683272c40d8bc65",
+    "diagnostic_worker_manifest.json": "46929ede5337e34cddf8043ecee600b59281b464cd6424cd20fd15be235d7abc",
+    "failed_context_inputs.json": "a0a57370205d2522a284e77bb664498243ed1de494abb0c9e071440e29b1aeba",
+    "focused_tests.xml": "debdaf4027e068bf71cff4f88fb60ac5d68ca4c030151a4249d99d39a60df718",
+    "preservation.json": "b3c76f51e998af3be726d01e7a81dae9d7d53f4f8cfe107e2194b090140b12cd",
+    "published_interval_diagnostics.json": "f2e8322a0ba8024e4e3c4f135fe9b0abe70f122a94a1e2fd01e9eb5b8c8f4744",
+    "regression_tests.xml": "f29eef83efb742ba9bec3aff41f3d559b0ad2ffb9c39e8c7be4ac8a99889c088",
+    "resources.json": "b146e1c2b0cf26d7513bf2a026b5cc81b5b3c895105a3e1c76001b77d3b010d5",
+    "working_regression_tests.xml": "299df8d25d7257f11ce671118d90e0fc6148092f1a186c0f810699579c62cbe3"
+  },
+  "metadata": {
+    "evidence_only": true,
+    "phase": "4.2.1",
+    "published_phase4_2_study_id": "70b372e32c7292aca8b260b1a44c28787c3f03b7c11277159a53dd18cc22c958",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "status": "PASS"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

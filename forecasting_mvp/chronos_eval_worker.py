@@ -8,7 +8,7 @@ import time
 
 from contracts import digest, read_json, write_csv, write_json
 from .baseline_run import PREDICTION_FIELDS
-from .chronos_adapter import ChronosSmallAdapter, verify_checkpoint
+from .chronos_adapter import ChronosSmallAdapter, NativeQuantileCrossingError, verify_checkpoint
 from .chronos_smoke_worker import PINNED_RUNTIME, validate_runtime_versions
 from .contracts import TargetContract
 from .io import file_sha256, publish_manifest, verify_bundle
@@ -60,13 +60,14 @@ def infer_records(admitted,adapter,repeat):
         path=None;difference=None
         try:
             path=adapter.predict_path(request)
-            if repeat:
-                again=adapter.predict_path(request)
-        except Exception as exc:
+        except NativeQuantileCrossingError as exc:
             status,error_type,error="PERSISTENCE_FALLBACK",type(exc).__name__,str(exc)
             path=None
             failures.append({"context_id":request.context_id,"error_type":error_type,"error":error})
         if path is not None and repeat:
+            # A valid first path followed by any repeat failure is a fatal
+            # reproducibility failure, including a crossing on the repeat.
+            again=adapter.predict_path(request)
             # A valid but different repeat is a pilot gate failure, never a
             # recoverable native-path error hidden behind persistence fallback.
             require(path==again,"Deterministic pilot repeat mismatch")

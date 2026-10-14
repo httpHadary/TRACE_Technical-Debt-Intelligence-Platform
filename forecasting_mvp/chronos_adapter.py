@@ -15,6 +15,10 @@ CONFIG_SHA256 = "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f42372
 QUANTILES = (0.1, 0.5, 0.9)
 
 
+class NativeQuantileCrossingError(ValueError):
+    """Recoverable native ordering failure after all identities/finiteness pass."""
+
+
 def verify_checkpoint(root):
     root = Path(root).resolve()
     admission = read_json(root / "checkpoint_admission.json")
@@ -83,6 +87,7 @@ class ChronosSmallAdapter:
         if set(result.columns) != required or len(result) != 90:
             raise ValueError("Unexpected univariate Chronos output shape/columns")
         path = []
+        crossing = False
         origin = utc_timestamp(request.origin_utc)
         for step, row in enumerate(result.to_dict("records"), 1):
             stamp = origin + timedelta(days=step)
@@ -94,9 +99,12 @@ class ChronosSmallAdapter:
             native = [float(row[str(q)]) for q in QUANTILES]
             if not all(math.isfinite(v) for v in native) or not math.isfinite(float(row["predictions"])):
                 raise ValueError("Nonfinite Chronos output")
-            if not native[0] <= native[1] <= native[2]:
-                raise ValueError("Native quantile crossing; do not manufacture sorted quantiles")
+            crossing |= not native[0] <= native[1] <= native[2]
             path.append({"step_days": step, "timestamp": utc_iso(stamp),
                 **{f"raw_q{int(q*100)}": v for q, v in zip(QUANTILES, native)},
                 **{f"q{int(q*100)}": max(0.0, v) for q, v in zip(QUANTILES, native)}})
+        # Validate the entire path first: an early crossing must never mask a
+        # later identity, timestamp, nonfinite or software contract violation.
+        if crossing:
+            raise NativeQuantileCrossingError("Native quantile crossing; do not manufacture sorted quantiles")
         return path
