@@ -1,4 +1,4 @@
-"""Verification, history ingestion and dataset construction; no fitting or prediction."""
+"""Verification, history, frozen datasets and Phase 3 statistical baseline replay."""
 import argparse
 import json
 import sqlite3
@@ -33,6 +33,11 @@ def main(argv=None):
     harden.add_argument("--source-db", required=True)
     harden.add_argument("--out", required=True)
     harden.add_argument("--study-id", default="phase-2-v2-calendar-v1")
+    baseline = commands.add_parser("run-baselines", help="Phase 3 statistical forecasts/evaluation only; no pretrained models")
+    baseline.add_argument("--bundle", required=True)
+    baseline.add_argument("--history-bundle", required=True)
+    baseline.add_argument("--hardening-bundle", required=True)
+    baseline.add_argument("--out", required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -60,6 +65,9 @@ def main(argv=None):
             record = {k: v for k, v in result.items() if k not in ("raw_sql_checks", "raw_sql_queries", "frozen_artifact_hashes")}
         elif args.command == "environment":
             record = environment_record(args.disk_path)
+        elif args.command == "run-baselines":
+            from .baseline_run import run_baselines
+            record = run_baselines(args.bundle, args.history_bundle, args.hardening_bundle, args.out)
         else:
             record = verify_bundle(args.bundle)
     except (ValueError, OSError, TypeError, KeyError, sqlite3.Error) as exc:

@@ -1,0 +1,92 @@
+{
+  "champion_tie_policy": "within_1percent_prefer_persistence_mean_trend",
+  "clipping_policy": "max_zero_for_all_models_keep_raw",
+  "frozen_input_hashes": {
+    "forecasting_contexts.jsonl.gz": "f5e94c00f3d51c033b8cffcee463cd3a38e429b37744f54e36f1eb2ae1cce27a",
+    "forecasting_dataset.csv": "97c6ea0fa6560e28fce72bc128047827980f028528c99aab1b5ad84c6b5552ac",
+    "forecasting_dataset_sample.csv": "560fca34ee13d763829d2312a9fd447b0f281e6b6c7426a71d3e2abf61056faa",
+    "forecasting_feasibility.json": "68563ee04033cc2315a67263835504b1d73a2fb04f315338b4f0dc9ca7edd8fb",
+    "forecasting_features.csv": "70cb91253b1c3f4af1b0c2262f2ac130ba042caf152fd9fca6462b37824a15ae",
+    "forecasting_labels.csv": "b1de67992ed5f5fee6affbf242bb4258ce006312400daa2ae8148d7edc636842",
+    "forecasting_splits.json": "6a695e05403b89bd74d9560a3fe9f3900727d8782c4f4f048fb7abc98927a6e1"
+  },
+  "frozen_split_id": "8b72cb6a93c47f84e6907bd180345c51f005257f5b10b18893fc791d3d0c0208",
+  "horizons_days": [
+    30,
+    60,
+    90
+  ],
+  "implementation_sha256": {
+    "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+    "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "baseline_evaluation.py": "6523210c2893d49f8cd7b0161264288f410756becce4012ab6e809836ace3d83",
+    "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+    "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+    "cli.py": "5fff674fb1331bce82f5982033d65a7ac42065b1bcb76afd630c6fd45e7e4302",
+    "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+    "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+    "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+    "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+    "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+    "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+    "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+  },
+  "input_manifest_sha256": {
+    "phase1": "87c25f7fabaeee2e0293b1c0b9ca24cd13a60b97816507a160af9560486bf014",
+    "phase2": "d3c567100e3d257473bcec9901bc050ea4b74705520aa8c998f463c4b0b78f24",
+    "phase2_1": "ba691c98415bfad9b2b9f249ead44eb49680f455cff260e54e04255060937da4"
+  },
+  "interpretation": "imported_research_archive_not_actual_developer_effort",
+  "metric": "SQALE_INDEX",
+  "model_candidates": [
+    {
+      "model": "persistence",
+      "window_days": 0
+    },
+    {
+      "model": "rolling_mean",
+      "window_days": 7
+    },
+    {
+      "model": "rolling_mean",
+      "window_days": 30
+    },
+    {
+      "model": "rolling_mean",
+      "window_days": 90
+    },
+    {
+      "model": "linear_trend",
+      "window_days": 30
+    },
+    {
+      "model": "linear_trend",
+      "window_days": 90
+    }
+  ],
+  "parameter_tie_break": "shorter_window",
+  "phase": 3,
+  "primary_track": "core90",
+  "runtime": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.4.4",
+    "python": "3.12.3"
+  },
+  "seasonal_naive": "DEFERRED_no_registered_seasonality_evidence",
+  "selection_metric": "validation_repository_macro_MAE",
+  "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+  "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8",
+  "study_name": "phase-3-core90-statistical-baselines-v1",
+  "trend_policy": "daily_OLS_slope_anchored_at_current",
+  "uncertainty": {
+    "confidence": 0.95,
+    "method": "paired_equal_weight_repository_bootstrap_percentile",
+    "repetitions": 2000,
+    "seed": 42,
+    "small_cluster_caution_threshold": 8
+  },
+  "unit": "estimated_maintainability_remediation_minutes"
+}

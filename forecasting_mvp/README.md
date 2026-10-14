@@ -1,7 +1,7 @@
 # Forecasting MVP — verification and historical ingestion
 
-This package implements **Phase 0 verification, Phase 1 ingestion and Phase 2 exact-target datasets**.
-No model loaders, training, forecasts, API or dashboard are implemented. The legacy
+This package implements **Phases 0–2.1 data verification and Phase 3 statistical baseline forecasting**.
+Pretrained model loaders, supervised training, APIs and dashboards are not implemented. The legacy
 `forecasting/` and collector remain unchanged.
 
 From the project root, using the existing dependency-checked environment:
@@ -159,3 +159,39 @@ runner. Train-only fitting and final evaluation isolation remain Phase 3 obligat
 
 See [Phase 2.1 report](../PHASE_2_1_VALIDATION_REPORT.md). No forecasting or training
 commands were added. Original module forecasting functionality remains unchanged.
+
+## Phase 3: real statistical baseline replay
+
+```bash
+python3 -m forecasting_mvp run-baselines \
+  --bundle /absolute/phase2/frozen-run \
+  --history-bundle /absolute/phase1/frozen-run \
+  --hardening-bundle /absolute/phase2_1/complete-audit \
+  --out /absolute/phase3/new-run
+```
+
+Requires verified Phase 1/2/2.1 bundles bound to the same database, the PASS frozen
+primary `core90` cohort and existing NumPy/Matplotlib. No dependencies or weights
+are installed by the command. It retains the original 30/60/90-day identities,
+train/validation/test/held-repository assignments and ignored full local datasets.
+
+The protocol registers mean windows 7/30/90 and anchored OLS trend windows 30/90,
+plus persistence. All candidates use `admit_prediction_input` and only past
+values; raw and nonnegative-clipped estimates are saved. Every candidate prediction
+is checksummed before any numerical labels are opened. Only validation labels
+select each model's window and the simplicity-preferring validation champion.
+Selected predictions are then sealed before final test scoring. The label reader
+scans CSV IDs for routing but retains/converts only explicitly allowed labels.
+Prediction functions receive neither files, evaluation labels nor measurement stores.
+
+Output: `baseline_predictions.csv`, `baseline_metrics.csv`, `baseline_comparison.png`,
+study/selection/seal/audit manifests and a small fixed-ID prediction sample.
+Metrics separate all/unchanged/changing debt, repositories and split groups; both
+repository-macro and pooled MAE/RMSE are explicit. Confidence bounds use 2,000 paired
+repository-bootstrap replicates (seed 42), not rows; one-repository bounds and
+relative skill with zero persistence error are undefined. These are uncertainty
+bounds on observed errors, not future predictive intervals.
+
+See [Phase 3 report](../PHASE_3_IMPLEMENTATION_REPORT.md). Further pretrained,
+CatBoost or dashboard work requires another authorization. Older phase statements
+above record their authorization boundaries when those phases were completed.

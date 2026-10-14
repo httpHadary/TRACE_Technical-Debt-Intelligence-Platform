@@ -52,3 +52,5 @@ forecasting_splits.json
 forecasting_features.csv
 forecasting_labels.csv
 forecasting_contexts.jsonl*
+baseline_predictions.csv
+candidate_predictions.csv

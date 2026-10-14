@@ -25,10 +25,16 @@ to rescan, train, or execute the separate TechDebt360 V3 experiment.
 Phase 0 verification, Phase 1 ingestion and Phase 2 exact-target construction are available in
 [`forecasting_mvp/`](forecasting_mvp/README.md). See
 [`PHASE_2_IMPLEMENTATION_REPORT.md`](PHASE_2_IMPLEMENTATION_REPORT.md) for dataset
-statistics, limitations and test evidence. No forecasting models have run.
+statistics, limitations and test evidence.
 [`GITHUB_SYNC.md`](GITHUB_SYNC.md) documents the central repository and safe sync.
 
 Phase 2.1 adds raw-SQL validation, independence diagnostics and a strict past-only
 input boundary. See [PHASE_2_1_VALIDATION_REPORT.md](PHASE_2_1_VALIDATION_REPORT.md)
 and [small evidence files](examples/phase2_1/README.md). The Phase 2 dataset and
-splits remain frozen. No Phase 3 model execution is authorized or implemented.
+splits remain frozen.
+
+Phase 3 statistical baselines have been implemented and evaluated on those
+frozen cohorts. See [PHASE_3_IMPLEMENTATION_REPORT.md](PHASE_3_IMPLEMENTATION_REPORT.md)
+and [results](examples/phase3/README.md). Persistence, rolling mean and linear trend
+are available through the offline `run-baselines` command. Pretrained models,
+CatBoost, dashboards and Phase 4 remain outside this implementation.
