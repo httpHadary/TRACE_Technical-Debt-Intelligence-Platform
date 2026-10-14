@@ -54,3 +54,4 @@ forecasting_labels.csv
 forecasting_contexts.jsonl*
 baseline_predictions.csv
 candidate_predictions.csv
+chronos_predictions.csv

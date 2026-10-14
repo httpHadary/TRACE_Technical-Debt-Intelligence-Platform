@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "canonical_run": "/home/hp/tst/research/forecasting_mvp/phase4_2/2026-10-15/run-004",
+  "repeat_run": "/home/hp/tst/research/forecasting_mvp/phase4_2/2026-10-15/run-005",
+  "same_final_code": true,
+  "files": {
+    "study.json": {
+      "sha256": "74933222730e268c3bbd49d4c797dfebaf93b13150e685dab427c183f7d4cb77",
+      "repeat_sha256": "74933222730e268c3bbd49d4c797dfebaf93b13150e685dab427c183f7d4cb77",
+      "equal": true
+    },
+    "selection.json": {
+      "sha256": "5165dbce1369751417cf3de656df0aa5759de11da647fe516fdc6fe60df41e6b",
+      "repeat_sha256": "5165dbce1369751417cf3de656df0aa5759de11da647fe516fdc6fe60df41e6b",
+      "equal": true
+    },
+    "chronos_predictions.csv": {
+      "sha256": "71e02b5425b78bc2c2130e922e90cf48ca9a9ca3dad4750d684b3674a6f5457a",
+      "repeat_sha256": "71e02b5425b78bc2c2130e922e90cf48ca9a9ca3dad4750d684b3674a6f5457a",
+      "equal": true
+    },
+    "chronos_predictions_sample.csv": {
+      "sha256": "298a63e33044572f7db9d942dafea263e1e75ec3a9d4efbfe45bb97e5b6d87dd",
+      "repeat_sha256": "298a63e33044572f7db9d942dafea263e1e75ec3a9d4efbfe45bb97e5b6d87dd",
+      "equal": true
+    },
+    "chronos_comparison_metrics.csv": {
+      "sha256": "f8ec1978c46fbbf5e6819d0da3f855333c5a78e592c696314190e80811bc9fec",
+      "repeat_sha256": "f8ec1978c46fbbf5e6819d0da3f855333c5a78e592c696314190e80811bc9fec",
+      "equal": true
+    },
+    "chronos_success_matched_metrics.csv": {
+      "sha256": "e0731873a25ec6c07f1352d58525ade30930600dd99dfc0283c3857ba73a3ee3",
+      "repeat_sha256": "e0731873a25ec6c07f1352d58525ade30930600dd99dfc0283c3857ba73a3ee3",
+      "equal": true
+    },
+    "chronos_interval_metrics.csv": {
+      "sha256": "657213da3da6107bf11b1b514aff2c1828d6cec9bb4640a5dd3514d2b33daf39",
+      "repeat_sha256": "657213da3da6107bf11b1b514aff2c1828d6cec9bb4640a5dd3514d2b33daf39",
+      "equal": true
+    },
+    "chronos_comparison.png": {
+      "sha256": "cbf271e42192619957801fd5a1d63f42ca4d8e2b0531b0b0029a0fc9f52f44ce",
+      "repeat_sha256": "cbf271e42192619957801fd5a1d63f42ca4d8e2b0531b0b0029a0fc9f52f44ce",
+      "equal": true
+    },
+    "pilot/results/predictions.csv": {
+      "sha256": "3d1949a94b11e4d92218dd13db881ebdb205eaa772024244392d2492133fa736",
+      "repeat_sha256": "3d1949a94b11e4d92218dd13db881ebdb205eaa772024244392d2492133fa736",
+      "equal": true
+    },
+    "requests/pilot/requests.jsonl": {
+      "sha256": "813ce8be989d2f60adc6a282469f0d59c8c2ef5b84008cfb43457ea231060b23",
+      "repeat_sha256": "813ce8be989d2f60adc6a282469f0d59c8c2ef5b84008cfb43457ea231060b23",
+      "equal": true
+    },
+    "requests/pilot/policy.json": {
+      "sha256": "833f4f7495b776c0b5d6f52c6e2272e125d6a255e87b889e190d944f8b2543f5",
+      "repeat_sha256": "833f4f7495b776c0b5d6f52c6e2272e125d6a255e87b889e190d944f8b2543f5",
+      "equal": true
+    },
+    "requests/pilot/manifest.json": {
+      "sha256": "ec61eb0a879d35bb7f0a12bf3a8e0a1ff489efbefd2bfdf1069031b027b50f03",
+      "repeat_sha256": "ec61eb0a879d35bb7f0a12bf3a8e0a1ff489efbefd2bfdf1069031b027b50f03",
+      "equal": true
+    },
+    "validation/results/predictions.csv": {
+      "sha256": "812bacd499b72e8d2d34a4753cbfca26e968111195eb81678994651b052ed88d",
+      "repeat_sha256": "812bacd499b72e8d2d34a4753cbfca26e968111195eb81678994651b052ed88d",
+      "equal": true
+    },
+    "requests/validation/requests.jsonl": {
+      "sha256": "143aa9e945f52bdf9005185615348c1bedcdf992e94bddf1a451e3bc1f695068",
+      "repeat_sha256": "143aa9e945f52bdf9005185615348c1bedcdf992e94bddf1a451e3bc1f695068",
+      "equal": true
+    },
+    "requests/validation/policy.json": {
+      "sha256": "eefbe41092ebb204399253aed03e2d9bb2040e0b346d282ce59c0cdc020538b5",
+      "repeat_sha256": "eefbe41092ebb204399253aed03e2d9bb2040e0b346d282ce59c0cdc020538b5",
+      "equal": true
+    },
+    "requests/validation/manifest.json": {
+      "sha256": "06145f52b44d34f50653ab32c9c286c35124c61e219def5d9990aa78b758bc50",
+      "repeat_sha256": "06145f52b44d34f50653ab32c9c286c35124c61e219def5d9990aa78b758bc50",
+      "equal": true
+    },
+    "test/results/predictions.csv": {
+      "sha256": "5c34bd6d73a485f8b558590e71d0d98d3d67284a3c706332506fbe28514cb8a9",
+      "repeat_sha256": "5c34bd6d73a485f8b558590e71d0d98d3d67284a3c706332506fbe28514cb8a9",
+      "equal": true
+    },
+    "requests/test/requests.jsonl": {
+      "sha256": "e4f38311e195c3839969515c432a4d206cb3a64c6e31a36558cdf16db42f93ee",
+      "repeat_sha256": "e4f38311e195c3839969515c432a4d206cb3a64c6e31a36558cdf16db42f93ee",
+      "equal": true
+    },
+    "requests/test/policy.json": {
+      "sha256": "ed7603fdf0f67f86563ef29d911baa25be0de557abe2a81bc12f811dd4ef020e",
+      "repeat_sha256": "ed7603fdf0f67f86563ef29d911baa25be0de557abe2a81bc12f811dd4ef020e",
+      "equal": true
+    },
+    "requests/test/manifest.json": {
+      "sha256": "80991d56a9d4f7faf0b691c975177468ffe6a3e996eb917bfbf8c55fc2ff5f8a",
+      "repeat_sha256": "80991d56a9d4f7faf0b691c975177468ffe6a3e996eb917bfbf8c55fc2ff5f8a",
+      "equal": true
+    }
+  },
+  "excluded": "Wall times, RSS, worker summaries and manifests/seals binding those measurements are not claimed byte-identical. Both repeats retain full ID coverage, identical failures and frozen inputs."
+}

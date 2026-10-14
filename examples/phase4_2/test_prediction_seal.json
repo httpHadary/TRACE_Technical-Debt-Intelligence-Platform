@@ -1,0 +1,8 @@
+{
+  "numerical_labels_loaded": false,
+  "prediction_sha256": "5c34bd6d73a485f8b558590e71d0d98d3d67284a3c706332506fbe28514cb8a9",
+  "selection_sha256": "5165dbce1369751417cf3de656df0aa5759de11da647fe516fdc6fe60df41e6b",
+  "stage": "test",
+  "status": "SEALED",
+  "worker_manifest_sha256": "e8294352bf239f80e34bd1fbde62e2d3482ee78c3bd0842477d86de29c826eae"
+}

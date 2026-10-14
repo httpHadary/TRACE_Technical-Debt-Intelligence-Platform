@@ -41,5 +41,11 @@ benchmarks, CatBoost and dashboards remain outside this implementation.
 
 Phase 4.1 now admits a separate CPU Chronos-2 Small runtime and a six-context
 training/validation smoke test. See [PHASE_4_1_IMPLEMENTATION_REPORT.md](PHASE_4_1_IMPLEMENTATION_REPORT.md)
-and [smoke evidence](examples/phase4_1/README.md). Full Chronos benchmarking,
-CatBoost, Granite and dashboards remain unauthorized.
+and [smoke evidence](examples/phase4_1/README.md). Phase 4.1 stopped at that
+boundary; its separately authorized evaluation follows below.
+
+Phase 4.2 evaluates the pinned Chronos model against the original baselines on
+the unchanged validation, temporal-test and held-repository cohorts. See
+[PHASE_4_2_IMPLEMENTATION_REPORT.md](PHASE_4_2_IMPLEMENTATION_REPORT.md) and
+[comparison evidence](examples/phase4_2/README.md) for coverage, failure handling,
+point/interval metrics and limitations. Later phases remain unauthorized.

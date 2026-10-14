@@ -74,7 +74,7 @@ def cluster_intervals(repo_stats, persistence_stats, repetitions=2000, seed=42):
     return bounds
 
 
-def evaluate_baselines(predictions, labels, repetitions=2000, seed=42):
+def evaluate_baselines(predictions, labels, repetitions=2000, seed=42, *, models=MODELS):
     identity = [(r["forecast_id"], r["model"]) for r in predictions]
     if len(set(identity)) != len(identity) or set(labels) != {r["forecast_id"] for r in predictions}:
         raise ValueError("Duplicate/mismatched prediction and label cohorts")
@@ -89,7 +89,7 @@ def evaluate_baselines(predictions, labels, repetitions=2000, seed=42):
         if label["actual_minutes"] - r["current_minutes"] != label["actual_delta_minutes"]:
             raise ValueError("Actual signed delta mismatch")
         paired[r["forecast_id"]][r["model"]] = r
-    if any(set(v) != set(MODELS) for v in paired.values()):
+    if any(set(v) != set(models) for v in paired.values()):
         raise ValueError("Every model must score identical forecast IDs")
     groups = defaultdict(list)
     repositories = defaultdict(set)
@@ -108,7 +108,7 @@ def evaluate_baselines(predictions, labels, repetitions=2000, seed=42):
             for r in baseline:
                 base_errors[r["repository_id"]].append(r["prediction_minutes"] - labels[r["forecast_id"]]["actual_minutes"])
             base_stats = {repo: (mean([abs(e) for e in es]), math.sqrt(mean([e*e for e in es]))) for repo, es in base_errors.items()}
-            for model in MODELS:
+            for model in models:
                 selected = groups[phase, h, subset, model]
                 for repository in ("ALL", *sorted(repos)):
                     rows = selected if repository == "ALL" else [r for r in selected if r["repository_id"] == repository]

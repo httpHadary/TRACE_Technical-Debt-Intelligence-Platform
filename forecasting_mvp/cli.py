@@ -48,6 +48,9 @@ def main(argv=None):
     smoke.add_argument("--requests-bundle", required=True)
     smoke.add_argument("--checkpoint", required=True)
     smoke.add_argument("--out", required=True)
+    evaluate = commands.add_parser("evaluate-chronos", help="Phase 4.2 validation-first sealed frozen-test comparison")
+    for name in ("bundle","history-bundle","baseline-bundle","smoke-bundle","runtime-python","checkpoint","out"):
+        evaluate.add_argument("--"+name,required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "validate-config":
@@ -84,6 +87,10 @@ def main(argv=None):
         elif args.command == "chronos-smoke":
             from .chronos_smoke import run_smoke
             record = run_smoke(args.requests_bundle,args.checkpoint,args.out)
+        elif args.command == "evaluate-chronos":
+            from .chronos_run import run_chronos
+            record = run_chronos(args.bundle,args.history_bundle,args.baseline_bundle,args.smoke_bundle,
+                                args.runtime_python,args.checkpoint,args.out)
         else:
             record = verify_bundle(args.bundle)
     except (ValueError, OSError, TypeError, KeyError, sqlite3.Error) as exc:

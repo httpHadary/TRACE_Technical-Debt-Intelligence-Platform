@@ -35,10 +35,10 @@ For each future authorized phase:
 
 Dataset binaries, full generated history, checkpoints, environments and secrets
 are excluded. Reproduce data locally from the source hash and configuration
-template; only `examples/phase1/` contains a small attributed sample and useful
+template; phase-specific `examples/` folders contain attributed samples and useful
 audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 4.1 isolated Chronos CPU runtime/smoke, verification and its GitHub push.
-Full pretrained benchmarks, test-cohort inference, CatBoost, Granite, training and dashboards require a new authorization.
+Current authorization ends after Phase 4.2 frozen-cohort Chronos evaluation, verification and its GitHub push.
+Further model tuning, retraining, CatBoost, Granite, dashboards and later phases require new authorization.

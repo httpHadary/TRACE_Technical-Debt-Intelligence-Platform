@@ -1,0 +1,284 @@
+{
+  "contexts": {
+    "pilot": 12,
+    "test": 777,
+    "validation": 735
+  },
+  "events": [
+    "study_registered_before_any_Chronos_outcomes",
+    "validation_pilot_passed_without_labels",
+    "complete_validation_predictions_sealed",
+    "validation_only_labels_loaded",
+    "inference_and_selection_frozen_on_validation_only",
+    "all_temporal_and_held_test_predictions_sealed_before_test_labels",
+    "test_numerical_labels_loaded_after_seal"
+  ],
+  "failed_contexts": 12,
+  "frozen_inputs_unchanged": true,
+  "interval_rows": 585,
+  "metric_rows": 1404,
+  "no_fine_tuning": true,
+  "no_test_informed_tuning": true,
+  "original_baseline_metrics_identical": true,
+  "phase": "4.2",
+  "prediction_rows": 4536,
+  "status": "PARTIAL",
+  "study_id": "70b372e32c7292aca8b260b1a44c28787c3f03b7c11277159a53dd18cc22c958",
+  "test_ids_unchanged": true,
+  "worker_summaries": {
+    "pilot": {
+      "checkpoint": {
+        "artifacts": {
+          "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+          "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+          "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+        },
+        "license": "Apache-2.0",
+        "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+        "model_id": "autogluon/chronos-2-small",
+        "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+        "safetensors_bytes": 111749048
+      },
+      "context_inference_seconds_max": 0.08416268699966167,
+      "context_inference_seconds_min": 0.03440482800033351,
+      "context_inference_seconds_sum": 0.8257750449993182,
+      "contexts": 12,
+      "failed_contexts": 1,
+      "failures": [
+        {
+          "context_id": "014354a62291bee68620a32f5e4a90b39da971950ca902266f729505b582cfe5",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        }
+      ],
+      "implementation_sha256": {
+        "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+        "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "baseline_evaluation.py": "3735ef0f4a7517880041ae6bf7e8a85121ca8265381fe8211f4b660954f1b8fd",
+        "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+        "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+        "chronos_adapter.py": "70229464eb4f353f1e14f5cc641e1f92d5befe9991e87619d96e5de9c8c7ea75",
+        "chronos_eval_worker.py": "059169537ebfca26a0f90b776eebe23c561ed6503157112003b6cbda346f239b",
+        "chronos_evaluation.py": "39b970415bd325b352b4612efc8b0477e3ce9d0f3f6c8e72f9498bb08677aa3b",
+        "chronos_run.py": "63ac572aaf3d593d831cf1d0023d5d33b7f8212d15b567204cc4ff95406502c7",
+        "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+        "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+        "cli.py": "e0d8fa4839b797a60dc13ec229c4f9a129fa8a1b8e742837d43410879c6d3e32",
+        "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+        "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+        "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+        "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+        "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+        "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+        "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+        "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+        "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+        "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+      },
+      "labels_opened": false,
+      "model_load_seconds": 3.3641432320000604,
+      "peak_rss_kib": 479908,
+      "phase": "4.2",
+      "pilot_repeats_equal": true,
+      "prediction_rows": 36,
+      "request_manifest_sha256": "ec61eb0a879d35bb7f0a12bf3a8e0a1ff489efbefd2bfdf1069031b027b50f03",
+      "runtime_versions": {
+        "chronos-forecasting": "2.3.2",
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "torch": "2.11.0+cpu",
+        "transformers": "4.57.6"
+      },
+      "stage": "pilot",
+      "status": "PARTIAL",
+      "successful_contexts": 11,
+      "worker_elapsed_seconds": 4.348256137000135
+    },
+    "test": {
+      "checkpoint": {
+        "artifacts": {
+          "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+          "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+          "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+        },
+        "license": "Apache-2.0",
+        "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+        "model_id": "autogluon/chronos-2-small",
+        "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+        "safetensors_bytes": 111749048
+      },
+      "context_inference_seconds_max": 0.05319436999980098,
+      "context_inference_seconds_min": 0.03339876399968489,
+      "context_inference_seconds_sum": 27.63912926399007,
+      "contexts": 777,
+      "failed_contexts": 6,
+      "failures": [
+        {
+          "context_id": "43b671bd5ff2d48f9127b390ffcdd563703ef7d7a8bec3bb52010378f51b70a4",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "9c7f044262864c1dcb32e79e13fb7f9a92a1dbbda57091a227a757e20b2bc997",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "d27815ccdf70702798edac658c70a1658ae7ca55d411cafc5d4c5ccc0720c4eb",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "d61c04ee72fb85d16a1760e805ce78f1845f9ff70e5942e417163e9ca96c24e7",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "d8b4815cf5efcb807f10c8f7f3e5816861a1e2d776c7ec5137c3aacd00b4d507",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "fc438e6b9898522f91099562473986fe70102136601d58050cbee636b944d16b",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        }
+      ],
+      "implementation_sha256": {
+        "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+        "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "baseline_evaluation.py": "3735ef0f4a7517880041ae6bf7e8a85121ca8265381fe8211f4b660954f1b8fd",
+        "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+        "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+        "chronos_adapter.py": "70229464eb4f353f1e14f5cc641e1f92d5befe9991e87619d96e5de9c8c7ea75",
+        "chronos_eval_worker.py": "059169537ebfca26a0f90b776eebe23c561ed6503157112003b6cbda346f239b",
+        "chronos_evaluation.py": "39b970415bd325b352b4612efc8b0477e3ce9d0f3f6c8e72f9498bb08677aa3b",
+        "chronos_run.py": "63ac572aaf3d593d831cf1d0023d5d33b7f8212d15b567204cc4ff95406502c7",
+        "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+        "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+        "cli.py": "e0d8fa4839b797a60dc13ec229c4f9a129fa8a1b8e742837d43410879c6d3e32",
+        "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+        "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+        "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+        "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+        "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+        "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+        "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+        "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+        "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+        "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+      },
+      "labels_opened": false,
+      "model_load_seconds": 2.95783442299944,
+      "peak_rss_kib": 506876,
+      "phase": "4.2",
+      "pilot_repeats_equal": null,
+      "prediction_rows": 2331,
+      "request_manifest_sha256": "80991d56a9d4f7faf0b691c975177468ffe6a3e996eb917bfbf8c55fc2ff5f8a",
+      "runtime_versions": {
+        "chronos-forecasting": "2.3.2",
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "torch": "2.11.0+cpu",
+        "transformers": "4.57.6"
+      },
+      "stage": "test",
+      "status": "PARTIAL",
+      "successful_contexts": 771,
+      "worker_elapsed_seconds": 31.174606185999437
+    },
+    "validation": {
+      "checkpoint": {
+        "artifacts": {
+          "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+          "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+          "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+        },
+        "license": "Apache-2.0",
+        "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+        "model_id": "autogluon/chronos-2-small",
+        "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+        "safetensors_bytes": 111749048
+      },
+      "context_inference_seconds_max": 0.05583717299941782,
+      "context_inference_seconds_min": 0.03296478699940053,
+      "context_inference_seconds_sum": 26.141819234008835,
+      "contexts": 735,
+      "failed_contexts": 6,
+      "failures": [
+        {
+          "context_id": "014354a62291bee68620a32f5e4a90b39da971950ca902266f729505b582cfe5",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "26d9eef4ab6b203b2b9f794acb9c2965ca1d7ef5e4ac6e1d1a344e65f16e024e",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "8e8e669e6ec8be9ff9f5d16d2436d7e7f3ab7dbdf3cc3926be158dffca901af5",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "a2d6203eedf00045a1b1254e658dd19f355d505b2c119024dd33d34001fa370a",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "afc786a598f7ae685fdbdb5325e6de66d3e946043c51513396cc7ca44adcdcf7",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        },
+        {
+          "context_id": "f4792a9a64a7d7f1f2f89a855329b6ac0a3077947ea0d940c4f3b3564b01b167",
+          "error": "Native quantile crossing; do not manufacture sorted quantiles",
+          "error_type": "ValueError"
+        }
+      ],
+      "implementation_sha256": {
+        "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+        "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "baseline_evaluation.py": "3735ef0f4a7517880041ae6bf7e8a85121ca8265381fe8211f4b660954f1b8fd",
+        "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+        "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+        "chronos_adapter.py": "70229464eb4f353f1e14f5cc641e1f92d5befe9991e87619d96e5de9c8c7ea75",
+        "chronos_eval_worker.py": "059169537ebfca26a0f90b776eebe23c561ed6503157112003b6cbda346f239b",
+        "chronos_evaluation.py": "39b970415bd325b352b4612efc8b0477e3ce9d0f3f6c8e72f9498bb08677aa3b",
+        "chronos_run.py": "63ac572aaf3d593d831cf1d0023d5d33b7f8212d15b567204cc4ff95406502c7",
+        "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+        "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+        "cli.py": "e0d8fa4839b797a60dc13ec229c4f9a129fa8a1b8e742837d43410879c6d3e32",
+        "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+        "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+        "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+        "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+        "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+        "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+        "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+        "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+        "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+        "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+      },
+      "labels_opened": false,
+      "model_load_seconds": 3.027608054999291,
+      "peak_rss_kib": 505044,
+      "phase": "4.2",
+      "pilot_repeats_equal": null,
+      "prediction_rows": 2205,
+      "request_manifest_sha256": "06145f52b44d34f50653ab32c9c286c35124c61e219def5d9990aa78b758bc50",
+      "runtime_versions": {
+        "chronos-forecasting": "2.3.2",
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "torch": "2.11.0+cpu",
+        "transformers": "4.57.6"
+      },
+      "stage": "validation",
+      "status": "PARTIAL",
+      "successful_contexts": 729,
+      "worker_elapsed_seconds": 29.726031732000592
+    }
+  }
+}

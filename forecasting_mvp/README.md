@@ -242,5 +242,58 @@ nonfinite outputs and quantile crossings fail closed. Each of the six contexts
 is repeated twice in the same pinned CPU worker; this is runtime/determinism
 evidence, not model accuracy or interval calibration.
 
-See [Phase 4.1 report](../PHASE_4_1_IMPLEMENTATION_REPORT.md). Further inference,
-test scoring, tuning, CatBoost, Granite or dashboard work requires authorization.
+See [Phase 4.1 report](../PHASE_4_1_IMPLEMENTATION_REPORT.md). Phase 4.1 stopped
+after its smoke test; the separately authorized Phase 4.2 evaluation follows.
+
+## Phase 4.2: frozen-cohort Chronos evaluation
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv-forecast/bin/python -m forecasting_mvp evaluate-chronos \
+  --bundle /absolute/phase2/frozen-run \
+  --history-bundle /absolute/phase1/frozen-run \
+  --baseline-bundle /absolute/phase3/frozen-results \
+  --smoke-bundle /absolute/phase4_1/complete-smoke \
+  --runtime-python /absolute/.venv-chronos-cpu/bin/python \
+  --checkpoint /absolute/pinned-checkpoint \
+  --out /absolute/new-phase4_2-run
+```
+
+Requires the original verified Phase 1/2/3/4.1 bundles and pinned CPU checkpoint.
+The registered primary track remains `core90`. A metadata-only fixed 12-context
+validation pilot repeats successful predictions, then complete validation predicts
+before its numerical labels are loaded. Validation macro MAE selects a default
+among unchanged baselines and Chronos (within 1% prefer simpler models). No
+inference parameters, native quantiles or interval calibration are tuned.
+
+Only after `selection.json` is frozen does a label-free worker infer all original
+temporal-test and held-repository IDs. Both test cohorts are sealed together and
+their identity digests checked against Phase 3 before the evaluator opens numeric
+test labels. The worker receives one past-only request bundle and no label files.
+
+The original strict adapter rejects native quantile crossings and invalid paths.
+Every such failure emits a typed status and an explicitly labeled persistence
+fallback point; it never fabricates a native interval. Reports separate the full
+assigned failure-policy comparison from all-model paired success-only metrics.
+Interval coverage/width are conditional on successful native intervals and retain
+attempted/success/failure denominators. A pilot with valid deterministic successes
+and explicit recoverable failures may continue under the registered fallback;
+zero valid native contexts, non-determinism or process/resource failures stop it.
+
+Workers have external 2-GiB RSS caps, a 900-second pilot cap and 1800-second caps
+for each full cohort stage. No new installation or weights are required. Original
+baseline prediction/metric bytes, datasets, splits and legacy functionality are
+preserved. Point metrics use the existing evaluator with its default behavior
+unchanged and an explicit four-model comparison option for this phase.
+
+Outputs include `chronos_predictions.csv`, full and success-matched comparison
+metrics, native interval metrics, a comparison PNG, source/code/config manifests,
+stage seals, failures, resources and a small prediction sample. Interval checks
+include constant past histories, exact collapsed and near-collapsed ranges,
+collapsed misses, quantile pinball and nominal 80% interval score. No row bootstrap
+or invented intervals: 2,000 paired repository replicates, seed 42; held-out bounds
+remain exploratory with only six clusters.
+
+Exit 0 means complete native success; exit 2/PARTIAL explicitly reports recovered
+inference failures; exit 3 blocks corrupt inputs, missing coverage, code changes,
+invalid seals or runtime/resource failures. See [Phase 4.2 report](../PHASE_4_2_IMPLEMENTATION_REPORT.md).
+Stop after publication. No Granite, CatBoost, training or dashboard work is added.

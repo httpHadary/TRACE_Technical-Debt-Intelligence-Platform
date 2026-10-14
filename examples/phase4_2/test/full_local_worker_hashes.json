@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "predictions.csv": "5c34bd6d73a485f8b558590e71d0d98d3d67284a3c706332506fbe28514cb8a9",
+    "worker_summary.json": "b36d49f1426bbe931aa1697eede9cb3e01bce5dfa29da5297916d503c37a5eba"
+  },
+  "metadata": {
+    "labels_opened": false,
+    "phase": "4.2",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "stage": "test",
+    "status": "PARTIAL"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

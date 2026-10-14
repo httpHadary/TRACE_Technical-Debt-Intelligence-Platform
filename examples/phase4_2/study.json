@@ -1,0 +1,168 @@
+{
+  "bootstrap": {
+    "paired_repository_repetitions": 2000,
+    "percentile_confidence": 0.95,
+    "seed": 42
+  },
+  "checkpoint": {
+    "artifacts": {
+      "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+      "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+      "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+    },
+    "license": "Apache-2.0",
+    "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+    "model_id": "autogluon/chronos-2-small",
+    "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+    "safetensors_bytes": 111749048
+  },
+  "constant_interval_checks": {
+    "collapsed": "q90_equals_q10",
+    "near_collapsed": "width_le_1e-6_times_max_1_current_stock"
+  },
+  "failure_policy": "persistence_fallback_record_status_and_success_matched_intervals_never_fabricated",
+  "implementation_sha256": {
+    "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+    "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "baseline_evaluation.py": "3735ef0f4a7517880041ae6bf7e8a85121ca8265381fe8211f4b660954f1b8fd",
+    "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+    "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+    "chronos_adapter.py": "70229464eb4f353f1e14f5cc641e1f92d5befe9991e87619d96e5de9c8c7ea75",
+    "chronos_eval_worker.py": "059169537ebfca26a0f90b776eebe23c561ed6503157112003b6cbda346f239b",
+    "chronos_evaluation.py": "39b970415bd325b352b4612efc8b0477e3ce9d0f3f6c8e72f9498bb08677aa3b",
+    "chronos_run.py": "63ac572aaf3d593d831cf1d0023d5d33b7f8212d15b567204cc4ff95406502c7",
+    "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+    "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+    "cli.py": "e0d8fa4839b797a60dc13ec229c4f9a129fa8a1b8e742837d43410879c6d3e32",
+    "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+    "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+    "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+    "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+    "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+    "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+    "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+  },
+  "inference": {
+    "batch_size": 1,
+    "clipping": "max_zero_save_raw",
+    "context_length": 90,
+    "cross_learning": false,
+    "device": "cpu",
+    "dtype": "float32",
+    "fine_tune": false,
+    "interop_threads": 1,
+    "point": "q50",
+    "prediction_length": 90,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "seed": 42,
+    "threads": 2
+  },
+  "input_manifests": {
+    "phase1": {
+      "artifacts": {
+        "excluded_records.json": "292745f6759211720be61d42b4e6a7b8e8083fd2a2adfaa58ec6ff5fa1408684",
+        "git_history.csv": "06f21ead1899354becda2c5f676e03a4a72fc4b66d9458e0f761c0d2bcb25571",
+        "historical_data_audit.json": "223b295e002bc1a3158bc807ff70a83c9655905ee31847b322e56971a5dfc2cf",
+        "historical_debt.csv": "ebed49fc838a2e28c601674c3e771e0d3272ac72679f17929f42359935244bff",
+        "historical_debt_sample.csv": "b05424664161a93fddb89986d677f851928fb46b66c18b22b7b3a4ae04772a37"
+      },
+      "metadata": {
+        "future_labels_constructed": false,
+        "models_executed": false,
+        "phase": 1,
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PARTIAL"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    },
+    "phase2": {
+      "artifacts": {
+        "forecasting_contexts.jsonl.gz": "f5e94c00f3d51c033b8cffcee463cd3a38e429b37744f54e36f1eb2ae1cce27a",
+        "forecasting_dataset.csv": "97c6ea0fa6560e28fce72bc128047827980f028528c99aab1b5ad84c6b5552ac",
+        "forecasting_dataset_sample.csv": "560fca34ee13d763829d2312a9fd447b0f281e6b6c7426a71d3e2abf61056faa",
+        "forecasting_feasibility.json": "68563ee04033cc2315a67263835504b1d73a2fb04f315338b4f0dc9ca7edd8fb",
+        "forecasting_features.csv": "70cb91253b1c3f4af1b0c2262f2ac130ba042caf152fd9fca6462b37824a15ae",
+        "forecasting_labels.csv": "b1de67992ed5f5fee6affbf242bb4258ce006312400daa2ae8148d7edc636842",
+        "forecasting_splits.json": "6a695e05403b89bd74d9560a3fe9f3900727d8782c4f4f048fb7abc98927a6e1"
+      },
+      "metadata": {
+        "models_executed": false,
+        "phase": 2,
+        "primary_track": "core90",
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PARTIAL"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    },
+    "phase3": {
+      "artifacts": {
+        "baseline_comparison.png": "eb01a235d04bf77cdd12a07d3d6b07d6bcbef6a18ac1e56887fba2865ccc762a",
+        "baseline_metrics.csv": "0ab76f4e46afd6aeef70b026b72a5ffdb492482bb8ed80886f7c45936e46f751",
+        "baseline_predictions.csv": "7c84fe411dae3908d4cdb557c4d1dc9f93293dbba2e33d3c5ad958cc759f8f68",
+        "baseline_predictions_sample.csv": "e67aadb99437f86658f6669868bd555e887e3d55bfb0992685681c5aa10ecffb",
+        "candidates/candidate_predictions.csv": "7c9dc42020e59be2f2014147ee6ff16a7262e77f8be4f10e0fb835c8a5949f55",
+        "candidates/manifest.json": "65b008ae1cd3a2a1add702eb9af29fb3054023601824ce3042a9299c929a8eef",
+        "prediction_seal.json": "30731aea0b681661146381b4ce965efea030c685f67e7c0a24a58f2ea47a58e9",
+        "run_audit.json": "67e871f3632d904ad7279da01fe55b3e2661d489f0a31cc0e07cc42591e00d03",
+        "selected_parameters.json": "f0a7d024e40e46f3f699569ed0ddfe3d58f44fe12af22a28212fdad82ae2d82d",
+        "study.json": "e797e63b33a80590d61c9c230ba7b4b93e8604d973e7e27e8f7adb3a9c1f8221"
+      },
+      "metadata": {
+        "phase": 3,
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PASS",
+        "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    },
+    "phase4_1": {
+      "artifacts": {
+        "results/chronos_smoke_paths.csv": "d98eee1476c687f71665c09ce0bfda8ea1b148d3cb51edcd6e25e20986800369",
+        "results/chronos_smoke_predictions.csv": "d8feeb55344e13d4c17cc87e179db663c1f522fd4d4a35615a51542d3c7ce730",
+        "results/chronos_smoke_summary.json": "6308fd571ec55c2ca4ed6762593a33b6fe7937971f36b4bb018097f6d53c0f4a",
+        "results/manifest.json": "c733b7db25c6bb5e29739fd2c3478484e9ac04e8ba1b48ec206377e18fd62c2b",
+        "smoke_resources.json": "b30b0a9ce0f6a097e92e8f9da078a449957c08b19c801a0ed60b2b34ea01cdde",
+        "worker.log": "4dce1fbbfb8c5c7666acf047546dcb43a30dfc95408c0a52454ab287b452ddb0"
+      },
+      "metadata": {
+        "full_benchmark_run": false,
+        "phase": "4.1",
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "stage": "runtime_smoke_only",
+        "status": "PASS",
+        "test_labels_opened": false
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    }
+  },
+  "model_id": "autogluon/chronos-2-small",
+  "native_interval_policy": "no_calibration_no_rescaling_no_quantile_tuning",
+  "phase": "4.2",
+  "pilot_policy": "12_validation_contexts_past_pattern_then_hash_repeat_twice",
+  "primary_track": "core90",
+  "resources": {
+    "max_worker_rss_bytes": 2147483648,
+    "pilot_seconds": 900,
+    "test_seconds": 1800,
+    "validation_seconds": 1800
+  },
+  "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+  "selection": "validation_macro_MAE_within_1percent_prefer_persistence_mean_trend_chronos",
+  "split_id": "8b72cb6a93c47f84e6907bd180345c51f005257f5b10b18893fc791d3d0c0208",
+  "study_id": "70b372e32c7292aca8b260b1a44c28787c3f03b7c11277159a53dd18cc22c958"
+}
