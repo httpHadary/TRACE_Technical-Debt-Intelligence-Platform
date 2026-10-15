@@ -1,0 +1,401 @@
+{
+  "artifact_checks": [
+    {
+      "bytes": 1854,
+      "path": "opt/sonar-scanner/bin/sonar-scanner",
+      "sha256": "1ae0276ebc9e5967d3eb37abdf81f07c3a2a2f3341cf98fa8b0a590482b62b18"
+    },
+    {
+      "bytes": 356,
+      "path": "opt/sonar-scanner/conf/sonar-scanner.properties",
+      "sha256": "466fadd26b81c0561a75a533e823a080dc59c51c870fd9691e70561f0a4a6f06"
+    },
+    {
+      "bytes": 10302052,
+      "path": "opt/sonar-scanner/lib/sonar-scanner-cli-8.0.1.6346.jar",
+      "sha256": "4548b5df84d63dc1792f064959da889d5f9f1a34596a94c26938d7270df4f9a9"
+    },
+    {
+      "bytes": 16936,
+      "path": "usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java",
+      "sha256": "ba6abb767a9ef0cf2418f13573e54c09f9eb0ef21c1e049e19feac107279739f"
+    },
+    {
+      "bytes": 1249,
+      "path": "usr/lib/jvm/java-21-amazon-corretto.x86_64/release",
+      "sha256": "e3072c6022d05bef2008dbbcd4bf78f1b36f17750db037f448dbd79231ae8a82"
+    },
+    {
+      "bytes": 16936,
+      "path": "usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java",
+      "sha256": "ba6abb767a9ef0cf2418f13573e54c09f9eb0ef21c1e049e19feac107279739f"
+    },
+    {
+      "bytes": 1249,
+      "path": "usr/lib/jvm/java-21-amazon-corretto.x86_64/release",
+      "sha256": "e3072c6022d05bef2008dbbcd4bf78f1b36f17750db037f448dbd79231ae8a82"
+    },
+    {
+      "bytes": 6184,
+      "path": "usr/share/maven/bin/mvn",
+      "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+    },
+    {
+      "bytes": 713140,
+      "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+      "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+    },
+    {
+      "bytes": 16320,
+      "path": "opt/java/openjdk/bin/java",
+      "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+    },
+    {
+      "bytes": 1631,
+      "path": "opt/java/openjdk/release",
+      "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+    },
+    {
+      "bytes": 16320,
+      "path": "opt/java/openjdk/bin/java",
+      "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+    },
+    {
+      "bytes": 1631,
+      "path": "opt/java/openjdk/release",
+      "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+    },
+    {
+      "bytes": 129491488,
+      "carrier_jar_sha256": "719bbc19e51820a9fb90578cc92c6ccdf8320896381c5d82a4c2ddab76933af1",
+      "compressed_sha256": "736345edae40f4b5fcab5d7ec2c9b62f99667b78c47622a6239699ec975cb6be",
+      "path": "javascript-plugin/linux-x64/node",
+      "sha256": "d918479037f14dc30c8d21df3767a010fe710685373baec7edf680ca8c3edbee"
+    }
+  ],
+  "cleanup": [
+    {
+      "anonymous_volumes_removed": 0,
+      "container": "td522b-e73cb2488a-scanner-cli",
+      "removed": true,
+      "started": true
+    },
+    {
+      "anonymous_volumes_removed": 0,
+      "container": "td522b-e73cb2488a-scanner-java",
+      "removed": true,
+      "started": true
+    },
+    {
+      "anonymous_volumes_removed": 0,
+      "container": "td522b-e73cb2488a-maven",
+      "removed": true,
+      "started": true
+    },
+    {
+      "anonymous_volumes_removed": 0,
+      "container": "td522b-e73cb2488a-build-java",
+      "removed": true,
+      "started": true
+    },
+    {
+      "anonymous_volumes_removed": 4,
+      "container": "td522b-e73cb2488a-node-artifact",
+      "removed": true,
+      "started": false
+    },
+    {
+      "anonymous_volumes_removed": 0,
+      "container": "td522b-e73cb2488a-node",
+      "removed": true,
+      "started": true
+    }
+  ],
+  "compatibility_findings": [
+    {
+      "command_succeeded": true,
+      "kind": "JANSI_NATIVE_CONSOLE_FALLBACK_ON_NOEXEC_TMP",
+      "native_console_loading_verified": false,
+      "noexec_policy_retained": true,
+      "probe": "maven",
+      "status": "WARNING",
+      "stderr_sha256": "3a8e2698d45672d68c8fbed8ad8cebbc8e31ad0b81fdfe796310441e3410c4bc"
+    }
+  ],
+  "historical_compilations": 0,
+  "host_temporary_storage_peak_bytes": 254617830,
+  "initial_setup_attempt": {
+    "cause": "Docker local log-driver compression with max-file=1",
+    "containers_removed": 1,
+    "fix": "Set compress=false on task-specific containers only",
+    "original_attempt_evidence_retained_locally": true,
+    "status": "FAILED_BEFORE_VERSION_EXECUTION",
+    "version_commands_executed": 0
+  },
+  "limits": {
+    "cpus": 1,
+    "execution_timeout_seconds": 30,
+    "memory_bytes": 1073741824,
+    "task_temp_storage_cap_bytes": 402653184,
+    "tmpfs_bytes": 33554432
+  },
+  "parallel_probes": 1,
+  "probe_results": [
+    {
+      "capabilities_dropped": [
+        "ALL"
+      ],
+      "cgroup_memory_peak_bytes": 86396928,
+      "command": [
+        "/opt/sonar-scanner/bin/sonar-scanner",
+        "--version",
+        "-Dsonar.scanner.skipJreProvisioning=true",
+        "-Dsonar.scanner.skipNodeProvisioning=true"
+      ],
+      "command_exit_code": 0,
+      "command_wall_seconds": 0.7100000000000364,
+      "container_exit_code": 0,
+      "cpu_quota_period": [
+        100000,
+        100000
+      ],
+      "cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 8,
+        "nr_throttled": 6,
+        "system_usec": 116117,
+        "throttled_usec": 301819,
+        "usage_usec": 774804,
+        "user_usec": 658686
+      },
+      "expected_version_markers": [
+        "SonarScanner CLI 8.0.1.6346"
+      ],
+      "expected_versions_observed": true,
+      "host_execution_wall_seconds": 1.03038911800013,
+      "host_project_or_credential_mounts": false,
+      "image": "sha256:23ca0f137965d9dff2198074043fd48d386280bc5d0ccac8c8349cea4cf096a9",
+      "memory_limit_bytes": 1073741824,
+      "network_mode": "none",
+      "oom_killed": false,
+      "pids_limit": 64,
+      "probe": "scanner-cli",
+      "read_only_root": true,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "23:17:22.211 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties\n23:17:22.215 INFO  Project root configuration file: NONE\n23:17:22.229 INFO  SonarScanner CLI 8.0.1.6346\n23:17:22.235 INFO  Linux 7.0.0-38-generic amd64\n",
+      "timed_out": false,
+      "tmpfs_limit_bytes": 33554432,
+      "user": "1000:1000"
+    },
+    {
+      "capabilities_dropped": [
+        "ALL"
+      ],
+      "cgroup_memory_peak_bytes": 20054016,
+      "command": [
+        "/usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java",
+        "-Xms16m",
+        "-Xmx128m",
+        "-XX:ActiveProcessorCount=1",
+        "-version"
+      ],
+      "command_exit_code": 0,
+      "command_wall_seconds": 0.029999999999972715,
+      "container_exit_code": 0,
+      "cpu_quota_period": [
+        100000,
+        100000
+      ],
+      "cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 1,
+        "nr_throttled": 0,
+        "system_usec": 40928,
+        "throttled_usec": 0,
+        "usage_usec": 89019,
+        "user_usec": 48091
+      },
+      "expected_version_markers": [
+        "version \"21.0.11\""
+      ],
+      "expected_versions_observed": true,
+      "host_execution_wall_seconds": 0.23918643599995448,
+      "host_project_or_credential_mounts": false,
+      "image": "sha256:23ca0f137965d9dff2198074043fd48d386280bc5d0ccac8c8349cea4cf096a9",
+      "memory_limit_bytes": 1073741824,
+      "network_mode": "none",
+      "oom_killed": false,
+      "pids_limit": 64,
+      "probe": "scanner-java",
+      "read_only_root": true,
+      "status": "PASS",
+      "stderr": "openjdk version \"21.0.11\" 2026-04-21 LTS\nOpenJDK Runtime Environment Corretto-21.0.11.10.1 (build 21.0.11+10-LTS)\nOpenJDK 64-Bit Server VM Corretto-21.0.11.10.1 (build 21.0.11+10-LTS, mixed mode, sharing)\n",
+      "stdout": "",
+      "timed_out": false,
+      "tmpfs_limit_bytes": 33554432,
+      "user": "1000:1000"
+    },
+    {
+      "capabilities_dropped": [
+        "ALL"
+      ],
+      "cgroup_memory_peak_bytes": 68644864,
+      "command": [
+        "/usr/share/maven/bin/mvn",
+        "--version"
+      ],
+      "command_exit_code": 0,
+      "command_wall_seconds": 0.44000000000005457,
+      "container_exit_code": 0,
+      "cpu_quota_period": [
+        100000,
+        100000
+      ],
+      "cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 5,
+        "nr_throttled": 3,
+        "system_usec": 107674,
+        "throttled_usec": 171086,
+        "usage_usec": 489239,
+        "user_usec": 381565
+      },
+      "expected_version_markers": [
+        "Apache Maven 3.9.11",
+        "Java version: 17.0.17"
+      ],
+      "expected_versions_observed": true,
+      "host_execution_wall_seconds": 0.648761236999917,
+      "host_project_or_credential_mounts": false,
+      "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+      "memory_limit_bytes": 1073741824,
+      "network_mode": "none",
+      "oom_killed": false,
+      "pids_limit": 64,
+      "probe": "maven",
+      "read_only_root": true,
+      "status": "PASS",
+      "stderr": "Failed to load native library:jansi-2.4.2-84797e910187d18c-libjansi.so. The native library file at /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so is not executable, make sure that the directory is mounted on a partition without the noexec flag, or set the jansi.tmpdir system property to point to a proper location.  osinfo: Linux/x86_64\njava.lang.UnsatisfiedLinkError: /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so: /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so: failed to map segment from shared object\n",
+      "stdout": "Apache Maven 3.9.11 (3e54c93a704957b63ee3494413a2b544fd3d825b)\nMaven home: /usr/share/maven\nJava version: 17.0.17, vendor: Eclipse Adoptium, runtime: /opt/java/openjdk\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"linux\", version: \"7.0.0-38-generic\", arch: \"amd64\", family: \"unix\"\n",
+      "timed_out": false,
+      "tmpfs_limit_bytes": 33554432,
+      "user": "1000:1000"
+    },
+    {
+      "capabilities_dropped": [
+        "ALL"
+      ],
+      "cgroup_memory_peak_bytes": 18116608,
+      "command": [
+        "/opt/java/openjdk/bin/java",
+        "-Xms16m",
+        "-Xmx128m",
+        "-XX:ActiveProcessorCount=1",
+        "-version"
+      ],
+      "command_exit_code": 0,
+      "command_wall_seconds": 0.049999999999954525,
+      "container_exit_code": 0,
+      "cpu_quota_period": [
+        100000,
+        100000
+      ],
+      "cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 1,
+        "nr_throttled": 0,
+        "system_usec": 38426,
+        "throttled_usec": 0,
+        "usage_usec": 108202,
+        "user_usec": 69775
+      },
+      "expected_version_markers": [
+        "version \"17.0.17\""
+      ],
+      "expected_versions_observed": true,
+      "host_execution_wall_seconds": 0.24659543600000688,
+      "host_project_or_credential_mounts": false,
+      "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+      "memory_limit_bytes": 1073741824,
+      "network_mode": "none",
+      "oom_killed": false,
+      "pids_limit": 64,
+      "probe": "build-java",
+      "read_only_root": true,
+      "status": "PASS",
+      "stderr": "openjdk version \"17.0.17\" 2025-10-21\nOpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)\nOpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)\n",
+      "stdout": "",
+      "timed_out": false,
+      "tmpfs_limit_bytes": 33554432,
+      "user": "1000:1000"
+    },
+    {
+      "capabilities_dropped": [
+        "ALL"
+      ],
+      "cgroup_memory_peak_bytes": 5902336,
+      "command": [
+        "/task-runtime/node",
+        "--version"
+      ],
+      "command_exit_code": 0,
+      "command_wall_seconds": 0.009999999999990905,
+      "container_exit_code": 0,
+      "cpu_quota_period": [
+        100000,
+        100000
+      ],
+      "cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 1,
+        "nr_throttled": 0,
+        "system_usec": 38412,
+        "throttled_usec": 0,
+        "usage_usec": 66716,
+        "user_usec": 28303
+      },
+      "expected_version_markers": [
+        "v24.11.0"
+      ],
+      "expected_versions_observed": true,
+      "host_execution_wall_seconds": 0.24692908699989857,
+      "host_project_or_credential_mounts": false,
+      "image": "sha256:23ca0f137965d9dff2198074043fd48d386280bc5d0ccac8c8349cea4cf096a9",
+      "memory_limit_bytes": 1073741824,
+      "network_mode": "none",
+      "oom_killed": false,
+      "pids_limit": 64,
+      "probe": "node",
+      "read_only_root": true,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "v24.11.0\n",
+      "timed_out": false,
+      "tmpfs_limit_bytes": 33554432,
+      "user": "1000:1000"
+    }
+  ],
+  "provisioning_allowed": false,
+  "published_reference_sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b",
+  "rights_approval_granted": false,
+  "runner_sha256": "5e7bf6204a7bd87b853aa9bfa98908e81db6c2507afabda96bbb0ef3c08e432d",
+  "scans": 0,
+  "server_started": false,
+  "version": "phase5_2_2_b-runtime-probes-v1"
+}

@@ -1,0 +1,26 @@
+TD522B_MEMORY_MAX=1073741824
+TD522B_CPU_MAX=100000 100000
+TD522B_START_UPTIME=1671.06
+TD522B_END_UPTIME=1671.77
+TD522B_EXIT=0
+TD522B_MEMORY_PEAK=86396928
+TD522B_CPU_STAT_BEGIN
+usage_usec 774804
+user_usec 658686
+system_usec 116117
+nice_usec 0
+core_sched.force_idle_usec 0
+nr_periods 8
+nr_throttled 6
+throttled_usec 301819
+nr_bursts 0
+burst_usec 0
+TD522B_STDOUT_BEGIN
+23:17:22.211 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+23:17:22.215 INFO  Project root configuration file: NONE
+23:17:22.229 INFO  SonarScanner CLI 8.0.1.6346
+23:17:22.235 INFO  Linux 7.0.0-38-generic amd64
+
+TD522B_STDERR_BEGIN
+
+TD522B_OUTPUT_END
