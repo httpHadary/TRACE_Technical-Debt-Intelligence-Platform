@@ -40,7 +40,7 @@ audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 4.2.1 diagnostic hardening, verification and its GitHub push.
-The published Phase 4.2 experiment is immutable. No benchmark rerun, new model
-experiment, tuning, recalibration, retraining, CatBoost, Granite or dashboard work
-is authorized by this diagnostic phase.
+Current authorization ends after Phase 5.1 data-foundation implementation,
+verification and GitHub publication. Phases 0–4.2.1 and their frozen experiments
+remain unchanged. No training, model inference, SonarQube scans, large archive
+acquisition, backend or dashboard work is authorized by this phase.

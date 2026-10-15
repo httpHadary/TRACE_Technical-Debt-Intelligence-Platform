@@ -54,3 +54,5 @@ Phase 4.2.1 hardens typed inference recovery and audits only the 12 previously
 failed contexts. The original experiment remains frozen. See the
 [diagnostic report](PHASE_4_2_1_DIAGNOSTIC_REPORT.md) and
 [diagnostic evidence](examples/phase4_2_1/README.md). No benchmark was rerun.
+
+Phase 5.1 adds an isolated [schema-v2 data foundation](forecasting_multilanguage/README.md): read-only source adapters, F0/F1 features, exact target-status construction and a strict past-only input boundary. [Implementation/data-readiness report](PHASE_5_1_IMPLEMENTATION_REPORT.md). F2 and the real non-Java pilot remain blocked; no training, inference or scans were run. Earlier experiments stay frozen.
