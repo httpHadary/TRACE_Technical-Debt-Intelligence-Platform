@@ -40,7 +40,9 @@ audit evidence. Absolute paths in historical records describe the original host,
 not portable installation defaults. Copy the example config to an ignored
 `study.phase1.local.json` and adjust paths for another machine.
 
-Current authorization ends after Phase 5.1 data-foundation implementation,
-verification and GitHub publication. Phases 0–4.2.1 and their frozen experiments
-remain unchanged. No training, model inference, SonarQube scans, large archive
-acquisition, backend or dashboard work is authorized by this phase.
+Current authorization ends after Phase 5.2 source/capability preflight,
+verification and GitHub publication. All earlier experimental artifacts and
+schema2 admission contracts remain frozen. No historical builds, scans/replay,
+server start, software installation/upgrade, model training/inference, backend
+or dashboard work is authorized by this phase. The collection plan requires
+separate authorization and resolution of its recorded gates.
