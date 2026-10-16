@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "README.md": "e32992ceaa8f4ebde745df4510396fca8433b2b2fbd18d1e12e97482c6586b01",
+    "artifact_classification.json": "ea72a6c6522c561d5da561ba9e8e1e444408f88b47d45e31da4a2ef807300836",
+    "compile_readiness_matrix.json": "126078826ad937f8cb1cc46035fdf5846611b4c48010e9d286d0a7d6aaa635d3",
+    "dependency_manifest.json": "1afd472ee6feae1ba8d9b2cb2879e220fbcc2a5a1c5d2bdc2ff62c74b8c10fd4",
+    "frontier_comparison.json": "520a4cfb80f4cab18d1893847fd82164a88d5c26b4647d48f5f67f44df97c472",
+    "priority_plugin_readiness.json": "7cd16e69308465113079aee7fde8370455de4ad8d4a51781e69a07e208a023ce",
+    "readiness_manifest.json": "3ca0d8b1926a18730893f0534d2513e53d14c06ee65a3233ce2cefcf9375f4a0",
+    "requirements.json": "c5b4d397271a8ab228d0e3eb7b078f0ef551e90f0a83aac505741431f19f14cd",
+    "verification.json": "12371e994964b1c4aa41ae52a8992c952fb2bcbe428cf80a3082f277924dac0f"
+  },
+  "base_commit": "8be4c79ab02f67d53bbefa597df56c65f4f97055",
+  "version": "task-d1-publication-v1"
+}
