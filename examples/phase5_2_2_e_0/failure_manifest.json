@@ -1,0 +1,75 @@
+{
+  "capture_failure": "Container exited before ready; monitor exec raced exit; tmpfs output not exported before cleanup",
+  "cgroup_peak_memory_available": false,
+  "compiler_started": false,
+  "container_exit_code": 123,
+  "container_start_count": 1,
+  "enforcers": "NOT_REACHED",
+  "events": [
+    {
+      "action": "create",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025017511339
+    },
+    {
+      "action": "archive-path",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025062974426
+    },
+    {
+      "action": "archive-path",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025082206491
+    },
+    {
+      "action": "archive-path",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025102137995
+    },
+    {
+      "action": "archive-path",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025122090118
+    },
+    {
+      "action": "start",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025244651068
+    },
+    {
+      "action": "die",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": "123",
+      "time_nano": 1792116025292142297
+    },
+    {
+      "action": "destroy",
+      "container_id": "3f47bf4e6c621003235b6aeb50deea4a9d7e78de2079ccbfa1d5e85715d14f19",
+      "exit_code": null,
+      "time_nano": 1792116025360040534
+    }
+  ],
+  "exact_setup_subcommand": "NOT_CAPTURED",
+  "executed_controller_sha256": "21ea6454193b18cf98f660c00fcecb53c3b3f5c3b82b6f972d1668be34ab7f5b",
+  "executed_wrapper_sha256": "c59b5e6b25ed010af82c85a1a2e64e53da73e6ecf65ee7ed18e276ef1c6cfc25",
+  "full_stdout_stderr_available": false,
+  "known_controller_defect": "Recursive chmod includes root-owned tmpfs mount roots under UID1000; ownership not specified",
+  "maven_invocations": 0,
+  "missing_artifact_assessment": "NOT_REACHED",
+  "missing_artifacts": [],
+  "production_compilation": "NOT_REACHED",
+  "resource_generation": "NOT_REACHED",
+  "retry_performed": false,
+  "root_cause_certainty": "Setup stage proven by exit123; exact failing command/stderr unavailable",
+  "runtime_dependency_resolution": "NOT_REACHED",
+  "scm_buildnumber": "NOT_REACHED",
+  "smallest_safe_next_correction": "Set uid=1000,gid=1000 on source/repository tmpfs mounts, retain all existing limits, and capture setup stderr before cleanup. A new attempt requires separate authorization.",
+  "stage": "WORKSPACE_SETUP_BEFORE_MAVEN",
+  "status": "BLOCKED_BUILD_OR_RESOURCE"
+}
