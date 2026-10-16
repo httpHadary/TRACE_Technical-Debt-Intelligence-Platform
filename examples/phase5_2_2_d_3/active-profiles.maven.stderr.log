@@ -1,0 +1,4 @@
+NOTE: Picked up JDK_JAVA_OPTIONS: 
+Picked up JAVA_TOOL_OPTIONS: 
+Failed to load native library:jansi-2.4.2-2a9c86a2cf274dc1-libjansi.so. The native library file at /tmp/jansi-2.4.2-2a9c86a2cf274dc1-libjansi.so is not executable, make sure that the directory is mounted on a partition without the noexec flag, or set the jansi.tmpdir system property to point to a proper location.  osinfo: Linux/x86_64
+java.lang.UnsatisfiedLinkError: /tmp/jansi-2.4.2-2a9c86a2cf274dc1-libjansi.so: /tmp/jansi-2.4.2-2a9c86a2cf274dc1-libjansi.so: failed to map segment from shared object

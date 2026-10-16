@@ -1,0 +1,76 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1235,
+      "path": "README.md",
+      "sha256": "98a354d4321babc004d2796a0d5fb203b11f9abffa6e3a8b5bc612bd2f785e88"
+    },
+    {
+      "bytes": 569,
+      "path": "active-profiles.maven.stderr.log",
+      "sha256": "9a32bdb325f9576d55e8c836c94da49fc3aae7fec65823a46c7e7a0f43632c25"
+    },
+    {
+      "bytes": 749,
+      "path": "active-profiles.maven.stdout.log",
+      "sha256": "03c85c363595afabe8ba64c100beb5b4fa9d7335c154f38807d04fea9f782595"
+    },
+    {
+      "bytes": 686,
+      "path": "active-profiles.txt",
+      "sha256": "5c6d68f9c40f5e8c00d58b6a274e1b8b4c883a560493aa8ab2281fa7f59f82a9"
+    },
+    {
+      "bytes": 569,
+      "path": "effective-pom.maven.stderr.log",
+      "sha256": "a485de75b5aa2fd0cf0ed423e675b5a0981d95b19b6a7d9372236df5e7171ad3"
+    },
+    {
+      "bytes": 737,
+      "path": "effective-pom.maven.stdout.log",
+      "sha256": "bf60666198a0efc1024cd7772485d527143329d398501c21e9b517c4fdddd235"
+    },
+    {
+      "bytes": 1338,
+      "path": "effective_model_identity.json",
+      "sha256": "c6484f9f85436a20e5257af3ef97f82520eed96595571673f057bbfb256925d5"
+    },
+    {
+      "bytes": 8494,
+      "path": "execution_evidence.json",
+      "sha256": "8efdee7ce04c71936cb7874a22a41e2a0a4988a58fe5a43ff1c415fcc280595c"
+    },
+    {
+      "bytes": 32520,
+      "path": "helper_dependency_manifest.json",
+      "sha256": "38778c2d4f970f46232dd822d978ca4bb470f64e1fb0cfd9e654b33c75e05b03"
+    },
+    {
+      "bytes": 2690,
+      "path": "helper_readiness.json",
+      "sha256": "7bb9832a5c00b39ec118086f328c8e487a5affa111fe485d457ccfa5944229f6"
+    },
+    {
+      "bytes": 203,
+      "path": "seed_verification.json",
+      "sha256": "c19feab6c22fff3c1be0b1e2f190ab47bdd00056ccd6fcdfac43d9d0b9d5ce35"
+    },
+    {
+      "bytes": 31570,
+      "path": "source_identity.json",
+      "sha256": "c80997800142730db0ab214173e1357094378ef3bd621a8c450b08e481bfb75c"
+    },
+    {
+      "bytes": 36093,
+      "path": "static_vs_maven.json",
+      "sha256": "00005c7a2eebbe5fc0223b0fc4a506398f3c866dd2afe47aad5cdd2f192f029e"
+    },
+    {
+      "bytes": 2492,
+      "path": "verification.json",
+      "sha256": "8e63014602db08768eb36913ecb5a80a59a116b377516c6993232e8f48ba28f9"
+    }
+  ],
+  "status": "MODEL_VERIFIED",
+  "version": "task-d3-publication-metadata-v1"
+}
