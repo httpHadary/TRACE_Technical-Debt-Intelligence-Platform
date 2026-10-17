@@ -1,0 +1,15 @@
+{
+  "added_before_task": 384,
+  "all_current_file_ctimes_predate_task": true,
+  "current_entries": 2430,
+  "historical_reference_entries": 2046,
+  "metadata_updates_before_task": [
+    "commons-codec/commons-codec/1.16.0/_remote.repositories",
+    "org/apache/commons/commons-lang3/3.13.0/_remote.repositories",
+    "org/codehaus/plexus/plexus-xml/3.0.0/_remote.repositories",
+    "org/slf4j/slf4j-api/2.0.16/_remote.repositories"
+  ],
+  "no_user_cache_mounted_in_smoke": true,
+  "removed_since_historical_reference": 0,
+  "status": "PREEXISTING_USER_CACHE_DRIFT"
+}

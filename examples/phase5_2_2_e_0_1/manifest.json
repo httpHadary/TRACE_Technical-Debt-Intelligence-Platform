@@ -1,0 +1,101 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2716,
+      "path": "E_0_2_HANDOFF.md",
+      "sha256": "88ae37bf2e68b4e9f11af4493b635d822c5e79fc380d57b5b96b1cb2131034db"
+    },
+    {
+      "bytes": 1329,
+      "path": "README.md",
+      "sha256": "101a1bfe15e091d87ffee9e5e6b2bd06f974ba501d03143128338333b1f9aa69"
+    },
+    {
+      "bytes": 85732,
+      "path": "cache.expected.sha256.txt",
+      "sha256": "db5ebd65a706001ccfea78db29c800b08ce6b3f24ec86f64b0dc9c2d3aeae623"
+    },
+    {
+      "bytes": 98792,
+      "path": "cache.observed.sha256.txt",
+      "sha256": "867c028a3c294b878e03c81d48484ccb981b373362a86573e4533a9692cde658"
+    },
+    {
+      "bytes": 816,
+      "path": "capture_completeness.json",
+      "sha256": "851ad39ef65d9bae1d141293cfb4aa8e80d0cbfe4de8ad0f88e28fd822ef2dee"
+    },
+    {
+      "bytes": 134,
+      "path": "docker.stderr.txt",
+      "sha256": "f5039dfc7a9d2a31b33491a246e4c70bf3f7306c46e208bab2b78398d4c5166d"
+    },
+    {
+      "bytes": 1586,
+      "path": "docker.stdout.txt",
+      "sha256": "f09ffbaceb63ba3d23f8548b98ca35216bcfc7e643e2e8f0615322b0e7612f67"
+    },
+    {
+      "bytes": 5734,
+      "path": "execution_evidence.json",
+      "sha256": "4c8542015cb3ec97c44441b118814897408beffea446c11c1d381dfb95bf7a34"
+    },
+    {
+      "bytes": 1554,
+      "path": "preservation.json",
+      "sha256": "5d7817d5e0455d93d157c460983fc5d5026b21f9b443999d19376a335c810f2f"
+    },
+    {
+      "bytes": 2540,
+      "path": "resource_evidence.json",
+      "sha256": "60992b64e34747d5ebe8af2e959836feb9910196399216928cb03e60b4ef7008"
+    },
+    {
+      "bytes": 714,
+      "path": "seed_verification.json",
+      "sha256": "780dc55fbd26828ff7c7628a6f2cc72adf6a19b3d7f0ee4cd3e95791ae4a448a"
+    },
+    {
+      "bytes": 92,
+      "path": "setup.stderr.txt",
+      "sha256": "23e7fec56f95a468ae919e8718de31740f4a2b71b5ce9bb35f1d99bb06dad908"
+    },
+    {
+      "bytes": 771,
+      "path": "setup.stdout.txt",
+      "sha256": "022f768260254639bff017bb3cf7050c5bc9613cc46a75dccd8cc44d19f23417"
+    },
+    {
+      "bytes": 1050,
+      "path": "setup_smoke_evidence.json",
+      "sha256": "9351a92d6a24cd21ff2c88d9fb536b23e6166c050206e96c022cf6eaa25ba581"
+    },
+    {
+      "bytes": 13052,
+      "path": "source.expected.sha256.txt",
+      "sha256": "5bf740882ad06877f333b28f3503f1bd6d270dd15217de2a643acb190f96aff4"
+    },
+    {
+      "bytes": 13988,
+      "path": "source.observed.sha256.txt",
+      "sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+    },
+    {
+      "bytes": 566,
+      "path": "user_cache_drift.json",
+      "sha256": "5248d85635ed6e953574c446f606e60fca5d9c5dc023358f7100999161b240ba"
+    },
+    {
+      "bytes": 3030,
+      "path": "verification.json",
+      "sha256": "69c8321fa35367c9ef9432039fcc9b871ff2af4b6c0dc99ce28593b1187c5c8e"
+    },
+    {
+      "bytes": 4293,
+      "path": "verification_manifest.json",
+      "sha256": "740092de14e10a7d9ba1b6f6fbd42dbe8a009aa43ea3d7ba55d717edf6080f00"
+    }
+  ],
+  "status": "SETUP_AND_CAPTURE_PASS",
+  "version": "e01-publication-v1"
+}

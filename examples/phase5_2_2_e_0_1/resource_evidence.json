@@ -1,0 +1,103 @@
+{
+  "admission": {
+    "available_ram_bytes": 6401507328,
+    "free_disk_bytes": 21337673728,
+    "prohibited_processes": [],
+    "running_containers": 0
+  },
+  "cleanup_complete": true,
+  "command": [
+    "/inspection/wrapper.sh",
+    "--no-maven-smoke"
+  ],
+  "container_user": "1000:1000",
+  "cpu_stat_at_exit_trap": {
+    "burst_usec": 0,
+    "core_sched.force_idle_usec": 0,
+    "nice_usec": 0,
+    "nr_bursts": 0,
+    "nr_periods": 5,
+    "nr_throttled": 3,
+    "system_usec": 258940,
+    "throttled_usec": 32106,
+    "usage_usec": 473064,
+    "user_usec": 214124
+  },
+  "entrypoint": [
+    "/bin/sh"
+  ],
+  "host_config": {
+    "CapAdd": null,
+    "CapDrop": [
+      "ALL"
+    ],
+    "Memory": 1073741824,
+    "MemorySwap": 1073741824,
+    "NanoCpus": 1000000000,
+    "NetworkMode": "none",
+    "PidsLimit": 64,
+    "Privileged": false,
+    "ReadonlyRootfs": true,
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "ShmSize": 8388608,
+    "Tmpfs": {
+      "/output": "rw,nosuid,nodev,noexec,size=33554432,mode=1777,uid=1000,gid=1000",
+      "/runtime-repository": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+      "/source": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+      "/tmp": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000"
+    },
+    "Ulimits": [
+      {
+        "Hard": 8388608,
+        "Name": "fsize",
+        "Soft": 8388608
+      },
+      {
+        "Hard": 1024,
+        "Name": "nofile",
+        "Soft": 1024
+      }
+    ]
+  },
+  "memory_events": {
+    "high": 0,
+    "low": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_group_kill": 0,
+    "oom_kill": 0,
+    "sock_throttled": 0
+  },
+  "minimum_host_available_bytes": 6305783808,
+  "mounts": [
+    {
+      "destination": "/inputs",
+      "rw": false,
+      "type": "bind"
+    },
+    {
+      "destination": "/inspection",
+      "rw": false,
+      "type": "bind"
+    }
+  ],
+  "peak_scope": "Startup through EXIT-trap snapshot; excludes later evidence-export/cleanup allocations",
+  "runtime_cgroup_limits": "memory.max=1073741824\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=64\n",
+  "terminal_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 73,
+    "FinishedAt": "2026-10-17T23:51:01.703416337Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-10-17T23:51:00.09294201Z",
+    "Status": "exited"
+  },
+  "trap_time_cgroup_peak_memory_bytes": 84742144,
+  "version": "e01-resource-observation-v1"
+}
