@@ -1,0 +1,224 @@
+{
+  "acquisition_ledger_unchanged": true,
+  "actual_effective_model_sha256": null,
+  "actual_maven_execution": "NOT_EXECUTED",
+  "additional_requests": 0,
+  "after": [],
+  "before": [
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.0/cyclonedx-maven-plugin-2.8.0.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.0/cyclonedx-maven-plugin-2.8.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0-M2/junit-jupiter-api-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0-M2/junit-jupiter-api-5.11.0-M2.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0-M2/junit-jupiter-engine-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0-M2/junit-jupiter-engine-5.11.0-M2.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0-M2/junit-jupiter-params-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0-M2/junit-jupiter-params-5.11.0-M2.pom",
+    "org/moditect/moditect-maven-plugin/1.2.1.Final/moditect-maven-plugin-1.2.1.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.1.Final/moditect-maven-plugin-1.2.1.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.3/spdx-maven-plugin-0.7.3.jar",
+    "org/spdx/spdx-maven-plugin/0.7.3/spdx-maven-plugin-0.7.3.pom"
+  ],
+  "capacity_status": "FITS_128_MIB",
+  "compile_success": false,
+  "executed_adapter_sha256": "af0ec58de775f297b4332c4579e2f57fccd8cca05f12cf075a791460e9786c51",
+  "initial_status": "PARTIAL",
+  "issues": [
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": false,
+      "disposition": "NON_PROPAGATING_REMOTE_COMPILER_PROPERTY",
+      "identity": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.13.0"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.apache.commons', 'commons-parent', '58'], 'id': 'jdk9-compiler', 'active': None, 'reason': \"UNSUPPORTED_JDK_ACTIVATION_'[9'\"}",
+      "scope_evidence": {
+        "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+        "activation_literal": "[9",
+        "only_defined_property": "maven.compiler.release",
+        "profile_id": "jdk9-compiler",
+        "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      <ns0:id>jdk9-compiler</ns0:id>\n      <ns0:activation>\n        <ns0:jdk>[9</ns0:jdk>\n      </ns0:activation>\n      <ns0:properties>\n        \n        <ns0:maven.compiler.release>${commons.compiler.release}</ns0:maven.compiler.release>\n      </ns0:properties>\n    </ns0:profile>\n\n    \n    ",
+        "property_reference_consumers": 0,
+        "reason": "Remote dependency own compiler property only; no consumer in its inherited POM declarations. It does not propagate into Commons CLI project inheritance or dependency identities.",
+        "remote_parent_version": "58",
+        "target_parent_version": "71",
+        "verified_layers": [
+          {
+            "gav": [
+              "org.apache",
+              "apache",
+              "29"
+            ],
+            "path": "org/apache/apache/29/apache-29.pom",
+            "sha256": "3e49037174820bbd0df63420a977255886398954c2a06291fa61f727ac35b377"
+          },
+          {
+            "gav": [
+              "org.apache.commons",
+              "commons-parent",
+              "58"
+            ],
+            "path": "org/apache/commons/commons-parent/58/commons-parent-58.pom",
+            "sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590"
+          },
+          {
+            "gav": [
+              "org.apache.commons",
+              "commons-lang3",
+              "3.13.0"
+            ],
+            "path": "org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.pom",
+            "sha256": "ff7cea4eb239dd62117510dabe51a8d5f0c9e4cc426bc3e8c2c221a718f86484"
+          }
+        ]
+      }
+    },
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": false,
+      "disposition": "NON_PROPAGATING_REMOTE_COMPILER_PROPERTY",
+      "identity": [
+        "commons-codec",
+        "commons-codec",
+        "1.16.0"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.apache.commons', 'commons-parent', '58'], 'id': 'jdk9-compiler', 'active': None, 'reason': \"UNSUPPORTED_JDK_ACTIVATION_'[9'\"}",
+      "scope_evidence": {
+        "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+        "activation_literal": "[9",
+        "only_defined_property": "maven.compiler.release",
+        "profile_id": "jdk9-compiler",
+        "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      <ns0:id>jdk9-compiler</ns0:id>\n      <ns0:activation>\n        <ns0:jdk>[9</ns0:jdk>\n      </ns0:activation>\n      <ns0:properties>\n        \n        <ns0:maven.compiler.release>${commons.compiler.release}</ns0:maven.compiler.release>\n      </ns0:properties>\n    </ns0:profile>\n\n    \n    ",
+        "property_reference_consumers": 0,
+        "reason": "Remote dependency own compiler property only; no consumer in its inherited POM declarations. It does not propagate into Commons CLI project inheritance or dependency identities.",
+        "remote_parent_version": "58",
+        "target_parent_version": "71",
+        "verified_layers": [
+          {
+            "gav": [
+              "org.apache",
+              "apache",
+              "29"
+            ],
+            "path": "org/apache/apache/29/apache-29.pom",
+            "sha256": "3e49037174820bbd0df63420a977255886398954c2a06291fa61f727ac35b377"
+          },
+          {
+            "gav": [
+              "org.apache.commons",
+              "commons-parent",
+              "58"
+            ],
+            "path": "org/apache/commons/commons-parent/58/commons-parent-58.pom",
+            "sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590"
+          },
+          {
+            "gav": [
+              "commons-codec",
+              "commons-codec",
+              "1.16.0"
+            ],
+            "path": "commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.pom",
+            "sha256": "6cb5957819df393956fd311a3a0c3f5eec1ebc49ba5b2d09f3f44e6167fa3e74"
+          }
+        ]
+      }
+    },
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": false,
+      "disposition": "NON_PROPAGATING_REMOTE_COMPILER_PROPERTY",
+      "identity": [
+        "commons-io",
+        "commons-io",
+        "2.13.0"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.apache.commons', 'commons-parent', '58'], 'id': 'jdk9-compiler', 'active': None, 'reason': \"UNSUPPORTED_JDK_ACTIVATION_'[9'\"}",
+      "scope_evidence": {
+        "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+        "activation_literal": "[9",
+        "only_defined_property": "maven.compiler.release",
+        "profile_id": "jdk9-compiler",
+        "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      <ns0:id>jdk9-compiler</ns0:id>\n      <ns0:activation>\n        <ns0:jdk>[9</ns0:jdk>\n      </ns0:activation>\n      <ns0:properties>\n        \n        <ns0:maven.compiler.release>${commons.compiler.release}</ns0:maven.compiler.release>\n      </ns0:properties>\n    </ns0:profile>\n\n    \n    ",
+        "property_reference_consumers": 0,
+        "reason": "Remote dependency own compiler property only; no consumer in its inherited POM declarations. It does not propagate into Commons CLI project inheritance or dependency identities.",
+        "remote_parent_version": "58",
+        "target_parent_version": "71",
+        "verified_layers": [
+          {
+            "gav": [
+              "org.apache",
+              "apache",
+              "29"
+            ],
+            "path": "org/apache/apache/29/apache-29.pom",
+            "sha256": "3e49037174820bbd0df63420a977255886398954c2a06291fa61f727ac35b377"
+          },
+          {
+            "gav": [
+              "org.apache.commons",
+              "commons-parent",
+              "58"
+            ],
+            "path": "org/apache/commons/commons-parent/58/commons-parent-58.pom",
+            "sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590"
+          },
+          {
+            "gav": [
+              "commons-io",
+              "commons-io",
+              "2.13.0"
+            ],
+            "path": "commons-io/commons-io/2.13.0/commons-io-2.13.0.pom",
+            "sha256": "db3fed64c2e1774ebfd6b1a749037732b149b9111dd7e6b985f08dda55470439"
+          }
+        ]
+      }
+    }
+  ],
+  "missing_paths": [],
+  "newly_exposed_resolved_paths": [
+    "org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom",
+    "org/junit/platform/junit-platform-commons/1.11.0-M2/junit-platform-commons-1.11.0-M2.jar",
+    "org/junit/platform/junit-platform-commons/1.11.0-M2/junit-platform-commons-1.11.0-M2.pom",
+    "org/junit/platform/junit-platform-engine/1.11.0-M2/junit-platform-engine-1.11.0-M2.jar",
+    "org/junit/platform/junit-platform-engine/1.11.0-M2/junit-platform-engine-1.11.0-M2.pom",
+    "org/moditect/moditect-parent/1.2.1.Final/moditect-parent-1.2.1.Final.pom"
+  ],
+  "published_adapter_sha256": "95d89aca32d297ceb3feee77506fdcea7f2e170897d773a32e1dd709289174b8",
+  "qualification": "Three exact transitive dependency models inherit a compiler-property-only profile from Commons Parent58; activation remains UNKNOWN, no property consumers alter dependency identities, and no inheritance into Commons CLI Parent71.",
+  "resolved": [
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.0/cyclonedx-maven-plugin-2.8.0.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.0/cyclonedx-maven-plugin-2.8.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0-M2/junit-jupiter-api-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0-M2/junit-jupiter-api-5.11.0-M2.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0-M2/junit-jupiter-engine-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0-M2/junit-jupiter-engine-5.11.0-M2.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0-M2/junit-jupiter-params-5.11.0-M2.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0-M2/junit-jupiter-params-5.11.0-M2.pom",
+    "org/moditect/moditect-maven-plugin/1.2.1.Final/moditect-maven-plugin-1.2.1.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.1.Final/moditect-maven-plugin-1.2.1.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.3/spdx-maven-plugin-0.7.3.jar",
+    "org/spdx/spdx-maven-plugin/0.7.3/spdx-maven-plugin-0.7.3.pom"
+  ],
+  "scope": "Static paths/descriptors/closure only; actual model,profiles and classpaths remain unverified",
+  "status": "PASS_STATIC_T_MINUS_90_READINESS",
+  "stop": null,
+  "transport_and_accounting_ast_unchanged": true
+}
