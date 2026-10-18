@@ -1,0 +1,34 @@
+{
+  "acquisition_ledger_unchanged_during_audits": true,
+  "byte_identical_offline_audits": true,
+  "java_executions": 0,
+  "maven_executions": 0,
+  "new_e05_cases": 29,
+  "no_network_unit_tests": true,
+  "offline_audit_sha256": "c5fb55aacdd0cf13cad8d5edf8aefc8ce85543030c5ea7ea96d4d7525a3ef33b",
+  "old_artifact_hashes_verified": 679,
+  "post_acquisition_change": "Read-only RAT warning path audit added; no subsequent acquisition",
+  "private_path_correction": "Fresh task cache relocated into its phase directory after wrapper variable shadowing; no prior cache or ledger changed",
+  "regression": [
+    {
+      "checkout": "central",
+      "errors": 0,
+      "failures": 0,
+      "private_junit_sha256": "64386ad6118e3da49e8d40c7153157b73ee42faaefa0d60019138addccd4c8ce",
+      "seconds": 21.579,
+      "skipped": 0,
+      "tests": 479
+    },
+    {
+      "checkout": "working",
+      "errors": 0,
+      "failures": 0,
+      "private_junit_sha256": "36f09d3d3b58eb29c7f68a781a6aba01f618fa3733cf2dd34e624fa33e1e5442",
+      "seconds": 21.47,
+      "skipped": 0,
+      "tests": 479
+    }
+  ],
+  "status": "PASS",
+  "total_artifact_hashes_verified": 682
+}

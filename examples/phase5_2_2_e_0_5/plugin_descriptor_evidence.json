@@ -1,0 +1,1005 @@
+{
+  "acquired_metadata_paths": [
+    "org/apache/apache/23/apache-23.pom",
+    "org/apache/felix/felix-parent/7/felix-parent-7.pom",
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom"
+  ],
+  "classes_executed": false,
+  "declared_descriptor_runtime_dependencies": [
+    {
+      "artifactId": "org.osgi.core",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "6.0.0"
+    },
+    {
+      "artifactId": "biz.aQute.bndlib",
+      "classifier": null,
+      "groupId": "biz.aQute.bnd",
+      "type": "jar",
+      "version": "6.3.1"
+    },
+    {
+      "artifactId": "org.osgi.dto",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.0.0"
+    },
+    {
+      "artifactId": "org.osgi.resource",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.0.0"
+    },
+    {
+      "artifactId": "org.osgi.framework",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.8.0"
+    },
+    {
+      "artifactId": "org.osgi.util.tracker",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.5.4"
+    },
+    {
+      "artifactId": "osgi.annotation",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "8.0.1"
+    },
+    {
+      "artifactId": "org.osgi.service.log",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.3.0"
+    },
+    {
+      "artifactId": "org.osgi.service.repository",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.1.0"
+    },
+    {
+      "artifactId": "org.osgi.util.function",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.2.0"
+    },
+    {
+      "artifactId": "org.osgi.util.promise",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "1.2.0"
+    },
+    {
+      "artifactId": "biz.aQute.bnd.util",
+      "classifier": null,
+      "groupId": "biz.aQute.bnd",
+      "type": "jar",
+      "version": "6.3.1"
+    },
+    {
+      "artifactId": "slf4j-api",
+      "classifier": null,
+      "groupId": "org.slf4j",
+      "type": "jar",
+      "version": "1.7.25"
+    },
+    {
+      "artifactId": "org.apache.felix.bundlerepository",
+      "classifier": null,
+      "groupId": "org.apache.felix",
+      "type": "jar",
+      "version": "1.6.6"
+    },
+    {
+      "artifactId": "easymock",
+      "classifier": null,
+      "groupId": "org.easymock",
+      "type": "jar",
+      "version": "2.4"
+    },
+    {
+      "artifactId": "org.apache.felix.utils",
+      "classifier": null,
+      "groupId": "org.apache.felix",
+      "type": "jar",
+      "version": "1.6.0"
+    },
+    {
+      "artifactId": "org.osgi.compendium",
+      "classifier": null,
+      "groupId": "org.osgi",
+      "type": "jar",
+      "version": "4.2.0"
+    },
+    {
+      "artifactId": "aether-api",
+      "classifier": null,
+      "groupId": "org.eclipse.aether",
+      "type": "jar",
+      "version": "1.0.2.v20150114"
+    },
+    {
+      "artifactId": "aether-util",
+      "classifier": null,
+      "groupId": "org.eclipse.aether",
+      "type": "jar",
+      "version": "1.0.2.v20150114"
+    },
+    {
+      "artifactId": "plexus-interpolation",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "1.21"
+    },
+    {
+      "artifactId": "plexus-classworlds",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "2.5.2"
+    },
+    {
+      "artifactId": "plexus-component-annotations",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "1.6"
+    },
+    {
+      "artifactId": "maven-reporting-api",
+      "classifier": null,
+      "groupId": "org.apache.maven.reporting",
+      "type": "jar",
+      "version": "3.0"
+    },
+    {
+      "artifactId": "maven-archiver",
+      "classifier": null,
+      "groupId": "org.apache.maven",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "artifactId": "maven-shared-utils",
+      "classifier": null,
+      "groupId": "org.apache.maven.shared",
+      "type": "jar",
+      "version": "3.3.3"
+    },
+    {
+      "artifactId": "commons-io",
+      "classifier": null,
+      "groupId": "commons-io",
+      "type": "jar",
+      "version": "2.6"
+    },
+    {
+      "artifactId": "commons-compress",
+      "classifier": null,
+      "groupId": "org.apache.commons",
+      "type": "jar",
+      "version": "1.20"
+    },
+    {
+      "artifactId": "plexus-archiver",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "4.2.7"
+    },
+    {
+      "artifactId": "plexus-io",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "3.2.0"
+    },
+    {
+      "artifactId": "snappy",
+      "classifier": null,
+      "groupId": "org.iq80.snappy",
+      "type": "jar",
+      "version": "0.4"
+    },
+    {
+      "artifactId": "xz",
+      "classifier": null,
+      "groupId": "org.tukaani",
+      "type": "jar",
+      "version": "1.9"
+    },
+    {
+      "artifactId": "maven-dependency-tree",
+      "classifier": null,
+      "groupId": "org.apache.maven.shared",
+      "type": "jar",
+      "version": "3.0"
+    },
+    {
+      "artifactId": "plexus-utils",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "3.3.0"
+    },
+    {
+      "artifactId": "plexus-build-api",
+      "classifier": null,
+      "groupId": "org.sonatype.plexus",
+      "type": "jar",
+      "version": "0.0.7"
+    },
+    {
+      "artifactId": "doxia-sink-api",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "doxia-site-renderer",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "doxia-core",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "plexus-i18n",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "1.0-beta-7"
+    },
+    {
+      "artifactId": "plexus-container-default",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "1.0-alpha-30"
+    },
+    {
+      "artifactId": "plexus-velocity",
+      "classifier": null,
+      "groupId": "org.codehaus.plexus",
+      "type": "jar",
+      "version": "1.1.7"
+    },
+    {
+      "artifactId": "velocity",
+      "classifier": null,
+      "groupId": "org.apache.velocity",
+      "type": "jar",
+      "version": "1.5"
+    },
+    {
+      "artifactId": "commons-lang",
+      "classifier": null,
+      "groupId": "commons-lang",
+      "type": "jar",
+      "version": "2.1"
+    },
+    {
+      "artifactId": "oro",
+      "classifier": null,
+      "groupId": "oro",
+      "type": "jar",
+      "version": "2.0.8"
+    },
+    {
+      "artifactId": "doxia-decoration-model",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "commons-collections",
+      "classifier": null,
+      "groupId": "commons-collections",
+      "type": "jar",
+      "version": "3.2"
+    },
+    {
+      "artifactId": "doxia-module-apt",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "doxia-module-fml",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "doxia-module-xdoc",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "doxia-module-xhtml",
+      "classifier": null,
+      "groupId": "org.apache.maven.doxia",
+      "type": "jar",
+      "version": "1.0"
+    },
+    {
+      "artifactId": "jdom",
+      "classifier": null,
+      "groupId": "org.jdom",
+      "type": "jar",
+      "version": "1.1"
+    }
+  ],
+  "dependency_management": [],
+  "descriptor_bytes": 142477,
+  "descriptor_sha256": "77573d6537a1b548ce60b11972d588ec31137b1358d92a79174fc689e6a2cb77",
+  "embedded_pom_equals_external": true,
+  "embedded_pom_sha256": "5b85e06c7edaef3430c3dfd43e7ae165914a8a7b3cf94f61aa92b9a3f1307890",
+  "embedded_properties_sha256": "1f74a38567c7a33338e07f8d244b4bd2cba6d2f21062565bd786500b38e9e572",
+  "gav": [
+    "org.apache.felix",
+    "maven-bundle-plugin",
+    "5.1.9"
+  ],
+  "imports": [],
+  "jar_sha256": "d5379a3b8dd9b898c2953a1efea780cb5dc06029399ac492bbca13d65aa28eaf",
+  "mojos": [
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "ant",
+      "implementation": "org.apache.felix.bundleplugin.AntPlugin",
+      "phase": null,
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "baseline",
+      "implementation": "org.apache.felix.bundleplugin.baseline.BaselinePlugin",
+      "phase": "verify",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "baseline-report",
+      "implementation": "org.apache.felix.bundleplugin.baseline.BaselineReport",
+      "phase": "site",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "bundle",
+      "implementation": "org.apache.felix.bundleplugin.BundlePlugin",
+      "phase": "package",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "bundleall",
+      "implementation": "org.apache.felix.bundleplugin.BundleAllPlugin",
+      "phase": "package",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "clean",
+      "implementation": "org.apache.felix.obrplugin.ObrCleanRepo",
+      "phase": "clean",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "false"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "cleanVersions",
+      "implementation": "org.apache.felix.bundleplugin.VersionCleanerPlugin",
+      "phase": null,
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "deploy",
+      "implementation": "org.apache.felix.obrplugin.ObrDeploy",
+      "phase": "deploy",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "deploy-file",
+      "implementation": "org.apache.felix.obrplugin.ObrDeployFile",
+      "phase": "deploy",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "false"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "index",
+      "implementation": "org.apache.felix.obrplugin.ObrIndex",
+      "phase": null,
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "false"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "install",
+      "implementation": "org.apache.felix.obrplugin.ObrInstall",
+      "phase": "install",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "install-file",
+      "implementation": "org.apache.felix.obrplugin.ObrInstallFile",
+      "phase": "install",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "false"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "instructions",
+      "implementation": "org.apache.felix.bundleplugin.InstructionsPlugin",
+      "phase": null,
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "manifest",
+      "implementation": "org.apache.felix.bundleplugin.ManifestPlugin",
+      "phase": "process-classes",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "remote-clean",
+      "implementation": "org.apache.felix.obrplugin.ObrRemoteClean",
+      "phase": "clean",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "false"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "verify",
+      "implementation": "org.apache.felix.bundleplugin.VerifyBundlePlugin",
+      "phase": "verify",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": null,
+      "requiresProject": "true"
+    },
+    {
+      "executeGoal": null,
+      "executeLifecycle": null,
+      "executePhase": null,
+      "goal": "wrap",
+      "implementation": "org.apache.felix.bundleplugin.WrapPlugin",
+      "phase": "package",
+      "requiresDependencyCollection": null,
+      "requiresDependencyResolution": "test",
+      "requiresProject": "true"
+    }
+  ],
+  "packaging": "maven-plugin",
+  "parent_chain": [
+    [
+      "org.apache",
+      "apache",
+      "23"
+    ],
+    [
+      "org.apache.felix",
+      "felix-parent",
+      "7"
+    ],
+    [
+      "org.apache.felix",
+      "maven-bundle-plugin",
+      "5.1.9"
+    ]
+  ],
+  "plugin_realm_resolved": false,
+  "pom_dependencies": [
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.osgi",
+        "org.osgi.core",
+        "6.0.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "biz.aQute.bnd",
+        "biz.aQute.bndlib",
+        "6.3.1"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.25"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.felix",
+        "org.apache.felix.bundlerepository",
+        "1.6.6"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.felix",
+        "org.apache.felix.utils",
+        "1.6.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven",
+        "maven-core",
+        "3.3.9"
+      ],
+      "optional": false,
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven",
+        "maven-model",
+        "3.3.9"
+      ],
+      "optional": false,
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven",
+        "maven-artifact",
+        "3.3.9"
+      ],
+      "optional": false,
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven",
+        "maven-compat",
+        "3.3.9"
+      ],
+      "optional": false,
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.reporting",
+        "maven-reporting-api",
+        "3.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven",
+        "maven-archiver",
+        "3.5.2"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-dependency-tree",
+        "3.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.sonatype.plexus",
+        "plexus-build-api",
+        "0.0.7"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-site-renderer",
+        "1.0"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.plugin-tools",
+        "maven-plugin-annotations",
+        "3.4"
+      ],
+      "optional": false,
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.maven.plugin-testing",
+        "maven-plugin-testing-harness",
+        "3.3.0"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.eclipse.aether",
+        "aether-impl",
+        "1.1.0"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "version"
+      ],
+      "gav": [
+        "org.jdom",
+        "jdom",
+        "1.1"
+      ],
+      "optional": false,
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "junit",
+        "junit",
+        "4.13.1"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    }
+  ],
+  "profiles": [
+    {
+      "active": false,
+      "id": "apache-release",
+      "model": [
+        "org.apache",
+        "apache",
+        "23"
+      ],
+      "reason": "NO_IMPLICIT_ACTIVATION"
+    },
+    {
+      "active": false,
+      "id": "jdk8-or-lower",
+      "model": [
+        "org.apache.felix",
+        "felix-parent",
+        "7"
+      ],
+      "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+    },
+    {
+      "active": true,
+      "id": "jdk9-or-higher",
+      "model": [
+        "org.apache.felix",
+        "felix-parent",
+        "7"
+      ],
+      "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+    },
+    {
+      "active": false,
+      "id": "only-eclipse",
+      "model": [
+        "org.apache.felix",
+        "felix-parent",
+        "7"
+      ],
+      "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+    },
+    {
+      "active": false,
+      "id": "only-eclipse",
+      "model": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+    }
+  ],
+  "required_java": null,
+  "required_maven": null,
+  "required_runtime_downloads_for_observed_descriptor_lookup": [],
+  "runtime_policy": "Descriptor/POM metadata required; Felix goal remains after compile. Runtime graph not acquired or declared resolved.",
+  "static_model_issues": []
+}

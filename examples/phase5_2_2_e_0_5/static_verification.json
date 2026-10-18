@@ -1,0 +1,29 @@
+{
+  "artifact_count": 682,
+  "audit_sha256": "c5fb55aacdd0cf13cad8d5edf8aefc8ce85543030c5ea7ea96d4d7525a3ef33b",
+  "available_ram_kib": 7304212,
+  "byte_identical_audits": true,
+  "cache_identity_format": "Sorted sha256 + two spaces + byte_count + two spaces + Maven relative path + LF",
+  "cache_identity_sha256": "1d56fa167a1a296a680bd22bba4f5223e4d2a90fe099dc38fe8a1703b046120d",
+  "free_disk_bytes": 20267065344,
+  "java_executions": 0,
+  "local_verified_copies": 0,
+  "manifest_sha256": "b19c9c644d21b9a8700ff1628beb1516aa286f1f4f0b917f2a94dd893868a202",
+  "maven_executions": 0,
+  "new_artifacts": [
+    "org/apache/felix/felix-parent/7/felix-parent-7.pom",
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar",
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom"
+  ],
+  "new_count": 3,
+  "new_jars": 1,
+  "new_payload_bytes": 242831,
+  "new_poms": 2,
+  "peak_audit_rss_kib": 41968,
+  "request_ledger_unchanged": true,
+  "requests": 12,
+  "seed_count": 679,
+  "status": "PASS",
+  "task_storage_bytes": 77517544,
+  "transferred_bytes": 242951
+}

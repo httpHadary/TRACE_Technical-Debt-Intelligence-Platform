@@ -1,0 +1,19 @@
+{
+  "artifact_evidence": "Pinned artifact-plugin3.5.1 cached descriptor plus frozen D.3 effective POM and actual E.0.4 stack",
+  "interpretation": "Static metadata recovery sufficient for the observed Felix descriptor lookup; actual full plan and lifecycle remain unverified",
+  "references": [
+    {
+      "support": "getPluginDescriptor extracts XML from plugin JAR; getConfiguredMojo/setupPluginRealm is a separate runtime path",
+      "url": "https://raw.githubusercontent.com/apache/maven/maven-3.9.11/maven-core/src/main/java/org/apache/maven/plugin/internal/DefaultMavenPluginManager.java"
+    },
+    {
+      "support": "Single-plugin resolve reads artifact descriptor and resolves plugin JAR; runtime dependency graph resolution is a separate overload",
+      "url": "https://raw.githubusercontent.com/apache/maven/maven-3.9.11/maven-core/src/main/java/org/apache/maven/plugin/internal/DefaultPluginDependenciesResolver.java"
+    },
+    {
+      "support": "Default task deploy; calculateExecutionPlan inspects planned executions rather than running their goals",
+      "url": "https://raw.githubusercontent.com/apache/maven-artifact-plugin/maven-artifact-plugin-3.5.1/src/main/java/org/apache/maven/plugins/artifact/buildinfo/CheckBuildPlanMojo.java"
+    }
+  ],
+  "version": "e05-source-semantics-v1"
+}
