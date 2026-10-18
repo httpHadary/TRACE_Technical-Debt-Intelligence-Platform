@@ -1,0 +1,530 @@
+{
+  "authority": {
+    "path": "examples/phase5_2_1/source_inventory.json.gz",
+    "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+  },
+  "mixed_classification": "GENUINELY_MIXED_PYTHON_JS_DEVELOPMENT_CANDIDATE_NOT_JS_DOMINANT",
+  "new_dataset_created": false,
+  "registrations": {
+    "path": "examples/phase5_2_1/registrations.json",
+    "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+  },
+  "schema": "rights-dossier-v1",
+  "scope_contracts": {
+    "path": "examples/phase5_2_1/scope_contracts.json",
+    "sha256": "3b4bfe329a24320a17247b80ed865d0a7d3e7a7078f12ccef99dced6faed3453"
+  },
+  "source_rights_acceptance": "NOT_APPROVED",
+  "source_states": [
+    {
+      "commit_sha": "012e1801e54cc6fcd3b5178fa4a90652415e4019",
+      "cutoff_utc": "2024-07-03T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "e69740522838939fb475a56d9f3eb762bb53f3b79c1d573c5149d6b5b267d9b4",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "3ec6d8a24548b4712e725c6ba6bdebb9ce70c8cc"
+    },
+    {
+      "commit_sha": "2549365d0837d3e26df534fe8009db370a2e7b60",
+      "cutoff_utc": "2024-09-01T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "d91378c6ca3eccb4f3a5c7c7eeb1a14a4761039f0a6812fc59bb73d5fd859bdc",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "5df3c134bdd4cfdab03d498ea1a2174828690532"
+    },
+    {
+      "commit_sha": "188589e57c4aa60a4171f185ce747a5e1c4e58cd",
+      "cutoff_utc": "2024-10-01T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "59fd0e0fa05dffa1df1cf0b6c99eb9922c3dce1484b5b05fb7bdd357435723e4",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "de6672cfb271f7d5d89fc25730554a6d73b8953b"
+    },
+    {
+      "commit_sha": "caf60603a19a52380f752fb6700c1a06cef63a75",
+      "cutoff_utc": "2024-10-31T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "18e255fe0605c4836238ba08222a0e6f7bbaa538cfa7f312af472085e7df3dcd",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "fb0feba811b7747ad65501f26612c5019662b6f4"
+    },
+    {
+      "commit_sha": "d1927745863edf55cc943361d7035ea5104609cb",
+      "cutoff_utc": "2024-11-30T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "d4eb51ae50853f7d7a9bf9a88dd046f93410daac6f49fd43b9c14dcf414fdf4c",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "cc8ca96220f07d0a3172067ed614f0d672ce828b"
+    },
+    {
+      "commit_sha": "692abf52546294103e39d4d41ee217274f42f04d",
+      "cutoff_utc": "2024-12-30T00:00:00Z",
+      "family_id": "github:438426152",
+      "inventory_id": "e6c77327c26e37be62cec4d53cdb4e614fcfa4205eadc109dfe790c76435b776",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1069,
+          "detected_license": "MIT",
+          "git_object_id": "8e62c9fa5583994ce153cb9644385a98c5f5c27e",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE",
+          "role": "ROOT_LICENSE",
+          "sha256": "65174497463f67b46e8720fdbafdc8faa3a0b6bd4e84e3f550693459f8a505a4"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "js": 2,
+        "py": 8
+      },
+      "repository_id": "adamchainz/django-browser-reload",
+      "scope_id": "0a72eada6ec03099b0ac38341cce7350eb35c7373a866efbf649f62a41d9e77e",
+      "tree_sha": "a60025d3d031d5e78ae86a894e9ea90eccd26197"
+    },
+    {
+      "commit_sha": "e1529b546d9696192f4de52152777403b4a01b39",
+      "cutoff_utc": "2024-07-03T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "7e0c4563266572970c50b300fdc8d196322743fa4b9fdf778fe9a5937bfcb73a",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 26
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "c1a67e730fc5729a5376c267ed559f4ae310df01"
+    },
+    {
+      "commit_sha": "fb6293fcd6a9b55ac8ecb550af6572daaed18fa1",
+      "cutoff_utc": "2024-09-01T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "3e5739fa265e9aac4a8db6544ae847bfb01a96cdafa1933f8335efcb43f06cec",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 26
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "598dec4901a9adcf8e55b241c9689a8db6219c29"
+    },
+    {
+      "commit_sha": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+      "cutoff_utc": "2024-10-01T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "15175c9469e5243c2327c7f047f4669809220f7373f1e87ba6dafc84988c60d0",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 26
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "ac7521be84b2820a83f7b960d329a15521408214"
+    },
+    {
+      "commit_sha": "7ddf691ac2afbda7473c0d07f1f4e7ae1e69e47b",
+      "cutoff_utc": "2024-10-31T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "7628a68cf06150c13440426adf227b8e3b556de136da4485a7b365b7cff6c6f1",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 36
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "a2ff09febdac9da6e6ee422a9144ad09d81113bf"
+    },
+    {
+      "commit_sha": "aad30eff27ac5c9a13194125226653c6c2826c58",
+      "cutoff_utc": "2024-11-30T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "d1905ad4d0b5c8157d9bb9ea3c6028883364e84216a40ad2d60f5466bf136798",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 36
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "d7434665397c8dd8156fff7ecaed29a14feeb951"
+    },
+    {
+      "commit_sha": "af2b3e72a552cfb2a902556469868763ddea3638",
+      "cutoff_utc": "2024-12-30T00:00:00Z",
+      "family_id": "github:212343",
+      "inventory_id": "9952465d70a503d0a9120114a655789a0ffef5389a0c3d787554d57423f140c5",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 11358,
+          "detected_license": "Apache-2.0",
+          "git_object_id": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "bytes": 173,
+          "detected_license": null,
+          "git_object_id": "020d72503a3f828e47730ecfa313c3ec2affde14",
+          "ownership_or_project_permission_certified": false,
+          "path": "NOTICE.txt",
+          "role": "ATTRIBUTION_NOTICE",
+          "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "java": 36
+      },
+      "repository_id": "apache/commons-cli",
+      "scope_id": "d128cfaca0456c180e93604afc40986f67efb2f25b6e3d974598c96d00412310",
+      "tree_sha": "0d773516c1c7bb0a371b2af6e084b62ef2d36546"
+    },
+    {
+      "commit_sha": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+      "cutoff_utc": "2024-07-03T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "8e1c7d49aa44ec24106206b5391dd79948f50b20171221acf44d7bdf8d53e776",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "2e93f3ec459431b62ad482a68d6d7b99e592ba73"
+    },
+    {
+      "commit_sha": "99015e1456b6952054fda8312b40ea646737168d",
+      "cutoff_utc": "2024-09-01T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "1333908753fb5e68cb3c0c2a5b2a881baf48b57e32e49ba49d6eecf4ca71422b",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "45ee71dbd1f8a9e98aec7bbaec4a809a0cce5e7f"
+    },
+    {
+      "commit_sha": "4a758f5c38636ecd9d030356d85bcca3d8fbd0ca",
+      "cutoff_utc": "2024-10-01T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "f7866c1be99ac29d7d988cc0e5697c451f74b5fe24a2235f79d30e764a1e6b9b",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "dc3c8e1cea4b87066fb2d49b1ef1ac81e31613ec"
+    },
+    {
+      "commit_sha": "02046e7a19480f85fff7e4577486518abe47e401",
+      "cutoff_utc": "2024-10-31T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "553488525697a93526d666a0a05ff0de175adfc1a416371d07db2f6ff54ae5a9",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "c764e16f14d1e7c066789ced2876f39fcdf5b647"
+    },
+    {
+      "commit_sha": "5961d31fb566f089ad468a5b26a32f1ebfa7f63e",
+      "cutoff_utc": "2024-11-30T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "e1a25d24fc5696cebe59b542e261687197e6cf85e8a5e3b32e0810d2a327ade9",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "c7dbe6691b5c9884a9b83806566dcabdfaf44816"
+    },
+    {
+      "commit_sha": "8a47580a00f3404e7071b9ecfec3692a1e18309f",
+      "cutoff_utc": "2024-12-30T00:00:00Z",
+      "family_id": "github:19103692",
+      "inventory_id": "bda9365dd896b8b50136c39be75e33fd068b68057a4cd96334b1f69f4e7180a7",
+      "legal_acceptance": false,
+      "license_records": [
+        {
+          "bytes": 1475,
+          "detected_license": "BSD-3-Clause",
+          "git_object_id": "d12a849186982399c537c5b9a8fd77bf2edd5eab",
+          "ownership_or_project_permission_certified": false,
+          "path": "LICENSE.txt",
+          "role": "ROOT_LICENSE",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "operational_admission_status": "QUARANTINE_UNCHANGED",
+      "production_files_by_language": {
+        "py": 16
+      },
+      "repository_id": "pallets/click",
+      "scope_id": "64511ae5b2e6f2b6d2c35a1f6a9e3df6169e9fc82b7443c7b7ea5ec870ae2a48",
+      "tree_sha": "163366aab835a523175b60ec6fa6813774fac930"
+    }
+  ]
+}

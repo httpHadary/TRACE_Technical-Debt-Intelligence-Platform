@@ -1,0 +1,34 @@
+{
+  "address_space_cap_bytes": 1073741824,
+  "build_containers": 0,
+  "collection_resource_admission": "NOT_PERFORMED; point snapshot below RAM and disk thresholds; limits unchanged",
+  "cpu_affinity": [
+    0
+  ],
+  "dataset_reconstruction": 0,
+  "evidence_json_read_limit_bytes": 2097152,
+  "free_disk_bytes_at_finalization": 15083560960,
+  "java_compilation": 0,
+  "legal_evidence_peak_rss_kib": 30192,
+  "license_emails_sent": 0,
+  "maven": 0,
+  "model_runs": 0,
+  "new_binary_downloads": 0,
+  "new_compilation_gate": false,
+  "operation_bound_seconds": 180,
+  "parallel_worker_pools": 0,
+  "preservation_method": "Streamed file hashes, original compile auditors, Git object/inventory checks, read-only daemon GET metadata. No server API or volume-content inspection.",
+  "preservation_peak_rss_kib": 34176,
+  "private_license_cache_read_limit_bytes": 1048576,
+  "private_snapshot_read_limit_bytes": 16777216,
+  "scanner_invocations": 0,
+  "sonarqube_startups": 0,
+  "static_snapshot": {
+    "available_ram_bytes": 6573477888,
+    "disk_threshold_met_at_snapshot": false,
+    "free_disk_bytes": 15119859712,
+    "new_runtime_admitted": false,
+    "observation_only": true,
+    "ram_threshold_met_at_snapshot": false
+  }
+}

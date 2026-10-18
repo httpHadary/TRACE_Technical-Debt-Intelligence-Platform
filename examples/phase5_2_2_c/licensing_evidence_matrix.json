@@ -1,0 +1,270 @@
+{
+  "analyzers": [
+    {
+      "artifact": "sonar-java-plugin-8.37.0.45887.jar",
+      "artifact_sha256": "423d8aaae641b69da7d4e2cbcb28759b18406f76738aa651c574b2a9cba170ab",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "factual_uncertainties": [
+        "No independent fresh JAR re-extraction in C; linkage relies on preserved cached extraction plus frozen artifact hashes.",
+        "No full server/scanner distribution or third-party-notice audit certified here.",
+        "No license amendment, academic exception or authorized exception statement found in reviewed inputs."
+      ],
+      "human_review_questions": [
+        "Does the exact proposed local and hosted AI use require a separate license or written permission under these pinned terms?",
+        "Which numeric outputs, aggregates, models and public artifacts are within any applicable restriction or permission?",
+        "Would the intended platform be treated as competing or substantially similar, and what scope would an exception cover?"
+      ],
+      "independently_verified_written_permission": [],
+      "legal_opinion": false,
+      "license_date": "2024-11-13",
+      "license_entry": "licenses/LICENSE.txt",
+      "license_sha256": "b93b383060f0b26e95538455d8a92b0c9bc5bf61c3a1fd42583fc3d535330a03",
+      "license_version": "SSAL-1.0",
+      "newer_website_terms_substituted": false,
+      "observed": "Pinned manifest declares SSALv1; cached embedded license text rehashed and matched the Task A record.",
+      "permission_status": "NOT_APPROVED",
+      "private_extraction_cache_sha256": "ab2f2df4ca51a7101b6559d9798c1a2d55d07cfff4dba06435188653fa9cfcc3",
+      "restriction_references": [
+        {
+          "factual_summary": "Definition excludes competing or substantially similar offerings and AI outside the Program interacting with Program-provided data or the Program.",
+          "lines": [
+            52,
+            57
+          ],
+          "section": "Definitions: Non-competitive Purpose"
+        },
+        {
+          "factual_summary": "Recorded copyright and patent grants are conditioned on the defined purpose.",
+          "lines": [
+            78,
+            94
+          ],
+          "section": "2(a),2(b)"
+        },
+        {
+          "factual_summary": "Other needed intellectual-property rights remain a separate recipient responsibility.",
+          "lines": [
+            96,
+            106
+          ],
+          "section": "2(c)"
+        },
+        {
+          "factual_summary": "Distribution requirements address source availability, license copy and preservation of notices.",
+          "lines": [
+            112,
+            129
+          ],
+          "section": "3.1-3.3"
+        },
+        {
+          "factual_summary": "Material noncompliance termination and reservation of ungranted rights are documented.",
+          "lines": [
+            169,
+            181
+          ],
+          "section": "6"
+        }
+      ]
+    },
+    {
+      "artifact": "sonar-python-plugin-5.27.0.35548.jar",
+      "artifact_sha256": "126234f10b1507e63055a028f8762fa80beaf078bbe07cbe4571a62cdecef952",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "factual_uncertainties": [
+        "No independent fresh JAR re-extraction in C; linkage relies on preserved cached extraction plus frozen artifact hashes.",
+        "No full server/scanner distribution or third-party-notice audit certified here.",
+        "No license amendment, academic exception or authorized exception statement found in reviewed inputs."
+      ],
+      "human_review_questions": [
+        "Does the exact proposed local and hosted AI use require a separate license or written permission under these pinned terms?",
+        "Which numeric outputs, aggregates, models and public artifacts are within any applicable restriction or permission?",
+        "Would the intended platform be treated as competing or substantially similar, and what scope would an exception cover?"
+      ],
+      "independently_verified_written_permission": [],
+      "legal_opinion": false,
+      "license_date": "2024-11-13",
+      "license_entry": "licenses/LICENSE.txt",
+      "license_sha256": "b93b383060f0b26e95538455d8a92b0c9bc5bf61c3a1fd42583fc3d535330a03",
+      "license_version": "SSAL-1.0",
+      "newer_website_terms_substituted": false,
+      "observed": "Pinned manifest declares SSALv1; cached embedded license text rehashed and matched the Task A record.",
+      "permission_status": "NOT_APPROVED",
+      "private_extraction_cache_sha256": "ab2f2df4ca51a7101b6559d9798c1a2d55d07cfff4dba06435188653fa9cfcc3",
+      "restriction_references": [
+        {
+          "factual_summary": "Definition excludes competing or substantially similar offerings and AI outside the Program interacting with Program-provided data or the Program.",
+          "lines": [
+            52,
+            57
+          ],
+          "section": "Definitions: Non-competitive Purpose"
+        },
+        {
+          "factual_summary": "Recorded copyright and patent grants are conditioned on the defined purpose.",
+          "lines": [
+            78,
+            94
+          ],
+          "section": "2(a),2(b)"
+        },
+        {
+          "factual_summary": "Other needed intellectual-property rights remain a separate recipient responsibility.",
+          "lines": [
+            96,
+            106
+          ],
+          "section": "2(c)"
+        },
+        {
+          "factual_summary": "Distribution requirements address source availability, license copy and preservation of notices.",
+          "lines": [
+            112,
+            129
+          ],
+          "section": "3.1-3.3"
+        },
+        {
+          "factual_summary": "Material noncompliance termination and reservation of ungranted rights are documented.",
+          "lines": [
+            169,
+            181
+          ],
+          "section": "6"
+        }
+      ]
+    },
+    {
+      "artifact": "sonar-javascript-plugin-13.4.0.43982-multi.jar",
+      "artifact_sha256": "719bbc19e51820a9fb90578cc92c6ccdf8320896381c5d82a4c2ddab76933af1",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "factual_uncertainties": [
+        "No independent fresh JAR re-extraction in C; linkage relies on preserved cached extraction plus frozen artifact hashes.",
+        "No full server/scanner distribution or third-party-notice audit certified here.",
+        "No license amendment, academic exception or authorized exception statement found in reviewed inputs."
+      ],
+      "human_review_questions": [
+        "Does the exact proposed local and hosted AI use require a separate license or written permission under these pinned terms?",
+        "Which numeric outputs, aggregates, models and public artifacts are within any applicable restriction or permission?",
+        "Would the intended platform be treated as competing or substantially similar, and what scope would an exception cover?"
+      ],
+      "independently_verified_written_permission": [],
+      "legal_opinion": false,
+      "license_date": "2024-11-13",
+      "license_entry": "licenses/LICENSE.txt",
+      "license_sha256": "b93b383060f0b26e95538455d8a92b0c9bc5bf61c3a1fd42583fc3d535330a03",
+      "license_version": "SSAL-1.0",
+      "newer_website_terms_substituted": false,
+      "observed": "Pinned manifest declares SSALv1; cached embedded license text rehashed and matched the Task A record.",
+      "permission_status": "NOT_APPROVED",
+      "private_extraction_cache_sha256": "ab2f2df4ca51a7101b6559d9798c1a2d55d07cfff4dba06435188653fa9cfcc3",
+      "restriction_references": [
+        {
+          "factual_summary": "Definition excludes competing or substantially similar offerings and AI outside the Program interacting with Program-provided data or the Program.",
+          "lines": [
+            52,
+            57
+          ],
+          "section": "Definitions: Non-competitive Purpose"
+        },
+        {
+          "factual_summary": "Recorded copyright and patent grants are conditioned on the defined purpose.",
+          "lines": [
+            78,
+            94
+          ],
+          "section": "2(a),2(b)"
+        },
+        {
+          "factual_summary": "Other needed intellectual-property rights remain a separate recipient responsibility.",
+          "lines": [
+            96,
+            106
+          ],
+          "section": "2(c)"
+        },
+        {
+          "factual_summary": "Distribution requirements address source availability, license copy and preservation of notices.",
+          "lines": [
+            112,
+            129
+          ],
+          "section": "3.1-3.3"
+        },
+        {
+          "factual_summary": "Material noncompliance termination and reservation of ungranted rights are documented.",
+          "lines": [
+            169,
+            181
+          ],
+          "section": "6"
+        }
+      ]
+    }
+  ],
+  "categories_separate": [
+    "SOURCE_LICENSE",
+    "ANALYZER_LICENSE",
+    "DATASET_USE_RIGHTS",
+    "RUNTIME_PERMISSION"
+  ],
+  "external_contact_made": false,
+  "legal_permission_granted": false,
+  "no_approval_evidence_scope": "Only listed project evidence and cached extraction were reviewed; no inbox, private correspondence or license procurement system was searched.",
+  "schema": "rights-dossier-v1",
+  "source_license_conditions": {
+    "Apache-2.0": [
+      "Retain applicable license/copyright notices",
+      "Provide Apache license with redistributed source/derivatives",
+      "Preserve required NOTICE attribution",
+      "Mark modified distributed files; no trademark endorsement assumed"
+    ],
+    "BSD-3-Clause": [
+      "Retain copyright, conditions and disclaimer in source redistributions",
+      "Reproduce required notices in binary documentation/materials",
+      "Do not imply contributor/name endorsement"
+    ],
+    "MIT": [
+      "Include copyright and permission notice with copies or substantial source portions"
+    ]
+  },
+  "source_license_evidence": {
+    "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+    "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+  },
+  "source_licenses": [
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "MIT",
+    "NOTICE"
+  ],
+  "status": "EVIDENCE_RECONCILED_PERMISSION_NOT_APPROVED",
+  "whole_third_party_license_text_published": false
+}

@@ -1,0 +1,13 @@
+{
+  "authority": {
+    "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+    "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+  },
+  "disposition": "READ_ONLY_REFERENCE_TO_EXISTING_GATE_NOT_A_NEW_GATE",
+  "historical_scan_permission": false,
+  "limits": "Only original lifecycles through compile; class structure is not upstream tests, JVM verification or behavior certification.",
+  "new_compilation_attempts": 0,
+  "new_gate_created": false,
+  "schema": "rights-dossier-v1",
+  "source_of_compiler_checks": "Existing gate record checks and original individual read-only verifiers"
+}

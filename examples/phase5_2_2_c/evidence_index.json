@@ -1,0 +1,146 @@
+{
+  "base_commit": "3258f5b2cf0db50e7559bf5869d6fd91133d5b8f",
+  "immutable_claim": "Hashes identify captured evidence, not licensor authenticity, signatures or legal acceptance.",
+  "private_license_cache": {
+    "bytes": 30356,
+    "identity": "Existing Task A cached extraction; private local path retained in report",
+    "raw_text_published": false,
+    "sha256": "ab2f2df4ca51a7101b6559d9798c1a2d55d07cfff4dba06435188653fa9cfcc3"
+  },
+  "schema": "rights-dossier-v1",
+  "sources": [
+    {
+      "bytes": 15790,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_2_2_E_5_1_REPORT.md",
+      "sha256": "a7bffb9cbe0d9721dfc7443c17617921cd09e50b018de75139e95d38191fad38"
+    },
+    {
+      "bytes": 15720,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+      "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+    },
+    {
+      "bytes": 2398,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_e_5_1/SIX_REVISION_COMPILATION_HANDOFF.md",
+      "sha256": "b884d72ea17985a9e03fff8f54da302a20009db79661a6004264c3fa185d33d0"
+    },
+    {
+      "bytes": 14215,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_2_2_A_REPORT.md",
+      "sha256": "dacfe89a49281c90aba17cb23c9415a768e1b1662324e0a9a7738debe845a2d4"
+    },
+    {
+      "bytes": 28554,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+      "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+    },
+    {
+      "bytes": 9184,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_2_2_B_REPORT.md",
+      "sha256": "e8d406d29778087edd906d89e68fe892d2c5c1a4fbdb019edb25203bbd19ba4f"
+    },
+    {
+      "bytes": 13390,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_b/runtime_evidence.json",
+      "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+    },
+    {
+      "bytes": 14114,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_2_1_IMPLEMENTATION_REPORT.md",
+      "sha256": "fd627e24f0142a6cce86177eec7abdf9a7019f1a88b4a8be2fa0bd8db2a44450"
+    },
+    {
+      "bytes": 15605,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_2_PREFLIGHT_REPORT.md",
+      "sha256": "8a7ccd51b410098c8b314c512524596a36ca78d295650c56b38a82138feda6f7"
+    },
+    {
+      "bytes": 23079,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+      "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+    },
+    {
+      "bytes": 11939,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+      "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+    },
+    {
+      "bytes": 29222,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "PHASE_5_RESEARCH_REPORT.md",
+      "sha256": "db13f551a3e7816563bb335cce629d1a1ffb11d567dabf0bd7bd962b7f31d086"
+    },
+    {
+      "bytes": 26622,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_1/source_inventory.json.gz",
+      "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+    },
+    {
+      "bytes": 3641,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_1/registrations.json",
+      "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+    },
+    {
+      "bytes": 2769,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_1/scope_contracts.json",
+      "sha256": "3b4bfe329a24320a17247b80ed865d0a7d3e7a7078f12ccef99dced6faed3453"
+    },
+    {
+      "bytes": 19775,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+      "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+    },
+    {
+      "bytes": 20737,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2/capability_manifest.json",
+      "sha256": "cccce722d1ff2744fb7f6363266b2a48b893d04e84f903c36ac0c74f56aa9977"
+    },
+    {
+      "bytes": 14314,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2/readiness_manifest.json",
+      "sha256": "3fdb6e680693d4cf4d6faa8789eabf7b139d1e718593dab795bfed6e70027aa5"
+    },
+    {
+      "bytes": 18950,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_1/readiness_manifest.json",
+      "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+    },
+    {
+      "bytes": 31168,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2/selected_source_plans.json",
+      "sha256": "9d294ac7f1a7619d6795e6e59a59f39e3db01ae532b6a0c6f6afbfd30da1159c"
+    },
+    {
+      "bytes": 1259,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_e_5/initial_frontier_comparison.json",
+      "sha256": "c4f09bbdd39d5a7fd377e5e99e137743b5441e51ffaf9dbff4fcb4aa7e405dd7"
+    },
+    {
+      "bytes": 7881,
+      "kind": "EXISTING_FROZEN_EVIDENCE",
+      "path": "examples/phase5_2_2_e_5/final_static_readiness.json",
+      "sha256": "bf4bcd8cf50d8caa895faf748c169edc097e81c2054cfb1bb4321407696aa293"
+    }
+  ],
+  "web_research_or_new_terms_used": false
+}
