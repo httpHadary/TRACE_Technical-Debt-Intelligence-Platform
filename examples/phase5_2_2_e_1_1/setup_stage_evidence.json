@@ -1,0 +1,36 @@
+{
+  "cgroup_limits": "memory.max=2147483648\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=64\n",
+  "command_category": "offline_compile",
+  "maven_exit": 0,
+  "mount_ownership": "/source 1000:1000:1777\n/runtime-repository 1000:1000:1777\n",
+  "passed_stages": [
+    "MODE",
+    "IDENTITY",
+    "CGROUP",
+    "MOUNT_OWNERSHIP",
+    "SOURCE_COPY",
+    "SOURCE_PERMISSIONS",
+    "ARTIFACT_COPY",
+    "ARTIFACT_PERMISSIONS",
+    "WORKING_DIRECTORY",
+    "SOURCE_HASHES",
+    "CACHE_HASHES",
+    "POPULATION",
+    "WRITABILITY",
+    "FINAL_SOURCE_HASHES",
+    "FINAL_CACHE_HASHES",
+    "MAVEN_LIFECYCLE"
+  ],
+  "setup_capture_separate_from_maven": true,
+  "setup_complete": true,
+  "setup_stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "setup_stdout": {
+    "bytes": 692,
+    "sha256": "807627cd55a67a43af5b47a02338bbc7ab3c861a92adb87115ced0ea131fa740"
+  },
+  "terminal_stage": "MAVEN_LIFECYCLE",
+  "trap_exit": 0
+}

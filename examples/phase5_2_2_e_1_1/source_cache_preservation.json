@@ -1,0 +1,17 @@
+{
+  "cache_changes": {
+    "added_metadata": [],
+    "assessment": "OBSERVED",
+    "missing_or_changed_seed_artifacts": [],
+    "seed_artifacts_unchanged": true
+  },
+  "cache_post_inventory_sha256": "6df5030f30c82a2f9dc5cd1af8cc5729e13af6fd86e65cdceb20ab3b8f14a5a8",
+  "cache_seed_files": 710,
+  "exact_source_hash_check_exit": 0,
+  "original_caches_reverified": true,
+  "original_modes_preserved": true,
+  "source_files": 116,
+  "source_post_inventory_sha256": "57a0f79e06949cc435cad2add463c7694c07b950373194a5a261459a0ae83564",
+  "status": "PASS",
+  "tracked_source_hashes_unchanged": true
+}
