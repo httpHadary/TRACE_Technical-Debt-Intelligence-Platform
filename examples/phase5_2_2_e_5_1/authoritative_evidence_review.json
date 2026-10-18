@@ -1,0 +1,60 @@
+{
+  "downloads": 0,
+  "final_scoped_pass_preserved": true,
+  "initial_partially_qualified_receipt_preserved": true,
+  "new_builds_so_far": 0,
+  "pre_attempt_tests": "131",
+  "records": [
+    {
+      "bytes": 39735,
+      "path": "examples/phase5_2_2_e_5/source_manifest.json",
+      "sha256": "d3be6930859d368842a498e6db9a0f2cee4dd5697ec1b0fe65909c3207ddd792"
+    },
+    {
+      "bytes": 496,
+      "path": "examples/phase5_2_2_e_5/cache_identity.json",
+      "sha256": "559bcb48e6cd78cf5c668400319283ee6c17cfcd583edb6690f0f5367e8840f1"
+    },
+    {
+      "bytes": 635824,
+      "path": "examples/phase5_2_2_e_5/dependency_manifest.json",
+      "sha256": "eb471e18cca6828bb2abbe2273184faaa693298807363b0280630cb180a6adba"
+    },
+    {
+      "bytes": 76072,
+      "path": "examples/phase5_2_2_e_5/buildplan_descriptor_verification.json",
+      "sha256": "06c8355cb6fdf9aee93d351a0b25918b1f2fe16fde62d7f7f20dd9ba6d656993"
+    },
+    {
+      "bytes": 67015,
+      "path": "examples/phase5_2_2_e_5/compile_phase_requirements.json",
+      "sha256": "c8eee841865e5e7257915ff490da2ac6b200a4444a0ea3a92d1f5cdbdc83d35d"
+    },
+    {
+      "bytes": 1259,
+      "path": "examples/phase5_2_2_e_5/initial_frontier_comparison.json",
+      "sha256": "c4f09bbdd39d5a7fd377e5e99e137743b5441e51ffaf9dbff4fcb4aa7e405dd7"
+    },
+    {
+      "bytes": 7881,
+      "path": "examples/phase5_2_2_e_5/final_static_readiness.json",
+      "sha256": "bf4bcd8cf50d8caa895faf748c169edc097e81c2054cfb1bb4321407696aa293"
+    },
+    {
+      "bytes": 7794,
+      "path": "examples/phase5_2_2_e_5/profile_scope_verification.json",
+      "sha256": "91bb10f977649f5d8d91e5cee1d33804a96bd6361069d6be481a5c890cad4a80"
+    },
+    {
+      "bytes": 320261,
+      "path": "examples/phase5_2_2_e_5/profiles_and_runtime_uncertainty.json",
+      "sha256": "833111451a74b4de656d3767b5a4cefa064aff5a7651d2b4ccd21baea1300e1a"
+    },
+    {
+      "bytes": 368,
+      "path": "examples/phase5_2_2_e_5/runtime_cache_capacity.json",
+      "sha256": "d65f8c84c1afc42f176e8e049d30075f876278670213a86730b671be473154c2"
+    }
+  ],
+  "status": "PASS"
+}
