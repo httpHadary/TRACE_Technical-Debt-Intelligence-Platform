@@ -1,0 +1,213 @@
+{
+  "archive_policy": "Bounded32MiB; flat allowlist/no traversal/symlinks/duplicates,8MiB/member",
+  "files": [
+    {
+      "bytes": 114774,
+      "name": "cache.after.sha256",
+      "sha256": "e5c3c3ec5fc84eb71ad5c448b646daade8b0bfd12aeb1569517b9c0de8f9e6c5"
+    },
+    {
+      "bytes": 50016,
+      "name": "cache.paths",
+      "sha256": "5bc6f5237b0eae298152a17c2ea11d5889952e15675e5ac99e1efdd4dc7f8238"
+    },
+    {
+      "bytes": 114774,
+      "name": "cache.post.sha256",
+      "sha256": "e5c3c3ec5fc84eb71ad5c448b646daade8b0bfd12aeb1569517b9c0de8f9e6c5"
+    },
+    {
+      "bytes": 74,
+      "name": "cgroup.limits.txt",
+      "sha256": "e48373859473cbecfa963a000804b2405e23c9b16a0968597570efea099548cf"
+    },
+    {
+      "bytes": 276480,
+      "name": "classes.tar",
+      "sha256": "2ee81eb4915de0c612e6659f5e904955467a327d01c50677cd440d1a0922e83e"
+    },
+    {
+      "bytes": 16,
+      "name": "command-category.txt",
+      "sha256": "0d232b4530e09ea594b9764760cf5ee036df313875ac6e33cfcd7a1fadeb26f2"
+    },
+    {
+      "bytes": 2599,
+      "name": "compiler-created.txt",
+      "sha256": "fd2a3ebaaaed974c3ecb5f0c35736f1d692a57b6ddde626da5a2855aaeb2d2d8"
+    },
+    {
+      "bytes": 2385,
+      "name": "compiler-inputs.txt",
+      "sha256": "790e434611c55fbae4e91236db55b1e74c64519eb77e12db103cf553c0bfa281"
+    },
+    {
+      "bytes": 179,
+      "name": "cpu.stat",
+      "sha256": "4523c469de13d6759171279e47187df3b064896c9ab9106aad7d2fc900857a4c"
+    },
+    {
+      "bytes": 67,
+      "name": "disk-usage.txt",
+      "sha256": "13bdf0ad7ae925feb5e1ccd2b51f4b54f6da526cc919d64bae455167d02332f6"
+    },
+    {
+      "bytes": 2,
+      "name": "exit.code",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 63,
+      "name": "log.sizes",
+      "sha256": "47051d903f670c7874b02aa61c638b365664a6b0f7fc6fa050837d3d3e8a6284"
+    },
+    {
+      "bytes": 9,
+      "name": "maven.ended.uptime",
+      "sha256": "9295a4b64a838c5cd1b4654288c89094bd1cef041fdb11871e98acd658388d52"
+    },
+    {
+      "bytes": 2,
+      "name": "maven.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 9,
+      "name": "maven.started.uptime",
+      "sha256": "0002c8a40dda05a8c496032af6fdbbe2ab5591d037b349e5cf9d865056eb6631"
+    },
+    {
+      "bytes": 17,
+      "name": "maven.state.txt",
+      "sha256": "8ce8b5d6e24a9c5a8feff3a6d90ced48601facf1e29e1edbeebc255c9760c3f8"
+    },
+    {
+      "bytes": 569,
+      "name": "maven.stderr",
+      "sha256": "be5f38791a2c8234e5577eeec406dc992d9ed4ec9501c6a078ffc6594433a7b8"
+    },
+    {
+      "bytes": 5164,
+      "name": "maven.stdout",
+      "sha256": "2d001d132a8e7f2fae5c659aab3308dd8493e068a021e3fffee90d06ab3bd11e"
+    },
+    {
+      "bytes": 70,
+      "name": "memory.events",
+      "sha256": "0a2d4e7982066cc7dc914627e7b195ccba88b82a5a996201809e529142d2f380"
+    },
+    {
+      "bytes": 10,
+      "name": "memory.peak",
+      "sha256": "8e4f36a60450fe4cf0f541df89caff86d0c165431fdc4c5b9fe19bd173f72c07"
+    },
+    {
+      "bytes": 58,
+      "name": "mount-ownership.txt",
+      "sha256": "733696b58f60fa3990139b6f32c8e4f94fb813c150ad34828acbcfcc43186c33"
+    },
+    {
+      "bytes": 4352,
+      "name": "mountinfo.txt",
+      "sha256": "91bffddf8d96989fe78faaa98cfcb3aa3941de315ab1093dab904db2251e4431"
+    },
+    {
+      "bytes": 226,
+      "name": "passed-stages.txt",
+      "sha256": "d838b7ff50cdf4e5aa36fb0f53ac849691028b5ecb7e38d89bbfd6247ede988a"
+    },
+    {
+      "bytes": 5,
+      "name": "post-capture.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 3,
+      "name": "processes.txt",
+      "sha256": "7018c575f475e3e18f7842706d0c4773aea346bf2ca7cf516dd7697a79fe2e94"
+    },
+    {
+      "bytes": 0,
+      "name": "ready",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 261,
+      "name": "repository-usage.after.txt",
+      "sha256": "4986f507a44ae25f94925760f55a545a7191a2e643567d64708baec98178c6d4"
+    },
+    {
+      "bytes": 261,
+      "name": "repository-usage.before.txt",
+      "sha256": "4986f507a44ae25f94925760f55a545a7191a2e643567d64708baec98178c6d4"
+    },
+    {
+      "bytes": 5,
+      "name": "setup.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 0,
+      "name": "setup.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 692,
+      "name": "setup.stdout",
+      "sha256": "119696c453270fb17a85fabeec01a2c418c3db2aa3fd2bdbfd8f523ac4ee870f"
+    },
+    {
+      "bytes": 16868,
+      "name": "source.after.sha256",
+      "sha256": "6e80798c6ce45299444571f3c47ccdc849fa6ba711ad930d235c207fe64144f3"
+    },
+    {
+      "bytes": 11234,
+      "name": "source.modes.after",
+      "sha256": "4030b07195380f77a47df1065faa735c90984d41660ad9ce43afcd7b9e6dfe82"
+    },
+    {
+      "bytes": 7208,
+      "name": "source.modes.before",
+      "sha256": "5c7e579f1b77ab27fe8456bfb3a7dfb8c3ee15180c02b1c2b0993708413fa134"
+    },
+    {
+      "bytes": 6656,
+      "name": "source.paths",
+      "sha256": "d7aa702092f1634003e70f7e733c34c7dfb9080a3b67b2e69814e6080fa13be4"
+    },
+    {
+      "bytes": 25304,
+      "name": "source.post.sha256",
+      "sha256": "c53e050565ee472b677547c6ea98d3b1e056e532e0a16e600c92603a4cf533af"
+    },
+    {
+      "bytes": 2,
+      "name": "source.verify.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 0,
+      "name": "source.verify.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "name": "source.verify.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 16,
+      "name": "stage.txt",
+      "sha256": "2b9869c0ec94656a35d35646cf9f283a0fc5c67b62ba400d04834ecf1f713718"
+    },
+    {
+      "bytes": 8,
+      "name": "working-directory.txt",
+      "sha256": "528b690443e45716ef5e7e82b8068a54d7095dcca8e1c790adf2a2263078761e"
+    }
+  ],
+  "full_logs_complete": true,
+  "missing_required_measurements": [],
+  "raw_private_files_published": false
+}
