@@ -1,0 +1,35 @@
+{
+  "exit_trap_code": 1,
+  "initial_artifacts": 679,
+  "initial_source_files": 117,
+  "maven_exit": 1,
+  "mount_ownership": [
+    "/source 1000:1000:1777",
+    "/runtime-repository 1000:1000:1777"
+  ],
+  "passed_stages": [
+    "MODE",
+    "IDENTITY",
+    "CGROUP",
+    "MOUNT_OWNERSHIP",
+    "SOURCE_COPY",
+    "SOURCE_PERMISSIONS",
+    "ARTIFACT_COPY",
+    "ARTIFACT_PERMISSIONS",
+    "WORKING_DIRECTORY",
+    "SOURCE_HASHES",
+    "CACHE_HASHES",
+    "POPULATION",
+    "WRITABILITY",
+    "FINAL_SOURCE_HASHES",
+    "FINAL_CACHE_HASHES"
+  ],
+  "post_capture_complete": true,
+  "setup_complete": true,
+  "setup_stderr_bytes": 0,
+  "setup_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "setup_stdout_sha256": "7a2224f3d6db2d264c66aa87656cef2315260dbbdc2dcf541feb19837df15c55",
+  "terminal_category": "offline_compile",
+  "terminal_stage": "MAVEN_LIFECYCLE",
+  "version": "e04-setup-v1"
+}

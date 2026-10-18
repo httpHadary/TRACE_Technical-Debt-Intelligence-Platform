@@ -1,0 +1,21 @@
+{
+  "all_preexisting_container_inventory_unchanged": false,
+  "e04_container_created_time_nano": 1792287398706738498,
+  "events": [
+    {
+      "action": "die",
+      "time_nano": 1792287059458878084
+    },
+    {
+      "action": "destroy",
+      "time_nano": 1792287059587015543
+    }
+  ],
+  "overall_inventory_preservation": "PARTIAL_SHARED_CONTAINER_INVENTORY_CHANGE",
+  "protected_research_and_source_preservation": "PASS",
+  "removed_container_image": "olympus-quivr-toolchain:20261017",
+  "removed_unrelated_container_id_prefix": "d3cf1248657f",
+  "task_cleanup_target": "E.0.4 labelled UUID container only; old Sonar preserved",
+  "unrelated_container_destroyed_before_e04_created": true,
+  "version": "e04-shared-environment-observation-v1"
+}

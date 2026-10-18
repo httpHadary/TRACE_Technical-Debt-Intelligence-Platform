@@ -1,0 +1,58 @@
+{
+  "admission_immediately_before_start": {
+    "available_ram_bytes": 5995515904,
+    "container_budget_bytes": 2147483648,
+    "free_disk_bytes": 20661628928,
+    "headroom_bytes": 2147483648,
+    "prohibited_processes": [],
+    "repository_capacity": {
+      "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+      "estimated_directory_bytes": 3133440,
+      "estimated_total_bytes": 95465472,
+      "metadata_reserve_bytes": 16777216,
+      "payload_bytes": 74152353,
+      "repository_tmpfs_bytes": 134217728,
+      "rounded_file_bytes": 75554816
+    },
+    "required_available_bytes": 4294967296,
+    "running_containers": 0
+  },
+  "cgroup_limits": "memory.max=2147483648\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=64\n",
+  "cgroup_peak_memory_bytes": 261582848,
+  "cleanup_complete": true,
+  "container_memory_limit_bytes": 2147483648,
+  "cpu_stat": {
+    "burst_usec": 0,
+    "core_sched.force_idle_usec": 0,
+    "nice_usec": 0,
+    "nr_bursts": 0,
+    "nr_periods": 61,
+    "nr_throttled": 56,
+    "system_usec": 616086,
+    "throttled_usec": 7503207,
+    "usage_usec": 6057683,
+    "user_usec": 5441597
+  },
+  "docker_exit": 1,
+  "heap_limit_bytes": 805306368,
+  "host_execution_seconds": 7.174548526001672,
+  "maven_exit": 1,
+  "maven_reported_time_seconds": 3.399,
+  "maven_timeout_seconds": 240,
+  "maven_wrapper_duration_seconds": 5.5,
+  "memory_events": {
+    "high": 0,
+    "low": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_group_kill": 0,
+    "oom_kill": 0,
+    "sock_throttled": 0
+  },
+  "minimum_host_available_bytes": 5802532864,
+  "monitor_timeout_seconds": 265,
+  "oom_killed": false,
+  "outer_controller_timeout_seconds": 330,
+  "peak_scope": "EXIT trap after post-run diagnostics; not a claim about unobserved later export/cleanup peak",
+  "version": "e04-resource-v1"
+}

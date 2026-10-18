@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all679_artifacts_unchanged": true,
+    "cleanup": true,
+    "docker_logs": true,
+    "logs_complete": true,
+    "no_oom": true,
+    "no_unexpected_controller_errors": true,
+    "one_start": true,
+    "required_capture_available": true,
+    "source_hashes": true,
+    "terminal_exits_agree": true
+  },
+  "complete": true,
+  "unavailable": []
+}

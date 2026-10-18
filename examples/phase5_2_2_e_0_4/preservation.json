@@ -1,0 +1,51 @@
+{
+  "all_preexisting_containers_still_present": false,
+  "external_transient_container_observed_during_preservation": false,
+  "frozen_artifacts": 322,
+  "frozen_bundles": 56,
+  "maven_executions": 1,
+  "old_attempt_claims_unchanged": true,
+  "old_sonar_state_and_volumes_unchanged": true,
+  "peak_rss_kib": 32672,
+  "phase5_1_bundles": 2,
+  "preexisting_central_files": 529,
+  "preexisting_working_files": 440,
+  "previous_task_files_unchanged": {
+    "D": 1378,
+    "D1": 615,
+    "D2": 630,
+    "D3": 842,
+    "E0": 790,
+    "E01": 818,
+    "E02": 832,
+    "E03": 703
+  },
+  "protected_research_and_source_preservation": "PASS",
+  "reference_user_cache_artifacts_rehashed": 75,
+  "remaining_preexisting_containers_preserved": true,
+  "request_ledgers_unchanged": {
+    "D": 2000,
+    "D1": 400,
+    "D2": 52,
+    "D3": 112,
+    "E03": 56
+  },
+  "sonar_executions": 0,
+  "source_database_and_model_hashes_verified": true,
+  "status": "PARTIAL_SHARED_CONTAINER_INVENTORY_CHANGE",
+  "t0_git_tree_and_117_blobs_verified": true,
+  "task_cleanup_only_owned_container": true,
+  "task_container_startups": 1,
+  "task_containers_remaining": 0,
+  "unrelated_preexisting_containers_no_longer_present": [
+    {
+      "id_prefix": "d3cf1248657f",
+      "image": "olympus-quivr-toolchain:20261017",
+      "state_at_snapshot": "running"
+    }
+  ],
+  "unrelated_services_stopped_by_task": 0,
+  "unrelated_untracked_files_unchanged": 4,
+  "user_cache_entries_unchanged": 6262,
+  "working_original_head": "2e7999ea436d49449652e6c52e9066ef2e514419"
+}

@@ -1,0 +1,24 @@
+{
+  "artifacts": 679,
+  "capacity": {
+    "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+    "estimated_directory_bytes": 3133440,
+    "estimated_total_bytes": 95465472,
+    "metadata_reserve_bytes": 16777216,
+    "payload_bytes": 74152353,
+    "repository_tmpfs_bytes": 134217728,
+    "rounded_file_bytes": 75554816
+  },
+  "independent_copies": true,
+  "prelaunch_verification": {
+    "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+    "estimated_directory_bytes": 3133440,
+    "estimated_total_bytes": 95465472,
+    "metadata_reserve_bytes": 16777216,
+    "payload_bytes": 74152353,
+    "repository_tmpfs_bytes": 134217728,
+    "rounded_file_bytes": 75554816
+  },
+  "source_files": 117,
+  "status": "INPUTS_VERIFIED"
+}

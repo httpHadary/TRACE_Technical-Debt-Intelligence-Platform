@@ -1,0 +1,71 @@
+{
+  "actual_plugin_order": [
+    {
+      "execution": "enforce-maven-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "enforce-java-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "rat-check",
+      "goal": "check",
+      "prefix": "apache-rat",
+      "project": "commons-cli",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "goal": "check-buildplan",
+      "prefix": "artifact",
+      "project": "commons-cli",
+      "version": "3.5.1"
+    }
+  ],
+  "bundle_manifest_goal": {
+    "actual_goal_execution": false,
+    "configured_phase": "process-classes",
+    "coordinates": "org.apache.felix:maven-bundle-plugin:5.1.9",
+    "goal": "manifest",
+    "lookup_requested_by": "check-buildplan during validate"
+  },
+  "class_count": 0,
+  "compiler_classpath": "NOT_REACHED",
+  "compiler_invocation": "NOT_REACHED",
+  "outcomes": [
+    {
+      "evidence": "RequireMavenVersion passed",
+      "execution": "enforce-maven-version",
+      "result": "PASSED"
+    },
+    {
+      "evidence": "RequireJavaVersion passed",
+      "execution": "enforce-java-version",
+      "result": "PASSED"
+    },
+    {
+      "evidence": "Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 106 licenses.",
+      "execution": "rat-check",
+      "result": "PASSED"
+    },
+    {
+      "evidence": "[ERROR] Failed to execute goal org.apache.maven.plugins:maven-artifact-plugin:3.5.1:check-buildplan (check-buildplan) on project commons-cli: Cannot calculate Maven execution planPlugin org.apache.felix:maven-bundle-plugin:5.1.9 or one of its dependencies could not be resolved:",
+      "execution": "check-buildplan",
+      "result": "FAILED"
+    }
+  ],
+  "profiles": "No explicit profiles; D.3 pinned-context identity preserved. No separate runtime profile listing executed or claimed.",
+  "remaining_goals": "Remote resources/build-helper/buildnumber/antrun/resources/compiler not reached; no skip property added",
+  "scm": [],
+  "scm_buildnumber": "NOT_REACHED",
+  "test_compilation_observed": false,
+  "unapproved_goals_observed": [],
+  "version": "e04-actual-lifecycle-v1"
+}
