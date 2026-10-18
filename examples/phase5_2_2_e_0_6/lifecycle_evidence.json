@@ -1,0 +1,173 @@
+{
+  "actual_plugin_order": [
+    {
+      "execution": "enforce-maven-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "enforce-java-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "rat-check",
+      "goal": "check",
+      "prefix": "apache-rat",
+      "project": "commons-cli",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "goal": "check-buildplan",
+      "prefix": "artifact",
+      "project": "commons-cli",
+      "version": "3.5.1"
+    },
+    {
+      "execution": "parse-version",
+      "goal": "parse-version",
+      "prefix": "build-helper",
+      "project": "commons-cli",
+      "version": "3.6.0"
+    },
+    {
+      "execution": "javadoc.resources",
+      "goal": "run",
+      "prefix": "antrun",
+      "project": "commons-cli",
+      "version": "3.1.0"
+    },
+    {
+      "execution": "process-resource-bundles",
+      "goal": "process",
+      "prefix": "remote-resources",
+      "project": "commons-cli",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default",
+      "goal": "create",
+      "prefix": "buildnumber",
+      "project": "commons-cli",
+      "version": "3.2.1"
+    },
+    {
+      "execution": "default-resources",
+      "goal": "resources",
+      "prefix": "resources",
+      "project": "commons-cli",
+      "version": "3.3.1"
+    },
+    {
+      "execution": "default-compile",
+      "goal": "compile",
+      "prefix": "compiler",
+      "project": "commons-cli",
+      "version": "3.13.0"
+    }
+  ],
+  "all_ten_original_executions_verified": true,
+  "check_buildplan": "PASSED",
+  "check_buildplan_reported_plugin_count": 20,
+  "compiler": {
+    "declared_compile_dependencies": [],
+    "declared_project_dependencies": [
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-api",
+          "5.11.1"
+        ],
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-engine",
+          "5.11.1"
+        ],
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-params",
+          "5.11.1"
+        ],
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "commons-io",
+          "commons-io",
+          "2.17.0"
+        ],
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.mockito",
+          "mockito-core",
+          "4.11.0"
+        ],
+        "scope": "test"
+      }
+    ],
+    "invocation_observation": "Compiler3.13.0 goal and javac [debug release8] log, actual26 inputs and37 outputs",
+    "limitation": "Do not equate effective declarations with a captured compiler argument vector; no extra goal/debug setting was used",
+    "observed_runtime_classpath": "UNAVAILABLE_NOT_LOGGED_BY_REGISTERED_COMMAND"
+  },
+  "full_stderr_private_sha256": "15246df14513cd3b8f91238eaac71eae92235f5101b8890c61c32280377b9ccf",
+  "full_stdout_private_sha256": "32b4a73b9247b47515291ddd819eadc2a04e8b74e17077e9218a2a55c4749645",
+  "profile_evidence": "No explicit profiles; frozen D.3 evidence preserved. No additional Help/profile goal executed.",
+  "remote_resources": "Original bound goal invoked; it reported Skipping remote resources execution under unchanged historical configuration. No agent skip override.",
+  "scm": {
+    "branch": "UNKNOWN_BRANCH",
+    "detached_export_preserved": true,
+    "fake_git_metadata": false,
+    "goal_invoked": true,
+    "observations": [
+      "[INFO] no known issue with org.codehaus.mojo:buildnumber-maven-plugin:3.2.1",
+      "[INFO] --- buildnumber:3.2.1:create (default) @ commons-cli ---",
+      "[INFO] maven is executed in offline mode, Updating project files from SCM: skipped.",
+      "Exception while executing SCM command.",
+      "[INFO] Storing buildNumber: ?????? at timestamp: 1792342841745",
+      "[WARNING] Cannot get the branch information from the git repository: ",
+      "Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /)",
+      "Exception while executing SCM command."
+    ],
+    "outcome": "NONFATAL_ORIGINAL_CONFIGURED_FALLBACK",
+    "revision": "??????"
+  },
+  "selected_actual_log_lines": [
+    "[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ commons-cli ---",
+    "[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed",
+    "[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ commons-cli ---",
+    "[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed",
+    "[INFO] --- apache-rat:0.16.1:check (rat-check) @ commons-cli ---",
+    "[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 106 licenses.",
+    "[INFO] --- artifact:3.5.1:check-buildplan (check-buildplan) @ commons-cli ---",
+    "[INFO] --- build-helper:3.6.0:parse-version (parse-version) @ commons-cli ---",
+    "[INFO] --- antrun:3.1.0:run (javadoc.resources) @ commons-cli ---",
+    "[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ commons-cli ---",
+    "[INFO] Skipping remote resources execution.",
+    "[INFO] --- buildnumber:3.2.1:create (default) @ commons-cli ---",
+    "[INFO] maven is executed in offline mode, Updating project files from SCM: skipped.",
+    "[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : ",
+    "Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /)",
+    "[INFO] Storing scmBranch: UNKNOWN_BRANCH",
+    "[INFO] --- resources:3.3.1:resources (default-resources) @ commons-cli ---",
+    "[INFO] --- compiler:3.13.0:compile (default-compile) @ commons-cli ---",
+    "[INFO] Compiling 26 source files with javac [debug release 8] to target/classes",
+    "[INFO] BUILD SUCCESS"
+  ],
+  "selected_lines_are_excerpts": true,
+  "test_compilation_observed": false,
+  "unapproved_goal_executions": [],
+  "version": "e06-lifecycle-v1"
+}

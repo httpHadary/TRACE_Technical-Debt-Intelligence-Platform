@@ -1,0 +1,91 @@
+{
+  "files": [
+    {
+      "bytes": 1424,
+      "path": "NEXT_STEP_HANDOFF.md",
+      "sha256": "483e870ba7700610cd0cf69dee5fb7085a1080b1c5108346f448342246f7dd26"
+    },
+    {
+      "bytes": 1259,
+      "path": "README.md",
+      "sha256": "da492f109657c37c7a3b5df262cf50c0ab4cc6c677ec758d5d17fb1d2ede8e8d"
+    },
+    {
+      "bytes": 5314,
+      "path": "all_source_states_preservation.json",
+      "sha256": "0407cdcd6f00f6d88ff5795c38e8101608e2177276243d82eabc622005601e75"
+    },
+    {
+      "bytes": 4446,
+      "path": "build_execution_evidence.json",
+      "sha256": "65f477d3f4100db6c83cc3f9617820e96d80f821acb3825a47cbaae997988c46"
+    },
+    {
+      "bytes": 9581,
+      "path": "capture_inventory.json",
+      "sha256": "c26960556c1d7a2d02829cff19613f549da5a83727ea9a4079a9b33a1b8d22dd"
+    },
+    {
+      "bytes": 15684,
+      "path": "class_output_manifest.json",
+      "sha256": "c2b865c61b6f8cbaba3643cc568ec4d86768d9ea5c6ab74fb9f481f83b04cf3a"
+    },
+    {
+      "bytes": 1940,
+      "path": "compile_registration.json",
+      "sha256": "35b49707df5bd0d2f140386909c0950c4606d0daef02c5592841059a30a326f7"
+    },
+    {
+      "bytes": 1537,
+      "path": "input_verification.json",
+      "sha256": "14c8a174ab31373aa3546132972c6ed616dbf39157736683b688ec8a23f0e40d"
+    },
+    {
+      "bytes": 6134,
+      "path": "lifecycle_evidence.json",
+      "sha256": "a2fba059f3e0afc886eff236a1f6be2a9f2c75b114022ea98d108e3c7325b4ce"
+    },
+    {
+      "bytes": 7887,
+      "path": "output_verification.json",
+      "sha256": "2c4507bb3b452ad57e9270f05e096464c12722054b833c13ec3148ac00f1f011"
+    },
+    {
+      "bytes": 1463,
+      "path": "preservation.json",
+      "sha256": "d246fd0b9668b4dddb98ec3573b01a7ef360e196ec3dc7cb300dd9a11b1a115e"
+    },
+    {
+      "bytes": 3089,
+      "path": "resource_evidence.json",
+      "sha256": "4ff06cd40deae689e53bdb8d70fb5a590bdc065b466d62a32711e95e918c951a"
+    },
+    {
+      "bytes": 2544,
+      "path": "runtime_dependency_resolution.json",
+      "sha256": "b5af2cca53bb41abaef8446537c58f2fe6aec2a16300875aca44310a72d4778d"
+    },
+    {
+      "bytes": 243919,
+      "path": "runtime_inputs.json",
+      "sha256": "1c27dfba04c8dd7244bbd2accf7564ec1e2f7cc6beaa2a8fbc2bf7d716e7006c"
+    },
+    {
+      "bytes": 1808,
+      "path": "sandbox_policy.json",
+      "sha256": "775c67acf0920e8877c3ac216defe57389416c858cdfeb2cf4b6175e3f044872"
+    },
+    {
+      "bytes": 1385,
+      "path": "source_cache_preservation.json",
+      "sha256": "9e2f822ebf818477e79701e3e604b48d42e92e7544c03107672d82bed55d6b12"
+    },
+    {
+      "bytes": 3287,
+      "path": "verification.json",
+      "sha256": "d00bd14c52a89a719aaf37a2bf760a386766bd276e8f433bb63254b93d18aedb"
+    }
+  ],
+  "scope": "All evidence siblings except this non-self-referential manifest",
+  "version": "e06-published-evidence-v1"
+}

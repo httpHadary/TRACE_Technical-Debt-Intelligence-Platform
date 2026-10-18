@@ -1,0 +1,37 @@
+{
+  "adapter_sha256": "39be69b9721050b9cb9d021a4e24390d399dfa03f5a5318e411a08b15bc71d1c",
+  "all697_hashes_coordinates_xml_crc_provenance_verified": true,
+  "canonical_cache_sha256": "a84a27a2f5f9d9bed4af8dbf56a04a91b2910580f66c67952362d215f62d0b22",
+  "dependency_manifest_sha256": "ed23ccde95a89081c1c19f3de39ee9199a50b15eacf0647e316f62acf1f97b84",
+  "downloads": 0,
+  "effective_model_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "frozen_source_executable_modes_verified": true,
+  "java_executions": 0,
+  "maven_executions": 0,
+  "model_issues": [],
+  "parent_bom_closure_verified": true,
+  "peak_rss_kib": 40000,
+  "pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "preparation": {
+    "artifacts": 697,
+    "capacity": {
+      "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+      "estimated_directory_bytes": 3244032,
+      "estimated_total_bytes": 96309248,
+      "metadata_reserve_bytes": 16777216,
+      "payload_bytes": 74846407,
+      "repository_tmpfs_bytes": 134217728,
+      "rounded_file_bytes": 76288000
+    },
+    "independent_copies": true,
+    "source_files": 117,
+    "status": "INPUTS_VERIFIED"
+  },
+  "prepared_source_modes_verified": true,
+  "previous_cache_used_read_only": true,
+  "source_commit": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "source_files": 117,
+  "source_tree": "ac7521be84b2820a83f7b960d329a15521408214",
+  "static_descriptors": 20,
+  "status": "PASS"
+}

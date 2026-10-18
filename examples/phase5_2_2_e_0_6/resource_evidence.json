@@ -1,0 +1,95 @@
+{
+  "actual_controller_address_space_cap_bytes": 1073741824,
+  "additional_swap_bytes": 0,
+  "admission": {
+    "available_ram_bytes": 6832898048,
+    "container_budget_bytes": 2147483648,
+    "free_disk_bytes": 16152612864,
+    "headroom_bytes": 2147483648,
+    "prohibited_processes": [],
+    "repository_capacity": {
+      "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+      "estimated_directory_bytes": 3244032,
+      "estimated_total_bytes": 96309248,
+      "metadata_reserve_bytes": 16777216,
+      "payload_bytes": 74846407,
+      "repository_tmpfs_bytes": 134217728,
+      "rounded_file_bytes": 76288000
+    },
+    "required_available_bytes": 4294967296,
+    "running_containers": 0
+  },
+  "admission_immediately_before_start": {
+    "available_ram_bytes": 6787158016,
+    "container_budget_bytes": 2147483648,
+    "free_disk_bytes": 16152514560,
+    "headroom_bytes": 2147483648,
+    "prohibited_processes": [],
+    "repository_capacity": {
+      "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+      "estimated_directory_bytes": 3244032,
+      "estimated_total_bytes": 96309248,
+      "metadata_reserve_bytes": 16777216,
+      "payload_bytes": 74846407,
+      "repository_tmpfs_bytes": 134217728,
+      "rounded_file_bytes": 76288000
+    },
+    "required_available_bytes": 4294967296,
+    "running_containers": 0
+  },
+  "cgroup_limits": "memory.max=2147483648\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=64\n",
+  "cgroup_metrics": {
+    "cpu.stat": {
+      "burst_usec": 0,
+      "core_sched.force_idle_usec": 0,
+      "nice_usec": 0,
+      "nr_bursts": 0,
+      "nr_periods": 143,
+      "nr_throttled": 141,
+      "system_usec": 1116924,
+      "throttled_usec": 20795416,
+      "usage_usec": 14207514,
+      "user_usec": 13090590
+    },
+    "memory.events": {
+      "high": 0,
+      "low": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_group_kill": 0,
+      "oom_kill": 0,
+      "sock_throttled": 0
+    }
+  },
+  "cgroup_peak_memory_bytes": 353783808,
+  "container_memory_limit": 2147483648,
+  "controller_cpu_affinity": [
+    0
+  ],
+  "controller_peak_rss": "UNAVAILABLE_NOT_MEASURED",
+  "cpus": 1,
+  "downloads": 0,
+  "heap_max_bytes": 805306368,
+  "host_seconds": 15.422831405001489,
+  "maven_reported_seconds": 10.471,
+  "maven_wrapper_seconds": 13.520000000000437,
+  "minimum_host_available_bytes": 6481297408,
+  "no_other_task_containers_started": true,
+  "observed_sandbox_disk_payload_bytes": {
+    "/output": 509457,
+    "/runtime-repository": 74846407,
+    "/source": 1053998,
+    "/tmp": 0
+  },
+  "oom_killed": false,
+  "pids": 64,
+  "repository_tmpfs_capacity": {
+    "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+    "estimated_directory_bytes": 3244032,
+    "estimated_total_bytes": 96309248,
+    "metadata_reserve_bytes": 16777216,
+    "payload_bytes": 74846407,
+    "repository_tmpfs_bytes": 134217728,
+    "rounded_file_bytes": 76288000
+  }
+}

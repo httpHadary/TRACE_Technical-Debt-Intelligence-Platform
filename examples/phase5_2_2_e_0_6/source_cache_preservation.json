@@ -1,0 +1,28 @@
+{
+  "artifacts": 697,
+  "cache_changes": {
+    "added_metadata": [],
+    "assessment": "OBSERVED",
+    "missing_or_changed_seed_artifacts": [],
+    "seed_artifacts_unchanged": true
+  },
+  "cache_post_inventory_sha256": "ad9f25f9a3a471f8f2fa8b9275e72f416646e2e0223fdda4211488bd02ccdfbc",
+  "canonical_cache_sha256": "a84a27a2f5f9d9bed4af8dbf56a04a91b2910580f66c67952362d215f62d0b22",
+  "dependency_manifest_sha256": "ed23ccde95a89081c1c19f3de39ee9199a50b15eacf0647e316f62acf1f97b84",
+  "effective_pom_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "fake_git_metadata": false,
+  "git_commit": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "git_tree": "ac7521be84b2820a83f7b960d329a15521408214",
+  "independently_verified_inputs": true,
+  "old_caches_mutated": false,
+  "original_attempt_claims_reused": false,
+  "pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "source_bytes_preserved": true,
+  "source_files": 117,
+  "source_mode_after_sha256": "b10a0b16057fab2993dc5d69a0f665194f99c33827dd1efcb5a9a80d11c70f4e",
+  "source_mode_before_sha256": "02ea55b1750190cde9d1480950f809b719fab156b358630de10a6b3351fc52b6",
+  "source_modes_before_and_after_match": true,
+  "source_post_inventory_sha256": "01de87e6d6ca21e607c7806ac13db716f5f7a1d1a354e151f01a938fdb653021",
+  "status": "PASS",
+  "unregistered_input_artifacts": 0
+}
