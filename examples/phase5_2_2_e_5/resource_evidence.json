@@ -1,0 +1,62 @@
+{
+  "accounting": "Response/checksum bodies; unread errors,headers and TLS excluded. Local candidate bytes are verified but are not network payload. GitHub publication is separate from the sealed Maven batch.",
+  "acquisition_elapsed_seconds": 68.44186523900134,
+  "acquisition_peak_rss_kib": 45156,
+  "actual_address_space_limit_bytes": 1073741824,
+  "actual_cpu_affinity": [
+    0
+  ],
+  "admission": {
+    "available_memory_bytes": 9154469888,
+    "before_snapshot": "before.json",
+    "container_startups": 0,
+    "free_disk_bytes": 15257423872,
+    "java_invocations": 0,
+    "maven_invocations": 0,
+    "observation_scope": "Before RAM/disk/container snapshot and final process-name observation; not continuous global workload telemetry",
+    "operation": "static verification and one sealed acquisition batch",
+    "phase": "E.5",
+    "running_containers_before": 0,
+    "selected_prohibited_process_names_at_final_inspection": []
+  },
+  "approved_local_new_artifacts": [
+    {
+      "bytes": 673587,
+      "path": "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar"
+    },
+    {
+      "bytes": 31256,
+      "path": "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom"
+    },
+    {
+      "bytes": 77692,
+      "path": "org/apache/commons/commons-parent/73/commons-parent-73.pom"
+    }
+  ],
+  "automatic_http_retries": 0,
+  "available_ram_bytes": 9276452864,
+  "checksum_404s": 10,
+  "containers_started": 0,
+  "free_disk_bytes": 15337668608,
+  "java_executions": 0,
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "artifact_bytes": 16777216,
+    "cpus": 1,
+    "requests": 80,
+    "response_bytes": 25165824,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600
+  },
+  "maven_executions": 0,
+  "new_artifact_bytes": 1063725,
+  "new_artifact_count": 5,
+  "offline_audit_peak_rss_kib": 45772,
+  "read_only_daemon_inspection": "GET existing container/volume metadata only; no Docker CLI or container execution",
+  "requests": 17,
+  "response_payload_bytes": 281390,
+  "task_storage_bytes_at_verification": 94982602,
+  "task_storage_bytes_before_publication": 95319963,
+  "transport_retries": 0,
+  "workers": 1
+}

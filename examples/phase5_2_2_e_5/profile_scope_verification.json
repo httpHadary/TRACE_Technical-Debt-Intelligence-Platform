@@ -1,0 +1,96 @@
+{
+  "all_old_phase_files_unchanged": true,
+  "evidence": [
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": false,
+      "disposition": "NON_PROPAGATING_REMOTE_TEST_DEPENDENCIES",
+      "path": "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom",
+      "profiles": [
+        "java-8-10",
+        "java-11-21",
+        "java-22-up"
+      ],
+      "scope_evidence": {
+        "actual_activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+        "gav": [
+          "org.apache.commons",
+          "commons-text",
+          "1.13.0"
+        ],
+        "metadata_layers": [
+          {
+            "artifact": "apache",
+            "relevant_coordinate_subtrees_checked": 5,
+            "version": "33"
+          },
+          {
+            "artifact": "commons-parent",
+            "relevant_coordinate_subtrees_checked": 6,
+            "version": "78"
+          },
+          {
+            "artifact": "commons-text",
+            "relevant_coordinate_subtrees_checked": 4,
+            "version": "1.13.0"
+          }
+        ],
+        "non_test_coordinate_consumers": 0,
+        "pom_path": "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom",
+        "pom_sha256": "d46614bdca6d1195c333ba9f730cd08585c4f332a43ea7b90b6035ad804871d8",
+        "profile_properties": [
+          "commons.mockito.version",
+          "graalvm.version"
+        ],
+        "profiles": [
+          {
+            "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+            "all_declared_dependency_scopes": [
+              "test",
+              "test",
+              "test"
+            ],
+            "id": "java-8-10",
+            "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n\t    \n      <ns0:id>java-8-10</ns0:id>\n      <ns0:activation>\n\t\t<ns0:jdk>[1.8,10)</ns0:jdk>\n\t  </ns0:activation>\n      <ns0:properties>\n        <ns0:commons.mockito.version>4.11.0</ns0:commons.mockito.version>\n        <ns0:graalvm.version>22.0.0.2</ns0:graalvm.version>\n      </ns0:properties>\n\t  <ns0:dependencies>\n        <ns0:dependency>\n          <ns0:groupId>org.mockito</ns0:groupId>\n          \n          <ns0:artifactId>mockito-inline</ns0:artifactId>\n          <ns0:version>${commons.mockito.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js-scriptengine</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n\t  </ns0:dependencies>\n    </ns0:profile>\n    "
+          },
+          {
+            "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+            "all_declared_dependency_scopes": [
+              "test",
+              "test",
+              "test"
+            ],
+            "id": "java-11-21",
+            "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n\t    \n      <ns0:id>java-11-21</ns0:id>\n      <ns0:activation>\n\t\t<ns0:jdk>[11,22)</ns0:jdk>\n\t  </ns0:activation>\n      <ns0:properties>\n        <ns0:commons.mockito.version>5.2.0</ns0:commons.mockito.version>\n        <ns0:graalvm.version>22.3.5</ns0:graalvm.version>\n      </ns0:properties>\n\t    <ns0:dependencies>\n        <ns0:dependency>\n          <ns0:groupId>org.mockito</ns0:groupId>\n          \n          <ns0:artifactId>mockito-inline</ns0:artifactId>\n          <ns0:version>${commons.mockito.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js-scriptengine</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n\t  </ns0:dependencies>\n    </ns0:profile>\n    "
+          },
+          {
+            "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+            "all_declared_dependency_scopes": [
+              "test",
+              "test",
+              "test",
+              "test"
+            ],
+            "id": "java-22-up",
+            "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n\t    \n      <ns0:id>java-22-up</ns0:id>\n      <ns0:activation>\n\t\t<ns0:jdk>[22,)</ns0:jdk>\n\t  </ns0:activation>\n      <ns0:properties>\n        <ns0:graalvm.version>24.1.1</ns0:graalvm.version>\n        <ns0:commons.mockito.version>5.2.0</ns0:commons.mockito.version>\n      </ns0:properties>\n      <ns0:build>\n        <ns0:plugins>\n          <ns0:plugin>\n            \n            <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n            <ns0:artifactId>maven-surefire-plugin</ns0:artifactId>\n            <ns0:configuration>\n              <ns0:systemPropertyVariables>\n                <ns0:net.bytebuddy.experimental>true</ns0:net.bytebuddy.experimental>\n              </ns0:systemPropertyVariables>\n            </ns0:configuration>\n          </ns0:plugin>\n\t\t</ns0:plugins>\n\t  </ns0:build>\n\t  <ns0:dependencies>\n        <ns0:dependency>\n          <ns0:groupId>org.mockito</ns0:groupId>\n          \n          <ns0:artifactId>mockito-inline</ns0:artifactId>\n          <ns0:version>${commons.mockito.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n\n\n\n\n\n\n        \n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js-language</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.truffle</ns0:groupId>\n          <ns0:artifactId>truffle-runtime</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>        \n        <ns0:dependency>\n          <ns0:groupId>org.graalvm.js</ns0:groupId>\n          <ns0:artifactId>js-scriptengine</ns0:artifactId>\n          <ns0:version>${graalvm.version}</ns0:version>\n          <ns0:scope>test</ns0:scope>\n        </ns0:dependency>\n\t  </ns0:dependencies>\n    </ns0:profile>\n    "
+          }
+        ],
+        "reason": "Remote artifact own test dependencies/build only; test edges do not propagate into Commons CLI. Profile properties cannot change inherited non-test dependency, management, parent or artifact coordinates. No activation result is assumed.",
+        "transitively_affected_properties": [
+          "commons.mockito.version",
+          "graalvm.version"
+        ]
+      },
+      "status": "UNKNOWN_REMOTE_DESCRIPTOR_DEPENDENCY_PROFILE_ACTIVATION"
+    }
+  ],
+  "executed_source_sha256": "bc43f1efbf9a57c42d29699ba6ade9ef2790e227d243f2991e315c92dead084e",
+  "extra_requests": 0,
+  "final_status": "PASS_STATIC_T_PLUS_90_READINESS",
+  "initial_status": "PARTIAL",
+  "published_source_sha256": "770e5338472c4f0f5718574e1280abf29adbe88c5ab8dd2e08fe7b0c314e6e33",
+  "raw_audit_and_acquisition_manifest_unchanged": true,
+  "scope": "Commons Text own test profiles do not propagate into Commons CLI dependency graph; no activation claimed",
+  "status": "PASS",
+  "transport_budget_and_acquisition_ast_unchanged": true
+}
