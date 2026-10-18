@@ -1,0 +1,138 @@
+{
+  "actual_plugin_order": [],
+  "downloads": 0,
+  "error_excerpt": [
+    "[ERROR] Failed to execute goal on project commons-cli: Could not resolve dependencies for project commons-cli:commons-cli:jar:1.9.1-SNAPSHOT",
+    "[ERROR] dependency: org.junit.jupiter:junit-jupiter-api:jar:5.11.1 (test)",
+    "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-api:jar:5.11.1 has not been downloaded from it before.",
+    "[ERROR] dependency: org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 (test)",
+    "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 has not been downloaded from it before.",
+    "[ERROR] dependency: org.junit.jupiter:junit-jupiter-params:jar:5.11.1 (test)",
+    "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-params:jar:5.11.1 has not been downloaded from it before.",
+    "[ERROR] dependency: commons-io:commons-io:jar:2.17.0 (test)",
+    "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact commons-io:commons-io:jar:2.17.0 has not been downloaded from it before.",
+    "[ERROR] dependency: org.mockito:mockito-core:jar:4.11.0 (test)",
+    "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.mockito:mockito-core:jar:4.11.0 has not been downloaded from it before.",
+    "[ERROR] -> [Help 1]"
+  ],
+  "first_error": "[ERROR] Failed to execute goal on project commons-cli: Could not resolve dependencies for project commons-cli:commons-cli:jar:1.9.1-SNAPSHOT",
+  "maven_actually_launched": true,
+  "missing_artifacts": [
+    {
+      "artifact": "junit-jupiter-api",
+      "classifier": "",
+      "disposition": "ABSENT_FROM_REGISTERED_CACHE",
+      "evidence": "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-api:jar:5.11.1 has not been downloaded from it before.",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar",
+      "seed_bytes_present": false,
+      "type": "jar",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "junit-jupiter-engine",
+      "classifier": "",
+      "disposition": "ABSENT_FROM_REGISTERED_CACHE",
+      "evidence": "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 has not been downloaded from it before.",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar",
+      "seed_bytes_present": false,
+      "type": "jar",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "junit-jupiter-params",
+      "classifier": "",
+      "disposition": "ABSENT_FROM_REGISTERED_CACHE",
+      "evidence": "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-params:jar:5.11.1 has not been downloaded from it before.",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar",
+      "seed_bytes_present": false,
+      "type": "jar",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "commons-io",
+      "classifier": "",
+      "disposition": "ABSENT_FROM_REGISTERED_CACHE",
+      "evidence": "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact commons-io:commons-io:jar:2.17.0 has not been downloaded from it before.",
+      "group": "commons-io",
+      "path": "commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+      "seed_bytes_present": false,
+      "type": "jar",
+      "version": "2.17.0"
+    },
+    {
+      "artifact": "mockito-core",
+      "classifier": "",
+      "disposition": "ABSENT_FROM_REGISTERED_CACHE",
+      "evidence": "[ERROR] \tCannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.mockito:mockito-core:jar:4.11.0 has not been downloaded from it before.",
+      "group": "org.mockito",
+      "path": "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar",
+      "seed_bytes_present": false,
+      "type": "jar",
+      "version": "4.11.0"
+    },
+    {
+      "artifact": "junit-jupiter-api",
+      "classifier": "",
+      "disposition": "MISSING_DESCRIPTOR_WARNING",
+      "evidence": "[WARNING] The POM for org.junit.jupiter:junit-jupiter-api:jar:5.11.1 is missing, no dependency information available",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom",
+      "seed_bytes_present": false,
+      "type": "pom",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "junit-jupiter-engine",
+      "classifier": "",
+      "disposition": "MISSING_DESCRIPTOR_WARNING",
+      "evidence": "[WARNING] The POM for org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 is missing, no dependency information available",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom",
+      "seed_bytes_present": false,
+      "type": "pom",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "junit-jupiter-params",
+      "classifier": "",
+      "disposition": "MISSING_DESCRIPTOR_WARNING",
+      "evidence": "[WARNING] The POM for org.junit.jupiter:junit-jupiter-params:jar:5.11.1 is missing, no dependency information available",
+      "group": "org.junit.jupiter",
+      "path": "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom",
+      "seed_bytes_present": false,
+      "type": "pom",
+      "version": "5.11.1"
+    },
+    {
+      "artifact": "commons-io",
+      "classifier": "",
+      "disposition": "MISSING_DESCRIPTOR_WARNING",
+      "evidence": "[WARNING] The POM for commons-io:commons-io:jar:2.17.0 is missing, no dependency information available",
+      "group": "commons-io",
+      "path": "commons-io/commons-io/2.17.0/commons-io-2.17.0.pom",
+      "seed_bytes_present": false,
+      "type": "pom",
+      "version": "2.17.0"
+    },
+    {
+      "artifact": "mockito-core",
+      "classifier": "",
+      "disposition": "MISSING_DESCRIPTOR_WARNING",
+      "evidence": "[WARNING] The POM for org.mockito:mockito-core:jar:4.11.0 is missing, no dependency information available",
+      "group": "org.mockito",
+      "path": "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom",
+      "seed_bytes_present": false,
+      "type": "pom",
+      "version": "4.11.0"
+    }
+  ],
+  "missing_jar_count": 5,
+  "missing_pom_count": 5,
+  "recovery_performed": false,
+  "retry": false,
+  "smallest_correction": "Separately authorize acquisition of exact five POM/JAR roots and their required verified parent/BOM/runtime closures into a fresh cache; preserve versions/ledgers; no build until separately authorized.",
+  "status": "BLOCKED_DEPENDENCY"
+}

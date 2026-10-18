@@ -1,0 +1,116 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.9.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.junit.jupiter:junit-jupiter-api:jar:5.11.1 is missing, no dependency information available
+[WARNING] The POM for org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 is missing, no dependency information available
+[WARNING] The POM for org.junit.jupiter:junit-jupiter-params:jar:5.11.1 is missing, no dependency information available
+[WARNING] The POM for commons-io:commons-io:jar:2.17.0 is missing, no dependency information available
+[WARNING] The POM for org.mockito:mockito-core:jar:4.11.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.698 s
+[INFO] Finished at: 2026-10-18T00:24:22Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project commons-cli: Could not resolve dependencies for project commons-cli:commons-cli:jar:1.9.1-SNAPSHOT
+[ERROR] dependency: org.junit.jupiter:junit-jupiter-api:jar:5.11.1 (test)
+[ERROR] 	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-api:jar:5.11.1 has not been downloaded from it before.
+[ERROR] dependency: org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 (test)
+[ERROR] 	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 has not been downloaded from it before.
+[ERROR] dependency: org.junit.jupiter:junit-jupiter-params:jar:5.11.1 (test)
+[ERROR] 	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-params:jar:5.11.1 has not been downloaded from it before.
+[ERROR] dependency: commons-io:commons-io:jar:2.17.0 (test)
+[ERROR] 	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact commons-io:commons-io:jar:2.17.0 has not been downloaded from it before.
+[ERROR] dependency: org.mockito:mockito-core:jar:4.11.0 (test)
+[ERROR] 	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.mockito:mockito-core:jar:4.11.0 has not been downloaded from it before.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project commons-cli: Could not resolve dependencies for project commons-cli:commons-cli:jar:1.9.1-SNAPSHOT
+dependency: org.junit.jupiter:junit-jupiter-api:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-api:jar:5.11.1 has not been downloaded from it before.
+dependency: org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 has not been downloaded from it before.
+dependency: org.junit.jupiter:junit-jupiter-params:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-params:jar:5.11.1 has not been downloaded from it before.
+dependency: commons-io:commons-io:jar:2.17.0 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact commons-io:commons-io:jar:2.17.0 has not been downloaded from it before.
+dependency: org.mockito:mockito-core:jar:4.11.0 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.mockito:mockito-core:jar:4.11.0 has not been downloaded from it before.
+
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:246)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:314)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project commons-cli:commons-cli:jar:1.9.1-SNAPSHOT
+dependency: org.junit.jupiter:junit-jupiter-api:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-api:jar:5.11.1 has not been downloaded from it before.
+dependency: org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-engine:jar:5.11.1 has not been downloaded from it before.
+dependency: org.junit.jupiter:junit-jupiter-params:jar:5.11.1 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.junit.jupiter:junit-jupiter-params:jar:5.11.1 has not been downloaded from it before.
+dependency: commons-io:commons-io:jar:2.17.0 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact commons-io:commons-io:jar:2.17.0 has not been downloaded from it before.
+dependency: org.mockito:mockito-core:jar:4.11.0 (test)
+	Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.mockito:mockito-core:jar:4.11.0 has not been downloaded from it before.
+
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:191)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:227)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:136)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:355)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:314)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

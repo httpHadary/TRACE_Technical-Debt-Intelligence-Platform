@@ -1,0 +1,273 @@
+{
+  "actual_plugin_order": [],
+  "compiler": "NOT_REACHED",
+  "compiler_classpath": "NOT_REACHED",
+  "docker_exit": 1,
+  "enforcer_descriptor": {
+    "executed": false,
+    "gav": [
+      "org.apache.maven.plugins",
+      "maven-enforcer-plugin",
+      "3.5.0"
+    ],
+    "phase": "validate",
+    "requires_dependency_collection": "test",
+    "requires_dependency_resolution": null,
+    "sha256": "be757f04f006348df247dcf235ca45a292fe4472b969fddf38ec2c6a70c4d964"
+  },
+  "first_failure_location": "Project dependency resolution before any goal banner",
+  "logs": {
+    "complete": true,
+    "stderr_bytes": 565,
+    "stdout_bytes": 10901
+  },
+  "maven_actually_launched": true,
+  "maven_exit": 1,
+  "maven_launch_marker": "LAUNCH_REQUESTED",
+  "original_lifecycle_bindings": [
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "prepare-checkout",
+          "phase": "pre-site",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "compile",
+          "id": "default-compile",
+          "phase": "compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "testCompile",
+          "id": "default-testCompile",
+          "phase": "test-compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    },
+    {
+      "actual_status": "NOT_REACHED_PROJECT_DEPENDENCY_RESOLUTION",
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "testResources",
+          "id": "default-testResources",
+          "phase": "process-test-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "resources",
+          "id": "default-resources",
+          "phase": "process-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "goal_execution_observed": false,
+      "runtime_closure_resolved": false
+    }
+  ],
+  "passed_setup_stages": [
+    "MODE",
+    "IDENTITY",
+    "CGROUP",
+    "MOUNT_OWNERSHIP",
+    "SOURCE_COPY",
+    "SOURCE_PERMISSIONS",
+    "ARTIFACT_COPY",
+    "ARTIFACT_PERMISSIONS",
+    "WORKING_DIRECTORY",
+    "SOURCE_HASHES",
+    "CACHE_HASHES",
+    "POPULATION",
+    "WRITABILITY",
+    "FINAL_SOURCE_HASHES",
+    "FINAL_CACHE_HASHES"
+  ],
+  "scm_buildnumber": "NOT_REACHED",
+  "setup_passed": true,
+  "source_hashes_unchanged": true,
+  "terminal_command_category": "offline_compile",
+  "terminal_stage": "MAVEN_LIFECYCLE",
+  "test_compilation_observed": false
+}

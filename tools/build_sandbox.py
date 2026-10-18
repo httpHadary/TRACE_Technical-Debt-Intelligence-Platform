@@ -106,8 +106,9 @@ def inspect(name):
     return json.loads(docker('inspect',name))[0]
 
 
-def assert_owned(c,name):
-    if c['Name']!='/'+name or c['Config']['Labels'].get(LABEL)!=name:
+def assert_owned(c,name,label=None):
+    label=LABEL if label is None else label
+    if c['Name']!='/'+name or c['Config']['Labels'].get(label)!=name:
         raise ValueError('Cleanup ownership not established')
 
 
@@ -130,7 +131,8 @@ def verify_container(c,name,root):
     if any(m['Type'] not in ('bind','tmpfs') for m in c['Mounts']):raise ValueError('Unexpected volume')
 
 
-def extract_archive(raw,destination):
+def extract_archive(raw,destination,allowed=None):
+    allowed=ALLOWED if allowed is None else allowed
     if len(raw)>MAX_ARCHIVE:raise ValueError('Archive size cap')
     destination=Path(destination)
     if destination.is_symlink():raise ValueError('Unsafe output directory')
@@ -139,7 +141,8 @@ def extract_archive(raw,destination):
         for entry in archive:
             if entry.isdir() and entry.name in ('.','./'):continue
             name=entry.name.removeprefix('./')
-            if (name not in ALLOWED or not entry.isfile() or name in seen or entry.size<0 or entry.size>8*1024**2
+            if (PurePosixPath(name).name!=name or '\\' in name or name not in allowed
+                or not entry.isfile() or name in seen or entry.size<0 or entry.size>8*1024**2
                 or (destination/name).exists() or (destination/name).is_symlink()):
                 raise ValueError('Unsafe/duplicate archive member')
             total+=entry.size
@@ -151,14 +154,14 @@ def extract_archive(raw,destination):
     return sorted(seen)
 
 
-def collect_if_ready(name,output):
+def collect_if_ready(name,output,extractor=None):
     """An exec race is recorded, never treated as successful capture."""
     probe=call('exec',name,'/bin/sh','-c','if test -f /output/ready; then echo READY; fi')
     if probe.returncode:return dict(captured=False,race=True,error=probe.stderr.decode(errors='replace')[:1000])
     if probe.stdout.strip()!=b'READY':return dict(captured=False,race=False)
     archive=call('exec',name,'tar','--format=ustar','-C','/output','-cf','-','.')
     if archive.returncode:return dict(captured=False,race=True,error=archive.stderr.decode(errors='replace')[:1000])
-    members=extract_archive(archive.stdout,output)
+    members=(extract_archive if extractor is None else extractor)(archive.stdout,output)
     ack=call('exec',name,'/bin/sh','-c','touch /output/collected')
     return dict(captured=True,members=members,acknowledged=ack.returncode==0,race=ack.returncode!=0)
 
@@ -184,13 +187,13 @@ def daemon_events(container_id,since):
     return rows
 
 
-def retain_terminal_evidence(name,container_id,since,root,result):
+def retain_terminal_evidence(name,container_id,since,root,result,owner_label=None,collector=None):
     """Independent capture paths: failed inspect/exec cannot suppress Docker logs."""
     try:
-        c=inspect(name);assert_owned(c,name)
+        c=inspect(name);assert_owned(c,name,owner_label)
         if c['State']['Running']:
             if not result['capture']['captured']:
-                try:result['capture']=collect_if_ready(name,root/'capture')
+                try:result['capture']=(collect_if_ready if collector is None else collector)(name,root/'capture')
                 except Exception as exc:result['errors'].append(dict(kind='FINAL_CAPTURE',detail=str(exc)[:1000]))
             docker('kill',name);c=inspect(name)
         write(root/'inspect.final.private.json',c);result['terminal_state']=c['State']
@@ -203,7 +206,7 @@ def retain_terminal_evidence(name,container_id,since,root,result):
         result['events']=[dict(action=e['Action'],time_nano=e['timeNano'],exit_code=e['Actor']['Attributes'].get('exitCode')) for e in events]
     except Exception as exc:result['errors'].append(dict(kind='HOST_EVENTS',detail=str(exc)[:1000]))
     try:
-        current=inspect(name);assert_owned(current,name)
+        current=inspect(name);assert_owned(current,name,owner_label)
         docker('rm','-f','-v',name);result['cleanup_complete']=True
     except Exception as exc:result['errors'].append(dict(kind='CLEANUP',detail=str(exc)[:1000]))
 

@@ -1,0 +1,14 @@
+{
+  "all_copies_independent": true,
+  "artifact_count": 653,
+  "cache_manifest_sha256": "db5ebd65a706001ccfea78db29c800b08ce6b3f24ec86f64b0dc9c2d3aeae623",
+  "commit_sha": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "downloads": 0,
+  "original_e0_manifest_sha256": "79231de6752e0c484ff8e13a0ded378c972824affcb86dd4b08631c86cb7b0da",
+  "pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "source_count": 117,
+  "source_manifest_sha256": "5bf740882ad06877f333b28f3503f1bd6d270dd15217de2a643acb190f96aff4",
+  "tree_sha": "ac7521be84b2820a83f7b960d329a15521408214",
+  "version": "e01-seeds-v1",
+  "wrapper_sha256": "10566db2ba537d6d75207c4623e795d50b4cc436005e4a767690fbf6db1fd869"
+}

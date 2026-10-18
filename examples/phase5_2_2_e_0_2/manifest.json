@@ -1,0 +1,96 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1962,
+      "path": "E_0_3_NEXT_ACTION.md",
+      "sha256": "9772ddfb5b672ab1ab1ca4df67203180571c4b3f5e4a96b80dd535b8a88ce4b6"
+    },
+    {
+      "bytes": 1280,
+      "path": "README.md",
+      "sha256": "a6bf3eba4746888c05d95fa551923691b6132cf8309e52bee0f62e25d684b2da"
+    },
+    {
+      "bytes": 485,
+      "path": "approved_code_transitions.json",
+      "sha256": "3bcfc0625fc038b4cab3e1baa8af2ca2ef87556bc5bdcf5dff3ae7b22eb0a44e"
+    },
+    {
+      "bytes": 11202,
+      "path": "build_execution_evidence.json",
+      "sha256": "89228e437edf127d19b851d6ade9c0144012f8d0204904ca4920b80e24dbd4fa"
+    },
+    {
+      "bytes": 134,
+      "path": "cache_changes.json",
+      "sha256": "cdac2d4214ad8cdfeb9848b08e114dfe5cc357461f5df910d93eb54e282fe8a8"
+    },
+    {
+      "bytes": 5730,
+      "path": "capture_completeness.json",
+      "sha256": "b08faf10ee986097746e09d6b0fcb5a751c21b71b3a172ab14778fea6973531b"
+    },
+    {
+      "bytes": 2594,
+      "path": "class_output_manifest.json",
+      "sha256": "28e58c65d702d30dc97ddb470b8239f7b6a91ffa0322ee02172152a108ec244d"
+    },
+    {
+      "bytes": 1381,
+      "path": "compile_registration.json",
+      "sha256": "30f8a53cd05f9e7d60a931c35802139c7cb2b84c42a9045a58bd7fb69386abc6"
+    },
+    {
+      "bytes": 7171,
+      "path": "failure_manifest.json",
+      "sha256": "885cd4470554c31ed9b47491922fe7adcee1bbaaa1862232342206d7593b11b8"
+    },
+    {
+      "bytes": 565,
+      "path": "maven.stderr.txt",
+      "sha256": "7e52db3c76102f82dcd1c7a9d82f87ff69dc7fac0f3ac1b30201e2f3ebaa1db9"
+    },
+    {
+      "bytes": 10901,
+      "path": "maven.stdout.txt",
+      "sha256": "73698b652b6558d9f806af7cf196cc9cfd17f8163f85a40370a9061dfaa7a71a"
+    },
+    {
+      "bytes": 1745,
+      "path": "preservation.json",
+      "sha256": "83852b2d43b5a331844d0fa132f2e3bb075b1a40852a20d8ea50fba8521071ea"
+    },
+    {
+      "bytes": 1565,
+      "path": "resource_evidence.json",
+      "sha256": "104ef7428f9517167b770325ec4952a7cf8131e5bea1a2430323287e2d248bbd"
+    },
+    {
+      "bytes": 714,
+      "path": "seed_verification.json",
+      "sha256": "780dc55fbd26828ff7c7628a6f2cc72adf6a19b3d7f0ee4cd3e95791ae4a448a"
+    },
+    {
+      "bytes": 0,
+      "path": "setup.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 692,
+      "path": "setup.stdout.txt",
+      "sha256": "a50aa83dad6d1adfdbcac4f6ac24e89bcf2e63bcc91eda48ded7e69583bafc4e"
+    },
+    {
+      "bytes": 7657,
+      "path": "stage_evidence.json",
+      "sha256": "420ec640fb28e6780d34354d9e0e78899f70cbd76bc7de24481627ea3001fe60"
+    },
+    {
+      "bytes": 3329,
+      "path": "verification.json",
+      "sha256": "7872f9ee84ae1bfa9aa24d00ad9503616c5c8d0349896639ecdaf27c1a374ba9"
+    }
+  ],
+  "status": "BLOCKED_DEPENDENCY",
+  "version": "e02-publication-v1"
+}
