@@ -1,0 +1,574 @@
+{
+  "edges": [
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-api",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-manager-plexus",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-svnexe",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-gitexe",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-svn-commons",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-hg",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.google.code.maven-scm-provider-svnjava",
+        "maven-scm-provider-svnjava",
+        "2.3.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.tmatesoft.svnkit",
+        "svnkit",
+        "1.10.11"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.sonatype.plexus",
+        "plexus-sec-dispatcher",
+        "1.4"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.google.code.gson",
+        "gson",
+        "2.10.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.11"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-api",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.10.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-git-commons",
+        "2.0.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-provider-svn-commons",
+        "2.0.0-M3"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "net.java.dev.jna",
+        "jna",
+        "5.12.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "commons-lang",
+        "commons-lang",
+        "2.6"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.sshd",
+        "sshd-core",
+        "2.9.2"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.sshd",
+        "sshd-common",
+        "2.9.2"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "net.i2p.crypto",
+        "eddsa",
+        "0.3.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "de.regnis.q.sequence",
+        "sequence-library",
+        "1.0.4"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.tmatesoft.sqljet",
+        "sqljet",
+        "1.1.15"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "net.java.dev.jna",
+        "jna",
+        "5.6.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "net.java.dev.jna",
+        "jna-platform",
+        "5.6.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.trilead",
+        "trilead-ssh2",
+        "1.0.0-build222"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.connector-factory",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.svnkit-trilead-ssh2",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.lz4",
+        "lz4-java",
+        "1.4.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.5.5"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.sonatype.plexus",
+        "plexus-cipher",
+        "1.4"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.1"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.11"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.12.0"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.apache.maven.scm",
+        "maven-scm-api",
+        "2.0.0-M3"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.2"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.32"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.slf4j",
+        "jcl-over-slf4j",
+        "1.7.32"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "org.antlr",
+        "antlr-runtime",
+        "3.4"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.core",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.usocket-jna",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.usocket-nc",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.sshagent",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.pageant",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.trilead",
+        "trilead-ssh2",
+        "1.0.0-build217"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "gav": [
+        "com.jcraft",
+        "jsch.agentproxy.core",
+        "0.0.9"
+      ],
+      "reason": "Changed T-30 compile plugin buildnumber-maven-plugin",
+      "type": "jar"
+    }
+  ],
+  "issues": [
+    {
+      "identity": [
+        "org.apache.sshd",
+        "sshd-core",
+        "2.9.2"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.apache.sshd', 'sshd-core', '2.9.2'], 'id': 'no-containers-for-windows', 'active': None, 'reason': 'UNSUPPORTED_ACTIVATION_os'}"
+    }
+  ],
+  "roots": [
+    [
+      "org.codehaus.mojo",
+      "buildnumber-maven-plugin",
+      "3.2.0"
+    ]
+  ],
+  "runtime_resolution": "UNKNOWN_STATIC_CANDIDATES_ONLY",
+  "unchanged_plugin_scope": "Pinned T0 success is reuse evidence, not proof of T-30 effective-model equivalence"
+}

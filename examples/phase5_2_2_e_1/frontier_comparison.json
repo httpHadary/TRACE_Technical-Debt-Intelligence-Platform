@@ -1,0 +1,52 @@
+{
+  "acquisition_ledger_unchanged": true,
+  "actual_effective_model_sha256": null,
+  "actual_maven_execution": "NOT_EXECUTED",
+  "additional_requests": 0,
+  "after": [],
+  "before": [
+    "org/apache/maven/plugins/maven-surefire-plugin/3.4.0/maven-surefire-plugin-3.4.0.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.4.0/maven-surefire-plugin-3.4.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.pom"
+  ],
+  "compile_success": false,
+  "correction": "Managed default resources3.3.1 is unchanged, not a new plugin version; build-only remote SSHD test profile remains UNKNOWN but does not propagate to Commons CLI dependency graph.",
+  "executed_acquisition_adapter_sha256": "587db947cdadee6f3f877b01a45efc588878336d229f0ae18b4c1ec2fefb7db6",
+  "initial_acquisition_status": "PARTIAL",
+  "issues": [
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": false,
+      "disposition": "NON_PROPAGATING_REMOTE_TEST_PLUGIN_CONFIG",
+      "identity": [
+        "org.apache.sshd",
+        "sshd-core",
+        "2.9.2"
+      ],
+      "kind": "PROFILE",
+      "pom_path": "org/apache/sshd/sshd-core/2.9.2/sshd-core-2.9.2.pom",
+      "pom_sha256": "661287cb4dfd74368f506b680b97453e50d37272e1e4fd358bd0935f43980a05",
+      "profile_xml": "<ns0:profile xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n            <ns0:id>no-containers-for-windows</ns0:id>\n            <ns0:activation>\n                <ns0:os>\n                    <ns0:family>windows</ns0:family>\n                </ns0:os>\n            </ns0:activation>\n            <ns0:build>\n                <ns0:plugins>\n                    <ns0:plugin>\n                        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n                        <ns0:artifactId>maven-surefire-plugin</ns0:artifactId>\n                        <ns0:version>${surefire.plugin.version}</ns0:version>\n                        <ns0:configuration>\n                            <ns0:excludedGroups>org.apache.sshd.util.test.ContainerTestCase</ns0:excludedGroups>\n                        </ns0:configuration>\n                    </ns0:plugin>\n                </ns0:plugins>\n            </ns0:build>\n        </ns0:profile>\n    ",
+      "reason": "{'model': ['org.apache.sshd', 'sshd-core', '2.9.2'], 'id': 'no-containers-for-windows', 'active': None, 'reason': 'UNSUPPORTED_ACTIVATION_os'}",
+      "reason_for_scope": "Only SSHD own Surefire configuration; no dependency, dependency-management, properties or repository change. Not a Commons CLI parent profile."
+    }
+  ],
+  "missing_paths": [],
+  "newly_exposed_and_resolved": [
+    "org/apache/maven/surefire/surefire/3.4.0/surefire-3.4.0.pom",
+    "org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar",
+    "org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.pom",
+    "org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar",
+    "org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.pom"
+  ],
+  "published_adapter_sha256": "5a31cf1c1fb6264e8f533ea1db980be2c5d6670a952a8de63068968a1adcb084",
+  "read_only_reassessment": true,
+  "scope": "Static paths, descriptors and test closure only; activation and actual Maven model/runtime remain unverified",
+  "status": "PASS_STATIC_T_MINUS_30_READINESS",
+  "stop": null
+}
