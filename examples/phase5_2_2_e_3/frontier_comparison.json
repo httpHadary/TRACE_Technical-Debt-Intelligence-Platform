@@ -1,0 +1,47 @@
+{
+  "actual_effective_model_sha256": null,
+  "actual_maven_execution": "NOT_EXECUTED",
+  "after": [],
+  "before": [
+    "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar",
+    "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.1/maven-surefire-plugin-3.5.1.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.1/maven-surefire-plugin-3.5.1.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.9.0/cyclonedx-maven-plugin-2.9.0.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.9.0/cyclonedx-maven-plugin-2.9.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.pom"
+  ],
+  "capacity_status": "FITS_128_MIB",
+  "compile_success": false,
+  "issues": [],
+  "missing_paths": [],
+  "newly_exposed_resolved_paths": [
+    "org/apache/maven/surefire/surefire/3.5.1/surefire-3.5.1.pom",
+    "org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2.jar",
+    "org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2.pom",
+    "org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar",
+    "org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.pom"
+  ],
+  "resolved": [
+    "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar",
+    "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.1/maven-surefire-plugin-3.5.1.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.1/maven-surefire-plugin-3.5.1.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.9.0/cyclonedx-maven-plugin-2.9.0.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.9.0/cyclonedx-maven-plugin-2.9.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.pom"
+  ],
+  "scope": "Static paths/descriptors/closure only; actual model,profiles and classpaths remain unverified",
+  "status": "PASS_STATIC_T_PLUS_30_READINESS",
+  "stop": null
+}

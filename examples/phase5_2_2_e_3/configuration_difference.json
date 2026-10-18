@@ -1,0 +1,2412 @@
+{
+  "t0_vs_tplus30": {
+    "actual_tplus30_effective_pom_sha256": null,
+    "build_sections": {
+      "equal": true,
+      "t0": [
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "defaultGoal",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:defaultGoal xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">clean apache-rat:check verify site</ns0:defaultGoal>\n    "
+        },
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "resources",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:resources xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      \n      <ns0:resource>\n        <ns0:directory>src/main/resources</ns0:directory>\n      </ns0:resource>\n      \n      <ns0:resource>\n        <ns0:directory>${basedir}</ns0:directory>\n        <ns0:targetPath>META-INF</ns0:targetPath>\n        <ns0:includes>\n          <ns0:include>NOTICE.txt</ns0:include>\n          <ns0:include>LICENSE.txt</ns0:include>\n          <ns0:include>NOTICE</ns0:include>\n          <ns0:include>LICENSE</ns0:include>\n        </ns0:includes>\n      </ns0:resource>\n    </ns0:resources>\n    \n    "
+        },
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "testResources",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:testResources xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      \n      <ns0:testResource>\n        <ns0:directory>src/test/resources</ns0:directory>\n      </ns0:testResource>\n      \n      <ns0:testResource>\n        <ns0:directory>${basedir}</ns0:directory>\n        <ns0:targetPath>META-INF</ns0:targetPath>\n        <ns0:includes>\n          <ns0:include>NOTICE.txt</ns0:include>\n          <ns0:include>LICENSE.txt</ns0:include>\n          <ns0:include>NOTICE</ns0:include>\n          <ns0:include>LICENSE</ns0:include>\n        </ns0:includes>\n      </ns0:testResource>\n    </ns0:testResources>\n    "
+        },
+        {
+          "declaring_artifact": "commons-cli",
+          "section": "defaultGoal",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:defaultGoal xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">clean verify apache-rat:check japicmp:cmp checkstyle:check spotbugs:check pmd:check javadoc:javadoc</ns0:defaultGoal>\n    "
+        }
+      ],
+      "t_plus30": [
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "defaultGoal",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:defaultGoal xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">clean apache-rat:check verify site</ns0:defaultGoal>\n    "
+        },
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "resources",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:resources xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      \n      <ns0:resource>\n        <ns0:directory>src/main/resources</ns0:directory>\n      </ns0:resource>\n      \n      <ns0:resource>\n        <ns0:directory>${basedir}</ns0:directory>\n        <ns0:targetPath>META-INF</ns0:targetPath>\n        <ns0:includes>\n          <ns0:include>NOTICE.txt</ns0:include>\n          <ns0:include>LICENSE.txt</ns0:include>\n          <ns0:include>NOTICE</ns0:include>\n          <ns0:include>LICENSE</ns0:include>\n        </ns0:includes>\n      </ns0:resource>\n    </ns0:resources>\n    \n    "
+        },
+        {
+          "declaring_artifact": "commons-parent",
+          "section": "testResources",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:testResources xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n      \n      <ns0:testResource>\n        <ns0:directory>src/test/resources</ns0:directory>\n      </ns0:testResource>\n      \n      <ns0:testResource>\n        <ns0:directory>${basedir}</ns0:directory>\n        <ns0:targetPath>META-INF</ns0:targetPath>\n        <ns0:includes>\n          <ns0:include>NOTICE.txt</ns0:include>\n          <ns0:include>LICENSE.txt</ns0:include>\n          <ns0:include>NOTICE</ns0:include>\n          <ns0:include>LICENSE</ns0:include>\n        </ns0:includes>\n      </ns0:testResource>\n    </ns0:testResources>\n    "
+        },
+        {
+          "declaring_artifact": "commons-cli",
+          "section": "defaultGoal",
+          "status": "STATIC_INHERITANCE_INPUT_NOT_ACTUAL_EFFECTIVE_BUILD_SECTION",
+          "xml": "<ns0:defaultGoal xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">clean verify apache-rat:check japicmp:cmp checkstyle:check spotbugs:check pmd:check javadoc:javadoc</ns0:defaultGoal>\n    "
+        }
+      ]
+    },
+    "changed_properties": {
+      "commons.asm.version": {
+        "t0": null,
+        "t_plus30": "9.7.1"
+      },
+      "commons.bc.version": {
+        "t0": "1.8.0",
+        "t_plus30": "1.9.0"
+      },
+      "commons.checkstyle.version": {
+        "t0": "10.18.1",
+        "t_plus30": "10.18.2"
+      },
+      "commons.cobertura.version": {
+        "t0": "2.7",
+        "t_plus30": null
+      },
+      "commons.cyclonedx.version": {
+        "t0": "2.8.1",
+        "t_plus30": "2.9.0"
+      },
+      "commons.failsafe.version": {
+        "t0": "3.5.0",
+        "t_plus30": "3.5.1"
+      },
+      "commons.javadoc.version": {
+        "t0": "3.10.0",
+        "t_plus30": "3.10.1"
+      },
+      "commons.junit.version": {
+        "t0": "5.11.1",
+        "t_plus30": "5.11.2"
+      },
+      "commons.osgi.export": {
+        "t0": "org.apache.commons.*;version=1.9.1-SNAPSHOT;-noimport:=true",
+        "t_plus30": "org.apache.commons.*;version=1.10.0-SNAPSHOT;-noimport:=true"
+      },
+      "commons.pmd-impl.version": {
+        "t0": "7.5.0",
+        "t_plus30": "7.6.0"
+      },
+      "commons.pmd.version": {
+        "t0": "3.25.0",
+        "t_plus30": "3.24.0"
+      },
+      "commons.release.name": {
+        "t0": "commons-cli-1.9.0",
+        "t_plus30": "commons-cli-1.10.0"
+      },
+      "commons.release.next": {
+        "t0": "1.9.1",
+        "t_plus30": "1.10.1"
+      },
+      "commons.release.version": {
+        "t0": "1.9.0",
+        "t_plus30": "1.10.0"
+      },
+      "commons.surefire-report.version": {
+        "t0": "3.5.0",
+        "t_plus30": "3.5.1"
+      },
+      "commons.surefire.version": {
+        "t0": "3.5.0",
+        "t_plus30": "3.5.1"
+      },
+      "commons.taglist.version": {
+        "t0": null,
+        "t_plus30": "3.2.1"
+      },
+      "pom.version": {
+        "t0": "1.9.1-SNAPSHOT",
+        "t_plus30": "1.10.0-SNAPSHOT"
+      },
+      "project.parent.version": {
+        "t0": "76",
+        "t_plus30": "78"
+      },
+      "project.version": {
+        "t0": "1.9.1-SNAPSHOT",
+        "t_plus30": "1.10.0-SNAPSHOT"
+      }
+    },
+    "compiler_release": "8",
+    "dependencies": {
+      "equal": false,
+      "t0": [
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-api",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-engine",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-params",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope",
+            "version"
+          ],
+          "gav": [
+            "commons-io",
+            "commons-io",
+            "2.17.0"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope",
+            "version"
+          ],
+          "gav": [
+            "org.mockito",
+            "mockito-core",
+            "4.11.0"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        }
+      ],
+      "t_plus30": [
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-api",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-engine",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-params",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope",
+            "version"
+          ],
+          "gav": [
+            "commons-io",
+            "commons-io",
+            "2.17.0"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope",
+            "version"
+          ],
+          "gav": [
+            "org.apache.commons",
+            "commons-text",
+            "1.12.0"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "scope",
+            "version"
+          ],
+          "gav": [
+            "org.mockito",
+            "mockito-core",
+            "4.11.0"
+          ],
+          "optional": false,
+          "scope": "test",
+          "type": "jar"
+        }
+      ]
+    },
+    "dependency_management": {
+      "equal": false,
+      "t0": [
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.apache.maven.plugin-tools",
+            "maven-plugin-annotations",
+            "3.13.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-api",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-engine",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-migrationsupport",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-params",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-commons",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-console",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-engine",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-jfr",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-launcher",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-reporting",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-runner",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-api",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-commons",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-engine",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-testkit",
+            "1.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.vintage",
+            "junit-vintage-engine",
+            "5.11.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        }
+      ],
+      "t_plus30": [
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.apache.maven.plugin-tools",
+            "maven-plugin-annotations",
+            "3.13.1"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-api",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-engine",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-migrationsupport",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.jupiter",
+            "junit-jupiter-params",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-commons",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-console",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-engine",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-jfr",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-launcher",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-reporting",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-runner",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-api",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-commons",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-suite-engine",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.platform",
+            "junit-platform-testkit",
+            "1.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        },
+        {
+          "classifier": "",
+          "exclusions": [],
+          "explicit_fields": [
+            "artifactId",
+            "groupId",
+            "version"
+          ],
+          "gav": [
+            "org.junit.vintage",
+            "junit-vintage-engine",
+            "5.11.2"
+          ],
+          "optional": false,
+          "scope": "compile",
+          "type": "jar"
+        }
+      ]
+    },
+    "explicit_profiles": [],
+    "imports": {
+      "equal": false,
+      "t0": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.11.1"
+        ]
+      ],
+      "t_plus30": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.11.2"
+        ]
+      ]
+    },
+    "maven_test_skip": true,
+    "method": "Independent static parent inheritance, not actual Maven effective models",
+    "parent_chain": {
+      "equal": false,
+      "t0": [
+        [
+          "org.apache",
+          "apache",
+          "33"
+        ],
+        [
+          "org.apache.commons",
+          "commons-parent",
+          "76"
+        ],
+        [
+          "commons-cli",
+          "commons-cli",
+          "1.9.1-SNAPSHOT"
+        ]
+      ],
+      "t_plus30": [
+        [
+          "org.apache",
+          "apache",
+          "33"
+        ],
+        [
+          "org.apache.commons",
+          "commons-parent",
+          "78"
+        ],
+        [
+          "commons-cli",
+          "commons-cli",
+          "1.10.0-SNAPSHOT"
+        ]
+      ]
+    },
+    "plugins": {
+      "equal": false,
+      "t0": [
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${version.maven-remote-resources-plugin}</ns0:version>\n        <ns0:configuration>\n            \n            <ns0:skip>true</ns0:skip>\n          </ns0:configuration>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-remote-resources-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>process-resource-bundles</ns0:id>\n            <ns0:goals>\n              <ns0:goal>process</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:resourceBundles>\n                <ns0:resourceBundle>org.apache.apache.resources:apache-jar-resource-bundle:${version.apache-resource-bundles}</ns0:resourceBundle>\n              </ns0:resourceBundles>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "process",
+              "id": "process-resource-bundles",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-remote-resources-plugin",
+            "3.2.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${version.maven-enforcer-plugin}</ns0:version>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-enforcer-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>enforce-maven-version</ns0:id>\n            <ns0:goals>\n              <ns0:goal>enforce</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:rules>\n                <ns0:requireMavenVersion>\n                  <ns0:version>${minimalMavenBuildVersion}</ns0:version>\n                </ns0:requireMavenVersion>\n              </ns0:rules>\n            </ns0:configuration>\n          </ns0:execution>\n          <ns0:execution>\n            <ns0:id>enforce-java-version</ns0:id>\n            <ns0:goals>\n              <ns0:goal>enforce</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:rules>\n                <ns0:requireJavaVersion>\n                  <ns0:version>${minimalJavaBuildVersion}</ns0:version>\n                </ns0:requireJavaVersion>\n              </ns0:rules>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "enforce",
+              "id": "enforce-maven-version",
+              "phase": null
+            },
+            {
+              "goal": "enforce",
+              "id": "enforce-java-version",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-enforcer-plugin",
+            "3.5.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.site-plugin.version}</ns0:version>\n          <ns0:dependencies>\n            <ns0:dependency>\n              \n              <ns0:groupId>org.apache.maven.wagon</ns0:groupId>\n              <ns0:artifactId>wagon-ssh</ns0:artifactId>\n              <ns0:version>${commons.wagon-ssh.version}</ns0:version>\n            </ns0:dependency>\n          </ns0:dependencies>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>attach-descriptor</ns0:id>\n              <ns0:goals>\n                <ns0:goal>attach-descriptor</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-site-plugin</ns0:artifactId>\n        <ns0:inherited>false</ns0:inherited>\n        <ns0:configuration>\n          <ns0:skip>true</ns0:skip>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "attach-descriptor",
+              "id": "attach-descriptor",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "3.12.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:executions>\n          <ns0:execution>\n            <ns0:id>javadoc.resources</ns0:id>\n            <ns0:phase>generate-sources</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>run</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:target>\n                <ns0:copy todir=\"${project.build.directory}/apidocs/META-INF\">\n                  <ns0:fileset dir=\"${basedir}\">\n                    <ns0:include name=\"LICENSE.txt\" />\n                    <ns0:include name=\"NOTICE.txt\" />\n                    <ns0:include name=\"LICENSE\" />\n                    <ns0:include name=\"NOTICE\" />\n                  </ns0:fileset>\n                </ns0:copy>\n              </ns0:target>\n            </ns0:configuration>\n          </ns0:execution>\n        <ns0:execution>\n                <ns0:id>prepare-checkout</ns0:id>\n                <ns0:phase>pre-site</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>run</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:target>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"checkout --depth immediates ${commons.scmPubUrl} ${commons.scmPubCheckoutDirectory}\" />\n                    </ns0:exec>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"update --set-depth exclude ${commons.scmPubCheckoutDirectory}/javadocs\" />\n                    </ns0:exec>\n                    <ns0:pathconvert pathsep=\" \" property=\"dirs\">\n                      <ns0:dirset dir=\"${commons.scmPubCheckoutDirectory}\" includes=\"*\" />\n                    </ns0:pathconvert>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"update --set-depth infinity ${dirs}\" />\n                    </ns0:exec>\n                  </ns0:target>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n      <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n            <ns0:artifactId>maven-antrun-plugin</ns0:artifactId>\n            <ns0:version>3.1.0</ns0:version>\n            </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "run",
+              "id": "javadoc.resources",
+              "phase": "generate-sources"
+            },
+            {
+              "goal": "run",
+              "id": "prepare-checkout",
+              "phase": "pre-site"
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-antrun-plugin",
+            "3.1.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.compiler.version}</ns0:version>\n          <ns0:configuration>\n            <ns0:source>${maven.compiler.source}</ns0:source>\n            <ns0:target>${maven.compiler.target}</ns0:target>\n            <ns0:encoding>${commons.encoding}</ns0:encoding>\n            \n            <ns0:fork>${commons.compiler.fork}</ns0:fork>\n            \n            <ns0:compilerVersion>${commons.compiler.compilerVersion}</ns0:compilerVersion>\n            <ns0:executable>${commons.compiler.javac}</ns0:executable>\n          </ns0:configuration>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-compiler-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "compile",
+              "compile"
+            ],
+            [
+              "test-compile",
+              "testCompile"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-compiler-plugin",
+            "3.13.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-jar-plugin</ns0:artifactId>\n        <ns0:version>${commons.jar-plugin.version}</ns0:version>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:goals>\n              <ns0:goal>test-jar</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              \n              <ns0:skipIfEmpty>true</ns0:skipIfEmpty>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n        <ns0:configuration>\n          <ns0:archive>\n            <ns0:manifestFile>${commons.manifestfile}</ns0:manifestFile>\n            <ns0:manifestEntries>\n              <ns0:Specification-Title>${project.name}</ns0:Specification-Title>\n              <ns0:Specification-Version>${project.version}</ns0:Specification-Version>\n              <ns0:Specification-Vendor>${project.organization.name}</ns0:Specification-Vendor>\n              <ns0:Implementation-Title>${project.name}</ns0:Implementation-Title>\n              <ns0:Implementation-Version>${project.version}</ns0:Implementation-Version>\n              <ns0:Implementation-Vendor>${project.organization.name}</ns0:Implementation-Vendor>\n              <ns0:Implementation-Vendor-Id>org.apache</ns0:Implementation-Vendor-Id>\n              <ns0:X-Compile-Source-JDK>${maven.compiler.source}</ns0:X-Compile-Source-JDK>\n              <ns0:X-Compile-Target-JDK>${maven.compiler.target}</ns0:X-Compile-Target-JDK>\n            </ns0:manifestEntries>\n          </ns0:archive>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "package",
+              "jar"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "test-jar",
+              "id": "default",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-jar-plugin",
+            "3.4.2"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:version>${version.maven-source-plugin}</ns0:version>\n        <ns0:artifactId>maven-source-plugin</ns0:artifactId>\n        <ns0:configuration>\n          <ns0:archive>\n            <ns0:manifest>\n              <ns0:addDefaultImplementationEntries>true</ns0:addDefaultImplementationEntries>\n              <ns0:addDefaultSpecificationEntries>true</ns0:addDefaultSpecificationEntries>\n            </ns0:manifest>\n          </ns0:archive>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>create-source-jar</ns0:id>\n            <ns0:goals>\n              <ns0:goal>jar-no-fork</ns0:goal>\n              <ns0:goal>test-jar-no-fork</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "jar-no-fork",
+              "id": "create-source-jar",
+              "phase": null
+            },
+            {
+              "goal": "test-jar-no-fork",
+              "id": "create-source-jar",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-source-plugin",
+            "3.2.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-surefire-plugin</ns0:artifactId>\n        <ns0:version>${commons.surefire.version}</ns0:version>\n        <ns0:configuration>\n          \n          <ns0:jvm>${commons.surefire.java}</ns0:jvm>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "test",
+              "test"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-surefire-plugin",
+            "3.5.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.felix.version}</ns0:version>\n          <ns0:inherited>true</ns0:inherited>\n          <ns0:dependencies>\n            <ns0:dependency>\n              \n              <ns0:groupId>biz.aQute.bnd</ns0:groupId>\n              <ns0:artifactId>biz.aQute.bndlib</ns0:artifactId>\n              <ns0:version>${commons.biz.aQute.bndlib.version}</ns0:version>\n            </ns0:dependency>\n          </ns0:dependencies>\n        <ns0:groupId>org.apache.felix</ns0:groupId>\n        <ns0:artifactId>maven-bundle-plugin</ns0:artifactId>\n        <ns0:configuration>\n          \n          <ns0:archive>\n            <ns0:forced>true</ns0:forced>\n          </ns0:archive>\n          <ns0:excludeDependencies>${commons.osgi.excludeDependencies}</ns0:excludeDependencies>\n          <ns0:manifestLocation>${project.build.directory}/osgi</ns0:manifestLocation>\n          <ns0:instructions>\n            \n            <ns0:_nouses>true</ns0:_nouses>\n            \n            <ns0:_removeheaders>JAVA_1_3_HOME,JAVA_1_4_HOME,JAVA_1_5_HOME,JAVA_1_6_HOME,JAVA_1_7_HOME,JAVA_1_8_HOME,JAVA_1_9_HOME</ns0:_removeheaders>\n            <ns0:Bundle-SymbolicName>${commons.osgi.symbolicName}</ns0:Bundle-SymbolicName>\n            <ns0:Export-Package>${commons.osgi.export}</ns0:Export-Package>\n            <ns0:Private-Package>${commons.osgi.private}</ns0:Private-Package>\n            <ns0:Import-Package>${commons.osgi.import}</ns0:Import-Package>\n            <ns0:DynamicImport-Package>${commons.osgi.dynamicImport}</ns0:DynamicImport-Package>\n            <ns0:Bundle-DocURL>${project.url}</ns0:Bundle-DocURL>\n          </ns0:instructions>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>bundle-manifest</ns0:id>\n            <ns0:phase>process-classes</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>manifest</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "manifest",
+              "id": "bundle-manifest",
+              "phase": "process-classes"
+            }
+          ],
+          "gav": [
+            "org.apache.felix",
+            "maven-bundle-plugin",
+            "5.1.9"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.rat.version}</ns0:version>\n            \n            <ns0:groupId>org.apache.rat</ns0:groupId>\n        <ns0:artifactId>apache-rat-plugin</ns0:artifactId>\n        \n        <ns0:configuration>\n          \n          <ns0:excludes combine.children=\"append\">\n            <ns0:exclude>site-content/**</ns0:exclude>\n            <ns0:exclude>.checkstyle</ns0:exclude>\n            <ns0:exclude>.fbprefs</ns0:exclude>\n            <ns0:exclude>.pmd</ns0:exclude>\n            <ns0:exclude>.asf.yaml</ns0:exclude>\n            <ns0:exclude>.gitattributes</ns0:exclude>\n            <ns0:exclude>src/site/resources/download_*.cgi</ns0:exclude>\n            <ns0:exclude>src/site/resources/profile.*</ns0:exclude>\n            <ns0:exclude>profile.*</ns0:exclude>\n            \n            <ns0:exclude>maven-eclipse.xml</ns0:exclude>\n            <ns0:exclude>.externalToolBuilders/**</ns0:exclude>\n            \n            <ns0:exclude>.vscode/**</ns0:exclude>\n          </ns0:excludes>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>rat-check</ns0:id>\n            <ns0:phase>validate</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>check</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n      ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "check",
+              "id": "rat-check",
+              "phase": "validate"
+            }
+          ],
+          "gav": [
+            "org.apache.rat",
+            "apache-rat-plugin",
+            "0.16.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>3.5.1</ns0:version>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-artifact-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>check-buildplan</ns0:id>\n            <ns0:phase>validate</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>check-buildplan</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "check-buildplan",
+              "id": "check-buildplan",
+              "phase": "validate"
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-artifact-plugin",
+            "3.5.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.cyclonedx.version}</ns0:version>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>build-sbom-cyclonedx</ns0:id>\n              <ns0:phase>package</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>makeAggregateBom</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n          <ns0:configuration>\n            <ns0:outputName>${project.artifactId}-${project.version}-bom</ns0:outputName>\n          </ns0:configuration>\n        <ns0:groupId>org.cyclonedx</ns0:groupId>\n        <ns0:artifactId>cyclonedx-maven-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "makeAggregateBom",
+              "id": "build-sbom-cyclonedx",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.cyclonedx",
+            "cyclonedx-maven-plugin",
+            "2.8.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.spdx.version}</ns0:version>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>build-sbom-spdx</ns0:id>\n              <ns0:phase>package</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>createSPDX</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.spdx</ns0:groupId>\n        <ns0:artifactId>spdx-maven-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "createSPDX",
+              "id": "build-sbom-spdx",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.spdx",
+            "spdx-maven-plugin",
+            "0.7.4"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.build-helper.version}</ns0:version>\n        <ns0:groupId>org.codehaus.mojo</ns0:groupId>\n            <ns0:artifactId>build-helper-maven-plugin</ns0:artifactId>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:id>parse-version</ns0:id>\n                \n                <ns0:goals>\n                  <ns0:goal>parse-version</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:propertyPrefix>javaTarget</ns0:propertyPrefix>\n                  <ns0:versionString>${maven.compiler.target}</ns0:versionString>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "parse-version",
+              "id": "parse-version",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.codehaus.mojo",
+            "build-helper-maven-plugin",
+            "3.6.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>prepare-agent</ns0:id>\n              <ns0:phase>process-test-classes</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>prepare-agent</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n            <ns0:execution>\n              <ns0:id>report</ns0:id>\n              <ns0:phase>site</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>report</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n            <ns0:execution>\n              <ns0:id>check</ns0:id>\n              <ns0:goals>\n                <ns0:goal>check</ns0:goal>\n              </ns0:goals>\n              <ns0:configuration>\n                <ns0:rules>\n                  <ns0:rule>\n                    <ns0:element>BUNDLE</ns0:element>\n                    <ns0:limits>\n                      <ns0:limit>\n                        <ns0:counter>CLASS</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.classRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>INSTRUCTION</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.instructionRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>METHOD</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.methodRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>BRANCH</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.branchRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>LINE</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.lineRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>COMPLEXITY</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.complexityRatio}</ns0:minimum>\n                      </ns0:limit>\n                    </ns0:limits>\n                  </ns0:rule>\n                </ns0:rules>\n                <ns0:haltOnFailure>${commons.jacoco.haltOnFailure}</ns0:haltOnFailure>\n              </ns0:configuration>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.jacoco</ns0:groupId>\n            <ns0:artifactId>jacoco-maven-plugin</ns0:artifactId>\n            <ns0:version>${commons.jacoco.version}</ns0:version>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "prepare-agent",
+              "id": "prepare-agent",
+              "phase": "process-test-classes"
+            },
+            {
+              "goal": "report",
+              "id": "report",
+              "phase": "site"
+            },
+            {
+              "goal": "check",
+              "id": "check",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.jacoco",
+            "jacoco-maven-plugin",
+            "0.8.12"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.buildnumber-plugin.version}</ns0:version>\n        <ns0:groupId>org.codehaus.mojo</ns0:groupId>\n            <ns0:artifactId>buildnumber-maven-plugin</ns0:artifactId>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:phase>generate-resources</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>create</ns0:goal>\n                </ns0:goals>\n              </ns0:execution>\n            </ns0:executions>\n            <ns0:configuration>\n              \n              <ns0:useLastCommittedRevision>true</ns0:useLastCommittedRevision>\n              \n              <ns0:revisionOnScmFailure>??????</ns0:revisionOnScmFailure>\n              <ns0:doCheck>false</ns0:doCheck>\n              <ns0:doUpdate>false</ns0:doUpdate>\n            </ns0:configuration>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "create",
+              "id": "default",
+              "phase": "generate-resources"
+            }
+          ],
+          "gav": [
+            "org.codehaus.mojo",
+            "buildnumber-maven-plugin",
+            "3.2.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n            <ns0:groupId>org.moditect</ns0:groupId>\n            <ns0:artifactId>moditect-maven-plugin</ns0:artifactId>\n            <ns0:version>${commons.moditect-maven-plugin.version}</ns0:version>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:id>add-module-infos</ns0:id>\n                <ns0:phase>package</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>add-module-info</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:jvmVersion>${moditect.java.version}</ns0:jvmVersion>\n                  <ns0:jdepsExtraArgs>\n                    <ns0:arg>--multi-release=${moditect.java.version}</ns0:arg>\n                  </ns0:jdepsExtraArgs>\n                  <ns0:outputDirectory>${project.build.directory}</ns0:outputDirectory>\n                  <ns0:overwriteExistingFiles>true</ns0:overwriteExistingFiles>\n                  <ns0:failOnWarning>false</ns0:failOnWarning>\n                  <ns0:module>\n                    <ns0:moduleInfo>\n                      <ns0:name>${commons.module.name}</ns0:name>\n                      <ns0:addServiceUses>${commons.moditect-maven-plugin.addServiceUses}</ns0:addServiceUses>\n                    </ns0:moduleInfo>\n                  </ns0:module>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n          </ns0:plugin>\n\t\t",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "add-module-info",
+              "id": "add-module-infos",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.moditect",
+            "moditect-maven-plugin",
+            "1.2.2.Final"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-resources-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-resources-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "process-resources",
+              "resources"
+            ],
+            [
+              "process-test-resources",
+              "testResources"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-resources-plugin",
+            "3.3.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-install-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-install-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "install",
+              "install"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-install-plugin",
+            "3.1.2"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-deploy-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-deploy-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "deploy",
+              "deploy"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-deploy-plugin",
+            "3.1.2"
+          ]
+        }
+      ],
+      "t_plus30": [
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${version.maven-remote-resources-plugin}</ns0:version>\n        <ns0:configuration>\n            \n            <ns0:skip>true</ns0:skip>\n          </ns0:configuration>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-remote-resources-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>process-resource-bundles</ns0:id>\n            <ns0:goals>\n              <ns0:goal>process</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:resourceBundles>\n                <ns0:resourceBundle>org.apache.apache.resources:apache-jar-resource-bundle:${version.apache-resource-bundles}</ns0:resourceBundle>\n              </ns0:resourceBundles>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "process",
+              "id": "process-resource-bundles",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-remote-resources-plugin",
+            "3.2.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${version.maven-enforcer-plugin}</ns0:version>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-enforcer-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>enforce-maven-version</ns0:id>\n            <ns0:goals>\n              <ns0:goal>enforce</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:rules>\n                <ns0:requireMavenVersion>\n                  <ns0:version>${minimalMavenBuildVersion}</ns0:version>\n                </ns0:requireMavenVersion>\n              </ns0:rules>\n            </ns0:configuration>\n          </ns0:execution>\n          <ns0:execution>\n            <ns0:id>enforce-java-version</ns0:id>\n            <ns0:goals>\n              <ns0:goal>enforce</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:rules>\n                <ns0:requireJavaVersion>\n                  <ns0:version>${minimalJavaBuildVersion}</ns0:version>\n                </ns0:requireJavaVersion>\n              </ns0:rules>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "enforce",
+              "id": "enforce-maven-version",
+              "phase": null
+            },
+            {
+              "goal": "enforce",
+              "id": "enforce-java-version",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-enforcer-plugin",
+            "3.5.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.site-plugin.version}</ns0:version>\n          <ns0:dependencies>\n            <ns0:dependency>\n              \n              <ns0:groupId>org.apache.maven.wagon</ns0:groupId>\n              <ns0:artifactId>wagon-ssh</ns0:artifactId>\n              <ns0:version>${commons.wagon-ssh.version}</ns0:version>\n            </ns0:dependency>\n          </ns0:dependencies>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>attach-descriptor</ns0:id>\n              <ns0:goals>\n                <ns0:goal>attach-descriptor</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-site-plugin</ns0:artifactId>\n        <ns0:inherited>false</ns0:inherited>\n        <ns0:configuration>\n          <ns0:skip>true</ns0:skip>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "attach-descriptor",
+              "id": "attach-descriptor",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "3.12.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:executions>\n          <ns0:execution>\n            <ns0:id>javadoc.resources</ns0:id>\n            <ns0:phase>generate-sources</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>run</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              <ns0:target>\n                <ns0:copy todir=\"${project.build.directory}/apidocs/META-INF\">\n                  <ns0:fileset dir=\"${basedir}\">\n                    <ns0:include name=\"LICENSE.txt\" />\n                    <ns0:include name=\"NOTICE.txt\" />\n                    <ns0:include name=\"LICENSE\" />\n                    <ns0:include name=\"NOTICE\" />\n                  </ns0:fileset>\n                </ns0:copy>\n              </ns0:target>\n            </ns0:configuration>\n          </ns0:execution>\n        <ns0:execution>\n                <ns0:id>prepare-checkout</ns0:id>\n                <ns0:phase>pre-site</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>run</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:target>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"checkout --depth immediates ${commons.scmPubUrl} ${commons.scmPubCheckoutDirectory}\" />\n                    </ns0:exec>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"update --set-depth exclude ${commons.scmPubCheckoutDirectory}/javadocs\" />\n                    </ns0:exec>\n                    <ns0:pathconvert pathsep=\" \" property=\"dirs\">\n                      <ns0:dirset dir=\"${commons.scmPubCheckoutDirectory}\" includes=\"*\" />\n                    </ns0:pathconvert>\n                    <ns0:exec executable=\"svn\">\n                      <ns0:arg line=\"update --set-depth infinity ${dirs}\" />\n                    </ns0:exec>\n                  </ns0:target>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n      <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n            <ns0:artifactId>maven-antrun-plugin</ns0:artifactId>\n            <ns0:version>3.1.0</ns0:version>\n            </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "run",
+              "id": "javadoc.resources",
+              "phase": "generate-sources"
+            },
+            {
+              "goal": "run",
+              "id": "prepare-checkout",
+              "phase": "pre-site"
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-antrun-plugin",
+            "3.1.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.compiler.version}</ns0:version>\n          <ns0:configuration>\n            <ns0:source>${maven.compiler.source}</ns0:source>\n            <ns0:target>${maven.compiler.target}</ns0:target>\n            <ns0:encoding>${commons.encoding}</ns0:encoding>\n            \n            <ns0:fork>${commons.compiler.fork}</ns0:fork>\n            \n            <ns0:compilerVersion>${commons.compiler.compilerVersion}</ns0:compilerVersion>\n            <ns0:executable>${commons.compiler.javac}</ns0:executable>\n          </ns0:configuration>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-compiler-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "compile",
+              "compile"
+            ],
+            [
+              "test-compile",
+              "testCompile"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-compiler-plugin",
+            "3.13.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-jar-plugin</ns0:artifactId>\n        <ns0:version>${commons.jar-plugin.version}</ns0:version>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:goals>\n              <ns0:goal>test-jar</ns0:goal>\n            </ns0:goals>\n            <ns0:configuration>\n              \n              <ns0:skipIfEmpty>true</ns0:skipIfEmpty>\n            </ns0:configuration>\n          </ns0:execution>\n        </ns0:executions>\n        <ns0:configuration>\n          <ns0:archive>\n            <ns0:manifestFile>${commons.manifestfile}</ns0:manifestFile>\n            <ns0:manifestEntries>\n              <ns0:Specification-Title>${project.name}</ns0:Specification-Title>\n              <ns0:Specification-Version>${project.version}</ns0:Specification-Version>\n              <ns0:Specification-Vendor>${project.organization.name}</ns0:Specification-Vendor>\n              <ns0:Implementation-Title>${project.name}</ns0:Implementation-Title>\n              <ns0:Implementation-Version>${project.version}</ns0:Implementation-Version>\n              <ns0:Implementation-Vendor>${project.organization.name}</ns0:Implementation-Vendor>\n              <ns0:Implementation-Vendor-Id>org.apache</ns0:Implementation-Vendor-Id>\n              <ns0:X-Compile-Source-JDK>${maven.compiler.source}</ns0:X-Compile-Source-JDK>\n              <ns0:X-Compile-Target-JDK>${maven.compiler.target}</ns0:X-Compile-Target-JDK>\n            </ns0:manifestEntries>\n          </ns0:archive>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "package",
+              "jar"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "test-jar",
+              "id": "default",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-jar-plugin",
+            "3.4.2"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:version>${version.maven-source-plugin}</ns0:version>\n        <ns0:artifactId>maven-source-plugin</ns0:artifactId>\n        <ns0:configuration>\n          <ns0:archive>\n            <ns0:manifest>\n              <ns0:addDefaultImplementationEntries>true</ns0:addDefaultImplementationEntries>\n              <ns0:addDefaultSpecificationEntries>true</ns0:addDefaultSpecificationEntries>\n            </ns0:manifest>\n          </ns0:archive>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>create-source-jar</ns0:id>\n            <ns0:goals>\n              <ns0:goal>jar-no-fork</ns0:goal>\n              <ns0:goal>test-jar-no-fork</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "jar-no-fork",
+              "id": "create-source-jar",
+              "phase": null
+            },
+            {
+              "goal": "test-jar-no-fork",
+              "id": "create-source-jar",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-source-plugin",
+            "3.2.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-surefire-plugin</ns0:artifactId>\n        <ns0:version>${commons.surefire.version}</ns0:version>\n        <ns0:configuration>\n          \n          <ns0:jvm>${commons.surefire.java}</ns0:jvm>\n        </ns0:configuration>\n      </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "test",
+              "test"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-surefire-plugin",
+            "3.5.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.felix.version}</ns0:version>\n          <ns0:inherited>true</ns0:inherited>\n          <ns0:dependencies>\n            <ns0:dependency>\n              \n              <ns0:groupId>biz.aQute.bnd</ns0:groupId>\n              <ns0:artifactId>biz.aQute.bndlib</ns0:artifactId>\n              <ns0:version>${commons.biz.aQute.bndlib.version}</ns0:version>\n            </ns0:dependency>\n          </ns0:dependencies>\n        <ns0:groupId>org.apache.felix</ns0:groupId>\n        <ns0:artifactId>maven-bundle-plugin</ns0:artifactId>\n        <ns0:configuration>\n          \n          <ns0:archive>\n            <ns0:forced>true</ns0:forced>\n          </ns0:archive>\n          <ns0:excludeDependencies>${commons.osgi.excludeDependencies}</ns0:excludeDependencies>\n          <ns0:manifestLocation>${project.build.directory}/osgi</ns0:manifestLocation>\n          <ns0:instructions>\n            \n            <ns0:_nouses>true</ns0:_nouses>\n            \n            <ns0:_removeheaders>JAVA_1_3_HOME,JAVA_1_4_HOME,JAVA_1_5_HOME,JAVA_1_6_HOME,JAVA_1_7_HOME,JAVA_1_8_HOME,JAVA_1_9_HOME</ns0:_removeheaders>\n            <ns0:Bundle-SymbolicName>${commons.osgi.symbolicName}</ns0:Bundle-SymbolicName>\n            <ns0:Export-Package>${commons.osgi.export}</ns0:Export-Package>\n            <ns0:Private-Package>${commons.osgi.private}</ns0:Private-Package>\n            <ns0:Import-Package>${commons.osgi.import}</ns0:Import-Package>\n            <ns0:DynamicImport-Package>${commons.osgi.dynamicImport}</ns0:DynamicImport-Package>\n            <ns0:Bundle-DocURL>${project.url}</ns0:Bundle-DocURL>\n          </ns0:instructions>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>bundle-manifest</ns0:id>\n            <ns0:phase>process-classes</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>manifest</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "manifest",
+              "id": "bundle-manifest",
+              "phase": "process-classes"
+            }
+          ],
+          "gav": [
+            "org.apache.felix",
+            "maven-bundle-plugin",
+            "5.1.9"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.rat.version}</ns0:version>\n            \n            <ns0:groupId>org.apache.rat</ns0:groupId>\n        <ns0:artifactId>apache-rat-plugin</ns0:artifactId>\n        \n        <ns0:configuration>\n          \n          <ns0:excludes combine.children=\"append\">\n            <ns0:exclude>site-content/**</ns0:exclude>\n            <ns0:exclude>.checkstyle</ns0:exclude>\n            <ns0:exclude>.fbprefs</ns0:exclude>\n            <ns0:exclude>.pmd</ns0:exclude>\n            <ns0:exclude>.asf.yaml</ns0:exclude>\n            <ns0:exclude>.gitattributes</ns0:exclude>\n            <ns0:exclude>src/site/resources/download_*.cgi</ns0:exclude>\n            <ns0:exclude>src/site/resources/profile.*</ns0:exclude>\n            <ns0:exclude>profile.*</ns0:exclude>\n            \n            <ns0:exclude>maven-eclipse.xml</ns0:exclude>\n            <ns0:exclude>.externalToolBuilders/**</ns0:exclude>\n            \n            <ns0:exclude>.vscode/**</ns0:exclude>\n          </ns0:excludes>\n        </ns0:configuration>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>rat-check</ns0:id>\n            <ns0:phase>validate</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>check</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n      ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "check",
+              "id": "rat-check",
+              "phase": "validate"
+            }
+          ],
+          "gav": [
+            "org.apache.rat",
+            "apache-rat-plugin",
+            "0.16.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>3.5.1</ns0:version>\n        <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n        <ns0:artifactId>maven-artifact-plugin</ns0:artifactId>\n        <ns0:executions>\n          <ns0:execution>\n            <ns0:id>check-buildplan</ns0:id>\n            <ns0:phase>validate</ns0:phase>\n            <ns0:goals>\n              <ns0:goal>check-buildplan</ns0:goal>\n            </ns0:goals>\n          </ns0:execution>\n        </ns0:executions>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "check-buildplan",
+              "id": "check-buildplan",
+              "phase": "validate"
+            }
+          ],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-artifact-plugin",
+            "3.5.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.cyclonedx.version}</ns0:version>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>build-sbom-cyclonedx</ns0:id>\n              <ns0:phase>package</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>makeAggregateBom</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n          <ns0:configuration>\n            <ns0:outputName>${project.artifactId}-${project.version}-bom</ns0:outputName>\n          </ns0:configuration>\n        <ns0:groupId>org.cyclonedx</ns0:groupId>\n        <ns0:artifactId>cyclonedx-maven-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "makeAggregateBom",
+              "id": "build-sbom-cyclonedx",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.cyclonedx",
+            "cyclonedx-maven-plugin",
+            "2.9.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.spdx.version}</ns0:version>\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>build-sbom-spdx</ns0:id>\n              <ns0:phase>package</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>createSPDX</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.spdx</ns0:groupId>\n        <ns0:artifactId>spdx-maven-plugin</ns0:artifactId>\n      </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "createSPDX",
+              "id": "build-sbom-spdx",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.spdx",
+            "spdx-maven-plugin",
+            "0.7.4"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.build-helper.version}</ns0:version>\n        <ns0:groupId>org.codehaus.mojo</ns0:groupId>\n            <ns0:artifactId>build-helper-maven-plugin</ns0:artifactId>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:id>parse-version</ns0:id>\n                \n                <ns0:goals>\n                  <ns0:goal>parse-version</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:propertyPrefix>javaTarget</ns0:propertyPrefix>\n                  <ns0:versionString>${maven.compiler.target}</ns0:versionString>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "parse-version",
+              "id": "parse-version",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.codehaus.mojo",
+            "build-helper-maven-plugin",
+            "3.6.0"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:executions>\n            <ns0:execution>\n              <ns0:id>prepare-agent</ns0:id>\n              <ns0:phase>process-test-classes</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>prepare-agent</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n            <ns0:execution>\n              <ns0:id>report</ns0:id>\n              <ns0:phase>site</ns0:phase>\n              <ns0:goals>\n                <ns0:goal>report</ns0:goal>\n              </ns0:goals>\n            </ns0:execution>\n            <ns0:execution>\n              <ns0:id>check</ns0:id>\n              <ns0:goals>\n                <ns0:goal>check</ns0:goal>\n              </ns0:goals>\n              <ns0:configuration>\n                <ns0:rules>\n                  <ns0:rule>\n                    <ns0:element>BUNDLE</ns0:element>\n                    <ns0:limits>\n                      <ns0:limit>\n                        <ns0:counter>CLASS</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.classRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>INSTRUCTION</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.instructionRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>METHOD</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.methodRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>BRANCH</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.branchRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>LINE</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.lineRatio}</ns0:minimum>\n                      </ns0:limit>\n                      <ns0:limit>\n                        <ns0:counter>COMPLEXITY</ns0:counter>\n                        <ns0:value>COVEREDRATIO</ns0:value>\n                        <ns0:minimum>${commons.jacoco.complexityRatio}</ns0:minimum>\n                      </ns0:limit>\n                    </ns0:limits>\n                  </ns0:rule>\n                </ns0:rules>\n                <ns0:haltOnFailure>${commons.jacoco.haltOnFailure}</ns0:haltOnFailure>\n              </ns0:configuration>\n            </ns0:execution>\n          </ns0:executions>\n        <ns0:groupId>org.jacoco</ns0:groupId>\n            <ns0:artifactId>jacoco-maven-plugin</ns0:artifactId>\n            <ns0:version>${commons.jacoco.version}</ns0:version>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "prepare-agent",
+              "id": "prepare-agent",
+              "phase": "process-test-classes"
+            },
+            {
+              "goal": "report",
+              "id": "report",
+              "phase": "site"
+            },
+            {
+              "goal": "check",
+              "id": "check",
+              "phase": null
+            }
+          ],
+          "gav": [
+            "org.jacoco",
+            "jacoco-maven-plugin",
+            "0.8.12"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:version>${commons.buildnumber-plugin.version}</ns0:version>\n        <ns0:groupId>org.codehaus.mojo</ns0:groupId>\n            <ns0:artifactId>buildnumber-maven-plugin</ns0:artifactId>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:phase>generate-resources</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>create</ns0:goal>\n                </ns0:goals>\n              </ns0:execution>\n            </ns0:executions>\n            <ns0:configuration>\n              \n              <ns0:useLastCommittedRevision>true</ns0:useLastCommittedRevision>\n              \n              <ns0:revisionOnScmFailure>??????</ns0:revisionOnScmFailure>\n              <ns0:doCheck>false</ns0:doCheck>\n              <ns0:doUpdate>false</ns0:doUpdate>\n            </ns0:configuration>\n          </ns0:plugin>\n        ",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "create",
+              "id": "default",
+              "phase": "generate-resources"
+            }
+          ],
+          "gav": [
+            "org.codehaus.mojo",
+            "buildnumber-maven-plugin",
+            "3.2.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n            <ns0:groupId>org.moditect</ns0:groupId>\n            <ns0:artifactId>moditect-maven-plugin</ns0:artifactId>\n            <ns0:version>${commons.moditect-maven-plugin.version}</ns0:version>\n            <ns0:executions>\n              <ns0:execution>\n                <ns0:id>add-module-infos</ns0:id>\n                <ns0:phase>package</ns0:phase>\n                <ns0:goals>\n                  <ns0:goal>add-module-info</ns0:goal>\n                </ns0:goals>\n                <ns0:configuration>\n                  <ns0:jvmVersion>${moditect.java.version}</ns0:jvmVersion>\n                  <ns0:jdepsExtraArgs>\n                    <ns0:arg>--multi-release=${moditect.java.version}</ns0:arg>\n                  </ns0:jdepsExtraArgs>\n                  <ns0:outputDirectory>${project.build.directory}</ns0:outputDirectory>\n                  <ns0:overwriteExistingFiles>true</ns0:overwriteExistingFiles>\n                  <ns0:failOnWarning>false</ns0:failOnWarning>\n                  <ns0:module>\n                    <ns0:moduleInfo>\n                      <ns0:name>${commons.module.name}</ns0:name>\n                      <ns0:addServiceUses>${commons.moditect-maven-plugin.addServiceUses}</ns0:addServiceUses>\n                    </ns0:moduleInfo>\n                  </ns0:module>\n                </ns0:configuration>\n              </ns0:execution>\n            </ns0:executions>\n          </ns0:plugin>\n\t\t",
+          "default_bindings": [],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [
+            {
+              "goal": "add-module-info",
+              "id": "add-module-infos",
+              "phase": "package"
+            }
+          ],
+          "gav": [
+            "org.moditect",
+            "moditect-maven-plugin",
+            "1.2.2.Final"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-resources-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-resources-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "process-resources",
+              "resources"
+            ],
+            [
+              "process-test-resources",
+              "testResources"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-resources-plugin",
+            "3.3.1"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-install-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-install-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "install",
+              "install"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-install-plugin",
+            "3.1.2"
+          ]
+        },
+        {
+          "configuration": "<ns0:plugin xmlns:ns0=\"http://maven.apache.org/POM/4.0.0\">\n          <ns0:groupId>org.apache.maven.plugins</ns0:groupId>\n          <ns0:artifactId>maven-deploy-plugin</ns0:artifactId>\n          <ns0:version>${version.maven-deploy-plugin}</ns0:version>\n        </ns0:plugin>\n        ",
+          "default_bindings": [
+            [
+              "deploy",
+              "deploy"
+            ]
+          ],
+          "execution_status": "NOT_EXECUTED",
+          "executions": [],
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-deploy-plugin",
+            "3.1.2"
+          ]
+        }
+      ]
+    },
+    "profiles": {
+      "equal": false,
+      "t0": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "module-name",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "parse-target-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "animal-sniffer",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "jacoco",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "cobertura",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "japicmp",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "release",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "java-1.8",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "java-1.11",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "test-deploy",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "release-notes",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "svn-buildnumber",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "jdk7-plugin-fix-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "jdk8-plugin-fix-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "site-basic",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-9-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-11-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-17-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "benchmark",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "76"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "rc",
+          "model": [
+            "commons-cli",
+            "commons-cli",
+            "1.9.1-SNAPSHOT"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "setup-checkout",
+          "model": [
+            "commons-cli",
+            "commons-cli",
+            "1.9.1-SNAPSHOT"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        }
+      ],
+      "t_plus30": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "module-name",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "parse-target-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "animal-sniffer",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "jacoco",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "japicmp",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "release",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "java-1.8",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "java-1.11",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "test-deploy",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "release-notes",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "svn-buildnumber",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "jdk7-plugin-fix-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "jdk8-plugin-fix-version",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "site-basic",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-9-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-11-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "java-17-up",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "benchmark",
+          "model": [
+            "org.apache.commons",
+            "commons-parent",
+            "78"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": false,
+          "id": "rc",
+          "model": [
+            "commons-cli",
+            "commons-cli",
+            "1.10.0-SNAPSHOT"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        },
+        {
+          "active": true,
+          "id": "setup-checkout",
+          "model": [
+            "commons-cli",
+            "commons-cli",
+            "1.10.0-SNAPSHOT"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES",
+          "runtime_decision": "UNKNOWN_NOT_MAVEN_EVALUATED"
+        }
+      ]
+    },
+    "remaining_actual_maven_model": "UNKNOWN",
+    "source_changes": {
+      "added": [
+        "src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java",
+        "src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java",
+        "src/main/java/org/apache/commons/cli/help/HelpAppendable.java",
+        "src/main/java/org/apache/commons/cli/help/HelpFormatter.java",
+        "src/main/java/org/apache/commons/cli/help/OptionFormatter.java",
+        "src/main/java/org/apache/commons/cli/help/TableDefinition.java",
+        "src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java",
+        "src/main/java/org/apache/commons/cli/help/TextStyle.java",
+        "src/main/java/org/apache/commons/cli/help/Util.java",
+        "src/main/java/org/apache/commons/cli/help/package-info.java",
+        "src/test/java/org/apache/commons/cli/example/AptHelpAppendable.java",
+        "src/test/java/org/apache/commons/cli/example/AptHelpAppendableTest.java",
+        "src/test/java/org/apache/commons/cli/example/WeirdOptionFormat.java",
+        "src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendable.java",
+        "src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendableTest.java",
+        "src/test/java/org/apache/commons/cli/help/HelpFormatterTest.java",
+        "src/test/java/org/apache/commons/cli/help/OptionFormatterTest.java",
+        "src/test/java/org/apache/commons/cli/help/TextHelpAppendableTest.java",
+        "src/test/java/org/apache/commons/cli/help/TextStyleTests.java",
+        "src/test/java/org/apache/commons/cli/help/UtilTest.java"
+      ],
+      "changed": [
+        ".github/workflows/codeql-analysis.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/maven.yml",
+        ".github/workflows/scorecards-analysis.yml",
+        "README.md",
+        "pom.xml",
+        "src/changes/changes.xml",
+        "src/main/java/org/apache/commons/cli/CommandLine.java",
+        "src/main/java/org/apache/commons/cli/DefaultParser.java",
+        "src/main/java/org/apache/commons/cli/DeprecatedAttributes.java",
+        "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+        "src/main/java/org/apache/commons/cli/Parser.java",
+        "src/test/java/org/apache/commons/cli/AbstractParserTestCase.java",
+        "src/test/java/org/apache/commons/cli/CommandLineTest.java",
+        "src/test/java/org/apache/commons/cli/ConverterTests.java",
+        "src/test/java/org/apache/commons/cli/DefaultParserTest.java",
+        "src/test/java/org/apache/commons/cli/OptionBuilderTest.java",
+        "src/test/java/org/apache/commons/cli/OptionGroupTest.java",
+        "src/test/java/org/apache/commons/cli/OptionValidatorTest.java",
+        "src/test/java/org/apache/commons/cli/OptionsTest.java",
+        "src/test/java/org/apache/commons/cli/PatternOptionBuilderTest.java",
+        "src/test/java/org/apache/commons/cli/SolrCliTest.java",
+        "src/test/java/org/apache/commons/cli/SolrCreateToolTest.java",
+        "src/test/java/org/apache/commons/cli/bug/BugCLI325Test.java",
+        "src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java",
+        "src/test/java/org/apache/commons/cli/bug/BugsTest.java"
+      ],
+      "changed_production_java": [
+        "src/main/java/org/apache/commons/cli/CommandLine.java",
+        "src/main/java/org/apache/commons/cli/DefaultParser.java",
+        "src/main/java/org/apache/commons/cli/DeprecatedAttributes.java",
+        "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+        "src/main/java/org/apache/commons/cli/Parser.java"
+      ],
+      "removed": []
+    }
+  }
+}

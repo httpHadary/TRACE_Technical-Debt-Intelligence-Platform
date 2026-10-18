@@ -1,0 +1,358 @@
+{
+  "other_revision_artifacts_acquired": 0,
+  "other_revision_readiness_claims": false,
+  "other_revision_source_exports_created": 0,
+  "revisions": [
+    {
+      "actual_active_profiles": "UNKNOWN_NOT_EXECUTED",
+      "actual_effective_model_sha256": null,
+      "commit": "aad30eff27ac5c9a13194125226653c6c2826c58",
+      "common_direct_dependencies": [
+        [
+          "org.apache.commons",
+          "commons-text",
+          "1.12.0"
+        ],
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-api",
+          "5.11.2"
+        ],
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-engine",
+          "5.11.2"
+        ],
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-params",
+          "5.11.2"
+        ],
+        [
+          "org.mockito",
+          "mockito-core",
+          "4.11.0"
+        ]
+      ],
+      "differing_direct_dependencies": [
+        [
+          "commons-io",
+          "commons-io",
+          "2.18.0"
+        ]
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.11.2"
+        ]
+      ],
+      "offset_days": 60,
+      "other_revision_artifacts_acquired": 0,
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "33"
+        ],
+        [
+          "org.apache.commons",
+          "commons-parent",
+          "78"
+        ],
+        [
+          "commons-cli",
+          "commons-cli",
+          "1.10.0-SNAPSHOT"
+        ]
+      ],
+      "plugin_versions": [
+        [
+          "org.apache.maven.plugins",
+          "maven-remote-resources-plugin",
+          "3.2.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-site-plugin",
+          "3.12.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-antrun-plugin",
+          "3.1.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-compiler-plugin",
+          "3.13.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-jar-plugin",
+          "3.4.2"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-source-plugin",
+          "3.2.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-surefire-plugin",
+          "3.5.1"
+        ],
+        [
+          "org.apache.felix",
+          "maven-bundle-plugin",
+          "5.1.9"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-plugin",
+          "0.16.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-artifact-plugin",
+          "3.5.1"
+        ],
+        [
+          "org.cyclonedx",
+          "cyclonedx-maven-plugin",
+          "2.9.0"
+        ],
+        [
+          "org.spdx",
+          "spdx-maven-plugin",
+          "0.7.4"
+        ],
+        [
+          "org.codehaus.mojo",
+          "build-helper-maven-plugin",
+          "3.6.0"
+        ],
+        [
+          "org.jacoco",
+          "jacoco-maven-plugin",
+          "0.8.12"
+        ],
+        [
+          "org.codehaus.mojo",
+          "buildnumber-maven-plugin",
+          "3.2.1"
+        ],
+        [
+          "org.moditect",
+          "moditect-maven-plugin",
+          "1.2.2.Final"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-resources-plugin",
+          "3.3.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-install-plugin",
+          "3.1.2"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-deploy-plugin",
+          "3.1.2"
+        ]
+      ],
+      "pom_sha256": "1c82171f91da0f4aa2994bb367e4c9ef8e65414940100be081715605739d9e0b",
+      "production_java_files": 36,
+      "scope": "Read-only common metadata comparison; no build-readiness claim for this revision",
+      "source_export_created": false,
+      "static_model_issues": [],
+      "tracked_files": 138,
+      "tree": "d7434665397c8dd8156fff7ecaed29a14feeb951",
+      "unknown_plugins": []
+    },
+    {
+      "actual_active_profiles": "UNKNOWN_NOT_EXECUTED",
+      "actual_effective_model_sha256": null,
+      "commit": "af2b3e72a552cfb2a902556469868763ddea3638",
+      "common_direct_dependencies": [
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-api",
+          "5.11.2"
+        ],
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-engine",
+          "5.11.2"
+        ],
+        [
+          "org.junit.jupiter",
+          "junit-jupiter-params",
+          "5.11.2"
+        ],
+        [
+          "org.mockito",
+          "mockito-core",
+          "4.11.0"
+        ]
+      ],
+      "differing_direct_dependencies": [
+        [
+          "commons-io",
+          "commons-io",
+          "2.18.0"
+        ],
+        [
+          "org.apache.commons",
+          "commons-text",
+          "1.13.0"
+        ]
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.11.2"
+        ]
+      ],
+      "offset_days": 90,
+      "other_revision_artifacts_acquired": 0,
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "33"
+        ],
+        [
+          "org.apache.commons",
+          "commons-parent",
+          "78"
+        ],
+        [
+          "commons-cli",
+          "commons-cli",
+          "1.10.0-SNAPSHOT"
+        ]
+      ],
+      "plugin_versions": [
+        [
+          "org.apache.maven.plugins",
+          "maven-remote-resources-plugin",
+          "3.2.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-site-plugin",
+          "3.12.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-antrun-plugin",
+          "3.1.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-compiler-plugin",
+          "3.13.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-jar-plugin",
+          "3.4.2"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-source-plugin",
+          "3.2.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-surefire-plugin",
+          "3.5.1"
+        ],
+        [
+          "org.apache.felix",
+          "maven-bundle-plugin",
+          "5.1.9"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-plugin",
+          "0.16.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-artifact-plugin",
+          "3.5.1"
+        ],
+        [
+          "org.cyclonedx",
+          "cyclonedx-maven-plugin",
+          "2.9.0"
+        ],
+        [
+          "org.spdx",
+          "spdx-maven-plugin",
+          "0.7.4"
+        ],
+        [
+          "org.codehaus.mojo",
+          "build-helper-maven-plugin",
+          "3.6.0"
+        ],
+        [
+          "org.jacoco",
+          "jacoco-maven-plugin",
+          "0.8.12"
+        ],
+        [
+          "org.codehaus.mojo",
+          "buildnumber-maven-plugin",
+          "3.2.1"
+        ],
+        [
+          "org.moditect",
+          "moditect-maven-plugin",
+          "1.2.2.Final"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-resources-plugin",
+          "3.3.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-install-plugin",
+          "3.1.2"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-deploy-plugin",
+          "3.1.2"
+        ]
+      ],
+      "pom_sha256": "87c8ed93cb21deedb52b826d520931bc175e24e5ee48643c6a21ed154c62324b",
+      "production_java_files": 36,
+      "scope": "Read-only common metadata comparison; no build-readiness claim for this revision",
+      "source_export_created": false,
+      "static_model_issues": [],
+      "tracked_files": 138,
+      "tree": "0d773516c1c7bb0a371b2af6e084b62ef2d36546",
+      "unknown_plugins": []
+    }
+  ],
+  "scope": "Read-only requested T+60/T+90 metadata comparison only"
+}
