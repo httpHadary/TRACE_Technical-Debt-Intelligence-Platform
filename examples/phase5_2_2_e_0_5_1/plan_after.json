@@ -1,0 +1,480 @@
+{
+  "actual_plan_resolved": false,
+  "full_offline_build_ready": false,
+  "missing_paths": [],
+  "plugins": [
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate"
+        },
+        {
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources"
+        },
+        {
+          "goal": "run",
+          "id": "prepare-checkout",
+          "phase": "pre-site"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "compile",
+          "compile"
+        ],
+        [
+          "test-compile",
+          "testCompile"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "compile",
+          "id": "default-compile",
+          "phase": "compile"
+        },
+        {
+          "goal": "testCompile",
+          "id": "default-testCompile",
+          "phase": "test-compile"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "package",
+          "jar"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "jar",
+          "id": "default-jar",
+          "phase": "package"
+        },
+        {
+          "goal": "test-jar",
+          "id": "default",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-jar-plugin",
+        "3.4.2"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package"
+        },
+        {
+          "goal": "test-jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-source-plugin",
+        "3.2.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "test",
+          "test"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "test",
+          "id": "default-test",
+          "phase": "test"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-surefire-plugin",
+        "3.5.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "manifest",
+          "id": "bundle-manifest",
+          "phase": "process-classes"
+        }
+      ],
+      "gav": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "makeAggregateBom",
+          "id": "build-sbom-cyclonedx",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.cyclonedx",
+        "cyclonedx-maven-plugin",
+        "2.8.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "createSPDX",
+          "id": "build-sbom-spdx",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.spdx",
+        "spdx-maven-plugin",
+        "0.7.4"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "prepare-agent",
+          "id": "prepare-agent",
+          "phase": "process-test-classes"
+        },
+        {
+          "goal": "report",
+          "id": "report",
+          "phase": "site"
+        },
+        {
+          "goal": "check",
+          "id": "check",
+          "phase": "verify"
+        }
+      ],
+      "gav": [
+        "org.jacoco",
+        "jacoco-maven-plugin",
+        "0.8.12"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources"
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "add-module-info",
+          "id": "add-module-infos",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.moditect",
+        "moditect-maven-plugin",
+        "1.2.2.Final"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "process-resources",
+          "resources"
+        ],
+        [
+          "process-test-resources",
+          "testResources"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "testResources",
+          "id": "default-testResources",
+          "phase": "process-test-resources"
+        },
+        {
+          "goal": "resources",
+          "id": "default-resources",
+          "phase": "process-resources"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "install",
+          "install"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "install",
+          "id": "default-install",
+          "phase": "install"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-install-plugin",
+        "3.1.2"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [
+        [
+          "deploy",
+          "deploy"
+        ]
+      ],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "deploy",
+          "id": "default-deploy",
+          "phase": "deploy"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-deploy-plugin",
+        "3.1.2"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    },
+    {
+      "default_bindings": [],
+      "descriptor_available": true,
+      "executions": [
+        {
+          "goal": "site",
+          "id": "default-site",
+          "phase": "site"
+        },
+        {
+          "goal": "deploy",
+          "id": "default-deploy",
+          "phase": "site-deploy"
+        },
+        {
+          "goal": "attach-descriptor",
+          "id": "attach-descriptor",
+          "phase": "package"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-site-plugin",
+        "3.12.1"
+      ],
+      "goal_execution_authorized": false,
+      "pom_available": true,
+      "required_as_plan_metadata": true
+    }
+  ],
+  "scope": "Static descriptor candidate inventory through deploy, not an executed Maven plan or proof of build readiness",
+  "task_source": "Pinned check-buildplan descriptor default; no frozen T0 override",
+  "tasks": "deploy",
+  "unknown": [],
+  "version": "e05-static-plan-v1"
+}

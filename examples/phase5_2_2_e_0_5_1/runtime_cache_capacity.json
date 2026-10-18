@@ -1,0 +1,11 @@
+{
+  "artifact_count": 697,
+  "directory_overhead_bytes": 3244032,
+  "estimate": "4KiB file/directory allocation plus16MiB reserve; actual tmpfs cap remains authoritative",
+  "estimated_total_bytes": 96309248,
+  "limit_bytes": 134217728,
+  "metadata_reserve_bytes": 16777216,
+  "payload_bytes": 74846407,
+  "rounded_file_bytes": 76288000,
+  "status": "FITS_128_MIB"
+}

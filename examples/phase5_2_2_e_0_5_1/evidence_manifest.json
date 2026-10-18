@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "bytes": 3306,
+      "path": "E_0_6_HANDOFF.md",
+      "sha256": "a053d72a62cf6b5032b8dbf8841f80ecb349ed94496c9056d7a62a6781b07e1f"
+    },
+    {
+      "bytes": 1164,
+      "path": "README.md",
+      "sha256": "85c22bd6ff083889fc7a51cfb40c3fa7397ed8a9d1e394804c9fde08d1a021e3"
+    },
+    {
+      "bytes": 528,
+      "path": "cache_identity.json",
+      "sha256": "0f2ef264e4a94720684badccb3cc274c8dbd3655fcc63e3656cb99892b3e9665"
+    },
+    {
+      "bytes": 587378,
+      "path": "dependency_manifest.json",
+      "sha256": "ed23ccde95a89081c1c19f3de39ee9199a50b15eacf0647e316f62acf1f97b84"
+    },
+    {
+      "bytes": 2371,
+      "path": "frontier_comparison.json",
+      "sha256": "415784653f74b4a9bea50c4879d9e831f2aeacb85259f388fb06cbafbee3e54f"
+    },
+    {
+      "bytes": 84266,
+      "path": "parent_bom_closure.json",
+      "sha256": "b239652686ce5e5f9a6a731c25d3abc52353f9efdfc24b973b36ce1f18b1427a"
+    },
+    {
+      "bytes": 10994,
+      "path": "plan_after.json",
+      "sha256": "9a09629adcb5a0f5cc870d861f3fecf3a8abdb01ad2f9f0f344d24a8dce490d6"
+    },
+    {
+      "bytes": 12034,
+      "path": "plan_before.json",
+      "sha256": "6015535514091cb9578b2092ddbddc6b2a74d3a232c9e72873e970b9ecc0b9de"
+    },
+    {
+      "bytes": 434215,
+      "path": "plugin_runtime_uncertainty.json",
+      "sha256": "e14d1fab84c194525d6541217e1ce44cc1a4551d1335962e4d73e72880d2fb34"
+    },
+    {
+      "bytes": 597501,
+      "path": "plugin_verification_matrix.json",
+      "sha256": "ac0949fa817111099a97768c8ea75fe4ae788f15d939e60bfc7e26975e311322"
+    },
+    {
+      "bytes": 334,
+      "path": "pre_download_validation_correction.json",
+      "sha256": "b6e96ab6c9567cd00ba6642ff4e1a078ce344ba30b4e305917b879e110695fdc"
+    },
+    {
+      "bytes": 1430,
+      "path": "preservation.json",
+      "sha256": "a72fd99adf34747df6842451f269e7d6ed4501359d13a63fbea1396f138637c8"
+    },
+    {
+      "bytes": 1470,
+      "path": "resource_evidence.json",
+      "sha256": "4af2c2bb3396083ac6a12209d1b2250564aa5215065db71baa8793fd3f22c860"
+    },
+    {
+      "bytes": 367,
+      "path": "runtime_cache_capacity.json",
+      "sha256": "492069aa786f4cac58c7a96cb77f277d566e9e102c4d8012a2a38b6000eec9f1"
+    },
+    {
+      "bytes": 31529,
+      "path": "t0_source_identity.json",
+      "sha256": "635b99c9dea6f4bbec03d30867e24bddb26a75cd3b1d0fb97c35901e09344221"
+    },
+    {
+      "bytes": 3025,
+      "path": "verification.json",
+      "sha256": "34d06fa8cdb2e12cf3e5b1688b149aa08195ab11fe5c99d815cc7af0ebd186f7"
+    }
+  ],
+  "scope": "All evidence siblings except this non-self-referential manifest",
+  "version": "e051-published-evidence-v1"
+}
