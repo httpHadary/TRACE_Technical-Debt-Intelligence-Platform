@@ -1,0 +1,156 @@
+{
+  "attempts": 1,
+  "binary_checks": [
+    {
+      "path": "usr/share/maven/bin/mvn",
+      "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+    },
+    {
+      "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+      "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+    },
+    {
+      "path": "opt/java/openjdk/bin/java",
+      "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+    },
+    {
+      "path": "opt/java/openjdk/release",
+      "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+    }
+  ],
+  "capture": {
+    "acknowledged": true,
+    "captured": true,
+    "members": [
+      "cache.after.sha256",
+      "cache.paths",
+      "cache.post.sha256",
+      "cgroup.limits.txt",
+      "classes.tar",
+      "command-category.txt",
+      "compiler-created.txt",
+      "compiler-inputs.txt",
+      "cpu.stat",
+      "disk-usage.txt",
+      "exit.code",
+      "log.sizes",
+      "maven.ended.uptime",
+      "maven.exit",
+      "maven.started.uptime",
+      "maven.state.txt",
+      "maven.stderr",
+      "maven.stdout",
+      "memory.events",
+      "memory.peak",
+      "mount-ownership.txt",
+      "mountinfo.txt",
+      "passed-stages.txt",
+      "post-capture.complete",
+      "processes.txt",
+      "ready",
+      "setup.complete",
+      "setup.stderr",
+      "setup.stdout",
+      "source.after.sha256",
+      "source.modes.after",
+      "source.modes.before",
+      "source.paths",
+      "source.post.sha256",
+      "source.verify.exit",
+      "source.verify.stderr",
+      "source.verify.stdout",
+      "stage.txt",
+      "working-directory.txt"
+    ],
+    "race": false
+  },
+  "claim_sha256": "65838efc302b602c1744d085b7ed2c5aef6a5de0efe2619622e27621c9ea87d7",
+  "cleanup_complete": true,
+  "command": [
+    "/usr/share/maven/bin/mvn",
+    "--offline",
+    "--batch-mode",
+    "--no-transfer-progress",
+    "--errors",
+    "-s",
+    "/inspection/settings.xml",
+    "-gs",
+    "/inspection/settings.xml",
+    "-Dmaven.repo.local=/runtime-repository",
+    "-Duser.home=/tmp",
+    "-Dmaven.test.skip=true",
+    "-Dmaven.compiler.release=8",
+    "compile"
+  ],
+  "container": "td522e21-2a56ffbb5f07",
+  "container_events": [
+    {
+      "action": "create",
+      "exit_code": null,
+      "time_nano": 1792355342223136348
+    },
+    {
+      "action": "start",
+      "exit_code": null,
+      "time_nano": 1792355342497392860
+    },
+    {
+      "action": "die",
+      "exit_code": "0",
+      "time_nano": 1792355353549597608
+    }
+  ],
+  "container_id": "1ece09510d00041b082423524596e38eecf9d96179d87a609e0b336446896961",
+  "docker_exit": 0,
+  "downloads": 0,
+  "errors": [],
+  "evidence_completeness": {
+    "checks": {
+      "all734_artifacts_unchanged": true,
+      "cleanup": true,
+      "docker_logs": true,
+      "logs_complete": true,
+      "no_oom": true,
+      "no_unexpected_controller_errors": true,
+      "one_start": true,
+      "required_capture_available": true,
+      "source_hashes": true,
+      "terminal_exits_agree": true
+    },
+    "complete": true,
+    "unavailable": []
+  },
+  "execution_sha256": "7c533c28902e258b4eaf7676f7874ce2f9ee7dbea119f50366eaa1d7c8412a35",
+  "host_execution_seconds": 11.23237916099606,
+  "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+  "logs": {
+    "complete": true,
+    "stderr_bytes": 569,
+    "stdout_bytes": 4817
+  },
+  "maven_actually_launched": true,
+  "maven_environment": {
+    "MAVEN_OPTS": "-Xms32m -Xmx768m -XX:ActiveProcessorCount=1 -Duser.home=/tmp"
+  },
+  "maven_exit": 0,
+  "maven_wrapper_seconds": 9.389999999999418,
+  "mode": "--e21-offline-compile",
+  "other_revision_builds": 0,
+  "raw_result_sha256": "a4b16dd452770a861ba9677c3addca95770d71269d6d79c2d3a5dc1a81c29a7e",
+  "retries": 0,
+  "setup_complete": true,
+  "status": "COMPILE_PASS",
+  "terminal_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 0,
+    "FinishedAt": "2026-10-18T20:29:13.508907312Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-10-18T20:29:02.423356324Z",
+    "Status": "exited"
+  }
+}

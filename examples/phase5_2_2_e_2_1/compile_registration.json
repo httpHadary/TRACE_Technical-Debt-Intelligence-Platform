@@ -1,0 +1,176 @@
+{
+  "actual_active_profiles": "UNAVAILABLE_NOT_ENUMERATED_BY_COMPILE",
+  "apache_parent_version": "32",
+  "artifacts": 734,
+  "base_commit": "1e1800893c9725290c4b94016492c608e7eb71c3",
+  "cache_identity_sha256": "e4870752be9fc1517fbdbb6eb785a704211950630839ac12e39d562725e95ecf",
+  "capacity": {
+    "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+    "estimated_directory_bytes": 3325952,
+    "estimated_total_bytes": 99856384,
+    "metadata_reserve_bytes": 16777216,
+    "payload_bytes": 78245716,
+    "repository_tmpfs_bytes": 134217728,
+    "rounded_file_bytes": 79753216
+  },
+  "command": [
+    "/usr/share/maven/bin/mvn",
+    "--offline",
+    "--batch-mode",
+    "--no-transfer-progress",
+    "--errors",
+    "-s",
+    "/inspection/settings.xml",
+    "-gs",
+    "/inspection/settings.xml",
+    "-Dmaven.repo.local=/runtime-repository",
+    "-Duser.home=/tmp",
+    "-Dmaven.test.skip=true",
+    "-Dmaven.compiler.release=8",
+    "compile"
+  ],
+  "commit": "e1529b546d9696192f4de52152777403b4a01b39",
+  "cpus": 1,
+  "downloads": 0,
+  "effective_pom_sha256": null,
+  "executed_wrapper_sha256": "92a6567d213e6fbd73eaba04c30b8ee935147a33c92da0626220b7490f406870",
+  "explicit_profiles": [],
+  "heap_max_bytes": 805306368,
+  "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+  "lifecycle": [
+    {
+      "execution": "enforce-maven-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.4.1"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.4.1"
+    },
+    {
+      "execution": "enforce-java-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.4.1"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.4.1"
+    },
+    {
+      "execution": "rat-check",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "goal": "check",
+      "phase": "validate",
+      "prefix": "apache-rat",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "goal": "check-buildplan",
+      "phase": "validate",
+      "prefix": "artifact",
+      "version": "3.5.1"
+    },
+    {
+      "execution": "parse-version",
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "goal": "parse-version",
+      "phase": "validate",
+      "prefix": "build-helper",
+      "version": "3.6.0"
+    },
+    {
+      "execution": "javadoc.resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "goal": "run",
+      "phase": "generate-sources",
+      "prefix": "antrun",
+      "version": "3.1.0"
+    },
+    {
+      "execution": "process-resource-bundles",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "goal": "process",
+      "phase": "generate-resources",
+      "prefix": "remote-resources",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default",
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.0"
+      ],
+      "goal": "create",
+      "phase": "generate-resources",
+      "prefix": "buildnumber",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default-resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "goal": "resources",
+      "phase": "process-resources",
+      "prefix": "resources",
+      "version": "3.3.1"
+    },
+    {
+      "execution": "default-compile",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "goal": "compile",
+      "phase": "compile",
+      "prefix": "compiler",
+      "version": "3.13.0"
+    }
+  ],
+  "maximum_attempts": 1,
+  "memory_bytes": 2147483648,
+  "mode": "--e21-offline-compile",
+  "parent_version": "71",
+  "pids": 64,
+  "pom_sha256": "f4403aa060f16ca0f17d28fffb1bc6fcc42c31d480af8dc6a6436f25fddf8f15",
+  "seed_manifest_sha256": "abbfd6711f2d16b4eb4f0992d819c01cb85c8cef385f6a7c9effb2136d35e4b6",
+  "settings_sha256": "3d40c2cbbd0003df1f8e4be9ac970f77c9446c03235aab00c6ef738b4701c200",
+  "setup_template_sha256": "10566db2ba537d6d75207c4623e795d50b4cc436005e4a767690fbf6db1fd869",
+  "source_files": 116,
+  "source_manifest_sha256": "5b7bf1c7a17537bdd239ba92344f09acb54e2a4d1f96799dceaee547b185d783",
+  "swap_bytes": 0,
+  "tree": "c1a67e730fc5729a5376c267ed559f4ae310df01",
+  "version": "e21-offline-compile-v1"
+}
