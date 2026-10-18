@@ -1,0 +1,21 @@
+{
+  "actual_effective_model_sha256": null,
+  "actual_maven_execution": "NOT_EXECUTED",
+  "after": [],
+  "before": [
+    "commons-io/commons-io/2.18.0/commons-io-2.18.0.jar",
+    "commons-io/commons-io/2.18.0/commons-io-2.18.0.pom"
+  ],
+  "capacity_status": "FITS_128_MIB",
+  "compile_success": false,
+  "issues": [],
+  "missing_paths": [],
+  "newly_exposed_resolved_paths": [],
+  "resolved": [
+    "commons-io/commons-io/2.18.0/commons-io-2.18.0.jar",
+    "commons-io/commons-io/2.18.0/commons-io-2.18.0.pom"
+  ],
+  "scope": "Static paths/descriptors/closure only; actual model,profiles and classpaths remain unverified",
+  "status": "PASS_STATIC_T_PLUS_60_READINESS",
+  "stop": null
+}

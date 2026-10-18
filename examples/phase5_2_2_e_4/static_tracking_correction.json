@@ -1,0 +1,11 @@
+{
+  "acquisition_manifest_unchanged": true,
+  "additional_requests": 0,
+  "executed_acquisition_source_sha256": "dfc6dba8d2ad3f9df41becfb949b06dc347cd420b5f0462c2422eb8ca7c7a042",
+  "missing_frontier_and_all_nontracking_fields_unchanged": true,
+  "old_phase_code_or_reports_modified": false,
+  "published_source_sha256": "03c4a74ce5363acdf009913b7db65290396bfa5560f84075cd0d05fa7c2c58a4",
+  "scope": "E4 per-plugin POM-path diagnostics only",
+  "status": "PASS",
+  "transport_budget_and_acquisition_ast_unchanged": true
+}

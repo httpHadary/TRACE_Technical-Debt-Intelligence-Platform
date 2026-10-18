@@ -1,0 +1,46 @@
+{
+  "accounting": "Response/checksum bodies; unread errors,headers and TLS excluded. Local candidate bytes are verified but are not network payload. GitHub publication is separate from the sealed Maven batch.",
+  "acquisition_elapsed_seconds": 64.5366113239943,
+  "acquisition_peak_rss_kib": 45200,
+  "actual_address_space_limit_bytes": 1073741824,
+  "actual_cpu_affinity": [
+    0
+  ],
+  "admission": {
+    "phase": "E4_STATIC_ONLY",
+    "process_admission": "Kernel1GiB address-space cap andCPU0 affinity enforced at acquisition entry; no container budget requested",
+    "prohibited_runtime_execution": false,
+    "snapshot_before_acquisition": {
+      "available_ram_bytes": 9223729152,
+      "free_disk_bytes": 15409139712,
+      "running_containers": 0
+    }
+  },
+  "approved_local_new_artifacts": [],
+  "automatic_http_retries": 0,
+  "available_ram_bytes": 9375834112,
+  "checksum_404s": 4,
+  "containers_started": 0,
+  "free_disk_bytes": 15470587904,
+  "java_executions": 0,
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "artifact_bytes": 16777216,
+    "cpus": 1,
+    "requests": 80,
+    "response_bytes": 25165824,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600
+  },
+  "maven_executions": 0,
+  "new_artifact_bytes": 558942,
+  "new_artifact_count": 2,
+  "offline_audit_peak_rss_kib": 48052,
+  "read_only_daemon_inspection": "GET existing container/volume metadata only; no Docker CLI or container execution",
+  "requests": 8,
+  "response_payload_bytes": 559022,
+  "task_storage_bytes_at_verification": 93619625,
+  "task_storage_bytes_before_publication": 93895679,
+  "transport_retries": 0,
+  "workers": 1
+}
