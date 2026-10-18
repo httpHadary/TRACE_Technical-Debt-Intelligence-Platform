@@ -1,0 +1,29 @@
+{
+  "before_frontier": [
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom"
+  ],
+  "compiler_release": "8",
+  "effective_pom_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "explicit_profiles": [],
+  "historical_pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "inherited_profile_evidence": "Published D.3 active-profiles.txt; no Maven executed here",
+  "local_source_ids": [
+    "approved-local-0",
+    "approved-local-1"
+  ],
+  "maven_test_skip": true,
+  "seed_count": 653,
+  "seed_records_sha256": "eae06dfb1355c4c81a72374aed2e814b6ea4b5f571f7553ebb7bed01ac46f5bf",
+  "source_commit": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "source_tree": "ac7521be84b2820a83f7b960d329a15521408214",
+  "version": "e03-registration-v1"
+}
