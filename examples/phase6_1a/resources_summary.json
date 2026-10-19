@@ -1,0 +1,41 @@
+{
+  "all_repeats_identical": true,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "distinct_numeric_histories": {
+    "512": 32,
+    "90": 31
+  },
+  "forward_counts": {
+    "512": 72,
+    "90": 72
+  },
+  "forward_raw_sha256": "84f094f3fda5851155ae49f5affdde013aa18cb080a979830e44f4833b321de5",
+  "full_resources_sha256": "d0ed1c77aaa13a64bb978065419c64d61fe1ac8f05d26bf37661077e476fe677",
+  "gpu_used": false,
+  "model_load_seconds": 4.157357245999947,
+  "native_calls": 144,
+  "network": "SECCOMP_SOCKET_DENIED",
+  "peak_rss_bytes": 506380288,
+  "repeat_checks": 72,
+  "successful_worker": true,
+  "timing_by_context": {
+    "512": {
+      "calls": 72,
+      "mean_seconds": 0.08543786516666627,
+      "median_seconds": 0.08386351350009136,
+      "total_seconds": 6.151526291999971
+    },
+    "90": {
+      "calls": 72,
+      "mean_seconds": 0.05741933904168187,
+      "median_seconds": 0.05605258349999076,
+      "total_seconds": 4.134192411001095
+    }
+  },
+  "torch_interop_threads": 1,
+  "torch_threads": 2,
+  "worker_elapsed_seconds": 18.74296722500003
+}

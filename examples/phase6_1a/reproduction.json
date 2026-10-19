@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "endpoint_rows": 540,
+  "metrics_sha256": "dd814a522abcd0642b2fac6aada42465ebcd71eed252c50eced84cff5bdf3340",
+  "endpoints_sha256": "95a39cd9b1253a7ef1db1998b727ccd4e6e4f3ab9ea84ce83967154d850ccd94",
+  "registration_sha256": "e9a7fa72f8da4a2df6a53902b901ac3fe73aa40ea9cb4d82b14fba2090192fe1",
+  "method": "Independent endpoint CSV parse, regenerated synthetic targets/denominators, and complete metric recomputation; no inference replay",
+  "sealed_private_endpoints_sha256": "d45e8b093aaf2c5b56b218eda32abe92a38f6e56e3442a2f31fcf3d7f68143cf",
+  "publication_csv_line_endings": "LF; numeric cells unchanged; sealed private originals remain CRLF"
+}
