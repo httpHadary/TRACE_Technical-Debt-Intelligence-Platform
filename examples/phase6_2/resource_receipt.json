@@ -1,0 +1,71 @@
+{
+  "raw_private_receipt_sha256": "d0a0ba805b27779fd91a9ef2ec29bdcced4f8ffb9622fac3ad470699c1634df5",
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "supervisor": {
+    "command": [
+      "taskset",
+      "-c",
+      "0,1",
+      "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python",
+      "-m",
+      "forecasting_research.phase6_2.worker",
+      "/home/hp/tst/research/forecasting_mvp/phase6_2/2026-10-20/study-001"
+    ],
+    "exit_code": 0,
+    "kernel_sampled_hwm_bytes": 103190528,
+    "limits": {
+      "log_bytes": 8388608,
+      "numerical_threads": 2,
+      "output_bytes": 67108864,
+      "rss_bytes": 2147483648,
+      "wall_seconds": 900
+    },
+    "monitoring": "10ms RSS/HWM + kernel final ru_maxrss; process supervisor, not cgroup enforcement",
+    "network": "No network calls; worker Python socket connections denied; not network namespace isolation",
+    "no_native_model_process": true,
+    "reason": null,
+    "sampled_peak_rss_bytes": 103190528,
+    "status": "PASS",
+    "wall_seconds": 147.16515368399996,
+    "worker_finally_receipt": {
+      "affinity": [
+        0,
+        1
+      ],
+      "cpu_system_seconds": 0.202982,
+      "cpu_user_seconds": 147.153406,
+      "env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "MKL_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "failure": null,
+      "observability": "finally on ordinary exceptions; SIGKILL cannot execute Python finally; supervisor retains host observations",
+      "peak_rss_bytes": 102957056,
+      "status": "PASS",
+      "threads": "2",
+      "wall_seconds": 146.99018121100016
+    }
+  },
+  "worker": {
+    "affinity": [
+      0,
+      1
+    ],
+    "cpu_system_seconds": 0.202982,
+    "cpu_user_seconds": 147.153406,
+    "env": {
+      "CUDA_VISIBLE_DEVICES": "",
+      "MKL_NUM_THREADS": "2",
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2"
+    },
+    "failure": null,
+    "observability": "finally on ordinary exceptions; SIGKILL cannot execute Python finally; supervisor retains host observations",
+    "peak_rss_bytes": 102957056,
+    "status": "PASS",
+    "threads": "2",
+    "wall_seconds": 146.99018121100016
+  }
+}
