@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "run": "chronos-001",
+      "attempted_native_calls": 20,
+      "successful_native_calls": 20,
+      "unique_contexts": 10,
+      "numeric_paths_sha256": "7873fed7daee32f975590c8e478c0f8577fd5a364aa96fda43003246a4afe144",
+      "supervisor_sha256": "093f65802ba4ebbcaeca9d26fd0855e7d84bfe55f3cb099b954d2e5f8a4809e7",
+      "manifest_sha256": "733b53d75b0859f873b925f65b85b0073a8cf560643aaa82085be902e7ce6dc7"
+    },
+    {
+      "run": "chronos-final",
+      "attempted_native_calls": 20,
+      "successful_native_calls": 20,
+      "unique_contexts": 10,
+      "numeric_paths_sha256": "7873fed7daee32f975590c8e478c0f8577fd5a364aa96fda43003246a4afe144",
+      "supervisor_sha256": "07965248e7c2aea8976948064908c24827004fae7484d8343712b655ad29f07b",
+      "manifest_sha256": "489818622b84d04d9a6aec10aa0073cdfaafb52ea5dfdd971229b2d3790ce12d"
+    },
+    {
+      "run": "chronos-identity-frozen",
+      "attempted_native_calls": 20,
+      "successful_native_calls": 20,
+      "unique_contexts": 10,
+      "numeric_paths_sha256": "7873fed7daee32f975590c8e478c0f8577fd5a364aa96fda43003246a4afe144",
+      "supervisor_sha256": "af95ce6e957c2f7b78831f9f2fb115ac7aec257e8896feb7da68980ee4d814aa",
+      "manifest_sha256": "c84c2a0ab5a85e365aa4928d2e8a296ca5cdc1ffc8625192b5f48fc3b876a62c"
+    },
+    {
+      "run": "chronos-release",
+      "attempted_native_calls": 20,
+      "successful_native_calls": 20,
+      "unique_contexts": 10,
+      "numeric_paths_sha256": "7873fed7daee32f975590c8e478c0f8577fd5a364aa96fda43003246a4afe144",
+      "supervisor_sha256": "a491f082e982caefc880bf3981b200a92f0a38cf3c8d090d65e0bee6a4523095",
+      "manifest_sha256": "26a06e8afe2731fcb4f6c1009bbae1ad783a4a96a136c993da7690c585c60558"
+    },
+    {
+      "run": "chronos-publish",
+      "attempted_native_calls": 20,
+      "successful_native_calls": 20,
+      "unique_contexts": 10,
+      "numeric_paths_sha256": "7873fed7daee32f975590c8e478c0f8577fd5a364aa96fda43003246a4afe144",
+      "supervisor_sha256": "68f89af8d2eb5a51d8028757b03ccd750fb13efb7b2500896b8bacdf2ad080e1",
+      "manifest_sha256": "28b2503cddbcbe66c537428263c1cf1b7e110fd01270bd80fc2d920eca401ae6"
+    }
+  ],
+  "total_native_calls": 100,
+  "unique_numeric_contexts": 10,
+  "not_independent_experiments": true,
+  "development_notes": "Four preserved successful development runs; publication run adds lexical traversal rejection. Same ten numerical contexts, no outcome-based reselection/tuning."
+}

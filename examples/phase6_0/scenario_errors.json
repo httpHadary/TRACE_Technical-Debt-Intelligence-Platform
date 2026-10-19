@@ -1,0 +1,3079 @@
+{
+  "status": "SYNTHETIC_ENGINEERING_TEST",
+  "models": {
+    "persistence": {
+      "constant": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "distribution_shift": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 44.99999999999999,
+          "macro_rmse": 44.99999999999999,
+          "pooled_mae": 44.99999999999999,
+          "pooled_rmse": 44.99999999999999,
+          "median_absolute_error": 45.0,
+          "signed_bias": -44.99999999999999,
+          "persistence_macro_mae": 44.99999999999999,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 90.0,
+          "macro_rmse": 90.0,
+          "pooled_mae": 90.0,
+          "pooled_rmse": 90.0,
+          "median_absolute_error": 90.0,
+          "signed_bias": -90.0,
+          "persistence_macro_mae": 90.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 135.0,
+          "macro_rmse": 135.0,
+          "pooled_mae": 135.0,
+          "pooled_rmse": 135.0,
+          "median_absolute_error": 135.0,
+          "signed_bias": -135.0,
+          "persistence_macro_mae": 135.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "down_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 27.5,
+          "macro_rmse": 27.5,
+          "pooled_mae": 27.5,
+          "pooled_rmse": 27.57565351295716,
+          "median_absolute_error": 27.5,
+          "signed_bias": 27.5,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 27.5,
+          "macro_rmse": 27.5,
+          "pooled_mae": 27.5,
+          "pooled_rmse": 27.57565351295716,
+          "median_absolute_error": 27.5,
+          "signed_bias": 27.5,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "irregular": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 3.25009600013991,
+          "macro_rmse": 3.25009600013991,
+          "pooled_mae": 3.25009600013991,
+          "pooled_rmse": 3.4445215327128134,
+          "median_absolute_error": 2.9624888934435063,
+          "signed_bias": -3.25009600013991,
+          "persistence_macro_mae": 3.25009600013991,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 7.278454467777057,
+          "macro_rmse": 7.278454467777057,
+          "pooled_mae": 7.278454467777057,
+          "pooled_rmse": 7.306479113487473,
+          "median_absolute_error": 7.379198987962809,
+          "signed_bias": -7.278454467777057,
+          "persistence_macro_mae": 7.278454467777057,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 10.08257146852769,
+          "macro_rmse": 10.08257146852769,
+          "pooled_mae": 10.08257146852769,
+          "pooled_rmse": 10.159167192924741,
+          "median_absolute_error": 10.454850509629168,
+          "signed_bias": -10.08257146852769,
+          "persistence_macro_mae": 10.08257146852769,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "long_plateaus": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.499999999999996,
+          "macro_rmse": 16.499999999999996,
+          "pooled_mae": 16.499999999999996,
+          "pooled_rmse": 16.54539210777429,
+          "median_absolute_error": 16.499999999999986,
+          "signed_bias": -16.499999999999996,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.499999999999996,
+          "macro_rmse": 16.499999999999996,
+          "pooled_mae": 16.499999999999996,
+          "pooled_rmse": 16.54539210777429,
+          "median_absolute_error": 16.499999999999986,
+          "signed_bias": -16.499999999999996,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "mixed_scale": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 916.6588816110764,
+          "macro_rmse": 916.6588816110764,
+          "pooled_mae": 916.6588816110764,
+          "pooled_rmse": 1586.075686743717,
+          "median_absolute_error": 2.7908744232932747,
+          "signed_bias": -916.6588816110764,
+          "persistence_macro_mae": 916.6588816110764,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2676.8542879981574,
+          "macro_rmse": 2676.8542879981574,
+          "pooled_mae": 2676.8542879981574,
+          "pooled_rmse": 4631.756901071039,
+          "median_absolute_error": 8.067852662672692,
+          "signed_bias": -2676.8542879981574,
+          "persistence_macro_mae": 2676.8542879981574,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 3859.733318470903,
+          "macro_rmse": 3859.733318470903,
+          "pooled_mae": 3859.733318470903,
+          "pooled_rmse": 6678.03735315534,
+          "median_absolute_error": 12.365571530004019,
+          "signed_bias": -3859.733318470903,
+          "persistence_macro_mae": 3859.733318470903,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "multiple_steps": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.5,
+          "macro_rmse": 16.5,
+          "pooled_mae": 16.5,
+          "pooled_rmse": 16.545392107774298,
+          "median_absolute_error": 16.5,
+          "signed_bias": -16.5,
+          "persistence_macro_mae": 16.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109719,
+          "median_absolute_error": 66.0,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "near_zero": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.00032934387469762093,
+          "macro_rmse": 0.00032934387469762093,
+          "pooled_mae": 0.00032934387469762093,
+          "pooled_rmse": 0.0005704403241378775,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.00032934387469762093,
+          "persistence_macro_mae": 0.00032934387469762093,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.00010160354036740579,
+          "macro_rmse": 0.00010160354036740579,
+          "pooled_mae": 0.00010160354036740579,
+          "pooled_rmse": 0.00017598249414522223,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.00010160354036740579,
+          "persistence_macro_mae": 0.00010160354036740579,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0002979988878668525,
+          "macro_rmse": 0.0002979988878668525,
+          "pooled_mae": 0.0002979988878668525,
+          "pooled_rmse": 0.0005161492143844091,
+          "median_absolute_error": 0.0,
+          "signed_bias": -0.0002979988878668525,
+          "persistence_macro_mae": 0.0002979988878668525,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "quiet_then_change": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_decrease": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 8.25,
+          "macro_rmse": 8.25,
+          "pooled_mae": 8.25,
+          "pooled_rmse": 8.272696053887149,
+          "median_absolute_error": 8.25,
+          "signed_bias": 8.25,
+          "persistence_macro_mae": 8.25,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.5,
+          "macro_rmse": 16.5,
+          "pooled_mae": 16.5,
+          "pooled_rmse": 16.545392107774298,
+          "median_absolute_error": 16.5,
+          "signed_bias": 16.5,
+          "persistence_macro_mae": 16.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 24.75,
+          "macro_rmse": 24.75,
+          "pooled_mae": 24.75,
+          "pooled_rmse": 24.818088161661446,
+          "median_absolute_error": 24.75,
+          "signed_bias": 24.75,
+          "persistence_macro_mae": 24.75,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_increase": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 8.25,
+          "macro_rmse": 8.25,
+          "pooled_mae": 8.25,
+          "pooled_rmse": 8.272696053887149,
+          "median_absolute_error": 8.25,
+          "signed_bias": -8.25,
+          "persistence_macro_mae": 8.25,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.5,
+          "macro_rmse": 16.5,
+          "pooled_mae": 16.5,
+          "pooled_rmse": 16.545392107774298,
+          "median_absolute_error": 16.5,
+          "signed_bias": -16.5,
+          "persistence_macro_mae": 16.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 24.750000000000004,
+          "macro_rmse": 24.750000000000004,
+          "pooled_mae": 24.750000000000004,
+          "pooled_rmse": 24.81808816166145,
+          "median_absolute_error": 24.750000000000014,
+          "signed_bias": -24.750000000000004,
+          "persistence_macro_mae": 24.750000000000004,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "sparse": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 4.739484508824067,
+          "macro_rmse": 4.739484508824067,
+          "pooled_mae": 4.739484508824067,
+          "pooled_rmse": 4.80931281113962,
+          "median_absolute_error": 4.364281115419757,
+          "signed_bias": -4.739484508824067,
+          "persistence_macro_mae": 4.739484508824067,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 7.765579265460393,
+          "macro_rmse": 7.765579265460393,
+          "pooled_mae": 7.765579265460393,
+          "pooled_rmse": 7.95270634231492,
+          "median_absolute_error": 8.344166696959434,
+          "signed_bias": -7.765579265460393,
+          "persistence_macro_mae": 7.765579265460393,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 10.54423599999061,
+          "macro_rmse": 10.54423599999061,
+          "pooled_mae": 10.54423599999061,
+          "pooled_rmse": 10.577917670426643,
+          "median_absolute_error": 10.860923658444278,
+          "signed_bias": -10.54423599999061,
+          "persistence_macro_mae": 10.54423599999061,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "stationary_noise": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.9506810323413124,
+          "macro_rmse": 1.9506810323413124,
+          "pooled_mae": 1.9506810323413124,
+          "pooled_rmse": 2.077819260973675,
+          "median_absolute_error": 1.5681909243362497,
+          "signed_bias": -1.0637337276799315,
+          "persistence_macro_mae": 1.9506810323413124,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.7490015752816863,
+          "macro_rmse": 1.7490015752816863,
+          "pooled_mae": 1.7490015752816863,
+          "pooled_rmse": 2.02535046920284,
+          "median_absolute_error": 1.479135117411161,
+          "signed_bias": 1.312241417799522,
+          "persistence_macro_mae": 1.7490015752816863,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 3.831680232473938,
+          "macro_rmse": 3.831680232473938,
+          "pooled_mae": 3.831680232473938,
+          "pooled_rmse": 4.539338420179725,
+          "median_absolute_error": 3.8225070571579067,
+          "signed_bias": -3.831680232473938,
+          "persistence_macro_mae": 3.831680232473938,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "up_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      }
+    },
+    "rolling_mean": {
+      "constant": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "distribution_shift": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 45.14999999999999,
+          "macro_rmse": 45.14999999999999,
+          "pooled_mae": 45.14999999999999,
+          "pooled_rmse": 45.14999999999999,
+          "median_absolute_error": 45.14999999999999,
+          "signed_bias": -45.14999999999999,
+          "persistence_macro_mae": 44.99999999999999,
+          "skill": -0.0033333333333334103,
+          "paired_gain_ci95": [
+            -0.15000000000000568,
+            -0.14999999999999147
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 90.14999999999999,
+          "macro_rmse": 90.14999999999999,
+          "pooled_mae": 90.14999999999999,
+          "pooled_rmse": 90.14999999999999,
+          "median_absolute_error": 90.14999999999999,
+          "signed_bias": -90.14999999999999,
+          "persistence_macro_mae": 90.0,
+          "skill": -0.0016666666666664831,
+          "paired_gain_ci95": [
+            -0.15000000000000568,
+            -0.14999999999999147
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 135.14999999999998,
+          "macro_rmse": 135.14999999999998,
+          "pooled_mae": 135.14999999999998,
+          "pooled_rmse": 135.14999999999998,
+          "median_absolute_error": 135.14999999999998,
+          "signed_bias": -135.14999999999998,
+          "persistence_macro_mae": 135.0,
+          "skill": -0.0011111111111108407,
+          "paired_gain_ci95": [
+            -0.14999999999997726,
+            -0.14999999999997726
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "down_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 27.5,
+          "macro_rmse": 27.5,
+          "pooled_mae": 27.5,
+          "pooled_rmse": 27.57565351295716,
+          "median_absolute_error": 27.5,
+          "signed_bias": 27.5,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 27.5,
+          "macro_rmse": 27.5,
+          "pooled_mae": 27.5,
+          "pooled_rmse": 27.57565351295716,
+          "median_absolute_error": 27.5,
+          "signed_bias": 27.5,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "long_plateaus": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.499999999999996,
+          "macro_rmse": 16.499999999999996,
+          "pooled_mae": 16.499999999999996,
+          "pooled_rmse": 16.54539210777429,
+          "median_absolute_error": 16.499999999999986,
+          "signed_bias": -16.499999999999996,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.499999999999996,
+          "macro_rmse": 16.499999999999996,
+          "pooled_mae": 16.499999999999996,
+          "pooled_rmse": 16.54539210777429,
+          "median_absolute_error": 16.499999999999986,
+          "signed_bias": -16.499999999999996,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "mixed_scale": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1206.5426998616672,
+          "macro_rmse": 1206.5426998616672,
+          "pooled_mae": 1206.5426998616672,
+          "pooled_rmse": 2087.1347290188664,
+          "median_absolute_error": 4.578147507612755,
+          "signed_bias": -1206.5426998616672,
+          "persistence_macro_mae": 916.6588816110764,
+          "skill": -0.31623957839267836,
+          "paired_gain_ci95": [
+            -867.858237497654,
+            -0.005944169798951626
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2966.738106248748,
+          "macro_rmse": 2966.738106248748,
+          "pooled_mae": 2966.738106248748,
+          "pooled_rmse": 5132.815899626472,
+          "median_absolute_error": 9.855125746992172,
+          "signed_bias": -2966.738106248748,
+          "persistence_macro_mae": 2676.8542879981574,
+          "skill": -0.1082927149043198,
+          "paired_gain_ci95": [
+            -867.858237497654,
+            -0.005944169798951626
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 4149.617136721494,
+          "macro_rmse": 4149.617136721494,
+          "pooled_mae": 4149.617136721494,
+          "pooled_rmse": 7179.096374167905,
+          "median_absolute_error": 14.152844614323499,
+          "signed_bias": -4149.617136721494,
+          "persistence_macro_mae": 3859.733318470903,
+          "skill": -0.07510462364416215,
+          "paired_gain_ci95": [
+            -867.858237497654,
+            -0.005944169798951626
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "multiple_steps": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 16.5,
+          "macro_rmse": 16.5,
+          "pooled_mae": 16.5,
+          "pooled_rmse": 16.545392107774298,
+          "median_absolute_error": 16.5,
+          "signed_bias": -16.5,
+          "persistence_macro_mae": 16.5,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109719,
+          "median_absolute_error": 66.0,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "near_zero": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.00033426072462507524,
+          "macro_rmse": 0.00033426072462507524,
+          "pooled_mae": 0.00033426072462507524,
+          "pooled_rmse": 0.0005789565580254196,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.00033426072462507524,
+          "persistence_macro_mae": 0.00032934387469762093,
+          "skill": -0.014929228399855887,
+          "paired_gain_ci95": [
+            -1.475054978236287e-05,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.00010652039029486009,
+          "macro_rmse": 0.00010652039029486009,
+          "pooled_mae": 0.00010652039029486009,
+          "pooled_rmse": 0.0001844987280327644,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.00010652039029486009,
+          "persistence_macro_mae": 0.00010160354036740579,
+          "skill": -0.04839250590751676,
+          "paired_gain_ci95": [
+            -1.475054978236287e-05,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0002930820379393982,
+          "macro_rmse": 0.0002930820379393982,
+          "pooled_mae": 0.0002930820379393982,
+          "pooled_rmse": 0.000507632980496867,
+          "median_absolute_error": 0.0,
+          "signed_bias": -0.0002930820379393982,
+          "persistence_macro_mae": 0.0002979988878668525,
+          "skill": 0.01649955797704583,
+          "paired_gain_ci95": [
+            0.0,
+            1.475054978236287e-05
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "quiet_then_change": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_decrease": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 9.074999999999998,
+          "macro_rmse": 9.074999999999998,
+          "pooled_mae": 9.074999999999998,
+          "pooled_rmse": 9.099965659275862,
+          "median_absolute_error": 9.075000000000003,
+          "signed_bias": 9.074999999999998,
+          "persistence_macro_mae": 8.25,
+          "skill": -0.09999999999999964,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 17.325,
+          "macro_rmse": 17.325,
+          "pooled_mae": 17.325,
+          "pooled_rmse": 17.37266171316301,
+          "median_absolute_error": 17.325000000000003,
+          "signed_bias": 17.325,
+          "persistence_macro_mae": 16.5,
+          "skill": -0.050000000000000044,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 25.575,
+          "macro_rmse": 25.575,
+          "pooled_mae": 25.575,
+          "pooled_rmse": 25.64535776705016,
+          "median_absolute_error": 25.575000000000003,
+          "signed_bias": 25.575,
+          "persistence_macro_mae": 24.75,
+          "skill": -0.033333333333333215,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_increase": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 9.074999999999994,
+          "macro_rmse": 9.074999999999994,
+          "pooled_mae": 9.074999999999994,
+          "pooled_rmse": 9.099965659275856,
+          "median_absolute_error": 9.074999999999989,
+          "signed_bias": -9.074999999999994,
+          "persistence_macro_mae": 8.25,
+          "skill": -0.0999999999999992,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 17.324999999999992,
+          "macro_rmse": 17.324999999999992,
+          "pooled_mae": 17.324999999999992,
+          "pooled_rmse": 17.372661713163005,
+          "median_absolute_error": 17.32499999999999,
+          "signed_bias": -17.324999999999992,
+          "persistence_macro_mae": 16.5,
+          "skill": -0.0499999999999996,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 25.575,
+          "macro_rmse": 25.575,
+          "pooled_mae": 25.575,
+          "pooled_rmse": 25.64535776705016,
+          "median_absolute_error": 25.575000000000003,
+          "signed_bias": -25.575,
+          "persistence_macro_mae": 24.750000000000004,
+          "skill": -0.033333333333333215,
+          "paired_gain_ci95": [
+            -0.8999999999999915,
+            -0.75
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "stationary_noise": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.2608494293107668,
+          "macro_rmse": 1.2608494293107668,
+          "pooled_mae": 1.2608494293107668,
+          "pooled_rmse": 1.6117612144424651,
+          "median_absolute_error": 1.3235747618277571,
+          "signed_bias": 0.37846625475892876,
+          "persistence_macro_mae": 1.9506810323413124,
+          "skill": 0.35363628988721574,
+          "paired_gain_ci95": [
+            -1.1275195263838924,
+            1.629856453867859
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.7544414002383824,
+          "macro_rmse": 2.7544414002383824,
+          "pooled_mae": 2.7544414002383824,
+          "pooled_rmse": 3.1445936254737568,
+          "median_absolute_error": 2.6066546437950535,
+          "signed_bias": 2.7544414002383824,
+          "persistence_macro_mae": 1.7490015752816863,
+          "skill": -0.5748650196582954,
+          "paired_gain_ci95": [
+            -1.5692239670648291,
+            -0.3195759814213659
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.905795704121578,
+          "macro_rmse": 2.905795704121578,
+          "pooled_mae": 2.905795704121578,
+          "pooled_rmse": 3.561319629054273,
+          "median_absolute_error": 2.2532830900930776,
+          "signed_bias": -2.389480250035078,
+          "persistence_macro_mae": 3.831680232473938,
+          "skill": 0.24163929977908394,
+          "paired_gain_ci95": [
+            0.08091009160835938,
+            1.5692239670648291
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "up_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 33.0,
+          "macro_rmse": 33.0,
+          "pooled_mae": 33.0,
+          "pooled_rmse": 33.090784215548595,
+          "median_absolute_error": 33.0,
+          "signed_bias": -33.0,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      }
+    },
+    "linear_trend": {
+      "constant": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "distribution_shift": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 43.49999999999999,
+          "macro_rmse": 43.49999999999999,
+          "pooled_mae": 43.49999999999999,
+          "pooled_rmse": 43.49999999999999,
+          "median_absolute_error": 43.5,
+          "signed_bias": -43.49999999999999,
+          "persistence_macro_mae": 44.99999999999999,
+          "skill": 0.033333333333333326,
+          "paired_gain_ci95": [
+            1.5,
+            1.5
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 87.0,
+          "macro_rmse": 87.0,
+          "pooled_mae": 87.0,
+          "pooled_rmse": 87.0,
+          "median_absolute_error": 87.0,
+          "signed_bias": -87.0,
+          "persistence_macro_mae": 90.0,
+          "skill": 0.033333333333333326,
+          "paired_gain_ci95": [
+            3.0,
+            3.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 130.5,
+          "macro_rmse": 130.5,
+          "pooled_mae": 130.5,
+          "pooled_rmse": 130.5,
+          "median_absolute_error": 130.5,
+          "signed_bias": -130.5,
+          "persistence_macro_mae": 135.0,
+          "skill": 0.033333333333333326,
+          "paired_gain_ci95": [
+            4.5,
+            4.5
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "down_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 7.081615014199284,
+          "macro_rmse": 7.081615014199284,
+          "pooled_mae": 7.081615014199284,
+          "pooled_rmse": 7.101096797953261,
+          "median_absolute_error": 7.081615014199286,
+          "signed_bias": -7.081615014199284,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            -7.725398197308309,
+            -6.437831831090257
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 13.336769971601434,
+          "macro_rmse": 13.336769971601434,
+          "pooled_mae": 13.336769971601434,
+          "pooled_rmse": 13.373459917050644,
+          "median_absolute_error": 13.336769971601434,
+          "signed_bias": 13.336769971601434,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.5150265464872206,
+          "paired_gain_ci95": [
+            12.875663662180514,
+            15.450796394616617
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 6.2551549574021506,
+          "macro_rmse": 6.2551549574021506,
+          "pooled_mae": 6.2551549574021506,
+          "pooled_rmse": 6.272363119097382,
+          "median_absolute_error": 6.255154957402148,
+          "signed_bias": 6.2551549574021506,
+          "persistence_macro_mae": 27.5,
+          "skill": 0.7725398197308309,
+          "paired_gain_ci95": [
+            19.31349549327077,
+            23.176194591924926
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "irregular": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.1040547554400366,
+          "macro_rmse": 1.1040547554400366,
+          "pooled_mae": 1.1040547554400366,
+          "pooled_rmse": 1.2083039488762268,
+          "median_absolute_error": 1.2124180732019454,
+          "signed_bias": 0.0081677884330702,
+          "persistence_macro_mae": 3.25009600013991,
+          "skill": 0.6603008786840421,
+          "paired_gain_ci95": [
+            0.8065747623854662,
+            3.124975820878362
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.7705100592082156,
+          "macro_rmse": 0.7705100592082156,
+          "pooled_mae": 0.7705100592082156,
+          "pooled_rmse": 1.0612605089209737,
+          "median_absolute_error": 0.5423897158603523,
+          "signed_bias": -0.7619268906311021,
+          "persistence_macro_mae": 7.278454467777057,
+          "skill": 0.8941382318705993,
+          "paired_gain_ci95": [
+            6.249951641756709,
+            6.836809272102457
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.1666723222845263,
+          "macro_rmse": 1.1666723222845263,
+          "pooled_mae": 1.1666723222845263,
+          "pooled_rmse": 1.1700313606777288,
+          "median_absolute_error": 1.1317555906458239,
+          "signed_bias": -0.30778010280875395,
+          "persistence_macro_mae": 10.08257146852769,
+          "skill": 0.8842882169567314,
+          "paired_gain_ci95": [
+            7.11755606794074,
+            10.255213908153678
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "long_plateaus": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 4.805284603037407,
+          "macro_rmse": 4.805284603037407,
+          "pooled_mae": 4.805284603037407,
+          "pooled_rmse": 4.818504117982088,
+          "median_absolute_error": 4.805284603037407,
+          "signed_bias": 4.805284603037407,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            -5.242128657858984,
+            -4.36844054821583
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 6.889430793925167,
+          "macro_rmse": 6.889430793925167,
+          "pooled_mae": 6.889430793925167,
+          "pooled_rmse": 6.908383871810101,
+          "median_absolute_error": 6.889430793925158,
+          "signed_bias": -6.889430793925167,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.582458739762111,
+          "paired_gain_ci95": [
+            8.73688109643166,
+            10.484257315717997
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.0841461908877554,
+          "macro_rmse": 2.0841461908877554,
+          "pooled_mae": 2.0841461908877554,
+          "pooled_rmse": 2.0898797538280083,
+          "median_absolute_error": 2.0841461908877363,
+          "signed_bias": -2.0841461908877554,
+          "persistence_macro_mae": 16.499999999999996,
+          "skill": 0.8736881096431663,
+          "paired_gain_ci95": [
+            13.10532164464749,
+            15.726385973576981
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "mixed_scale": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 548.3942416098057,
+          "macro_rmse": 548.3942416098057,
+          "pooled_mae": 548.3942416098057,
+          "pooled_rmse": 948.8641635897751,
+          "median_absolute_error": 1.6818986806233909,
+          "signed_bias": 548.3942416098057,
+          "persistence_macro_mae": 916.6588816110764,
+          "skill": 0.40174665558689193,
+          "paired_gain_ci95": [
+            0.0027679930938988573,
+            1103.6821762680484
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 253.25195844361176,
+          "macro_rmse": 253.25195844361176,
+          "pooled_mae": 253.25195844361176,
+          "pooled_rmse": 438.1228042810421,
+          "median_absolute_error": 0.8776935451606391,
+          "signed_bias": 253.25195844361176,
+          "persistence_macro_mae": 2676.8542879981574,
+          "skill": 0.9053919521958731,
+          "paired_gain_ci95": [
+            0.03305446513664578,
+            7263.583775080988
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 535.431533629056,
+          "macro_rmse": 535.431533629056,
+          "pooled_mae": 535.431533629056,
+          "pooled_rmse": 926.7822673927618,
+          "median_absolute_error": 1.052747781745964,
+          "signed_bias": 535.4260511917479,
+          "persistence_macro_mae": 3859.733318470903,
+          "skill": 0.8612775833328361,
+          "paired_gain_ci95": [
+            0.1327803894224746,
+            9961.459750387861
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "multiple_steps": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.854241264353618,
+          "macro_rmse": 2.854241264353618,
+          "pooled_mae": 2.854241264353618,
+          "pooled_rmse": 2.8620933872072776,
+          "median_absolute_error": 2.854241264353618,
+          "signed_bias": 2.854241264353618,
+          "persistence_macro_mae": 16.5,
+          "skill": 0.8270156809482656,
+          "paired_gain_ci95": [
+            12.405235214223978,
+            14.886282257068785
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 5.708482528707246,
+          "macro_rmse": 5.708482528707246,
+          "pooled_mae": 5.708482528707246,
+          "pooled_rmse": 5.724186774414565,
+          "median_absolute_error": 5.708482528707236,
+          "signed_bias": 5.708482528707246,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.8270156809482653,
+          "paired_gain_ci95": [
+            24.810470428447957,
+            29.772564514137542
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 7.937276206939136,
+          "macro_rmse": 7.937276206939136,
+          "pooled_mae": 7.937276206939136,
+          "pooled_rmse": 7.959111946152454,
+          "median_absolute_error": 7.937276206939146,
+          "signed_bias": -7.937276206939136,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.879738239288801,
+          "paired_gain_ci95": [
+            52.784294357328065,
+            63.34115322879367
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "near_zero": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0003225224556138648,
+          "macro_rmse": 0.0003225224556138648,
+          "pooled_mae": 0.0003225224556138648,
+          "pooled_rmse": 0.0005586252797050919,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0003225224556138648,
+          "persistence_macro_mae": 0.00032934387469762093,
+          "skill": 0.020712148024672028,
+          "paired_gain_ci95": [
+            0.0,
+            2.046425725126845e-05
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 8.796070219989291e-05,
+          "macro_rmse": 8.796070219989291e-05,
+          "pooled_mae": 8.796070219989291e-05,
+          "pooled_rmse": 0.00015235240527965003,
+          "median_absolute_error": 0.0,
+          "signed_bias": 8.796070219989291e-05,
+          "persistence_macro_mae": 0.00010160354036740579,
+          "skill": 0.13427522425084193,
+          "paired_gain_ci95": [
+            0.0,
+            4.0928514502538635e-05
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0003184631451181215,
+          "macro_rmse": 0.0003184631451181215,
+          "pooled_mae": 0.0003184631451181215,
+          "pooled_rmse": 0.000551594347682767,
+          "median_absolute_error": 0.0,
+          "signed_bias": -0.0003184631451181215,
+          "persistence_macro_mae": 0.0002979988878668525,
+          "skill": -0.06867226048310804,
+          "paired_gain_ci95": [
+            -6.139277175380708e-05,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "quiet_then_change": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 66.0,
+          "macro_rmse": 66.0,
+          "pooled_mae": 66.0,
+          "pooled_rmse": 66.18156843109718,
+          "median_absolute_error": 65.99999999999999,
+          "signed_bias": -66.0,
+          "persistence_macro_mae": 66.0,
+          "skill": 0.0,
+          "paired_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_decrease": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 8.25,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            7.5,
+            9.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 16.5,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            15.0,
+            18.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 24.75,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            22.5,
+            27.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_increase": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 8.25,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            7.5,
+            9.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 16.5,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            15.0,
+            18.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 24.750000000000004,
+          "skill": 1.0,
+          "paired_gain_ci95": [
+            22.5,
+            27.0
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "sparse": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.5575660976276378,
+          "macro_rmse": 1.5575660976276378,
+          "pooled_mae": 1.5575660976276378,
+          "pooled_rmse": 1.6667497467270234,
+          "median_absolute_error": 1.3875650281191838,
+          "signed_bias": -1.5575660976276378,
+          "persistence_macro_mae": 4.739484508824067,
+          "skill": 0.6713638171561211,
+          "paired_gain_ci95": [
+            2.593698112983276,
+            3.5187327852769243
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 1.401742443067543,
+          "macro_rmse": 1.401742443067543,
+          "pooled_mae": 1.401742443067543,
+          "pooled_rmse": 1.6722033074513665,
+          "median_absolute_error": 1.4775180263012544,
+          "signed_bias": -1.401742443067543,
+          "persistence_macro_mae": 7.765579265460393,
+          "skill": 0.819492867801609,
+          "paired_gain_ci95": [
+            5.187396225966538,
+            7.0374655705538345
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 0.9984807664013289,
+          "macro_rmse": 0.9984807664013289,
+          "pooled_mae": 0.9984807664013289,
+          "pooled_rmse": 1.133090870273842,
+          "median_absolute_error": 1.0818738944087016,
+          "signed_bias": -0.9984807664013289,
+          "persistence_macro_mae": 10.54423599999061,
+          "skill": 0.9053055369395926,
+          "paired_gain_ci95": [
+            7.7810943389498135,
+            10.556198355830759
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "stationary_noise": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.0474017925106267,
+          "macro_rmse": 2.0474017925106267,
+          "pooled_mae": 2.0474017925106267,
+          "pooled_rmse": 2.2049406258474815,
+          "median_absolute_error": 1.5419850160934487,
+          "signed_bias": -1.0194117817816608,
+          "persistence_macro_mae": 1.9506810323413124,
+          "skill": -0.049583073073317774,
+          "paired_gain_ci95": [
+            -0.2484987956397191,
+            0.16990057423315363
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 2.1689771945978578,
+          "macro_rmse": 2.1689771945978578,
+          "pooled_mae": 2.1689771945978578,
+          "pooled_rmse": 2.371075282604706,
+          "median_absolute_error": 1.9022632356139297,
+          "signed_bias": 1.4008853095960774,
+          "persistence_macro_mae": 1.7490015752816863,
+          "skill": -0.24012306521138038,
+          "paired_gain_ci95": [
+            -0.496997591279424,
+            -0.3398011484663215
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 3.698714394779112,
+          "macro_rmse": 3.698714394779112,
+          "pooled_mae": 3.698714394779112,
+          "pooled_rmse": 4.153724599383039,
+          "median_absolute_error": 3.3128053344584316,
+          "signed_bias": -3.698714394779112,
+          "persistence_macro_mae": 3.831680232473938,
+          "skill": 0.034701705160030016,
+          "paired_gain_ci95": [
+            -0.7454963869191431,
+            0.6346921773041458
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      },
+      "up_jump": {
+        "30": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 9.442153352265706,
+          "macro_rmse": 9.442153352265706,
+          "pooled_mae": 9.442153352265706,
+          "pooled_rmse": 9.468129063937674,
+          "median_absolute_error": 9.442153352265706,
+          "signed_bias": 9.442153352265706,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": [
+            -10.300530929744411,
+            -8.583775774787
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 14.11569329546858,
+          "macro_rmse": 14.11569329546858,
+          "pooled_mae": 14.11569329546858,
+          "pooled_rmse": 14.154526087673236,
+          "median_absolute_error": 14.115693295468589,
+          "signed_bias": -14.11569329546858,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.572251718319134,
+          "paired_gain_ci95": [
+            17.16755154957403,
+            20.601061859488823
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 3,
+          "repository_clusters": 3,
+          "macro_mae": 4.673539943202873,
+          "macro_rmse": 4.673539943202873,
+          "pooled_mae": 4.673539943202873,
+          "pooled_rmse": 4.686397023735561,
+          "median_absolute_error": 4.673539943202883,
+          "signed_bias": -4.673539943202873,
+          "persistence_macro_mae": 33.0,
+          "skill": 0.8583775774787008,
+          "paired_gain_ci95": [
+            25.75132732436103,
+            30.901592789233234
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 0,
+          "macro_coverage80": null,
+          "macro_width80": null,
+          "collapsed_intervals": 0
+        }
+      }
+    },
+    "chronos_small": {
+      "constant": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 0.0,
+          "collapsed_intervals": 1
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 0.0,
+          "collapsed_intervals": 1
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.0,
+          "macro_rmse": 0.0,
+          "pooled_mae": 0.0,
+          "pooled_rmse": 0.0,
+          "median_absolute_error": 0.0,
+          "signed_bias": 0.0,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 0.0,
+          "collapsed_intervals": 1
+        }
+      },
+      "down_jump": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 4.164863586425781,
+          "macro_rmse": 4.164863586425781,
+          "pooled_mae": 4.164863586425781,
+          "pooled_rmse": 4.164863586425781,
+          "median_absolute_error": 4.164863586425781,
+          "signed_bias": 4.164863586425781,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 32.885215759277344,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 40.83203887939453,
+          "macro_rmse": 40.83203887939453,
+          "pooled_mae": 40.83203887939453,
+          "pooled_rmse": 40.83203887939453,
+          "median_absolute_error": 40.83203887939453,
+          "signed_bias": 40.83203887939453,
+          "persistence_macro_mae": 25.0,
+          "skill": -0.6332815551757813,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 0,
+          "macro_width80": 30.655960083007812,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 53.68388366699219,
+          "macro_rmse": 53.68388366699219,
+          "pooled_mae": 53.68388366699219,
+          "pooled_rmse": 53.68388366699219,
+          "median_absolute_error": 53.68388366699219,
+          "signed_bias": 53.68388366699219,
+          "persistence_macro_mae": 25.0,
+          "skill": -1.1473553466796873,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 0,
+          "macro_width80": 33.5897216796875,
+          "collapsed_intervals": 0
+        }
+      },
+      "mixed_scale": {
+        "30": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 339.6228712751673,
+          "macro_rmse": 339.6228712751673,
+          "pooled_mae": 339.6228712751673,
+          "pooled_rmse": 480.2871477677282,
+          "median_absolute_error": 339.6228712751673,
+          "signed_bias": 339.6228712751673,
+          "persistence_macro_mae": 1373.592885204968,
+          "skill": 0.7527485218267648,
+          "paired_gain_ci95": [
+            0.006369501353241214,
+            2067.933658358248
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 0.5,
+          "macro_width80": 1323.266081392765,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 80.95283264235309,
+          "macro_rmse": 80.95283264235309,
+          "pooled_mae": 80.95283264235309,
+          "pooled_rmse": 114.46539048607488,
+          "median_absolute_error": 80.95283264235309,
+          "signed_bias": 80.95283264235309,
+          "persistence_macro_mae": 4011.2475056658996,
+          "skill": 0.979818539611927,
+          "paired_gain_ci95": [
+            0.03362744696873832,
+            7860.555718600124
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 1,
+          "macro_width80": 2587.7114210128784,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 634.4256234531051,
+          "macro_rmse": 634.4256234531051,
+          "pooled_mae": 634.4256234531051,
+          "pooled_rmse": 897.2095486649507,
+          "median_absolute_error": 634.4256234531051,
+          "signed_bias": 634.4202885482962,
+          "persistence_macro_mae": 5783.417191941353,
+          "skill": 0.8903026355530572,
+          "paired_gain_ci95": [
+            0.13566914057585922,
+            10297.84746783592
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 1,
+          "macro_width80": 3948.915705740452,
+          "collapsed_intervals": 0
+        }
+      },
+      "near_zero": {
+        "30": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 2.2294177781569807e-06,
+          "macro_rmse": 2.2294177781569807e-06,
+          "pooled_mae": 2.2294177781569807e-06,
+          "pooled_rmse": 3.1528728580652943e-06,
+          "median_absolute_error": 2.2294177781569807e-06,
+          "signed_bias": 2.2294177781569807e-06,
+          "persistence_macro_mae": 0.0004940158120464314,
+          "skill": 0.9954871529943106,
+          "paired_gain_ci95": [
+            0.0,
+            0.0009835727885365488
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 1,
+          "macro_width80": 7.378295815740898e-05,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 4.737224665447067e-05,
+          "macro_rmse": 4.737224665447067e-05,
+          "pooled_mae": 4.737224665447067e-05,
+          "pooled_rmse": 6.698627348920619e-05,
+          "median_absolute_error": 4.737224665447067e-05,
+          "signed_bias": 4.737224665447067e-05,
+          "persistence_macro_mae": 0.0001524053105511087,
+          "skill": 0.6891693177674112,
+          "paired_gain_ci95": [
+            -1.1597557580955709e-08,
+            0.000210077725350857
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 1,
+          "macro_width80": 0.00011096922523279318,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 2,
+          "repository_clusters": 2,
+          "macro_mae": 1.0776262834843835e-05,
+          "macro_rmse": 1.0776262834843835e-05,
+          "pooled_mae": 1.0776262834843835e-05,
+          "pooled_rmse": 1.5239937052733287e-05,
+          "median_absolute_error": 1.0776262834843835e-05,
+          "signed_bias": -1.0776262834843835e-05,
+          "persistence_macro_mae": 0.00044699833180027876,
+          "skill": 0.9758919394811998,
+          "paired_gain_ci95": [
+            0.0,
+            0.0008724441379308698
+          ],
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 2,
+          "macro_coverage80": 1,
+          "macro_width80": 0.0001073370525404016,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_decrease": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.16063690185546875,
+          "macro_rmse": 0.16063690185546875,
+          "pooled_mae": 0.16063690185546875,
+          "pooled_rmse": 0.16063690185546875,
+          "median_absolute_error": 0.16063690185546875,
+          "signed_bias": 0.16063690185546875,
+          "persistence_macro_mae": 7.5,
+          "skill": 0.9785817464192709,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 4.8617401123046875,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.08794403076171875,
+          "macro_rmse": 0.08794403076171875,
+          "pooled_mae": 0.08794403076171875,
+          "pooled_rmse": 0.08794403076171875,
+          "median_absolute_error": 0.08794403076171875,
+          "signed_bias": 0.08794403076171875,
+          "persistence_macro_mae": 15.0,
+          "skill": 0.9941370646158855,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 20.48040771484375,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 1.5349655151367188,
+          "macro_rmse": 1.5349655151367188,
+          "pooled_mae": 1.5349655151367188,
+          "pooled_rmse": 1.5349655151367188,
+          "median_absolute_error": 1.5349655151367188,
+          "signed_bias": 1.5349655151367188,
+          "persistence_macro_mae": 22.5,
+          "skill": 0.931779310438368,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 37.804771423339844,
+          "collapsed_intervals": 0
+        }
+      },
+      "slow_increase": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.299407958984375,
+          "macro_rmse": 0.299407958984375,
+          "pooled_mae": 0.299407958984375,
+          "pooled_rmse": 0.299407958984375,
+          "median_absolute_error": 0.299407958984375,
+          "signed_bias": -0.299407958984375,
+          "persistence_macro_mae": 7.5,
+          "skill": 0.9600789388020833,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 2.6477890014648438,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.3494873046875,
+          "macro_rmse": 0.3494873046875,
+          "pooled_mae": 0.3494873046875,
+          "pooled_rmse": 0.3494873046875,
+          "median_absolute_error": 0.3494873046875,
+          "signed_bias": -0.3494873046875,
+          "persistence_macro_mae": 15.0,
+          "skill": 0.9767008463541667,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 11.859573364257812,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 1.1305084228515625,
+          "macro_rmse": 1.1305084228515625,
+          "pooled_mae": 1.1305084228515625,
+          "pooled_rmse": 1.1305084228515625,
+          "median_absolute_error": 1.1305084228515625,
+          "signed_bias": -1.1305084228515625,
+          "persistence_macro_mae": 22.5,
+          "skill": 0.9497551812065972,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 27.057113647460938,
+          "collapsed_intervals": 0
+        }
+      },
+      "stationary_noise": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.179096680476988,
+          "macro_rmse": 0.179096680476988,
+          "pooled_mae": 0.179096680476988,
+          "pooled_rmse": 0.179096680476988,
+          "median_absolute_error": 0.179096680476988,
+          "signed_bias": 0.179096680476988,
+          "persistence_macro_mae": 1.5681909243362497,
+          "skill": 0.8857940843186602,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 8.627471923828125,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 4.8538905732152955,
+          "macro_rmse": 4.8538905732152955,
+          "pooled_mae": 4.8538905732152955,
+          "pooled_rmse": 4.8538905732152955,
+          "median_absolute_error": 4.8538905732152955,
+          "signed_bias": 4.8538905732152955,
+          "persistence_macro_mae": 3.1127293722106515,
+          "skill": -0.5593679992064573,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 0,
+          "macro_width80": 8.884490966796875,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 2.108025848829044,
+          "macro_rmse": 2.108025848829044,
+          "pooled_mae": 2.108025848829044,
+          "pooled_rmse": 2.108025848829044,
+          "median_absolute_error": 2.108025848829044,
+          "signed_bias": -2.108025848829044,
+          "persistence_macro_mae": 3.8225070571579067,
+          "skill": 0.44852270582951026,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 9.46832275390625,
+          "collapsed_intervals": 0
+        }
+      },
+      "up_jump": {
+        "30": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 0.7852630615234375,
+          "macro_rmse": 0.7852630615234375,
+          "pooled_mae": 0.7852630615234375,
+          "pooled_rmse": 0.7852630615234375,
+          "median_absolute_error": 0.7852630615234375,
+          "signed_bias": -0.7852630615234375,
+          "persistence_macro_mae": 0.0,
+          "skill": null,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 1,
+          "macro_width80": 44.99879455566406,
+          "collapsed_intervals": 0
+        },
+        "60": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 40.69482421875,
+          "macro_rmse": 40.69482421875,
+          "pooled_mae": 40.69482421875,
+          "pooled_rmse": 40.69482421875,
+          "median_absolute_error": 40.69482421875,
+          "signed_bias": -40.69482421875,
+          "persistence_macro_mae": 30.0,
+          "skill": -0.35649414062499996,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 0,
+          "macro_width80": 44.352294921875,
+          "collapsed_intervals": 0
+        },
+        "90": {
+          "n": 1,
+          "repository_clusters": 1,
+          "macro_mae": 57.73249053955078,
+          "macro_rmse": 57.73249053955078,
+          "pooled_mae": 57.73249053955078,
+          "pooled_rmse": 57.73249053955078,
+          "median_absolute_error": 57.73249053955078,
+          "signed_bias": -57.73249053955078,
+          "persistence_macro_mae": 30.0,
+          "skill": -0.9244163513183594,
+          "paired_gain_ci95": null,
+          "bootstrap_scope": "synthetic case clusters; not real repositories",
+          "interval_n": 1,
+          "macro_coverage80": 0,
+          "macro_width80": 49.102294921875,
+          "collapsed_intervals": 0
+        }
+      }
+    }
+  }
+}

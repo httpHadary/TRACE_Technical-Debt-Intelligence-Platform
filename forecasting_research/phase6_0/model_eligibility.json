@@ -1,0 +1,297 @@
+{
+  "checked_date": "2026-10-19",
+  "models": [
+    {
+      "config_sha256": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+      "context_capacity": 8192,
+      "cpu_rss": "Measured in synthetic receipts; no new acquisition",
+      "eligibility": "ELIGIBLE_SYNTHETIC_ONLY_PINNED_RUNTIME",
+      "input_policy": "Complete 90 daily observations only; no resampling, fill or longer-context option in unchanged adapter",
+      "key": "chronos_small",
+      "license": "Apache-2.0",
+      "local_checkpoint": true,
+      "model_id": "autogluon/chronos-2-small",
+      "native_horizon_capacity": 1024,
+      "past_only": true,
+      "quantiles": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "registered_context": 90,
+      "registered_output_steps": 90,
+      "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+      "runtime": {
+        "chronos-forecasting": "2.3.2",
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "python": "3.12.3",
+        "torch": "2.11.0+cpu",
+        "transformers": "4.57.6"
+      },
+      "weight_bytes": 111749048,
+      "weight_sha256": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+    },
+    {
+      "api": "TinyTimeMixerForPrediction; fixed branch; resolution prefix daily token; prediction_outputs",
+      "branch": "512-96-ft-r2.1",
+      "config_sha256": "9e437e55d74815fb77e2c89fd674c587224bab2156ae142bca64456217501ace",
+      "context_capacity": 512,
+      "cpu_rss": "UNKNOWN; weight size is not RSS; laptop/CPU support documented, not locally measured",
+      "dependencies": "granite-tsfm: Python >=3.11,<3.14; Torch >=2.10,<2.12; transformers[torch]>=4.57.6,<6; numpy<3; pandas>=2.3.3,<4; datasets/deprecated/sklearn etc.; not installed",
+      "eligibility": "DOCUMENTED_DAILY_API_ONLY_PENDING_ACQUISITION_AND_RUNTIME",
+      "exact_horizons": [
+        30,
+        60,
+        90
+      ],
+      "input_policy": "512 real/generated daily past positions; training-only or per-context past-only scaling; no zero padding; native 96-step prefix at indices 29/59/89",
+      "key": "ttm_daily",
+      "license": "Apache-2.0",
+      "local_checkpoint": false,
+      "minimum_context": 512,
+      "model_id": "ibm-granite/granite-timeseries-ttm-r2",
+      "native_horizon_capacity": 96,
+      "quantiles": null,
+      "revision": "3442406f106122f414a11f72b4ebfe4878bec89d",
+      "runtime_code_revision": "3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa",
+      "weight_bytes": 3440416,
+      "weight_sha256": "37fa184887f260cda022d3ae9f1c642fdba579d0aefeabdf751f83f45383a761"
+    },
+    {
+      "branch": "90-30-ft-r2.1",
+      "context_capacity": 90,
+      "eligibility": "INELIGIBLE_DIRECT_60_90",
+      "key": "ttm_short",
+      "license": "Apache-2.0",
+      "local_checkpoint": false,
+      "model_id": "ibm-granite/granite-timeseries-ttm-r2",
+      "native_horizon_capacity": 30,
+      "quantiles": null,
+      "reason": "Native 30 steps only; recursive extension would be a separate registered method, not direct 90-day output",
+      "revision": "6e5cb8ee51e0634a45637490f5db43148b2fa6be"
+    },
+    {
+      "context_capacity": 512,
+      "eligibility": "DEFER_API_AND_DAILY_ROUTING_UNVERIFIED",
+      "key": "ttm_r3",
+      "license": "Apache-2.0",
+      "local_checkpoint": false,
+      "model_id": "ibm-granite/granite-timeseries-ttm-r3",
+      "native_horizon_capacity": 30,
+      "quantiles": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "reason": "Main config only: prediction_length 30, multi_quantile_head true. Full daily expert routing/long horizon API not verified; no blanket eligibility claim",
+      "revision": "ea17cfd2e3edcaea21eb8dcecd18bf88971482fa"
+    },
+    {
+      "api": "TimesFM_2p5_200M_torch; ForecastConfig; forecast(horizon=90,inputs=[past]); continuous quantile head; choose native q50 explicitly",
+      "base_output_patch": 128,
+      "config_sha256": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+      "context_capacity": 16384,
+      "cpu_rss": "UNKNOWN; 925181104-byte weights (~882.3 MiB) alone, plus framework/activations. Not certified within 2 GiB",
+      "dependencies": "Source pyproject 3.0.2: Python>=3.10, numpy>=1.26.4, huggingface_hub>=0.28.0, safetensors>=0.5.3; torch extra>=2.0.0; dependency lock/API CPU probe pending",
+      "eligibility": "DOCUMENTED_API_ONLY_PENDING_ACQUISITION_AND_CPU_ADMISSION",
+      "exact_horizons": [
+        30,
+        60,
+        90
+      ],
+      "input_policy": "Regular daily observed vectors; no frequency token; no implicit irregular-to-daily mapping; fix_quantile_crossing=False for native audit",
+      "key": "timesfm_2_5",
+      "license": "Apache-2.0",
+      "local_checkpoint": false,
+      "model_id": "google/timesfm-2.5-200m-pytorch",
+      "native_horizon_capacity": 1024,
+      "quantiles": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "runtime_code_revision": "e51928e27119cb17bebc005be2696b75e0a9e688",
+      "weight_bytes": 925181104,
+      "weight_sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+    },
+    {
+      "eligibility": "NOT_SELECTED",
+      "key": "timesfm_3",
+      "license": "separate non-commercial license per current official repo; not admitted",
+      "local_checkpoint": false,
+      "model_id": "google/timesfm-3.0-pytorch",
+      "reason": "Latest is not automatically preferable; 2.5 remains Apache-2.0. No 3.0 checkpoint or use approval verified",
+      "revision": null
+    }
+  ],
+  "new_models_downloaded": false,
+  "real_data_admission": false,
+  "schema": "phase6.model-registry.v1",
+  "source_evidence": {
+    "chronos": {
+      "license": "apache-2.0",
+      "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+      "sha256": "91b4fff4b34471d7e98e33ae11a39f0904dd83ee5c9a2dc2dfd877ef8beb6b55",
+      "url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a"
+    },
+    "timesfm": {
+      "license": "apache-2.0",
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "sha256": "dd3dd7ff9837b7096eedf450be441fb87240a4d091311d6cbea83dd079e586b9",
+      "url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch"
+    },
+    "timesfm_blobs": {
+      "license": "apache-2.0",
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "sha256": "c9a6d9dcab7af90a60bbd0f1476014c4882d1a2dd852ffad7a13ab8b4c95e40a",
+      "url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch/revision/1d952420fba87f3c6dee4f240de0f1a0fbc790e3?blobs=true",
+      "weights": [
+        {
+          "blobId": "5abb9b9c9cf016c8bb8cb4f8fca364dee4dfdf22",
+          "lfs": {
+            "pointerSize": 134,
+            "sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8",
+            "size": 925181104
+          },
+          "rfilename": "model.safetensors",
+          "size": 925181104
+        }
+      ]
+    },
+    "timesfm_code": {
+      "license": null,
+      "revision": "e51928e27119cb17bebc005be2696b75e0a9e688",
+      "sha256": "dcd4b2b7473a7f8b3c5701a9cd043cc45eb68b80a9a7711010d4684a71f06130",
+      "url": "https://api.github.com/repos/google-research/timesfm/commits/master",
+      "weights": []
+    },
+    "timesfm_config": {
+      "bytes": 475,
+      "sha256": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+      "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/raw/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json"
+    },
+    "timesfm_pyproject": {
+      "bytes": 1136,
+      "sha256": "6b67fd2ba839789ce970d3858e0385a58e7b6ab56756dc52141ca37978d1d32c",
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/master/pyproject.toml"
+    },
+    "ttm_code": {
+      "license": null,
+      "revision": "3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa",
+      "sha256": "5e1a7a98547349a0ed6e22b7ea00e7a10793844c47af78f6c2b42a4f6a8a9c2d",
+      "url": "https://api.github.com/repos/ibm-granite/granite-tsfm/commits/main",
+      "weights": []
+    },
+    "ttm_daily_blobs": {
+      "license": "apache-2.0",
+      "revision": "3442406f106122f414a11f72b4ebfe4878bec89d",
+      "sha256": "0758ae5ae7f068ffa3bef5951642e16effa3057c1d95f4f6939b038764abe179",
+      "url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r2/revision/3442406f106122f414a11f72b4ebfe4878bec89d?blobs=true",
+      "weights": [
+        {
+          "blobId": "acb03a026215137a16485416234e883a8aa7b184",
+          "lfs": {
+            "pointerSize": 132,
+            "sha256": "37fa184887f260cda022d3ae9f1c642fdba579d0aefeabdf751f83f45383a761",
+            "size": 3440416
+          },
+          "rfilename": "model.safetensors",
+          "size": 3440416
+        }
+      ]
+    },
+    "ttm_daily_config": {
+      "bytes": 1650,
+      "sha256": "9e437e55d74815fb77e2c89fd674c587224bab2156ae142bca64456217501ace",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/raw/3442406f106122f414a11f72b4ebfe4878bec89d/config.json"
+    },
+    "ttm_pyproject": {
+      "bytes": 2390,
+      "sha256": "fab72b69011df0a01e221e4c397347823e8f468a69686e1770f5fa9b1ed7069c",
+      "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/main/pyproject.toml"
+    },
+    "ttm_r3": {
+      "license": "apache-2.0",
+      "revision": "ea17cfd2e3edcaea21eb8dcecd18bf88971482fa",
+      "sha256": "d5b41bb5b9650f919070a14a09ca3481b3a687c52dc5bef0cbafda23c81f874e",
+      "url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r3"
+    },
+    "ttm_r3_card": {
+      "bytes": 6389,
+      "sha256": "73d0ded894659cd924d41f7b67e9a393b320f7ff2f36de934c90ff1ad7ec6dd9",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r3/raw/ea17cfd2e3edcaea21eb8dcecd18bf88971482fa/README.md"
+    },
+    "ttm_r3_config": {
+      "bytes": 2668,
+      "sha256": "8e62cd4f1e4b1655ecc8c6ef9a9cf802d2ec64846a064a5072a59fd23688f062",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r3/raw/ea17cfd2e3edcaea21eb8dcecd18bf88971482fa/config.json"
+    },
+    "ttm_refs": {
+      "branches": [
+        [
+          "90-30-ft-l1-r2.1",
+          "cd2ad2a54ba5531fbcf6ba3b7a763a6e14223680"
+        ],
+        [
+          "90-30-ft-r2.1",
+          "6e5cb8ee51e0634a45637490f5db43148b2fa6be"
+        ],
+        [
+          "512-96-ft-l1-r2.1",
+          "ffbf23413bef2354370a8a336576ba5b2122f800"
+        ],
+        [
+          "512-96-ft-r2.1",
+          "3442406f106122f414a11f72b4ebfe4878bec89d"
+        ],
+        [
+          "512-48-ft-l1-r2.1",
+          "caa1eb3d16f053859d81952a1f387d6aeb670076"
+        ],
+        [
+          "512-48-ft-r2.1",
+          "b972f0c22190b7502764526004d16e2b4ed39e8c"
+        ],
+        [
+          "360-60-ft-l1-r2.1",
+          "a75e2756d3823322b7eee5544807ef0c711915cd"
+        ],
+        [
+          "180-60-ft-l1-r2.1",
+          "fa4e7dde8ad5fc5f9b4811bfebd27c6ef7eaeb59"
+        ],
+        [
+          "52-16-ft-l1-r2.1",
+          "0be095bc9724b47d1bb71cba47c3095b4d91f560"
+        ],
+        [
+          "52-16-ft-r2.1",
+          "8c9c1d742ec5893d6419e3aa2ab21ed23e28df85"
+        ]
+      ],
+      "license": null,
+      "revision": null,
+      "sha256": "e4e5e7c69b46df45101eaaabc166acca6ad0f075a53f568a1d0d059e8dbe134e",
+      "url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r2/refs"
+    },
+    "ttm_short_config": {
+      "bytes": 1648,
+      "sha256": "abf1b5a26903f1d6b8eb62e66a72bf85bb0ced591b5ffaa655ec031b4d1ec326",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/raw/6e5cb8ee51e0634a45637490f5db43148b2fa6be/config.json"
+    }
+  }
+}
