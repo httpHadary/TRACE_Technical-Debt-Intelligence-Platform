@@ -1,0 +1,1110 @@
+{
+  "phase_status": "PARTIAL",
+  "records": [
+    {
+      "actual_forecast_action": {
+        "f1": 0.9415384615384615,
+        "false_movements": 4,
+        "missed_changes": 15,
+        "precision": 0.9745222929936306,
+        "recall": 0.9107142857142857
+      },
+      "direction": null,
+      "horizon": 30,
+      "method": "binary_adaptive",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.054624118136402236,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.10591450798042881,
+            "n": 76,
+            "prevalence": 0.06578947368421052,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.24719883329483336,
+            "n": 14,
+            "prevalence": 0.2857142857142857,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.510543612194496,
+            "n": 15,
+            "prevalence": 0.7333333333333333,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7071240605256031,
+            "n": 5,
+            "prevalence": 0.8,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9809946379623471,
+            "n": 146,
+            "prevalence": 0.9863013698630136,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9386503067484663,
+        "false_negative": 15,
+        "false_positive": 5,
+        "n": 256,
+        "positive_prevalence": 0.65625,
+        "pr_auc_average_precision": 0.9767908324235932,
+        "precision": 0.9683544303797469,
+        "recall": 0.9107142857142857,
+        "roc_auc": 0.9708468614718615,
+        "threshold": 0.5,
+        "true_negative": 83,
+        "true_positive": 153,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.5175438596491229,
+        "false_movements": 1,
+        "missed_changes": 109,
+        "precision": 0.9833333333333333,
+        "recall": 0.35119047619047616
+      },
+      "direction": {
+        "confusion": [
+          [
+            86,
+            1,
+            1
+          ],
+          [
+            17,
+            54,
+            21
+          ],
+          [
+            1,
+            5,
+            70
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.8132309941520468,
+        "multiclass_brier": 0.2629039104069622,
+        "n": 256,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.8958333333333334,
+            "pr_auc": 0.9450567992248398,
+            "precision": 0.8269230769230769,
+            "recall": 0.9772727272727273,
+            "roc_auc": 0.9664502164502164,
+            "support": 88
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.7105263157894737,
+            "pr_auc": 0.8230051140946074,
+            "precision": 0.9,
+            "recall": 0.5869565217391305,
+            "roc_auc": 0.8790429480381761,
+            "support": 92
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.8333333333333334,
+            "pr_auc": 0.8336468899440946,
+            "precision": 0.7608695652173914,
+            "recall": 0.9210526315789473,
+            "roc_auc": 0.9582602339181286,
+            "support": 76
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.05916175592678164,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.12627407788776385,
+            "n": 67,
+            "prevalence": 0.07462686567164178,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.280176848545254,
+            "n": 24,
+            "prevalence": 0.16666666666666666,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.502378505606661,
+            "n": 15,
+            "prevalence": 0.8,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7230374743681187,
+            "n": 7,
+            "prevalence": 0.8571428571428571,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9818264430200132,
+            "n": 143,
+            "prevalence": 0.986013986013986,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9171974522292994,
+        "false_negative": 24,
+        "false_positive": 2,
+        "n": 256,
+        "positive_prevalence": 0.65625,
+        "pr_auc_average_precision": 0.9748520809380639,
+        "precision": 0.9863013698630136,
+        "recall": 0.8571428571428571,
+        "roc_auc": 0.9664502164502164,
+        "threshold": 0.75,
+        "true_negative": 86,
+        "true_positive": 144,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.9116022099447514,
+        "false_movements": 6,
+        "missed_changes": 26,
+        "precision": 0.9649122807017544,
+        "recall": 0.8638743455497382
+      },
+      "direction": null,
+      "horizon": 60,
+      "method": "binary_adaptive",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.08180522779503113,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.1054616695681631,
+            "n": 16,
+            "prevalence": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2186897278829457,
+            "n": 34,
+            "prevalence": 0.20588235294117646,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.48175301671852555,
+            "n": 23,
+            "prevalence": 0.5652173913043478,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7072654968287266,
+            "n": 18,
+            "prevalence": 0.6666666666666666,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9688401731085257,
+            "n": 165,
+            "prevalence": 0.9636363636363636,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9116022099447514,
+        "false_negative": 26,
+        "false_positive": 6,
+        "n": 256,
+        "positive_prevalence": 0.74609375,
+        "pr_auc_average_precision": 0.961532777568358,
+        "precision": 0.9649122807017544,
+        "recall": 0.8638743455497382,
+        "roc_auc": 0.9315344341522352,
+        "threshold": 0.75,
+        "true_negative": 59,
+        "true_positive": 165,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.4701195219123506,
+        "false_movements": 1,
+        "missed_changes": 132,
+        "precision": 0.9833333333333333,
+        "recall": 0.3089005235602094
+      },
+      "direction": {
+        "confusion": [
+          [
+            55,
+            8,
+            2
+          ],
+          [
+            8,
+            79,
+            21
+          ],
+          [
+            10,
+            14,
+            59
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.7560779418902989,
+        "multiclass_brier": 0.3462641972097764,
+        "n": 256,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.7971014492753623,
+            "pr_auc": 0.8409775931326839,
+            "precision": 0.7534246575342466,
+            "recall": 0.8461538461538461,
+            "roc_auc": 0.9320177204993959,
+            "support": 65
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.7559808612440191,
+            "pr_auc": 0.8562068182680027,
+            "precision": 0.7821782178217822,
+            "recall": 0.7314814814814815,
+            "roc_auc": 0.8837587587587588,
+            "support": 108
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.7151515151515152,
+            "pr_auc": 0.7383720690840251,
+            "precision": 0.7195121951219512,
+            "recall": 0.7108433734939759,
+            "roc_auc": 0.8632216728184414,
+            "support": 83
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.08137170850186085,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.11085923322810252,
+            "n": 16,
+            "prevalence": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.21528286065997412,
+            "n": 33,
+            "prevalence": 0.21212121212121213,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.5012701523503779,
+            "n": 24,
+            "prevalence": 0.5416666666666666,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7122476832080684,
+            "n": 19,
+            "prevalence": 0.6842105263157895,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9681391538608378,
+            "n": 164,
+            "prevalence": 0.9634146341463414,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9085872576177285,
+        "false_negative": 27,
+        "false_positive": 6,
+        "n": 256,
+        "positive_prevalence": 0.74609375,
+        "pr_auc_average_precision": 0.961643753127355,
+        "precision": 0.9647058823529412,
+        "recall": 0.8586387434554974,
+        "roc_auc": 0.9320177204993959,
+        "threshold": 0.75,
+        "true_negative": 59,
+        "true_positive": 164,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.9234567901234568,
+        "false_movements": 7,
+        "missed_changes": 24,
+        "precision": 0.9639175257731959,
+        "recall": 0.8862559241706162
+      },
+      "direction": null,
+      "horizon": 90,
+      "method": "binary_adaptive",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.07128520752312172,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.11343796119761028,
+            "n": 16,
+            "prevalence": 0.0625,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2847367275385729,
+            "n": 2,
+            "prevalence": 0,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4688691958156696,
+            "n": 37,
+            "prevalence": 0.4594594594594595,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7210452331517704,
+            "n": 10,
+            "prevalence": 0.9,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9579751899132185,
+            "n": 191,
+            "prevalence": 0.9633507853403142,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9234567901234568,
+        "false_negative": 24,
+        "false_positive": 7,
+        "n": 256,
+        "positive_prevalence": 0.82421875,
+        "pr_auc_average_precision": 0.9790304985342834,
+        "precision": 0.9639175257731959,
+        "recall": 0.8862559241706162,
+        "roc_auc": 0.926592943654555,
+        "threshold": 0.75,
+        "true_negative": 38,
+        "true_positive": 187,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.4354243542435424,
+        "false_movements": 1,
+        "missed_changes": 152,
+        "precision": 0.9833333333333333,
+        "recall": 0.2796208530805687
+      },
+      "direction": {
+        "confusion": [
+          [
+            36,
+            5,
+            4
+          ],
+          [
+            11,
+            78,
+            20
+          ],
+          [
+            8,
+            16,
+            78
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.7449019607843137,
+        "multiclass_brier": 0.3651228213851709,
+        "n": 256,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.72,
+            "pr_auc": 0.788438786802601,
+            "precision": 0.6545454545454545,
+            "recall": 0.8,
+            "roc_auc": 0.9222748815165877,
+            "support": 45
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.75,
+            "pr_auc": 0.8097418590584282,
+            "precision": 0.7878787878787878,
+            "recall": 0.7155963302752294,
+            "roc_auc": 0.8444735692442115,
+            "support": 109
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.7647058823529411,
+            "pr_auc": 0.7743295537318476,
+            "precision": 0.7647058823529411,
+            "recall": 0.7647058823529411,
+            "roc_auc": 0.8644639674051439,
+            "support": 102
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.06925221558876202,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.13385229781174976,
+            "n": 16,
+            "prevalence": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4686707751491374,
+            "n": 39,
+            "prevalence": 0.46153846153846156,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7002824699557183,
+            "n": 10,
+            "prevalence": 0.9,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9566987310566936,
+            "n": 191,
+            "prevalence": 0.9633507853403142,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.9234567901234568,
+        "false_negative": 24,
+        "false_positive": 7,
+        "n": 256,
+        "positive_prevalence": 0.82421875,
+        "pr_auc_average_precision": 0.9778963810795012,
+        "precision": 0.9639175257731959,
+        "recall": 0.8862559241706162,
+        "roc_auc": 0.9222748815165877,
+        "threshold": 0.75,
+        "true_negative": 38,
+        "true_positive": 187,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.5961538461538461,
+        "false_movements": 66,
+        "missed_changes": 18,
+        "precision": 0.484375,
+        "recall": 0.775
+      },
+      "direction": null,
+      "horizon": 30,
+      "method": "binary_adaptive",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.47287098248750986,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": 0.10174574050564382,
+            "n": 29,
+            "prevalence": 0.5862068965517241,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.309598820717767,
+            "n": 2,
+            "prevalence": 0,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.5482291997261437,
+            "n": 3,
+            "prevalence": 0.6666666666666666,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7345620003916409,
+            "n": 6,
+            "prevalence": 0.3333333333333333,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9763378937980335,
+            "n": 120,
+            "prevalence": 0.49166666666666664,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.5961538461538461,
+        "false_negative": 18,
+        "false_positive": 66,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.49335978324399793,
+        "precision": 0.484375,
+        "recall": 0.775,
+        "roc_auc": 0.475,
+        "threshold": 0.5,
+        "true_negative": 14,
+        "true_positive": 62,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.16161616161616163,
+        "false_movements": 11,
+        "missed_changes": 72,
+        "precision": 0.42105263157894735,
+        "recall": 0.1
+      },
+      "direction": {
+        "confusion": [
+          [
+            14,
+            16,
+            50
+          ],
+          [
+            9,
+            6,
+            25
+          ],
+          [
+            10,
+            5,
+            25
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.2613449817914222,
+        "multiclass_brier": 1.0230067174745385,
+        "n": 160,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.24778761061946902,
+            "pr_auc": 0.4728479619889283,
+            "precision": 0.42424242424242425,
+            "recall": 0.175,
+            "roc_auc": 0.4721875,
+            "support": 80
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.1791044776119403,
+            "pr_auc": 0.23406896033396163,
+            "precision": 0.2222222222222222,
+            "recall": 0.15,
+            "roc_auc": 0.4685416666666667,
+            "support": 40
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.35714285714285715,
+            "pr_auc": 0.24670432725140137,
+            "precision": 0.25,
+            "recall": 0.625,
+            "roc_auc": 0.490625,
+            "support": 40
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.45142578551151236,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.25920053967710205,
+            "n": 31,
+            "prevalence": 0.5483870967741935,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.5349227445720495,
+            "n": 4,
+            "prevalence": 0.75,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7481504604686811,
+            "n": 6,
+            "prevalence": 0.3333333333333333,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9774987849172089,
+            "n": 119,
+            "prevalence": 0.48739495798319327,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.5841584158415841,
+        "false_negative": 21,
+        "false_positive": 63,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.5039742078617776,
+        "precision": 0.48360655737704916,
+        "recall": 0.7375,
+        "roc_auc": 0.4721875,
+        "threshold": 0.75,
+        "true_negative": 17,
+        "true_positive": 59,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.6028708133971292,
+        "false_movements": 66,
+        "missed_changes": 17,
+        "precision": 0.4883720930232558,
+        "recall": 0.7875
+      },
+      "direction": null,
+      "horizon": 60,
+      "method": "binary_adaptive",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.4458137585618059,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.5577949144497334,
+            "n": 14,
+            "prevalence": 0.6428571428571429,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6539417312032693,
+            "n": 18,
+            "prevalence": 0.5,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9757011729460314,
+            "n": 128,
+            "prevalence": 0.484375,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.6028708133971292,
+        "false_negative": 17,
+        "false_positive": 66,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.4878571140830129,
+        "precision": 0.4883720930232558,
+        "recall": 0.7875,
+        "roc_auc": 0.47328125,
+        "threshold": 0.75,
+        "true_negative": 14,
+        "true_positive": 63,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.18691588785046728,
+        "false_movements": 17,
+        "missed_changes": 70,
+        "precision": 0.37037037037037035,
+        "recall": 0.125
+      },
+      "direction": {
+        "confusion": [
+          [
+            2,
+            21,
+            57
+          ],
+          [
+            7,
+            7,
+            26
+          ],
+          [
+            1,
+            11,
+            28
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.19750685382339336,
+        "multiclass_brier": 1.0111696492734152,
+        "n": 160,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.044444444444444446,
+            "pr_auc": 0.46964208686669506,
+            "precision": 0.2,
+            "recall": 0.025,
+            "roc_auc": 0.47359375,
+            "support": 80
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.17721518987341772,
+            "pr_auc": 0.23230400296047077,
+            "precision": 0.1794871794871795,
+            "recall": 0.175,
+            "roc_auc": 0.46979166666666666,
+            "support": 40
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.3708609271523179,
+            "pr_auc": 0.24253249461030044,
+            "precision": 0.25225225225225223,
+            "recall": 0.7,
+            "roc_auc": 0.4864583333333333,
+            "support": 40
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.44578161947231143,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.5827907298616244,
+            "n": 7,
+            "prevalence": 0.7142857142857143,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6513995653286179,
+            "n": 25,
+            "prevalence": 0.52,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9757001957756158,
+            "n": 128,
+            "prevalence": 0.484375,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.6028708133971292,
+        "false_negative": 17,
+        "false_positive": 66,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.49010389410522354,
+        "precision": 0.4883720930232558,
+        "recall": 0.7875,
+        "roc_auc": 0.47359375,
+        "threshold": 0.75,
+        "true_negative": 14,
+        "true_positive": 63,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.6722689075630253,
+        "false_movements": 78,
+        "missed_changes": 0,
+        "precision": 0.5063291139240507,
+        "recall": 1.0
+      },
+      "direction": null,
+      "horizon": 90,
+      "method": "binary_adaptive",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.4528403327304592,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7875817460076378,
+            "n": 18,
+            "prevalence": 0.4444444444444444,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9670546396178636,
+            "n": 142,
+            "prevalence": 0.5070422535211268,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.6722689075630253,
+        "false_negative": 0,
+        "false_positive": 78,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.5200053011985644,
+        "precision": 0.5063291139240507,
+        "recall": 1.0,
+        "roc_auc": 0.518125,
+        "threshold": 0.75,
+        "true_negative": 2,
+        "true_positive": 80,
+        "undefined_reason": null
+      }
+    },
+    {
+      "actual_forecast_action": {
+        "f1": 0.13043478260869565,
+        "false_movements": 6,
+        "missed_changes": 74,
+        "precision": 0.5,
+        "recall": 0.075
+      },
+      "direction": {
+        "confusion": [
+          [
+            0,
+            33,
+            47
+          ],
+          [
+            0,
+            15,
+            25
+          ],
+          [
+            0,
+            19,
+            21
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.19872110181997046,
+        "multiclass_brier": 1.007130264482619,
+        "n": 160,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.0,
+            "pr_auc": 0.542673406165542,
+            "precision": null,
+            "recall": 0.0,
+            "roc_auc": 0.51734375,
+            "support": 80
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.2803738317757009,
+            "pr_auc": 0.24327633135682375,
+            "precision": 0.22388059701492538,
+            "recall": 0.375,
+            "roc_auc": 0.48,
+            "support": 40
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.3157894736842105,
+            "pr_auc": 0.23667156041837575,
+            "precision": 0.22580645161290322,
+            "recall": 0.525,
+            "roc_auc": 0.475625,
+            "support": 40
+          }
+        ],
+        "probability_semantics": "Normalized OVR, no post-hoc probability calibration"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "probability_threshold_diagnostic": {
+        "brier_score": 0.45549195500086764,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": null,
+            "n": 0,
+            "prevalence": null,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.7852280266835419,
+            "n": 4,
+            "prevalence": 0.25,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.9544432985554632,
+            "n": 156,
+            "prevalence": 0.5064102564102564,
+            "upper": 1.0
+          }
+        ],
+        "f1": 0.6666666666666666,
+        "false_negative": 0,
+        "false_positive": 80,
+        "n": 160,
+        "positive_prevalence": 0.5,
+        "pr_auc_average_precision": 0.5172370177068184,
+        "precision": 0.5,
+        "recall": 1.0,
+        "roc_auc": 0.51734375,
+        "threshold": 0.75,
+        "true_negative": 0,
+        "true_positive": 80,
+        "undefined_reason": null
+      }
+    }
+  ],
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}

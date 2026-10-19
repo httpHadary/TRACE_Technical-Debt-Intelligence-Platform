@@ -96,3 +96,16 @@ limited to supervisor observations. No worker retry or resource increase is auto
 All prior studies, model/checkpoint files, compilation receipts and rights decisions
 remain frozen. All24 Phase C permissions remain NOT_APPROVED. No further phase is
 authorized by these reproduction instructions or by synthetic improvements.
+
+## Recorded run status: PARTIAL; do not silently reuse this selector
+
+The first registered run found a protocol defect: with only3 large-decrease
+validation cases at30d, no candidate was safety-admitted, but the generic selector
+chose an active AP adjustment instead of the registered protected zero-adjustment
+fallback. The main30d test also had0 large-decrease cases. The original code, state,
+selection, predictions and metrics are retained unchanged as historical evidence.
+The30d AP results are descriptive and not a compliant safe-selection result.
+Do not treat the reproduction commands above as approval for another run or use
+this selector for a new scientific claim until a separately versioned correction
+and adequate new preregistration are authorized. No corrected predictions or new
+cohort were generated. See the implementation report and protocol_audit.json.

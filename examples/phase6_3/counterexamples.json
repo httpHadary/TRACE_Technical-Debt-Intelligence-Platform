@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "actual": 0.0,
+      "adaptive": 0.13054599585538137,
+      "case_id": "synthetic-bad755518b75cbb94318507d966de2a0",
+      "current": 0.0,
+      "excess_error": 0.13054599585538137,
+      "family": "near_zero",
+      "horizon": 90,
+      "normalized_excess": 0.13054599585538137,
+      "partition": "test"
+    },
+    {
+      "actual": 13.13080548,
+      "adaptive": 10.558792183302135,
+      "case_id": "synthetic-25b23528b275e8b131b926e6b54e0f6b",
+      "current": 11.77914553,
+      "excess_error": 1.2203533466978644,
+      "family": "mixed_scale",
+      "horizon": 90,
+      "normalized_excess": 0.11347664930354394,
+      "partition": "test"
+    },
+    {
+      "actual": 28.10796478,
+      "adaptive": 69.4047149053981,
+      "case_id": "synthetic-c79649c8f86058b7317293060236afa6",
+      "current": 65.0943828,
+      "excess_error": 4.310332105398089,
+      "family": "burst_freeze",
+      "horizon": 90,
+      "normalized_excess": 0.07231122446784431,
+      "partition": "ood"
+    },
+    {
+      "actual": 531.50990501,
+      "adaptive": 557.9261940827824,
+      "case_id": "synthetic-61045f37f23b60b2a85a14f4b66f3309",
+      "current": 531.50990501,
+      "excess_error": 26.416289072782433,
+      "family": "sticky_renewal",
+      "horizon": 60,
+      "normalized_excess": 0.05541932241551454,
+      "partition": "ood"
+    },
+    {
+      "actual": 375.08195511,
+      "adaptive": 349.5790415896805,
+      "case_id": "synthetic-bd0962d9e0c5f11e809f9da2003dabb1",
+      "current": 360.25006232,
+      "excess_error": 10.67102073031947,
+      "family": "stationary_noise",
+      "horizon": 90,
+      "normalized_excess": 0.029012018983184906,
+      "partition": "test"
+    },
+    {
+      "actual": 34.84659852,
+      "adaptive": 34.03314039843523,
+      "case_id": "synthetic-b3371d4d56eb854658f7a1819e3da393",
+      "current": 34.84659852,
+      "excess_error": 0.8134581215647714,
+      "family": "hidden_pulse",
+      "horizon": 60,
+      "normalized_excess": 0.023872882746845996,
+      "partition": "ood"
+    },
+    {
+      "actual": 578.36302644,
+      "adaptive": 567.7039592575611,
+      "case_id": "synthetic-92e749e6076505d68be999087e9f4f9a",
+      "current": 578.36302644,
+      "excess_error": 10.65906718243889,
+      "family": "delayed_reversal",
+      "horizon": 60,
+      "normalized_excess": 0.018516453565098463,
+      "partition": "ood"
+    }
+  ],
+  "phase_status": "PARTIAL",
+  "rule": "largest model-scale excess per family, diagnostic only",
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}
