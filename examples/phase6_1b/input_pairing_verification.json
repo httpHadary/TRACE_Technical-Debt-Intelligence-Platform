@@ -1,0 +1,8 @@
+{
+  "case_repeat_pairs": 72,
+  "cases": 36,
+  "policy": "Identical flattened native float32 historical tensors across both models; shapes [1,512] and [1,512,1]",
+  "status": "PASS",
+  "targets": "One exact origin and evaluator-only future per case/horizon; 30/60/90 indices29/59/89",
+  "timesfm": "No native model input, model-loading resource stop"
+}

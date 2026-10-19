@@ -1,0 +1,120 @@
+{
+  "chronos512": {
+    "host_admission": {
+      "available_host_ram_bytes": 6317281280,
+      "concurrent_prohibited_processes": [],
+      "disk_minimum_bytes": 536870912,
+      "eligible": true,
+      "free_disk_bytes": 14472744960,
+      "host_ram_minimum_bytes": 4294967296
+    },
+    "log_bytes": 9072,
+    "log_sha256": "ce4e1ecfa3a47d178d9f26efc0ac97214c340fa4200bee23e518f3a6137e82fe",
+    "terminal": {
+      "approved_rss_ceiling_bytes": 2147483648,
+      "exit_code": 0,
+      "failure": null,
+      "rss_limit_bytes": 1879048192,
+      "rss_policy": "20ms sampled guard plus worker kernel ru_maxrss check, not cgroup quota",
+      "sampled_peak_rss_bytes": 520749056,
+      "status": "PASS",
+      "timeout_seconds": 900,
+      "wall_seconds": 17.637871011000243,
+      "worker_started": true
+    },
+    "worker": {
+      "attempted_cases": 36,
+      "automatic_retries": 0,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "gpu": false,
+      "identical_pairs": 36,
+      "interop_threads": 1,
+      "kernel_peak_rss_bytes": 512790528,
+      "mean_call_seconds": 0.08277426808332519,
+      "median_call_seconds": 0.08148255950004568,
+      "model_load_seconds": 1.237942159999875,
+      "native_calls": 72,
+      "network": "SECCOMP_SOCKET_DENIED",
+      "numerical_threads": 2,
+      "repeat_pairs": 36,
+      "worker_seconds": 16.96578664000026,
+      "workers": 1
+    }
+  },
+  "timesfm512": {
+    "actual_rss_ceiling_breach_observed": false,
+    "host_admission": {
+      "available_host_ram_bytes": 6347542528,
+      "concurrent_prohibited_processes": [],
+      "disk_minimum_bytes": 536870912,
+      "eligible": true,
+      "free_disk_bytes": 14468747264,
+      "host_ram_minimum_bytes": 4294967296
+    },
+    "kernel_peak_rss_bytes": "UNAVAILABLE_AFTER_KILL",
+    "log_bytes": 0,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_calls": 0,
+    "native_prediction_status": "NOT_REACHED_MODEL_LOADING_GUARD",
+    "terminal": {
+      "approved_rss_ceiling_bytes": 2147483648,
+      "exit_code": -9,
+      "failure": "RSS_LIMIT",
+      "rss_limit_bytes": 1879048192,
+      "rss_policy": "20ms sampled guard plus worker kernel ru_maxrss check, not cgroup quota",
+      "sampled_peak_rss_bytes": 1923653632,
+      "status": "BLOCKED_RESOURCE",
+      "timeout_seconds": 900,
+      "wall_seconds": 6.5510808399999405,
+      "worker_started": true
+    }
+  },
+  "ttm512": {
+    "host_admission": {
+      "available_host_ram_bytes": 5943697408,
+      "concurrent_prohibited_processes": [],
+      "disk_minimum_bytes": 536870912,
+      "eligible": true,
+      "free_disk_bytes": 14562770944,
+      "host_ram_minimum_bytes": 4294967296
+    },
+    "log_bytes": 8784,
+    "log_sha256": "66706d40350a014da06ee597e64db8f794d7649b7f12e79c1084d6ce234a23f4",
+    "terminal": {
+      "approved_rss_ceiling_bytes": 2147483648,
+      "exit_code": 0,
+      "failure": null,
+      "rss_limit_bytes": 1879048192,
+      "rss_policy": "20ms sampled guard plus worker kernel ru_maxrss check, not cgroup quota",
+      "sampled_peak_rss_bytes": 366989312,
+      "status": "PASS",
+      "timeout_seconds": 900,
+      "wall_seconds": 14.66228027300076,
+      "worker_started": true
+    },
+    "worker": {
+      "attempted_cases": 36,
+      "automatic_retries": 0,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "gpu": false,
+      "identical_pairs": 36,
+      "interop_threads": 1,
+      "kernel_peak_rss_bytes": 355905536,
+      "mean_call_seconds": 0.02446526172213402,
+      "median_call_seconds": 0.02214848049925422,
+      "model_load_seconds": 1.1385802949998833,
+      "native_calls": 72,
+      "network": "SECCOMP_SOCKET_DENIED",
+      "numerical_threads": 2,
+      "repeat_pairs": 36,
+      "worker_seconds": 13.878362614000253,
+      "workers": 1
+    }
+  }
+}

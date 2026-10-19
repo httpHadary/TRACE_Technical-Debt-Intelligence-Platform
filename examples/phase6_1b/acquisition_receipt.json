@@ -1,0 +1,157 @@
+{
+  "authorization": {
+    "analyzer_rights": "UNRESOLVED_UNCHANGED",
+    "scope": "Pinned TTM/TimesFM downloads and isolated installations for Phase6.1B synthetic-only inference",
+    "source": "Explicit operator message in active session"
+  },
+  "checksum_limit": "Official Hub LFS SHA256/Git blob identities over TLS, not independent publisher signatures",
+  "code_bytes": 458184,
+  "code_requests": 31,
+  "extra_redirect_inspection_head_requests": 1,
+  "isolated_source_installations": 2,
+  "metadata_requests": [
+    {
+      "bytes": 11357,
+      "name": "ttm_LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa/LICENSE"
+    },
+    {
+      "bytes": 2390,
+      "name": "ttm_pyproject_toml",
+      "sha256": "fab72b69011df0a01e221e4c397347823e8f468a69686e1770f5fa9b1ed7069c",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa/pyproject.toml"
+    },
+    {
+      "bytes": 3868,
+      "name": "ttm_README_md",
+      "sha256": "c02873564ce46ecdad7ef8536406d00007bb0d3c1c17f5d825a4dece53b78af7",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa/README.md"
+    },
+    {
+      "bytes": 184860,
+      "name": "ttm_tree",
+      "sha256": "2ca17fae5e6ab3451d0b8cd5a10730ae6d06ca16b082eb5b02fd905a1324bad0",
+      "status": 200,
+      "url": "https://api.github.com/repos/ibm-granite/granite-tsfm/git/trees/3d92535ca4138648b9d1e2f3f1421b5dec4dc3aa?recursive=1"
+    },
+    {
+      "bytes": 2501,
+      "name": "ttm_blobs",
+      "sha256": "abb3ce9211a8b36fb134f3ee39245378b414a4534ca899a7a96d48074a66d8b4",
+      "status": 200,
+      "url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r2/revision/3442406f106122f414a11f72b4ebfe4878bec89d?blobs=true"
+    },
+    {
+      "bytes": 1650,
+      "name": "ttm_model_config_json",
+      "sha256": "9e437e55d74815fb77e2c89fd674c587224bab2156ae142bca64456217501ace",
+      "status": 200,
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/raw/3442406f106122f414a11f72b4ebfe4878bec89d/config.json"
+    },
+    {
+      "bytes": 18233,
+      "name": "ttm_model_README_md",
+      "sha256": "e20234ff1a9eec054fd643d5ef7a4683857c8b24c7b00b466a9f55b6e22728ff",
+      "status": 200,
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/raw/3442406f106122f414a11f72b4ebfe4878bec89d/README.md"
+    },
+    {
+      "bytes": 11358,
+      "name": "timesfm_LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/LICENSE"
+    },
+    {
+      "bytes": 1136,
+      "name": "timesfm_pyproject_toml",
+      "sha256": "6b67fd2ba839789ce970d3858e0385a58e7b6ab56756dc52141ca37978d1d32c",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/pyproject.toml"
+    },
+    {
+      "bytes": 11586,
+      "name": "timesfm_README_md",
+      "sha256": "4312675e2c65ce105cb9006e3caba3d3648fc9269b6bc297e3e94e37f76563d8",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/README.md"
+    },
+    {
+      "bytes": 49240,
+      "name": "timesfm_tree",
+      "sha256": "099f476fbf94e832a06ed59360f39d13c493083baf2e89c21e444fb4e6064756",
+      "status": 200,
+      "url": "https://api.github.com/repos/google-research/timesfm/git/trees/e51928e27119cb17bebc005be2696b75e0a9e688?recursive=1"
+    },
+    {
+      "bytes": 2728,
+      "name": "timesfm_blobs",
+      "sha256": "5c418b6c81053211ddc413342f28b2b7ae33662987890d711ca6dd24cf01d979",
+      "status": 200,
+      "url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch/revision/1d952420fba87f3c6dee4f240de0f1a0fbc790e3?blobs=true"
+    },
+    {
+      "bytes": 475,
+      "name": "timesfm_model_config_json",
+      "sha256": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+      "status": 200,
+      "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/raw/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json"
+    },
+    {
+      "bytes": 2496,
+      "name": "timesfm_model_README_md",
+      "sha256": "4c3f16633a3d8b9324904bf004429aced2ee009b84e64effb59a902520cc7f2e",
+      "status": 200,
+      "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/raw/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md"
+    }
+  ],
+  "new_dependency_downloads": 0,
+  "new_dependency_installations": 0,
+  "new_weight_bytes": 928621520,
+  "original_chronos_modified": false,
+  "range_completion_bytes": 337072,
+  "weight_requests": [
+    {
+      "expected_bytes": 3440416,
+      "expected_sha256": "37fa184887f260cda022d3ae9f1c642fdba579d0aefeabdf751f83f45383a761",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r2",
+      "revision": "3442406f106122f414a11f72b4ebfe4878bec89d",
+      "status": "BLOCKED_REDIRECT_BEFORE_PAYLOAD",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/3442406f106122f414a11f72b4ebfe4878bec89d/model.safetensors"
+    },
+    {
+      "actual_bytes": 3440416,
+      "elapsed_seconds": 1.9133386690000407,
+      "expected_bytes": 3440416,
+      "expected_sha256": "37fa184887f260cda022d3ae9f1c642fdba579d0aefeabdf751f83f45383a761",
+      "final_https_origin": "us.aws.cdn.hf.co",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r2",
+      "revision": "3442406f106122f414a11f72b4ebfe4878bec89d",
+      "sha256": "37fa184887f260cda022d3ae9f1c642fdba579d0aefeabdf751f83f45383a761",
+      "status": "VERIFIED",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/3442406f106122f414a11f72b4ebfe4878bec89d/model.safetensors"
+    },
+    {
+      "expected_bytes": 925181104,
+      "expected_sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8",
+      "model_id": "google/timesfm-2.5-200m-pytorch",
+      "partial_bytes": 924844032,
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "status": "TRANSFER_TIMEOUT",
+      "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors"
+    },
+    {
+      "bytes": 337072,
+      "complete_sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8",
+      "expected_remaining_bytes": 337072,
+      "range_start": 924844032,
+      "seconds": 2.059137028999885,
+      "status": "VERIFIED_RANGE_COMPLETION",
+      "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors"
+    }
+  ]
+}

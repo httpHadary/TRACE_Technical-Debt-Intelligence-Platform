@@ -1,0 +1,42 @@
+{
+  "chronos_workers": 1,
+  "corrections": "Source-only exact upstream model/config loading; Python import-name collision fix. No model settings or outcomes used for tuning.",
+  "failed_ttm_native_calls": 0,
+  "final_prediction_seal_sha256": "4407b784293343ffdc44fafe1292a4e2f504baf4842e1323b64d88c209886dfb",
+  "first_prediction_seal_sha256": "94073ab9d3ece17dc459cb473b21524a7539876dbab9dbfbbb09c37a2a11958f",
+  "first_ttm_failure": {
+    "message": "No module named 'tsfm_public.toolkit.callbacks'",
+    "status": "BLOCKED_RUNTIME",
+    "type": "ModuleNotFoundError"
+  },
+  "prior_statuses": [
+    {
+      "completed_native_workers": [
+        "chronos512"
+      ],
+      "scope": "SYNTHETIC_ENGINEERING_TEST; not real-world forecasting evidence",
+      "status": "BLOCKED"
+    },
+    {
+      "completed_native_workers": [
+        "chronos512"
+      ],
+      "scope": "SYNTHETIC_ENGINEERING_TEST; not real-world forecasting evidence",
+      "status": "BLOCKED"
+    }
+  ],
+  "reuse": "Original Chronos/baseline predictions and TimesFM resource failure reused verbatim via two sealed registration chains; no repeat inference",
+  "second_ttm_failure": {
+    "message": "cannot access local variable 'importlib' where it is not associated with a value",
+    "status": "BLOCKED_RUNTIME",
+    "type": "UnboundLocalError"
+  },
+  "snapshots": {
+    "001": "9b5013fac94b0e36780339829869eb5672344536feeeb110558613be1918e3df",
+    "002": "2d43ff5f651458a95c06b97f51d20e94eb04168ab332828ab70bf9cd17720b97",
+    "003": "4e370b24e0ec4ae35057fc5f05f3726a591c69e107d963ecf7bb734f16ae631b"
+  },
+  "successful_ttm_native_workers": 1,
+  "timesfm_workers": 1,
+  "ttm_workers": 3
+}

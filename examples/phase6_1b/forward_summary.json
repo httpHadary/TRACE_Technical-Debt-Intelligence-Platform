@@ -1,0 +1,34 @@
+{
+  "chronos512": {
+    "all_input_identities_match": true,
+    "context_shapes": [
+      [
+        1,
+        512
+      ]
+    ],
+    "forward_traces": 72,
+    "full_raw_forward_evidence_sha256": "d90b87b8bb2d5b646fb9ad9495814f524234cd1e4a1875c218f973771d952b24",
+    "native_calls": 72,
+    "native_steps": 90
+  },
+  "timesfm512": {
+    "native_calls": 0,
+    "native_steps": "NOT_REACHED",
+    "status": "BLOCKED_RESOURCE"
+  },
+  "ttm512": {
+    "all_input_identities_match": true,
+    "context_shapes": [
+      [
+        1,
+        512,
+        1
+      ]
+    ],
+    "forward_traces": 72,
+    "full_raw_forward_evidence_sha256": "8bd6336875715a70758012b8dbfd9b9f3b025abaa36b33f4d9dbb3e9e2613831",
+    "native_calls": 72,
+    "native_steps": 96
+  }
+}
