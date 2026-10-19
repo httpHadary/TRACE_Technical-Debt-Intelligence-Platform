@@ -1,0 +1,60 @@
+{
+  "canonical_head": "e0f3e6feb4cbe1386bc8723a4dbfd23492efeb9a",
+  "canonical_tracked_files": 1010,
+  "database_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+  "frozen_artifacts": 322,
+  "frozen_bundles": 56,
+  "heads_unchanged": true,
+  "model_weights_and_config_hashes_verified": true,
+  "old_sonar_resources": "No Docker, server, scanner or volume commands issued; live-volume bytes not measured",
+  "original_chronos_environment_files_rehashed": 22397,
+  "peak_verifier_rss_kib": 28696,
+  "phase5_1_bundles": {
+    "inventory-final-verified-1": {
+      "artifacts": 3,
+      "manifest_sha256": "2aed9cbe61c2a0645f0178d2ef405847f22b622858b6834e01a3c1802ad35277"
+    },
+    "legacy-final-verified-1": {
+      "artifacts": 3,
+      "manifest_sha256": "12049d627299973c90703caaf8a58c688efc047c517de1b27b6ced7f18582f37"
+    }
+  },
+  "phase6_0_private_files_rehashed": 150,
+  "phase6_1a_private_files_rehashed": 34,
+  "phase6_1b_private_files_rehashed": 198,
+  "prior_request_ledgers_and_claims": "Included in byte-verified prior task trees",
+  "prior_task_files_rehashed": {
+    "A": 18,
+    "B": 23,
+    "D": 1378,
+    "D1": 615,
+    "D2": 630,
+    "D3": 842,
+    "E0": 790,
+    "E01": 818,
+    "E02": 832,
+    "E03": 703,
+    "E04": 869,
+    "E05": 710,
+    "E051": 727,
+    "E06": 892,
+    "E1": 862,
+    "E11": 912,
+    "E2": 892,
+    "E21": 936,
+    "E3": 931,
+    "E31": 979,
+    "E4": 937,
+    "E41": 982,
+    "E5": 940,
+    "E51": 991
+  },
+  "prior_task_reference": "Phase C before.json immutable file-hash inventory",
+  "research_payload_handling": "Opaque streaming hashes only; no labels/measurements parsed into demonstration",
+  "status": "PASS",
+  "unrelated_canonical_untracked_files": 4,
+  "user_cache_entries_metadata_checked": 6262,
+  "user_cache_reference_artifacts_rehashed": 75,
+  "working_head": "2e7999ea436d49449652e6c52e9066ef2e514419",
+  "working_preexisting_files": 922
+}
