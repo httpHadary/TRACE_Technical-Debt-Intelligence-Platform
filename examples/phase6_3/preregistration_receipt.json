@@ -1,0 +1,56 @@
+{
+  "allowed_tests": {
+    "final_targeted": {
+      "canonical": 108,
+      "working": 108
+    },
+    "fixture_scope": "Analytical/unit toy fits only; no registered-population fits or scores",
+    "full": {
+      "canonical": 1590,
+      "working": 1652
+    }
+  },
+  "code_hashes": {
+    "forecasting_research/phase6_0/artifacts.py": "b26ee4b2c2e13cebcfe4f68c007250c2c2d5f92233f39284a52f83721b2e2a6f",
+    "forecasting_research/phase6_0/contracts.py": "7f93063f50d6ff68b5b0f61481c922bfc078bcdb0b49f29f3bfe5186f3e55885",
+    "forecasting_research/phase6_0/predictors.py": "e76273f9a7fa2fa3662a90c0bc8b868c195d0a7a58aebaacdfe421109322d037",
+    "forecasting_research/phase6_2/__init__.py": "04e22afad04184ae47051791715a569fc240e506bb0b21f44833f84a02b434a4",
+    "forecasting_research/phase6_2/__main__.py": "d745612630d8bd1323957680bdcc5edb6a6c69c64451bd2b531e77a21ce0bfe8",
+    "forecasting_research/phase6_2/evaluation.py": "5dc57db4e8be68b014b206121a1a3408a4e441e8a9981137e8994b3b22d7ee2b",
+    "forecasting_research/phase6_2/features.py": "480593a1d6293c4013c8a12fd1537951f92f7753d0ab7423997294505d948db4",
+    "forecasting_research/phase6_2/models.py": "d1bf0ae9596422b0ba34f249bc4bb44232ea4ee335a325426cd362e49ed23a2c",
+    "forecasting_research/phase6_2/population.py": "740c6912fa9e4a87a9adfdcf82c1f07c71c72fcc0458fa799e9f6ef40c7295b6",
+    "forecasting_research/phase6_2/run.py": "ee926804095b88bfe5987014ac4725a3ea2a10daf6e2da19b5485a37d6703a4a",
+    "forecasting_research/phase6_2/runtime.py": "12fa10fd7b8db7cc35fd7f609b373511a19988ed65d30d5918469c297aab4003",
+    "forecasting_research/phase6_2/study.py": "6a33333f094a8f9eaef6f5b5cb48489b8ccd629d964f592efd092b9c71afb639",
+    "forecasting_research/phase6_2/worker.py": "d4dcaf6b08e0d09f924ab7ba61be2e19ed9d6edf748d3c2ed66fd0232d9bca24",
+    "forecasting_research/phase6_3/__init__.py": "a819e3649c9ca438b9d034df30e590aab9331ac382554e666035e4bfab80773d",
+    "forecasting_research/phase6_3/__main__.py": "016589749814fd85fce552652c6ce1814ec80aff1338f1a667e8cccfae246944",
+    "forecasting_research/phase6_3/calibration.py": "af4e5a85f838ddd7458a702bdb215b9e6465bfa3b3807e7a5822c47bb42b7df2",
+    "forecasting_research/phase6_3/evaluation.py": "338d3cac72424c4d0001ebad34e7baf276b584197144dfbddfc6288a0c0a38d3",
+    "forecasting_research/phase6_3/models.py": "4ada059c5d5ec0a6355ef111b9ac4df61e496dcf0d53d5b6dd9468cac89cd771",
+    "forecasting_research/phase6_3/population.py": "02c4cbb325e8af49c2ae104f522f7907ef22fee3e9fab507166f13d5e8ca302a",
+    "forecasting_research/phase6_3/run.py": "e0d86eaa5d7f34e8fa34e39f76875bddd09b372bc6d6e34a8464a48a183dd61f",
+    "forecasting_research/phase6_3/selection.py": "c2446de89f5b3e3a941fa0470a57b0abce50a0deb18fe671414ce43a6f189bf8",
+    "forecasting_research/phase6_3/study.py": "8b486be6239e36a78ca6e3578208fdeaa11e91c4afd39b79c82088a1e94d56ce",
+    "forecasting_research/phase6_3/worker.py": "1b8181ebc249df1856b0504e43847111f6d10480d3c3a6d92c1e9a354684d4fb"
+  },
+  "comparison_champion_is_not_primary": true,
+  "counts": {
+    "calibration": 192,
+    "ood": 160,
+    "test": 256,
+    "train": 384,
+    "validation": 192
+  },
+  "failure_audit_commit": "d1163433333fb74dd81d0cdd0f4165819d8d9da6",
+  "history_overlap_with_phase6_2": 0,
+  "partition_manifest_sha256": "dddeae848da027faf3a63753d0e29d7f7cc5a39e41be9f9310d7d25a2d4eff21",
+  "primary_candidate": "adaptive_persistence",
+  "registered_model_fits": 0,
+  "registration_sha256": "4baa04cc4f60b9887b84cd045f55d653b4efb951b048b986ca37a0cf00647493",
+  "rights": "24 NOT_APPROVED unchanged",
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "status": "PREREGISTERED_BEFORE_RESEARCH_FIT",
+  "test_forecasts_scored": 0
+}

@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "calibration": 192,
+    "ood": 160,
+    "test": 256,
+    "train": 384,
+    "validation": 192
+  },
+  "families": [
+    "constant",
+    "stair_plateaus",
+    "sudden_decrease",
+    "gradual_decrease",
+    "increase_recovery",
+    "decrease_regression",
+    "return_origin",
+    "alternating_steps",
+    "abrupt_reversal",
+    "hidden_jump",
+    "irregular",
+    "sparse",
+    "near_zero",
+    "mixed_scale",
+    "stationary_noise",
+    "variable_hazard"
+  ],
+  "full_private_population_sha256": "dddeae848da027faf3a63753d0e29d7f7cc5a39e41be9f9310d7d25a2d4eff21",
+  "history_calendar_days": 180,
+  "independent_case_and_parameter_hashes": true,
+  "ood_families": [
+    "hidden_pulse",
+    "sticky_renewal",
+    "delayed_reversal",
+    "saturating_reset",
+    "burst_freeze",
+    "bounded_cycle",
+    "rare_relapse",
+    "reset_plateau"
+  ],
+  "root_seed": 63020261020,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "zero_overlap_with_phase6_2": true
+}
