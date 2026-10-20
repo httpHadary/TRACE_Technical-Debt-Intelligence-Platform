@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "independent_interval_checks": 6480,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "no_fitting_or_new_forecasts": true
+}

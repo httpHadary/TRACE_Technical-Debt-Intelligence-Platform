@@ -1,0 +1,18 @@
+{
+  "all_24_permissions": "NOT_APPROVED",
+  "broader_consistent_improvement": false,
+  "conditional_failure": "Every hidden and reversed local AP cell worsens; inputs cannot reveal changed mapping",
+  "conditional_gain": "All local AP base and unseen-history cells improve; mapping preserved by design",
+  "delayed_signals": "No case discarded; signal methods retain persistence",
+  "implementation_status": "VERIFIED",
+  "independent_evidence": "Arithmetic/regressions/preservation PASS; consistent reliable forecasting improvement NOT_ESTABLISHED",
+  "limitation": "The origin intent channel and relation are deliberately engineered; no actual predictive feature identified",
+  "model_promotion": "NONE",
+  "new_real_data_used": false,
+  "phase_status": "PARTIAL",
+  "real_world_improvement": "NOT_ESTABLISHED",
+  "repeat_or_retune": 0,
+  "robust_action": "Stress-selected shrink=0 at all9 replication/horizon cells",
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "study_type": "CONTROLLED_INFORMATION_INTERVENTION_NOT_REAL_SIGNAL_DISCOVERY"
+}

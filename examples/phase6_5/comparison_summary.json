@@ -1,0 +1,125 @@
+{
+  "aggregation": "Mean of three replication MAEs; skill recomputed from mean errors, not mean percentages; synthetic cases only",
+  "rows": [
+    {
+      "adaptive_mae": 219.66726283240595,
+      "horizon": 30,
+      "normalized_skill": 0.13301174786598235,
+      "partition": "test",
+      "persistence_mae": 271.62200922625,
+      "raw_skill": 0.19127590780233084
+    },
+    {
+      "adaptive_mae": 313.8351581972844,
+      "horizon": 60,
+      "normalized_skill": 0.3326662861319224,
+      "partition": "test",
+      "persistence_mae": 474.21674885611185,
+      "raw_skill": 0.33820313400084245
+    },
+    {
+      "adaptive_mae": 400.9998460878433,
+      "horizon": 90,
+      "normalized_skill": 0.40663352048603585,
+      "partition": "test",
+      "persistence_mae": 622.1012839693835,
+      "raw_skill": 0.355410676008863
+    },
+    {
+      "adaptive_mae": 225.41076921083985,
+      "horizon": 30,
+      "normalized_skill": 0.10255550431116434,
+      "partition": "unseen",
+      "persistence_mae": 256.79585778957113,
+      "raw_skill": 0.12221804840968065
+    },
+    {
+      "adaptive_mae": 333.5337750558129,
+      "horizon": 60,
+      "normalized_skill": 0.3106400103425998,
+      "partition": "unseen",
+      "persistence_mae": 440.5038036349975,
+      "raw_skill": 0.2428356524880776
+    },
+    {
+      "adaptive_mae": 403.1993999553068,
+      "horizon": 90,
+      "normalized_skill": 0.4115800858339259,
+      "partition": "unseen",
+      "persistence_mae": 625.9417835302467,
+      "raw_skill": 0.3558515974420112
+    },
+    {
+      "adaptive_mae": 465.7465373790964,
+      "horizon": 30,
+      "normalized_skill": -0.21530307083638456,
+      "partition": "hidden",
+      "persistence_mae": 392.24534340031727,
+      "raw_skill": -0.18738576560682185
+    },
+    {
+      "adaptive_mae": 777.3232806619602,
+      "horizon": 60,
+      "normalized_skill": -0.3476114591108894,
+      "partition": "hidden",
+      "persistence_mae": 593.901638757766,
+      "raw_skill": -0.3088417844541529
+    },
+    {
+      "adaptive_mae": 981.0541303384633,
+      "horizon": 90,
+      "normalized_skill": -0.2886961456220638,
+      "partition": "hidden",
+      "persistence_mae": 733.6588049077868,
+      "raw_skill": -0.33720760082988654
+    },
+    {
+      "adaptive_mae": 484.337488825399,
+      "horizon": 30,
+      "normalized_skill": -0.8819750911880495,
+      "partition": "reversed",
+      "persistence_mae": 271.62200922625,
+      "raw_skill": -0.7831304989058003
+    },
+    {
+      "adaptive_mae": 863.8272509128226,
+      "horizon": 60,
+      "normalized_skill": -0.9049285221380645,
+      "partition": "reversed",
+      "persistence_mae": 474.21674885611185,
+      "raw_skill": -0.8215873922557877
+    },
+    {
+      "adaptive_mae": 1132.1038493381716,
+      "horizon": 90,
+      "normalized_skill": -0.8464961545340988,
+      "partition": "reversed",
+      "persistence_mae": 622.1012839693835,
+      "raw_skill": -0.8198063217530469
+    },
+    {
+      "adaptive_mae": 271.62200922625,
+      "horizon": 30,
+      "normalized_skill": 0.0,
+      "partition": "delayed",
+      "persistence_mae": 271.62200922625,
+      "raw_skill": 0.0
+    },
+    {
+      "adaptive_mae": 474.21674885611185,
+      "horizon": 60,
+      "normalized_skill": 0.0,
+      "partition": "delayed",
+      "persistence_mae": 474.21674885611185,
+      "raw_skill": 0.0
+    },
+    {
+      "adaptive_mae": 622.1012839693835,
+      "horizon": 90,
+      "normalized_skill": 0.0,
+      "partition": "delayed",
+      "persistence_mae": 622.1012839693835,
+      "raw_skill": 0.0
+    }
+  ]
+}

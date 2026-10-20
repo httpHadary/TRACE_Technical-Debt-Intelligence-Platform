@@ -1,0 +1,47 @@
+{
+  "cgroup_oom_events": "UNAVAILABLE",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python",
+    "-m",
+    "forecasting_research.phase6_5",
+    "--worker",
+    "/home/hp/tst/research/forecasting_mvp/phase6_5/2026-10-20/information-1"
+  ],
+  "dependency_acquisition": 0,
+  "exit_code": 0,
+  "limits": {
+    "file_bytes": 16777216,
+    "log_bytes": 8388608,
+    "output_bytes": 134217728,
+    "rss_bytes": 2147483648,
+    "threads": 2,
+    "wall_seconds": 900
+  },
+  "logs_truncated": false,
+  "monitoring": "10ms /proc RSS/HWM plus final ru_maxrss; not a dedicated cgroup",
+  "network": "Python socket connections denied, no namespace claim",
+  "peak_observed_rss_or_hwm_bytes": 152268800,
+  "pretrained_runs": 0,
+  "reason": null,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "status": "PASS",
+  "stderr_bytes": 0,
+  "stdout_bytes": 0,
+  "task_payload_bytes": 90602195,
+  "wall_seconds": 70.20471137100003,
+  "worker": {
+    "exit_code": 0,
+    "failure": null,
+    "network_connections": "DENIED",
+    "numerical_threads_max": 2,
+    "peak_rss_bytes": 152125440,
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "runtime": "stdlib only",
+    "system_cpu_seconds": 0.20496399999999998,
+    "user_cpu_seconds": 69.433001,
+    "wall_seconds": 70.06212733099983
+  }
+}

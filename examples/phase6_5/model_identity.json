@@ -1,0 +1,18 @@
+{
+  "models": {
+    "65120261020.model.json": {
+      "bytes": 44743,
+      "sha256": "2c75b5c042169b22f2ec0cd30fd21f67b80e76359f543147b9c70151b85739cc"
+    },
+    "65120261021.model.json": {
+      "bytes": 46252,
+      "sha256": "bebc3c129868857f4feead0438522bfc97334fe31b382c92c24d57f9cf9511fa"
+    },
+    "65120261022.model.json": {
+      "bytes": 46315,
+      "sha256": "8d878191a92a1b221d24ab1ba644fc15d8cc90daab8f5ddc2fd1a6e1fb08423e"
+    }
+  },
+  "raw_states": "Private new synthetic task, not published",
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}
