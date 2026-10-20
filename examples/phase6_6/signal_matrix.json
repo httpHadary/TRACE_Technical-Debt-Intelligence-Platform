@@ -1,0 +1,162 @@
+{
+  "scope": "RESEARCH_HYPOTHESES_NOT_VALIDATED",
+  "signals": [
+    {
+      "confounders": [
+        "carried daily states are not independent scans",
+        "regime reversal",
+        "old exposed test origins"
+      ],
+      "evidence_ids": [
+        "LOCAL_PHASE5_1",
+        "LOCAL_PHASE6_5",
+        "TIME2025"
+      ],
+      "falsification": "No positive paired held-out skill; unchanged-case errors exceed preregistered practical budget",
+      "origin_proof_required": [
+        "same domain/scope native observation IDs",
+        "event/execution/availability clocks",
+        "exact past state or explicit missingness"
+      ],
+      "predictive_question": "Does measured history alter endpoint-change probabilities or median signed magnitude beyond current stock?",
+      "priority": "P1_PILOT",
+      "proposed_features": [
+        "current stock",
+        "observed past delta",
+        "elapsed-time slope",
+        "observed plateau lower bound",
+        "gap/missingness indicators"
+      ],
+      "rights_status": "NOT_APPROVED",
+      "signal_id": "debt_history",
+      "source_status": "Contracts implemented; new strict real pilot unfilled in published evidence",
+      "validation_status": "NOT_VALIDATED_ON_INDEPENDENT_REAL_DATA"
+    },
+    {
+      "confounders": [
+        "activity is not directional debt",
+        "release cycles",
+        "merges/basename collisions",
+        "current branch tip is not past availability"
+      ],
+      "evidence_ids": [
+        "LOCAL_PHASE5_1",
+        "JIT2022",
+        "GIT_DOCS",
+        "EVENTS_DOCS"
+      ],
+      "falsification": "No incremental held-out forecasting or proper-probability-score gain over F0 with matched origins",
+      "origin_proof_required": [
+        "reachable cutoff lineage",
+        "complete trailing windows",
+        "availability archive or declared retrospective reconstruction",
+        "full-path deduplication"
+      ],
+      "predictive_question": "Can complete past activity predict event risk or absolute change size, even when it cannot identify sign?",
+      "priority": "P1_PILOT",
+      "proposed_features": [
+        "unique reachable commits30/90d",
+        "active days",
+        "verified full production paths",
+        "time since last event with censoring"
+      ],
+      "rights_status": "NOT_APPROVED",
+      "signal_id": "past_activity",
+      "source_status": "F1 seam exists; historical-as-of and full included-window coverage still unproven for a new cohort",
+      "validation_status": "NOT_VALIDATED_ON_INDEPENDENT_REAL_DATA"
+    },
+    {
+      "confounders": [
+        "analyzer/rule/scope changes",
+        "size normalizations",
+        "tool estimates are not actual repair labor",
+        "future product metrics unavailable"
+      ],
+      "evidence_ids": [
+        "LOCAL_PHASE5_1",
+        "LOCAL_RIGHTS",
+        "TIME2025"
+      ],
+      "falsification": "Gain disappears after domain/scope stratification or requires future covariates",
+      "origin_proof_required": [
+        "immutable analyzer/rule/profile/scope manifest",
+        "same-analysis metric linkage",
+        "expected versus analyzed production inventory",
+        "native target-unit definition"
+      ],
+      "predictive_question": "Do compatible past product changes add information, and can measurement changes be excluded from the target?",
+      "priority": "P0_CONTROL",
+      "proposed_features": [
+        "past production size/complexity",
+        "past aggregate native counts",
+        "versioned measurement-domain/scope identifiers as controls"
+      ],
+      "rights_status": "NOT_APPROVED",
+      "signal_id": "product_state",
+      "source_status": "Substantial legacy raw coverage; no strict new domain admitted",
+      "validation_status": "NOT_VALIDATED_ON_INDEPENDENT_REAL_DATA"
+    },
+    {
+      "confounders": [
+        "basenames alias paths",
+        "generated/test changes",
+        "future-fixing commits",
+        "refactoring label is not debt removal"
+      ],
+      "evidence_ids": [
+        "LOCAL_PHASE5_1",
+        "JIT2022",
+        "SATD2017"
+      ],
+      "falsification": "No incremental F1-relative gain; unresolved coverage or future-derived classifications invalidate inclusion",
+      "origin_proof_required": [
+        "full-path authoritative diffs",
+        "merge/rename/binary policy",
+        "per-window completeness and conflict disposition",
+        "origin-only mining provenance"
+      ],
+      "predictive_question": "Does extra reconciled change detail add direction/magnitude information beyond complete activity?",
+      "priority": "P3_DEFERRED",
+      "proposed_features": [
+        "reconciled first-parent additions/removals",
+        "churn per known positive size",
+        "optional pre-origin semantic/refactoring categories"
+      ],
+      "rights_status": "NOT_APPROVED",
+      "signal_id": "past_churn",
+      "source_status": "F2 remains DISABLED; earlier sample does not prove complete reconciliation",
+      "validation_status": "NOT_VALIDATED_ON_INDEPENDENT_REAL_DATA"
+    },
+    {
+      "confounders": [
+        "plans are cancelled",
+        "final issue/PR state leaks outcomes",
+        "SATD/comments differ from native stock",
+        "team practices shift"
+      ],
+      "evidence_ids": [
+        "LOCAL_PHASE6_5",
+        "SATD2017",
+        "EVENTS_DOCS"
+      ],
+      "falsification": "No held-out incremental gain or reliability under cancellations; any need for final merged/resolved state disqualifies feature",
+      "origin_proof_required": [
+        "original record versions and edits",
+        "publication/availability evidence by origin",
+        "separate planned due date and actual execution",
+        "permission for text/identity processing and release"
+      ],
+      "predictive_question": "Do authenticated origin-known plans anticipate signed stock changes after accounting for history/activity?",
+      "priority": "P2_CONDITIONAL",
+      "proposed_features": [
+        "as-of planned remediation category",
+        "declared scope/priority/deadline",
+        "age and prior cancellations known at origin"
+      ],
+      "rights_status": "NOT_APPROVED",
+      "signal_id": "directional_intent",
+      "source_status": "No independently admitted historical intent snapshots; synthetic proxy utility is not real evidence",
+      "validation_status": "NOT_VALIDATED_ON_INDEPENDENT_REAL_DATA"
+    }
+  ]
+}

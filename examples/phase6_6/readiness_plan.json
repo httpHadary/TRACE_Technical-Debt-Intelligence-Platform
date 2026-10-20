@@ -1,0 +1,24 @@
+{
+  "authorization_status": "NOT_APPROVED",
+  "family_resolution_status": "UNKNOWN",
+  "future_data_use_authorized": false,
+  "horizons_days": [
+    30,
+    60,
+    90
+  ],
+  "measurement_domain_status": "UNKNOWN",
+  "preregistration_status": "DOCUMENTED_REQUIRES_INDEPENDENT_REVIEW",
+  "scope": "METADATA_ONLY_NO_DATA_ADMISSION",
+  "signal_provenance_status": "UNKNOWN",
+  "signals": [
+    "debt_history",
+    "past_activity",
+    "product_state",
+    "past_churn",
+    "directional_intent"
+  ],
+  "strict_target_history_status": "BLOCKED",
+  "study_mode": "OPERATIONAL_ASOF",
+  "version": "phase6_6.readiness.v1"
+}

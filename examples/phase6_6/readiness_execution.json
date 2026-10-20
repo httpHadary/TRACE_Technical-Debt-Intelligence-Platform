@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "repeat_audits_identical": true,
+  "executions": 2,
+  "combined_wall_seconds": 0.16976526100006595,
+  "observed_child_peak_rss_bytes": 18677760,
+  "user_cpu_seconds": 0.124415,
+  "system_cpu_seconds": 0.043788,
+  "stdout_bytes": 1005,
+  "stderr_bytes": 0,
+  "exit_code": 0,
+  "command": [
+    "taskset",
+    "-c",
+    "0",
+    "prlimit",
+    "--as=1073741824",
+    "--cpu=60",
+    "--fsize=16777216",
+    "--",
+    "python3",
+    "-m",
+    "tools.check_phase6_6_readiness"
+  ],
+  "measurement_scope": "Read-only metadata CLI only; not a model worker or collection-resource admission",
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "cpu_cores": 1,
+    "cpu_seconds": 60,
+    "file_bytes": 16777216
+  },
+  "stdout_sha256": "eff9358ea95b08235e2946111e225957b48efc8085228cc56c8fcbce57d064d5"
+}

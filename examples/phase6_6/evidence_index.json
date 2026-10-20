@@ -1,0 +1,85 @@
+{
+  "scope": "PUBLISHED_METADATA_ONLY",
+  "sources": [
+    {
+      "path": "PHASE_6_5_FORECAST_INFORMATION_REPORT.md",
+      "sha256": "c5112e945a2875013dff6eec8d022bee08b4d0bc25b1fd973e2b9d0180529fec"
+    },
+    {
+      "path": "PHASE_6_5_REAL_EVIDENCE_REQUIREMENTS.md",
+      "sha256": "b7a1be124faadc861d7f45d7973a7bbacf9100f8686e8c7d465263e2da0a7c21"
+    },
+    {
+      "path": "PHASE_6_6_EVIDENCE_HANDOFF.md",
+      "sha256": "94835db142b03c404faf3be73a8be23560f2d26b7b4bf6ed03602048945c9e37"
+    },
+    {
+      "path": "PHASE_5_1_IMPLEMENTATION_REPORT.md",
+      "sha256": "8c1fe15064fc49f5284bd398f80166da84acda2b067cc9c7d4149f73267506a1"
+    },
+    {
+      "path": "FEATURE_AVAILABILITY_MATRIX.md",
+      "sha256": "f654d2c641eb522d94b7e108a620552b6898feb65f265024f211eff047024622"
+    },
+    {
+      "path": "PHASE_5_2_2_C_RIGHTS_DECISION_REPORT.md",
+      "sha256": "355ef822a6e557cbb0d778d1b493dd87f816941577bacea2cb7a7192fdcee0c5"
+    },
+    {
+      "path": "examples/phase5_1/pilot_and_source_readiness.json",
+      "sha256": "41c3da255ee90fcd7d334d16ad82316403378d5633ab49c9692c7fbba96970ae"
+    },
+    {
+      "path": "examples/phase5_1/legacy_identity_audit.json",
+      "sha256": "9ec7116a89f9a55d1af76aa9e5d2ea7c1281018176ccf8306165551e9bb088f5"
+    },
+    {
+      "path": "examples/phase5_1/churn_diagnostics.json",
+      "sha256": "482a7cbf099fb807eeb8d77f09c494d93530804663519d437a5aa600781b2473"
+    },
+    {
+      "path": "examples/phase5_2_2_c/human_permission_checklist.json",
+      "sha256": "89f7b96cb6c2f98b8ba3d28efd014a6ddfebad1c13a31b5ea7d2c7eb3aa3f2e5"
+    },
+    {
+      "path": "examples/phase5_2_2_c/runtime_prerequisites.json",
+      "sha256": "9311d2913c07ffc5f335f0687126ec9c260547c796390743dcd700acbb7e00d5"
+    },
+    {
+      "path": "examples/phase5_2_2_c/dossier_readiness.json",
+      "sha256": "00e49aacf3939dbef8f881e226d568b411fde1cb10c91c48269256f76fb43c5e"
+    },
+    {
+      "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+      "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+    },
+    {
+      "path": "examples/phase6_5/decision.json",
+      "sha256": "d755b28291bbeeff3984ba9ba668b3d541426d69e0e2e72f5b70d5925f925ec5"
+    },
+    {
+      "path": "examples/phase6_5/verification.json",
+      "sha256": "bb7144704b6894f05234478cbff95a0bfedc76b54e34adec7741b14195459efb"
+    },
+    {
+      "path": "examples/phase6_5/preservation.json",
+      "sha256": "734fba89a429772f436e426f1702831086027087d6dbd05f0f82ad42301330a6"
+    },
+    {
+      "path": "forecasting_multilanguage/contracts.py",
+      "sha256": "0d3b652f3261c88444e8dfa362d1b33a2dcf76cbffb65ce55092a635db6f5511"
+    },
+    {
+      "path": "forecasting_multilanguage/cohorts.py",
+      "sha256": "3c5eaf745d97b683c5ad58cc8bfacb6493e38fcd911b02806137d3fccd714abb"
+    },
+    {
+      "path": "forecasting_multilanguage/features.py",
+      "sha256": "cd8a73f59b8c0052b17b71a55548457a0e85f6fd7098855078084f5c94200d8d"
+    },
+    {
+      "path": "forecasting_multilanguage/admission.py",
+      "sha256": "095fc714825e373f3348594ba15a8bcd5d9bf9b9231acddd1d5ee3b75a1f05d2"
+    }
+  ]
+}

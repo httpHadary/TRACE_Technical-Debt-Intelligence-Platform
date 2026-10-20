@@ -1,0 +1,18 @@
+{
+  "historical_build_gate": {
+    "authority": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+    "resolves": "Six narrow CommonsCLI Java compile contexts only",
+    "status": "COMMONS_CLI_SIX_REVISION_COMPILE_GATE_PASS"
+  },
+  "note": "Phase5.2.1 missing-parent/build status was historical and is superseded by six compile receipts; it is not a current build blocker. Compilation does not establish any analyzer or data-use gate.",
+  "past_report_corrections_made": false,
+  "scope": "METADATA_ONLY",
+  "unchanged_gates": {
+    "analyzer_rights": "NOT_APPROVED",
+    "confirmatory_families": "NOT_RESERVED",
+    "dataset_use": "NOT_APPROVED",
+    "historical_collection": "BLOCKED",
+    "new_strict_pilot": "NO_ADMISSION_EVIDENCE_IN_REVIEWED_RECORDS",
+    "runtime_domain": "UNKNOWN"
+  }
+}
