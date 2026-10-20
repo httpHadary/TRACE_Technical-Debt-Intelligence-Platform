@@ -1,0 +1,47 @@
+{
+  "version": "phase6_5.evidence.v1",
+  "all_24_permissions": "NOT_APPROVED",
+  "real_data_admitted": false,
+  "questions": [
+    {
+      "id": "debt_history",
+      "question": "Do admitted debt history features predict endpoint change beyond current stock?",
+      "evidence": "Phase6.4 main gains fail hidden mechanisms",
+      "availability": "Contract exists; new real observations NOT_ADMITTED",
+      "use": "Past-only stock and observed transitions; no gap-imputed stability",
+      "status": "REQUIRES_NEW_RIGHTS_CLEARED_TEST"
+    },
+    {
+      "id": "past_activity",
+      "question": "Does past activity add event-risk information?",
+      "evidence": "Related commit-level literature; no admitted calendar-horizon measurement",
+      "availability": "Git lineage/time/conflict/coverage gates unresolved",
+      "use": "Unique reachable past commits and full paths; no future churn",
+      "status": "HYPOTHESIS_UNTESTED_ON_REAL_DATA"
+    },
+    {
+      "id": "signed_intent",
+      "question": "Do versioned origin-known plans identify likely direction?",
+      "evidence": "Synthetic information channel only; not existing stakeholder observations",
+      "availability": "No independently admitted historical plan snapshots",
+      "use": "Original as-of declarations, changes/cancellations only when available; not final issue state",
+      "status": "HYPOTHESIS_UNTESTED_ON_REAL_DATA"
+    },
+    {
+      "id": "measurement_domain",
+      "question": "Is apparent change caused by actual source change or analyzer/scope change?",
+      "evidence": "Phase5 dual-clock/domain contract and PhaseC runtime UNKNOWNs",
+      "availability": "No new measurements approved",
+      "use": "Fixed units/rules/plugin/scope identities; resets flagged not modeled as debt events",
+      "status": "REQUIRED_CONTROL_NOT_PREDICTIVE_PROOF"
+    },
+    {
+      "id": "delayed_feedback",
+      "question": "Can realized-label risk monitoring reduce repeated mistakes after shift?",
+      "evidence": "Adaptive conformal literature and point-risk monitoring rationale",
+      "availability": "No real stream approved",
+      "use": "Update only after exact h-day target is observed and available, plus embargo",
+      "status": "DESIGN_ONLY_NO_GUARANTEE_FOR_FIRST_SHIFT"
+    }
+  ]
+}

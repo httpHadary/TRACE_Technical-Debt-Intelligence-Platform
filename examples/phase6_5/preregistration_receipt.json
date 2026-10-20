@@ -1,0 +1,8 @@
+{
+  "status": "PREREGISTERED_BEFORE_FITTING",
+  "private_registration_sha256": "0b77fb40b8c16b87b39a6cd36275beba98d0a2449b4e3613afd35338a16705ab",
+  "preflight_tests": 79,
+  "preflight_result": "PASS",
+  "input_files": 90,
+  "input_payload_bytes": 48648739
+}
