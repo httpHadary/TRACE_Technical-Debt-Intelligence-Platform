@@ -1,0 +1,52 @@
+{
+  "cgroup_oom_counters": "UNAVAILABLE: no dedicated cgroup",
+  "local_runtime_files_verified": 916,
+  "new_model_downloads": 0,
+  "new_real_data_used": false,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "stderr_bytes": 0,
+  "stdout_bytes": 0,
+  "supervisor": {
+    "command": [
+      "taskset",
+      "-c",
+      "0,1",
+      "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python",
+      "-m",
+      "forecasting_research.phase6_4.worker",
+      "/home/hp/tst/research/forecasting_mvp/phase6_4/2026-10-20/study-001"
+    ],
+    "exit_code": 0,
+    "kernel_sampled_hwm_bytes": 302977024,
+    "limits": {
+      "log_bytes": 8388608,
+      "output_bytes": 134217728,
+      "rss_bytes": 2147483648,
+      "threads": 2,
+      "wall_seconds": 900
+    },
+    "monitoring": "10ms RSS/HWM + kernel final ru_maxrss; process supervisor, not cgroup enforcement",
+    "network": "No network calls; worker Python socket connections denied; not network namespace isolation",
+    "no_native_model_process": true,
+    "reason": null,
+    "sampled_peak_rss_bytes": 302977024,
+    "status": "PASS",
+    "wall_seconds": 143.51081685099962,
+    "worker_finally_receipt": {
+      "exit_code": 0,
+      "failure": null,
+      "numpy": "2.4.4",
+      "peak_rss_bytes": 302759936,
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "system_cpu_seconds": 0.460935,
+      "thread_environment": {
+        "MKL_NUM_THREADS": "2",
+        "OMP_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2"
+      },
+      "user_cpu_seconds": 143.154846,
+      "wall_seconds": 143.23929606099955
+    }
+  },
+  "task_payload_bytes": 82211150
+}

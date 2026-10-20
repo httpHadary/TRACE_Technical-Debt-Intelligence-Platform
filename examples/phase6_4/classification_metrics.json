@@ -1,0 +1,1157 @@
+{
+  "records": [
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            19,
+            16,
+            13
+          ],
+          [
+            19,
+            16,
+            13
+          ],
+          [
+            19,
+            16,
+            13
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.33136288998357966,
+        "multiclass_brier": 0.9142252604166666,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.3619047619047619,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.3958333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.3333333333333333,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.2988505747126437,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.2708333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.21052631578947367,
+        "precision": 0.6666666666666666,
+        "recall": 0.125
+      },
+      "direction": {
+        "confusion": [
+          [
+            16,
+            6,
+            26
+          ],
+          [
+            16,
+            6,
+            26
+          ],
+          [
+            16,
+            6,
+            26
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.30928330928330927,
+        "multiclass_brier": 0.7984438295717593,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.3333333333333333,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.18181818181818182,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.125,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.4126984126984127,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.5416666666666666,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.21052631578947367,
+        "precision": 0.6666666666666666,
+        "recall": 0.125
+      },
+      "direction": {
+        "confusion": [
+          [
+            16,
+            7,
+            25
+          ],
+          [
+            16,
+            7,
+            25
+          ],
+          [
+            16,
+            7,
+            25
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.3142453163662071,
+        "multiclass_brier": 0.793429904513889,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.3333333333333333,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.2028985507246377,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.14583333333333334,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.4065040650406504,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.5208333333333334,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            81,
+            22,
+            17
+          ],
+          [
+            25,
+            40,
+            12
+          ],
+          [
+            11,
+            41,
+            39
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.5395182619925872,
+        "multiclass_brier": 0.6899956597222222,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6835443037974683,
+            "pr_auc": 0.6643602988393549,
+            "precision": 0.6923076923076923,
+            "recall": 0.675,
+            "roc_auc": 0.7587053571428571,
+            "support": 120
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.4444444444444444,
+            "pr_auc": 0.3091188119617752,
+            "precision": 0.3883495145631068,
+            "recall": 0.5194805194805194,
+            "roc_auc": 0.5770911552902074,
+            "support": 77
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.49056603773584906,
+            "pr_auc": 0.45938505109190775,
+            "precision": 0.5735294117647058,
+            "recall": 0.42857142857142855,
+            "roc_auc": 0.5257432922407542,
+            "support": 91
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.26666666666666666,
+        "precision": 0.7777777777777778,
+        "recall": 0.16091954022988506
+      },
+      "direction": {
+        "confusion": [
+          [
+            71,
+            8,
+            35
+          ],
+          [
+            13,
+            2,
+            64
+          ],
+          [
+            10,
+            28,
+            57
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.3903545362708709,
+        "multiclass_brier": 0.6446985315393519,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6826923076923077,
+            "pr_auc": 0.7491453978339476,
+            "precision": 0.7553191489361702,
+            "recall": 0.6228070175438597,
+            "roc_auc": 0.7834492841298649,
+            "support": 114
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.03418803418803419,
+            "pr_auc": 0.3887964548186778,
+            "precision": 0.05263157894736842,
+            "recall": 0.02531645569620253,
+            "roc_auc": 0.6573799285324935,
+            "support": 79
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.4541832669322709,
+            "pr_auc": 0.45101188390519736,
+            "precision": 0.36538461538461536,
+            "recall": 0.6,
+            "roc_auc": 0.5724843196073084,
+            "support": 95
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.26291079812206575,
+        "precision": 0.7777777777777778,
+        "recall": 0.15819209039548024
+      },
+      "direction": {
+        "confusion": [
+          [
+            68,
+            12,
+            31
+          ],
+          [
+            9,
+            11,
+            54
+          ],
+          [
+            17,
+            36,
+            50
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.4163320784026062,
+        "multiclass_brier": 0.6563434365354939,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6634146341463415,
+            "pr_auc": 0.7304859779035255,
+            "precision": 0.723404255319149,
+            "recall": 0.6126126126126126,
+            "roc_auc": 0.773400519163231,
+            "support": 111
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.16541353383458646,
+            "pr_auc": 0.31083849912843436,
+            "precision": 0.1864406779661017,
+            "recall": 0.14864864864864866,
+            "roc_auc": 0.6101603940388987,
+            "support": 74
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.42016806722689076,
+            "pr_auc": 0.45122120398422677,
+            "precision": 0.37037037037037035,
+            "recall": 0.4854368932038835,
+            "roc_auc": 0.532274993440042,
+            "support": 103
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.22382671480144403,
+        "precision": 0.775,
+        "recall": 0.1308016877637131
+      },
+      "direction": {
+        "confusion": [
+          [
+            89,
+            32,
+            26
+          ],
+          [
+            7,
+            95,
+            12
+          ],
+          [
+            12,
+            17,
+            94
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.7239094087247302,
+        "multiclass_brier": 0.4090372721354167,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6980392156862745,
+            "pr_auc": 0.7802612095234314,
+            "precision": 0.8240740740740741,
+            "recall": 0.6054421768707483,
+            "roc_auc": 0.7848531817790407,
+            "support": 147
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.7364341085271318,
+            "pr_auc": 0.7199238235734442,
+            "precision": 0.6597222222222222,
+            "recall": 0.8333333333333334,
+            "roc_auc": 0.8936809616634178,
+            "support": 114
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.7372549019607844,
+            "pr_auc": 0.6761053339966245,
+            "precision": 0.7121212121212122,
+            "recall": 0.7642276422764228,
+            "roc_auc": 0.8812572033766315,
+            "support": 123
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.23104693140794225,
+        "precision": 0.8648648648648649,
+        "recall": 0.13333333333333333
+      },
+      "direction": {
+        "confusion": [
+          [
+            94,
+            10,
+            40
+          ],
+          [
+            40,
+            28,
+            52
+          ],
+          [
+            21,
+            3,
+            96
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.5333217507130551,
+        "multiclass_brier": 0.5053343596281828,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6287625418060201,
+            "pr_auc": 0.7168863349226459,
+            "precision": 0.6064516129032258,
+            "recall": 0.6527777777777778,
+            "roc_auc": 0.7651909722222222,
+            "support": 144
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.34782608695652173,
+            "pr_auc": 0.6347204316891333,
+            "precision": 0.6829268292682927,
+            "recall": 0.23333333333333334,
+            "roc_auc": 0.8357165404040404,
+            "support": 120
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.6233766233766234,
+            "pr_auc": 0.666024676088339,
+            "precision": 0.5106382978723404,
+            "recall": 0.8,
+            "roc_auc": 0.8304924242424242,
+            "support": 120
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.23104693140794225,
+        "precision": 0.8648648648648649,
+        "recall": 0.13333333333333333
+      },
+      "direction": {
+        "confusion": [
+          [
+            90,
+            9,
+            45
+          ],
+          [
+            33,
+            28,
+            56
+          ],
+          [
+            13,
+            1,
+            109
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.5529340400308143,
+        "multiclass_brier": 0.5016858136212384,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6428571428571429,
+            "pr_auc": 0.7168863349226459,
+            "precision": 0.6617647058823529,
+            "recall": 0.625,
+            "roc_auc": 0.7651909722222222,
+            "support": 144
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.36129032258064514,
+            "pr_auc": 0.6347264175120771,
+            "precision": 0.7368421052631579,
+            "recall": 0.23931623931623933,
+            "roc_auc": 0.8390793559332885,
+            "support": 117
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.6546546546546547,
+            "pr_auc": 0.68544392950825,
+            "precision": 0.5190476190476191,
+            "recall": 0.8861788617886179,
+            "roc_auc": 0.8442357412079868,
+            "support": 123
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            18,
+            24,
+            6
+          ],
+          [
+            18,
+            24,
+            6
+          ],
+          [
+            18,
+            24,
+            6
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.31158645276292335,
+        "multiclass_brier": 0.9695638020833334,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.35294117647058826,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.375,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.4,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.18181818181818182,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.125,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            16,
+            19,
+            13
+          ],
+          [
+            16,
+            19,
+            13
+          ],
+          [
+            16,
+            19,
+            13
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.33136288998357966,
+        "multiclass_brier": 0.92919921875,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.3333333333333333,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.3619047619047619,
+            "pr_auc": 0.33333333333333326,
+            "precision": 0.3333333333333333,
+            "recall": 0.3958333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.2988505747126437,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.2708333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            16,
+            14,
+            18
+          ],
+          [
+            16,
+            14,
+            18
+          ],
+          [
+            16,
+            14,
+            18
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.33246187363834423,
+        "multiclass_brier": 0.9249674479166666,
+        "n": 144,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.3333333333333333,
+            "pr_auc": 0.3333333333333333,
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.3111111111111111,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.2916666666666667,
+            "roc_auc": 0.5,
+            "support": 48
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.35294117647058826,
+            "pr_auc": 0.33333333333333337,
+            "precision": 0.3333333333333333,
+            "recall": 0.375,
+            "roc_auc": 0.5,
+            "support": 48
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            76,
+            33,
+            9
+          ],
+          [
+            16,
+            44,
+            2
+          ],
+          [
+            11,
+            73,
+            24
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.47951382690561384,
+        "multiclass_brier": 0.7222222222222222,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6877828054298643,
+            "pr_auc": 0.6722885592660225,
+            "precision": 0.7378640776699029,
+            "recall": 0.6440677966101694,
+            "roc_auc": 0.7481804586241276,
+            "support": 118
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.41509433962264153,
+            "pr_auc": 0.23440968738911036,
+            "precision": 0.29333333333333333,
+            "recall": 0.7096774193548387,
+            "roc_auc": 0.521660005709392,
+            "support": 62
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.3356643356643357,
+            "pr_auc": 0.5195820098287953,
+            "precision": 0.6857142857142857,
+            "recall": 0.2222222222222222,
+            "roc_auc": 0.6132458847736626,
+            "support": 108
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            76,
+            26,
+            17
+          ],
+          [
+            10,
+            32,
+            16
+          ],
+          [
+            12,
+            62,
+            37
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.4896170567654551,
+        "multiclass_brier": 0.7223849826388888,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.7004608294930875,
+            "pr_auc": 0.6291370512736983,
+            "precision": 0.7755102040816326,
+            "recall": 0.6386554621848739,
+            "roc_auc": 0.7281835811247576,
+            "support": 119
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.3595505617977528,
+            "pr_auc": 0.23244816134588786,
+            "precision": 0.26666666666666666,
+            "recall": 0.5517241379310345,
+            "roc_auc": 0.5602698650674662,
+            "support": 58
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.4088397790055249,
+            "pr_auc": 0.4609862918889562,
+            "precision": 0.5285714285714286,
+            "recall": 0.3333333333333333,
+            "roc_auc": 0.5274087646969003,
+            "support": 111
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            72,
+            18,
+            25
+          ],
+          [
+            16,
+            14,
+            33
+          ],
+          [
+            15,
+            52,
+            43
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.4195365291934708,
+        "multiclass_brier": 0.7665744357638888,
+        "n": 288,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6605504587155964,
+            "pr_auc": 0.5933579359574278,
+            "precision": 0.6990291262135923,
+            "recall": 0.6260869565217392,
+            "roc_auc": 0.7073887911535561,
+            "support": 115
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.19047619047619047,
+            "pr_auc": 0.22374116280665154,
+            "precision": 0.16666666666666666,
+            "recall": 0.2222222222222222,
+            "roc_auc": 0.5164373897707231,
+            "support": 63
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.4075829383886256,
+            "pr_auc": 0.4475737891292745,
+            "precision": 0.42574257425742573,
+            "recall": 0.39090909090909093,
+            "roc_auc": 0.49157303370786515,
+            "support": 110
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            77,
+            54,
+            37
+          ],
+          [
+            2,
+            93,
+            12
+          ],
+          [
+            2,
+            22,
+            85
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.6639918054756151,
+        "multiclass_brier": 0.434326171875,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.6184738955823293,
+            "pr_auc": 0.7568991125669635,
+            "precision": 0.9506172839506173,
+            "recall": 0.4583333333333333,
+            "roc_auc": 0.7600584215167548,
+            "support": 168
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.6739130434782609,
+            "pr_auc": 0.6448389243357264,
+            "precision": 0.5502958579881657,
+            "recall": 0.8691588785046729,
+            "roc_auc": 0.8621917068727015,
+            "support": 107
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.6995884773662552,
+            "pr_auc": 0.6715308690872303,
+            "precision": 0.6343283582089553,
+            "recall": 0.7798165137614679,
+            "roc_auc": 0.8883402835696413,
+            "support": 109
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            73,
+            44,
+            47
+          ],
+          [
+            5,
+            81,
+            24
+          ],
+          [
+            4,
+            13,
+            93
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.6418512860664278,
+        "multiclass_brier": 0.4681396484375,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.5934959349593496,
+            "pr_auc": 0.729315010402225,
+            "precision": 0.8902439024390244,
+            "recall": 0.4451219512195122,
+            "roc_auc": 0.7459811529933481,
+            "support": 164
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.6532258064516129,
+            "pr_auc": 0.6340639377996937,
+            "precision": 0.5869565217391305,
+            "recall": 0.7363636363636363,
+            "roc_auc": 0.8516257465162574,
+            "support": 110
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.6788321167883211,
+            "pr_auc": 0.6167929044086411,
+            "precision": 0.5670731707317073,
+            "recall": 0.8454545454545455,
+            "roc_auc": 0.8508460517584605,
+            "support": 110
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261021
+    },
+    {
+      "action": {
+        "f1": 0.0,
+        "precision": null,
+        "recall": 0.0
+      },
+      "direction": {
+        "confusion": [
+          [
+            73,
+            51,
+            40
+          ],
+          [
+            6,
+            82,
+            20
+          ],
+          [
+            5,
+            17,
+            90
+          ]
+        ],
+        "diagnostic_threshold_policy": "0.5 only for auxiliary OVR AUC helper; direction decisions use argmax, AP actions use validation confidence gates",
+        "macro_f1": 0.6371304976371319,
+        "multiclass_brier": 0.4536539713541667,
+        "n": 384,
+        "per_class": [
+          {
+            "class_name": "unchanged",
+            "f1": 0.5887096774193549,
+            "pr_auc": 0.731058937577805,
+            "precision": 0.8690476190476191,
+            "recall": 0.4451219512195122,
+            "roc_auc": 0.746480044345898,
+            "support": 164
+          },
+          {
+            "class_name": "increase",
+            "f1": 0.6356589147286822,
+            "pr_auc": 0.645008646146072,
+            "precision": 0.5466666666666666,
+            "recall": 0.7592592592592593,
+            "roc_auc": 0.8584272678475577,
+            "support": 108
+          },
+          {
+            "class_name": "decrease",
+            "f1": 0.6870229007633588,
+            "pr_auc": 0.6604592845620135,
+            "precision": 0.6,
+            "recall": 0.8035714285714286,
+            "roc_auc": 0.8769038865546218,
+            "support": 112
+          }
+        ],
+        "probability_semantics": "Empirical local-neighbor direction proportions; not certified calibrated probabilities"
+      },
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "partition": "test",
+      "replica": 64120261021
+    }
+  ],
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}

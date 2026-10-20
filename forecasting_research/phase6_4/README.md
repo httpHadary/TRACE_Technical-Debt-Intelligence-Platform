@@ -21,3 +21,19 @@ selector is unchanged and must not be imported for new selection.
 timestamps only. Models store synthetic training-neighbor features/deltas; those
 large private model artifacts are not published. Model states cannot be interpreted
 as admission for future data or release of any restricted analyzer outputs.
+
+## Recorded result and read-only verification
+
+The sealed study completed; overall PARTIAL and consistent improvement NOT
+DEMONSTRATED. See PHASE_6_4_ADAPTIVE_PERSISTENCE_REPORT.md. Do not silently change
+selected configurations or rerun the exposed cohort. Primary statistical code and
+protocol remain byte-identical to the registration.
+
+Read-only audit of existing private evidence (no model fitting/prediction):
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=2 \
+  /home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python \
+  -m tools.verify_phase6_4 \
+  /home/hp/tst/research/forecasting_mvp/phase6_4/2026-10-20/study-001
+```

@@ -1,0 +1,108 @@
+{
+  "cases": [
+    {
+      "actual": 1.415120100174152,
+      "case_id": "synthetic-ab4e7f1909da0f6cfa882e4c",
+      "current": 28.30240200348304,
+      "direction_probabilities": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      "family": "reversal",
+      "gate_reason": "ADJUST",
+      "horizon": 90,
+      "normalized_excess_error": 1.22260753098903,
+      "partition": "ood",
+      "predicted": 35.17969455809734,
+      "replica": 64120261020
+    },
+    {
+      "actual": 111.03099849764064,
+      "case_id": "synthetic-07c76c618dd9577a53f1991d",
+      "current": 268.89963360032965,
+      "direction_probabilities": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ],
+      "family": "reversal",
+      "gate_reason": "ADJUST",
+      "horizon": 90,
+      "normalized_excess_error": 1.2226075309890292,
+      "partition": "identifiability",
+      "predicted": 334.24042862792044,
+      "replica": 64120261020
+    },
+    {
+      "actual": 242.31717816613906,
+      "case_id": "synthetic-9a9ba127e22c7ca5fb635b65",
+      "current": 242.31717816613906,
+      "direction_probabilities": [
+        0.1875,
+        0.8125,
+        0.0
+      ],
+      "family": "stairs_up",
+      "gate_reason": "ADJUST",
+      "horizon": 30,
+      "normalized_excess_error": 0.8990116891586813,
+      "partition": "test",
+      "predicted": 274.3133058405121,
+      "replica": 64120261020
+    },
+    {
+      "actual": 24916.416179823373,
+      "case_id": "synthetic-aa56bb13a9dbc9a6585a1a0c",
+      "current": 24916.416179823373,
+      "direction_probabilities": [
+        0.1875,
+        0.8125,
+        0.0
+      ],
+      "family": "growth",
+      "gate_reason": "ADJUST",
+      "horizon": 30,
+      "normalized_excess_error": 0.406219835596982,
+      "partition": "test",
+      "predicted": 28361.14681705315,
+      "replica": 64120261020
+    },
+    {
+      "actual": 0.8030501896916754,
+      "case_id": "synthetic-c17700b8ddee713eece352d3",
+      "current": 0.8030501896916754,
+      "direction_probabilities": [
+        0.34375,
+        0.0,
+        0.65625
+      ],
+      "family": "stairs_down",
+      "gate_reason": "ADJUST",
+      "horizon": 90,
+      "normalized_excess_error": 0.11896654822336389,
+      "partition": "test",
+      "predicted": 0.5217262033740415,
+      "replica": 64120261020
+    },
+    {
+      "actual": 295.6055242144879,
+      "case_id": "synthetic-887c55658962a64563314826",
+      "current": 295.6055242144879,
+      "direction_probabilities": [
+        0.125,
+        0.0,
+        0.875
+      ],
+      "family": "decay",
+      "gate_reason": "ADJUST",
+      "horizon": 30,
+      "normalized_excess_error": 0.02890931096588825,
+      "partition": "test",
+      "predicted": 276.9103849014856,
+      "replica": 64120261020
+    }
+  ],
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "selection": "Post-score illustrative largest excess per replica/partition/family; never used for tuning"
+}

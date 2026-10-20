@@ -1,0 +1,124 @@
+{
+  "all_24_rights_decisions": "NOT_APPROVED",
+  "all_selected_models_frozen": true,
+  "consistent_improvement": false,
+  "extra_runs": 0,
+  "implementation_and_arithmetic": "PASS",
+  "insufficient_final_safety_groups": [
+    {
+      "groups": [
+        {
+          "families": 6,
+          "n": 120,
+          "stratum": "unchanged"
+        },
+        {
+          "families": 3,
+          "n": 13,
+          "stratum": "large_increase"
+        },
+        {
+          "families": 2,
+          "n": 34,
+          "stratum": "large_decrease"
+        }
+      ],
+      "horizon": 30,
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "groups": [
+        {
+          "families": 6,
+          "n": 111,
+          "stratum": "unchanged"
+        },
+        {
+          "families": 3,
+          "n": 16,
+          "stratum": "large_increase"
+        },
+        {
+          "families": 2,
+          "n": 37,
+          "stratum": "large_decrease"
+        }
+      ],
+      "horizon": 90,
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "groups": [
+        {
+          "families": 6,
+          "n": 118,
+          "stratum": "unchanged"
+        },
+        {
+          "families": 2,
+          "n": 9,
+          "stratum": "large_increase"
+        },
+        {
+          "families": 3,
+          "n": 38,
+          "stratum": "large_decrease"
+        }
+      ],
+      "horizon": 30,
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "groups": [
+        {
+          "families": 6,
+          "n": 119,
+          "stratum": "unchanged"
+        },
+        {
+          "families": 3,
+          "n": 18,
+          "stratum": "large_increase"
+        },
+        {
+          "families": 4,
+          "n": 48,
+          "stratum": "large_decrease"
+        }
+      ],
+      "horizon": 60,
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "groups": [
+        {
+          "families": 6,
+          "n": 115,
+          "stratum": "unchanged"
+        },
+        {
+          "families": 3,
+          "n": 15,
+          "stratum": "large_increase"
+        },
+        {
+          "families": 3,
+          "n": 40,
+          "stratum": "large_decrease"
+        }
+      ],
+      "horizon": 90,
+      "partition": "ood",
+      "replica": 64120261021
+    }
+  ],
+  "model_promotion": "NONE",
+  "previous_phase6_3_unchanged": true,
+  "protected_fallback_fixed_in_new_version": true,
+  "research_success": "NOT_DEMONSTRATED",
+  "status": "PARTIAL"
+}

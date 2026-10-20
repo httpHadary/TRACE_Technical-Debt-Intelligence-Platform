@@ -1,0 +1,22 @@
+{
+  "frozen_transfer_hashes": {
+    "models.json": "9afe105b759a0fd8a7cf2741fa16888693622735a14d46a7e89c40c7c32df3f0",
+    "selection.json": "cdd66d2c50e0169d1e8f829a3cc085b8f679c3f5450d30d7ae69b5e26f458013"
+  },
+  "models": [
+    {
+      "bytes": 312543,
+      "replica": 64120261020,
+      "sha256": "18a3d0d900d3218eb7655f9e91d4d170e1649108cbdb7dcbde0eb0c8b82a7c6a",
+      "training_cases": 576
+    },
+    {
+      "bytes": 314537,
+      "replica": 64120261021,
+      "sha256": "30e442050ce019ea68a988a15ebe861d58a74e42bd3850e5b5a5f82c7d35484f",
+      "training_cases": 576
+    }
+  ],
+  "raw_states": "Private synthetic-only task directory; no prior trained state modified",
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}
