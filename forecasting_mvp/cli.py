@@ -1,4 +1,4 @@
-"""Verification, history, frozen datasets and Phase 3 statistical baseline replay."""
+"""Persistence-only MVP flow, verification and archived research commands."""
 import argparse
 import json
 import sqlite3
@@ -51,9 +51,34 @@ def main(argv=None):
     evaluate = commands.add_parser("evaluate-chronos", help="Phase 4.2 validation-first sealed frozen-test comparison")
     for name in ("bundle","history-bundle","baseline-bundle","smoke-bundle","runtime-python","checkpoint","out"):
         evaluate.add_argument("--"+name,required=True)
+    persistence = commands.add_parser("persistence-build", help="Build sealed persistence presentation from explicit observations")
+    persistence.add_argument("--source", required=True)
+    persistence.add_argument("--actuals")
+    persistence.add_argument("--out", required=True)
+    archived = commands.add_parser("persistence-import", help="Read-only import of sealed historical principal persistence endpoints")
+    archived.add_argument("--bundle", required=True)
+    archived.add_argument("--out", required=True)
+    pverify = commands.add_parser("persistence-verify", help="Verify presentation seals, hashes and semantics")
+    pverify.add_argument("--bundle", required=True)
+    server = commands.add_parser("persistence-serve", help="Serve a registry of immutable presentation bundles on loopback")
+    server.add_argument("--registry", required=True)
+    server.add_argument("--host", default="127.0.0.1")
+    server.add_argument("--port", type=int, default=8765)
     args = parser.parse_args(argv)
     try:
-        if args.command == "validate-config":
+        if args.command == "persistence-build":
+            from .persistence_flow import build
+            record = build(args.source, args.out, args.actuals)
+        elif args.command == "persistence-import":
+            from .persistence_flow import import_historical
+            record = import_historical(args.bundle, args.out)
+        elif args.command == "persistence-verify":
+            from .persistence_flow import verify_presentation
+            record = verify_presentation(args.bundle)
+        elif args.command == "persistence-serve":
+            from .api import serve
+            record = serve(args.registry, args.host, args.port)
+        elif args.command == "validate-config":
             config = StudyConfig.load(args.config)
             record = {"status": "PASS", "phase": 0, "config_id": config.config_id}
         elif args.command == "audit-v2":

@@ -1,27 +1,19 @@
-# TechDebt360 forecasting MVP — executive summary
+# TechDebt360 MVP: persistence-only workflow
 
-Date: 2026-10-13. **Planning complete; implementation not started.** Team: two contributors at 10 hours each per week, 20 team-hours/week. Hardware remains unspecified.
+Implementation update — 2026-10-30: the persistence input/evidence pipeline,
+sealed bundles, evaluator and read-only API/dashboard are implemented in
+`forecasting_mvp/persistence_flow.py`, `api.py` and `static/`. See the
+[implementation report](../../PERSISTENCE_IMPLEMENTATION_REPORT.md) and
+[exact operator commands/schemas](../../forecasting_mvp/PERSISTENCE.md).
+A new real current-repository scan/demo and calendar data/evaluation admission
+remain separate gates. Earlier future-tense statements below record the approved plan.
 
-Build the research core first: **audited V2 repository history → real Chronos-2 Small forecasts → measured future SQALE comparisons → compact controls → current Sonar evidence → minimal API/dashboard**. Preserve the existing module pipeline for later use. Do not start with enterprise infrastructure or autonomous remediation.
+Updated: 2026-10-30. **Persistence is the only active MVP forecaster.** Its prediction repeats current measured debt at every registered horizon; projected change is zero and no forecast interval is supplied.
 
-Repository forecasting is the strongest immediate direction because V2 already contains native project measurements across 31 historical projects. The actual eligible daily histories and future cutoffs still need validation. Unmeasured changed commits cannot be filled with older measured debt. Imported V2 results and a current Sonar repository have different measurement domains; the dashboard must make that distinction visible.
+The MVP continues to measure repository total principal (maintainability + reliability + security estimated remediation minutes), show historical and newly measured changes, and evaluate persistence against actual endpoints. Persistence does not anticipate increases or decreases; measured change and projected change must be displayed separately.
 
-Audit complete 90-day grids first. If they cannot admit the preregistered repository/split gate, freeze a limited-data `masked90` primary track before any model outcomes: at least 80% known daily history, a known origin and exact observed future measurements. Chronos and the simple controls use the same admitted cohort and explicit missingness policy. TTM remains a separate complete-context comparator. The default comes from the registered primary track; histories or results from different tracks are never pooled.
+Implementation order: validate existing persistence evidence → publish a persistence-only bundle → build the read-only local dashboard → demonstrate a current repository measurement and compatible measured change → hand off with explicit horizon/provenance limits. Exact 30/60/90-day total-principal evaluation retains its own admission gate; 3/4/12-revision evidence cannot replace it.
 
-Core models: Chronos-small, persistence, trend, Ridge and CatBoost. Evaluate Granite TTM 30 first when 90 daily contexts exist; TTM 60 needs 180 and TTM 90 needs 512 daily past points. Do not require all models in normal runtime. GraphCodeBERT is a separate optional Java debt-type annotation layer, conditional on checkpoint permissions/contracts; it is not a debt-minute estimator. Forecasting remains the primary research feature even if a simple baseline wins.
+Chronos-2 and the hybrid are removed from active execution, live forecast UI and completion requirements. Their original code, model artifacts, reports and negative results are preserved as research history. The fixed-grid hybrid did not beat persistence; no hybrid policy is adopted. No future comparison or model experiment runs automatically.
 
-The implementation order and effort are fixed in the [roadmap](MVP_IMPLEMENTATION_ROADMAP.md):
-
-1. M0 freeze inputs and resources: 4–6 hours.
-2. M1 publish audited historical dataset and purged splits: 24–36 hours.
-3. M2 obtain real pretrained predictions and validation MAE/RMSE: 16–24 hours.
-4. M3 compare debt-specific/TTM controls and execute frozen final evaluation: 20–28 hours.
-5. M4 collect current Git/Sonar evidence and feasible GraphCodeBERT annotations: 20–28 hours.
-6. M5 build one read-only local API/dashboard: 24–32 hours.
-7. M6 verify reproducibility and prepare demonstration/report: 8–12 hours.
-
-Total **116–166 contributor-hours**, 14.5–20.75 eight-hour person-days. With 20% contingency: **139–199 hours, approximately 7–10 weeks** at the stated capacity. First real forecasting results and the comparative core take 64–94 hours before contingency, approximately 4–6 weeks including reserve. A 4–6 week promise for every platform feature is optimistic; those weeks should prioritize measurable research results. These estimates include ordinary peer review; substantial collection/build repair, external permission waits and new hardware add time.
-
-Success is real, reproducible forecasts compared with later measured values, reporting MAE/RMSE, baseline improvement, native 80% interval coverage, failures, independent repository/time counts and limitations. A negative pretrained comparison is a valid research result. Partial horizons or blocked models must be explicitly labeled rather than advertised as a complete 90-day forecaster.
-
-All architecture/data/API/model/milestone contracts are specified in the five companion docs. No production code/configuration/database changed, no model download or experiment ran, and no automatic coding handoff occurs. **Wait for explicit authorization before implementation.**
+The [workflow](MVP_FORECASTING_PLAN.md), [scope](MVP_SCOPE.md), [architecture](MVP_ARCHITECTURE.md), [roadmap](MVP_IMPLEMENTATION_ROADMAP.md) and [evaluation protocol](MVP_EXPERIMENT_PLAN.md) form the active plan. This update changes planning documents only; application implementation remains future work.

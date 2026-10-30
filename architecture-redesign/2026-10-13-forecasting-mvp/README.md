@@ -1,18 +1,27 @@
-# TechDebt360 — forecasting MVP plan
+# TechDebt360 persistence-only MVP plan
 
-2026-10-13. Planning only. This package narrows the previous design to a local, repository-first forecasting MVP for two contributors at 10 hours/week each. Forecasting and pretrained AI remain central; real datasets and evaluation precede the dashboard.
+Implementation update — 2026-10-30: the persistence input/evidence pipeline,
+sealed bundles, evaluator and read-only API/dashboard are implemented in
+`forecasting_mvp/persistence_flow.py`, `api.py` and `static/`. See the
+[implementation report](../../PERSISTENCE_IMPLEMENTATION_REPORT.md) and
+[exact operator commands/schemas](../../forecasting_mvp/PERSISTENCE.md).
+A new real current-repository scan/demo and calendar data/evaluation admission
+remain separate gates. Earlier future-tense statements below record the approved plan.
 
-Complete-context `core90` is audited first. A failing data-only cohort gate activates the preregistered `masked90` fallback before model outcomes, preserving known origins and exact observed future labels. The primary track is frozen and reported explicitly; TTM complete-context comparisons remain separate.
+Updated: 2026-10-30. Active forecaster: **persistence only**. Start with the [workflow](MVP_FORECASTING_PLAN.md).
 
-| Document | Purpose |
+The live forecast repeats admitted current debt at registered horizons and predicts zero change. The MVP separately displays measured changes and actual forecast errors when available. Exact elapsed-day and measured-revision horizons retain different contracts and evidence.
+
+| Active document | Purpose |
 |---|---|
-| [MVP_EXECUTIVE_SUMMARY.md](MVP_EXECUTIVE_SUMMARY.md) | Implementation order, estimate and conditions |
-| [MVP_SCOPE.md](MVP_SCOPE.md) | Mandatory/excluded capabilities, evidence and success gates |
-| [MVP_ARCHITECTURE.md](MVP_ARCHITECTURE.md) | Simplified components, contracts, APIs, diagrams and essential controls |
-| [MVP_FORECASTING_PLAN.md](MVP_FORECASTING_PLAN.md) | Datasets, exact targets, model/cohort/split policies, metrics and acquisition ladder |
-| [MVP_IMPLEMENTATION_ROADMAP.md](MVP_IMPLEMENTATION_ROADMAP.md) | M0–M6 tasks, files, dependencies, effort, tests and fallbacks |
-| [MVP_EXPERIMENT_PLAN.md](MVP_EXPERIMENT_PLAN.md) | Future reproducible commands and real-result reporting protocol |
+| [Executive summary](MVP_EXECUTIVE_SUMMARY.md) | Single-model decision and implementation order |
+| [Scope](MVP_SCOPE.md) | Required capabilities and honest completion limits |
+| [Forecasting workflow](MVP_FORECASTING_PLAN.md) | Persistence formula, data/clock gates, measured change and evaluation |
+| [Architecture](MVP_ARCHITECTURE.md) | Immutable single-model bundles and read-only UI |
+| [Roadmap](MVP_IMPLEMENTATION_ROADMAP.md) | Persistence bridge, dashboard, current measurement and handoff |
+| [Evaluation protocol](MVP_EXPERIMENT_PLAN.md) | Reuse frozen evidence and score deterministic predictions |
+| [Verification](VERIFICATION.md) | Checks for this documentation update |
 
-Evidence: [existing-code reuse](digests/code-reuse.md), [prior-plan reconciliation](digests/prior-plan-reconciliation.md), [fresh model/data verification](digests/research-check.md). [Verification](VERIFICATION.md) records document checks; [source preservation](SOURCE_PRESERVATION.md) records unchanged captured originals.
+Research history: [Chronos results](../../CHRONOS2_TOTAL_PRINCIPAL_KAGGLE_RESULTS_REPORT.md), [hybrid proposal](MVP_HYBRID_FORECASTING_PLAN.md), [negative hybrid diagnostic](../../HYBRID_PRINCIPAL_DIAGNOSTIC_REPORT.md), older digests/reviews and the [original source-preservation record](SOURCE_PRESERVATION.md). These do not add a model or completion gate to the active workflow. Historical files retain their original execution boundaries.
 
-This is a new output package; previous designs and ZIPs remain unchanged. Future commands/package names describe software to implement after authorization. They are not existing implementations or achieved results.
+Next implementation is the persistence-only evidence/bundle bridge. This plan update runs no models, experiments or application stages.

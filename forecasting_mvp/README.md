@@ -1,4 +1,15 @@
-# Forecasting MVP — verification and historical ingestion
+# Forecasting MVP — persistence-only flow
+
+The persistence-only flow is implemented. See [run instructions](../forecasting_mvp/PERSISTENCE.md)
+and the [implementation/verification report](../PERSISTENCE_IMPLEMENTATION_REPORT.md).
+Use `persistence-build`, `persistence-import`, `persistence-verify` and `persistence-serve`
+for the active MVP; older multi-model commands below retain their research-only scope.
+
+For the current MVP direction, use the
+[persistence-only workflow](../architecture-redesign/2026-10-13-forecasting-mvp/MVP_FORECASTING_PLAN.md)
+and [repository index](../MVP_REPOSITORY_INDEX.md), updated 2026-10-30.
+Chronos-2 and hybrid studies remain archived research; they are not active forecast
+stages. The phase entries below retain their historical execution boundaries.
 
 This package implements **Phases 0–2.1 verification, Phase 3 baselines and Phase 4.1 bounded Chronos CPU smoke**.
 Full pretrained benchmarks, supervised training, APIs and dashboards are not implemented. The legacy

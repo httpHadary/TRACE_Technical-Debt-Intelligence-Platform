@@ -1,5 +1,16 @@
 # Module technical-debt pipeline
 
+The persistence-only flow is implemented. See [run instructions](forecasting_mvp/PERSISTENCE.md)
+and the [implementation/verification report](PERSISTENCE_IMPLEMENTATION_REPORT.md).
+Use `persistence-build`, `persistence-import`, `persistence-verify` and `persistence-serve`
+for the active MVP; older multi-model commands below retain their research-only scope.
+
+For the current MVP direction, use the
+[persistence-only workflow](architecture-redesign/2026-10-13-forecasting-mvp/MVP_FORECASTING_PLAN.md)
+and [repository index](MVP_REPOSITORY_INDEX.md), updated 2026-10-30.
+Chronos-2 and hybrid studies remain archived research; they are not active forecast
+stages. The phase entries below retain their historical execution boundaries.
+
 Start with [MODULE_LEVEL_README.md](MODULE_LEVEL_README.md) for the corrected missing-value,
 evidence, calendar, output and compatibility contracts.
 
