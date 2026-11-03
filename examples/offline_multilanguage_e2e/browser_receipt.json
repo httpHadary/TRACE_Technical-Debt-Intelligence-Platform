@@ -1,0 +1,100 @@
+{
+  "status": "PASS_RENDERED_BROWSER_E2E",
+  "browser_version": "153.0.8010.12",
+  "receipts": [
+    {
+      "case": "python",
+      "target": "native_sqale_index_minutes",
+      "origin_stock_display": "12",
+      "languages": {
+        "py": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "python-sqale.png",
+      "status": "PASS"
+    },
+    {
+      "case": "python",
+      "target": "native_total_principal_minutes",
+      "origin_stock_display": "16",
+      "languages": {
+        "py": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "python-principal.png",
+      "status": "PASS"
+    },
+    {
+      "case": "jsts",
+      "target": "native_sqale_index_minutes",
+      "origin_stock_display": "12",
+      "languages": {
+        "js": 7,
+        "ts": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "jsts-sqale.png",
+      "status": "PASS"
+    },
+    {
+      "case": "jsts",
+      "target": "native_total_principal_minutes",
+      "origin_stock_display": "16",
+      "languages": {
+        "js": 7,
+        "ts": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "jsts-principal.png",
+      "status": "PASS"
+    },
+    {
+      "case": "python-missing-security",
+      "target": "native_sqale_index_minutes",
+      "origin_stock_display": "12",
+      "languages": {
+        "py": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "python-missing-security-sqale.png",
+      "status": "PASS"
+    },
+    {
+      "case": "python-missing-security",
+      "target": "native_total_principal_minutes",
+      "origin_stock_display": "Unavailable",
+      "languages": {
+        "py": 7
+      },
+      "clocks_checked": [
+        "revision_step:3",
+        "elapsed_day:30"
+      ],
+      "history_rows": 3,
+      "screenshot": "python-missing-security-principal.png",
+      "status": "PASS"
+    }
+  ],
+  "page_errors": [],
+  "external_requests_allowed": false
+}

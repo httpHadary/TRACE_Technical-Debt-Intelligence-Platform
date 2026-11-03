@@ -1,0 +1,130 @@
+[
+  {
+    "bundle_id": "727e8c129b30ca6964309eb875c4cacbeebf5ed78a89969295dae307119b95e9",
+    "bundle_path": "registry/python-sqale",
+    "case": "python",
+    "expected_minutes": 12,
+    "expected_status": "AVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "cd2b23c3474d36c6f8d1ee6d1c4ac7c62981b3797094bc689626d311a92f5e38",
+      "c9b327cd248fc30918e1012c0aef57b2fa4ddfed6ab804164e23b6d0b9454d2c",
+      "3b56552c2af913d04a79eb9cf3dc4caf842d0860fedef907ce93e309820231d5",
+      "d5d4b0a6fd1b1020ff2b6bafe4e5fda2b0d9b942c3332ac8df50e623e90e9325",
+      "9a1957b54d2e8ecbebc07f6721391a9f51b480f66af4e12f3634ac45cb9bfac9",
+      "6f14acfb2ee51dcbe0e932da7e3e9f1ec5282dc4a8eff1d8f749bdf7fa642cc9"
+    ],
+    "languages": {
+      "py": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_sqale_index_minutes"
+  },
+  {
+    "bundle_id": "f5e742ce4bdde8a5404f59914123d2b31f9eba00aeac1a8f43005e9d07b10b04",
+    "bundle_path": "registry/python-principal",
+    "case": "python",
+    "expected_minutes": 16,
+    "expected_status": "AVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "b1f8dd0ef9071d5e413435c06a07c853ce7111c287d2c6426ec6f201af8b878b",
+      "d061b6ce22963e0c3b00caa8feb19efcd1ef817d3498207adf5613fedba40838",
+      "e7d861d7a8d6996bdd7b83acefa41ef61af432e39f9efae2de32da0b72264bbd",
+      "03e8e5b00f412aecd546612d0e2306bb60676fe4aa10331b014a7cd599cc8989",
+      "7a3ce68ba3bd0a2b2e738e16401b21ae617ae0ffb56b349e78805ea2b645da5d",
+      "ef85cf12c751f3b12c93e5fad0141c32fbf6f6d22e7bb647e28f06b95098306e"
+    ],
+    "languages": {
+      "py": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_total_principal_minutes"
+  },
+  {
+    "bundle_id": "faa324c060e7843df4c2d6844f9b7175f92c0611d386fc55a25caea6d9f0ee4e",
+    "bundle_path": "registry/jsts-sqale",
+    "case": "jsts",
+    "expected_minutes": 12,
+    "expected_status": "AVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "fad1b507fcd33af2a736479ec9164f41447f8dc964195f97ba8d79ed43446cef",
+      "623a1b8dce2242a85771347c3ec798454ae391a8461c74ed5c76cfc70ba4fb1f",
+      "0e3f5bb3e39d5b56ae9c780e63874d291805fd0b075105d9c3b8e9139f25f96e",
+      "3a9ae4832aebf2776973b77ae844c41728228d174db20629483e57f050354dc1",
+      "4da0c2932c0ae4b9ac2da12ccd84e50dcc2565950c75e016e8cd1fddf17dd989",
+      "8394eda479d13b92c29dff1dcac4c10cdd3f3d1a0bfd2da582b7722daf174e38"
+    ],
+    "languages": {
+      "js": 7,
+      "ts": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_sqale_index_minutes"
+  },
+  {
+    "bundle_id": "0d2c523a22fdde50e425d8447f1cd0b4bcc9ab44ecdb56a2d408efdc2e57e771",
+    "bundle_path": "registry/jsts-principal",
+    "case": "jsts",
+    "expected_minutes": 16,
+    "expected_status": "AVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "527ad0a1fa769b21e455d7ed9ad2b1b2d031fa81878ff86ca457457d85221e5a",
+      "8e71531d8699f9151df7eb22fbb94f5ad265f5c0adc2181cde92eee485401e5b",
+      "d25d7cbf513b8304cb74e69ec639392983c93d0bcaa8c7304fa0129c33d52bd1",
+      "367914d5b65f0a6c926d48f289368b5f9755363d8926f67a405a9f7b9408a4bb",
+      "a10701f080b60c87554e2d02c862de86c63577382164304bd2a4c39b7c981e67",
+      "edb9f52d6f027c10fabcf7968e2bbf40a6599fe788b089e77689ed4d8e6c8696"
+    ],
+    "languages": {
+      "js": 7,
+      "ts": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_total_principal_minutes"
+  },
+  {
+    "bundle_id": "f7dc7136dce00619d6b27a73816d1b56300d8a9418d2a671821294dfa2682b3d",
+    "bundle_path": "registry/python-missing-security-sqale",
+    "case": "python-missing-security",
+    "expected_minutes": 12,
+    "expected_status": "AVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "4da1e5714e2bc81e455bbfd2c0c37a753fb348f58e562f38e0d1ee0793abf024",
+      "fc52ae8940fd9f78b3270c68c78fee74a9df9819773218aa713195dd8aff0a4a",
+      "dcd4b407b9fa8a7136cca2af164c5c05cacea9a149df7e2c1e67b7c97289e3bb",
+      "7e9e568b9359d4abe828429b0d215ee657ba067d7cfd7700fbb900d9c513b498",
+      "eacbe30c915a3b439ff5b6d625260e7e4bc89fd740180d1115e287c6b829e87c",
+      "0cba328d86fe0684aa44949b7d48d5db74aa3b040c1eb51891d308549f709f4b"
+    ],
+    "languages": {
+      "py": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_sqale_index_minutes"
+  },
+  {
+    "bundle_id": "ff27c0115bfa91ca4cb5bc822379398e6c50c735245e309cee21a25669e3118a",
+    "bundle_path": "registry/python-missing-security-principal",
+    "case": "python-missing-security",
+    "expected_minutes": null,
+    "expected_status": "UNAVAILABLE",
+    "forecast_count": 6,
+    "forecast_ids": [
+      "8b1b5b4ecbec8154077698fd3793d3715f6f60c6209d0791a6c1a2be2a32e6d1",
+      "36ac7f623706d0f49427e5a5a0c660ab0f3bc22189201f00d2afa43265d63cf1",
+      "908bca9002769e94003f63440d486bf3889779980512b4e98d45655b1581d4ba",
+      "95c16e5f9c0eef71ee94436dd8f138ed639f1b3a4208cc24b2bd7a1f290ec2b0",
+      "6f4aca33a52e3897e678aaf0fde3943439b57d6418593f28f6b66477cbacbd53",
+      "17f5ac4a027084980ea2c466e723d099b453c42c0f4821afbf41365ca222e8f0"
+    ],
+    "languages": {
+      "py": 7
+    },
+    "repository_id": "synthetic-native",
+    "target": "native_total_principal_minutes"
+  }
+]

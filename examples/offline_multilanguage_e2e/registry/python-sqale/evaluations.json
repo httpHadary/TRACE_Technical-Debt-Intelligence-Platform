@@ -1,0 +1,380 @@
+[
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "cd2b23c3474d36c6f8d1ee6d1c4ac7c62981b3797094bc689626d311a92f5e38",
+    "horizon": 30,
+    "horizon_unit": "elapsed_day",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "c9b327cd248fc30918e1012c0aef57b2fa4ddfed6ab804164e23b6d0b9454d2c",
+    "horizon": 60,
+    "horizon_unit": "elapsed_day",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "3b56552c2af913d04a79eb9cf3dc4caf842d0860fedef907ce93e309820231d5",
+    "horizon": 90,
+    "horizon_unit": "elapsed_day",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "d5d4b0a6fd1b1020ff2b6bafe4e5fda2b0d9b942c3332ac8df50e623e90e9325",
+    "horizon": 3,
+    "horizon_unit": "revision_step",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "9a1957b54d2e8ecbebc07f6721391a9f51b480f66af4e12f3634ac45cb9bfac9",
+    "horizon": 4,
+    "horizon_unit": "revision_step",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "absolute_error_minutes": null,
+    "actual_change_minutes": null,
+    "actual_minutes": null,
+    "actual_native": null,
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "endpoint_revision": null,
+    "error_minutes": null,
+    "forecast_id": "6f14acfb2ee51dcbe0e932da7e3e9f1ec5282dc4a8eff1d8f749bdf7fa642cc9",
+    "horizon": 12,
+    "horizon_unit": "revision_step",
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "6cfb82229cc58bc2b01647b4a5d4ab6cda6459e288ef8edb7836739642353806",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "65f09947edb5fde39ed3cebb174a1768bd33924a3141a36d56bd8c0134f971c0",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observed_utc": null,
+    "repository_id": "synthetic-native",
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "status": "PENDING",
+    "target": "native_sqale_index_minutes",
+    "unit": "estimated_remediation_minutes"
+  }
+]

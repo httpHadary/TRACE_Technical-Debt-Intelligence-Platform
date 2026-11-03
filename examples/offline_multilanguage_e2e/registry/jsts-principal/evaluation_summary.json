@@ -1,0 +1,656 @@
+[
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 30,
+    "horizon_unit": "elapsed_day",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 60,
+    "horizon_unit": "elapsed_day",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 90,
+    "horizon_unit": "elapsed_day",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 3,
+    "horizon_unit": "revision_step",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 4,
+    "horizon_unit": "revision_step",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "actual_coverage": 0.0,
+    "available_forecasts": 1,
+    "current_accuracy": "UNVALIDATED",
+    "forecasts": 1,
+    "horizon": 12,
+    "horizon_unit": "revision_step",
+    "measured_actuals": 0,
+    "origin_evidence": [
+      {
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "native": {
+          "analysis_id": "synthetic-analysis-2",
+          "ancillary_languages": [],
+          "artifact_hashes": {
+            "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+            "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+            "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+            "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+            "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+            "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          },
+          "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+          "language_family": "jsts_dominant",
+          "languages": {
+            "js": 7,
+            "ts": 7
+          },
+          "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+          "measures": {
+            "reliability_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "security_remediation_effort": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 2.0
+            },
+            "sqale_index": {
+              "reason": null,
+              "status": "OBSERVED",
+              "unit": "estimated_remediation_minutes",
+              "value": 12.0
+            }
+          },
+          "programming_languages": [
+            "js",
+            "ts"
+          ],
+          "project_key": "synthetic:project",
+          "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+          "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+          "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+        },
+        "repository_id": "synthetic-native",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+      }
+    ],
+    "pending": 1,
+    "subsets": {
+      "all": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "changed": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "decrease": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "increase": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      },
+      "stable": {
+        "count": 0,
+        "macro_mae_minutes": null,
+        "macro_rmse_minutes": null,
+        "pooled_mae_minutes": null,
+        "pooled_rmse_minutes": null,
+        "repositories": []
+      }
+    },
+    "target": "native_total_principal_minutes",
+    "unavailable": 0,
+    "unit": "estimated_remediation_minutes"
+  }
+]

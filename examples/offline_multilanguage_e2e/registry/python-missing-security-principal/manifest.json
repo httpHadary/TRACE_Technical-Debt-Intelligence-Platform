@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "actuals.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "evaluation_summary.json": "0a2c9716c9a9fe288413c93d53938ed9eb3b2cd1135b81759efba17c8764d7ff",
+    "evaluations.json": "1b6e9e886c5e3f789a28d4f607a1d80e05a68945ba2a58e9393d88acba56e24b",
+    "forecasts.json": "6f1cad588739ccbe28c641845af66173a7dd84eaada95944577f419b649c6546",
+    "history.json": "590f110f4189a04399fbfce14b654d515f48fae8677ba3d9f587dba8c4bacab2",
+    "prediction_seal.json": "551360f064aa5339a3cc48a9a15dd26ab089ec71d7e91dd02b6f59f521150363",
+    "source.json": "1bb408ddbd8c59cc970da86ad053482f94a8444920e2d1f3672ca42425e49a29"
+  },
+  "bundle_id": "ff27c0115bfa91ca4cb5bc822379398e6c50c735245e309cee21a25669e3118a",
+  "current_accuracy": "UNVALIDATED",
+  "kind": "NATIVE_OBSERVATIONS",
+  "metadata": {
+    "authenticity": "SOURCE_CLAIMS_AND_LOCAL_GIT_BINDING_NOT_INDEPENDENT_AUTHENTICATION",
+    "evidence": "SOFTWARE_VALIDATION_ONLY",
+    "source": {
+      "description": "Invented native envelopes, not a Click export.",
+      "kind": "SYNTHETIC",
+      "permission": "Synthetic test-only source rights claim.",
+      "provenance": "Tiny local Git fixture; no scanner ran.",
+      "source_id": "synthetic-native-source"
+    },
+    "source_evidence_sha256": "72b6baa2374aea13b65694d34b29fc5de3b440a70d75f5c39f53a23c83314715",
+    "target": "native_total_principal_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  "model": "persistence",
+  "permission_status": "SOURCE_CLAIMS_ONLY_NOT_GRANTED_BY_IMPORT",
+  "status": "COMPLETE",
+  "version": "persistence.presentation.v2"
+}
