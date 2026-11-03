@@ -67,7 +67,10 @@ def provenance(value):
     return value
 
 
-def derive(source):
+def derive(source, _target=TARGET, _stock=total):
+    if isinstance(source, dict) and source.get('version') == 'persistence.observations.v2':
+        from .persistence_native import derive as native_derive
+        return native_derive(source)
     exact(source, ('version', 'source', 'horizons', 'observations'))
     if source['version'] != SOURCE_VERSION:
         raise ValueError('Unsupported observation version')
@@ -91,7 +94,7 @@ def derive(source):
         if type(row['revision_index']) is not int or row['revision_index'] < 0:
             raise ValueError('Nonnegative revision index required')
         utc(row['observed_utc'])
-        total(row['components'])
+        _stock(row['components'])
         for seen, identity in ((identities, row['observation_id']),
                                (revisions, (row['repository_id'], row['revision'])),
                                (indices, (row['repository_id'], row['revision_index'])),
@@ -105,20 +108,20 @@ def derive(source):
         rows.sort(key=lambda r: r['revision_index'])
         previous = None
         for row in rows:
-            stock = total(row['components'])
+            stock = _stock(row['components'])
             comparable = (previous is not None and all(row[k] == previous[k] for k in ('domain_id', 'scope_id'))
-                          and stock is not None and total(previous['components']) is not None)
+                          and stock is not None and _stock(previous['components']) is not None)
             if previous and utc(row['observed_utc']) <= utc(previous['observed_utc']):
                 raise ValueError('Observation UTC order contradicts revision order')
             history.append(dict(row, stock_minutes=stock,
-                                measured_change_minutes=stock-total(previous['components']) if comparable else None,
+                                measured_change_minutes=stock-_stock(previous['components']) if comparable else None,
                                 change_status='MEASURED' if comparable else 'INCOMPARABLE' if previous else 'NO_PREVIOUS_OBSERVATION'))
             previous = row
         origin = history[-1]
         for unit, values in sorted(horizons.items()):
             for horizon in values:
                 identity = dict(source_id=digest(source['source']), origin=origin['observation_id'],
-                                origin_identity=digest(rows[-1]), target=TARGET, unit=unit, horizon=horizon)
+                                origin_identity=digest(rows[-1]), target=_target, unit=unit, horizon=horizon)
                 stock = origin['stock_minutes']
                 endpoint_utc = None
                 if unit == 'elapsed_day':
@@ -127,7 +130,7 @@ def derive(source):
                     except OverflowError as exc:
                         raise ValueError('Calendar endpoint exceeds supported UTC range') from exc
                 forecasts.append(dict(forecast_id=digest(identity), repository_id=repo, model='persistence',
-                                      target=TARGET, origin_observation_id=origin['observation_id'],
+                                      target=_target, origin_observation_id=origin['observation_id'],
                                       origin_revision=origin['revision'], origin_utc=origin['observed_utc'],
                                       origin_revision_index=origin['revision_index'], origin_components=origin['components'],
                                       domain_id=origin['domain_id'], scope_id=origin['scope_id'],
@@ -142,7 +145,10 @@ def derive(source):
     return history, forecasts
 
 
-def evaluate(forecasts, actuals):
+def evaluate(forecasts, actuals, _stock=total):
+    if forecasts and 'native' in forecasts[0] and _stock is total:
+        from .persistence_native import evaluate as native_evaluate
+        return native_evaluate(forecasts, actuals)
     by_id = {f['forecast_id']: f for f in forecasts}
     measured = {}
     if actuals is not None:
@@ -179,7 +185,7 @@ def evaluate(forecasts, actuals):
                 raise ValueError('Actual revision/index identity mismatch')
             if same_revision and row['components'] != f['origin_components']:
                 raise ValueError('Unchanged selected revision must retain origin components')
-            stock = total(row['components'])
+            stock = _stock(row['components'])
             if stock is None:
                 raise ValueError('Actual must have measured components')
             endpoint = (row['repository_id'], row['endpoint_revision'])
@@ -256,6 +262,11 @@ def evaluation_summary(forecasts, evaluations):
             unavailable=sum(r['status'] == 'UNAVAILABLE' for r in rows),
             actual_coverage=len(measured)/available if available else None,
             subsets=subsets, current_accuracy='UNVALIDATED'))
+    if forecasts and 'native' in forecasts[0]:
+        for report in reports:
+            report.update(target=forecasts[0]['target'], unit=forecasts[0]['unit'],
+                          origin_evidence=[dict(repository_id=f['repository_id'], domain_id=f['domain_id'], scope_id=f['scope_id'], native=f['native']) for f in forecasts
+                                           if (f['horizon_unit'], f['horizon']) == (report['horizon_unit'], report['horizon'])])
     return reports
 
 
@@ -263,7 +274,7 @@ def _finish(root, kind, metadata):
     write_json(root/'evaluation_summary.json', evaluation_summary(read_json(root/'forecasts.json'), read_json(root/'evaluations.json')))
     files = sorted(p.name for p in root.iterdir())
     artifacts = {f: file_sha256(root/f) for f in files}
-    record = dict(version=VERSION, status='COMPLETE', kind=kind, model='persistence',
+    record = dict(version='persistence.presentation.v2' if kind == 'NATIVE_OBSERVATIONS' else VERSION, status='COMPLETE', kind=kind, model='persistence',
                   bundle_id=digest(dict(artifacts=artifacts, metadata=metadata, kind=kind)), artifacts=artifacts,
                   metadata=metadata, permission_status='SOURCE_CLAIMS_ONLY_NOT_GRANTED_BY_IMPORT',
                   current_accuracy='UNVALIDATED')
@@ -284,7 +295,7 @@ def _new_output(output):
 
 
 def build(source_path, output, actuals_path=None):
-    source = read_json(source_path)
+    source = source_path if isinstance(source_path, dict) else read_json(source_path)
     history, forecasts = derive(source)
     root = _new_output(output)
     try:
@@ -297,6 +308,9 @@ def build(source_path, output, actuals_path=None):
         evaluations = evaluate(forecasts, actuals)
         write_json(root/'actuals.json', actuals)
         write_json(root/'evaluations.json', evaluations)
+        if source['version'] == 'persistence.observations.v2':
+            from .persistence_native import metadata
+            return _finish(root, 'NATIVE_OBSERVATIONS', metadata(source))
         return _finish(root, 'OBSERVATIONS', dict(source=source['source'],
                        evidence='SOFTWARE_VALIDATION_ONLY' if source['source']['kind'] == 'SYNTHETIC' else 'OPERATOR_PROVIDED_UNVALIDATED'))
     except Exception:
@@ -523,10 +537,10 @@ def verify_presentation(bundle):
         raise ValueError('Symlink bundle forbidden')
     manifest = read_json(artifact_path(root, 'manifest.json'))
     exact(manifest, ('version', 'status', 'kind', 'model', 'bundle_id', 'artifacts', 'metadata', 'permission_status', 'current_accuracy'))
-    if manifest['version'] != VERSION or manifest['status'] != 'COMPLETE' or manifest['model'] != 'persistence' or manifest['current_accuracy'] != 'UNVALIDATED' or manifest['permission_status'] != 'SOURCE_CLAIMS_ONLY_NOT_GRANTED_BY_IMPORT':
+    if manifest['version'] != ('persistence.presentation.v2' if manifest['kind'] == 'NATIVE_OBSERVATIONS' else VERSION) or manifest['status'] != 'COMPLETE' or manifest['model'] != 'persistence' or manifest['current_accuracy'] != 'UNVALIDATED' or manifest['permission_status'] != 'SOURCE_CLAIMS_ONLY_NOT_GRANTED_BY_IMPORT':
         raise ValueError('Unsupported/incomplete presentation bundle')
     common = {'history.json', 'forecasts.json', 'prediction_seal.json', 'evaluations.json', 'evaluation_summary.json'}
-    if manifest['kind'] == 'OBSERVATIONS':
+    if manifest['kind'] in ('OBSERVATIONS', 'NATIVE_OBSERVATIONS'):
         required = common | {'source.json', 'actuals.json'}
     elif manifest['kind'] == 'HISTORICAL_PRINCIPAL':
         required = common | {'archive_origins.json', 'archive_origin_seal.json', 'archive_scores.json'}
@@ -547,11 +561,18 @@ def verify_presentation(bundle):
     forecasts = load('forecasts')
     if load('prediction_seal') != _seal(root):
         raise ValueError('Presentation prediction seal mismatch')
-    if manifest['kind'] == 'OBSERVATIONS':
+    if manifest['kind'] in ('OBSERVATIONS', 'NATIVE_OBSERVATIONS'):
         source = load('source')
         history, expected_forecasts = derive(source)
         evaluations = evaluate(expected_forecasts, load('actuals'))
         expected_metadata = dict(source=source['source'], evidence='SOFTWARE_VALIDATION_ONLY' if source['source']['kind'] == 'SYNTHETIC' else 'OPERATOR_PROVIDED_UNVALIDATED')
+        if manifest['kind'] == 'NATIVE_OBSERVATIONS':
+            from .persistence_native import metadata
+            if source['version'] != 'persistence.observations.v2':
+                raise ValueError('Native source version mismatch')
+            expected_metadata = metadata(source)
+        elif source['version'] != SOURCE_VERSION:
+            raise ValueError('Original source version mismatch')
         if manifest['metadata'] != expected_metadata:
             raise ValueError('Source provenance mismatch')
     else:

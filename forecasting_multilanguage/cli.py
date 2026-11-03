@@ -126,8 +126,17 @@ def main(argv=None):
     archive = sub.add_parser("build-archive")
     for name in ("study", "domain", "index", "archive", "git", "cutoffs", "output"):
         archive.add_argument("--" + name, required=True)
+    native = sub.add_parser('ingest-native-project', help='Verify archived project aggregates against existing local Git; no scans')
+    for name in ('index', 'archive', 'git', 'target', 'output'):
+        native.add_argument('--' + name, required=True)
     args = parser.parse_args(argv)
-    if args.command == "audit-legacy":
+    if args.command == 'ingest-native-project':
+        from .native_project import ingest, output_outside_sources
+        output_outside_sources(args.output, args.archive, args.git)
+        source = ingest(args.index, args.archive, args.git, args.target)
+        with Path(args.output).open('xb') as stream:
+            stream.write(canonical(source) + b'\n')
+    elif args.command == "audit-legacy":
         sources = json.loads(Path(args.git_sources).read_text())
         with read_only_database(args.db, args.sha256) as con:
             evidence = source_audit(con)

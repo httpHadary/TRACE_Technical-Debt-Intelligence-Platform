@@ -158,3 +158,8 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q -p no:cacheprovider \
 
 Tests use explicitly synthetic software fixtures and local temporary Git objects.
 They are not real-world forecasting evidence. No real model or scan runs.
+
+The additive [native project / persistence v2 lane](NATIVE_PROJECT.md) admits
+strict offline project aggregates for Python, Java, JS/TS and mixed repositories.
+It has separate SQALE and total-principal targets and preserves native language
+coverage without changing the original study/adapters above.

@@ -64,9 +64,18 @@ def main(argv=None):
     server.add_argument("--registry", required=True)
     server.add_argument("--host", default="127.0.0.1")
     server.add_argument("--port", type=int, default=8765)
+    native = commands.add_parser('persistence-ingest-native', help='Verify archived native project evidence and build a target-specific v2 bundle')
+    for name in ('index', 'archive', 'git', 'target', 'out'):
+        native.add_argument('--' + name, required=True)
+    native.add_argument('--actuals')
     args = parser.parse_args(argv)
     try:
-        if args.command == "persistence-build":
+        if args.command == 'persistence-ingest-native':
+            from forecasting_multilanguage.native_project import ingest, output_outside_sources
+            from .persistence_flow import build
+            output_outside_sources(args.out, args.archive, args.git)
+            record = build(ingest(args.index, args.archive, args.git, args.target), args.out, args.actuals)
+        elif args.command == "persistence-build":
             from .persistence_flow import build
             record = build(args.source, args.out, args.actuals)
         elif args.command == "persistence-import":

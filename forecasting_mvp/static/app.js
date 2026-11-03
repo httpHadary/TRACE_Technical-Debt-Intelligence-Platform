@@ -4,6 +4,7 @@ const el = id => document.getElementById(id);
 let bundles = [], serial = 0;
 const text = (tag, value, cls) => { const node = document.createElement(tag); node.textContent = value; if (cls) node.className = cls; return node; };
 const fmt = value => value === null || value === undefined ? 'Unavailable' : Number(value).toLocaleString(undefined, {maximumFractionDigits: 2});
+const targetLabel = target => target === 'native_sqale_index_minutes' ? 'Maintainability SQALE' : 'Total principal';
 const signed = value => value === null || value === undefined ? 'Incomparable' : `${value > 0 ? '+' : ''}${fmt(value)}`;
 async function get(path) { const response = await fetch(api + path); const data = await response.json(); if (!response.ok) throw Error(data.error || 'Evidence unavailable'); return data; }
 function options(node, items) { node.replaceChildren(); for (const [value, label] of items) { const option = text('option', label); option.value = value; node.append(option); } }
@@ -39,7 +40,12 @@ async function refresh() {
   const [history, forecasts, evaluations, summaries] = await Promise.all([get(base+'/history'), get(base+'/forecasts'+query), get(base+'/evaluations'+query), get(base+'/evaluations'+query+'&summary=true')]);
   if (token !== serial) return;
   const f = forecasts[forecasts.length-1], e = evaluations.find(r => r.forecast_id === f.forecast_id), origin = history.find(r => r.observation_id === f.origin_observation_id) || history.find(r => r.revision === f.origin_revision);
-  el('metrics').replaceChildren(card('Origin stock', fmt(f.origin_stock_minutes), 'estimated minutes'), card('Measured change', signed(origin?.measured_change_minutes), origin?.change_status || 'Unavailable'), card('Projected change', signed(f.predicted_change_minutes), 'persistence · estimated minutes'), card('Actual / absolute error', e.status === 'PENDING' ? 'Pending' : `${fmt(e.actual_minutes)} / ${fmt(e.absolute_error_minutes)}`, e.status));
+  const label = targetLabel(f.target);
+  el('target-label').textContent = `${label} · estimated remediation minutes`;
+  el('stock-heading').textContent = `${label} stock`;
+  const native = origin?.native;
+  el('coverage').replaceChildren(text('h2', 'Native measured language coverage'), text('p', native ? Object.entries(native.languages).map(([lang, ncloc]) => `${lang}: ${fmt(ncloc)} NCLOC${native.ancillary_languages.includes(lang) ? ' (ancillary)' : ''}`).join(' · ') : 'Native language coverage unavailable in this original bundle.'), text('p', native ? `Project ${native.project_key} · analysis ${native.analysis_id} · domain ${f.domain_id} · scope ${f.scope_id} · evidence ${native.source_evidence_sha256}` : `Domain ${f.domain_id} · scope ${f.scope_id}`), text('p', 'Language NCLOC describes analyzed coverage; project debt is never attributed by language share.'));
+  el('metrics').replaceChildren(card(`${label} origin stock`, fmt(f.origin_stock_minutes), 'estimated minutes'), card('Measured change', signed(origin?.measured_change_minutes), origin?.change_status || 'Unavailable'), card('Projected change', signed(f.predicted_change_minutes), 'persistence · estimated minutes'), card('Actual / absolute error', e.status === 'PENDING' ? 'Pending' : `${fmt(e.actual_minutes)} / ${fmt(e.absolute_error_minutes)}`, e.status));
   const summary = summaries[0];
   el('summary').replaceChildren(text('h2', 'Bundle evaluation coverage'), text('p', `${summary.measured_actuals} measured / ${summary.available_forecasts} available forecasts · ${summary.pending} pending · ${summary.unavailable} unavailable. Current accuracy unvalidated.`));
   for (const [name, report] of Object.entries(summary.subsets)) el('summary').append(text('p', `${name}: ${report.count} endpoints · repository macro MAE / RMSE ${fmt(report.macro_mae_minutes)} / ${fmt(report.macro_rmse_minutes)} min · pooled MAE / RMSE ${fmt(report.pooled_mae_minutes)} / ${fmt(report.pooled_rmse_minutes)} min`));
@@ -51,4 +57,4 @@ async function refresh() {
 }
 el('bundle').addEventListener('change', () => selectBundle().catch(error));
 for (const id of ['repository','horizon']) el(id).addEventListener('change', () => refresh().catch(error));
-get('/bundles').then(async data => { bundles = data; options(el('bundle'), data.map(b => [b.bundle_id, `${b.kind} · ${b.bundle_id.slice(0,12)}`])); if (!data.length) throw Error('No complete bundles in this registry'); await selectBundle(); }).catch(error);
+get('/bundles').then(async data => { bundles = data; options(el('bundle'), data.map(b => [b.bundle_id, `${b.kind} · ${targetLabel(b.metadata.target)} · ${b.bundle_id.slice(0,12)}`])); if (!data.length) throw Error('No complete bundles in this registry'); await selectBundle(); }).catch(error);
