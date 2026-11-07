@@ -1,3 +1,4 @@
 * @httpHadary @FadyYosry77
 
 /.github/CODEOWNERS @httpHadary
+/.github/workflows/ @httpHadary
