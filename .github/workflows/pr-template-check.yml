@@ -1,0 +1,82 @@
+
+name: PR Template Validation
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  validate:
+    name: Validate PR Description
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check required sections
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.pull_request.body || "";
+
+            const sections = [
+              "Description",
+              "Changes",
+              "Testing",
+              "Documentation",
+              "Checklist"
+            ];
+
+            const errors = [];
+
+            for (const section of sections) {
+              const regex = new RegExp(
+                `^##\\s+${section}\\s*$`,
+                "im"
+              );
+
+              if (!regex.test(body)) {
+                errors.push(`Missing section: ${section}`);
+              }
+            }
+
+            // Check that sections contain actual content
+            for (let i = 0; i < sections.length; i++) {
+              const section = sections[i];
+              const next = sections[i + 1];
+
+              const start = body.search(
+                new RegExp(`^##\\s+${section}\\s*$`, "im")
+              );
+
+              if (start === -1) continue;
+
+              const remaining = body.slice(start);
+              const nextStart = next
+                ? remaining.search(
+                    new RegExp(`^##\\s+${next}\\s*$`, "im")
+                  )
+                : -1;
+
+              const content = nextStart === -1
+                ? remaining
+                : remaining.slice(0, nextStart);
+
+              const actualContent = content
+                .replace(/^##.*$/m, "")
+                .replace(/<!--[\s\S]*?-->/g, "")
+                .replace(/^\s*[-*]\s*\[[ xX]\]\s*$/gm, "")
+                .trim();
+
+              if (!actualContent) {
+                errors.push(
+                  `Section "${section}" is empty.`
+                );
+              }
+            }
+
+            if (errors.length) {
+              core.setFailed(errors.join("\n"));
+            } else {
+              core.info("PR description is valid!");
