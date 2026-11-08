@@ -1,0 +1,304 @@
+{
+  "Maven_stderr_bytes": 569,
+  "Maven_stdout_bytes": 5164,
+  "all_expected_capture_available": true,
+  "excerpt_policy": "Original Maven streams complete; selected lifecycle lines only published, raw streams remain private",
+  "exit_trap_code": 0,
+  "files": [
+    {
+      "bytes": 105631,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "cache.after.sha256",
+      "published_payload": false,
+      "sha256": "ad9f25f9a3a471f8f2fa8b9275e72f416646e2e0223fdda4211488bd02ccdfbc"
+    },
+    {
+      "bytes": 45689,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "cache.paths",
+      "published_payload": false,
+      "sha256": "5dffebeeaece05631616f192870c1de95a08bf6b821bf996b814cc64bdeba9a6"
+    },
+    {
+      "bytes": 105631,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "cache.post.sha256",
+      "published_payload": false,
+      "sha256": "ad9f25f9a3a471f8f2fa8b9275e72f416646e2e0223fdda4211488bd02ccdfbc"
+    },
+    {
+      "bytes": 74,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "cgroup.limits.txt",
+      "published_payload": false,
+      "sha256": "e48373859473cbecfa963a000804b2405e23c9b16a0968597570efea099548cf"
+    },
+    {
+      "bytes": 184320,
+      "disposition": "PRIVATE_BINARY",
+      "name": "classes.tar",
+      "published_payload": false,
+      "sha256": "395e7a144722152e1e110fd327dc8d50427075d0f3c8ff3f9018878ce9735634"
+    },
+    {
+      "bytes": 16,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "command-category.txt",
+      "published_payload": false,
+      "sha256": "0d232b4530e09ea594b9764760cf5ee036df313875ac6e33cfcd7a1fadeb26f2"
+    },
+    {
+      "bytes": 1674,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "compiler-created.txt",
+      "published_payload": false,
+      "sha256": "48212cfb448032ea412af286a37105c6d81dd9526739f0cb915ba4c41596bb08"
+    },
+    {
+      "bytes": 1684,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "compiler-inputs.txt",
+      "published_payload": false,
+      "sha256": "c6eb9e488929fddf8fab630300c19593e1fea11cdc756561c273de5b0969e682"
+    },
+    {
+      "bytes": 181,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "cpu.stat",
+      "published_payload": false,
+      "sha256": "1e839b7f1fbc9136f11fba8c91e8fe1cc3320e2248c4658e3222e4b1687dc571"
+    },
+    {
+      "bytes": 67,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "disk-usage.txt",
+      "published_payload": false,
+      "sha256": "4f622e04f2d36fc6ba98ff0fd357f1fc28ef286aa353dda58aaf65a9138633b6"
+    },
+    {
+      "bytes": 2,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "exit.code",
+      "published_payload": false,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 63,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "log.sizes",
+      "published_payload": false,
+      "sha256": "47051d903f670c7874b02aa61c638b365664a6b0f7fc6fa050837d3d3e8a6284"
+    },
+    {
+      "bytes": 9,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.ended.uptime",
+      "published_payload": false,
+      "sha256": "96934a69e0c400e60dd007bf0a19165975654e41a506aec4a29ddb510d484d2b"
+    },
+    {
+      "bytes": 2,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.exit",
+      "published_payload": false,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 9,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.started.uptime",
+      "published_payload": false,
+      "sha256": "98e8e5b8926347cf2bb35999adb60bde7f96e4a7f645b59b6a310521f9cb3d5b"
+    },
+    {
+      "bytes": 17,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.state.txt",
+      "published_payload": false,
+      "sha256": "8ce8b5d6e24a9c5a8feff3a6d90ced48601facf1e29e1edbeebc255c9760c3f8"
+    },
+    {
+      "bytes": 569,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.stderr",
+      "published_payload": false,
+      "sha256": "15246df14513cd3b8f91238eaac71eae92235f5101b8890c61c32280377b9ccf"
+    },
+    {
+      "bytes": 5164,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "maven.stdout",
+      "published_payload": false,
+      "sha256": "32b4a73b9247b47515291ddd819eadc2a04e8b74e17077e9218a2a55c4749645"
+    },
+    {
+      "bytes": 70,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "memory.events",
+      "published_payload": false,
+      "sha256": "0a2d4e7982066cc7dc914627e7b195ccba88b82a5a996201809e529142d2f380"
+    },
+    {
+      "bytes": 10,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "memory.peak",
+      "published_payload": false,
+      "sha256": "39abcec61e4e2e843310d2c8b4d3f948bea7fdb78bb9cdefd3bd2df5cb4e4c50"
+    },
+    {
+      "bytes": 58,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "mount-ownership.txt",
+      "published_payload": false,
+      "sha256": "733696b58f60fa3990139b6f32c8e4f94fb813c150ad34828acbcfcc43186c33"
+    },
+    {
+      "bytes": 4271,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "mountinfo.txt",
+      "published_payload": false,
+      "sha256": "cc3b20bdcde26fbd49c754efa422d7d8804bb7f842b64b0576c7821d6ee71aff"
+    },
+    {
+      "bytes": 226,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "passed-stages.txt",
+      "published_payload": false,
+      "sha256": "d838b7ff50cdf4e5aa36fb0f53ac849691028b5ecb7e38d89bbfd6247ede988a"
+    },
+    {
+      "bytes": 5,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "post-capture.complete",
+      "published_payload": false,
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 3,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "processes.txt",
+      "published_payload": false,
+      "sha256": "7018c575f475e3e18f7842706d0c4773aea346bf2ca7cf516dd7697a79fe2e94"
+    },
+    {
+      "bytes": 0,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "ready",
+      "published_payload": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "setup.complete",
+      "published_payload": false,
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 0,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "setup.stderr",
+      "published_payload": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 692,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "setup.stdout",
+      "published_payload": false,
+      "sha256": "e684ae22b2d39ea235e614278d3169c640f99863f4789661b414d654ea3055cf"
+    },
+    {
+      "bytes": 13988,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.after.sha256",
+      "published_payload": false,
+      "sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+    },
+    {
+      "bytes": 8557,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.modes.after",
+      "published_payload": false,
+      "sha256": "b10a0b16057fab2993dc5d69a0f665194f99c33827dd1efcb5a9a80d11c70f4e"
+    },
+    {
+      "bytes": 5798,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.modes.before",
+      "published_payload": false,
+      "sha256": "02ea55b1750190cde9d1480950f809b719fab156b358630de10a6b3351fc52b6"
+    },
+    {
+      "bytes": 5330,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.paths",
+      "published_payload": false,
+      "sha256": "459529c5fe22c61aebcc044ced529421e18ad4d333a29f3a86839c100eee2a37"
+    },
+    {
+      "bytes": 19897,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.post.sha256",
+      "published_payload": false,
+      "sha256": "01de87e6d6ca21e607c7806ac13db716f5f7a1d1a354e151f01a938fdb653021"
+    },
+    {
+      "bytes": 2,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.verify.exit",
+      "published_payload": false,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 0,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.verify.stderr",
+      "published_payload": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "source.verify.stdout",
+      "published_payload": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 16,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "stage.txt",
+      "published_payload": false,
+      "sha256": "2b9869c0ec94656a35d35646cf9f283a0fc5c67b62ba400d04834ecf1f713718"
+    },
+    {
+      "bytes": 8,
+      "disposition": "PRIVATE_RAW_CAPTURE",
+      "name": "working-directory.txt",
+      "published_payload": false,
+      "sha256": "528b690443e45716ef5e7e82b8068a54d7095dcca8e1c790adf2a2263078761e"
+    }
+  ],
+  "final_stage": "MAVEN_LIFECYCLE",
+  "logs_complete": true,
+  "setup_stages": [
+    "MODE",
+    "IDENTITY",
+    "CGROUP",
+    "MOUNT_OWNERSHIP",
+    "SOURCE_COPY",
+    "SOURCE_PERMISSIONS",
+    "ARTIFACT_COPY",
+    "ARTIFACT_PERMISSIONS",
+    "WORKING_DIRECTORY",
+    "SOURCE_HASHES",
+    "CACHE_HASHES",
+    "POPULATION",
+    "WRITABILITY",
+    "FINAL_SOURCE_HASHES",
+    "FINAL_CACHE_HASHES",
+    "MAVEN_LIFECYCLE"
+  ],
+  "setup_stderr_bytes": 0,
+  "setup_stdout_bytes": 692
+}

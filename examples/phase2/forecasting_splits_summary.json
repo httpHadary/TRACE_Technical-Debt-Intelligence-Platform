@@ -1,0 +1,177 @@
+{
+  "boundaries": {
+    "end": "2016-04-25T00:00:00Z",
+    "start": "2011-08-15T00:00:00Z",
+    "test_start": "2015-08-17T00:00:00Z",
+    "validation_end": "2015-05-18T00:00:00Z",
+    "validation_start": "2014-06-09T00:00:00Z"
+  },
+  "full_file_sha256": "6a695e05403b89bd74d9560a3fe9f3900727d8782c4f4f048fb7abc98927a6e1",
+  "held_repository_ids": [
+    "v2-be00cc678f41e66832ccd8eb",
+    "v2-11eb4c34daf05c37fa6838da",
+    "v2-c7c657acd5ed716b76c47c1f",
+    "v2-c5586b674469c147cfada344",
+    "v2-f07bbb56c8cc56591ba77bae",
+    "v2-2fd0e784f917563f1f08d008"
+  ],
+  "limitations": [
+    "630-day overlap and six-repository gate are registered project choices, not power guarantees",
+    "Cohort selection uses data availability; disclose selection bias",
+    "Weekly origins overlap; rows are not independent statistical samples"
+  ],
+  "minimum_common_span_days": 630,
+  "omitted_assignment_count": 121569,
+  "per_horizon_counts": {
+    "30": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10675,
+      "PURGED_TRAIN_LABEL": 60,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2145,
+      "validation": 735
+    },
+    "60": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10511,
+      "PURGED_TRAIN_LABEL": 120,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2085,
+      "validation": 735
+    },
+    "90": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10362,
+      "PURGED_TRAIN_LABEL": 180,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2025,
+      "validation": 735
+    }
+  },
+  "per_track_horizon_counts": {
+    "core90:30": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10675,
+      "PURGED_TRAIN_LABEL": 60,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2145,
+      "validation": 735
+    },
+    "core90:60": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10511,
+      "PURGED_TRAIN_LABEL": 120,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2085,
+      "validation": 735
+    },
+    "core90:90": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10362,
+      "PURGED_TRAIN_LABEL": 180,
+      "UNUSED_HELDOUT": 1074,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2025,
+      "validation": 735
+    },
+    "masked90:30": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10717,
+      "PURGED_TRAIN_LABEL": 60,
+      "UNUSED_HELDOUT": 1077,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2145,
+      "validation": 735
+    },
+    "masked90:60": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10551,
+      "PURGED_TRAIN_LABEL": 120,
+      "UNUSED_HELDOUT": 1077,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2085,
+      "validation": 735
+    },
+    "masked90:90": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10397,
+      "PURGED_TRAIN_LABEL": 180,
+      "UNUSED_HELDOUT": 1077,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2025,
+      "validation": 735
+    },
+    "ttm60:60": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 10047,
+      "PURGED_TRAIN_LABEL": 120,
+      "UNUSED_HELDOUT": 1061,
+      "test_repository": 222,
+      "test_temporal": 555,
+      "train": 2073,
+      "validation": 735
+    },
+    "ttm90:90": {
+      "EMBARGO": 195,
+      "EXCLUDED_SHARED_CALENDAR": 8557,
+      "PURGED_TRAIN_LABEL": 180,
+      "UNUSED_HELDOUT": 1045,
+      "test_repository": 191,
+      "test_temporal": 555,
+      "train": 1965,
+      "validation": 735
+    }
+  },
+  "phase_counts": {
+    "EMBARGO": 585,
+    "EXCLUDED_SHARED_CALENDAR": 31548,
+    "PURGED_TRAIN_LABEL": 360,
+    "UNUSED_HELDOUT": 3222,
+    "test_repository": 666,
+    "test_temporal": 1665,
+    "train": 6255,
+    "validation": 2205
+  },
+  "primary_track": "core90",
+  "registered_policy": "metadata_largest_overlap_v1",
+  "repository_ids": [
+    "v2-0d4a1de0cc1e1cb6f28a9db6",
+    "v2-0ff64367ee1c3d488a880a51",
+    "v2-11eb4c34daf05c37fa6838da",
+    "v2-23449eb60ab6ff083e4b7af2",
+    "v2-2fd0e784f917563f1f08d008",
+    "v2-3fee202c3b42dffa623a2b4e",
+    "v2-46ae23a54214d989ff07551b",
+    "v2-5a156039ebb55f29ae7a9601",
+    "v2-6e8bf5660f0d3e6cb729d4e5",
+    "v2-91429c566e7c1a0cbb0fd178",
+    "v2-a9818ca385b16b2e846a8228",
+    "v2-b3197a1f57f5eea93c094868",
+    "v2-be00cc678f41e66832ccd8eb",
+    "v2-c5586b674469c147cfada344",
+    "v2-c7c657acd5ed716b76c47c1f",
+    "v2-dbf56f245864a6282bf22bca",
+    "v2-dd7a6301f6577ed0b245eec3",
+    "v2-ef6e6b7896649c5d7b494c6f",
+    "v2-f07bbb56c8cc56591ba77bae",
+    "v2-f923881aac8e9e82528717b5",
+    "v2-ffa9f174c149662d62016404"
+  ],
+  "split_id": "8b72cb6a93c47f84e6907bd180345c51f005257f5b10b18893fc791d3d0c0208",
+  "status": "PASS",
+  "summary_only": true
+}

@@ -1,0 +1,930 @@
+{
+  "benchmark_manifest_sha256": "2f06075d4b5d4cbea6ac52b284cd83cf037724dbe165611d0da21463b88f29a1",
+  "benchmark_rerun": false,
+  "cases": [
+    {
+      "context_id": "014354a62291bee68620a32f5e4a90b39da971950ca902266f729505b582cfe5",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "9f76b923319adf12574a6921d1ee7f0ead18bc8efe6d82e9900198bcbfbd0167",
+        "3a61017fd0e8fd0513b2727133dfd54196c56592a77d44fa77c422c361d64341",
+        "a2c3267afd0ca9cfd9ab1c0e1df27561b873b51f8659451c65c92bb10c735f68"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 15245.0,
+        "distinct_measurements": 15,
+        "distinct_values": 4,
+        "first_minutes": 14651.0,
+        "maximum_minutes": 15245.0,
+        "minimum_minutes": 14651.0,
+        "past_net_change_minutes": 594.0,
+        "past_value_transitions": 3,
+        "population_std_minutes": 214.53710605986836,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.125,
+      "origin_utc": "2015-01-19T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-3fee202c3b42dffa623a2b4e",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15090.755859375,
+          "raw_q50": 15243.4755859375,
+          "raw_q90": 15246.716796875,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-02-18T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14743.4873046875,
+          "raw_q50": 15243.185546875,
+          "raw_q90": 15248.5947265625,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2015-03-20T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14782.638671875,
+          "raw_q50": 15243.9287109375,
+          "raw_q90": 15250.126953125,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2015-04-19T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "26d9eef4ab6b203b2b9f794acb9c2965ca1d7ef5e4ac6e1d1a344e65f16e024e",
+      "crossing_steps": [
+        18,
+        19
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "24cbf415b72c035b46c7b0d479f1ff884814dabd22c042a29dc25fb369992d06",
+        "24b1805d98aaf5585ef4721c6e24890fdf23a0c594375b171f5dcb87a972caf8",
+        "a403d552a8144a7bd57d7486c669e626aa4fb16230a0ab35e0cb4320aeb6aa5e"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 15245.0,
+        "distinct_measurements": 15,
+        "distinct_values": 4,
+        "first_minutes": 14651.0,
+        "maximum_minutes": 15245.0,
+        "minimum_minutes": 14651.0,
+        "past_net_change_minutes": 594.0,
+        "past_value_transitions": 3,
+        "population_std_minutes": 290.31862360151223,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [],
+      "maximum_crossing_minutes": 0.4990234375,
+      "origin_utc": "2014-12-15T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-3fee202c3b42dffa623a2b4e",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14576.2548828125,
+          "raw_q50": 15181.5322265625,
+          "raw_q90": 15260.974609375,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-01-14T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14637.6259765625,
+          "raw_q50": 14957.4453125,
+          "raw_q90": 15298.8525390625,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2015-02-13T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14626.1650390625,
+          "raw_q50": 15138.34765625,
+          "raw_q90": 15288.8935546875,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2015-03-15T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": [
+        18,
+        19
+      ]
+    },
+    {
+      "context_id": "43b671bd5ff2d48f9127b390ffcdd563703ef7d7a8bec3bb52010378f51b70a4",
+      "crossing_steps": [
+        64
+      ],
+      "evaluation_phase": "test_repository",
+      "forecast_ids": [
+        "d5bf5e521f2e0951991d1e18a2d7319370641c338686d0f538cf54ca6fe867df",
+        "cc48e45afa088e881b9b211d10f22b664ae6af921ed4d75f3b0ecd50df2306be",
+        "bd34b5d105394cbc4529412061cd9cec124a50345e599a34ad5d6dc7ad0f8fe1"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 15087.0,
+        "distinct_measurements": 12,
+        "distinct_values": 3,
+        "first_minutes": 15487.0,
+        "maximum_minutes": 15577.0,
+        "minimum_minutes": 15087.0,
+        "past_net_change_minutes": -400.0,
+        "past_value_transitions": 2,
+        "population_std_minutes": 204.7719598860048,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [],
+      "maximum_crossing_minutes": 2.8369140625,
+      "origin_utc": "2016-02-29T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-f07bbb56c8cc56591ba77bae",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15069.8154296875,
+          "raw_q50": 15103.46484375,
+          "raw_q90": 15599.2734375,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2016-03-30T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15022.5830078125,
+          "raw_q50": 15561.98828125,
+          "raw_q90": 15581.8681640625,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2016-04-29T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15077.7529296875,
+          "raw_q50": 15572.712890625,
+          "raw_q90": 15580.8876953125,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-05-29T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": [
+        64
+      ]
+    },
+    {
+      "context_id": "8e8e669e6ec8be9ff9f5d16d2436d7e7f3ab7dbdf3cc3926be158dffca901af5",
+      "crossing_steps": [
+        19
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "0af428d9e040bd7cad6201a1b2f92b264163f97bbb79f6be1549730007723b98",
+        "243cafd1f9ca7a0f6acf7d9188055a9e63b1b513ab568c4507f0ae987b87911f",
+        "1f1b7a207eeb5062fd4bc0a50b8a542fccc3da74d11ee0a82e9153a3ffb98e77"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 6705.0,
+        "distinct_measurements": 4,
+        "distinct_values": 2,
+        "first_minutes": 6715.0,
+        "maximum_minutes": 6715.0,
+        "minimum_minutes": 6705.0,
+        "past_net_change_minutes": -10.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 4.998765279645331,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        19
+      ],
+      "maximum_crossing_minutes": 0.04296875,
+      "origin_utc": "2014-11-24T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-dd7a6301f6577ed0b245eec3",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 6704.86865234375,
+          "raw_q50": 6705.49755859375,
+          "raw_q90": 6715.72802734375,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2014-12-24T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 6704.69189453125,
+          "raw_q50": 6704.98486328125,
+          "raw_q90": 6715.19287109375,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2015-01-23T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 6704.78076171875,
+          "raw_q50": 6704.984375,
+          "raw_q90": 6715.16162109375,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2015-02-22T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "9c7f044262864c1dcb32e79e13fb7f9a92a1dbbda57091a227a757e20b2bc997",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "test_temporal",
+      "forecast_ids": [
+        "8aae7000b2976c9cbc45d63fa663cbb082427d687ffa3b5405c254ed8b356c9f",
+        "76e510ef1e8e659989513e0986d57dd733f6cf772ab353b682cb07110d65c4a5",
+        "66f5e67da65a251b1a65f142d0d4f3b73a8579e4e8c4c280edfe91ac18a833c0"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 5307.0,
+        "distinct_measurements": 7,
+        "distinct_values": 5,
+        "first_minutes": 5039.0,
+        "maximum_minutes": 5307.0,
+        "minimum_minutes": 5039.0,
+        "past_net_change_minutes": 268.0,
+        "past_value_transitions": 4,
+        "population_std_minutes": 99.45635496643679,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.1806640625,
+      "origin_utc": "2016-03-21T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-b3197a1f57f5eea93c094868",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 5294.0751953125,
+          "raw_q50": 5306.42822265625,
+          "raw_q90": 5307.8544921875,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2016-04-20T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 5289.4697265625,
+          "raw_q50": 5306.96826171875,
+          "raw_q90": 5308.6328125,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2016-05-20T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 5300.66552734375,
+          "raw_q50": 5306.607421875,
+          "raw_q90": 5308.3564453125,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-06-19T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "a2d6203eedf00045a1b1254e658dd19f355d505b2c119024dd33d34001fa370a",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "64a7ff38a0e5ae5087a2cd978e04f444d810a449d06c76f3581b3474f20f4704",
+        "4071e57b62772c2949356c9bd3d8d6b79087820ed0508c7253e94c169e55abc5",
+        "57102672883f7af1fdd025201a7e0801e198886c1798f059c23f4ea686f47b1b"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 38759.0,
+        "distinct_measurements": 7,
+        "distinct_values": 2,
+        "first_minutes": 38755.0,
+        "maximum_minutes": 38759.0,
+        "minimum_minutes": 38755.0,
+        "past_net_change_minutes": 4.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 0.9977753031397177,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.00390625,
+      "origin_utc": "2015-03-02T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-5a156039ebb55f29ae7a9601",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 38758.515625,
+          "raw_q50": 38758.99609375,
+          "raw_q90": 38759.01171875,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-04-01T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 38757.50390625,
+          "raw_q50": 38759.0,
+          "raw_q90": 38759.01953125,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2015-05-01T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 38757.77734375,
+          "raw_q50": 38759.00390625,
+          "raw_q90": 38759.01953125,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2015-05-31T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "afc786a598f7ae685fdbdb5325e6de66d3e946043c51513396cc7ca44adcdcf7",
+      "crossing_steps": [
+        19
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "e6c57447d992a0a9254c1625aa07283d9ef8baab51af22a8a31a1ccb0a11b63b",
+        "5a77d297c64f4b80b1619a4471a4007cdbb6ff1933a53add1b20528f8feeeb70",
+        "1ba93354ae20c9a0f81132d4382a0dadca147cc55703b8af78fa70abc4ebad25"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 14700.0,
+        "distinct_measurements": 6,
+        "distinct_values": 2,
+        "first_minutes": 14718.0,
+        "maximum_minutes": 14718.0,
+        "minimum_minutes": 14700.0,
+        "past_net_change_minutes": -18.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 8.97997772825746,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        19
+      ],
+      "maximum_crossing_minutes": 0.044921875,
+      "origin_utc": "2014-08-18T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-6e8bf5660f0d3e6cb729d4e5",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14699.4580078125,
+          "raw_q50": 14701.0068359375,
+          "raw_q90": 14718.7666015625,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2014-09-17T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14699.392578125,
+          "raw_q50": 14703.068359375,
+          "raw_q90": 14718.5771484375,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2014-10-17T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 14699.34765625,
+          "raw_q50": 14699.8447265625,
+          "raw_q90": 14718.59765625,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2014-11-16T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "d27815ccdf70702798edac658c70a1658ae7ca55d411cafc5d4c5ccc0720c4eb",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "test_repository",
+      "forecast_ids": [
+        "ff7f8d13e9f1e55c84c14546ed5860fb792e0a0ee68e27de79a2e9f7cf7467ab",
+        "f47222b1a9bafc5a4f6dad56598dd3e1e26490c793d71546f97b8c0828dad2bf",
+        "b79c2e95d0f85e31e80573b969e2a7ca2804bc67f4032986d87b9d592bcfc933"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 58602.0,
+        "distinct_measurements": 6,
+        "distinct_values": 4,
+        "first_minutes": 58129.0,
+        "maximum_minutes": 58602.0,
+        "minimum_minutes": 58129.0,
+        "past_net_change_minutes": 473.0,
+        "past_value_transitions": 3,
+        "population_std_minutes": 143.3605228302856,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.21875,
+      "origin_utc": "2015-11-30T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-11eb4c34daf05c37fa6838da",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 58491.625,
+          "raw_q50": 58601.29296875,
+          "raw_q90": 58603.6015625,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-12-30T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 58336.69140625,
+          "raw_q50": 58601.9296875,
+          "raw_q90": 58604.83984375,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2016-01-29T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 58414.5234375,
+          "raw_q50": 58602.3671875,
+          "raw_q90": 58604.96875,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-02-28T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "d61c04ee72fb85d16a1760e805ce78f1845f9ff70e5942e417163e9ca96c24e7",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "test_temporal",
+      "forecast_ids": [
+        "fec0373115cfe157ba0d2faa5e0c56e67810ce8a9fa262aa3269ac6795deac61",
+        "daabfe5f327ce065e8d7fa2c5ba4a434bad1df9f89d6cec4d5a442b18fc9f8e1",
+        "108095626e46add21fa0a119d759b5f05cdce3484060a12376cb85a011ee510a"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 15716.0,
+        "distinct_measurements": 2,
+        "distinct_values": 2,
+        "first_minutes": 15319.0,
+        "maximum_minutes": 15716.0,
+        "minimum_minutes": 15319.0,
+        "past_net_change_minutes": 397.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 99.02919883661697,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.1552734375,
+      "origin_utc": "2016-04-11T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-3fee202c3b42dffa623a2b4e",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15667.302734375,
+          "raw_q50": 15715.6611328125,
+          "raw_q90": 15717.2607421875,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2016-05-11T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15567.083984375,
+          "raw_q50": 15716.0595703125,
+          "raw_q90": 15717.994140625,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2016-06-10T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 15593.947265625,
+          "raw_q50": 15716.4326171875,
+          "raw_q90": 15717.953125,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-07-10T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "d8b4815cf5efcb807f10c8f7f3e5816861a1e2d776c7ec5137c3aacd00b4d507",
+      "crossing_steps": [
+        1
+      ],
+      "evaluation_phase": "test_temporal",
+      "forecast_ids": [
+        "0310715bc2f8d121da4813fa6cdae437cc6a8fdf1695e0ececcecdb4ab06d7e7",
+        "b6f48431ee9acc7ff8bf0e6963a4fc46bbe0c9da2f673b818a74d6f83a1768b0",
+        "891f1b11d3b000b43fce83dd7f32c0c0021b6d58d011e6899b7ee561304a3508"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 28645.0,
+        "distinct_measurements": 4,
+        "distinct_values": 3,
+        "first_minutes": 28446.0,
+        "maximum_minutes": 28645.0,
+        "minimum_minutes": 28431.0,
+        "past_net_change_minutes": 199.0,
+        "past_value_transitions": 2,
+        "population_std_minutes": 50.28365097678922,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        1
+      ],
+      "maximum_crossing_minutes": 0.005859375,
+      "origin_utc": "2015-11-16T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-ef6e6b7896649c5d7b494c6f",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 28621.1640625,
+          "raw_q50": 28644.826171875,
+          "raw_q90": 28645.642578125,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-12-16T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 28572.35546875,
+          "raw_q50": 28645.046875,
+          "raw_q90": 28646.0078125,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2016-01-15T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 28586.294921875,
+          "raw_q50": 28645.2265625,
+          "raw_q90": 28645.98046875,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-02-14T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "f4792a9a64a7d7f1f2f89a855329b6ac0a3077947ea0d940c4f3b3564b01b167",
+      "crossing_steps": [
+        17,
+        19
+      ],
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "9d9e58a656c28c7f79c789dbf390e08cfaac1190e14a52d037d2c37538dd52df",
+        "a653577829395cb6c494d94641ed2b73c97e2a233c7aea337f13526bfab85df2",
+        "3c27c8ae1020a5b60850d07e5c0e0ba54810df147b62d2248f979f1a7a7308ac"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 11659.0,
+        "distinct_measurements": 2,
+        "distinct_values": 2,
+        "first_minutes": 11661.0,
+        "maximum_minutes": 11661.0,
+        "minimum_minutes": 11659.0,
+        "past_net_change_minutes": -2.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 0.999753055929066,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        17,
+        19
+      ],
+      "maximum_crossing_minutes": 0.00390625,
+      "origin_utc": "2014-06-09T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-0ff64367ee1c3d488a880a51",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 11658.951171875,
+          "raw_q50": 11659.107421875,
+          "raw_q90": 11661.0927734375,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2014-07-09T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 11658.935546875,
+          "raw_q50": 11659.041015625,
+          "raw_q90": 11661.0830078125,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2014-08-08T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 11658.9384765625,
+          "raw_q50": 11658.99609375,
+          "raw_q90": 11661.06640625,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2014-09-07T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    },
+    {
+      "context_id": "fc438e6b9898522f91099562473986fe70102136601d58050cbee636b944d16b",
+      "crossing_steps": [
+        19
+      ],
+      "evaluation_phase": "test_temporal",
+      "forecast_ids": [
+        "ca2c460ae7752550cf8c449a5800596d8f55ba7ac2108c0929c3b1b30b4832e8",
+        "8cc2ea3e2bb777a37585be379ca522675ed33a3d4a9292eeee1b8ef4309232c7",
+        "167fb7f208a4f131860bf96507d34f5270004cf5a436a7577f69715b307539d4"
+      ],
+      "input": {
+        "constant_history": false,
+        "context_days": 90,
+        "current_minutes": 3847.0,
+        "distinct_measurements": 4,
+        "distinct_values": 2,
+        "first_minutes": 3857.0,
+        "maximum_minutes": 3857.0,
+        "minimum_minutes": 3847.0,
+        "past_net_change_minutes": -10.0,
+        "past_value_transitions": 1,
+        "population_std_minutes": 4.969039949999533,
+        "zero_value_days": 0
+      },
+      "lower_crossing_steps": [
+        19
+      ],
+      "maximum_crossing_minutes": 0.000244140625,
+      "origin_utc": "2015-10-12T00:00:00Z",
+      "repeat_equal": true,
+      "repository_id": "v2-23449eb60ab6ff083e4b7af2",
+      "selected_endpoints": [
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 3846.747802734375,
+          "raw_q50": 3847.582275390625,
+          "raw_q90": 3857.56201171875,
+          "selected_endpoint": true,
+          "step_days": 30,
+          "timestamp": "2015-11-11T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 3846.553466796875,
+          "raw_q50": 3850.052734375,
+          "raw_q90": 3857.158935546875,
+          "selected_endpoint": true,
+          "step_days": 60,
+          "timestamp": "2015-12-11T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        },
+        {
+          "crossing": false,
+          "lower_crossing_minutes": 0.0,
+          "ordered": true,
+          "raw_q10": 3846.5771484375,
+          "raw_q50": 3847.792236328125,
+          "raw_q90": 3857.475341796875,
+          "selected_endpoint": true,
+          "step_days": 90,
+          "timestamp": "2016-01-10T00:00:00Z",
+          "upper_crossing_minutes": 0.0
+        }
+      ],
+      "upper_crossing_steps": []
+    }
+  ],
+  "checkpoint": {
+    "artifacts": {
+      "README.md": "c27a3415d8482238aef5c419a7e58ef2f3fd2a45247148f17e5237521059abf7",
+      "config.json": "f2780468adc8b16322aa0b6e28b26476c9401ecf64ab53292b6d2b0d3f423722",
+      "model.safetensors": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+    },
+    "license": "Apache-2.0",
+    "metadata_url": "https://huggingface.co/api/models/autogluon/chronos-2-small/revision/ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a?blobs=true",
+    "model_id": "autogluon/chronos-2-small",
+    "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+    "safetensors_bytes": 111749048
+  },
+  "diagnostic_contexts": 12,
+  "implementation_sha256": {
+    "__init__.py": "e35e0c9757551e622883e45c868405f66ca42089b5c0f6e4faeca2b85749cb1b",
+    "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "baseline_evaluation.py": "3735ef0f4a7517880041ae6bf7e8a85121ca8265381fe8211f4b660954f1b8fd",
+    "baseline_run.py": "0663b3630bc7c8ee52524e98325100b6ef011ec4f4eb0b9674066784fad21a63",
+    "baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+    "chronos_adapter.py": "efac016557e51ca14c198e5ae3818fa7fb9cf6d935aa7c4b93e7bf3e59995cdd",
+    "chronos_diagnostics.py": "74d75aa39baaa3e17eadf6baaf8a6db54b21f1df99fe1a12dccec22118064d75",
+    "chronos_eval_worker.py": "da03eafc98f0483c800d08e87dda118ae411cc4f49a5ff71555af14edf9ab7fc",
+    "chronos_evaluation.py": "39b970415bd325b352b4612efc8b0477e3ce9d0f3f6c8e72f9498bb08677aa3b",
+    "chronos_run.py": "63ac572aaf3d593d831cf1d0023d5d33b7f8212d15b567204cc4ff95406502c7",
+    "chronos_smoke.py": "b8913a840180752abbe88d2a0ae37c5164b4a5591687e87a05f5448191883a5f",
+    "chronos_smoke_worker.py": "4d9925597840fd50aea61244314214bb359bdf21424dc6c412624b168a0a9b32",
+    "cli.py": "e0d8fa4839b797a60dc13ec229c4f9a129fa8a1b8e742837d43410879c6d3e32",
+    "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "dataset.py": "0315d2e12d01323d291dc619c1f6adae84de3fb8e7dc318a8496342002ce275c",
+    "hardening.py": "3c6e2cfd4f24e6e371cfa1ee9c544eaf6e7f203e44e31bf61d69a7de6e8de17a",
+    "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+    "splits.py": "bcc2f5dd09dd5324a16aa1b8d9b84203115f6a8bbc0dc0f86d88c9eaeea2b707",
+    "targets.py": "bb3a8df6cd02e2eea9eab18b3d58e0b53889d8a333ddd0d25b9321f5852b9d73",
+    "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+    "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+  },
+  "labels_opened": false,
+  "model_calls": 24,
+  "model_configuration_changed": false,
+  "no_other_context_inferred": true,
+  "original_predictions_replaced": false,
+  "peak_rss_kib": 481908,
+  "phase": "4.2.1",
+  "published_study_id": "70b372e32c7292aca8b260b1a44c28787c3f03b7c11277159a53dd18cc22c958",
+  "repeat_equal": true,
+  "runtime_versions": {
+    "chronos-forecasting": "2.3.2",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "torch": "2.11.0+cpu",
+    "transformers": "4.57.6"
+  },
+  "status": "PASS",
+  "worker_elapsed_seconds": 4.835043375999703
+}

@@ -1,0 +1,998 @@
+{
+  "fields": [
+    {
+      "constraints": "Verified identity only; repository/provider terms and redistribution approval are distinct",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Repository identifiers and commits",
+      "field_id": "F01",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Frozen Git/provider registry, not native analyzer output",
+      "provenance_status": "VERIFIED_EXISTING_GIT_IDENTITY",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-SOURCE-CLI",
+        "D-SOURCE-CLICK",
+        "D-SOURCE-MIXED",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Paths may expose source or personal information; minimization is a review requirement",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "File paths and source metadata",
+      "field_id": "F02",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Frozen Git inventory; native component paths must be independently reconciled",
+      "provenance_status": "VERIFIED_EXISTING_GIT_IDENTITY",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-SOURCE-CLI",
+        "D-SOURCE-CLICK",
+        "D-SOURCE-MIXED",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Tool-defined debt stock in estimated minutes, not actual repair labor",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Native maintainability debt estimates",
+      "field_id": "F03",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned Standard-mode native sqale_index; no measurements collected",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U03",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Issue effort/stock relationship and override semantics need exact domain proof; never infer actual developer effort",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Native remediation time",
+      "field_id": "F04",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned native effort fields and rule remediation functions",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U03",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Identifiers, descriptions, examples and formulas need separate granular review",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Rule identifiers and metadata",
+      "field_id": "F05",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned pinned analyzer/profile/rule exports",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U14",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Standard severities and MQR quality impacts must not be pooled as equivalent",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Issue counts and severities",
+      "field_id": "F06",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned native analysis-bound issue payloads",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U03",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Do not backdate execution to the historical cutoff; metadata is not permission",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Analysis and availability timestamps",
+      "field_id": "F07",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned server/CE/execution/retrieval clocks plus frozen code cutoffs",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Configuration may contain rule text; no raw disclosure approval",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Active rule/profile configurations",
+      "field_id": "F08",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Planned complete paginated active-rule/profile/override exports",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U12",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Source attribution, analyzer output terms and privacy each require review",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Source excerpts and code snippets",
+      "field_id": "F09",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Existing third-party source or future issue context; not needed in public numeric MVP dataset",
+      "provenance_status": "EXISTING_SOURCE_OR_ARTIFACT_IDENTITY_ONLY",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-SOURCE-CLI",
+        "D-SOURCE-CLICK",
+        "D-SOURCE-MIXED",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "30/60/90 days are exact UTC durations; transformations do not remove upstream restrictions",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Derived forecasting labels",
+      "field_id": "F10",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future authorized native measurements plus exact state/endpoint proofs",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Past-only and missingness rules required; no analyzer-data licensing shortcut",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Derived feature tables",
+      "field_id": "F11",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future admitted Git/native F0/F1 fields available by cutoff",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U03",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Aggregates and anonymization are not automatic permission; no numerical experiment here",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Aggregated evaluation statistics",
+      "field_id": "F12",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future authorized predictions and ground truth",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U08",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Data source, purpose, retention, transfer and model-learning permissions must all be enumerated",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Model training datasets",
+      "field_id": "F13",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future separately admitted features/labels",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U04",
+        "D-U06",
+        "D-U10",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Potential information retention and downstream redistribution need separate permission",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Model artifacts and weights",
+      "field_id": "F14",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future authorized fitting/adaptation and preprocessing state",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U11",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Private by default; sanitize secrets and bound retention even when collection is approved",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Raw scanner/server outputs",
+      "field_id": "F15",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Future authorized logs/API exports/analysis receipts",
+      "provenance_status": "PROPOSED_NATIVE_OR_DERIVED_LINEAGE_NOT_COLLECTED",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U12",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Do not redistribute under source-repository licenses or scanner license",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Analyzer binaries",
+      "field_id": "F16",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Existing pinned third-party JARs/images, no new binary access/export",
+      "provenance_status": "EXISTING_SOURCE_OR_ARTIFACT_IDENTITY_ONLY",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U13",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    },
+    {
+      "constraints": "Treat separately from numeric IDs; no entire third-party extracts in dossier",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/source_inventory.json.gz",
+          "sha256": "5842b2b93623ce226c4b9412797b8f8b46c0a0636528a45f6db00e25e8f17a22"
+        },
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "HISTORICAL_SCAN_EXECUTION_PLAN.md",
+          "sha256": "416795b818cfe0c1ace50678ec4415a8b3cc8c3d6feaa2ac6ae7a1665c841917"
+        }
+      ],
+      "family": "Rule text and remediation examples",
+      "field_id": "F17",
+      "intended_use_permission": "NOT_APPROVED",
+      "intended_uses": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15"
+      ],
+      "planned_retention": "No new collection/retention approved. Existing authorized evidence stays protected; duration/location/access/deletion terms must be decided per use.",
+      "provenance": "Pinned program/rule documentation and future exports",
+      "provenance_status": "EXISTING_SOURCE_OR_ARTIFACT_IDENTITY_ONLY",
+      "publication_permission": "NOT_APPROVED",
+      "publication_plan": "Not approved; only this sanitized metadata dossier is authorized for publication.",
+      "responsible_decisions": [
+        "D-DATA-GOVERNANCE",
+        "D-U06",
+        "D-U10",
+        "D-U14",
+        "D-U15"
+      ],
+      "retention_permission": "NOT_APPROVED",
+      "use_mode_permissions": {
+        "commercial_or_hosted": "NOT_APPROVED",
+        "external_AI_processing": "NOT_APPROVED",
+        "internal_research": "NOT_APPROVED",
+        "local_AI": "NOT_APPROVED",
+        "publication": "NOT_APPROVED",
+        "redistribution": "NOT_APPROVED"
+      }
+    }
+  ],
+  "numeric_or_anonymized_data_exemption_assumed": false,
+  "permission_for_existing_dossier_metadata": "This task explicitly authorizes publishing sanitized documentary references; this is not approval of future study data.",
+  "schema": "rights-dossier-v1",
+  "source_analyzer_dataset_runtime_rights_independent": true
+}

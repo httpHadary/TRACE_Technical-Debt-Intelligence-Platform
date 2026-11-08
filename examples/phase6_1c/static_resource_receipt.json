@@ -1,0 +1,10 @@
+{
+  "elements": 231289280,
+  "native_forecasts": 0,
+  "native_timesfm_constructions": 0,
+  "parameter_bytes": 925157120,
+  "peak_rss_bytes": 36548608,
+  "seconds": 2.8071913969997695,
+  "static_audit_reproduced": true,
+  "status": "PASS"
+}

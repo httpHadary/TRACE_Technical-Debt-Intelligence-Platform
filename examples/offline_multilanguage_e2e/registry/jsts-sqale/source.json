@@ -1,0 +1,510 @@
+{
+  "admission": {
+    "domain": {
+      "build_mode": "source_only",
+      "dependency_policy_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "edition": "synthetic",
+      "metric_mode": "STANDARD",
+      "metric_semantics": "native_standard_remediation_minutes",
+      "plugins": [
+        {
+          "binary_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "key": "javascript",
+          "language": "js",
+          "version": "synthetic-1"
+        }
+      ],
+      "rules_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "runtime_manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "scanner_image_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "scanner_version": "synthetic",
+      "scope_policy_sha256": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "server_version": "synthetic",
+      "suppression_policy_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "entries": [
+      {
+        "analysis_id": "synthetic-analysis-0",
+        "artifacts": {
+          "ce": {
+            "path": "0-ce.json",
+            "sha256": "e2d94e81ca614da4c4d88b95a477481cd1b897e7bc76c5651062b4e826d479b6"
+          },
+          "coverage": {
+            "path": "0-coverage.json",
+            "sha256": "4ebdd4b7cd2dedad7857d5869a7575e2ef272f97566256037ac042bd382f3d97"
+          },
+          "files": {
+            "path": "0-files.json",
+            "sha256": "7cdd7f1952e20f5aaf33aa6eeec15ffc261ee03208966ef5a7f3c9b0b87493f1"
+          },
+          "inventory": {
+            "path": "0-inventory.json",
+            "sha256": "bc386fec98cf25ecb1d283d6e5b42d666ff1f0134fc75d82bd9b33fa6a99eeef"
+          },
+          "measures": {
+            "path": "0-measures.json",
+            "sha256": "5a576f366c9652ff086b3220374b32cd94f3fae6f3430fe85f8cfd9a6d712d87"
+          },
+          "scanner": {
+            "path": "0-scanner.json",
+            "sha256": "00a567215b22013dbcd2e059dc2c965d504d4e0c2fd6e1e37ccf2c4cb9501a95"
+          }
+        },
+        "available_utc": "2024-02-01T01:00:00Z",
+        "executed_utc": "2024-02-01T00:00:00Z",
+        "project_key": "synthetic:project",
+        "retrieved_utc": "2024-02-02T00:00:00Z",
+        "revision": "b80fab59110db1896ea71f7ef6d66fcbfd36c8bf",
+        "source_tree_sha": "6c020fcba0fea4618a834e2d6b7a5cc7794415c8",
+        "state_utc": "2024-01-01T00:00:00Z"
+      },
+      {
+        "analysis_id": "synthetic-analysis-1",
+        "artifacts": {
+          "ce": {
+            "path": "1-ce.json",
+            "sha256": "d5cf007fdbe20324ef63dadfe0726d62b8498fc247bb22876f1ae625d5afd7b7"
+          },
+          "coverage": {
+            "path": "1-coverage.json",
+            "sha256": "57d36a5eb97b4676a4335905ead61f44f134c82d1d23e7e0fd674bc87cf6e6b0"
+          },
+          "files": {
+            "path": "1-files.json",
+            "sha256": "037bc096147774be524abca5b23c4d5e8ac8cd966216d0276aefeb6b7c7028c2"
+          },
+          "inventory": {
+            "path": "1-inventory.json",
+            "sha256": "ea91bdc841f23349ad6725a92ccd722cc7df2fe0fbe0590ceed073f6fc44022e"
+          },
+          "measures": {
+            "path": "1-measures.json",
+            "sha256": "62fd43f7710b8ab2d96a9df2fb13965262ffeeb87c545d12767869cb5c69be74"
+          },
+          "scanner": {
+            "path": "1-scanner.json",
+            "sha256": "d1e6af5869b5f2c8eba007c9bea6ba9066c63801214835ab1ea581174c033efa"
+          }
+        },
+        "available_utc": "2024-02-01T01:00:00Z",
+        "executed_utc": "2024-02-01T00:00:00Z",
+        "project_key": "synthetic:project",
+        "retrieved_utc": "2024-02-02T00:00:00Z",
+        "revision": "eb94bf04a86d5de339c8c0566722902589c86359",
+        "source_tree_sha": "55d36821a966d564e3c230a8cbf0926aac093c45",
+        "state_utc": "2024-01-02T00:00:00Z"
+      },
+      {
+        "analysis_id": "synthetic-analysis-2",
+        "artifacts": {
+          "ce": {
+            "path": "2-ce.json",
+            "sha256": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905"
+          },
+          "coverage": {
+            "path": "2-coverage.json",
+            "sha256": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db"
+          },
+          "files": {
+            "path": "2-files.json",
+            "sha256": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc"
+          },
+          "inventory": {
+            "path": "2-inventory.json",
+            "sha256": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f"
+          },
+          "measures": {
+            "path": "2-measures.json",
+            "sha256": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945"
+          },
+          "scanner": {
+            "path": "2-scanner.json",
+            "sha256": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+          }
+        },
+        "available_utc": "2024-02-01T01:00:00Z",
+        "executed_utc": "2024-02-01T00:00:00Z",
+        "project_key": "synthetic:project",
+        "retrieved_utc": "2024-02-02T00:00:00Z",
+        "revision": "c28de94cb8e224bd7718a48c6cd7e9b2c36be109",
+        "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2",
+        "state_utc": "2024-01-03T00:00:00Z"
+      }
+    ],
+    "evidence": [
+      {
+        "ce": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\",\n  \"task\": {\n    \"analysisId\": \"synthetic-analysis-0\",\n    \"componentKey\": \"synthetic:project\",\n    \"id\": \"task-0\",\n    \"status\": \"SUCCESS\"\n  }\n}\n",
+        "coverage": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"analyzed_files\": 2,\n  \"analyzed_source_files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"expected_source_files\": 2,\n  \"failed_files\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\",\n  \"status\": \"COMPLETE\",\n  \"unsupported_files\": 0\n}\n",
+        "files": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"pagination_complete\": true,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\"\n}\n",
+        "inventory": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"git_files\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"production_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"project_key\": \"synthetic:project\",\n  \"reviewed_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\"\n}\n",
+        "measures": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"component\": {\n    \"key\": \"synthetic:project\",\n    \"measures\": [\n      {\n        \"metric\": \"sqale_index\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"10\"\n      },\n      {\n        \"metric\": \"reliability_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"security_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"ncloc\",\n        \"unit\": \"lines\",\n        \"value\": \"14\"\n      },\n      {\n        \"metric\": \"ncloc_language_distribution\",\n        \"unit\": \"native_language_distribution\",\n        \"value\": \"js=7;ts=7\"\n      }\n    ],\n    \"qualifier\": \"TRK\"\n  },\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\"\n}\n",
+        "scanner": "{\n  \"analysis_id\": \"synthetic-analysis-0\",\n  \"ce_task_id\": \"task-0\",\n  \"exit_code\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"b80fab59110db1896ea71f7ef6d66fcbfd36c8bf\",\n  \"sensors_complete\": true,\n  \"source_tree_sha\": \"6c020fcba0fea4618a834e2d6b7a5cc7794415c8\"\n}\n"
+      },
+      {
+        "ce": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\",\n  \"task\": {\n    \"analysisId\": \"synthetic-analysis-1\",\n    \"componentKey\": \"synthetic:project\",\n    \"id\": \"task-1\",\n    \"status\": \"SUCCESS\"\n  }\n}\n",
+        "coverage": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"analyzed_files\": 2,\n  \"analyzed_source_files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"expected_source_files\": 2,\n  \"failed_files\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\",\n  \"status\": \"COMPLETE\",\n  \"unsupported_files\": 0\n}\n",
+        "files": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"pagination_complete\": true,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\"\n}\n",
+        "inventory": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"git_files\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"production_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"project_key\": \"synthetic:project\",\n  \"reviewed_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\"\n}\n",
+        "measures": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"component\": {\n    \"key\": \"synthetic:project\",\n    \"measures\": [\n      {\n        \"metric\": \"sqale_index\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"11\"\n      },\n      {\n        \"metric\": \"reliability_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"security_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"ncloc\",\n        \"unit\": \"lines\",\n        \"value\": \"14\"\n      },\n      {\n        \"metric\": \"ncloc_language_distribution\",\n        \"unit\": \"native_language_distribution\",\n        \"value\": \"js=7;ts=7\"\n      }\n    ],\n    \"qualifier\": \"TRK\"\n  },\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\"\n}\n",
+        "scanner": "{\n  \"analysis_id\": \"synthetic-analysis-1\",\n  \"ce_task_id\": \"task-1\",\n  \"exit_code\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"eb94bf04a86d5de339c8c0566722902589c86359\",\n  \"sensors_complete\": true,\n  \"source_tree_sha\": \"55d36821a966d564e3c230a8cbf0926aac093c45\"\n}\n"
+      },
+      {
+        "ce": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\",\n  \"task\": {\n    \"analysisId\": \"synthetic-analysis-2\",\n    \"componentKey\": \"synthetic:project\",\n    \"id\": \"task-2\",\n    \"status\": \"SUCCESS\"\n  }\n}\n",
+        "coverage": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"analyzed_files\": 2,\n  \"analyzed_source_files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"expected_source_files\": 2,\n  \"failed_files\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\",\n  \"status\": \"COMPLETE\",\n  \"unsupported_files\": 0\n}\n",
+        "files": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"files\": [\n    {\n      \"language\": \"js\",\n      \"path\": \"src/file.jsx\"\n    },\n    {\n      \"language\": \"ts\",\n      \"path\": \"src/file.tsx\"\n    }\n  ],\n  \"pagination_complete\": true,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\"\n}\n",
+        "inventory": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"git_files\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"production_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"project_key\": \"synthetic:project\",\n  \"reviewed_paths\": [\n    \"src/file.jsx\",\n    \"src/file.tsx\"\n  ],\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\"\n}\n",
+        "measures": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"component\": {\n    \"key\": \"synthetic:project\",\n    \"measures\": [\n      {\n        \"metric\": \"sqale_index\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"12\"\n      },\n      {\n        \"metric\": \"reliability_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"security_remediation_effort\",\n        \"unit\": \"estimated_remediation_minutes\",\n        \"value\": \"2\"\n      },\n      {\n        \"metric\": \"ncloc\",\n        \"unit\": \"lines\",\n        \"value\": \"14\"\n      },\n      {\n        \"metric\": \"ncloc_language_distribution\",\n        \"unit\": \"native_language_distribution\",\n        \"value\": \"js=7;ts=7\"\n      }\n    ],\n    \"qualifier\": \"TRK\"\n  },\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\"\n}\n",
+        "scanner": "{\n  \"analysis_id\": \"synthetic-analysis-2\",\n  \"ce_task_id\": \"task-2\",\n  \"exit_code\": 0,\n  \"project_key\": \"synthetic:project\",\n  \"revision\": \"c28de94cb8e224bd7718a48c6cd7e9b2c36be109\",\n  \"sensors_complete\": true,\n  \"source_tree_sha\": \"55daff232899dd93bddb5ea04284e50ed74626d2\"\n}\n"
+      }
+    ],
+    "git_identity": "3d92e56527f357426b73f733649271820a6b1762583d2b88613eee410028e4ad",
+    "registration": {
+      "canonical_url": "https://example.invalid/synthetic",
+      "declared_languages": [
+        "js",
+        "ts"
+      ],
+      "family_id": "synthetic-family",
+      "ref_observed_utc": "2024-06-01T00:00:00Z",
+      "repository_id": "synthetic-native",
+      "scope": {
+        "excluded_paths": [],
+        "review_status": "REVIEWED_NO_UNRESOLVED_GENERATED_VENDOR_OR_NONCODE",
+        "reviewer": "Synthetic fixture author",
+        "roots": [
+          "src"
+        ]
+      },
+      "tip_sha": "bfe5106aa8d3c8e49972387bdeaf7e6d6721d2e7"
+    },
+    "revision_sequence": [
+      {
+        "parents": [],
+        "sha": "b80fab59110db1896ea71f7ef6d66fcbfd36c8bf",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "tree": "6c020fcba0fea4618a834e2d6b7a5cc7794415c8"
+      },
+      {
+        "parents": [
+          "b80fab59110db1896ea71f7ef6d66fcbfd36c8bf"
+        ],
+        "sha": "eb94bf04a86d5de339c8c0566722902589c86359",
+        "timestamp": "2024-01-02T00:00:00Z",
+        "tree": "55d36821a966d564e3c230a8cbf0926aac093c45"
+      },
+      {
+        "parents": [
+          "eb94bf04a86d5de339c8c0566722902589c86359"
+        ],
+        "sha": "c28de94cb8e224bd7718a48c6cd7e9b2c36be109",
+        "timestamp": "2024-01-03T00:00:00Z",
+        "tree": "55daff232899dd93bddb5ea04284e50ed74626d2"
+      },
+      {
+        "parents": [
+          "c28de94cb8e224bd7718a48c6cd7e9b2c36be109"
+        ],
+        "sha": "6538782f8e3313765939553f4c557bc8e39cfe9a",
+        "timestamp": "2024-01-04T00:00:00Z",
+        "tree": "912057c15495b0c78704de7503fb07d8e5c3b94e"
+      },
+      {
+        "parents": [
+          "6538782f8e3313765939553f4c557bc8e39cfe9a"
+        ],
+        "sha": "c38f5251d76efa112e3ceea76d10048ca4ff792d",
+        "timestamp": "2024-01-05T00:00:00Z",
+        "tree": "239bced807e46b630d2bd9883f4e3f345df671a4"
+      },
+      {
+        "parents": [
+          "c38f5251d76efa112e3ceea76d10048ca4ff792d"
+        ],
+        "sha": "ed64de449bca9e2e8dca681852ac305f993e6865",
+        "timestamp": "2024-01-06T00:00:00Z",
+        "tree": "2300f379ebb036b9a607303615fcc4640028bc71"
+      },
+      {
+        "parents": [
+          "ed64de449bca9e2e8dca681852ac305f993e6865"
+        ],
+        "sha": "4aa7a1a53005d6144a4bcaf2f9104e0f5700b8eb",
+        "timestamp": "2024-01-07T00:00:00Z",
+        "tree": "5543952eab2dd41e47fd744212ebdc890bb85fdb"
+      },
+      {
+        "parents": [
+          "4aa7a1a53005d6144a4bcaf2f9104e0f5700b8eb"
+        ],
+        "sha": "71f4ed41fd4e8050b1b54e4942cfa5b64802ffaa",
+        "timestamp": "2024-01-08T00:00:00Z",
+        "tree": "0a66d06e403d41686029c2a9fbfd6acbe35a0370"
+      },
+      {
+        "parents": [
+          "71f4ed41fd4e8050b1b54e4942cfa5b64802ffaa"
+        ],
+        "sha": "5875fcedb0aeeb6372234f59275ad6e9dda95e70",
+        "timestamp": "2024-01-09T00:00:00Z",
+        "tree": "1b00e60f31e35ceb69fbf38a4c36133acec5b7c3"
+      },
+      {
+        "parents": [
+          "5875fcedb0aeeb6372234f59275ad6e9dda95e70"
+        ],
+        "sha": "5970c67f2d4e229a1dd487ed0a42ac84191fd52f",
+        "timestamp": "2024-01-10T00:00:00Z",
+        "tree": "2003657b7de3dd6ba7406027372c1d2b020da9e9"
+      },
+      {
+        "parents": [
+          "5970c67f2d4e229a1dd487ed0a42ac84191fd52f"
+        ],
+        "sha": "8a465f63c91c74703becfe7f39c7a348af96d8f0",
+        "timestamp": "2024-01-11T00:00:00Z",
+        "tree": "a724497a924bd44f2d265ab55d7b94a550f1e5d4"
+      },
+      {
+        "parents": [
+          "8a465f63c91c74703becfe7f39c7a348af96d8f0"
+        ],
+        "sha": "1e0abe5aba58f25a844b159c232e44591e608f4b",
+        "timestamp": "2024-01-12T00:00:00Z",
+        "tree": "c907715dc9fde8abebfdab43c5f7c429ff7d1834"
+      },
+      {
+        "parents": [
+          "1e0abe5aba58f25a844b159c232e44591e608f4b"
+        ],
+        "sha": "574dca40a222f9138030def834c5bc203475674c",
+        "timestamp": "2024-01-13T00:00:00Z",
+        "tree": "5b305b27c3e4b950bb53a0e55d51ae74aa7af50d"
+      },
+      {
+        "parents": [
+          "574dca40a222f9138030def834c5bc203475674c"
+        ],
+        "sha": "3d91ab1339bfc142f3eeb185050fc9f3e7cd0599",
+        "timestamp": "2024-01-14T00:00:00Z",
+        "tree": "1e6a6f14a578a1c46122afa927dc87a8911a2f14"
+      },
+      {
+        "parents": [
+          "3d91ab1339bfc142f3eeb185050fc9f3e7cd0599"
+        ],
+        "sha": "bfe5106aa8d3c8e49972387bdeaf7e6d6721d2e7",
+        "timestamp": "2024-01-15T00:00:00Z",
+        "tree": "a52dd595238b67f27eea122bcc48669687fe3640"
+      }
+    ],
+    "version": "native.project.archive.v1"
+  },
+  "horizons": {
+    "elapsed_day": [
+      30,
+      60,
+      90
+    ],
+    "revision_step": [
+      3,
+      4,
+      12
+    ]
+  },
+  "observations": [
+    {
+      "components": {
+        "maintainability": 10.0,
+        "reliability": 2.0,
+        "security": 2.0
+      },
+      "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+      "native": {
+        "analysis_id": "synthetic-analysis-0",
+        "ancillary_languages": [],
+        "artifact_hashes": {
+          "ce": "e2d94e81ca614da4c4d88b95a477481cd1b897e7bc76c5651062b4e826d479b6",
+          "coverage": "4ebdd4b7cd2dedad7857d5869a7575e2ef272f97566256037ac042bd382f3d97",
+          "files": "7cdd7f1952e20f5aaf33aa6eeec15ffc261ee03208966ef5a7f3c9b0b87493f1",
+          "inventory": "bc386fec98cf25ecb1d283d6e5b42d666ff1f0134fc75d82bd9b33fa6a99eeef",
+          "measures": "5a576f366c9652ff086b3220374b32cd94f3fae6f3430fe85f8cfd9a6d712d87",
+          "scanner": "00a567215b22013dbcd2e059dc2c965d504d4e0c2fd6e1e37ccf2c4cb9501a95"
+        },
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "language_family": "jsts_dominant",
+        "languages": {
+          "js": 7,
+          "ts": 7
+        },
+        "lineage_prefix_sha256": "47dea7e74f8337bc821da7b9183a1f2ca1b9f75517445d300ad23e15688039e1",
+        "measures": {
+          "reliability_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "security_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "sqale_index": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 10.0
+          }
+        },
+        "programming_languages": [
+          "js",
+          "ts"
+        ],
+        "project_key": "synthetic:project",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+        "source_evidence_sha256": "8eb78ba946ad5f3b45d428d3cbbac7651f22b37d6f4db76aa532b17035711d19",
+        "source_tree_sha": "6c020fcba0fea4618a834e2d6b7a5cc7794415c8"
+      },
+      "observation_id": "fa5bc55846d8080bc981b2a11361d58daffa8f235e551c94afeb0e0e767e679d",
+      "observed_utc": "2024-01-01T00:00:00Z",
+      "repository_id": "synthetic-native",
+      "revision": "b80fab59110db1896ea71f7ef6d66fcbfd36c8bf",
+      "revision_index": 0,
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+    },
+    {
+      "components": {
+        "maintainability": 11.0,
+        "reliability": 2.0,
+        "security": 2.0
+      },
+      "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+      "native": {
+        "analysis_id": "synthetic-analysis-1",
+        "ancillary_languages": [],
+        "artifact_hashes": {
+          "ce": "d5cf007fdbe20324ef63dadfe0726d62b8498fc247bb22876f1ae625d5afd7b7",
+          "coverage": "57d36a5eb97b4676a4335905ead61f44f134c82d1d23e7e0fd674bc87cf6e6b0",
+          "files": "037bc096147774be524abca5b23c4d5e8ac8cd966216d0276aefeb6b7c7028c2",
+          "inventory": "ea91bdc841f23349ad6725a92ccd722cc7df2fe0fbe0590ceed073f6fc44022e",
+          "measures": "62fd43f7710b8ab2d96a9df2fb13965262ffeeb87c545d12767869cb5c69be74",
+          "scanner": "d1e6af5869b5f2c8eba007c9bea6ba9066c63801214835ab1ea581174c033efa"
+        },
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "language_family": "jsts_dominant",
+        "languages": {
+          "js": 7,
+          "ts": 7
+        },
+        "lineage_prefix_sha256": "e622ca0f11fe18abaffe8c100aa286c39e1e544ba25dcdbf7154e477a765f8e6",
+        "measures": {
+          "reliability_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "security_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "sqale_index": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 11.0
+          }
+        },
+        "programming_languages": [
+          "js",
+          "ts"
+        ],
+        "project_key": "synthetic:project",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+        "source_evidence_sha256": "87c6477af4a6a2a2c3d355ebc2637704593116dba2fccded3f7621728315c823",
+        "source_tree_sha": "55d36821a966d564e3c230a8cbf0926aac093c45"
+      },
+      "observation_id": "d35b000942e81f06c08959948a583949da8c98655b2ed8cf0c5e756b0410c88f",
+      "observed_utc": "2024-01-02T00:00:00Z",
+      "repository_id": "synthetic-native",
+      "revision": "eb94bf04a86d5de339c8c0566722902589c86359",
+      "revision_index": 1,
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+    },
+    {
+      "components": {
+        "maintainability": 12.0,
+        "reliability": 2.0,
+        "security": 2.0
+      },
+      "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+      "native": {
+        "analysis_id": "synthetic-analysis-2",
+        "ancillary_languages": [],
+        "artifact_hashes": {
+          "ce": "886baa447634c4be970fdcda32dd4250a792c470fb83e20a6db0a2ad65235905",
+          "coverage": "c92dcd50faa18413ad2750be6fec0430b24872869de5fb25f271fc2651dba7db",
+          "files": "73eb116c7d26126e1f2140341549ccdf7c3ca92f144ab8835e35a2b71556bcfc",
+          "inventory": "acd093d0e3019b1cf266fb92eee2bfe198cd3978ad702cce1d1ab636204a919f",
+          "measures": "cff8f2629c0e3d24c364899c967a766cc50c128a4cf1e529a3e626fe07373945",
+          "scanner": "0d80e11142a3d149a7c241f96b35e90bcb71801ea195cba1e488bd8b19864b82"
+        },
+        "domain_id": "994d96a4fdd676f0a214bfee083190b3310823c14cdeda7f6e31308a4c230bf2",
+        "language_family": "jsts_dominant",
+        "languages": {
+          "js": 7,
+          "ts": 7
+        },
+        "lineage_prefix_sha256": "1cbd30fd6c0976d48b9b63381abfa3059500a7fb3fb57ece8599a10f3b16b65c",
+        "measures": {
+          "reliability_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "security_remediation_effort": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 2.0
+          },
+          "sqale_index": {
+            "reason": null,
+            "status": "OBSERVED",
+            "unit": "estimated_remediation_minutes",
+            "value": 12.0
+          }
+        },
+        "programming_languages": [
+          "js",
+          "ts"
+        ],
+        "project_key": "synthetic:project",
+        "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+        "source_evidence_sha256": "71f13017fa1047b7316c5e83f9e58da694eba7b6aa67cd43eb4b0531a1bc7967",
+        "source_tree_sha": "55daff232899dd93bddb5ea04284e50ed74626d2"
+      },
+      "observation_id": "80d7c1aa838a68f7fc14450355f90265289f570e8493a5424383758e6e116e07",
+      "observed_utc": "2024-01-03T00:00:00Z",
+      "repository_id": "synthetic-native",
+      "revision": "c28de94cb8e224bd7718a48c6cd7e9b2c36be109",
+      "revision_index": 2,
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8"
+    }
+  ],
+  "source": {
+    "description": "Invented native envelopes, not a Click export.",
+    "kind": "SYNTHETIC",
+    "permission": "Synthetic test-only source rights claim.",
+    "provenance": "Tiny local Git fixture; no scanner ran.",
+    "source_id": "synthetic-native-source"
+  },
+  "target": "native_sqale_index_minutes",
+  "unit": "estimated_remediation_minutes",
+  "version": "persistence.observations.v2"
+}

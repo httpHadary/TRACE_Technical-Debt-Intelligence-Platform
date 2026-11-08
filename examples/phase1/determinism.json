@@ -1,0 +1,11 @@
+{
+  "same_input_same_code_all_artifacts_byte_identical": true,
+  "artifacts": {
+    "manifest.json": true,
+    "excluded_records.json": true,
+    "git_history.csv": true,
+    "historical_debt.csv": true,
+    "historical_debt_sample.csv": true,
+    "historical_data_audit.json": true
+  }
+}

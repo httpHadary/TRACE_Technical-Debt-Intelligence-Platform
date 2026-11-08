@@ -1,0 +1,11 @@
+{
+  "artifacts": 682,
+  "cache_identity_sha256": "1d56fa167a1a296a680bd22bba4f5223e4d2a90fe099dc38fe8a1703b046120d",
+  "identity_format": "Sorted sha256 + two spaces + byte_count + two spaces + Maven relative path + LF",
+  "independent_seed_copies": true,
+  "manifest_sha256": "b19c9c644d21b9a8700ff1628beb1516aa286f1f4f0b917f2a94dd893868a202",
+  "old_cache_mutated": false,
+  "payload_bytes": 74395184,
+  "private_cache": "/home/hp/tst/research/forecasting_mvp/phase5_2_2_e_0_5/2026-10-18/recovery-1/repository",
+  "version": "e05-cache-identity-v1"
+}

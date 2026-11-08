@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "README.md": "9e7c37a1810b23265c6587736285b20e6c14ffd4a082d18aa067f4769b31811d",
+    "checkpoint_admission.json": "b9e5eee0cd94acd1371b055cf6692bc1321ff2a867f4ea5f27720d2daff308f6",
+    "determinism.json": "39997d03988008db8967cebd38489acd547a678189ada2f1d5ead63b810208f0",
+    "lock_reproduction_check.txt": "33669be25f3fdf7c76f668e7f0552fcf8d10628239a8d4a5c46dc6f361cae219",
+    "pip_check.txt": "f4ef24eaf9ac4374e6e9883fa31a0a064d330e229d403826feee4689b0ca4e12",
+    "preservation_and_resources.json": "4777709d882f89769fc04c5b7cad4acf5a66862034ba07b353c66ea094165f8b",
+    "regression_tests.xml": "9b056a1b4f5034e43f6844ed3a049c3f5ec2977d56e922e78ad0a7a0256caa5d",
+    "requests/manifest.json": "e1ccb4c389ac49e5213824a2b1b2c579ffa7cc496139ca45780afb2d7a291541",
+    "requests/smoke_policy.json": "8c5d5b0c564f9ce609da59d4aa04457836df09a6c010327d58e8d120eece7086",
+    "requests/smoke_requests.jsonl": "15c55d1f26e4ed33d3446795bde3669c48433139412f3ef7f291feac60a71c3f",
+    "results/chronos_smoke_paths.csv": "d98eee1476c687f71665c09ce0bfda8ea1b148d3cb51edcd6e25e20986800369",
+    "results/chronos_smoke_predictions.csv": "d8feeb55344e13d4c17cc87e179db663c1f522fd4d4a35615a51542d3c7ce730",
+    "results/chronos_smoke_summary.json": "6308fd571ec55c2ca4ed6762593a33b6fe7937971f36b4bb018097f6d53c0f4a",
+    "results/manifest.json": "c733b7db25c6bb5e29739fd2c3478484e9ac04e8ba1b48ec206377e18fd62c2b",
+    "runtime_admission.json": "49ee8d8545adec3acf98bc440183a2ca899c5db66e76163dff1a40ea81313657",
+    "smoke_resources.json": "b30b0a9ce0f6a097e92e8f9da078a449957c08b19c801a0ed60b2b34ea01cdde",
+    "worker_log.txt": "4dce1fbbfb8c5c7666acf047546dcb43a30dfc95408c0a52454ab287b452ddb0",
+    "working_regression_tests.xml": "73a027daa883e7347bb90a8830ece1ce4868f406a5f4bc967ba02a49e0cd4b26"
+  },
+  "metadata": {
+    "full_benchmark_run": false,
+    "phase": "4.1",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "stage": "small_runtime_smoke_evidence",
+    "status": "PASS",
+    "test_labels_opened": false
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

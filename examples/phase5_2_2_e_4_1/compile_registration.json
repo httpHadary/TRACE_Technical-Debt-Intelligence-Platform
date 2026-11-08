@@ -1,0 +1,214 @@
+{
+  "actual_active_profiles": "UNAVAILABLE_NOT_ENUMERATED_BY_COMPILE",
+  "apache_parent_version": "33",
+  "artifacts": 753,
+  "base_commit": "93ed9d27f38800fd3064d3c28b4b9490c979ac01",
+  "cache_identity_sha256": "ce62e9b970dfeeaf397f8ec67774c4c4d2a16a216d89075023e1ac944477a2cf",
+  "capacity": {
+    "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+    "estimated_directory_bytes": 3366912,
+    "estimated_total_bytes": 102371328,
+    "metadata_reserve_bytes": 16777216,
+    "payload_bytes": 80688146,
+    "repository_tmpfs_bytes": 134217728,
+    "rounded_file_bytes": 82227200
+  },
+  "command": [
+    "/usr/share/maven/bin/mvn",
+    "--offline",
+    "--batch-mode",
+    "--no-transfer-progress",
+    "--errors",
+    "-s",
+    "/inspection/settings.xml",
+    "-gs",
+    "/inspection/settings.xml",
+    "-Dmaven.repo.local=/runtime-repository",
+    "-Duser.home=/tmp",
+    "-Dmaven.test.skip=true",
+    "-Dmaven.compiler.release=8",
+    "compile"
+  ],
+  "commit": "aad30eff27ac5c9a13194125226653c6c2826c58",
+  "cpus": 1,
+  "downloads": 0,
+  "effective_pom_sha256": null,
+  "executed_wrapper_sha256": "b7bf5e2daa8c113a94ea0be0ef659d94a598b81f073e817b039d655fb77da45d",
+  "explicit_profiles": [],
+  "heap_max_bytes": 805306368,
+  "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+  "lifecycle": [
+    {
+      "execution": "enforce-maven-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "enforce-java-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "rat-check",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "goal": "check",
+      "phase": "validate",
+      "prefix": "apache-rat",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "goal": "check-buildplan",
+      "phase": "validate",
+      "prefix": "artifact",
+      "version": "3.5.1"
+    },
+    {
+      "execution": "parse-version",
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "goal": "parse-version",
+      "phase": "validate",
+      "prefix": "build-helper",
+      "version": "3.6.0"
+    },
+    {
+      "execution": "javadoc.resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "goal": "run",
+      "phase": "generate-sources",
+      "prefix": "antrun",
+      "version": "3.1.0"
+    },
+    {
+      "execution": "process-resource-bundles",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "goal": "process",
+      "phase": "generate-resources",
+      "prefix": "remote-resources",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default",
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "goal": "create",
+      "phase": "generate-resources",
+      "prefix": "buildnumber",
+      "version": "3.2.1"
+    },
+    {
+      "execution": "default-resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "goal": "resources",
+      "phase": "process-resources",
+      "prefix": "resources",
+      "version": "3.3.1"
+    },
+    {
+      "execution": "default-compile",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "goal": "compile",
+      "phase": "compile",
+      "prefix": "compiler",
+      "version": "3.13.0"
+    }
+  ],
+  "maximum_attempts": 1,
+  "memory_bytes": 2147483648,
+  "mode": "--e41-offline-compile",
+  "parent_version": "78",
+  "pids": 64,
+  "pom_sha256": "1c82171f91da0f4aa2994bb367e4c9ef8e65414940100be081715605739d9e0b",
+  "production_java_sources": [
+    "src/main/java/org/apache/commons/cli/AlreadySelectedException.java",
+    "src/main/java/org/apache/commons/cli/AmbiguousOptionException.java",
+    "src/main/java/org/apache/commons/cli/BasicParser.java",
+    "src/main/java/org/apache/commons/cli/Char.java",
+    "src/main/java/org/apache/commons/cli/CommandLine.java",
+    "src/main/java/org/apache/commons/cli/CommandLineParser.java",
+    "src/main/java/org/apache/commons/cli/Converter.java",
+    "src/main/java/org/apache/commons/cli/DefaultParser.java",
+    "src/main/java/org/apache/commons/cli/DeprecatedAttributes.java",
+    "src/main/java/org/apache/commons/cli/GnuParser.java",
+    "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/MissingArgumentException.java",
+    "src/main/java/org/apache/commons/cli/MissingOptionException.java",
+    "src/main/java/org/apache/commons/cli/Option.java",
+    "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+    "src/main/java/org/apache/commons/cli/OptionGroup.java",
+    "src/main/java/org/apache/commons/cli/OptionValidator.java",
+    "src/main/java/org/apache/commons/cli/Options.java",
+    "src/main/java/org/apache/commons/cli/ParseException.java",
+    "src/main/java/org/apache/commons/cli/Parser.java",
+    "src/main/java/org/apache/commons/cli/PatternOptionBuilder.java",
+    "src/main/java/org/apache/commons/cli/PosixParser.java",
+    "src/main/java/org/apache/commons/cli/TypeHandler.java",
+    "src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java",
+    "src/main/java/org/apache/commons/cli/Util.java",
+    "src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/HelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/HelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/OptionFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/TableDefinition.java",
+    "src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/TextStyle.java",
+    "src/main/java/org/apache/commons/cli/help/Util.java",
+    "src/main/java/org/apache/commons/cli/help/package-info.java",
+    "src/main/java/org/apache/commons/cli/package-info.java"
+  ],
+  "seed_manifest_sha256": "396219aa616a8724f4a1d00285e04b4ad4f19bc8921e67e0ef6bc79c69c474d7",
+  "settings_sha256": "3d40c2cbbd0003df1f8e4be9ac970f77c9446c03235aab00c6ef738b4701c200",
+  "setup_template_sha256": "10566db2ba537d6d75207c4623e795d50b4cc436005e4a767690fbf6db1fd869",
+  "source_files": 138,
+  "source_manifest_sha256": "e7e7286b86b9c1f22935b9e142abc2343243b482b52e823d9a2640ee76a2d016",
+  "swap_bytes": 0,
+  "tree": "d7434665397c8dd8156fff7ecaed29a14feeb951",
+  "version": "e41-offline-compile-v1"
+}

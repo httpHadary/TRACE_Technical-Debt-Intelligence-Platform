@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "PHASE_6_6_NEXT_ACTION.md": "4f910ab5f9dd59d61e0405870b87a8df49fe6dad817c0bdabe1f5e2ef208202a",
+    "PHASE_6_6_PREDICTIVE_SIGNAL_RESEARCH.md": "1c39c70a52771e7615f1ae2a9edd01de22cc531cfa73af013a99db4123125fdd",
+    "PHASE_6_6_REAL_WORLD_EVIDENCE_REPORT.md": "0aaf39e978224cfa928b8529f2980683eac430b91ee6b257c64e5dd8374d087a",
+    "PHASE_6_6_REAL_WORLD_VALIDATION_PLAN.md": "36503b8e282818089542ffde9efdf3f409c1a894e563693603533f40c63c16e9",
+    "examples/phase6_6/decision.json": "a1da11ffc126b2d450204212074bb870a29870f9740a5cef04feab9574bccfed",
+    "examples/phase6_6/evidence_index.json": "b53de7cc618f38da0a86c0d49cf71df4fe775f3e95b54a95ed8ec482e52ad1da",
+    "examples/phase6_6/gate_reconciliation.json": "3040b0102f11e09b36aed1a10ee58153dbd27eb1683aae6a46ff023672cff195",
+    "examples/phase6_6/preservation.json": "33d1471ee8a654a6f0bf591bf26840dc8a2d39cc25bbfd4b9db638e8742b0024",
+    "examples/phase6_6/readiness_execution.json": "e26644501557d4372c14e9578693e3f20a3f760cddbc6f7ae7e860fbd9f3d01a",
+    "examples/phase6_6/readiness_plan.json": "a544e100887ffff64dbe005ae61e450d032d756f22ce8c26389c133dcf55c670",
+    "examples/phase6_6/readiness_receipt.json": "eff9358ea95b08235e2946111e225957b48efc8085228cc56c8fcbce57d064d5",
+    "examples/phase6_6/research_sources.json": "c8a66bd5173824a113acc7201ab01e17d48f076d0baaeaab38d58be6635ea45d",
+    "examples/phase6_6/resource_observation.json": "29eba0f995fa246de597ed1012c8c03dfd4eea3ea7d2349db157881ff338f871",
+    "examples/phase6_6/signal_matrix.json": "ebfca7cf2a0a2f2535a0949f0df7eb2ee3e38ab0fc80607eddc90853cdfdc812",
+    "examples/phase6_6/verification.json": "5371ca168bb0c125f7e2965b33032e97fb6c3a9259517d66dfe913b71b757219",
+    "forecasting_research/phase6_6/README.md": "d6356f22224ba57f7a90b4c89ea2904152c04e4cd5543dc25e6c0077ced6a3c0",
+    "forecasting_research/phase6_6/__init__.py": "0280b3836c544c5915b602316b688164d8152d3f3a52d56542b8a123f22516bb",
+    "forecasting_research/phase6_6/readiness.py": "e9e031975edaffc39ec147cc999ba5ac4b468b632a2794a88263dea2dc875609",
+    "tests/test_phase6_6_readiness.py": "533995d6b41c2bfb1b6fbe0381e1e522cb73fe368f9c79b9ce7a2d3c641d0572",
+    "tools/check_phase6_6_readiness.py": "14fc3bf7f7d285900796b5467863b94ff4e5fa0f79910d9c7cc317978d32bec2"
+  },
+  "excluded_content": "No raw datasets, labels, scanner outputs, binaries, model states or full third-party license extracts",
+  "payload_bytes": 80332,
+  "phase": "6.6",
+  "readonly_audits": "python3 -m tools.check_phase6_6_readiness",
+  "scope": "METADATA_ONLY_NO_DATA_ADMISSION",
+  "starting_commit": "e1a63f0c98484616bdd3f2f924175d9581c15568",
+  "status": "READINESS_PLAN_COMPLETE_ADMISSION_BLOCKED"
+}

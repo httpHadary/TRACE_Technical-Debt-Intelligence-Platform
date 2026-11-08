@@ -1,0 +1,194 @@
+[
+  {
+    "change_status": "NO_PREVIOUS_OBSERVATION",
+    "components": {
+      "maintainability": 10.0,
+      "reliability": 2.0,
+      "security": null
+    },
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "measured_change_minutes": null,
+    "native": {
+      "analysis_id": "synthetic-analysis-0",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "a363c6482a5bf540589c7f5fe0e6e0fa45e9263b87abd46caa668060a5e8f68a",
+        "coverage": "d9d580ab0e3335dbb66d4bc20783930f27793fa041de5f2df8e24f519fbd6e8e",
+        "files": "1c2009db8f1be922dda276df877a115b18116b70da7fd532f310b6faceecd130",
+        "inventory": "a15e44f7eceb516b3d2801976039b4963dca11ddca98d91ed887cc52f5f482be",
+        "measures": "57f35d6bbfd46584ebb6187b5348ccf88347eec73e8dc8f31173a67573791a77",
+        "scanner": "57c70102d9ff060aaa91ef2a0fbd5df618e4c640711bd8d4e1bee6a2c5670bd5"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "ddc984f9e983be860402d29e32cb96ae7c5b5ef849fcb771dd7bba2ac09e2a82",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": "SOURCE_MISSING",
+          "status": "MISSING",
+          "unit": "estimated_remediation_minutes",
+          "value": null
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 10.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "d6f174948215c3459b33e66e0b3be37964628607ffd3e84cbd4041b72165efc6",
+      "source_tree_sha": "bb1c69b9faf8fe3297c979cdb811070a17a63d6d"
+    },
+    "observation_id": "ad0816c7a18a6d635179692d0cf7da16670aea1dab80e41884386d0b687b1978",
+    "observed_utc": "2024-01-01T00:00:00Z",
+    "repository_id": "synthetic-native",
+    "revision": "c660c6d170a3d10890aefbba2a3beacb4989745a",
+    "revision_index": 0,
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "stock_minutes": null,
+    "target": "native_total_principal_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "change_status": "INCOMPARABLE",
+    "components": {
+      "maintainability": 11.0,
+      "reliability": 2.0,
+      "security": null
+    },
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "measured_change_minutes": null,
+    "native": {
+      "analysis_id": "synthetic-analysis-1",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "6983ef08a214452e3ec91ec824e77c1735bc91d1c49ca6be55cb604c38cc1970",
+        "coverage": "4f493fb398cc125c8421d3ffd841a70f62e7541598c77ac5d03ebd6bd4f2b967",
+        "files": "99d3b4fa90c3aff24c34d3f6e1616929f9e156ba2386aa2984f4611aaa9ab664",
+        "inventory": "ceb78b7fc188074b02efe0c1804687b67596cbde66a8a8f78d10114ff3346590",
+        "measures": "ceed7697e509e94b84bf3d40635b6a8d5d51247e11425138c9745fac4eeae702",
+        "scanner": "43a1f098cb4db66f0fcb7bfe48834ab15fcb13423ce1c299213e00edb28f9500"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "a04110b8488ce4a2b8279517bb537d7e27626f770e9cbc297ca12f8e82ee04eb",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": "SOURCE_MISSING",
+          "status": "MISSING",
+          "unit": "estimated_remediation_minutes",
+          "value": null
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 11.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "7fb24ff6917d74c58abfbcc71298e8bd90355da247d67b4bab444d15a51c8de2",
+      "source_tree_sha": "7dcf18fc107000d0e097418a938559cf783d9fcb"
+    },
+    "observation_id": "6ecc203c04b88c54811b791ad7be2c3f93c5854fe662fb7a42e42b4d9cd27262",
+    "observed_utc": "2024-01-02T00:00:00Z",
+    "repository_id": "synthetic-native",
+    "revision": "f730b4b524af72f4b4bf132addd2bf4593c63411",
+    "revision_index": 1,
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "stock_minutes": null,
+    "target": "native_total_principal_minutes",
+    "unit": "estimated_remediation_minutes"
+  },
+  {
+    "change_status": "INCOMPARABLE",
+    "components": {
+      "maintainability": 12.0,
+      "reliability": 2.0,
+      "security": null
+    },
+    "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+    "measured_change_minutes": null,
+    "native": {
+      "analysis_id": "synthetic-analysis-2",
+      "ancillary_languages": [],
+      "artifact_hashes": {
+        "ce": "1c60c34ed62768831003b4865e4bb306fab6a29c8aa3ef801dcf37adc9ea1bf1",
+        "coverage": "b40d722fab8c8cbc792f4968650746721fa9ff3df818e5cb499bfc6736f1d82f",
+        "files": "a0c9a3440b56ff111b23fb217b7674ab5c7f5f153c69e3c9a029386ce391725c",
+        "inventory": "bbbe6346cbdbfecea50d456d24b76d5274bae0e5e9b1fdd35f2b03c1c9ee108e",
+        "measures": "b16ac896a58c0610343f233c8ffff7884087a3e14b6f1d3783f3a402f1f682da",
+        "scanner": "23d7af3f96bdb37fc3711b479a75408e2ecf566a1582d94676512f6b8d169814"
+      },
+      "domain_id": "a8aa1790466ca118f345219dba3c6703d1cd2e5de170da6115ad0efad610cc4f",
+      "language_family": "python_dominant",
+      "languages": {
+        "py": 7
+      },
+      "lineage_prefix_sha256": "1963ea210d2bc36419ab5775afc4122964a57da698e25f8ed32b648af5b0cc53",
+      "measures": {
+        "reliability_remediation_effort": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 2.0
+        },
+        "security_remediation_effort": {
+          "reason": "SOURCE_MISSING",
+          "status": "MISSING",
+          "unit": "estimated_remediation_minutes",
+          "value": null
+        },
+        "sqale_index": {
+          "reason": null,
+          "status": "OBSERVED",
+          "unit": "estimated_remediation_minutes",
+          "value": 12.0
+        }
+      },
+      "programming_languages": [
+        "py"
+      ],
+      "project_key": "synthetic:project",
+      "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+      "source_evidence_sha256": "bdca3a550851526e06aadd2cc9a8450b4b7fdccfa6ae21bb9cec3cd2c4839d2f",
+      "source_tree_sha": "8278976540ef931b5635acd12ae99c5ab5062acb"
+    },
+    "observation_id": "63c9cf55375b22a47c9ac213497bd9f72d319437559dd54f571d54acb47a95ca",
+    "observed_utc": "2024-01-03T00:00:00Z",
+    "repository_id": "synthetic-native",
+    "revision": "07bbafaf6aad2c69535c2744825612e6b2db864b",
+    "revision_index": 2,
+    "scope_id": "c9e07a1ad723e1c93c845fabe201e246957afe9b70519955ab90ab19641774b8",
+    "stock_minutes": null,
+    "target": "native_total_principal_minutes",
+    "unit": "estimated_remediation_minutes"
+  }
+]

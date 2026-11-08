@@ -1,0 +1,30 @@
+{
+  "dropped_forecasts": 0,
+  "essential_empty_strata": [
+    "main30 large decrease"
+  ],
+  "frozen_transfer": "Original Phase6.2 state/preprocessing/configs/calibration, no refit, applied only to new inputs",
+  "ineligible_cases": 0,
+  "methods_including_alias": 12,
+  "native_pretrained_calls": 0,
+  "ood_cases": 160,
+  "ood_each_horizon": {
+    "decrease": 40,
+    "increase": 40,
+    "unchanged": 80
+  },
+  "partitions": {
+    "calibration": 192,
+    "ood": 160,
+    "test": 256,
+    "train": 384,
+    "validation": 192
+  },
+  "phase_status": "PARTIAL",
+  "point_forecasts": 14976,
+  "protocol_deviations": 1,
+  "registered_cases": 1184,
+  "runtime_exceptions": 0,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "test_cases": 256
+}

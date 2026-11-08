@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "baseline_predictions.csv": "7c84fe411dae3908d4cdb557c4d1dc9f93293dbba2e33d3c5ad958cc759f8f68",
+    "selected_parameters.json": "f0a7d024e40e46f3f699569ed0ddfe3d58f44fe12af22a28212fdad82ae2d82d"
+  },
+  "candidate_manifest_sha256": "65b008ae1cd3a2a1add702eb9af29fb3054023601824ce3042a9299c929a8eef",
+  "forecast_id_digests": {
+    "test_repository": "58b44c8683adaa07affd1c97e7d77f1413f4b645537d6e57472621b1ed2c73d2",
+    "test_temporal": "55f6dee6a7310e80fb9db864d3b7af70715e1ce49424bc3ac190e41478a128c5",
+    "train": "02205731f6cf4dd856a48d1d48f12190452fd1dea4cfcd759dbc29eea946a3af",
+    "validation": "2882f5b7b674e2e80c410ed46bd8a37a8be1d606fd919b786b0ab3664b96b004"
+  },
+  "status": "SEALED",
+  "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8",
+  "test_labels_loaded": false
+}

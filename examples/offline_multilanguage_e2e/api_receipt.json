@@ -1,0 +1,113 @@
+{
+  "requests": [
+    {
+      "case": "python",
+      "resource": "history",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python",
+      "resource": "history",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "python",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "python",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "history",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "history",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "jsts",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "history",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_sqale_index_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "history",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "forecasts?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "case": "python-missing-security",
+      "resource": "evaluations?horizon_unit=revision_step&horizon=3",
+      "status": 200,
+      "target": "native_total_principal_minutes"
+    }
+  ],
+  "status": "PASS"
+}

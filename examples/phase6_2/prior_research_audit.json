@@ -1,0 +1,42 @@
+{
+  "status": "READ_ONLY_PRIOR_EVIDENCE_AUDIT",
+  "sources": {
+    "PHASE_3_IMPLEMENTATION_REPORT.md": "9f9b72348b17d2b81cdc4cd9e845ea663f1c93e91aa32df34ea827eaca04e7a1",
+    "PHASE_4_2_IMPLEMENTATION_REPORT.md": "680aeedca64e248f5306edc0b107b0ca30ce68a5754ee1eb70c09e2ff63dcd76",
+    "PERSISTENCE_FAILURE_AND_SUCCESS_ANALYSIS.md": "b5edb21e7dc6c5fa5a1f725179c6d0fcd4d0192f7adce075755ec70f068b7bab",
+    "CHANGE_AWARE_FORECASTING_DESIGN.md": "0434f63a4091c8f27a730456f634f037d3b3637ed28da6507a89ced95952f990",
+    "PHASE_6_0_FORECASTING_RESEARCH_REPORT.md": "9aededa7e35cb08c3e19bdffdbbb9f3586a47fadc3dca1a6dae060d273038b06",
+    "PHASE_6_1A_CHRONOS_CONTEXT_REPORT.md": "d8d66264c0702f4ff6976023e49dd4b48ddc6463edbe2cd8aedbb864d626790d",
+    "PHASE_6_1B_COMPARATIVE_FORECASTING_REPORT.md": "9297902a7e39a08a06208b50ea69df6e5b1f628684c2ae819d9e30013b44136b",
+    "PHASE_6_1C_TIMESFM_MEMORY_REPORT.md": "5da27ae005a9e4a0a61633d3991bc84cfdd1b16bc240f9396fa679de41c15822",
+    "PHASE_6_2_RESEARCH_HANDOFF.md": "8936f1dfa2d336442c2a482f4080adc5ed58b202f677ae7575827ac32cac1c2e",
+    "BENCHMARK_ACCURACY_SUMMARY.md": "d79c6d17eb9031a6e721e180079ff0cabdc2f50d4c6f9c5e980dd9694ad950d0",
+    "PHASE_5_2_2_C_RIGHTS_DECISION_REPORT.md": "355ef822a6e557cbb0d778d1b493dd87f816941577bacea2cb7a7192fdcee0c5",
+    "forecasting_mvp/baselines.py": "4ec6b1c94b19d2290eb4db3a73d17b07ce02c146aed4da6424d8b0affabd21b6",
+    "forecasting_mvp/chronos_adapter.py": "efac016557e51ca14c198e5ae3818fa7fb9cf6d935aa7c4b93e7bf3e59995cdd",
+    "forecasting_mvp/prediction_input.py": "b97ff7675fec140e1d71b0cf1cec6fa8d1704d038a411a5963739c7e11fd7d30",
+    "forecasting_research/phase6_0/contracts.py": "7f93063f50d6ff68b5b0f61481c922bfc078bcdb0b49f29f3bfe5186f3e55885",
+    "forecasting_research/phase6_0/predictors.py": "e76273f9a7fa2fa3662a90c0bc8b868c195d0a7a58aebaacdfe421109322d037",
+    "forecasting_research/phase6_0/evaluation.py": "7ade0f39ed1bacdec5c68d213c755d8e8adeab336f50f8d1774899f70e49b91f",
+    "forecasting_research/phase6_0/runtime.py": "0a296879cc31829c1645c182a6876aee14bda8798927b7bc4ad99f9ced6a2904",
+    "forecasting_research/phase6_1b/adapters.py": "981785ce1f35918b39abc65a4407338e4a1d4d5d725a9c5145d987929f11fb84",
+    "forecasting_research/phase6_1b/evaluate.py": "a6270fbfb3def1a57ecf276b9ed0d2868568ef9352a7484acaf3c37bce75ae1d",
+    "forecasting_research/phase6_1c/worker.py": "36624006ca73388b9de5be5fbc07dd03339179d3863008ca11cb986f53913c73",
+    "forecasting_research/phase6_1c/run.py": "2b390064fa1efa063898af996a0893871b7407752f4c7fcbd3df55bc1fc6135a",
+    "examples/phase5_2_2_c/human_permission_checklist.json": "89f7b96cb6c2f98b8ba3d28efd014a6ddfebad1c13a31b5ea7d2c7eb3aa3f2e5"
+  },
+  "reused": [
+    "Request, UTC/finite/canonical identity contracts",
+    "signed reconstruction/gate/blend arithmetic",
+    "bounded artifact writer and streaming SHA256"
+  ],
+  "new_semantics": [
+    "180 actually generated historical calendar positions; explicit sparse gaps",
+    "last 7 observed mean for sparse eligibility, fixed 90-calendar-day anchored trend",
+    "endpoint-change target, not any interim event",
+    "new synthetic-only logistic/ridge fits and logical label capability boundary"
+  ],
+  "real_data_calls": 0,
+  "pretrained_calls": 0,
+  "rights": "24 NOT_APPROVED unchanged"
+}

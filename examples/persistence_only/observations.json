@@ -1,0 +1,136 @@
+{
+  "horizons": {
+    "elapsed_day": [
+      30,
+      60,
+      90
+    ],
+    "revision_step": [
+      3,
+      4,
+      12
+    ]
+  },
+  "observations": [
+    {
+      "components": {
+        "maintainability": 10,
+        "reliability": 3,
+        "security": 2
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-demo-1",
+      "observed_utc": "2024-01-01T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000001",
+      "revision_index": 1,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": 14,
+        "reliability": 4,
+        "security": 2
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-demo-2",
+      "observed_utc": "2024-01-02T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000002",
+      "revision_index": 2,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": 8,
+        "reliability": 2,
+        "security": 2
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-demo-3",
+      "observed_utc": "2024-01-03T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000003",
+      "revision_index": 3,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": 0,
+        "reliability": 0,
+        "security": 0
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-demo-4",
+      "observed_utc": "2024-01-04T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000004",
+      "revision_index": 4,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": 6,
+        "reliability": 1,
+        "security": 1
+      },
+      "domain_id": "analyzer-v2",
+      "observation_id": "synthetic-demo-5",
+      "observed_utc": "2024-01-05T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000005",
+      "revision_index": 5,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": 7,
+        "reliability": 2,
+        "security": 1
+      },
+      "domain_id": "analyzer-v2",
+      "observation_id": "synthetic-demo-6",
+      "observed_utc": "2024-01-06T00:00:00Z",
+      "repository_id": "synthetic-demo",
+      "revision": "0000000000000000000000000000000000000006",
+      "revision_index": 6,
+      "scope_id": "production-v2"
+    },
+    {
+      "components": {
+        "maintainability": 80,
+        "reliability": 0,
+        "security": 0
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-missing-1",
+      "observed_utc": "2024-01-01T00:00:00Z",
+      "repository_id": "synthetic-missing",
+      "revision": "0000000000000000000000000000000000000001",
+      "revision_index": 1,
+      "scope_id": "production-v1"
+    },
+    {
+      "components": {
+        "maintainability": null,
+        "reliability": 0,
+        "security": 0
+      },
+      "domain_id": "analyzer-v1",
+      "observation_id": "synthetic-missing-2",
+      "observed_utc": "2024-01-02T00:00:00Z",
+      "repository_id": "synthetic-missing",
+      "revision": "0000000000000000000000000000000000000002",
+      "revision_index": 2,
+      "scope_id": "production-v1"
+    }
+  ],
+  "source": {
+    "description": "Invented software-validation observations; no current scan or predictive validation.",
+    "kind": "SYNTHETIC",
+    "permission": "Synthetic example made for redistribution; no imported-source rights inferred.",
+    "provenance": "SOFTWARE_VALIDATION_ONLY: hand-authored component minutes and revision identities.",
+    "source_id": "synthetic-example-v1"
+  },
+  "version": "persistence.observations.v1"
+}

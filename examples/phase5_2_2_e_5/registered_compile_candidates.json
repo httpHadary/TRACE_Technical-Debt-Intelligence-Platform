@@ -1,0 +1,4142 @@
+{
+  "all_present": true,
+  "authority_sha256": "91a055df88bca2378331602a841126a26936a6c3c05cdb9a715de774d072d165",
+  "limitation": "Legacy reference rows may omit transitive candidates for previously UNKNOWN phases; target lifecycle/descriptor evidence and same-plugin T+60 execution are recorded separately. Not a mediated runtime classpath.",
+  "record_count": 318,
+  "records": [
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-remote-resources-plugin/3.2.0/maven-remote-resources-plugin-3.2.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-remote-resources-plugin/3.2.0/maven-remote-resources-plugin-3.2.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.resolver",
+        "maven-resolver-util",
+        "1.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.resolver",
+        "maven-resolver-util",
+        "1.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-archiver",
+        "3.6.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-archiver",
+        "3.6.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-filtering",
+        "3.3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-filtering/3.3.2/maven-filtering-3.3.2.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-filtering",
+        "3.3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-filtering/3.3.2/maven-filtering-3.3.2.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-common-artifact-filters",
+        "3.3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-common-artifact-filters",
+        "3.3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-resources",
+        "1.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-resources/1.3.0/plexus-resources-1.3.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-resources",
+        "1.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-resources/1.3.0/plexus-resources-1.3.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.velocity",
+        "velocity-engine-core",
+        "2.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.velocity",
+        "velocity-engine-core",
+        "2.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.resolver",
+        "maven-resolver-api",
+        "1.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.resolver",
+        "maven-resolver-api",
+        "1.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-archiver",
+        "4.8.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-archiver/4.8.0/plexus-archiver-4.8.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-archiver",
+        "4.8.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-archiver/4.8.0/plexus-archiver-4.8.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.sonatype.plexus",
+        "plexus-build-api",
+        "0.0.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.sonatype.plexus",
+        "plexus-build-api",
+        "0.0.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.27"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.27"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.15.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.15.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.14.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.14.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.30"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.30"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-io",
+        "3.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-io",
+        "3.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-compress",
+        "1.23.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-compress",
+        "1.23.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.iq80.snappy",
+        "snappy",
+        "0.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/iq80/snappy/snappy/0.4/snappy-0.4.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.iq80.snappy",
+        "snappy",
+        "0.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/iq80/snappy/snappy/0.4/snappy-0.4.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.tukaani",
+        "xz",
+        "1.9"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/tukaani/xz/1.9/xz-1.9.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.tukaani",
+        "xz",
+        "1.9"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/tukaani/xz/1.9/xz-1.9.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "com.github.luben",
+        "zstd-jni",
+        "1.5.5-5"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/github/luben/zstd-jni/1.5.5-5/zstd-jni-1.5.5-5.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "com.github.luben",
+        "zstd-jni",
+        "1.5.5-5"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/github/luben/zstd-jni/1.5.5-5/zstd-jni-1.5.5-5.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.5.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.5.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-remote-resources-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.ant",
+        "ant",
+        "1.10.12"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/ant/ant/1.10.12/ant-1.10.12.pom",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.ant",
+        "ant",
+        "1.10.12"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/ant/ant/1.10.12/ant-1.10.12.jar",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.ant",
+        "ant-launcher",
+        "1.10.12"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/ant/ant-launcher/1.10.12/ant-launcher-1.10.12.pom",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.ant",
+        "ant-launcher",
+        "1.10.12"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/ant/ant-launcher/1.10.12/ant-launcher-1.10.12.jar",
+      "present": true,
+      "reason": "compile plugin maven-antrun-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-incremental",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-incremental",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-java",
+        "1.2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-java",
+        "1.2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-api",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-api",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-manager",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-manager",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-javac",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-compiler-javac",
+        "2.15.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.ow2.asm",
+        "asm",
+        "9.6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/ow2/asm/asm/9.6/asm-9.6.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.ow2.asm",
+        "asm",
+        "9.6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/ow2/asm/asm/9.6/asm-9.6.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-compiler-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/rat/apache-rat-plugin/0.16.1/apache-rat-plugin-0.16.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/rat/apache-rat-plugin/0.16.1/apache-rat-plugin-0.16.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-core",
+        "0.16.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/rat/apache-rat-core/0.16.1/apache-rat-core-0.16.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-core",
+        "0.16.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/rat/apache-rat-core/0.16.1/apache-rat-core-0.16.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-core",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-core/1.12.0/doxia-core-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-core",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-core/1.12.0/doxia-core-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-decoration-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-decoration-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml/1.12.0/doxia-module-xhtml-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml/1.12.0/doxia-module-xhtml-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-integration-tools",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-integration-tools",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-site-renderer",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-site-renderer",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.reporting",
+        "maven-reporting-api",
+        "3.1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.reporting",
+        "maven-reporting-api",
+        "3.1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.5.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.14.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.14.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "nl.basjes.gitignore",
+        "gitignore-reader",
+        "1.3.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "nl/basjes/gitignore/gitignore-reader/1.3.1/gitignore-reader-1.3.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "nl.basjes.gitignore",
+        "gitignore-reader",
+        "1.3.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "nl/basjes/gitignore/gitignore-reader/1.3.1/gitignore-reader-1.3.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-collections4",
+        "4.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-collections4",
+        "4.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.15.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.15.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-compress",
+        "1.25.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-compress",
+        "1.25.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-cli",
+        "commons-cli",
+        "1.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-cli/commons-cli/1.6.0/commons-cli-1.6.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-cli",
+        "commons-cli",
+        "1.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-cli/commons-cli/1.6.0/commons-cli-1.6.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.9.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.9.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.8.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.8.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpclient",
+        "4.5.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpclient",
+        "4.5.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.14"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.14"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.12.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.reporting",
+        "maven-reporting-api",
+        "3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.reporting",
+        "maven-reporting-api",
+        "3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.6/commons-io-2.6.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.6/commons-io-2.6.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-artifact",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-artifact",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-model",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-model",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-plugin-api",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-plugin-api",
+        "2.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-logging-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-decoration-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-decoration-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-i18n",
+        "1.0-beta-10"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-i18n",
+        "1.0-beta-10"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-artifact",
+        "3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-artifact",
+        "3.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-core",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-core",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-skin-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-skin-model",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml5",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-module-xhtml5",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-velocity",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-velocity",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.velocity",
+        "velocity",
+        "1.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity/1.7/velocity-1.7.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.velocity",
+        "velocity",
+        "1.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity/1.7/velocity-1.7.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.velocity",
+        "velocity-tools",
+        "2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.velocity",
+        "velocity-tools",
+        "2.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.8.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.8.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.11.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.11/commons-codec-1.11.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-container-default",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-container-default/2.1.0/plexus-container-default-2.1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-container-default",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-container-default/2.1.0/plexus-container-default-2.1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.doxia",
+        "doxia-sink-api",
+        "1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.5.15"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.5.15"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.4.5"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "1.4.5"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "2.0.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "2.0.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-component-annotations",
+        "2.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.3"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpclient",
+        "4.5.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpclient",
+        "4.5.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.14"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.14"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.1/commons-collections-3.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.1/commons-collections-3.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-lang",
+        "commons-lang",
+        "2.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-lang/commons-lang/2.4/commons-lang-2.4.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-lang",
+        "commons-lang",
+        "2.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-lang/commons-lang/2.4/commons-lang-2.4.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.7.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.7.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-digester",
+        "commons-digester",
+        "1.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-digester/commons-digester/1.8/commons-digester-1.8.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-digester",
+        "commons-digester",
+        "1.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-digester/commons-digester/1.8/commons-digester-1.8.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-chain",
+        "commons-chain",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-chain/commons-chain/1.1/commons-chain-1.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-chain",
+        "commons-chain",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-chain/commons-chain/1.1/commons-chain-1.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2/commons-collections-3.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2/commons-collections-3.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.1/commons-logging-1.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.1/commons-logging-1.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "dom4j",
+        "dom4j",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "dom4j/dom4j/1.1/dom4j-1.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "dom4j",
+        "dom4j",
+        "1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "dom4j/dom4j/1.1/dom4j-1.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "oro",
+        "oro",
+        "2.0.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "oro/oro/2.0.8/oro-2.0.8.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "oro",
+        "oro",
+        "2.0.8"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "oro/oro/2.0.8/oro-2.0.8.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.velocity",
+        "velocity",
+        "1.6.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.velocity",
+        "velocity",
+        "1.6.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/velocity/velocity/1.6.2/velocity-1.6.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.1.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-classworlds",
+        "2.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-classworlds",
+        "2.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.xbean",
+        "xbean-reflect",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.xbean",
+        "xbean-reflect",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "com.google.collections",
+        "google-collections",
+        "1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/google/collections/google-collections/1.0/google-collections-1.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "com.google.collections",
+        "google-collections",
+        "1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "com/google/collections/google-collections/1.0/google-collections-1.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.7"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.httpcomponents",
+        "httpcore",
+        "4.4.13"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-logging",
+        "commons-logging",
+        "1.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.11/commons-codec-1.11.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.11"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.7.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-beanutils",
+        "commons-beanutils",
+        "1.7.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-collections",
+        "commons-collections",
+        "3.2.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-lang",
+        "commons-lang",
+        "2.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-lang/commons-lang/2.4/commons-lang-2.4.pom",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-lang",
+        "commons-lang",
+        "2.4"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-lang/commons-lang/2.4/commons-lang-2.4.jar",
+      "present": true,
+      "reason": "compile plugin apache-rat-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-artifact-plugin/3.5.1/maven-artifact-plugin-3.5.1.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/plugins/maven-artifact-plugin/3.5.1/maven-artifact-plugin-3.5.1.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-xml",
+        "3.0.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "maven-shared-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven",
+        "maven-archiver",
+        "3.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven",
+        "maven-archiver",
+        "3.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.15"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.15/commons-codec-1.15.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-codec",
+        "commons-codec",
+        "1.15"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-io",
+        "3.4.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-io",
+        "3.4.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-archiver",
+        "4.4.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-archiver",
+        "4.4.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-interpolation",
+        "1.26"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "javax.inject",
+        "javax.inject",
+        "1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin maven-artifact-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "4.0.1"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache-extras.beanshell",
+        "bsh",
+        "2.0b6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache-extras.beanshell",
+        "bsh",
+        "2.0b6"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.apache.maven.shared",
+        "file-management",
+        "3.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.apache.maven.shared",
+        "file-management",
+        "3.1.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.slf4j",
+        "slf4j-api",
+        "1.7.36"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "org.codehaus.plexus",
+        "plexus-utils",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "pom",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.pom",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    },
+    {
+      "extension": "jar",
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.11.0"
+      ],
+      "legacy_required_through_compile": true,
+      "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "present": true,
+      "reason": "compile plugin build-helper-maven-plugin",
+      "target_descriptor_requires_compile": true
+    }
+  ]
+}

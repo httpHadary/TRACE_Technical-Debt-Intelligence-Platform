@@ -1,0 +1,63 @@
+{
+  "Cmd": [
+    "/inspection/wrapper.sh",
+    "--e51-offline-compile"
+  ],
+  "Entrypoint": [
+    "/bin/sh"
+  ],
+  "HostConfig": {
+    "CapAdd": null,
+    "CapDrop": [
+      "ALL"
+    ],
+    "Memory": 2147483648,
+    "MemorySwap": 2147483648,
+    "NanoCpus": 1000000000,
+    "NetworkMode": "none",
+    "PidsLimit": 64,
+    "Privileged": false,
+    "ReadonlyRootfs": true,
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "ShmSize": 8388608,
+    "Tmpfs": {
+      "/output": "rw,nosuid,nodev,noexec,size=33554432,mode=1777,uid=1000,gid=1000",
+      "/runtime-repository": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+      "/source": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+      "/tmp": "rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000"
+    },
+    "Ulimits": [
+      {
+        "Hard": 8388608,
+        "Name": "fsize",
+        "Soft": 8388608
+      },
+      {
+        "Hard": 1024,
+        "Name": "nofile",
+        "Soft": 1024
+      }
+    ]
+  },
+  "User": "1000:1000",
+  "docker_socket_mounted": false,
+  "host_credentials_mounted": false,
+  "host_maven_cache_mounted": false,
+  "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+  "mounts": [
+    {
+      "destination": "/inputs",
+      "read_only": true,
+      "type": "bind"
+    },
+    {
+      "destination": "/inspection",
+      "read_only": true,
+      "type": "bind"
+    }
+  ],
+  "pull_policy": "never",
+  "workdir": "/source"
+}

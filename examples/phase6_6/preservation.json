@@ -1,0 +1,34 @@
+{
+  "all_decisions": "NOT_APPROVED",
+  "live_volume_bytes": "NOT_MEASURED",
+  "old_canonical_files_rehashed": 1226,
+  "old_heads_unchanged_before_publication": true,
+  "old_working_files_rehashed": 1138,
+  "original_datasets_and_checkpoint_bytes": "NOT_OPENED_OR_REVALIDATED_THIS_PHASE",
+  "permission_changes": 0,
+  "phase_c_decisions": 24,
+  "previous_broad_byte_verification": {
+    "path": "examples/phase6_5/preservation.json",
+    "sha256": "734fba89a429772f436e426f1702831086027087d6dbd05f0f82ad42301330a6",
+    "status": "Historical verification reference, not a new byte audit"
+  },
+  "private_byte_hash_revalidation": "NOT_PERFORMED",
+  "private_study_file_metadata_unchanged": {
+    "phase6_2": 51,
+    "phase6_3": 63,
+    "phase6_4": 90,
+    "phase6_5": 155
+  },
+  "scope": "Current published code/metadata hashes and private file-metadata verification; no private outcome/weight bytes opened",
+  "services_containers_volumes_operated_on": false,
+  "six_revision_gate": {
+    "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+    "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925",
+    "status": "Published metadata authority revalidated; private class archives not reopened"
+  },
+  "source18_state_reference": {
+    "path": "examples/phase5_2_2_c/source_and_scope_reference.json",
+    "sha256": "3cc47663a2cf31dee80733fb312bdf6162305530971fbec94d6bcb49cf1c7605"
+  },
+  "status": "PASS"
+}

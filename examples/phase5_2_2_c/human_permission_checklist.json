@@ -1,0 +1,921 @@
+{
+  "approval_evidence_found": [],
+  "approved_decision_count": 0,
+  "current_collection_status": "BLOCKED",
+  "decisions": [
+    {
+      "affected_artifacts": [
+        "Historical analyzer execution without AI",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U01",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Historical analyzer execution without AI for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May the pinned analyzers run retrospectively on these three public-source families for this proposed study, before any AI processing?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Internal raw-output retention",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U02",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Internal raw-output retention for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May native metrics, issues, profiles, active rules and raw responses be retained internally, by whom, where and for how long?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Feature and exact-target derivation",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U03",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Feature and exact-target derivation for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May numeric outputs be transformed into past-only features and exact 30/60/90-day labels for the proposed AI study?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Local offline model training",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U04",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Local offline model training for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May persistence/statistical controls and locally trained Ridge/CatBoost or adapted pretrained models use the analyzer outputs or derived labels?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Local inference and evaluation",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U05",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Local inference and evaluation for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May local pretrained or trained AI ingest past analyzer data for inference and compare predictions against native future labels?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "External AI processing",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U06",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "External AI processing for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May any fields be sent to external or hosted AI, including development assistants; what recipients, region, retention and training restrictions apply?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Academic demonstration",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U07",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Academic demonstration for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May a graduation demonstration display the intended system and outputs, for which audience, recordings and access conditions?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Paper and aggregate publication",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U08",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Paper and aggregate publication for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May aggregate errors, interval statistics, charts and methodology derived from these outputs appear in a public paper or slides?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Public integration source code",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U09",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Public integration source code for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May source code for the planned analyzer-integrated AI platform be published; which integration/competitive-use limits and notice obligations apply?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Derived dataset publication",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U10",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Derived dataset publication for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May per-state native metrics, features and forecasting labels be redistributed as a derived research dataset, under which license and recipient-use conditions?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Model artifact publication",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U11",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Model artifact publication for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May weights, coefficients, preprocessing state and other model artifacts trained on analyzer-derived data be published or transferred?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Raw output redistribution",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-U12",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Raw output redistribution for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May raw scanner/server exports, issue records and full rule/profile configurations be shared outside the project?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Analyzer binary redistribution",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U13",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Analyzer binary redistribution for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May analyzer binaries or packaged images be redistributed, under what exact source/notice and other license obligations?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Rule text redistribution",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U14",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Rule text redistribution for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "May rule descriptions, examples, remediation formulas and configuration text be redistributed separately or within datasets?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Commercial or hosted use",
+        "Pinned analyzer outputs and derived artifacts as applicable"
+      ],
+      "allowed_while_unresolved": [
+        "Static review of already authorized evidence",
+        "Drafting questions and approval requirements",
+        "Preserving prior experiments without new analyzer/AI processing"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-U15",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/runtime_artifact_inspection.json",
+          "sha256": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Commercial or hosted use for new analyzer-derived study data",
+        "Treating silence, public availability, academic intent or anonymization as approval"
+      ],
+      "question": "Would later commercial, hosted, public SaaS or substantially similar platform use require different permissions or a commercial agreement?",
+      "required_proof": [
+        "Written scoped review of the exact pinned license and this intended use; identify decision authority and applicable version.",
+        "If review finds permission necessary: authentic licensor permission or alternative agreement covering data types, models, recipients, dates/duration, publication and commercial restrictions.",
+        "Owner/institution acceptance of obligations and an implementable release/retention plan; retain private originals and publish only approved proof metadata."
+      ],
+      "responsible_human_or_organization": "Project owner and qualified institutional legal/licensing reviewer; SonarSource authorized licensing representative if permission/clarification is required",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Commons CLI source metadata, notices, excerpts and derivatives"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "SOURCE_LICENSE",
+      "decision_id": "D-SOURCE-CLI",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "Does the release-specific Commons CLI attribution plan satisfy the pinned Apache-2.0 and NOTICE obligations for each proposed distribution?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner/institution and qualified reviewer; upstream rights holder if an exception is needed",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Click source metadata, excerpts and derivatives"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "SOURCE_LICENSE",
+      "decision_id": "D-SOURCE-CLICK",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "Does the release-specific Click attribution plan satisfy the pinned BSD-3-Clause source/binary notices and non-endorsement conditions?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner/institution and qualified reviewer",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Browser Reload source metadata, excerpts and derivatives"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "SOURCE_LICENSE",
+      "decision_id": "D-SOURCE-MIXED",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "Does the release-specific Browser Reload attribution plan satisfy the pinned MIT notice obligations for source copies or substantial portions?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner/institution and qualified reviewer",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "All field families and raw/private exports"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-DATA-GOVERNANCE",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "What fields, storage location, retention/deletion rules, recipients, security controls and release license are accepted for each permitted use?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner, institutional research/data-governance reviewer and data provider where applicable",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "Proposed academic/noncommercial representation and downstream uses"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "ANALYZER_LICENSE",
+      "decision_id": "D-ACADEMIC-CONTEXT",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "Is this solely noncommercial graduation research; who is the legal recipient, institution, sponsor and prospective service operator?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner and institutional supervisor/authorized reviewer",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "New container/network/volumes, administrative mode/settings operations and private exports"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "RUNTIME_PERMISSION",
+      "decision_id": "D-RUNTIME-INSPECT",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "After rights review, may an isolated, resource-admitted disposable server be started and inspected without scanning?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Machine owner/operator plus qualified rights reviewer",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "New-instance credentials and data extraction endpoints"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "RUNTIME_PERMISSION",
+      "decision_id": "D-API-ACCESS",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "Who is authorized to create the new-instance token and access each metrics/issues/rules/settings API, with what least-privilege scope?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "New instance owner/admin and institutional security reviewer",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "First frozen source state, scan command, native outputs and bounded runtime"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "RUNTIME_PERMISSION",
+      "decision_id": "D-FIRST-SCAN",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "After documentary clearance and complete runtime/domain verification, is one explicitly identified first historical scan authorized?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Project owner/operator after all independent gates pass",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "affected_artifacts": [
+        "New study/domain/feature/target identifiers; no modification of old Java benchmark"
+      ],
+      "allowed_while_unresolved": [
+        "Static documentary review and preparation only"
+      ],
+      "approval_evidence": [],
+      "authority_must_be_verified": true,
+      "category": "DATASET_USE_RIGHTS",
+      "decision_id": "D-STUDY-ADMISSION",
+      "evidence": [
+        {
+          "path": "examples/phase5_2_2_a/content_rights_checklist.json",
+          "sha256": "d755aa02ff6b3f7e0c0bd72b385cbd4a92f124d110a27938f9774f4ff8e578bb"
+        },
+        {
+          "path": "examples/phase5_2_1/registrations.json",
+          "sha256": "507dda9a9850bc37faf285aed22faca83312a3d471db16222b575f33c61face8"
+        },
+        {
+          "path": "FUTURE_ISOLATED_SERVER_INSPECTION.md",
+          "sha256": "d957156e8d0f1b4ede9aed5c355b2576e69f756fa23d1ec9b4eeca64392fe0fb"
+        }
+      ],
+      "prohibited_while_unresolved": [
+        "Executing the proposed operation or releasing the affected artifacts",
+        "Automatic approval or extrapolation from another gate"
+      ],
+      "question": "After authorized collection, may a separately versioned, integrity-checked retrospective study be constructed and admitted for specified AI uses?",
+      "required_proof": [
+        "Authentic written decision from the identified authority, linked to exact versions, fields and intended use, with applicable conditions and scope.",
+        "Independent verification of authority and document identity; preserve original privately. An authorized human must explicitly approve any status change."
+      ],
+      "responsible_human_or_organization": "Research lead and institutional/data-rights reviewers",
+      "status": "NOT_APPROVED"
+    }
+  ],
+  "legal_acceptance": false,
+  "negative_evidence_scope": "No qualifying approval in the bounded reviewed evidence set; absence is not proof of denial or exhaustive legal entitlement search.",
+  "prior_task_A_decisions_unchanged": [
+    {
+      "decision_owner": "Project owner and qualified legal/licensor review",
+      "id": "ANALYZER_EXTERNAL_AI_USE_OR_WRITTEN_PERMISSION",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "decision_owner": "Project owner/institution; licensor clarification where necessary",
+      "id": "SONAR_DERIVED_DATA_PUBLICATION_POLICY",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "decision_owner": "Project owner/institution",
+      "id": "SOURCE_NOTICE_AND_DATASET_ATTRIBUTION_PLAN",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "decision_owner": "Operator in a separately authorized runtime task",
+      "id": "RUNTIME_CREDENTIAL_AND_EXECUTION_PERMISSIONS",
+      "status": "NOT_APPROVED"
+    }
+  ],
+  "schema": "rights-dossier-v1",
+  "state_transition_policy": "This dossier and validator cannot grant approval. A separately authorized human decision must provide genuine evidence, exact scope, authority verification and versioned review; do not edit prior receipts."
+}

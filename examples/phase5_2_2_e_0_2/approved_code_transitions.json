@@ -1,0 +1,8 @@
+{
+  "tools/build_sandbox.py": {
+    "after_sha256": "9b717bbe9e3e3279ff41c8f5745c6828075c01841de75e47ceed54777786bf73",
+    "before_central_sha256": "649bc9bb30f6edd45a7fbd680ae2f3827f1a1a363097be563cc69cd53f103bca",
+    "before_working_sha256": "649bc9bb30f6edd45a7fbd680ae2f3827f1a1a363097be563cc69cd53f103bca",
+    "reason": "Backward-compatible explicit owner-label/collector/archive-allowlist parameters, plus path safety independent of allowlist; smoke defaults unchanged"
+  }
+}

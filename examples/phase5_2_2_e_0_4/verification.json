@@ -1,0 +1,45 @@
+{
+  "actual_compile_command_invocations": 1,
+  "adapter_executed_sha256": "fc222df5249741571f47d6e0b6b1fec73401ebefeb1c0df8731770032847f3fb",
+  "adapter_unchanged_since_actual_attempt": true,
+  "exactly_one_start": true,
+  "new_e04_tests": 31,
+  "no_acquisition": true,
+  "no_retry": true,
+  "post_attempt_test_only_refinement": "Tampering fixture specifically selects one of26 E.0.3 additions; no adapter or Maven execution change",
+  "prelaunch_test_source_sha256": "b80a356c4e43205915d48999f8502d56890f620b334f26fa1438ff37c7cdac2d",
+  "protected_artifact_preservation": "PASS",
+  "published_adapter_sha256": "fc222df5249741571f47d6e0b6b1fec73401ebefeb1c0df8731770032847f3fb",
+  "published_test_source_sha256": "487e8a892c5608103fa9dabc0667e08da9a33885929a4417ebed053441260cca",
+  "regression": [
+    {
+      "checkout": "prelaunch",
+      "errors": 0,
+      "failures": 0,
+      "receipt_sha256": "4861aee1adcead158718afcb8774dc73c957fa3490e10f18d80e8ed82c3408a9",
+      "seconds": 16.475,
+      "skipped": 0,
+      "tests": 450
+    },
+    {
+      "checkout": "central",
+      "errors": 0,
+      "failures": 0,
+      "receipt_sha256": "e1a4d37b20e191f7c2bda937aa8fd64ebbed609a4dc74e28e721d887683fa977",
+      "seconds": 18.416,
+      "skipped": 0,
+      "tests": 450
+    },
+    {
+      "checkout": "working",
+      "errors": 0,
+      "failures": 0,
+      "receipt_sha256": "d53a8511d0db5fa9bf52e8ea69adbe49ca8cc0384834a89003d7e9c214a8d558",
+      "seconds": 17.682,
+      "skipped": 0,
+      "tests": 450
+    }
+  ],
+  "shared_container_inventory_preservation": "PARTIAL_SHARED_CONTAINER_INVENTORY_CHANGE",
+  "status": "PASS"
+}

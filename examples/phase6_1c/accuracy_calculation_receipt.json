@@ -1,0 +1,15 @@
+{
+  "calculation": "100*(1 - model_MAE/persistence_MAE); NOT classification accuracy or MAPE",
+  "historical_quantile_failure_policy": "Published Chronos persistence fallback:4 temporal contexts and2 heldout contexts; original policy unchanged",
+  "historical_rows": 24,
+  "native_inference_replayed": false,
+  "raw_labels_accessed": false,
+  "sources": {
+    "examples/phase4_2/chronos_comparison_metrics.csv": "f8ec1978c46fbbf5e6819d0da3f855333c5a78e592c696314190e80811bc9fec",
+    "examples/phase6_1b/metrics.json": "e880dfa2f2c515e484c68e1fa6c18ae1a20bfceed91670b04a8bf9eefc3f835c"
+  },
+  "status": "PASS",
+  "synthetic_context": "512 inputs for Chronos/TTM; fixed baseline windows7/90; no model rerun",
+  "timesfm": "Phase6.1B resource-blocked; one Phase6.1C native smoke path invalid; no accepted comparable score",
+  "total_summary_rows": 42
+}

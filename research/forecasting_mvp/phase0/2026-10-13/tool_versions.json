@@ -1,0 +1,7 @@
+{
+  "git": "2.43.0",
+  "java": "OpenJDK 17.0.20.1",
+  "docker_cli": "29.6.2",
+  "docker_daemon": "NOT_QUERIED",
+  "sonarqube_server": "NOT_CONTACTED"
+}

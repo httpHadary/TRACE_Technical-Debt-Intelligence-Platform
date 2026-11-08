@@ -1,0 +1,21 @@
+Python 3.12.3, Linux x86_64
+Clean virtual environment resolved dependencies:
+certifi==2026.7.22
+charset-normalizer==3.5.2
+et_xmlfile==2.0.0
+idna==3.20
+iniconfig==2.3.1
+numpy==2.5.3
+openpyxl==3.1.5
+packaging==26.3
+pandas==3.0.2
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.0.3
+python-dateutil==2.9.0.post0
+requests==2.32.5
+six==1.17.0
+urllib3==2.8.0
+
+Tests use temporary local Git repositories and simulated Docker/Sonar responses.
+No network calls, real scans, real cohort builds, or model training in tests.

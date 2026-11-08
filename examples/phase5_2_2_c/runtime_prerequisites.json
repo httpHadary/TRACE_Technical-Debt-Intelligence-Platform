@@ -1,0 +1,420 @@
+{
+  "actual_native_analyses_for_new_study": 0,
+  "collection_status": "BLOCKED",
+  "gates": [
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R01",
+      "inspection_authorized_now": false,
+      "known_evidence": "26.8.0.126808; image sha256:9026624a61cd25542a402a9e7213dd7dbb39724ac9597e331e6b85362558c079",
+      "observed_status": "STATIC_HASH_VERIFIED_RUNTIME_UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Pinned server identity",
+      "required_evidence": "Separately authorized new disposable server identity, health/version and image/binary receipts; never old server reuse.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R02",
+      "inspection_authorized_now": false,
+      "known_evidence": "No live Standard Experience confirmation",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Actual server mode",
+      "required_evidence": "Supported administration setting plus matching native metric definitions; absent settings response is not Standard proof. No MQR substitution.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R03",
+      "inspection_authorized_now": false,
+      "known_evidence": "Offline Java/Python/JS artifact hashes verified, not active loading",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Active analyzers",
+      "required_evidence": "New instance plugin API, binary hashes and loading evidence for exact pinned versions.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R04",
+      "inspection_authorized_now": false,
+      "known_evidence": "No frozen complete active runtime exports",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Rules and quality profiles",
+      "required_evidence": "Complete paginated selected profiles, active rules, parameters, remediation/override/suppression exports; distinct totals and hashes.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R05",
+      "inspection_authorized_now": false,
+      "known_evidence": "Registered expectation: Standard sqale_index estimated minutes",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Native maintainability definitions",
+      "required_evidence": "Version-specific definitions and native output semantics; distinguish MQR effort and actual developer labor.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R06",
+      "inspection_authorized_now": false,
+      "known_evidence": "Old incomplete template cannot establish semantic equivalence",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Analyzer-domain compatibility",
+      "required_evidence": "Complete fixed mode/plugin/profile/rule/settings/runtime/build/scope domain; no UNKNOWN hashed into an admitted domain.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R07",
+      "inspection_authorized_now": false,
+      "known_evidence": "production-root-study-v1 supports src/main, src/click, src/django_browser_reload",
+      "observed_status": "SOFTWARE_VERIFIED_RUNTIME_UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Historical production scope",
+      "required_evidence": "Per-state native component/path/language equality, generated/vendor review acceptance and unrecognized-file policy.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R08",
+      "inspection_authorized_now": false,
+      "known_evidence": "16 Click Python files; Browser Reload8 Python+2JS files per state; no measured NCLOC",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Python and mixed-language coverage",
+      "required_evidence": "Actual successful sensors and exact file equality; mixed native programming-family shares >=10% each. No JS-dominant claim.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R09",
+      "inspection_authorized_now": false,
+      "known_evidence": "Six original offline compile passes; Java8 major52 outputs",
+      "observed_status": "COMPILE_VERIFIED_SCANNER_UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Java bytecode/source scanner compatibility",
+      "required_evidence": "Scanner accepts exact source/class identities, pinned JDK snapshot and declared library/classpath evidence; compiler pass alone does not prove scanner compatibility.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R10",
+      "inspection_authorized_now": false,
+      "known_evidence": "CLI8.0.1.6346 and Corretto21.0.11+10-LTS version-only probes passed",
+      "observed_status": "VERSION_PROBED_IN_B_INTEGRATION_UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Scanner/JRE engine compatibility",
+      "required_evidence": "Pinned scanner/server compatibility and engine deployment with no remote provisioning in a separately approved task.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R11",
+      "inspection_authorized_now": false,
+      "known_evidence": "Pinned embedded Node24.11.0 version probe passed",
+      "observed_status": "VERSION_PROBED_IN_B_INTEGRATION_UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "JavaScript Node integration",
+      "required_evidence": "Explicit pinned deployment, supported properties and sensor integration; no fallback Node download.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R12",
+      "inspection_authorized_now": false,
+      "known_evidence": "Historic captures and current static snapshot are not a dispatch reservation",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Current collection resource admission",
+      "required_evidence": "At operation time >=10GiB available RAM, >=15GiB free disk, sealed server/scanner/monitor caps, >=10GiB disk reserve, bounded sequential20min jobs.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R13",
+      "inspection_authorized_now": false,
+      "known_evidence": "No new token, login or API authorization inspected",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "API permissions",
+      "required_evidence": "New-instance owner authorization, least-privilege scoped credentials, permission-tested endpoints and sanitized exports.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R14",
+      "inspection_authorized_now": false,
+      "known_evidence": "Three pinned licenses and source inventories established; all families remain quarantine/development-only",
+      "observed_status": "IDENTITIES_VERIFIED_ACCEPTANCE_NOT_APPROVED",
+      "permission_status": "NOT_APPROVED",
+      "property": "Source access/publication rights",
+      "required_evidence": "Release-specific attribution/content-review acceptance; distinguish read access, source redistribution, tool use and derived-data rights.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R15",
+      "inspection_authorized_now": false,
+      "known_evidence": "This task authorizes documentary work only",
+      "observed_status": "NOT_APPROVED",
+      "permission_status": "NOT_APPROVED",
+      "property": "First scan and collection authorization",
+      "required_evidence": "Explicit new first-scan authorization after independent legal/runtime/resource/domain gates; full18-job replay needs its own scope.",
+      "runtime_property_status": "UNKNOWN"
+    },
+    {
+      "evidence": [
+        {
+          "path": "examples/phase5_2_1/readiness_manifest.json",
+          "sha256": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492"
+        },
+        {
+          "path": "examples/phase5_2_2_b/runtime_evidence.json",
+          "sha256": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+        },
+        {
+          "path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+          "sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925"
+        }
+      ],
+      "gate_id": "R16",
+      "inspection_authorized_now": false,
+      "known_evidence": "No native data for the18-state study",
+      "observed_status": "UNKNOWN",
+      "permission_status": "NOT_APPROVED",
+      "property": "Native completion and data admission",
+      "required_evidence": "Authorized scan exit0 plus CE SUCCESS/analysis ID, immutable native responses, complete scope and later separate study admission; no invented metrics or failed-to-zero.",
+      "runtime_property_status": "UNKNOWN"
+    }
+  ],
+  "older_reports_preserved": "G03 software, B version probes and E six builds are later evidence; historical G06/G07 failures remain historical records. No old G08 capture is promoted into current admission.",
+  "rights_status": "NOT_APPROVED",
+  "schema": "rights-dossier-v1",
+  "snapshot_observation": {
+    "available_ram_bytes": 6573477888,
+    "disk_threshold_met_at_snapshot": false,
+    "free_disk_bytes": 15119859712,
+    "new_runtime_admitted": false,
+    "observation_only": true,
+    "ram_threshold_met_at_snapshot": false
+  },
+  "source_states": 18,
+  "unchanged_resource_limits": {
+    "build_memory_limit_bytes": 2147483648,
+    "max_concurrent_scans": 1,
+    "max_jobs_per_repository": 6,
+    "max_new_artifact_bytes": 5368709120,
+    "max_shared_cpu_cores": 2,
+    "max_snapshot_jobs": 18,
+    "max_total_replay_memory_bytes": 8589934592,
+    "max_wall_seconds_per_job_including_build_scan_ce_export": 1200,
+    "minimum_disk_free_bytes": 16106127360,
+    "minimum_host_memavailable_bytes": 10737418240,
+    "monitor_memory_reserve_bytes": 536870912,
+    "network_policy": "NO_REMOTE_SCANNER_OR_MODEL_DOWNLOAD; isolated server network only; cached dependencies only unless separately approved",
+    "preserve_disk_reserve_bytes": 10737418240,
+    "scanner_memory_limit_bytes": 4294967296,
+    "server_memory_limit_bytes": 3758096384,
+    "server_stopped_during_build": true
+  }
+}

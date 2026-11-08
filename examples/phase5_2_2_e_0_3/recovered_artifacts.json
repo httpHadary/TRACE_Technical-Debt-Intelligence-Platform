@@ -1,0 +1,530 @@
+{
+  "all_artifacts": 679,
+  "cache_identity_sha256": "f4bc6cbab0f8e0bc14557408173290a8453854c35226b40348bffe7a58011daa",
+  "full_manifest_sha256": "73de04d94fe2a1c85fd49f38bfdc14df47e0f93855a8ac5258a10d72f714b113",
+  "new_artifacts": [
+    {
+      "bytes": 515978,
+      "classifier": "",
+      "coordinates": [
+        "commons-io",
+        "commons-io",
+        "2.17.0"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar.sha1",
+        "value": "ddcc8433eb019fb48fe25207c0278143f3e1d7e2"
+      },
+      "sha256": "4aa4ca48f3dfd30b78220b7881d8cb93eac4093ec94361b6befa9487998a550b",
+      "source_url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar"
+    },
+    {
+      "bytes": 20031,
+      "classifier": "",
+      "coordinates": [
+        "commons-io",
+        "commons-io",
+        "2.17.0"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "commons-io/commons-io/2.17.0/commons-io-2.17.0.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.pom.sha1",
+        "value": "af3aa19bcc67a14e5d0dad042e7d985f733cdff4"
+      },
+      "sha256": "484a939fff5310b8cb5c6b9029c2dcf155d3f93b8b8d6285f3f56bb2ba09fc49",
+      "source_url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.pom"
+    },
+    {
+      "bytes": 256421,
+      "classifier": "",
+      "coordinates": [
+        "net.bytebuddy",
+        "byte-buddy-agent",
+        "1.12.19"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar.sha1",
+        "value": "450917cf3b358b691a824acf4c67aa89c826f67e"
+      },
+      "sha256": "3a70240de7cdcde04e7c504c2327d7035b9c25ae0206881e3bf4e6798a273ed8",
+      "source_url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar"
+    },
+    {
+      "bytes": 10439,
+      "classifier": "",
+      "coordinates": [
+        "net.bytebuddy",
+        "byte-buddy-agent",
+        "1.12.19"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom.sha1",
+        "value": "73f515ebf8d49fb2286ef6b3d77a705ea51b49f8"
+      },
+      "sha256": "b5a2cff643681de1687fc40acd251feefdfca23e673e049fb3c3692b53526d4b",
+      "source_url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom"
+    },
+    {
+      "bytes": 58410,
+      "classifier": "",
+      "coordinates": [
+        "net.bytebuddy",
+        "byte-buddy-parent",
+        "1.12.19"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom.sha1",
+        "value": "a7ff6329f4ea6b59c92524f652768ac8a1f80683"
+      },
+      "sha256": "72ab6fef409e812921f4728b3c4b6ef4fa53bc25fabb0488fc2cae367368b54d",
+      "source_url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom"
+    },
+    {
+      "bytes": 3958480,
+      "classifier": "",
+      "coordinates": [
+        "net.bytebuddy",
+        "byte-buddy",
+        "1.12.19"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar.sha1",
+        "value": "178d26e6a95e50502ae16673e08269797f8b254a"
+      },
+      "sha256": "030704139e46f32c38d27060edee9e0676b0a0fff8a8be53461515154ba8a7be",
+      "source_url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar"
+    },
+    {
+      "bytes": 15834,
+      "classifier": "",
+      "coordinates": [
+        "net.bytebuddy",
+        "byte-buddy",
+        "1.12.19"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom.sha1",
+        "value": "b836d1be4d784104a3d3f1e34c439a62c4ce961f"
+      },
+      "sha256": "435fb8664aa9b7e120c8dd6c707d4eafa642fa262dff6d5e3f71dc25c69e89eb",
+      "source_url": "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom"
+    },
+    {
+      "bytes": 6806,
+      "classifier": "",
+      "coordinates": [
+        "org.apiguardian",
+        "apiguardian-api",
+        "1.1.2"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar.sha512",
+        "value": "d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61"
+      },
+      "sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar"
+    },
+    {
+      "bytes": 1526,
+      "classifier": "",
+      "coordinates": [
+        "org.apiguardian",
+        "apiguardian-api",
+        "1.1.2"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom.sha512",
+        "value": "bb604d1103315784a2f56a43244434dbbd7edc97d0450dada21313463d230e00f2f23f6e7c2ca45be94e81304057e70c79c9f0fb84247f7244d0277110b5747e"
+      },
+      "sha256": "32355081d109095c3d5d374d5a43b4f4c1b75d549e983ef50723e2772e5302a0",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom"
+    },
+    {
+      "bytes": 216335,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-api",
+        "5.11.1"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar.sha512",
+        "value": "4dd1d0fe60a3742b3aa6baa4266e69f2e1802b70ecbe728639fdd8206d28c59f440631f482adda8dfc8f7d1158fd3894bfb0fab65fe61835f2303cd973da6b9d"
+      },
+      "sha256": "33e2ea0ffb2ebd7afe6b82971db7c289d033a0bb455dfcb19e391fdc4e7aa891",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar"
+    },
+    {
+      "bytes": 3184,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-api",
+        "5.11.1"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom.sha512",
+        "value": "a6d8052966cc7f800d9be5dbff4ae3892036874229a2061543d9b4ebf7e2dba692c8debda9e960d1c260f1f9c88baaaef80048e3c1deaa3930b8e97b8dc3db56"
+      },
+      "sha256": "6c40a067fdcd6831ff934c29a0893f88e67944b8dbac5a35e72ce5aa6f6a7e68",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom"
+    },
+    {
+      "bytes": 260117,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-engine",
+        "5.11.1"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar.sha512",
+        "value": "e39ad4ca58cd5bb13047fa8c2bf345ea6d723e9040adb23c0fbbfd965ed3500fcb642c4414b1715b745edb32169ef2449630a5281a3240676812688f1e6bfe53"
+      },
+      "sha256": "eb6c8bf477032be889a0abea0110dab55fd50f9018a42b8d2172032c286640c3",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar"
+    },
+    {
+      "bytes": 3203,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-engine",
+        "5.11.1"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom.sha512",
+        "value": "0473d552429f4381424344e3dd2df7953586c5b84b299a1ec79130750e20331ab6a7a328fbb4f33f4330291a25dc4572e15e17211bb62057587415b9bcbf4362"
+      },
+      "sha256": "104fd003c3ffdb1be654e36660ef032cbb025b9a7a37c16f326e3282bc14d408",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom"
+    },
+    {
+      "bytes": 591415,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-params",
+        "5.11.1"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar.sha512",
+        "value": "eafaa535acbdc65adb362e1ec397e69ca5394d9b8829c36dc52c532e58611912b6e751bfabae0f60184fd629cfb2e5037e6d8b0b61f3ab9c696fbf802a92dffd"
+      },
+      "sha256": "6adc2d399640120a42d98732ed77283886904ecca567331d5421bbb73cf43b16",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar"
+    },
+    {
+      "bytes": 3010,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.jupiter",
+        "junit-jupiter-params",
+        "5.11.1"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom.sha512",
+        "value": "571f3aaf312f576a7f4ecc257b47eef02ccb5e8368f03f08e5681d2e3ee2920adab9b8cdb7ed190e0860add6cbc6aeffbdf5bb11481885695beaab4d9127c678"
+      },
+      "sha256": "0d28ec63d1266b25c1884c17ecdd648a34c68370476961eb0b0be32af07e8d89",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom"
+    },
+    {
+      "bytes": 140616,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.platform",
+        "junit-platform-commons",
+        "1.11.1"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar.sha512",
+        "value": "b3a1b463f24b2e9c23a8b34cc6c136a39abf103e129eea69bdb9259cfac134cd644abc8847bd54ed3a03e0045e0c7d6bbc7da4456e26cf3d2d4af74af24f811b"
+      },
+      "sha256": "85f177cb44313923d3303f69f2cde4f45cdd3772df79642ae63d044ae7acfbad",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar"
+    },
+    {
+      "bytes": 2833,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.platform",
+        "junit-platform-commons",
+        "1.11.1"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.pom.sha512",
+        "value": "e28f01b585741fb8b516fb9c8f67cad467907270f855038d3662635cf023c7751b3432aa13bef8e6eed83fda9ac83e281d4f3ae5ca13a2664556ab3cd1fa8c26"
+      },
+      "sha256": "5f314ece84e94e89870a7fccc0a1d0b9d0a18341a1697292e3ef2fc21618212c",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.pom"
+    },
+    {
+      "bytes": 246638,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.platform",
+        "junit-platform-engine",
+        "1.11.1"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.jar.sha512",
+        "value": "fe2b7cf341bda2f1eaba13584f5f0be29c8aa52988221e7e205f794ab3343b9b5f494927a3e4fa30dff18b0249cae0dc1a846c8f93c4791fb50f9d93e8717a4e"
+      },
+      "sha256": "bdc872f9fdcc03b2baf986a93dcc764ed3bd528e3ed210565a5c6cc33a30f4b6",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.jar"
+    },
+    {
+      "bytes": 3205,
+      "classifier": "",
+      "coordinates": [
+        "org.junit.platform",
+        "junit-platform-engine",
+        "1.11.1"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.pom.sha512",
+        "value": "8f3a5e87e296675453abe5f94a82311f5b770028aaf7a3feb14eb0c42e2098eb8e596bdb09f7f1785c058254d302ad2a076cae21755fdd4b25ec0d049fdf57a3"
+      },
+      "sha256": "f3656e8414f8c1645dcbd533c3a6314870008f7c828fec756a5321a01f95b483",
+      "source_url": "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.pom"
+    },
+    {
+      "bytes": 684944,
+      "classifier": "",
+      "coordinates": [
+        "org.mockito",
+        "mockito-core",
+        "4.11.0"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar.sha512",
+        "value": "4c6f12cbcf48a2e3f6fe98d61759cef8f927d077baf96a89dd7274b34325d793d9da285d35a3cc874685989dcfdeeafc38f1d64b169871cb246ab9172559c4d9"
+      },
+      "sha256": "4b909690cab288c761eb94c0bf0e814496cf3921d8affac84cd87774530351e5",
+      "source_url": "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar"
+    },
+    {
+      "bytes": 2498,
+      "classifier": "",
+      "coordinates": [
+        "org.mockito",
+        "mockito-core",
+        "4.11.0"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom.sha512",
+        "value": "16126b791c986bf75caa62a17fddbe2b1bba1f3c84c30734659b37dcfed88bc1b1e947720f447c18b6c7b60e8b6ba06e4c8b26d3c14be125bca6d0adc89a8009"
+      },
+      "sha256": "2bc2e3c8c8b313fdac231f23822225b07831dc899d067072f49d5f8ae37e739a",
+      "source_url": "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom"
+    },
+    {
+      "bytes": 19157,
+      "classifier": "",
+      "coordinates": [
+        "org.objenesis",
+        "objenesis-parent",
+        "3.3"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom.sha1",
+        "value": "60b46fea1dc4cb9c3123f8c366f8b33d0c774fa3"
+      },
+      "sha256": "305c384aa2f1e1c7fe53a96da41c3ec35243b97d428d24a8f779818cc10be4ff",
+      "source_url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom"
+    },
+    {
+      "bytes": 49423,
+      "classifier": "",
+      "coordinates": [
+        "org.objenesis",
+        "objenesis",
+        "3.3"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar.sha1",
+        "value": "1049c09f1de4331e8193e579448d0916d75b7631"
+      },
+      "sha256": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb",
+      "source_url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar"
+    },
+    {
+      "bytes": 3007,
+      "classifier": "",
+      "coordinates": [
+        "org.objenesis",
+        "objenesis",
+        "3.3"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/objenesis/objenesis/3.3/objenesis-3.3.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.pom.sha1",
+        "value": "8da1208285232e541d0bbb869bbe66af6ec6abb4"
+      },
+      "sha256": "ba0c40da2669a048b6e24ef7066a471f0fbcbfcc509e6a3e856ca4ddfa614ad3",
+      "source_url": "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.pom"
+    },
+    {
+      "bytes": 14304,
+      "classifier": "",
+      "coordinates": [
+        "org.opentest4j",
+        "opentest4j",
+        "1.3.0"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar.sha512",
+        "value": "78fc698a7871bb50305e3657893c10500595f043348d875f57bc39ca4a6a51eda3967b7c8c8a7ec3e8f85f2171bca4aa98823e912e416e87e81c6ba5b70a37c3"
+      },
+      "sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b",
+      "source_url": "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"
+    },
+    {
+      "bytes": 2035,
+      "classifier": "",
+      "coordinates": [
+        "org.opentest4j",
+        "opentest4j",
+        "1.3.0"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom",
+      "repository_checksum": {
+        "algorithm": "sha512",
+        "url": "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom.sha512",
+        "value": "9bda42d4ee45932f832ae01b3a3f23ad0b0927619db9576a8de2142f4c3b4afc4e94f1076951081af5963ab8cd4eeaa06a4bd5946cae321c6850b7fa36e3f175"
+      },
+      "sha256": "9bf7cffc410f3e8372c2522578df9ca56d9d43bd937e30948706c232a943b355",
+      "source_url": "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom"
+    }
+  ],
+  "seed_artifacts": 653,
+  "status": "RECOVERED_EXACT_ROOTS",
+  "version": "e03-recovered-artifacts-v1"
+}

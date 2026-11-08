@@ -1,0 +1,9 @@
+{
+  "estimate": "4KiB allocation blocks/directories plus16MiB metadata reserve; kernel tmpfs cap remains authoritative",
+  "estimated_directory_bytes": 3325952,
+  "estimated_total_bytes": 99856384,
+  "metadata_reserve_bytes": 16777216,
+  "payload_bytes": 78245716,
+  "repository_tmpfs_bytes": 134217728,
+  "rounded_file_bytes": 79753216
+}

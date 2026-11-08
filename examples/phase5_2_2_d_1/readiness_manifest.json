@@ -1,0 +1,56 @@
+{
+  "acquisition_elapsed_seconds": 177.06590802000028,
+  "actual_disk_bytes": 65458810,
+  "base_commit": "8be4c79ab02f67d53bbefa597df56c65f4f97055",
+  "disk_cap_bytes": 369098752,
+  "downloaded_artifact_executions": 0,
+  "final_missing": [
+    "commons-digester/commons-digester/1.6/commons-digester-1.6.jar",
+    "commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom"
+  ],
+  "historical_builds": 0,
+  "jansi_warning_retained": true,
+  "maven_project_goals": 0,
+  "model_runs": 0,
+  "new_artifacts": 102,
+  "new_batch_authorized_after_stop": false,
+  "new_batch_request_cap": 400,
+  "new_batch_requests": 400,
+  "newly_exposed_remaining": [
+    "commons-digester/commons-digester/1.6/commons-digester-1.6.jar"
+  ],
+  "next_actions": [
+    {
+      "action": "Acquire exact artifact/checksum only in a separately authorized bounded batch; expand newly exposed parents/imports/transitives without substitution",
+      "path": "commons-digester/commons-digester/1.6/commons-digester-1.6.jar",
+      "url": "https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar"
+    },
+    {
+      "action": "Acquire exact artifact/checksum only in a separately authorized bounded batch; expand newly exposed parents/imports/transitives without substitution",
+      "path": "commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom",
+      "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom"
+    }
+  ],
+  "offline_build_readiness": "BLOCKED",
+  "original_cache_overwritten": false,
+  "original_frontier_files": 22,
+  "original_task_d_requests": 2000,
+  "peak_acquisition_rss_kib": 71328,
+  "profile_next_action": "Preserve UNKNOWN and establish applicable Maven profile/effective-model semantics under separately authorized work; do not treat two frontier files as the complete remaining transitive closure",
+  "remaining_original": [
+    "commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom"
+  ],
+  "requirements_semantics": "Static candidate union; UNKNOWN profile activations preserved; not Maven effective model or build proof",
+  "resolved_original_frontier_files": 21,
+  "response_payload_bytes": 11277676,
+  "rights_approvals_changed": false,
+  "scans": 0,
+  "seed_artifact_redownloads": 0,
+  "seed_artifacts": 509,
+  "status": "PARTIAL",
+  "tasks_c_e_f_started": false,
+  "total_verified_artifacts": 611,
+  "unavailable_artifact_claims": [],
+  "unique_unknown_profile_sources": 15,
+  "version": "task-d1-readiness-v1"
+}

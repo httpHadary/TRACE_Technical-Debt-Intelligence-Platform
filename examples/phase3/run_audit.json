@@ -1,0 +1,23 @@
+{
+  "candidate_rows": 64746,
+  "combined_dataset_parsed_for_predictions": false,
+  "coverage": "all_frozen_primary_active_IDs_all_three_models",
+  "events": [
+    "study_registered_before_predictions",
+    "all_candidate_predictions_sealed_before_any_labels",
+    "validation_only_labels_loaded",
+    "parameters_and_validation_champions_frozen",
+    "selected_predictions_sealed_before_test_labels",
+    "evaluation_labels_loaded_after_prediction_seal"
+  ],
+  "forecast_ids": 10791,
+  "frozen_inputs_unchanged": true,
+  "model_failures": 0,
+  "phase": 3,
+  "phase4_readiness": "PARTIAL_pretrained_runtime_resource_and_provenance_admission_required",
+  "pretrained_models_or_catboost_run": false,
+  "scored_metric_rows": 1485,
+  "selected_prediction_rows": 32373,
+  "status": "PASS",
+  "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8"
+}

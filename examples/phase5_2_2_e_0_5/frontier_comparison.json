@@ -1,0 +1,60 @@
+{
+  "actual_runtime_plan_resolution": "UNVERIFIED",
+  "after_missing": [
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.jar",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.pom"
+  ],
+  "before_missing": [
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar",
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.jar",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.pom"
+  ],
+  "compile_success": false,
+  "exact_plugin_recovered": true,
+  "metadata_issues": [],
+  "rat_warnings_still_unresolved": [
+    [
+      "log4j",
+      "log4j",
+      "1.2.12"
+    ],
+    [
+      "logkit",
+      "logkit",
+      "1.0.1"
+    ],
+    [
+      "avalon-framework",
+      "avalon-framework",
+      "4.1.3"
+    ]
+  ],
+  "resolved": [
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar",
+    "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom"
+  ],
+  "status": "RECOVERED_EXACT_FELIX_PLUGIN",
+  "stop": null,
+  "unknown": []
+}

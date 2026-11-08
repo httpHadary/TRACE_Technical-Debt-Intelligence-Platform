@@ -1,0 +1,187 @@
+{
+  "acknowledged": true,
+  "all_seed_artifacts_unchanged": true,
+  "all_source_hashes_unchanged": true,
+  "archive_captured": true,
+  "capture_errors": [],
+  "classes_absent_verified": true,
+  "cleanup_complete": true,
+  "maven_logs_complete": true,
+  "maven_stderr_sha256": "7e52db3c76102f82dcd1c7a9d82f87ff69dc7fac0f3ac1b30201e2f3ebaa1db9",
+  "maven_stdout_sha256": "73698b652b6558d9f806af7cf196cc9cfd17f8163f85a40370a9061dfaa7a71a",
+  "raw_capture_files": [
+    {
+      "bytes": 98792,
+      "path": "cache.after.sha256",
+      "sha256": "867c028a3c294b878e03c81d48484ccb981b373362a86573e4533a9692cde658"
+    },
+    {
+      "bytes": 42634,
+      "path": "cache.paths",
+      "sha256": "74b9b198cea00415ee4d154eb442f83bc2b6e0f964ce8a5c4ad332748f4cbf09"
+    },
+    {
+      "bytes": 98792,
+      "path": "cache.post.sha256",
+      "sha256": "867c028a3c294b878e03c81d48484ccb981b373362a86573e4533a9692cde658"
+    },
+    {
+      "bytes": 74,
+      "path": "cgroup.limits.txt",
+      "sha256": "e48373859473cbecfa963a000804b2405e23c9b16a0968597570efea099548cf"
+    },
+    {
+      "bytes": 16,
+      "path": "command-category.txt",
+      "sha256": "0d232b4530e09ea594b9764760cf5ee036df313875ac6e33cfcd7a1fadeb26f2"
+    },
+    {
+      "bytes": 175,
+      "path": "cpu.stat",
+      "sha256": "9a3ae25b9c644fd42b80cb59d6da627abbac1fe3dc81125b030ac7fd980439cc"
+    },
+    {
+      "bytes": 66,
+      "path": "disk-usage.txt",
+      "sha256": "7350b9c70753540385153a6e17fdaf4cdb6a7dd682ba21b08fca569d113b6f64"
+    },
+    {
+      "bytes": 2,
+      "path": "exit.code",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "bytes": 66,
+      "path": "log.sizes",
+      "sha256": "3f187fb05a670de3a24543013ae914a1a913ccf5a66f8424539c9329ff819529"
+    },
+    {
+      "bytes": 8,
+      "path": "maven.ended.uptime",
+      "sha256": "95634906bb1d2861a14dfa54425c2e08eff18f45f596a86de7ade015103e6a82"
+    },
+    {
+      "bytes": 2,
+      "path": "maven.exit",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "bytes": 8,
+      "path": "maven.started.uptime",
+      "sha256": "faa8ba234449ac39eb60092fb4fc385746a1cfe68f361be77ab3ff2bf0a88725"
+    },
+    {
+      "bytes": 17,
+      "path": "maven.state.txt",
+      "sha256": "8ce8b5d6e24a9c5a8feff3a6d90ced48601facf1e29e1edbeebc255c9760c3f8"
+    },
+    {
+      "bytes": 565,
+      "path": "maven.stderr",
+      "sha256": "7e52db3c76102f82dcd1c7a9d82f87ff69dc7fac0f3ac1b30201e2f3ebaa1db9"
+    },
+    {
+      "bytes": 10901,
+      "path": "maven.stdout",
+      "sha256": "73698b652b6558d9f806af7cf196cc9cfd17f8163f85a40370a9061dfaa7a71a"
+    },
+    {
+      "bytes": 70,
+      "path": "memory.events",
+      "sha256": "0a2d4e7982066cc7dc914627e7b195ccba88b82a5a996201809e529142d2f380"
+    },
+    {
+      "bytes": 10,
+      "path": "memory.peak",
+      "sha256": "83c0b35d82d49b88b90e6d8fc523fe7544097b7014529c6d5056b01ab97d385f"
+    },
+    {
+      "bytes": 58,
+      "path": "mount-ownership.txt",
+      "sha256": "733696b58f60fa3990139b6f32c8e4f94fb813c150ad34828acbcfcc43186c33"
+    },
+    {
+      "bytes": 4251,
+      "path": "mountinfo.txt",
+      "sha256": "edd0864058077c7d937258d54b0088ccfc2ae6cff01ce83a05151a33793d2058"
+    },
+    {
+      "bytes": 210,
+      "path": "passed-stages.txt",
+      "sha256": "f190b20e16def2df6d1bf25fb9041e2dbbd539052b0670764b4928be512c4a54"
+    },
+    {
+      "bytes": 5,
+      "path": "post-capture.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 3,
+      "path": "processes.txt",
+      "sha256": "7018c575f475e3e18f7842706d0c4773aea346bf2ca7cf516dd7697a79fe2e94"
+    },
+    {
+      "bytes": 0,
+      "path": "ready",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5,
+      "path": "setup.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 0,
+      "path": "setup.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 692,
+      "path": "setup.stdout",
+      "sha256": "a50aa83dad6d1adfdbcac4f6ac24e89bcf2e63bcc91eda48ded7e69583bafc4e"
+    },
+    {
+      "bytes": 13988,
+      "path": "source.after.sha256",
+      "sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+    },
+    {
+      "bytes": 5330,
+      "path": "source.paths",
+      "sha256": "459529c5fe22c61aebcc044ced529421e18ad4d333a29f3a86839c100eee2a37"
+    },
+    {
+      "bytes": 13988,
+      "path": "source.post.sha256",
+      "sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+    },
+    {
+      "bytes": 2,
+      "path": "source.verify.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 0,
+      "path": "source.verify.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "source.verify.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 16,
+      "path": "stage.txt",
+      "sha256": "2b9869c0ec94656a35d35646cf9f283a0fc5c67b62ba400d04834ecf1f713718"
+    },
+    {
+      "bytes": 8,
+      "path": "working-directory.txt",
+      "sha256": "528b690443e45716ef5e7e82b8068a54d7095dcca8e1c790adf2a2263078761e"
+    }
+  ],
+  "setup_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "setup_stdout_sha256": "a50aa83dad6d1adfdbcac4f6ac24e89bcf2e63bcc91eda48ded7e69583bafc4e",
+  "status": "COMPLETE_FOR_OBSERVED_FAILURE"
+}

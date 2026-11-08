@@ -1,0 +1,12 @@
+{
+  "artifact_count": 679,
+  "dependency_manifest_sha256": "73de04d94fe2a1c85fd49f38bfdc14df47e0f93855a8ac5258a10d72f714b113",
+  "downloaded_dependencies_in_git": false,
+  "identity_format": "Sorted sha256 + two spaces + byte_count + two spaces + Maven relative path + LF",
+  "identity_sha256": "f4bc6cbab0f8e0bc14557408173290a8453854c35226b40348bffe7a58011daa",
+  "new_count": 26,
+  "payload_bytes": 74152353,
+  "private_cache": "/home/hp/tst/research/forecasting_mvp/phase5_2_2_e_0_3/2026-10-18/recovery-1/repository",
+  "seed_count": 653,
+  "version": "e03-isolated-cache-v1"
+}

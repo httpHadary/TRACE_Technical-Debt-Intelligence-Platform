@@ -1,0 +1,63 @@
+{
+  "accounting": "Response bodies/checksums; unread error bodies,HTTP headers and TLS overhead excluded. GitHub publication is separate from the sealed Maven acquisition batch.",
+  "acquisition_elapsed_seconds": 85.69651752899881,
+  "acquisition_peak_rss_kib": 46032,
+  "actual_address_space_limit_bytes": 1073741824,
+  "actual_cpu_affinity": [
+    0
+  ],
+  "admission": {
+    "acquisition_adapter_sha256": "af0ec58de775f297b4332c4579e2f57fccd8cca05f12cf075a791460e9786c51",
+    "address_space_bytes": 1073741824,
+    "automatic_http_retries": 0,
+    "available_ram_bytes": 6786400256,
+    "conflicts": [],
+    "cpus": 1,
+    "free_disk_bytes": 15778111488,
+    "maximum_requests": 200,
+    "response_bytes": 67108864,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600,
+    "workers": 1
+  },
+  "approved_local_new_artifacts": [
+    {
+      "bytes": 44571,
+      "path": "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar"
+    },
+    {
+      "bytes": 5319,
+      "path": "org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom"
+    },
+    {
+      "bytes": 21967,
+      "path": "org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom"
+    }
+  ],
+  "automatic_http_retries": 0,
+  "available_ram_bytes": 6445416448,
+  "checksum_404s": 22,
+  "containers_started": 0,
+  "free_disk_bytes": 15685349376,
+  "java_executions": 0,
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "artifact_bytes": 33554432,
+    "cpus": 1,
+    "requests": 200,
+    "response_bytes": 67108864,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600
+  },
+  "maven_executions": 0,
+  "new_artifact_bytes": 1864040,
+  "new_artifact_count": 24,
+  "offline_audit_peak_rss_kib": 49384,
+  "read_only_daemon_inspection": "GET existing container/volume metadata only; no Docker CLI or container execution",
+  "requests": 67,
+  "response_payload_bytes": 1794287,
+  "task_storage_bytes_at_verification": 87361935,
+  "task_storage_bytes_before_publication": 87574741,
+  "transport_retries": 0,
+  "workers": 1
+}

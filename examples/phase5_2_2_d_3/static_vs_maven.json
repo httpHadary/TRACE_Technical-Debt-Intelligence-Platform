@@ -1,0 +1,1400 @@
+{
+  "active_profile_count": 8,
+  "all_project_profile_decisions_agree": true,
+  "commit_sha": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "dependency_declarations": {
+    "final_runtime_classpaths_resolved": false,
+    "identity_version_scope_equal": true,
+    "maven": [
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-api",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-engine",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-params",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "commons-io",
+          "commons-io",
+          "2.17.0"
+        ],
+        "optional": false,
+        "scope": "test"
+      },
+      {
+        "gav": [
+          "org.mockito",
+          "mockito-core",
+          "4.11.0"
+        ],
+        "optional": false,
+        "scope": "test"
+      }
+    ],
+    "static": [
+      {
+        "classifier": "",
+        "exclusions": [],
+        "explicit_fields": [
+          "artifactId",
+          "groupId",
+          "scope"
+        ],
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-api",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test",
+        "type": "jar"
+      },
+      {
+        "classifier": "",
+        "exclusions": [],
+        "explicit_fields": [
+          "artifactId",
+          "groupId",
+          "scope"
+        ],
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-engine",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test",
+        "type": "jar"
+      },
+      {
+        "classifier": "",
+        "exclusions": [],
+        "explicit_fields": [
+          "artifactId",
+          "groupId",
+          "scope"
+        ],
+        "gav": [
+          "org.junit.jupiter",
+          "junit-jupiter-params",
+          "5.11.1"
+        ],
+        "optional": false,
+        "scope": "test",
+        "type": "jar"
+      },
+      {
+        "classifier": "",
+        "exclusions": [],
+        "explicit_fields": [
+          "artifactId",
+          "groupId",
+          "scope",
+          "version"
+        ],
+        "gav": [
+          "commons-io",
+          "commons-io",
+          "2.17.0"
+        ],
+        "optional": false,
+        "scope": "test",
+        "type": "jar"
+      },
+      {
+        "classifier": "",
+        "exclusions": [],
+        "explicit_fields": [
+          "artifactId",
+          "groupId",
+          "scope",
+          "version"
+        ],
+        "gav": [
+          "org.mockito",
+          "mockito-core",
+          "4.11.0"
+        ],
+        "optional": false,
+        "scope": "test",
+        "type": "jar"
+      }
+    ]
+  },
+  "effective_plugins": [
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-checkstyle-plugin",
+        "3.5.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "com.github.spotbugs",
+        "spotbugs-maven-plugin",
+        "4.8.6.4"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-assembly-plugin",
+        "3.7.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "com.github.siom79.japicmp",
+        "japicmp-maven-plugin",
+        "0.23.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "prepare-checkout",
+          "phase": "pre-site",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "compile",
+          "id": "default-compile",
+          "phase": "compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "testCompile",
+          "id": "default-testCompile",
+          "phase": "test-compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "jar",
+          "id": "default-jar",
+          "phase": "package",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "test-jar",
+          "id": "default",
+          "phase": "package",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-jar-plugin",
+        "3.4.2"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "test-jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-source-plugin",
+        "3.2.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "test",
+          "id": "default-test",
+          "phase": "test",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-surefire-plugin",
+        "3.5.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "org.apache.commons",
+        "commons-build-plugin",
+        "1.14.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "manifest",
+          "id": "bundle-manifest",
+          "phase": "process-classes",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "publish-scm",
+          "id": "scm-publish",
+          "phase": "site-deploy",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-scm-publish-plugin",
+        "3.3.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [],
+      "gav": [
+        "org.codehaus.mojo",
+        "versions-maven-plugin",
+        "2.17.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "makeAggregateBom",
+          "id": "build-sbom-cyclonedx",
+          "phase": "package",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.cyclonedx",
+        "cyclonedx-maven-plugin",
+        "2.8.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "createSPDX",
+          "id": "build-sbom-spdx",
+          "phase": "package",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.spdx",
+        "spdx-maven-plugin",
+        "0.7.4"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "prepare-agent",
+          "id": "prepare-agent",
+          "phase": "process-test-classes",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "report",
+          "id": "report",
+          "phase": "site",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "check",
+          "id": "check",
+          "phase": "verify",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.jacoco",
+        "jacoco-maven-plugin",
+        "0.8.12"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "add-module-info",
+          "id": "add-module-infos",
+          "phase": "package",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.moditect",
+        "moditect-maven-plugin",
+        "1.2.2.Final"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "clean",
+          "id": "default-clean",
+          "phase": "clean",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-clean-plugin",
+        "3.4.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "testResources",
+          "id": "default-testResources",
+          "phase": "process-test-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "resources",
+          "id": "default-resources",
+          "phase": "process-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "install",
+          "id": "default-install",
+          "phase": "install",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-install-plugin",
+        "3.1.2"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": false,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "deploy",
+          "id": "default-deploy",
+          "phase": "deploy",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-deploy-plugin",
+        "3.1.2"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "site",
+          "id": "default-site",
+          "phase": "site",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "deploy",
+          "id": "default-deploy",
+          "phase": "site-deploy",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "attach-descriptor",
+          "id": "attach-descriptor",
+          "phase": "package",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-site-plugin",
+        "3.12.1"
+      ],
+      "runtime_closure_resolved": false
+    }
+  ],
+  "effective_pom_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "historical_compilation": "NOT_ATTEMPTED",
+  "inactive_profile_count": 17,
+  "literal_open_jdk_activation": {
+    "actual_t0_jdk9_activation": "[9,)",
+    "actual_t0_profile": "jdk9+",
+    "literal": "[9",
+    "no_auxiliary_project_or_goal_executed": true,
+    "source_model": [
+      "org.apache.commons",
+      "commons-parent",
+      "58"
+    ],
+    "status": "NOT_A_T0_PROJECT_PARENT_NOT_DIRECTLY_EVALUATED"
+  },
+  "offline_java_build_readiness": "UNKNOWN",
+  "project_profiles": [
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache",
+        "apache",
+        "33"
+      ],
+      "profile_id": "apache-release",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache",
+        "apache",
+        "33"
+      ],
+      "profile_id": "jdk9+",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache",
+        "apache",
+        "33"
+      ],
+      "profile_id": "only-eclipse",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "module-name",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "parse-target-version",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "animal-sniffer",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "jacoco",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "cobertura",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "japicmp",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "release",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "apache-release",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "java-1.8",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "java-1.11",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "test-deploy",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "release-notes",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "svn-buildnumber",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "jdk7-plugin-fix-version",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "jdk8-plugin-fix-version",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "site-basic",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "java-9-up",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "java-11-up",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "java-17-up",
+      "static_active": true
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "76"
+      ],
+      "profile_id": "benchmark",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "INACTIVE_IN_THIS_CONTEXT",
+      "model": [
+        "commons-cli",
+        "commons-cli",
+        "1.9.1-SNAPSHOT"
+      ],
+      "profile_id": "rc",
+      "static_active": false
+    },
+    {
+      "agrees": true,
+      "maven_status": "ACTIVE",
+      "model": [
+        "commons-cli",
+        "commons-cli",
+        "1.9.1-SNAPSHOT"
+      ],
+      "profile_id": "setup-checkout",
+      "static_active": true
+    }
+  ],
+  "project_runtime_classpath": "NOT_RESOLVED",
+  "runtime_missing_artifacts_observed": [],
+  "status": "MODEL_VERIFIED",
+  "tree_sha": "ac7521be84b2820a83f7b960d329a15521408214",
+  "unresolved_transitive_profile_sources": [
+    {
+      "activation": {
+        "os": {
+          "arch": "i386",
+          "family": "Linux"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "linux",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "arch": "amd64",
+          "family": "Linux"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "linux64",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "arch": "aarch64",
+          "family": "Mac"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "macosx-aarch64",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "arch": "i386",
+          "family": "Mac"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "macosx-i386",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "arch": "powerpc",
+          "family": "Mac"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "macosx-powerpc",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "family": "SunOS"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "solaris",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "family": "Windows"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "com.thoughtworks.qdox",
+        "qdox",
+        "2.0.3"
+      ],
+      "profile_id": "windows",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom",
+      "source_sha256": "e7ebaead3c95e74934451fc5b5ae9d02066303db67430f59fe219714efcf3bf3",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${basedir}"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            null
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.apache",
+        "apache",
+        "13"
+      ],
+      "profile_id": "maven-3",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/apache/13/apache-13.pom",
+      "source_sha256": "ff513db0361fd41237bef4784968bc15aae478d4ec0a9496f811072ccaf3841d",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${basedir}"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            null
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.apache",
+        "apache",
+        "16"
+      ],
+      "profile_id": "maven-3",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/apache/16/apache-16.pom",
+      "source_sha256": "9f85ff2fd7d6cb3097aa47fb419ee7f0ebe869109f98aba9f4eca3f49e74a40e",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${basedir}"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            null,
+            "maven-site-plugin",
+            null
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "34"
+      ],
+      "profile_id": "maven-3",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/commons/commons-parent/34/commons-parent-34.pom",
+      "source_sha256": "3a2e69d06d641d1f3b293126dc9e2e4ea6563bf8c36c87e0ab6fa4292d04b79c",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "jdk": "[9"
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [],
+      "model": [
+        "org.apache.commons",
+        "commons-parent",
+        "58"
+      ],
+      "profile_id": "jdk9-compiler",
+      "reason": "UNSUPPORTED_JDK_ACTIVATION_'[9'",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/commons/commons-parent/58/commons-parent-58.pom",
+      "source_sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${user.home}/.m2/toolchains.xml"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-toolchains-plugin",
+            "1.1"
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.apache.httpcomponents",
+        "httpcomponents-parent",
+        "11"
+      ],
+      "profile_id": "use-toolchains",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom",
+      "source_sha256": "a901f87b115c55070c7ee43efff63e20e7b02d30af2443ae292bf1f4e532d3aa",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "os": {
+          "family": "windows"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-surefire-plugin",
+            "${surefire.plugin.version}"
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.apache.sshd",
+        "sshd-core",
+        "2.9.2"
+      ],
+      "profile_id": "no-containers-for-windows",
+      "reason": "UNSUPPORTED_ACTIVATION_os",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/apache/sshd/sshd-core/2.9.2/sshd-core-2.9.2.pom",
+      "source_sha256": "661287cb4dfd74368f506b680b97453e50d37272e1e4fd358bd0935f43980a05",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${basedir}"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "2.1"
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.codehaus.plexus",
+        "plexus",
+        "2.0.6"
+      ],
+      "profile_id": "maven-3",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom",
+      "source_sha256": "bea12e747708d25e73410ca1c731ebdfa102e8bdb6ec7d81bd4522583b234bcc",
+      "status": "UNKNOWN"
+    },
+    {
+      "activation": {
+        "file": {
+          "exists": "${basedir}"
+        }
+      },
+      "actual_activation": "NOT_OBSERVED_REMAINS_UNKNOWN",
+      "d3_project_model_status": "OUTSIDE_T0_PROJECT_INHERITANCE_CHAIN",
+      "declarations": [
+        {
+          "gav": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            null
+          ],
+          "kind": "plugin",
+          "scope": null,
+          "status": "CONDITIONAL_UNKNOWN_NOT_ADMITTED"
+        }
+      ],
+      "model": [
+        "org.codehaus.plexus",
+        "plexus",
+        "4.0"
+      ],
+      "profile_id": "maven-3",
+      "reason": "UNRESOLVED_FILE_ACTIVATION",
+      "runtime_classpath_verification": "PENDING",
+      "source_path": "org/codehaus/plexus/plexus/4.0/plexus-4.0.pom",
+      "source_sha256": "0a1b692d7fcc90d6a45dae2e50f4660d48f7a44504f174aa60ef34fbe1327f6a",
+      "status": "UNKNOWN"
+    }
+  ],
+  "version": "task-d3-static-versus-maven-v1"
+}

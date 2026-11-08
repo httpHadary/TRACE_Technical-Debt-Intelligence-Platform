@@ -1,24 +1,78 @@
-# Compiled class file
+# Java / JVM build artifacts
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
 *.ear
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-forecast/
+.venv*/
+*.egg-info/
+build/
+dist/
+
+# Runtime, generated, and local data
+*.log
+*.ipynb
+data/
+runs/
+repo_clones/
+forecast_runs/
+forecast_endpoints/
+.generations/
+repo_context.json
+module_strategy.json
+module_split.json
+module_*state.csv
+module_*snapshot.csv
+module_td_mart.csv
+module_generation.json
+
+# Private settings and credentials
+.env*
+*token*
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# MVP data/model artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.cbm
+checkpoints/
+model_cache/
+historical_debt.csv
+git_history.csv
+excluded_records.json
+study.*.local.json
+forecasting_dataset.csv
+forecasting_splits.json
+forecasting_features.csv
+forecasting_labels.csv
+forecasting_contexts.jsonl*
+baseline_predictions.csv
+candidate_predictions.csv
+chronos_predictions.csv
+
+# Compressed packages are generated artifacts by default.
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*

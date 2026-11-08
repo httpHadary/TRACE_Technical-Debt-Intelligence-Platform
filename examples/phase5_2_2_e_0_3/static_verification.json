@@ -1,0 +1,30 @@
+{
+  "all_artifacts": 679,
+  "artifact_manifest_sha256": "73de04d94fe2a1c85fd49f38bfdc14df47e0f93855a8ac5258a10d72f714b113",
+  "audit_hashes": [
+    "b7940f478d50fd5ce4942410238735a81312ae9e0871e01e29de78f26eb3b343",
+    "b7940f478d50fd5ce4942410238735a81312ae9e0871e01e29de78f26eb3b343"
+  ],
+  "available_ram_kib": 7876136,
+  "byte_identical": true,
+  "cache_identity_format": "Sorted sha256 + two spaces + byte_count + two spaces + Maven relative path + LF",
+  "cache_identity_sha256": "f4bc6cbab0f8e0bc14557408173290a8453854c35226b40348bffe7a58011daa",
+  "cache_payload_bytes": 74152353,
+  "closure_equals_acquisition_audit": true,
+  "compile_attempts": 0,
+  "free_disk_bytes": 21115871232,
+  "ledger_unchanged": true,
+  "local_reused_artifact_bytes": 5619293,
+  "local_reused_files": 16,
+  "maven_executions": 0,
+  "new_artifact_bytes": 7089849,
+  "new_artifacts": 26,
+  "new_jars": 12,
+  "new_poms": 14,
+  "observed_conflicting_processes": [],
+  "peak_audit_rss_kib": 35180,
+  "remote_downloaded_files": 10,
+  "requests": 56,
+  "status": "PASS",
+  "task_storage_bytes": 77355525
+}

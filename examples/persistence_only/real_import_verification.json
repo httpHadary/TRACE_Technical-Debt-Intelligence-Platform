@@ -1,0 +1,31 @@
+{
+  "status": "PASS_REAL_PERSISTENCE_IMPORT_AND_LIVE_DASHBOARD_LOGIC",
+  "forecast_rows": 678,
+  "methods": [
+    "persistence"
+  ],
+  "original_ids_preserved": true,
+  "source_files_preserved": 147,
+  "per_horizon": [
+    {
+      "horizon": 3,
+      "macro_mae": 104.42072378764885,
+      "endpoints": 226
+    },
+    {
+      "horizon": 4,
+      "macro_mae": 135.55081142419644,
+      "endpoints": 226
+    },
+    {
+      "horizon": 12,
+      "macro_mae": 384.541131755602,
+      "endpoints": 226
+    }
+  ],
+  "no_neural_imports": true,
+  "reviewed_endpoint_distance_checks": true,
+  "cross_actual_chronology_checks": true,
+  "rendered_visual_qa": false,
+  "limitation": "No browser surface is available; actual JavaScript and API exercised using a minimal DOM test double."
+}

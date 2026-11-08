@@ -1,0 +1,39 @@
+{
+  "actual_runtime_plan_resolution": "UNVERIFIED",
+  "after_missing": [],
+  "before_missing": [
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.jar",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.pom"
+  ],
+  "compile_success": false,
+  "full_offline_build_ready": false,
+  "incomplete_plugins": [],
+  "metadata_issues": [],
+  "resolved": [
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar",
+    "org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.jar",
+    "org/apache/maven/plugins/maven-surefire-plugin/3.5.0/maven-surefire-plugin-3.5.0.pom",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.jar",
+    "org/cyclonedx/cyclonedx-maven-plugin/2.8.1/cyclonedx-maven-plugin-2.8.1.pom",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.jar",
+    "org/moditect/moditect-maven-plugin/1.2.2.Final/moditect-maven-plugin-1.2.2.Final.pom",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.jar",
+    "org/spdx/spdx-maven-plugin/0.7.4/spdx-maven-plugin-0.7.4.pom"
+  ],
+  "status": "PASS_STATIC_DESCRIPTOR_CLOSURE",
+  "stop": null,
+  "unknown": []
+}

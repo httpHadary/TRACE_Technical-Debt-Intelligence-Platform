@@ -1,0 +1,32 @@
+{
+  "cgroup_peak_memory_bytes": 84742144,
+  "checks": {
+    "all_required_fields": true,
+    "bounded_peak": true,
+    "cache_hashes": true,
+    "cache_paths": true,
+    "category": true,
+    "cleanup": true,
+    "cwd": true,
+    "die_matches": true,
+    "docker_logs_retained": true,
+    "exactly_one_start": true,
+    "exit_code": true,
+    "maven_not_started": true,
+    "no_oom": true,
+    "no_unexpected_capture_error": true,
+    "ownership": true,
+    "prohibited_process_absent": true,
+    "setup_complete": true,
+    "source_hashes": true,
+    "source_paths": true,
+    "stage": true,
+    "stderr_sentinel": true,
+    "stdout_sentinel": true,
+    "terminal_exit": true
+  },
+  "expected_injection_exit": 73,
+  "maven_or_compilation_success": false,
+  "status": "SETUP_AND_CAPTURE_PASS",
+  "unavailable": []
+}

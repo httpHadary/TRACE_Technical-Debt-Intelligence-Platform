@@ -1,0 +1,61 @@
+{
+  "accounting": "Response/checksum bodies; unread errors,headers and TLS excluded. Local candidate bytes are verified but are not network payload. GitHub publication is separate from the sealed Maven batch.",
+  "acquisition_elapsed_seconds": 92.65857826999854,
+  "acquisition_peak_rss_kib": 47868,
+  "actual_address_space_limit_bytes": 1073741824,
+  "actual_cpu_affinity": [
+    0
+  ],
+  "admission": {
+    "acquisition_adapter_sha256": "086f20c24621a43ecd4970202dc2cf87d81eed331d3e4bbc83fa418641cc5f12",
+    "address_space_bytes": 1073741824,
+    "automatic_http_retries": 0,
+    "available_ram_bytes": 8778846208,
+    "conflicts": [],
+    "cpu_affinity": [
+      0
+    ],
+    "free_disk_bytes": 15475539968,
+    "maximum_requests": 200,
+    "response_bytes": 67108864,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600,
+    "workers": 1
+  },
+  "approved_local_new_artifacts": [
+    {
+      "bytes": 251227,
+      "path": "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar"
+    },
+    {
+      "bytes": 19840,
+      "path": "org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.pom"
+    }
+  ],
+  "automatic_http_retries": 0,
+  "available_ram_bytes": 8708460544,
+  "checksum_404s": 14,
+  "containers_started": 0,
+  "free_disk_bytes": 15383261184,
+  "java_executions": 0,
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "artifact_bytes": 33554432,
+    "cpus": 1,
+    "requests": 200,
+    "response_bytes": 67108864,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600
+  },
+  "maven_executions": 0,
+  "new_artifact_bytes": 1883488,
+  "new_artifact_count": 17,
+  "offline_audit_peak_rss_kib": 48520,
+  "read_only_daemon_inspection": "GET existing container/volume metadata only; no Docker CLI or container execution",
+  "requests": 46,
+  "response_payload_bytes": 1613981,
+  "task_storage_bytes_at_verification": 89652755,
+  "task_storage_bytes_before_publication": 89894568,
+  "transport_retries": 0,
+  "workers": 1
+}

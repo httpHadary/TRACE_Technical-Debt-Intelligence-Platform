@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "README.md": "e4bc452cfd7d6d7595342038227effff3f3ce95dcd1192197bd3e5f78efb3c62",
+    "dependency_manifest.json": "16983befd8f1665ab3729da1cd9d8700c898f347d0872634348c5962af33bd3a",
+    "readiness_manifest.json": "0f672d4b934b164f1d4c82cbf8a32427b316cf5a415d4ebe5068d74c84cbc85c",
+    "requirements.json": "91a055df88bca2378331602a841126a26936a6c3c05cdb9a715de774d072d165",
+    "verification.json": "4c87871313a484a30b24b20a6bb96be437bc7fb93d2986fee3ee77a508826bda"
+  },
+  "base_commit": "1caf129975a39aeaab1614e457a7114f0bf477e3",
+  "version": "task-d-publication-v1"
+}

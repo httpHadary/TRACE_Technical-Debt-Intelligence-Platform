@@ -1,0 +1,33 @@
+{
+  "candidate_signal_families": 5,
+  "collection_authorized": false,
+  "evidence_files_verified": 20,
+  "experiment_authorized": false,
+  "legal_opinion": false,
+  "metadata_only": true,
+  "operation_scope": "Local documentary audit; public literature review is separate",
+  "operations": {
+    "containers": 0,
+    "data_collection": 0,
+    "downloads": 0,
+    "forecasts": 0,
+    "maven": 0,
+    "model_fits": 0,
+    "permission_changes": 0,
+    "restricted_data_reads": 0,
+    "scans": 0
+  },
+  "phase_c_decisions": 24,
+  "predictive_signal_validated": false,
+  "real_data_admitted": false,
+  "rights_status": "NOT_APPROVED",
+  "status": "READINESS_PLAN_REVIEWED_ADMISSION_BLOCKED",
+  "technical_blockers": {
+    "family_resolution_status": "UNKNOWN",
+    "measurement_domain_status": "UNKNOWN",
+    "preregistration_status": "DOCUMENTED_REQUIRES_INDEPENDENT_REVIEW",
+    "signal_provenance_status": "UNKNOWN",
+    "strict_target_history_status": "BLOCKED"
+  },
+  "version": "phase6_6.readiness.v1"
+}

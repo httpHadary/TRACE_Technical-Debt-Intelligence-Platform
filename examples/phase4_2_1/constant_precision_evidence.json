@@ -1,0 +1,48 @@
+{
+  "published_prediction_file_sha256": "71e02b5425b78bc2c2130e922e90cf48ca9a9ca3dad4750d684b3674a6f5457a",
+  "arithmetic_only_no_model_execution": true,
+  "normalizer_eps": 1e-05,
+  "phases": {
+    "validation": {
+      "contexts": 360,
+      "raw_q10_q50_q90_all_equal": true,
+      "raw_median_equals_current_all": true,
+      "current_min": 3857.0,
+      "current_max": 55833.0,
+      "float32_ulp_min": 0.000244140625,
+      "float32_ulp_max": 0.00390625,
+      "contexts_ulp_exceeds_normalizer_eps": 360
+    },
+    "test_temporal": {
+      "contexts": 286,
+      "raw_q10_q50_q90_all_equal": true,
+      "raw_median_equals_current_all": true,
+      "current_min": 3847.0,
+      "current_max": 55833.0,
+      "float32_ulp_min": 0.000244140625,
+      "float32_ulp_max": 0.00390625,
+      "contexts_ulp_exceeds_normalizer_eps": 286
+    },
+    "test_repository": {
+      "contexts": 94,
+      "raw_q10_q50_q90_all_equal": true,
+      "raw_median_equals_current_all": true,
+      "current_min": 5501.0,
+      "current_max": 58602.0,
+      "float32_ulp_min": 0.00048828125,
+      "float32_ulp_max": 0.00390625,
+      "contexts_ulp_exceeds_normalizer_eps": 94
+    }
+  },
+  "installed_source": {
+    "chronos_bolt.py": {
+      "sha256": "93b3af9e4521ea981c4228b1acaa252321f7a190512f956088394426182c8b8c",
+      "local_path": "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-chronos-cpu/lib/python3.12/site-packages/chronos/chronos_bolt.py"
+    },
+    "chronos2/model.py": {
+      "sha256": "2aaab2f90cc9bb486d69483cb1f0d11b593643ce54c97f4902958a7776905782",
+      "local_path": "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-chronos-cpu/lib/python3.12/site-packages/chronos/chronos2/model.py"
+    }
+  },
+  "interpretation": "Published raw equality precedes max-zero clipping. Local source uses epsilon 1e-5 for zero variance and float32 inverse scaling. ULP arithmetic supports a rounding/scale explanation; no captured normalized hidden outputs or constant-history ablation establishes a unique causal explanation."
+}

@@ -1,0 +1,135 @@
+{
+  "cache": {
+    "all_byte_hashes_match": true,
+    "count": 653,
+    "exact_unique_file_set": true,
+    "expected_manifest_sha256": "db5ebd65a706001ccfea78db29c800b08ce6b3f24ec86f64b0dc9c2d3aeae623",
+    "observed_manifest_sha256": "867c028a3c294b878e03c81d48484ccb981b373362a86573e4533a9692cde658"
+  },
+  "executed_wrapper_sha256": "10566db2ba537d6d75207c4623e795d50b4cc436005e4a767690fbf6db1fd869",
+  "raw_capture_files": [
+    {
+      "bytes": 98792,
+      "path": "cache.after.sha256",
+      "sha256": "867c028a3c294b878e03c81d48484ccb981b373362a86573e4533a9692cde658"
+    },
+    {
+      "bytes": 42634,
+      "path": "cache.paths",
+      "sha256": "74b9b198cea00415ee4d154eb442f83bc2b6e0f964ce8a5c4ad332748f4cbf09"
+    },
+    {
+      "bytes": 74,
+      "path": "cgroup.limits.txt",
+      "sha256": "85e7b0083686b3d79fd2fcafbfb739d61331cf7497f97d640a834da9302936b9"
+    },
+    {
+      "bytes": 19,
+      "path": "command-category.txt",
+      "sha256": "0e14dab6853b7f10dd3f147cefc0c1c167bb257b2c98850610527b4b168092a5"
+    },
+    {
+      "bytes": 169,
+      "path": "cpu.stat",
+      "sha256": "e0753bc69ffd9b8566aa6b0a52b730311f8f0db0fce38ca73e3138380ca7c212"
+    },
+    {
+      "bytes": 3,
+      "path": "exit.code",
+      "sha256": "c6ebc76be5dc1f8b433f8d6fd9bd85cd9325086038442db8614bb799fec6fd85"
+    },
+    {
+      "bytes": 12,
+      "path": "maven.state.txt",
+      "sha256": "a01261301861949a1047176422028110dbdefd9a8b179df5523938e436a8d7c5"
+    },
+    {
+      "bytes": 70,
+      "path": "memory.events",
+      "sha256": "0a2d4e7982066cc7dc914627e7b195ccba88b82a5a996201809e529142d2f380"
+    },
+    {
+      "bytes": 9,
+      "path": "memory.peak",
+      "sha256": "358318e1c87ac3901ed3f98cedc99beb43dc67321c2bae26f4eaaca4febd3dc5"
+    },
+    {
+      "bytes": 58,
+      "path": "mount-ownership.txt",
+      "sha256": "733696b58f60fa3990139b6f32c8e4f94fb813c150ad34828acbcfcc43186c33"
+    },
+    {
+      "bytes": 4243,
+      "path": "mountinfo.txt",
+      "sha256": "a400551a489bca3b7436c9f78684abc3754ea4567efe75c9ec1052bcb87d9175"
+    },
+    {
+      "bytes": 210,
+      "path": "passed-stages.txt",
+      "sha256": "f190b20e16def2df6d1bf25fb9041e2dbbd539052b0670764b4928be512c4a54"
+    },
+    {
+      "bytes": 3,
+      "path": "processes.txt",
+      "sha256": "7018c575f475e3e18f7842706d0c4773aea346bf2ca7cf516dd7697a79fe2e94"
+    },
+    {
+      "bytes": 0,
+      "path": "ready",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5,
+      "path": "setup.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 92,
+      "path": "setup.stderr",
+      "sha256": "23e7fec56f95a468ae919e8718de31740f4a2b71b5ce9bb35f1d99bb06dad908"
+    },
+    {
+      "bytes": 771,
+      "path": "setup.stdout",
+      "sha256": "022f768260254639bff017bb3cf7050c5bc9613cc46a75dccd8cc44d19f23417"
+    },
+    {
+      "bytes": 13988,
+      "path": "source.after.sha256",
+      "sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+    },
+    {
+      "bytes": 5330,
+      "path": "source.paths",
+      "sha256": "459529c5fe22c61aebcc044ced529421e18ad4d333a29f3a86839c100eee2a37"
+    },
+    {
+      "bytes": 27,
+      "path": "stage.txt",
+      "sha256": "b99efe537b8b9e31dcf46c7b9390129c4b356fe5bde2581f92a5a6a25181f8af"
+    },
+    {
+      "bytes": 8,
+      "path": "working-directory.txt",
+      "sha256": "528b690443e45716ef5e7e82b8068a54d7095dcca8e1c790adf2a2263078761e"
+    }
+  ],
+  "read_only_checker_correction": {
+    "cache_set_difference_count": 0,
+    "cause": "GNU sort image locale differs from Python lexical order",
+    "changed_raw_files": false,
+    "duplicates_allowed": false,
+    "original_checker_receipt_sha256": "e6aabb68e7c8b89f591016aa0564befa960c44b47ce528929ab021abcda27176",
+    "repeated_container": false,
+    "source_set_difference_count": 0
+  },
+  "source": {
+    "all_byte_hashes_match": true,
+    "count": 117,
+    "exact_unique_file_set": true,
+    "expected_manifest_sha256": "5bf740882ad06877f333b28f3503f1bd6d270dd15217de2a643acb190f96aff4",
+    "observed_manifest_sha256": "bcf862fd1cbafe05ccf16caba1f827cfa2bc212941375b99166adfc99be6e794"
+  },
+  "version": "e01-exact-population-v1",
+  "wrappers_identical": true
+}

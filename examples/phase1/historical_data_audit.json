@@ -1,0 +1,2364 @@
+{
+  "config": {
+    "dataset_license": "CC-BY-NC-SA-4.0",
+    "dataset_path": "/home/hp/TECH_DEBT/td_V2.db",
+    "dataset_source": "https://github.com/clowee/The-Technical-Debt-Dataset/releases/tag/2.0.1",
+    "expected_source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "mvp_schema_version": 1,
+    "output_root": "/home/hp/tst/research/forecasting_mvp/phase1/2026-10-14",
+    "phase": 1
+  },
+  "counts": {
+    "excluded_analyses": 839,
+    "excluded_git_records": 0,
+    "git_history_rows": 153994,
+    "historical_debt_rows": 66711,
+    "in_span_unmeasured_revisions": 19979,
+    "missing_debt_values": 0,
+    "naive_analysis_dates_assigned_utc_after_exact_git_match": 66711,
+    "observed_zero_debt": 31,
+    "orphan_measure_keys": 0,
+    "repositories": 31,
+    "source_analysis_rows": 67550,
+    "source_git_rows": 153994,
+    "source_measure_rows": 66711,
+    "unmeasured_revisions": 87283
+  },
+  "exclusion_reason_counts": {
+    "BLANK_ANALYSIS_KEY": 839
+  },
+  "forecasting_readiness": "REQUIRES_PHASE_2_CONTEXT_AND_ENDPOINT_AUDIT",
+  "future_labels_constructed": false,
+  "git_exclusion_reason_counts": {},
+  "implementation_sha256": {
+    "__init__.py": "b537de749fb216d52234380f811451c44ebc6faabd1b2f309e75ad8c07793a75",
+    "__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "cli.py": "82cd604c94795ffa51f37bba0f0181d65bc15b3bb68ebde0dbb142fc82e8318b",
+    "config.py": "ade10df1e8ac983b741758b8f1b298a3c5cf8fcde94795cf2543870183aab3bd",
+    "contracts.py": "346153b47b1e4ad3fcca80f1de8e800fcc3199623b36c1ed7bd56bd71f3ba6cd",
+    "io.py": "0ec1a5709fee8c291920438dc8440d8f124bdffac323e7454a27f87d0c5bb20e",
+    "legacy_contracts.py": "3684c3756a39b0c5e60b1bb66713d40b904003b4755ff59595036aaf94efa0fa",
+    "v2_import.py": "2562d0cb15091b908882ea924e6b5651b6aa80ff01af636b32fa0ab33c7271ee",
+    "verification.py": "b5a94e95e4222da55aa55c2761432fc4f5b90af9db382af00008f85f7e79262c"
+  },
+  "limitations": [
+    "AUDITED_IMPORTED verifies joins, numeric values and timestamp provenance only",
+    "Profile metadata is not an immutable complete analyzer/rule/build-mode domain",
+    "Graph-tip inference from archived main-flag ancestry is not historical online availability",
+    "Span and gaps do not prove regularly measured inputs or exact future outcomes"
+  ],
+  "models_executed": false,
+  "mvp_schema_version": 1,
+  "phase": 1,
+  "repositories": [
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "292dbe1bb4323dd299d36b78f37d9c1d55c889f8"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 8269,
+        "first_parent_inversion_indices": [
+          7763,
+          7802
+        ],
+        "first_parent_timestamp_inversions": 2,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 426,
+        "parent_timestamp_inversions": 2,
+        "selected_tip": "292dbe1bb4323dd299d36b78f37d9c1d55c889f8"
+      },
+      "distinct_profile_hashes": 5,
+      "git_commits": 8695,
+      "history": {
+        "distinct_timestamps": 4677,
+        "first_timestamp": "2005-11-23T23:54:12Z",
+        "last_timestamp": "2012-02-24T21:18:49Z",
+        "max_gap_days": 56.01028935185185,
+        "median_gap_days": 0.03228587962962963,
+        "p90_gap_days": 1.025798611111111,
+        "span_days": 2283.892094907407
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 4742,
+      "in_measured_span_unmeasured_revisions": 65,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 4375,
+        "NON_FIRST_PARENT": 302
+      },
+      "measurements": 4677,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 11,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 4676,
+        "MISSING": 1
+      },
+      "repository_id": "v2-7741b4de7ea07ac95fa1eb02",
+      "source_project_id": "org.apache:archiva",
+      "unmeasured_revisions": 4018,
+      "valid_debt_values": 4677
+    },
+    {
+      "ancestry": {
+        "boundary": "AMBIGUOUS_TIPS",
+        "candidate_tips": [
+          "63a4cc402db78db2bbf6ca010fbc896b8841d890",
+          "f79ce602fa6244d2a7ff45b57b6a0347e883bc37"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 0,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 7015,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": null
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 7015,
+      "history": {
+        "distinct_timestamps": 2164,
+        "first_timestamp": "2000-10-11T16:43:11Z",
+        "last_timestamp": "2002-08-13T21:33:16Z",
+        "max_gap_days": 12.278298611111111,
+        "median_gap_days": 0.03841435185185185,
+        "p90_gap_days": 0.7672453703703703,
+        "span_days": 671.2014467592593
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 4378,
+      "in_measured_span_unmeasured_revisions": 2214,
+      "mainline_status_counts": {
+        "UNRESOLVED_MAINLINE": 2164
+      },
+      "measurements": 2164,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2164
+      },
+      "repository_id": "v2-4df4b75326f9515de4f9ce5c",
+      "source_project_id": "org.apache:batik",
+      "unmeasured_revisions": 4851,
+      "valid_debt_values": 2164
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "8c86418c60e74ab7d1233bfbb1a54ffefff3f25c"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1721,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 32,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "8c86418c60e74ab7d1233bfbb1a54ffefff3f25c"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1753,
+      "history": {
+        "distinct_timestamps": 1324,
+        "first_timestamp": "2001-10-29T19:59:54Z",
+        "last_timestamp": "2018-07-11T22:07:58Z",
+        "max_gap_days": 399.9485300925926,
+        "median_gap_days": 0.01167824074074074,
+        "p90_gap_days": 10.57005787037037,
+        "span_days": 6099.088935185186
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1325,
+      "in_measured_span_unmeasured_revisions": 1,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1324
+      },
+      "measurements": 1324,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1324
+      },
+      "repository_id": "v2-11eb4c34daf05c37fa6838da",
+      "source_project_id": "org.apache:bcel",
+      "unmeasured_revisions": 429,
+      "valid_debt_values": 1324
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d1210476933504494c40fd9affc6141ab9c76826"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1301,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 104,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "d1210476933504494c40fd9affc6141ab9c76826"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1405,
+      "history": {
+        "distinct_timestamps": 1210,
+        "first_timestamp": "2001-03-27T05:25:57Z",
+        "last_timestamp": "2018-10-12T21:05:57Z",
+        "max_gap_days": 310.99694444444447,
+        "median_gap_days": 0.05604166666666666,
+        "p90_gap_days": 10.08869212962963,
+        "span_days": 6408.652777777777
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1210,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1109,
+        "NON_FIRST_PARENT": 101
+      },
+      "measurements": 1210,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1210
+      },
+      "repository_id": "v2-91429c566e7c1a0cbb0fd178",
+      "source_project_id": "org.apache:beanutils",
+      "unmeasured_revisions": 195,
+      "valid_debt_values": 1210
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "32cb848b566c7ba6c91bc6836de40a370776dda8"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 5893,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 840,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "32cb848b566c7ba6c91bc6836de40a370776dda8"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 6733,
+      "history": {
+        "distinct_timestamps": 1251,
+        "first_timestamp": "2007-01-21T11:11:02Z",
+        "last_timestamp": "2008-07-07T14:52:05Z",
+        "max_gap_days": 19.863761574074076,
+        "median_gap_days": 0.020341435185185185,
+        "p90_gap_days": 1.1017708333333334,
+        "span_days": 533.1535069444444
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1270,
+      "in_measured_span_unmeasured_revisions": 19,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1251
+      },
+      "measurements": 1251,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 1,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1251
+      },
+      "repository_id": "v2-7d748970db3c6b3623542b26",
+      "source_project_id": "org.apache:cayenne",
+      "unmeasured_revisions": 5482,
+      "valid_debt_values": 1251
+    },
+    {
+      "ancestry": {
+        "boundary": "AMBIGUOUS_TIPS",
+        "candidate_tips": [
+          "3625cf736722a4f501111398bfe65aadf534e69c",
+          "99eb0e535b7a9873b008ec1f3537828993939162"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 0,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 26321,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": null
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 26321,
+      "history": {
+        "distinct_timestamps": 10206,
+        "first_timestamp": "2003-03-09T00:11:46Z",
+        "last_timestamp": "2007-02-05T19:13:57Z",
+        "max_gap_days": 8.123784722222222,
+        "median_gap_days": 0.023391203703703702,
+        "p90_gap_days": 0.4140740740740741,
+        "span_days": 1429.7931828703704
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 20604,
+      "in_measured_span_unmeasured_revisions": 10398,
+      "mainline_status_counts": {
+        "UNRESOLVED_MAINLINE": 10206
+      },
+      "measurements": 10206,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 10206
+      },
+      "repository_id": "v2-6dfdd9e09878d7ef2b3803ff",
+      "source_project_id": "org.apache:cocoon",
+      "unmeasured_revisions": 16115,
+      "valid_debt_values": 10206
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "45649c83b47c80a5078c294757db796746f00752"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 2072,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 72,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "45649c83b47c80a5078c294757db796746f00752"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 2144,
+      "history": {
+        "distinct_timestamps": 1730,
+        "first_timestamp": "2003-04-25T18:07:16Z",
+        "last_timestamp": "2018-07-01T09:24:58Z",
+        "max_gap_days": 165.3540972222222,
+        "median_gap_days": 0.02087962962962963,
+        "p90_gap_days": 6.732210648148148,
+        "span_days": 5545.637291666667
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1731,
+      "in_measured_span_unmeasured_revisions": 1,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1727,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 1730,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1730
+      },
+      "repository_id": "v2-3fee202c3b42dffa623a2b4e",
+      "source_project_id": "org.apache:codec",
+      "unmeasured_revisions": 414,
+      "valid_debt_values": 1730
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "23f2d363c5935cac57b6b41938dc662ad9f3463c"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3511,
+        "first_parent_inversion_indices": [
+          1692,
+          1699,
+          1709,
+          1719,
+          1731,
+          1733,
+          1738,
+          1768,
+          1772,
+          1778,
+          1783,
+          1785,
+          1815
+        ],
+        "first_parent_timestamp_inversions": 13,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 105,
+        "parent_timestamp_inversions": 14,
+        "selected_tip": "23f2d363c5935cac57b6b41938dc662ad9f3463c"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 3616,
+      "history": {
+        "distinct_timestamps": 2765,
+        "first_timestamp": "2001-04-14T19:32:38Z",
+        "last_timestamp": "2017-06-12T18:35:54Z",
+        "max_gap_days": 113.16331018518518,
+        "median_gap_days": 0.018524305555555558,
+        "p90_gap_days": 3.372476851851852,
+        "span_days": 5902.960601851852
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2892,
+      "in_measured_span_unmeasured_revisions": 127,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 2761,
+        "NON_FIRST_PARENT": 4
+      },
+      "measurements": 2765,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 9,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2765
+      },
+      "repository_id": "v2-5e5dbfc34b2b1c17e7956345",
+      "source_project_id": "org.apache:collections",
+      "unmeasured_revisions": 851,
+      "valid_debt_values": 2765
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "2b026b24d9965586b3c13d4b48f191970de2c770"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 798,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 223,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "2b026b24d9965586b3c13d4b48f191970de2c770"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 1021,
+      "history": {
+        "distinct_timestamps": 847,
+        "first_timestamp": "2002-06-10T18:01:16Z",
+        "last_timestamp": "2017-06-05T16:38:41Z",
+        "max_gap_days": 258.51078703703706,
+        "median_gap_days": 0.06142939814814815,
+        "p90_gap_days": 13.820532407407407,
+        "span_days": 5473.942650462963
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 862,
+      "in_measured_span_unmeasured_revisions": 15,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 655,
+        "NON_FIRST_PARENT": 192
+      },
+      "measurements": 847,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 846,
+        "MISSING": 1
+      },
+      "repository_id": "v2-2fd0e784f917563f1f08d008",
+      "source_project_id": "org.apache:commons-cli",
+      "unmeasured_revisions": 174,
+      "valid_debt_values": 847
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "2ca7c03c48d2a3494ce9cc0b19c69cae97146335"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 687,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 13,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "2ca7c03c48d2a3494ce9cc0b19c69cae97146335"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 700,
+      "history": {
+        "distinct_timestamps": 617,
+        "first_timestamp": "2005-07-29T02:59:37Z",
+        "last_timestamp": "2018-05-15T18:26:21Z",
+        "max_gap_days": 219.34465277777778,
+        "median_gap_days": 0.012175925925925927,
+        "p90_gap_days": 16.08582175925926,
+        "span_days": 4673.643564814814
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 617,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 616,
+        "NON_FIRST_PARENT": 1
+      },
+      "measurements": 617,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 615,
+        "MISSING": 2
+      },
+      "repository_id": "v2-b3197a1f57f5eea93c094868",
+      "source_project_id": "org.apache:commons-exec",
+      "unmeasured_revisions": 83,
+      "valid_debt_values": 617
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "5907684bd846c8ef8f8fe8dc6e3a441a1d686b5e"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1094,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 86,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "5907684bd846c8ef8f8fe8dc6e3a441a1d686b5e"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1180,
+      "history": {
+        "distinct_timestamps": 864,
+        "first_timestamp": "2002-04-05T22:29:22Z",
+        "last_timestamp": "2017-12-05T09:59:05Z",
+        "max_gap_days": 522.1652430555556,
+        "median_gap_days": 0.015775462962962963,
+        "p90_gap_days": 13.020335648148148,
+        "span_days": 5722.478969907407
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 913,
+      "in_measured_span_unmeasured_revisions": 49,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 860,
+        "NON_FIRST_PARENT": 4
+      },
+      "measurements": 864,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 864
+      },
+      "repository_id": "v2-c5586b674469c147cfada344",
+      "source_project_id": "org.apache:commons-fileupload",
+      "unmeasured_revisions": 316,
+      "valid_debt_values": 864
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "e90866fcd5de46216f30def7704b8aaaf0a801b0"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3085,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 289,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "e90866fcd5de46216f30def7704b8aaaf0a801b0"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 3374,
+      "history": {
+        "distinct_timestamps": 1910,
+        "first_timestamp": "2002-01-25T19:10:04Z",
+        "last_timestamp": "2017-12-05T10:02:20Z",
+        "max_gap_days": 455.6683912037037,
+        "median_gap_days": 0.0265625,
+        "p90_gap_days": 6.484976851851852,
+        "span_days": 5792.619629629629
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2056,
+      "in_measured_span_unmeasured_revisions": 146,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1905,
+        "NON_FIRST_PARENT": 5
+      },
+      "measurements": 1910,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 5,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1908,
+        "MISSING": 2
+      },
+      "repository_id": "v2-0d4a1de0cc1e1cb6f28a9db6",
+      "source_project_id": "org.apache:commons-io",
+      "unmeasured_revisions": 1464,
+      "valid_debt_values": 1910
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d1b877969e943da7b78f6d747dd0ff1076407f46"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1941,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 4,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "d1b877969e943da7b78f6d747dd0ff1076407f46"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1945,
+      "history": {
+        "distinct_timestamps": 1937,
+        "first_timestamp": "2002-02-11T18:14:17Z",
+        "last_timestamp": "2017-09-27T12:33:29Z",
+        "max_gap_days": 727.7248032407407,
+        "median_gap_days": 0.01994212962962963,
+        "p90_gap_days": 1.8969560185185186,
+        "span_days": 5706.763333333333
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1937,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1934,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 1937,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1937
+      },
+      "repository_id": "v2-46ae23a54214d989ff07551b",
+      "source_project_id": "org.apache:commons-jelly",
+      "unmeasured_revisions": 8,
+      "valid_debt_values": 1937
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "569fcfbe109e4e62443addfab512a17789645fc1"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1613,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 314,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "569fcfbe109e4e62443addfab512a17789645fc1"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1927,
+      "history": {
+        "distinct_timestamps": 1532,
+        "first_timestamp": "2002-04-26T04:45:28Z",
+        "last_timestamp": "2018-01-22T12:24:16Z",
+        "max_gap_days": 219.9837037037037,
+        "median_gap_days": 0.012083333333333333,
+        "p90_gap_days": 8.769328703703703,
+        "span_days": 5750.318611111111
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1532,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1296,
+        "NON_FIRST_PARENT": 236
+      },
+      "measurements": 1532,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1530,
+        "MISSING": 2
+      },
+      "repository_id": "v2-0ff64367ee1c3d488a880a51",
+      "source_project_id": "org.apache:commons-jexl",
+      "unmeasured_revisions": 395,
+      "valid_debt_values": 1532
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "3f28d20c748da4219ec397f9a69eae6936be05a2"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3177,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 236,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "3f28d20c748da4219ec397f9a69eae6936be05a2"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 3413,
+      "history": {
+        "distinct_timestamps": 2929,
+        "first_timestamp": "2003-12-23T15:56:46Z",
+        "last_timestamp": "2018-09-27T17:05:37Z",
+        "max_gap_days": 84.90333333333334,
+        "median_gap_days": 0.006099537037037037,
+        "p90_gap_days": 5.0239467592592595,
+        "span_days": 5392.0478125
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2929,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 2719,
+        "NON_FIRST_PARENT": 210
+      },
+      "measurements": 2929,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2929
+      },
+      "repository_id": "v2-5a156039ebb55f29ae7a9601",
+      "source_project_id": "org.apache:configuration",
+      "unmeasured_revisions": 484,
+      "valid_debt_values": 2929
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "07af3e47fa53700f1694ad4986705d9f27af8b06"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1241,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 10,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "07af3e47fa53700f1694ad4986705d9f27af8b06"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1251,
+      "history": {
+        "distinct_timestamps": 981,
+        "first_timestamp": "2003-09-04T23:42:57Z",
+        "last_timestamp": "2018-09-19T18:49:37Z",
+        "max_gap_days": 251.92310185185184,
+        "median_gap_days": 0.03460069444444444,
+        "p90_gap_days": 10.584409722222222,
+        "span_days": 5493.7962962962965
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 982,
+      "in_measured_span_unmeasured_revisions": 1,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 978,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 981,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 981
+      },
+      "repository_id": "v2-23449eb60ab6ff083e4b7af2",
+      "source_project_id": "org.apache:daemon",
+      "unmeasured_revisions": 270,
+      "valid_debt_values": 981
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d02863be0879949d2356b32d284da10c0d6d3514"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 2187,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 278,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "d02863be0879949d2356b32d284da10c0d6d3514"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 2465,
+      "history": {
+        "distinct_timestamps": 1555,
+        "first_timestamp": "2001-04-15T17:31:40Z",
+        "last_timestamp": "2017-12-18T11:10:18Z",
+        "max_gap_days": 391.2541550925926,
+        "median_gap_days": 0.031579861111111114,
+        "p90_gap_days": 7.98681712962963,
+        "span_days": 6090.735162037037
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1580,
+      "in_measured_span_unmeasured_revisions": 25,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1552,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 1555,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1555
+      },
+      "repository_id": "v2-f07bbb56c8cc56591ba77bae",
+      "source_project_id": "org.apache:dbcp",
+      "unmeasured_revisions": 910,
+      "valid_debt_values": 1555
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "39b907d76c8d9ab43aedc7ca5839a291bba7a077"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 772,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 17,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "39b907d76c8d9ab43aedc7ca5839a291bba7a077"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 789,
+      "history": {
+        "distinct_timestamps": 602,
+        "first_timestamp": "2003-11-02T19:30:43Z",
+        "last_timestamp": "2017-05-30T12:01:56Z",
+        "max_gap_days": 225.55800925925925,
+        "median_gap_days": 0.01579861111111111,
+        "p90_gap_days": 20.073564814814816,
+        "span_days": 4957.688344907408
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 602,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 598,
+        "NON_FIRST_PARENT": 4
+      },
+      "measurements": 602,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 1,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 602
+      },
+      "repository_id": "v2-dd7a6301f6577ed0b245eec3",
+      "source_project_id": "org.apache:dbutils",
+      "unmeasured_revisions": 187,
+      "valid_debt_values": 602
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "9021617658a51d373e7ac1f8deced389eeebbdca"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1261,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 931,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "9021617658a51d373e7ac1f8deced389eeebbdca"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 2192,
+      "history": {
+        "distinct_timestamps": 2142,
+        "first_timestamp": "2001-05-12T16:45:34Z",
+        "last_timestamp": "2017-08-25T22:17:06Z",
+        "max_gap_days": 291.7960763888889,
+        "median_gap_days": 0.008287037037037037,
+        "p90_gap_days": 3.613796296296296,
+        "span_days": 5949.2302314814815
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2142,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1213,
+        "NON_FIRST_PARENT": 929
+      },
+      "measurements": 2142,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2139,
+        "MISSING": 3
+      },
+      "repository_id": "v2-a9818ca385b16b2e846a8228",
+      "source_project_id": "org.apache:digester",
+      "unmeasured_revisions": 50,
+      "valid_debt_values": 2142
+    },
+    {
+      "ancestry": {
+        "boundary": "AMBIGUOUS_TIPS",
+        "candidate_tips": [
+          "1e131b1829f1ea1766ce13426b58ee534ce21026",
+          "44aadc174dd727bb58168d3b1003bead6ba11ae4"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 0,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 30470,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": null
+      },
+      "distinct_profile_hashes": 4,
+      "git_commits": 30470,
+      "history": {
+        "distinct_timestamps": 3490,
+        "first_timestamp": "2005-07-19T10:41:53Z",
+        "last_timestamp": "2009-07-17T11:22:36Z",
+        "max_gap_days": 22.941956018518518,
+        "median_gap_days": 0.03355324074074074,
+        "p90_gap_days": 1.0874421296296297,
+        "span_days": 1459.028275462963
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 6467,
+      "in_measured_span_unmeasured_revisions": 2977,
+      "mainline_status_counts": {
+        "UNRESOLVED_MAINLINE": 3490
+      },
+      "measurements": 3490,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 7,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 3485,
+        "MISSING": 5
+      },
+      "repository_id": "v2-a33cb18e7553f545db5f8d22",
+      "source_project_id": "org.apache:felix",
+      "unmeasured_revisions": 26980,
+      "valid_debt_values": 3490
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "cd9a9fc2e61cebb5d34966c0de36807ffada8900"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 11993,
+        "first_parent_inversion_indices": [
+          5658,
+          5686,
+          5748,
+          5827,
+          5852,
+          5910,
+          5917,
+          6027,
+          6285,
+          6294,
+          6309,
+          6390
+        ],
+        "first_parent_timestamp_inversions": 12,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 3740,
+        "parent_timestamp_inversions": 22,
+        "selected_tip": "cd9a9fc2e61cebb5d34966c0de36807ffada8900"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 15733,
+      "history": {
+        "distinct_timestamps": 5767,
+        "first_timestamp": "2008-09-02T23:58:59Z",
+        "last_timestamp": "2015-03-03T00:37:22Z",
+        "max_gap_days": 20.318761574074074,
+        "median_gap_days": 0.10365162037037037,
+        "p90_gap_days": 0.9993518518518518,
+        "span_days": 2372.0266550925926
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 5953,
+      "in_measured_span_unmeasured_revisions": 186,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 4161,
+        "NON_FIRST_PARENT": 1606
+      },
+      "measurements": 5767,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 5767
+      },
+      "repository_id": "v2-6410bad99dfd42f55c9a664f",
+      "source_project_id": "org.apache:hive",
+      "unmeasured_revisions": 9966,
+      "valid_debt_values": 5767
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "bab304ae6bb166c26151b73edaa733289403454d"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3260,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 30,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "bab304ae6bb166c26151b73edaa733289403454d"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 3290,
+      "history": {
+        "distinct_timestamps": 2714,
+        "first_timestamp": "2005-12-21T18:47:13Z",
+        "last_timestamp": "2017-05-10T08:19:07Z",
+        "max_gap_days": 63.15940972222222,
+        "median_gap_days": 0.11453703703703703,
+        "p90_gap_days": 4.281365740740741,
+        "span_days": 4157.563819444445
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2715,
+      "in_measured_span_unmeasured_revisions": 1,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 2700,
+        "NON_FIRST_PARENT": 14
+      },
+      "measurements": 2714,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2712,
+        "MISSING": 2
+      },
+      "repository_id": "v2-be00cc678f41e66832ccd8eb",
+      "source_project_id": "org.apache:httpclient",
+      "unmeasured_revisions": 576,
+      "valid_debt_values": 2714
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "ae9ec8c0236051d053793cd48388056423f738d6"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3566,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 38,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "ae9ec8c0236051d053793cd48388056423f738d6"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 3604,
+      "history": {
+        "distinct_timestamps": 1901,
+        "first_timestamp": "2005-02-08T21:51:02Z",
+        "last_timestamp": "2017-05-09T22:09:03Z",
+        "max_gap_days": 1650.6133217592592,
+        "median_gap_days": 0.09159722222222222,
+        "p90_gap_days": 4.1072800925925925,
+        "span_days": 4473.012511574074
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2761,
+      "in_measured_span_unmeasured_revisions": 860,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1901
+      },
+      "measurements": 1901,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 2,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1899,
+        "MISSING": 2
+      },
+      "repository_id": "v2-c7c657acd5ed716b76c47c1f",
+      "source_project_id": "org.apache:httpcore",
+      "unmeasured_revisions": 1703,
+      "valid_debt_values": 1901
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "192f4c92727cf5387a8043525a1e1e1533c9ac69"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 597,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 4,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "192f4c92727cf5387a8043525a1e1e1533c9ac69"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 601,
+      "history": {
+        "distinct_timestamps": 596,
+        "first_timestamp": "2001-08-23T03:38:00Z",
+        "last_timestamp": "2018-05-15T18:57:31Z",
+        "max_gap_days": 306.7037152777778,
+        "median_gap_days": 0.06376157407407407,
+        "p90_gap_days": 19.198067129629628,
+        "span_days": 6109.63855324074
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 596,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 593,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 596,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 596
+      },
+      "repository_id": "v2-f923881aac8e9e82528717b5",
+      "source_project_id": "org.apache:jxpath",
+      "unmeasured_revisions": 5,
+      "valid_debt_values": 596
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "87eda524d5250f0186594e9637938c4e4ef7497e"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1988,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 509,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "87eda524d5250f0186594e9637938c4e4ef7497e"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 2497,
+      "history": {
+        "distinct_timestamps": 2089,
+        "first_timestamp": "2002-04-03T03:11:40Z",
+        "last_timestamp": "2018-10-05T19:36:40Z",
+        "max_gap_days": 137.7629861111111,
+        "median_gap_days": 0.02542824074074074,
+        "p90_gap_days": 6.804085648148148,
+        "span_days": 6029.684027777777
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2106,
+      "in_measured_span_unmeasured_revisions": 17,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1640,
+        "NON_FIRST_PARENT": 449
+      },
+      "measurements": 2089,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2089
+      },
+      "repository_id": "v2-ef6e6b7896649c5d7b494c6f",
+      "source_project_id": "org.apache:net",
+      "unmeasured_revisions": 408,
+      "valid_debt_values": 2089
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "8f87ffb3d6759c4a2f24187228369adb35e42461"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 637,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 108,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "8f87ffb3d6759c4a2f24187228369adb35e42461"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 745,
+      "history": {
+        "distinct_timestamps": 608,
+        "first_timestamp": "2011-05-05T09:38:09Z",
+        "last_timestamp": "2018-06-08T19:27:28Z",
+        "max_gap_days": 826.8405092592593,
+        "median_gap_days": 0.0030208333333333333,
+        "p90_gap_days": 0.7953472222222222,
+        "span_days": 2591.409247685185
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 608,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 559,
+        "NON_FIRST_PARENT": 49
+      },
+      "measurements": 608,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 607,
+        "MISSING": 1
+      },
+      "repository_id": "v2-ffa9f174c149662d62016404",
+      "source_project_id": "org.apache:ognl",
+      "unmeasured_revisions": 137,
+      "valid_debt_values": 608
+    },
+    {
+      "ancestry": {
+        "boundary": "AMBIGUOUS_TIPS",
+        "candidate_tips": [
+          "83ea8fa047b709c123eb01bb4f4c867d203194ac",
+          "95508b6a4ab351f3968def9b295b2b1e6a2fc208"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 0,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 5746,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": null
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 5746,
+      "history": {
+        "distinct_timestamps": 2718,
+        "first_timestamp": "2001-09-28T17:52:10Z",
+        "last_timestamp": "2018-10-15T13:22:16Z",
+        "max_gap_days": 81.69694444444444,
+        "median_gap_days": 0.13405092592592593,
+        "p90_gap_days": 6.393321759259259,
+        "span_days": 6225.812569444444
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 5512,
+      "in_measured_span_unmeasured_revisions": 2794,
+      "mainline_status_counts": {
+        "UNRESOLVED_MAINLINE": 2718
+      },
+      "measurements": 2718,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2715,
+        "MISSING": 3
+      },
+      "repository_id": "v2-c3fa193dff7edf6a083b917a",
+      "source_project_id": "org.apache:santuario",
+      "unmeasured_revisions": 3028,
+      "valid_debt_values": 2718
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "cb808fcb79d03028c6138891381689e1ef4e4a94"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 6144,
+        "first_parent_inversion_indices": [
+          1,
+          2,
+          3082,
+          3591,
+          4207,
+          4210
+        ],
+        "first_parent_timestamp_inversions": 6,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 242,
+        "parent_timestamp_inversions": 6,
+        "selected_tip": "cb808fcb79d03028c6138891381689e1ef4e4a94"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 6386,
+      "history": {
+        "distinct_timestamps": 1944,
+        "first_timestamp": "2008-05-16T20:33:47Z",
+        "last_timestamp": "2012-11-16T01:22:47Z",
+        "max_gap_days": 25.097743055555554,
+        "median_gap_days": 0.031296296296296294,
+        "p90_gap_days": 2.6205439814814815,
+        "span_days": 1644.2006944444445
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2003,
+      "in_measured_span_unmeasured_revisions": 59,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1942,
+        "NON_FIRST_PARENT": 2
+      },
+      "measurements": 1944,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1943,
+        "MISSING": 1
+      },
+      "repository_id": "v2-556b3377a89d05e158d872ab",
+      "source_project_id": "org.apache:thrift",
+      "unmeasured_revisions": 4442,
+      "valid_debt_values": 1944
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d85190a2493e61e27bd376f649bd8bf4245af2bd"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 1521,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 27,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "d85190a2493e61e27bd376f649bd8bf4245af2bd"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 1548,
+      "history": {
+        "distinct_timestamps": 1340,
+        "first_timestamp": "2002-01-06T05:03:47Z",
+        "last_timestamp": "2018-10-07T01:19:13Z",
+        "max_gap_days": 456.21980324074076,
+        "median_gap_days": 0.027430555555555555,
+        "p90_gap_days": 8.95806712962963,
+        "span_days": 6117.844050925926
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 1344,
+      "in_measured_span_unmeasured_revisions": 4,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 1336,
+        "NON_FIRST_PARENT": 4
+      },
+      "measurements": 1340,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 4,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 1339,
+        "MISSING": 1
+      },
+      "repository_id": "v2-6e8bf5660f0d3e6cb729d4e5",
+      "source_project_id": "org.apache:validator",
+      "unmeasured_revisions": 208,
+      "valid_debt_values": 1340
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d05ce25c0773ca80cd3e3f6993c9be41387d158d"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 3023,
+        "first_parent_inversion_indices": [],
+        "first_parent_timestamp_inversions": 0,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 51,
+        "parent_timestamp_inversions": 0,
+        "selected_tip": "d05ce25c0773ca80cd3e3f6993c9be41387d158d"
+      },
+      "distinct_profile_hashes": 2,
+      "git_commits": 3074,
+      "history": {
+        "distinct_timestamps": 2079,
+        "first_timestamp": "2002-07-17T10:23:44Z",
+        "last_timestamp": "2018-09-27T15:55:26Z",
+        "max_gap_days": 123.6947800925926,
+        "median_gap_days": 0.01867476851851852,
+        "p90_gap_days": 6.788518518518519,
+        "span_days": 5916.230347222222
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 2079,
+      "in_measured_span_unmeasured_revisions": 0,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 2076,
+        "NON_FIRST_PARENT": 3
+      },
+      "measurements": 2079,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 3,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 2079
+      },
+      "repository_id": "v2-dbf56f245864a6282bf22bca",
+      "source_project_id": "org.apache:vfs",
+      "unmeasured_revisions": 995,
+      "valid_debt_values": 2079
+    },
+    {
+      "ancestry": {
+        "boundary": null,
+        "candidate_tips": [
+          "d6b50ad739a49226e97ff28d68be605e1fa36fe5"
+        ],
+        "cyclic_or_cycle_dependent_nodes": 0,
+        "first_parent_commits": 2361,
+        "first_parent_inversion_indices": [
+          1
+        ],
+        "first_parent_timestamp_inversions": 1,
+        "missing_parent_edges": 0,
+        "missing_parent_examples": [],
+        "non_first_parent_commits": 0,
+        "parent_timestamp_inversions": 1,
+        "selected_tip": "d6b50ad739a49226e97ff28d68be605e1fa36fe5"
+      },
+      "distinct_profile_hashes": 1,
+      "git_commits": 2361,
+      "history": {
+        "distinct_timestamps": 222,
+        "first_timestamp": "2014-07-23T18:17:17Z",
+        "last_timestamp": "2016-12-21T22:32:01Z",
+        "max_gap_days": 76.75554398148148,
+        "median_gap_days": 1.3643055555555557,
+        "p90_gap_days": 10.203796296296296,
+        "span_days": 882.1768981481481
+      },
+      "horizon_screening": {
+        "30": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "60": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        },
+        "90": {
+          "eligible_origins": null,
+          "endpoint_pair_count": null,
+          "span_covers_90_context_plus_horizon": true,
+          "status": "NOT_EVALUATED_NO_FUTURE_LABELS"
+        }
+      },
+      "in_measured_span_commits": 242,
+      "in_measured_span_unmeasured_revisions": 20,
+      "mainline_status_counts": {
+        "FIRST_PARENT": 222
+      },
+      "measurements": 222,
+      "missing_debt_values": 0,
+      "observed_domain_chronology_segments": 1,
+      "profile_status_counts": {
+        "KNOWN_METADATA_ONLY": 222
+      },
+      "repository_id": "v2-ee509b04a361090a82e3aaaa",
+      "source_project_id": "org.apache:zookeeper",
+      "unmeasured_revisions": 2139,
+      "valid_debt_values": 222
+    }
+  ],
+  "schema": {
+    "GIT_COMMITS": [
+      "PROJECT_ID",
+      "COMMIT_HASH",
+      "COMMIT_MESSAGE",
+      "AUTHOR",
+      "AUTHOR_DATE",
+      "AUTHOR_TIMEZONE",
+      "COMMITTER",
+      "COMMITTER_DATE",
+      "COMMITTER_TIMEZONE",
+      "BRANCHES",
+      "IN_MAIN_BRANCH",
+      "MERGE",
+      "PARENTS"
+    ],
+    "SONAR_ANALYSIS": [
+      "PROJECT_ID",
+      "ANALYSIS_KEY",
+      "DATE",
+      "REVISION"
+    ],
+    "SONAR_MEASURES": [
+      "PROJECT_ID",
+      "ANALYSIS_KEY",
+      "COMPLEXITY",
+      "FILE_COMPLEXITY",
+      "COMPLEXITY_IN_CLASSES",
+      "CLASS_COMPLEXITY",
+      "COMPLEXITY_IN_FUNCTIONS",
+      "FUNCTION_COMPLEXITY",
+      "CLASS_COMPLEXITY_DISTRIBUTION",
+      "FUNCTION_COMPLEXITY_DISTRIBUTION",
+      "FILE_COMPLEXITY_DISTRIBUTION",
+      "XS",
+      "XS_PERCENT",
+      "TANGLE_DESIGN",
+      "FAT_CLASS",
+      "FAT_DESIGN",
+      "FAT_LEAF_PACKAGE",
+      "FAT_METHOD",
+      "COGNITIVE_COMPLEXITY",
+      "TESTS",
+      "TEST_EXECUTION_TIME",
+      "TEST_ERRORS",
+      "SKIPPED_TESTS",
+      "TEST_FAILURES",
+      "TEST_SUCCESS_DENSITY",
+      "TEST_DATA",
+      "COVERAGE",
+      "NEW_COVERAGE",
+      "LINES_TO_COVER",
+      "NEW_LINES_TO_COVER",
+      "UNCOVERED_LINES",
+      "NEW_UNCOVERED_LINES",
+      "LINE_COVERAGE",
+      "NEW_LINE_COVERAGE",
+      "COVERAGE_LINE_HITS_DATA",
+      "CONDITIONS_TO_COVER",
+      "NEW_CONDITIONS_TO_COVER",
+      "UNCOVERED_CONDITIONS",
+      "NEW_UNCOVERED_CONDITIONS",
+      "BRANCH_COVERAGE",
+      "NEW_BRANCH_COVERAGE",
+      "CONDITIONS_BY_LINE",
+      "COVERED_CONDITIONS_BY_LINE",
+      "IT_COVERAGE",
+      "NEW_IT_COVERAGE",
+      "IT_LINES_TO_COVER",
+      "NEW_IT_LINES_TO_COVER",
+      "IT_UNCOVERED_LINES",
+      "NEW_IT_UNCOVERED_LINES",
+      "IT_LINE_COVERAGE",
+      "NEW_IT_LINE_COVERAGE",
+      "IT_COVERAGE_LINE_HITS_DATA",
+      "IT_CONDITIONS_TO_COVER",
+      "NEW_IT_CONDITIONS_TO_COVER",
+      "IT_UNCOVERED_CONDITIONS",
+      "NEW_IT_UNCOVERED_CONDITIONS",
+      "IT_BRANCH_COVERAGE",
+      "NEW_IT_BRANCH_COVERAGE",
+      "IT_CONDITIONS_BY_LINE",
+      "IT_COVERED_CONDITIONS_BY_LINE",
+      "OVERALL_COVERAGE",
+      "NEW_OVERALL_COVERAGE",
+      "OVERALL_LINES_TO_COVER",
+      "NEW_OVERALL_LINES_TO_COVER",
+      "OVERALL_UNCOVERED_LINES",
+      "NEW_OVERALL_UNCOVERED_LINES",
+      "OVERALL_LINE_COVERAGE",
+      "NEW_OVERALL_LINE_COVEERAGE",
+      "OVERALL_COVERAGE_LINE_HITS_DATA",
+      "OVERALL_CONDITIONS_TO_COVER",
+      "NEW_OVERALL_CONDITIONS_TO_COVER",
+      "OVERALL_UNCOVERED_CONDITIONS",
+      "NEW_OVERALL_UNCOVERED_CONDITIONS",
+      "OVERALL_BRANCH_COVERAGE",
+      "NEW_OVERALL_BRANCH_COVERAGE",
+      "OVERALL_CONDITIONS_BY_LINE",
+      "OVERALL_COVERED_CONDITIONS_BY_LINE",
+      "EXECUTABLE_LINES_DATA",
+      "ARCH_VIOLATIONS",
+      "ARCH_VIOLATIONS_WEIGHTED",
+      "PUBLIC_API",
+      "PUBLIC_DOCUMENTED_API_DENSITY",
+      "PUBLIC_UNDOCUMENTED_API",
+      "COMMENTED_OUT_CODE_LINES",
+      "DUPLICATED_LINES",
+      "DUPLICATED_BLOCKS",
+      "DUPLICATED_FILES",
+      "DUPLICATED_LINES_DENSITY",
+      "DUPLICATIONS_DATA",
+      "NEW_DUPLICATED_LINES",
+      "NEW_DUPLICATED_BLOCKS",
+      "NEW_DUPLICATED_LINES_DENSITY",
+      "QUALITY_GATE_DETAILS",
+      "QUALITY_PROFILES",
+      "ARCH_DIAGRAMS",
+      "S101.BUILDBREAKER",
+      "STRUCTURE101_WEB_APPLICATION_URL",
+      "PROJECT",
+      "VIOLATIONS",
+      "BLOCKER_VIOLATIONS",
+      "CRITICAL_VIOLATIONS",
+      "MAJOR_VIOLATIONS",
+      "MINOR_VIOLATIONS",
+      "INFO_VIOLATIONS",
+      "NEW_VIOLATIONS",
+      "NEW_BLOCKER_VIOLATIONS",
+      "NEW_CRITICAL_VIOLATIONS",
+      "NEW_MAJOR_VIOLATIONS",
+      "NEW_MINOR_VIOLATIONS",
+      "NEW_INFO_VIOLATIONS",
+      "FALSE_POSITIVE_ISSUES",
+      "OPEN_ISSUES",
+      "REOPENED_ISSUES",
+      "CONFIRMED_ISSUES",
+      "WONT_FIX_ISSUES",
+      "AFFERENT_COUPLINGS",
+      "EFFERENT_COUPLINGS",
+      "NUMBER_OF_CLASSES_AND_INTERFACES",
+      "PACKAGE_DEPENDENCY_CYCLES",
+      "MISSING_PACKAGE_INFO",
+      "PACKAGE",
+      "MISSING_PACKAGE_INFO_COUNT",
+      "PACKAGE_COUNT",
+      "PACKAGE_INFO_COUNT",
+      "JAVA_COUNT",
+      "SQALE_INDEX",
+      "NEW_TECHNICAL_DEBT",
+      "SQALE_RATING",
+      "DEVELOPMENT_COST",
+      "SQALE_DEBT_RATIO",
+      "NEW_SQALE_DEBT_RATION",
+      "CODE_SMELLS",
+      "NEW_CODE_SMELLS",
+      "EFFORT_TO_REACH_MAINTAINABILITY_RATING_A",
+      "NEW_MAINTAINABILITY_RATING",
+      "BURNED_BUDGET",
+      "BUSINESS_VALUE",
+      "TEAM_SIZE",
+      "FAT_METHOD_LIST",
+      "S101_MODEL_NAME",
+      "S101_MODEL_SEQUENTIAL_ACTIONS",
+      "S101_MODEL_REFACTORING_ACTIONS",
+      "S101_MODEL_CLASS_MAPPINGS",
+      "S101_MODEL_ALIGNMENT",
+      "ALERT_STATUS",
+      "BUGS",
+      "NEW_BUGS",
+      "RELIABILITY_REMEDIATION_EFFORT",
+      "NEW_RELIABILITY_REMEDIATION_EFFORT",
+      "RELIABILITY_RATING",
+      "NEW_RELIABILITY_RATING",
+      "LAST_COMMIT_DATE",
+      "VULNERABILITIES",
+      "NEW_VULNERABILITIES",
+      "SECURITY_REMEDIATION_EFFORT",
+      "NEW_SECURITY_REMEDIATION_EFFORT",
+      "SECURITY_RATING",
+      "NEW_SECURITY_RATING",
+      "LINES",
+      "GENERATED_LINES",
+      "NCLOC",
+      "NCLOC_LANGUAGE_DISTRIBUTION",
+      "GENERATED_NCLOC",
+      "CLASSES",
+      "FILES",
+      "DIRECTORIES",
+      "FUNCTIONS",
+      "ACCESSORS",
+      "STATEMENTS",
+      "PROJECTS",
+      "COMMENT_LINES",
+      "COMMENT_LINES_DENSITY",
+      "NCLOC_DATA",
+      "COMMENT_LINES_DATA",
+      "NEW_LINES",
+      "sg_i.CORE_VIOLATIONS_COMPONENT_DEPENDENCIES",
+      "sg_i.CORE_BIGGEST_COMPONENT_CYCLE_GROUP",
+      "sg_i.CORE_UNASSIGNED_COMPONENTS",
+      "sg_i.CORE_EMPTY_ARTIFACT_COUNT",
+      "sg_i.CORE_LINES_OF_CODE",
+      "sg_i.CORE_NCCD",
+      "sg_i.CORE_DUPLICATES",
+      "sg_i.CORE_COMPONENT_DEPENDENCIES_TO_REMOVE_COMPONENTS",
+      "sg_i.CORE_CODE_COMMENT_LINES",
+      "sg_i.CORE_IGNORED_DUPLICATES",
+      "sg_i.CORE_THRESHOLD_VIOLATIONS",
+      "sg_i.CORE_COMMENT_LINES",
+      "sg_i.CORE_RELATIVE_CYCLICITY_COMPONENTS",
+      "sg_i.CORE_IGNORED_VIOLATIONS_PARSER_DEPENDENCIES",
+      "sg_i.CORE_CYCLIC_COMPONENTS",
+      "sg_i.JAVA_RELATIVE_CYCLICITY_PACKAGES",
+      "sg_i.CORE_VIOLATIONS_PARSER_DEPENDENCIES",
+      "sg_i.JAVA_COMPONENT_DEPENDENCIES_TO_REMOVE_PACKAGES",
+      "sg_i.CORE_TOTAL_LINES",
+      "sg_i.CORE_ARTIFACT_COUNT",
+      "sg_i.JAVA_IGNORED_CYCLIC_PACKAGES",
+      "sg_i.CORE_STRUCTURAL_DEBT_INDEX_COMPONENTS",
+      "sg_i.CORE_ACD",
+      "sg_i.JAVA_STRUCTURAL_DEBT_INDEX_PACKAGES",
+      "sg_i.JAVA_CYCLICITY_PACKAGES",
+      "sg_i.CORE_CCD",
+      "sg_i.CORE_VIOLATING_COMPONENTS",
+      "sg_i.JAVA_PACKAGES",
+      "sg_i.JAVA_CYCLIC_PACKAGES",
+      "sg_i.CORE_COMPONENTS",
+      "sg_i.CORE_MAX_ACD",
+      "sg_i.CORE_RACD",
+      "sg_i.CORE_COMPONENT_CYCLE_GROUPS",
+      "sg_i.CORE_PARSER_DEPENDENCIES_TO_REMOVE_COMPONENTS",
+      "sg_i.JAVA_BYTE_CODE_INSTRUCTIONS",
+      "sg_i.CORE_STATEMENTS",
+      "sg_i.JAVA_BIGGEST_PACKAGE_CYCLE_GROUP",
+      "sg_i.CORE_IGNORED_THRESHOLD_VIOLATIONS",
+      "sg_i.CORE_SOURCE_ELEMENT_COUNT",
+      "sg_i.CORE_IGNORED_CYCLIC_COMPONENTS",
+      "sg_i.JAVA_PACKAGE_CYCLE_GROUPS",
+      "sg_i.PERCENTAGEOFDEADCODE",
+      "sg_i.CORE_CYCLICITY_COMPONENTS",
+      "sg_i.CORE_DUPLICATED_LINES",
+      "sg_i.JAVA_PARSER_DEPENDENCIES_TO_REMOVE_PACKAGES",
+      "sg_i.STRUCTURAL_DEBT_COST",
+      "sg_i.CURRENT_VIRTUAL_MODEL",
+      "sg_i.VIRTUAL_MODEL_FEATURE_AVAILABLE",
+      "sg_i.NUMBER_OF_TASKS",
+      "sg_i.NUMBER_OF_UNAPPLICABLE_TASKS",
+      "sg_i.NUMBER_OF_RESOLUTIONS",
+      "sg_i.NUMBER_OF_UNAPPLICABLE_RESOLUTIONS",
+      "sg_i.NUMBER_OF_REFACTORINGS",
+      "sg_i.NUMBER_OF_UNAPPLICABLE_REFACTORINGS",
+      "sg_i.NUMBER_OF_PARSER_DEPENDENCIES_AFFECTED_BY_REFACTORINGS",
+      "sg_i.JAVA_CYCLIC_PACKAGES_PERCENT",
+      "sg_i.MAX_MODULE_NCCD",
+      "sg_i.ARCHITECTURE_FEATURE_AVAILABLE",
+      "sg_i.NUMBER_OF_ISSUES",
+      "sg_i.NUMBER_OF_CRITICAL_ISSUES_WITHOUT_RESOLUTION",
+      "sg_i.VIOLATING_COMPONENTS_PERCENT",
+      "sg_i.UNASSIGNED_COMPONENTS_PERCENT",
+      "sg_i.NUMBER_OF_THRESHOLD_VIOLATIONS",
+      "sg_i.NUMBER_OF_WORKSPACE_WARNINGS",
+      "sg_i.NUMBER_OF_IGNORED_CRITICAL_ISSUES"
+    ]
+  },
+  "source": {
+    "bytes": 1542533120,
+    "license": "CC-BY-NC-SA-4.0",
+    "release": "https://github.com/clowee/The-Technical-Debt-Dataset/releases/tag/2.0.1",
+    "sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "sha256_after": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "unchanged": true
+  },
+  "sqlite_integrity_check": [
+    "ok"
+  ],
+  "status": "PARTIAL"
+}

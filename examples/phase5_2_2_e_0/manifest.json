@@ -1,0 +1,41 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1164,
+      "path": "README.md",
+      "sha256": "3411c0482ca230092fc83ec3b852a3e155444275dc70bbb36797074bb37ca917"
+    },
+    {
+      "bytes": 1675,
+      "path": "build_execution_evidence.json",
+      "sha256": "51ad6f2d6019ad6181963f24f6996af5405a67aa8d0974123a7a78a4fee2acb8"
+    },
+    {
+      "bytes": 357,
+      "path": "class_output_manifest.json",
+      "sha256": "7e7bbc8f6794fc3583420904829ecfbe3933915e5362921e323f7a400eb940f9"
+    },
+    {
+      "bytes": 2969,
+      "path": "failure_manifest.json",
+      "sha256": "eb36b0bd5071fdc710cb2fcc5bb7623eb0f8d61bd886c47dca239542699208ca"
+    },
+    {
+      "bytes": 6202,
+      "path": "prerequisite_verification.json",
+      "sha256": "35616509aa417dd5831410766dccd8cc9cb27ec45674f49ddf563f8b865d49cc"
+    },
+    {
+      "bytes": 192,
+      "path": "resource_admission.json",
+      "sha256": "dacc1c4620bfcd028a91cb3b2d0bcfcfd86245083d92bf45702a5a1ccef5c90c"
+    },
+    {
+      "bytes": 2517,
+      "path": "verification.json",
+      "sha256": "06d72ea0b7df2149e9cd811bb258ecf19215207e975c7a909d1adff0e06766fc"
+    }
+  ],
+  "status": "BLOCKED_BUILD_OR_RESOURCE",
+  "version": "phase522e0-publication-v1"
+}

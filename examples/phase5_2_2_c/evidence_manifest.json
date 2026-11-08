@@ -1,0 +1,138 @@
+{
+  "credentials": false,
+  "published_files": [
+    {
+      "bytes": 9239,
+      "path": "tools/check_rights_dossier.py",
+      "sha256": "26ad133ca9d4838c9047b4c1bcc3393bd73500736b799d679f74ca0b1ec2bd2a"
+    },
+    {
+      "bytes": 7495,
+      "path": "tests/test_rights_dossier.py",
+      "sha256": "6510ef405f405ef9e92e806ed1ca5456a2749bda62b3b9d021f46ee5dc40f240"
+    },
+    {
+      "bytes": 16035,
+      "path": "PHASE_5_2_2_C_RIGHTS_DECISION_REPORT.md",
+      "sha256": "355ef822a6e557cbb0d778d1b493dd87f816941577bacea2cb7a7192fdcee0c5"
+    },
+    {
+      "bytes": 3370,
+      "path": "SIX_REVISION_COMPILATION_CLOSEOUT.md",
+      "sha256": "1cff032a2e20128967bb76de896a874f695dd31c51f53dfb84562e3edab1b498"
+    },
+    {
+      "bytes": 7785,
+      "path": "examples/phase5_2_2_c/CONDITIONAL_NEXT_STEPS.md",
+      "sha256": "ba25815b155e2e32733ba5b13ca85e833c21f07cfd0f0646ec6372dc3a46c8f9"
+    },
+    {
+      "bytes": 9300,
+      "path": "examples/phase5_2_2_c/HUMAN_DECISIONS.md",
+      "sha256": "b4d0b7e09baa412bb9495ee31e217c2315c5f1d3d1f3057a2171b7b9aff3019d"
+    },
+    {
+      "bytes": 7977,
+      "path": "examples/phase5_2_2_c/INTENDED_USE_AND_FIELDS.md",
+      "sha256": "f8833d966292f807022de80590e3276709b98f41842936b4fccbefef1529ebbf"
+    },
+    {
+      "bytes": 5484,
+      "path": "examples/phase5_2_2_c/LICENSING_CLARIFICATION_DRAFT.md",
+      "sha256": "a3cb60511da857a4857344ae9ed4a3cbadb31c90399fc0268f449b175cf5e6a1"
+    },
+    {
+      "bytes": 3566,
+      "path": "examples/phase5_2_2_c/LICENSING_EVIDENCE_MATRIX.md",
+      "sha256": "796071a7d1f9b84b4d35d717653dc5cc5900c233cdd1779a615a768d3f941e60"
+    },
+    {
+      "bytes": 2377,
+      "path": "examples/phase5_2_2_c/NEXT_ACTION_HANDOFF.md",
+      "sha256": "48820c71a74bd2df2b48175dcd967757716e5076402291d6096aea61fb2809db"
+    },
+    {
+      "bytes": 987,
+      "path": "examples/phase5_2_2_c/README.md",
+      "sha256": "533111f02dbd711ac4197a27755f2e3722175df396ef1a3dd6b1b8b00136cb3d"
+    },
+    {
+      "bytes": 6417,
+      "path": "examples/phase5_2_2_c/RUNTIME_DOMAIN_PREREQUISITES.md",
+      "sha256": "2fae121fcfd232ea592719c97699c657f0c67abc75fed5d5c569ad27854cc1c6"
+    },
+    {
+      "bytes": 630,
+      "path": "examples/phase5_2_2_c/compilation_closeout_reference.json",
+      "sha256": "ea37960eec07345a215f17212691536a5adf084439100d12c899a214fe8fa9aa"
+    },
+    {
+      "bytes": 34957,
+      "path": "examples/phase5_2_2_c/data_field_rights_matrix.json",
+      "sha256": "009131b6530acf783db09a4e9105723f8d0cf3b4949d8af840f82b06f5e13aa1"
+    },
+    {
+      "bytes": 960,
+      "path": "examples/phase5_2_2_c/dossier_readiness.json",
+      "sha256": "00e49aacf3939dbef8f881e226d568b411fde1cb10c91c48269256f76fb43c5e"
+    },
+    {
+      "bytes": 5342,
+      "path": "examples/phase5_2_2_c/evidence_index.json",
+      "sha256": "2c8b665011bcea4906b3635b05c31d0a53eb32f28e5e8de616aeef3f2f57887e"
+    },
+    {
+      "bytes": 1140,
+      "path": "examples/phase5_2_2_c/evidence_verification.json",
+      "sha256": "527873e3b3d19114a68ff1a56380fcfb8f37134392ba58ba6856e48e8b257dcf"
+    },
+    {
+      "bytes": 48334,
+      "path": "examples/phase5_2_2_c/human_permission_checklist.json",
+      "sha256": "89f7b96cb6c2f98b8ba3d28efd014a6ddfebad1c13a31b5ea7d2c7eb3aa3f2e5"
+    },
+    {
+      "bytes": 10549,
+      "path": "examples/phase5_2_2_c/intended_use_matrix.json",
+      "sha256": "47b19ae593126f2b222f64d6189c28d8d856e3c7d7ceb508254f4ead998a8f56"
+    },
+    {
+      "bytes": 11345,
+      "path": "examples/phase5_2_2_c/licensing_evidence_matrix.json",
+      "sha256": "9036f8b6ab20279b6683b0ff9391959033137e66124040fd1b72582ab684b250"
+    },
+    {
+      "bytes": 1729,
+      "path": "examples/phase5_2_2_c/preservation.json",
+      "sha256": "5a95f3140f24b2d486b0b1504f17d960c6621e3db4ae51fa70075d253c06596d"
+    },
+    {
+      "bytes": 1226,
+      "path": "examples/phase5_2_2_c/resource_and_operation_receipt.json",
+      "sha256": "a70d01241d26f688bd229bb906fdc09e09bdb3e28fcdd8492faaee3518dd08f3"
+    },
+    {
+      "bytes": 18654,
+      "path": "examples/phase5_2_2_c/runtime_prerequisites.json",
+      "sha256": "9311d2913c07ffc5f335f0687126ec9c260547c796390743dcd700acbb7e00d5"
+    },
+    {
+      "bytes": 21319,
+      "path": "examples/phase5_2_2_c/source_and_scope_reference.json",
+      "sha256": "3cc47663a2cf31dee80733fb312bdf6162305530971fbec94d6bcb49cf1c7605"
+    },
+    {
+      "bytes": 4610,
+      "path": "examples/phase5_2_2_c/source_states_preservation.json",
+      "sha256": "26dc51fcf236c5f38bd59a07264dc6843d21c8e9d3389e66dbff39f6c1ffe57b"
+    },
+    {
+      "bytes": 4061,
+      "path": "examples/phase5_2_2_c/verification.json",
+      "sha256": "2e58b75e2d757029356fa3299dce36921331615a975ae3b16d82c3e8946ede22"
+    }
+  ],
+  "raw_logs": false,
+  "status": "PASS",
+  "third_party_binaries": false
+}

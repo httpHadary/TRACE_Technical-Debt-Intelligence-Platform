@@ -1,0 +1,1910 @@
+{
+  "actual_compilation": false,
+  "actual_maven_model_sha256": null,
+  "actual_maven_plan_calculated": false,
+  "changed_compile_plugin_closure": {
+    "edges": [],
+    "issues": [],
+    "roots": [],
+    "runtime_resolution": "UNKNOWN_STATIC_CANDIDATES_ONLY",
+    "unchanged_plugin_scope": "T+60 success is reuse evidence only; project metadata and all descriptors independently rechecked"
+  },
+  "legacy_unknown_phase_reconciliation": [
+    {
+      "basis": "Exact target plugin.xml default phases and original execution configuration; static only",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "legacy_required_through_compile": null,
+      "original_goal_phases": [
+        {
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate"
+        },
+        {
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate"
+        }
+      ],
+      "target_required_through_compile": true
+    },
+    {
+      "basis": "Exact target plugin.xml default phases and original execution configuration; static only",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-jar-plugin",
+        "3.4.2"
+      ],
+      "legacy_required_through_compile": null,
+      "original_goal_phases": [
+        {
+          "goal": "test-jar",
+          "id": "default",
+          "phase": "package"
+        },
+        {
+          "goal": "jar",
+          "id": "default-jar",
+          "phase": "package"
+        }
+      ],
+      "target_required_through_compile": false
+    }
+  ],
+  "plugins": [
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "f0044d79280eb3b3e4584aac2cd5bacdab22b6671ff35913065ccf4eede71b33",
+      "executions_through_compile": [
+        {
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "imports": [],
+      "jar_sha256": "8eee784fc343152b5c0b95cbc2723718770577dc49b66c734d63b9e8dcf30b3a",
+      "parent_chain": [
+        [
+          "org.apache.maven.plugins",
+          "maven-remote-resources-plugin",
+          "3.2.0"
+        ]
+      ],
+      "pom_sha256": "067e7dcc561a07aab91583a28fe0be934ecc7c6927b0bfcf6186188c5cffe2ce",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "javax.inject",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "javax.inject",
+          "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1"
+        },
+        {
+          "artifactId": "commons-lang3",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.8.1"
+        },
+        {
+          "artifactId": "plexus-interpolation",
+          "cache_present": false,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.25"
+        },
+        {
+          "artifactId": "maven-resolver-util",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.resolver",
+          "path": "org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.4.1"
+        },
+        {
+          "artifactId": "maven-archiver",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven",
+          "path": "org/apache/maven/maven-archiver/3.6.1/maven-archiver-3.6.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.6.1"
+        },
+        {
+          "artifactId": "plexus-archiver",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-archiver/4.8.0/plexus-archiver-4.8.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.8.0"
+        },
+        {
+          "artifactId": "plexus-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.1"
+        },
+        {
+          "artifactId": "commons-compress",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.23.0"
+        },
+        {
+          "artifactId": "snappy",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.iq80.snappy",
+          "path": "org/iq80/snappy/snappy/0.4/snappy-0.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.4"
+        },
+        {
+          "artifactId": "xz",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.tukaani",
+          "path": "org/tukaani/xz/1.9/xz-1.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.9"
+        },
+        {
+          "artifactId": "zstd-jni",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.github.luben",
+          "path": "com/github/luben/zstd-jni/1.5.5-5/zstd-jni-1.5.5-5.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.5.5-5"
+        },
+        {
+          "artifactId": "maven-filtering",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-filtering/3.3.2/maven-filtering-3.3.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.3.2"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "plexus-build-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.sonatype.plexus",
+          "path": "org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.7"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.15.1"
+        },
+        {
+          "artifactId": "maven-common-artifact-filters",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.3.2"
+        },
+        {
+          "artifactId": "plexus-resources",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-resources/1.3.0/plexus-resources-1.3.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.3.0"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.0"
+        },
+        {
+          "artifactId": "plexus-xml",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.0.0"
+        },
+        {
+          "artifactId": "velocity-engine-core",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.velocity",
+          "path": "org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.3"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "0a8c855bd5c303b3f9ce2cc0f63ba749a8504fb8e0256ab1a35c0f14e0d03287",
+      "executions_through_compile": [
+        {
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate"
+        },
+        {
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "be757f04f006348df247dcf235ca45a292fe4472b969fddf38ec2c6a70c4d964",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "32"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "42"
+        ],
+        [
+          "org.apache.maven.enforcer",
+          "enforcer",
+          "3.5.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ]
+      ],
+      "pom_sha256": "f6c0fb5ac4bd107a81df225f63e07997ad76ddf89c29b996cd22652fa20a74a7",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "maven-resolver-util",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.resolver",
+          "path": "org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.4.1"
+        },
+        {
+          "artifactId": "commons-lang3",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.14.0"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.1"
+        },
+        {
+          "artifactId": "plexus-xml",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.0.0"
+        },
+        {
+          "artifactId": "enforcer-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.enforcer",
+          "path": "org/apache/maven/enforcer/enforcer-api/3.5.0/enforcer-api-3.5.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.5.0"
+        },
+        {
+          "artifactId": "enforcer-rules",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.enforcer",
+          "path": "org/apache/maven/enforcer/enforcer-rules/3.5.0/enforcer-rules-3.5.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.5.0"
+        },
+        {
+          "artifactId": "commons-codec",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-codec",
+          "path": "commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.17.0"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.16.1/commons-io-2.16.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.16.1"
+        },
+        {
+          "artifactId": "bsh",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache-extras.beanshell",
+          "path": "org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.0b6"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "74465d2421ea68fd7fda9752858e82bdf737e5d05dc72ebd9f2fc2c9d6ac887d",
+      "executions_through_compile": [
+        {
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "imports": [],
+      "jar_sha256": "8ae8f570b8f4ea46fa7f3df27f22ce4c6b6c1f387a6eaeefae6c896aebae1455",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "23"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "34"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "34"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-antrun-plugin",
+          "3.1.0"
+        ]
+      ],
+      "pom_sha256": "978469f5d7558b1a82f596bdd6984e3137a3c0fc1c7af76f1a62824307dfb14e",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.1"
+        },
+        {
+          "artifactId": "ant",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.ant",
+          "path": "org/apache/ant/ant/1.10.12/ant-1.10.12.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.10.12"
+        },
+        {
+          "artifactId": "ant-launcher",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.ant",
+          "path": "org/apache/ant/ant-launcher/1.10.12/ant-launcher-1.10.12.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.10.12"
+        },
+        {
+          "artifactId": "tools",
+          "cache_present": false,
+          "classifier": null,
+          "groupId": "com.sun",
+          "path": "com/sun/tools/1.8.0/tools-1.8.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.8.0"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "cdd204901521f3a859b7c90a022f8192f1a34ad9cb14e68edf18efd1b440bbbc",
+      "executions_through_compile": [
+        {
+          "goal": "compile",
+          "id": "default-compile",
+          "phase": "compile"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "imports": [],
+      "jar_sha256": "6f819947a2a773792dc91d17f906e22113bfb2fefb6b64dec836175715d7402a",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-compiler-plugin",
+          "3.13.0"
+        ]
+      ],
+      "pom_sha256": "0d00b84f26ff5f3e845bf349302345633ca65f8d8e9101b31082082415912c1e",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "javax.inject",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "javax.inject",
+          "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1"
+        },
+        {
+          "artifactId": "maven-shared-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.2"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.11.0"
+        },
+        {
+          "artifactId": "maven-shared-incremental",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.1"
+        },
+        {
+          "artifactId": "plexus-java",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.2.0"
+        },
+        {
+          "artifactId": "asm",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.ow2.asm",
+          "path": "org/ow2/asm/asm/9.6/asm-9.6.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "9.6"
+        },
+        {
+          "artifactId": "qdox",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.thoughtworks.qdox",
+          "path": "com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.0.3"
+        },
+        {
+          "artifactId": "plexus-compiler-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.15.0"
+        },
+        {
+          "artifactId": "plexus-compiler-manager",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.15.0"
+        },
+        {
+          "artifactId": "plexus-compiler-javac",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.15.0"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.0"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "aeea7b0d539e8ce627ab82d69432c00359dbc2b9df3b3b3131ca2fb4882e9833",
+      "executions_through_compile": [
+        {
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "imports": [],
+      "jar_sha256": "331971651bd1da6922eea4c9cc86169b9da28a07f281957bd575a50b6d9a4444",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-project",
+          "0.16.1"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-plugin",
+          "0.16.1"
+        ]
+      ],
+      "pom_sha256": "ae75978aef81bbef3ada4ee120069ea8fb6973f4708766577c8a05959ab60e41",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "apache-rat-core",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.rat",
+          "path": "org/apache/rat/apache-rat-core/0.16.1/apache-rat-core-0.16.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.16.1"
+        },
+        {
+          "artifactId": "commons-collections4",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.4"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.15.1"
+        },
+        {
+          "artifactId": "commons-compress",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.25.0"
+        },
+        {
+          "artifactId": "commons-cli",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-cli",
+          "path": "commons-cli/commons-cli/1.6.0/commons-cli-1.6.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.6.0"
+        },
+        {
+          "artifactId": "commons-beanutils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-beanutils",
+          "path": "commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.9.4"
+        },
+        {
+          "artifactId": "commons-logging",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-logging",
+          "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.2"
+        },
+        {
+          "artifactId": "plexus-interpolation",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.26"
+        },
+        {
+          "artifactId": "plexus-component-annotations",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "doxia-core",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-core/1.12.0/doxia-core-1.12.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.12.0"
+        },
+        {
+          "artifactId": "doxia-logging-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-logging-api/1.12.0/doxia-logging-api-1.12.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.12.0"
+        },
+        {
+          "artifactId": "commons-text",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.3"
+        },
+        {
+          "artifactId": "httpclient",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.httpcomponents",
+          "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.5.13"
+        },
+        {
+          "artifactId": "commons-codec",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-codec",
+          "path": "commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11"
+        },
+        {
+          "artifactId": "httpcore",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.httpcomponents",
+          "path": "org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.4.14"
+        },
+        {
+          "artifactId": "doxia-decoration-model",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.1"
+        },
+        {
+          "artifactId": "doxia-module-xhtml",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-module-xhtml/1.12.0/doxia-module-xhtml-1.12.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.12.0"
+        },
+        {
+          "artifactId": "doxia-sink-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-sink-api/1.12.0/doxia-sink-api-1.12.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.12.0"
+        },
+        {
+          "artifactId": "doxia-integration-tools",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.1"
+        },
+        {
+          "artifactId": "plexus-i18n",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.0-beta-10"
+        },
+        {
+          "artifactId": "doxia-site-renderer",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.1"
+        },
+        {
+          "artifactId": "doxia-skin-model",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.1"
+        },
+        {
+          "artifactId": "doxia-module-xhtml5",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.doxia",
+          "path": "org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.1"
+        },
+        {
+          "artifactId": "plexus-velocity",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.2"
+        },
+        {
+          "artifactId": "velocity",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.velocity",
+          "path": "org/apache/velocity/velocity/1.7/velocity-1.7.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7"
+        },
+        {
+          "artifactId": "commons-lang",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-lang",
+          "path": "commons-lang/commons-lang/2.4/commons-lang-2.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.4"
+        },
+        {
+          "artifactId": "velocity-tools",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.velocity",
+          "path": "org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.0"
+        },
+        {
+          "artifactId": "commons-digester",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-digester",
+          "path": "commons-digester/commons-digester/1.8/commons-digester-1.8.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.8"
+        },
+        {
+          "artifactId": "commons-chain",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-chain",
+          "path": "commons-chain/commons-chain/1.1/commons-chain-1.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.1"
+        },
+        {
+          "artifactId": "dom4j",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "dom4j",
+          "path": "dom4j/dom4j/1.1/dom4j-1.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.1"
+        },
+        {
+          "artifactId": "oro",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "oro",
+          "path": "oro/oro/2.0.8/oro-2.0.8.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.0.8"
+        },
+        {
+          "artifactId": "commons-collections",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-collections",
+          "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.2.2"
+        },
+        {
+          "artifactId": "maven-reporting-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.reporting",
+          "path": "org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.1.1"
+        },
+        {
+          "artifactId": "maven-shared-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.2"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.5.1"
+        },
+        {
+          "artifactId": "commons-lang3",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.14.0"
+        },
+        {
+          "artifactId": "gitignore-reader",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "nl.basjes.gitignore",
+          "path": "nl/basjes/gitignore/gitignore-reader/1.3.1/gitignore-reader-1.3.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.3.1"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "3ef3ebcc346fef156304b26fb8f03913a4b27848b4c58d56bd4db67384ca526d",
+      "executions_through_compile": [
+        {
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "imports": [],
+      "jar_sha256": "e4b0a098f12d466bda92b2430169ac713f67499dd1a4c508df3c2983be5a2553",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-artifact-plugin",
+          "3.5.1"
+        ]
+      ],
+      "pom_sha256": "4800d581465af933230e84e8929e455bff4c6e93547a2c5eefab4af3bb3194d1",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "javax.inject",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "javax.inject",
+          "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1"
+        },
+        {
+          "artifactId": "plexus-interpolation",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.21"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.0"
+        },
+        {
+          "artifactId": "plexus-xml",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.0.0"
+        },
+        {
+          "artifactId": "maven-shared-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.2"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.11.0"
+        },
+        {
+          "artifactId": "maven-archiver",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven",
+          "path": "org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.6.0"
+        },
+        {
+          "artifactId": "plexus-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4.0"
+        },
+        {
+          "artifactId": "plexus-archiver",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.4.0"
+        },
+        {
+          "artifactId": "commons-codec",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-codec",
+          "path": "commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.15"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "c57b0aa534989437dc85dcd84af10c7021100a6e6b8222efeb509b7fe315db07",
+      "executions_through_compile": [
+        {
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate"
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "35922fb87521601144fe0b24b812d76a906df65aaa53d6f95962369fd39f4e74",
+      "parent_chain": [
+        [
+          "org.codehaus.mojo",
+          "mojo-parent",
+          "82"
+        ],
+        [
+          "org.codehaus.mojo",
+          "build-helper-maven-plugin",
+          "3.6.0"
+        ]
+      ],
+      "pom_sha256": "3b8d3deb8f631259f2938af05d26a1ec05b34e5811ef7fd96f68d73bd259f558",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.1"
+        },
+        {
+          "artifactId": "bsh",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache-extras.beanshell",
+          "path": "org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.0b6"
+        },
+        {
+          "artifactId": "file-management",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.1.0"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.11.0"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "355bb111fc76b6e07c0c0829d9414a35ae16907393e65c26927667d1924b5327",
+      "executions_through_compile": [
+        {
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources"
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.3"
+        ]
+      ],
+      "jar_sha256": "8c13ed2378d148f1365df55e6c5a8c639eb89bfc6479c2d1513e1ac63d135902",
+      "parent_chain": [
+        [
+          "org.codehaus.mojo",
+          "mojo-parent",
+          "85"
+        ],
+        [
+          "org.codehaus.mojo",
+          "buildnumber-maven-plugin",
+          "3.2.1"
+        ]
+      ],
+      "pom_sha256": "88bcb123279006ca54959eab96897d0f03347c7dfb329921dd3f09e394b120e9",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "javax.inject",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "javax.inject",
+          "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1"
+        },
+        {
+          "artifactId": "commons-lang3",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.8.1"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "maven-scm-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-api/2.1.0/maven-scm-api-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-manager-plexus",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-manager-plexus/2.1.0/maven-scm-manager-plexus-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-svnexe",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-provider-svnexe/2.1.0/maven-scm-provider-svnexe-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-gitexe",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-provider-gitexe/2.1.0/maven-scm-provider-gitexe-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.16.1/commons-io-2.16.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.16.1"
+        },
+        {
+          "artifactId": "commons-text",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.11.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-git-commons",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-provider-git-commons/2.1.0/maven-scm-provider-git-commons-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-svn-commons",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-provider-svn-commons/2.1.0/maven-scm-provider-svn-commons-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-hg",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.scm",
+          "path": "org/apache/maven/scm/maven-scm-provider-hg/2.1.0/maven-scm-provider-hg-2.1.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.1.0"
+        },
+        {
+          "artifactId": "maven-scm-provider-svnjava",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.google.code.maven-scm-provider-svnjava",
+          "path": "com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.3.0/maven-scm-provider-svnjava-2.3.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.3.0"
+        },
+        {
+          "artifactId": "jna",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "net.java.dev.jna",
+          "path": "net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "5.12.1"
+        },
+        {
+          "artifactId": "commons-lang",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-lang",
+          "path": "commons-lang/commons-lang/2.6/commons-lang-2.6.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.6"
+        },
+        {
+          "artifactId": "svnkit",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.tmatesoft.svnkit",
+          "path": "org/tmatesoft/svnkit/svnkit/1.10.11/svnkit-1.10.11.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.10.11"
+        },
+        {
+          "artifactId": "sshd-core",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.sshd",
+          "path": "org/apache/sshd/sshd-core/2.9.2/sshd-core-2.9.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.9.2"
+        },
+        {
+          "artifactId": "jcl-over-slf4j",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.32"
+        },
+        {
+          "artifactId": "sshd-common",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.sshd",
+          "path": "org/apache/sshd/sshd-common/2.9.2/sshd-common-2.9.2.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.9.2"
+        },
+        {
+          "artifactId": "eddsa",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "net.i2p.crypto",
+          "path": "net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.3.0"
+        },
+        {
+          "artifactId": "sequence-library",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "de.regnis.q.sequence",
+          "path": "de/regnis/q/sequence/sequence-library/1.0.4/sequence-library-1.0.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.0.4"
+        },
+        {
+          "artifactId": "sqljet",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.tmatesoft.sqljet",
+          "path": "org/tmatesoft/sqljet/sqljet/1.1.15/sqljet-1.1.15.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.1.15"
+        },
+        {
+          "artifactId": "antlr-runtime",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.antlr",
+          "path": "org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.4"
+        },
+        {
+          "artifactId": "jna-platform",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "net.java.dev.jna",
+          "path": "net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "5.6.0"
+        },
+        {
+          "artifactId": "trilead-ssh2",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.trilead",
+          "path": "com/trilead/trilead-ssh2/1.0.0-build222/trilead-ssh2-1.0.0-build222.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.0.0-build222"
+        },
+        {
+          "artifactId": "jsch.agentproxy.connector-factory",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.core",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.usocket-jna",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.usocket-nc",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.sshagent",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.pageant",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "jsch.agentproxy.svnkit-trilead-ssh2",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.jcraft",
+          "path": "com/jcraft/jsch.agentproxy.svnkit-trilead-ssh2/0.0.9/jsch.agentproxy.svnkit-trilead-ssh2-0.0.9.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.9"
+        },
+        {
+          "artifactId": "lz4-java",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.lz4",
+          "path": "org/lz4/lz4-java/1.4.1/lz4-java-1.4.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.4.1"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "4.0.1"
+        },
+        {
+          "artifactId": "plexus-xml",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.0.1"
+        },
+        {
+          "artifactId": "plexus-sec-dispatcher",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.sonatype.plexus",
+          "path": "org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.4"
+        },
+        {
+          "artifactId": "plexus-cipher",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.sonatype.plexus",
+          "path": "org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.4"
+        },
+        {
+          "artifactId": "gson",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.google.code.gson",
+          "path": "com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.11.0"
+        },
+        {
+          "artifactId": "error_prone_annotations",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "com.google.errorprone",
+          "path": "com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.27.0"
+        }
+      ]
+    },
+    {
+      "actual_execution": "NOT_EXECUTED_FOR_TPLUS90",
+      "actual_runtime_classpath": "UNKNOWN_NOT_EXECUTED",
+      "descriptor_sha256": "d95f2e70f7e8d7027fc14b5785005407fbe2e02a9e7209750bc9ddbd9c2fe166",
+      "executions_through_compile": [
+        {
+          "goal": "resources",
+          "id": "default-resources",
+          "phase": "process-resources"
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "imports": [],
+      "jar_sha256": "eb4069c7fe50a313b3f5295ccd214f30402f63971c26f443f7f3e798be8cc2a7",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "29"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "39"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "39"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-resources-plugin",
+          "3.3.1"
+        ]
+      ],
+      "pom_sha256": "3269d0a6e3cd614a29486f57fc86488b0f1e458a11bebc61f9408fd6c7cf85ae",
+      "reuse_basis": "Same pinned plugin version as independently successful T+60; target project configuration separately compared",
+      "runtime_declarations": [
+        {
+          "artifactId": "plexus-interpolation",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.26"
+        },
+        {
+          "artifactId": "plexus-utils",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.codehaus.plexus",
+          "path": "org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.5.1"
+        },
+        {
+          "artifactId": "maven-filtering",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.maven.shared",
+          "path": "org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.3.1"
+        },
+        {
+          "artifactId": "javax.inject",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "javax.inject",
+          "path": "javax/inject/javax.inject/1/javax.inject-1.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1"
+        },
+        {
+          "artifactId": "slf4j-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.slf4j",
+          "path": "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "1.7.36"
+        },
+        {
+          "artifactId": "plexus-build-api",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.sonatype.plexus",
+          "path": "org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "0.0.7"
+        },
+        {
+          "artifactId": "commons-io",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "commons-io",
+          "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "2.11.0"
+        },
+        {
+          "artifactId": "commons-lang3",
+          "cache_present": true,
+          "classifier": null,
+          "groupId": "org.apache.commons",
+          "path": "org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+          "status": "UNKNOWN_RUNTIME_RESOLUTION_NOT_EXECUTED",
+          "type": "jar",
+          "version": "3.12.0"
+        }
+      ]
+    }
+  ],
+  "registered_candidate_reference_count": 318,
+  "status": "STATIC_ONLY"
+}

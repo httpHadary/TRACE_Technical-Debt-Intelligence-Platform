@@ -1,0 +1,66 @@
+{
+  "actuals": [
+    {
+      "components": {
+        "maintainability": 7,
+        "reliability": 2,
+        "security": 1
+      },
+      "domain_id": "analyzer-v2",
+      "endpoint_revision": "0000000000000000000000000000000000000006",
+      "endpoint_revision_index": 6,
+      "forecast_id": "03b3bc797ba64a52fa98c4045a814c18fa30beb552933680560e3ff8a9107e6b",
+      "horizon": 30,
+      "horizon_unit": "elapsed_day",
+      "observed_utc": "2024-02-05T00:00:00Z",
+      "origin_observation_id": "synthetic-demo-6",
+      "repository_id": "synthetic-demo",
+      "scope_id": "production-v2",
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "components": {
+        "maintainability": 7,
+        "reliability": 2,
+        "security": 1
+      },
+      "domain_id": "analyzer-v2",
+      "endpoint_revision": "0000000000000000000000000000000000000006",
+      "endpoint_revision_index": 6,
+      "forecast_id": "53c9b1e1bcb771a72e11e8d7339b7eee86d66b4d5ef26951ab5cf2698022a000",
+      "horizon": 60,
+      "horizon_unit": "elapsed_day",
+      "observed_utc": "2024-03-06T00:00:00Z",
+      "origin_observation_id": "synthetic-demo-6",
+      "repository_id": "synthetic-demo",
+      "scope_id": "production-v2",
+      "target": "native_total_principal_minutes"
+    },
+    {
+      "components": {
+        "maintainability": 9,
+        "reliability": 2,
+        "security": 1
+      },
+      "domain_id": "analyzer-v2",
+      "endpoint_revision": "0000000000000000000000000000000000000009",
+      "endpoint_revision_index": 9,
+      "forecast_id": "67f348478f7449a8cc67f5b5e15c92689381eff413c5d2db3af93d074a3b41f2",
+      "horizon": 3,
+      "horizon_unit": "revision_step",
+      "observed_utc": "2024-03-09T00:00:00Z",
+      "origin_observation_id": "synthetic-demo-6",
+      "repository_id": "synthetic-demo",
+      "scope_id": "production-v2",
+      "target": "native_total_principal_minutes"
+    }
+  ],
+  "source": {
+    "description": "Invented software-validation observations; no current scan or predictive validation.",
+    "kind": "SYNTHETIC",
+    "permission": "Synthetic example made for redistribution; no imported-source rights inferred.",
+    "provenance": "SOFTWARE_VALIDATION_ONLY: hand-authored component minutes and revision identities.",
+    "source_id": "synthetic-actuals-v1"
+  },
+  "version": "persistence.actuals.v1"
+}

@@ -1,0 +1,70 @@
+{
+  "build_container_starts": 1,
+  "claims_about_missing_dependencies": false,
+  "compiler_invocations": 0,
+  "downloads": 0,
+  "maven_invocations": 0,
+  "model_runs": 0,
+  "preservation": {
+    "cached_reference_artifacts_rehashed": 75,
+    "central_preexisting_files": 454,
+    "existing_cache_entries_preserved": 5878,
+    "fresh_seed_artifacts_verified": 653,
+    "fresh_source_files_verified": 117,
+    "frozen_artifacts": 322,
+    "frozen_bundles": 56,
+    "old_server_state_and_mounts_unchanged": true,
+    "original_task_d1_cache_files_unchanged": 615,
+    "original_task_d1_request_accounting": 400,
+    "original_task_d2_cache_files_unchanged": 630,
+    "original_task_d2_request_accounting": 52,
+    "original_task_d3_files_unchanged": 842,
+    "original_task_d3_helper_requests": 112,
+    "original_task_d_cache_files_unchanged": 1378,
+    "original_task_d_request_accounting": 2000,
+    "peak_rss_kib": 32116,
+    "phase5_1_bundles": 2,
+    "preexisting_containers_and_volumes_preserved": true,
+    "runtime_cache_verified": 653,
+    "source_db_and_checkpoint_hashes_verified": true,
+    "source_tree_preserved": true,
+    "status": "PASS",
+    "task_containers_remaining": 0,
+    "task_d3_containers_remaining": 0,
+    "task_e0_containers_remaining": 0,
+    "temporary_binaries_remaining": 0,
+    "unfinished_untracked_files_preserved": 4,
+    "working_original_head": "2e7999ea436d49449652e6c52e9066ef2e514419",
+    "working_preexisting_files": 365
+  },
+  "retries": 0,
+  "scans": 0,
+  "source_sha256": {
+    "tests/test_phase5_2_2_e_0_compilation.py": "b265282bf392a74e0f0fb869f35589b759e7091cb5e33b762109a9746d3d8d6d",
+    "tools/compile_phase5_2_2_e_0.py": "21ea6454193b18cf98f660c00fcecb53c3b3f5c3b82b6f972d1668be34ab7f5b"
+  },
+  "status": "PASS_REGRESSION_AND_PRESERVATION_ONLY",
+  "task_status": "BLOCKED_BUILD_OR_RESOURCE",
+  "tests": [
+    {
+      "checkout": "central",
+      "failed": 0,
+      "junit_sha256": "f0a35003ccd3ce2fa74dfbf5d0c150f25a88a9cec38e444fe359a305066c2f7a",
+      "log_sha256": "cdc917c8990a431da6a139248048e536b194ac8b0db31c9ae7484d72c0e06844",
+      "new_cases": 20,
+      "passed": 333,
+      "seconds": 19.52,
+      "skipped": 0
+    },
+    {
+      "checkout": "working",
+      "failed": 0,
+      "junit_sha256": "e2b54fa4cf7cad5b7eaf35aa3f5e8f62f85da644e0622d6bf9cb9980f9972f55",
+      "log_sha256": "3bbd028cb80e0a7d15cc56882740fd7d04c96b13284d573cdf816cbe40d9c8a0",
+      "new_cases": 20,
+      "passed": 333,
+      "seconds": 16.017,
+      "skipped": 0
+    }
+  ]
+}

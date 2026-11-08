@@ -1,0 +1,226 @@
+{
+  "active_profiles_sha256": "5c6d68f9c40f5e8c00d58b6a274e1b8b4c883a560493aa8ab2281fa7f59f82a9",
+  "commit_sha": "4ff0d4adbc2161677e71050ba23c152831f6ad83",
+  "downloads": 0,
+  "effective_pom_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "expected_lifecycle": [
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "run",
+          "id": "prepare-checkout",
+          "phase": "pre-site",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "compile",
+          "id": "default-compile",
+          "phase": "compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        },
+        {
+          "executed": false,
+          "goal": "testCompile",
+          "id": "default-testCompile",
+          "phase": "test-compile",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate",
+          "phase_origin": "CACHED_DESCRIPTOR_DEFAULT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "runtime_closure_resolved": false
+    },
+    {
+      "descriptor_artifacts_present": true,
+      "executions": [
+        {
+          "executed": false,
+          "goal": "testResources",
+          "id": "default-testResources",
+          "phase": "process-test-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": false
+        },
+        {
+          "executed": false,
+          "goal": "resources",
+          "id": "default-resources",
+          "phase": "process-resources",
+          "phase_origin": "EFFECTIVE_POM_EXPLICIT",
+          "required_through_compile": true
+        }
+      ],
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "runtime_closure_resolved": false
+    }
+  ],
+  "full_private_prerequisites_sha256": "79231de6752e0c484ff8e13a0ded378c972824affcb86dd4b08631c86cb7b0da",
+  "helper_artifacts": 29,
+  "historical_artifacts": 624,
+  "independent_runtime_copies": 653,
+  "old_ledgers": [
+    2000,
+    400,
+    52,
+    112
+  ],
+  "pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "source_manifest_sha256": "c80997800142730db0ab214173e1357094378ef3bd621a8c450b08e481bfb75c",
+  "tracked_files": 117,
+  "tree_sha": "ac7521be84b2820a83f7b960d329a15521408214",
+  "version": "phase522e0-prerequisites-v1"
+}

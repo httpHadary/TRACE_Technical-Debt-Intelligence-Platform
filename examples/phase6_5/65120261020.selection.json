@@ -1,0 +1,683 @@
+{
+  "30": {
+    "local": {
+      "reason": "VALIDATION_ADMITTED",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 330.28563338872056,
+            "safe": true,
+            "score": 0.09270558416507246,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 286.7303186483787,
+            "safe": true,
+            "score": 0.07948228092445123,
+            "skill": 0.14263761303823608,
+            "unchanged_normalized_error": 0.02124500062471522
+          },
+          "shrink": 0.5,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 251.91012915037217,
+            "safe": true,
+            "score": 0.0696028066247516,
+            "skill": 0.2492058892502509,
+            "unchanged_normalized_error": 0.04249000124943044
+          },
+          "shrink": 1.0,
+          "stress_risks": []
+        }
+      ],
+      "shrink": 1.0
+    },
+    "stress": {
+      "reason": "PROTECTED_FALLBACK",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 330.28563338872056,
+            "safe": true,
+            "score": 0.09270558416507246,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.10231740650169444,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 337.6821903128365,
+              "raw_mae": 337.6821903128365,
+              "safe": true,
+              "score": 0.10231740650169444,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            },
+            {
+              "adequate": true,
+              "base": 0.09270558416507246,
+              "counts": {
+                "down": 37,
+                "stable": 104,
+                "up": 39
+              },
+              "raw_base": 330.28563338872056,
+              "raw_mae": 330.28563338872056,
+              "safe": true,
+              "score": 0.09270558416507246,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 286.7303186483787,
+            "safe": true,
+            "score": 0.07948228092445123,
+            "skill": 0.14263761303823608,
+            "unchanged_normalized_error": 0.02124500062471522
+          },
+          "shrink": 0.5,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.10231740650169444,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 337.6821903128365,
+              "raw_mae": 377.84315485126916,
+              "safe": false,
+              "score": 0.11559557436519323,
+              "skill": -0.12977428100935007,
+              "unchanged_normalized_error": 0.027786051309786647
+            },
+            {
+              "adequate": true,
+              "base": 0.09270558416507246,
+              "counts": {
+                "down": 37,
+                "stable": 104,
+                "up": 39
+              },
+              "raw_base": 330.28563338872056,
+              "raw_mae": 451.63446905060476,
+              "safe": false,
+              "score": 0.1304786659053646,
+              "skill": -0.4074520653797189,
+              "unchanged_normalized_error": 0.02124500062471522
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.09270558416507246,
+            "counts": {
+              "down": 39,
+              "stable": 104,
+              "up": 37
+            },
+            "raw_base": 330.28563338872056,
+            "raw_mae": 251.91012915037217,
+            "safe": true,
+            "score": 0.0696028066247516,
+            "skill": 0.2492058892502509,
+            "unchanged_normalized_error": 0.04249000124943044
+          },
+          "shrink": 1.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.10231740650169444,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 337.6821903128365,
+              "raw_mae": 436.41421290247007,
+              "safe": false,
+              "score": 0.13238466049552255,
+              "skill": -0.29386255009630435,
+              "unchanged_normalized_error": 0.0555721026195733
+            },
+            {
+              "adequate": true,
+              "base": 0.09270558416507246,
+              "counts": {
+                "down": 37,
+                "stable": 104,
+                "up": 39
+              },
+              "raw_base": 330.28563338872056,
+              "raw_mae": 582.8023755802965,
+              "safe": false,
+              "score": 0.1697270908527874,
+              "skill": -0.830818417049934,
+              "unchanged_normalized_error": 0.04249000124943044
+            }
+          ]
+        }
+      ],
+      "shrink": 0.0
+    }
+  },
+  "60": {
+    "local": {
+      "reason": "VALIDATION_ADMITTED",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 561.0095894660528,
+            "safe": true,
+            "score": 0.1665026963661383,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 448.00147485553714,
+            "safe": true,
+            "score": 0.12806474359193648,
+            "skill": 0.2308548366668911,
+            "unchanged_normalized_error": 0.018791476562748342
+          },
+          "shrink": 0.5,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 356.4768201549213,
+            "safe": true,
+            "score": 0.09879040284694157,
+            "skill": 0.40667385572121817,
+            "unchanged_normalized_error": 0.03758295312549669
+          },
+          "shrink": 1.0,
+          "stress_risks": []
+        }
+      ],
+      "shrink": 1.0
+    },
+    "stress": {
+      "reason": "PROTECTED_FALLBACK",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 561.0095894660528,
+            "safe": true,
+            "score": 0.1665026963661383,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.16609599977165398,
+              "counts": {
+                "down": 56,
+                "stable": 84,
+                "up": 40
+              },
+              "raw_base": 587.4428007584031,
+              "raw_mae": 587.4428007584031,
+              "safe": true,
+              "score": 0.16609599977165398,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            },
+            {
+              "adequate": true,
+              "base": 0.1665026963661383,
+              "counts": {
+                "down": 47,
+                "stable": 90,
+                "up": 43
+              },
+              "raw_base": 561.0095894660528,
+              "raw_mae": 561.0095894660528,
+              "safe": true,
+              "score": 0.1665026963661383,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 448.00147485553714,
+            "safe": true,
+            "score": 0.12806474359193648,
+            "skill": 0.2308548366668911,
+            "unchanged_normalized_error": 0.018791476562748342
+          },
+          "shrink": 0.5,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.16609599977165398,
+              "counts": {
+                "down": 56,
+                "stable": 84,
+                "up": 40
+              },
+              "raw_base": 587.4428007584031,
+              "raw_mae": 655.9875324057278,
+              "safe": false,
+              "score": 0.18428389705023168,
+              "skill": -0.10950231976436586,
+              "unchanged_normalized_error": 0.04722562212203861
+            },
+            {
+              "adequate": true,
+              "base": 0.1665026963661383,
+              "counts": {
+                "down": 47,
+                "stable": 90,
+                "up": 43
+              },
+              "raw_base": 561.0095894660528,
+              "raw_mae": 740.3650811896362,
+              "safe": false,
+              "score": 0.22373212570308842,
+              "skill": -0.34371473006721165,
+              "unchanged_normalized_error": 0.018791476562748342
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.1665026963661383,
+            "counts": {
+              "down": 43,
+              "stable": 90,
+              "up": 47
+            },
+            "raw_base": 561.0095894660528,
+            "raw_mae": 356.4768201549213,
+            "safe": true,
+            "score": 0.09879040284694157,
+            "skill": 0.40667385572121817,
+            "unchanged_normalized_error": 0.03758295312549669
+          },
+          "shrink": 1.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.16609599977165398,
+              "counts": {
+                "down": 56,
+                "stable": 84,
+                "up": 40
+              },
+              "raw_base": 587.4428007584031,
+              "raw_mae": 748.9871530193301,
+              "safe": false,
+              "score": 0.21273852120967546,
+              "skill": -0.28081664520605454,
+              "unchanged_normalized_error": 0.09445124424407722
+            },
+            {
+              "adequate": true,
+              "base": 0.1665026963661383,
+              "counts": {
+                "down": 47,
+                "stable": 90,
+                "up": 43
+              },
+              "raw_base": 561.0095894660528,
+              "raw_mae": 943.6799819041369,
+              "safe": false,
+              "score": 0.2845609318824348,
+              "skill": -0.7090469889850148,
+              "unchanged_normalized_error": 0.03758295312549669
+            }
+          ]
+        }
+      ],
+      "shrink": 0.0
+    }
+  },
+  "90": {
+    "local": {
+      "reason": "VALIDATION_ADMITTED",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 759.6334411637122,
+            "safe": true,
+            "score": 0.21872036515666715,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 561.0269560104769,
+            "safe": true,
+            "score": 0.16154774731326701,
+            "skill": 0.2613959509552207,
+            "unchanged_normalized_error": 0.01935961501429404
+          },
+          "shrink": 0.5,
+          "stress_risks": []
+        },
+        {
+          "eligible": true,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 406.3706775459338,
+            "safe": true,
+            "score": 0.12014797477086546,
+            "skill": 0.45067769667993784,
+            "unchanged_normalized_error": 0.038719230028588084
+          },
+          "shrink": 1.0,
+          "stress_risks": []
+        }
+      ],
+      "shrink": 1.0
+    },
+    "stress": {
+      "reason": "PROTECTED_FALLBACK",
+      "search": [
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 759.6334411637122,
+            "safe": true,
+            "score": 0.21872036515666715,
+            "skill": 0.0,
+            "unchanged_normalized_error": 0.0
+          },
+          "shrink": 0.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.21094707984851613,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 708.2580415395078,
+              "raw_mae": 708.2580415395078,
+              "safe": true,
+              "score": 0.21094707984851613,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            },
+            {
+              "adequate": true,
+              "base": 0.21872036515666715,
+              "counts": {
+                "down": 47,
+                "stable": 87,
+                "up": 46
+              },
+              "raw_base": 759.6334411637122,
+              "raw_mae": 759.6334411637122,
+              "safe": true,
+              "score": 0.21872036515666715,
+              "skill": 0.0,
+              "unchanged_normalized_error": 0.0
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 561.0269560104769,
+            "safe": true,
+            "score": 0.16154774731326701,
+            "skill": 0.2613959509552207,
+            "unchanged_normalized_error": 0.01935961501429404
+          },
+          "shrink": 0.5,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.21094707984851613,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 708.2580415395078,
+              "raw_mae": 806.7348517532122,
+              "safe": false,
+              "score": 0.24525781363770677,
+              "skill": -0.1626509066341646,
+              "unchanged_normalized_error": 0.06938162995313471
+            },
+            {
+              "adequate": true,
+              "base": 0.21872036515666715,
+              "counts": {
+                "down": 47,
+                "stable": 87,
+                "up": 46
+              },
+              "raw_base": 759.6334411637122,
+              "raw_mae": 998.3099098121362,
+              "safe": false,
+              "score": 0.2946072775138848,
+              "skill": -0.34695860306771453,
+              "unchanged_normalized_error": 0.01935961501429404
+            }
+          ]
+        },
+        {
+          "eligible": false,
+          "risk": {
+            "adequate": true,
+            "base": 0.21872036515666715,
+            "counts": {
+              "down": 46,
+              "stable": 87,
+              "up": 47
+            },
+            "raw_base": 759.6334411637122,
+            "raw_mae": 406.3706775459338,
+            "safe": true,
+            "score": 0.12014797477086546,
+            "skill": 0.45067769667993784,
+            "unchanged_normalized_error": 0.038719230028588084
+          },
+          "shrink": 1.0,
+          "stress_risks": [
+            {
+              "adequate": true,
+              "base": 0.21094707984851613,
+              "counts": {
+                "down": 50,
+                "stable": 89,
+                "up": 41
+              },
+              "raw_base": 708.2580415395078,
+              "raw_mae": 925.3780647000781,
+              "safe": false,
+              "score": 0.2855971747200656,
+              "skill": -0.35388067436229376,
+              "unchanged_normalized_error": 0.13876325990626942
+            },
+            {
+              "adequate": true,
+              "base": 0.21872036515666715,
+              "counts": {
+                "down": 47,
+                "stable": 87,
+                "up": 46
+              },
+              "raw_base": 759.6334411637122,
+              "raw_mae": 1273.1848930090955,
+              "safe": false,
+              "score": 0.3761483686005481,
+              "skill": -0.7197683824783161,
+              "unchanged_normalized_error": 0.038719230028588084
+            }
+          ]
+        }
+      ],
+      "shrink": 0.0
+    }
+  }
+}

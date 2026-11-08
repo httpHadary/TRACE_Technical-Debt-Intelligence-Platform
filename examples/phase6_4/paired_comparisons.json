@@ -1,0 +1,221 @@
+{
+  "records": [
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0871793309052505
+      ],
+      "family_count": 6,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.029059776968416832,
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.1528259413736286
+      ],
+      "family_count": 6,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0509419804578762,
+      "partition": "identifiability",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.2615379927157515
+      ],
+      "family_count": 6,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0871793309052505,
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.4584778241208857
+      ],
+      "family_count": 6,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.15282594137362857,
+      "partition": "ood",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        -0.03500371519718651,
+        -0.00029341648608580795
+      ],
+      "family_count": 12,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": -0.014917222499540491,
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        -0.027421599297920544,
+        0.0
+      ],
+      "family_count": 12,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": -0.011255230776260302,
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        -0.04207457829300052,
+        0.0
+      ],
+      "family_count": 12,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": -0.0168801034481332,
+      "partition": "test",
+      "replica": 64120261020
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "identifiability",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 6,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "ood",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 12,
+      "horizon": 30,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "test",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 12,
+      "horizon": 60,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "test",
+      "replica": 64120261021
+    },
+    {
+      "exploratory_family_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "family_count": 12,
+      "horizon": 90,
+      "method": "adaptive_persistence",
+      "normalized_paired_difference": 0.0,
+      "partition": "test",
+      "replica": 64120261021
+    }
+  ],
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}

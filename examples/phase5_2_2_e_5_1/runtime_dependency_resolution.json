@@ -1,0 +1,173 @@
+{
+  "actual_active_profiles": "UNAVAILABLE_NOT_ENUMERATED_BY_REGISTERED_COMPILE",
+  "actual_compile_classpath": "UNAVAILABLE_NOT_LOGGED_BY_REGISTERED_COMMAND",
+  "actual_effective_model_sha256": null,
+  "declaration_status": "STATIC_METADATA_ONLY_NOT_RUNTIME_CLASSPATH",
+  "fatal_missing_artifacts": [],
+  "nonfatal_rat_pom_warnings": [
+    {
+      "classification": "NONFATAL_MISSING_POM_WARNING",
+      "dependency_domain": "PLUGIN_METADATA_COLLECTION",
+      "evidence": "[WARNING] The POM for log4j:log4j:jar:1.2.12 is missing, no dependency information available",
+      "fatal": false,
+      "gav": [
+        "log4j",
+        "log4j",
+        "1.2.12"
+      ],
+      "observed_during": {
+        "execution": "rat-check",
+        "goal": "check",
+        "prefix": "apache-rat",
+        "version": "0.16.1"
+      },
+      "required_runtime_jar": "UNKNOWN_NOT_INFERRED_FROM_POM_WARNING"
+    },
+    {
+      "classification": "NONFATAL_MISSING_POM_WARNING",
+      "dependency_domain": "PLUGIN_METADATA_COLLECTION",
+      "evidence": "[WARNING] The POM for logkit:logkit:jar:1.0.1 is missing, no dependency information available",
+      "fatal": false,
+      "gav": [
+        "logkit",
+        "logkit",
+        "1.0.1"
+      ],
+      "observed_during": {
+        "execution": "rat-check",
+        "goal": "check",
+        "prefix": "apache-rat",
+        "version": "0.16.1"
+      },
+      "required_runtime_jar": "UNKNOWN_NOT_INFERRED_FROM_POM_WARNING"
+    },
+    {
+      "classification": "NONFATAL_MISSING_POM_WARNING",
+      "dependency_domain": "PLUGIN_METADATA_COLLECTION",
+      "evidence": "[WARNING] The POM for avalon-framework:avalon-framework:jar:4.1.3 is missing, no dependency information available",
+      "fatal": false,
+      "gav": [
+        "avalon-framework",
+        "avalon-framework",
+        "4.1.3"
+      ],
+      "observed_during": {
+        "execution": "rat-check",
+        "goal": "check",
+        "prefix": "apache-rat",
+        "version": "0.16.1"
+      },
+      "required_runtime_jar": "UNKNOWN_NOT_INFERRED_FROM_POM_WARNING"
+    }
+  ],
+  "static_project_declarations": [
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope"
+      ],
+      "gav": [
+        "org.junit.jupiter",
+        "junit-jupiter-api",
+        "5.11.2"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope"
+      ],
+      "gav": [
+        "org.junit.jupiter",
+        "junit-jupiter-engine",
+        "5.11.2"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope"
+      ],
+      "gav": [
+        "org.junit.jupiter",
+        "junit-jupiter-params",
+        "5.11.2"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "commons-io",
+        "commons-io",
+        "2.18.0"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.apache.commons",
+        "commons-text",
+        "1.13.0"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "classifier": "",
+      "exclusions": [],
+      "explicit_fields": [
+        "artifactId",
+        "groupId",
+        "scope",
+        "version"
+      ],
+      "gav": [
+        "org.mockito",
+        "mockito-core",
+        "4.11.0"
+      ],
+      "optional": false,
+      "scope": "test",
+      "type": "jar"
+    }
+  ],
+  "status": "NO_FATAL_OFFLINE_RESOLUTION_FAILURE",
+  "this_execution_receipt_is_TPLUS90_only": true,
+  "warning_attribution": "New E.5.1 analyzer and independent auditor both use actual RAT goal banners for nonfatal metadata warnings"
+}

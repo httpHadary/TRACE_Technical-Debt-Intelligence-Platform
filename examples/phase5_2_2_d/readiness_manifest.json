@@ -1,0 +1,250 @@
+{
+  "actual_disk_bytes": 145376122,
+  "artifact_counts": {
+    "earlier_unused_not_staged": 76,
+    "jar": 173,
+    "pom": 336,
+    "staged": 433,
+    "total_verified": 509
+  },
+  "base_commit": "1caf129975a39aeaab1614e457a7114f0bf477e3",
+  "disk_cap_bytes": 570425344,
+  "downloaded_artifacts_executed": 0,
+  "historical_builds": 0,
+  "jansi": {
+    "evidence": "../phase5_2_2_b/maven.log",
+    "noexec_policy_weakened": false,
+    "status": "KNOWN_WARNING_RETAINED"
+  },
+  "maven_project_goals": 0,
+  "missing_frontier_not_complete_transitive_count": true,
+  "missing_requested_paths": [
+    "com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.pom",
+    "com/jcraft/jsch.agentproxy.svnkit-trilead-ssh2/0.0.9/jsch.agentproxy.svnkit-trilead-ssh2-0.0.9.pom",
+    "com/trilead/trilead-ssh2/1.0.0-build222/trilead-ssh2-1.0.0-build222.pom",
+    "commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar",
+    "commons-digester/commons-digester/1.6/commons-digester-1.6.pom",
+    "commons-io/commons-io/2.13.0/commons-io-2.13.0.jar",
+    "commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom",
+    "de/regnis/q/sequence/sequence-library/1.0.4/sequence-library-1.0.4.pom",
+    "net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.pom",
+    "net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.pom",
+    "net/java/dev/jna/jna/5.6.0/jna-5.6.0.pom",
+    "org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.pom",
+    "org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
+    "org/apache/maven/plugins/maven-enforcer-plugin/3.5.0/maven-enforcer-plugin-3.5.0.pom",
+    "org/apache/maven/plugins/maven-jar-plugin/3.4.2/maven-jar-plugin-3.4.2.pom",
+    "org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom",
+    "org/apache/maven/scm/maven-scm-api/2.0.0-M3/maven-scm-api-2.0.0-M3.pom",
+    "org/codehaus/mojo/buildnumber-maven-plugin/3.2.1/buildnumber-maven-plugin-3.2.1.pom",
+    "org/lz4/lz4-java/1.4.1/lz4-java-1.4.1.pom",
+    "org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.pom",
+    "org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom",
+    "org/tmatesoft/sqljet/sqljet/1.1.15/sqljet-1.1.15.pom"
+  ],
+  "network": {
+    "cap": 2000,
+    "initial_tls_failure": true,
+    "requests": 2000,
+    "response_payload_bytes": 52664020,
+    "status": "STOPPED_AT_REGISTERED_CAP"
+  },
+  "next_action": "Separately authorize bounded continuation from the 22-file frontier; preserve exact versions and independently verify the effective model/classpaths only in later authorized offline builds",
+  "offline_build_readiness": "NOT_ESTABLISHED",
+  "offline_requirements_deterministic": true,
+  "parent_poms": {
+    "evidence": [
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "17"
+        ],
+        "sha256": "96e718baf534874ee62ce4d42de265f2ddacd88391a540e030d59d98fa7c4408",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "34"
+        ],
+        "sha256": "3a2e69d06d641d1f3b293126dc9e2e4ea6563bf8c36c87e0ab6fa4292d04b79c",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "39"
+        ],
+        "sha256": "87cd27e1a02a5c3eb6d85059ce98696bb1b44c2b8b650f0567c86df60fa61da7",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "42"
+        ],
+        "sha256": "cd313494c670b483ec256972af1698b330e598f807002354eb765479f604b09c",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "45"
+        ],
+        "sha256": "9c88623ecfa91f012c673ee4622c0eeb4367e5e0d222d960f76cd208b1a4fda6",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/45/commons-parent-45.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "47"
+        ],
+        "sha256": "8a8ecb570553bf9f1ffae211a8d4ca9ee630c17afe59293368fba7bd9b42fcb7",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "48"
+        ],
+        "sha256": "1e1f7de9370a7b7901f128f1dacd1422be74e3f47f9558b0f79e04c0637ca0b4",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "51"
+        ],
+        "sha256": "9b779d18b22d8de559605558e7bb0a0a31b3f00c2abb9c878117c398aacabeca",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/51/commons-parent-51.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "52"
+        ],
+        "sha256": "75dbe8f34e98e4c3ff42daae4a2f9eb4cbcd3b5f1047d54460ace906dbb4502e",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "54"
+        ],
+        "sha256": "000d8187952b223702fde296df799563f35de82ce72adb4e7bf157342378fbe3",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/54/commons-parent-54.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "56"
+        ],
+        "sha256": "560c7051ddc768e1372e4087970764e4c013903c5dc6eb52c29877370dae2694",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/56/commons-parent-56.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "58"
+        ],
+        "sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/58/commons-parent-58.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "64"
+        ],
+        "sha256": "6f19638994e8357b4ed734696f992057efaafa1235673998133299798e2ccddb",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "65"
+        ],
+        "sha256": "6cf3495fc2e6ac913a2b7f2e03fb5908fb3f229fb06d3358dc45678d5af3e36e",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "71"
+        ],
+        "sha256": "95b7be70f316ae4ca22f6fbdd08de2182e87cd874a650de7c3d3386a747a82a3",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/71/commons-parent-71.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "74"
+        ],
+        "sha256": "80eb61b0c87fdd826a069313b28b672da3f1885832da447b51e6e8a6197e7ecb",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/74/commons-parent-74.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "76"
+        ],
+        "sha256": "28843bb0f9bca5b7612b788993f4a5df2b462b952f11c9f8790869cc07be0307",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/76/commons-parent-76.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "78"
+        ],
+        "sha256": "022d202e655edd04f2a10ecbe453d92977924d38380a4ca8c359f1817a80320e",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/78/commons-parent-78.pom"
+      },
+      {
+        "coordinates": [
+          "org.apache.commons",
+          "commons-parent",
+          "9"
+        ],
+        "sha256": "5331b7d3e0aed59728c80f1118e4dbf78565d4109e81d16602c9cadbdb23a128",
+        "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom"
+      }
+    ],
+    "status": "FIXED",
+    "versions": [
+      "71",
+      "74",
+      "76",
+      "78"
+    ]
+  },
+  "requirements_sha256": "91a055df88bca2378331602a841126a26936a6c3c05cdb9a715de774d072d165",
+  "rights_approvals_changed": false,
+  "scans": 0,
+  "server_starts": 0,
+  "status": "PARTIAL_DEPENDENCY_FRONTIER_INCOMPLETE",
+  "task_c_prerequisite_for_task_d": false,
+  "tasks_c_e_f_started": false,
+  "unresolved_counts": {
+    "DEPENDENCY": 18,
+    "PLUGIN": 4,
+    "PROFILE": 21
+  },
+  "version": "task-d-readiness-v1"
+}

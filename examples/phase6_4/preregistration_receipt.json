@@ -1,0 +1,22 @@
+{
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "stage": "REGISTERED_BEFORE_FITTING",
+  "registration_sha256": "b927909f1b8bf63e8d4ff258a6e84f4f744430b6efe7670e7b32f363f6fef655",
+  "preflight_tests": 56,
+  "prior_and_current_test_run": 254,
+  "test_streams": [
+    11,
+    12
+  ],
+  "development_fixture_streams_before_registration": [
+    64020261020,
+    64020261021
+  ],
+  "final_registered_streams": [
+    64120261020,
+    64120261021
+  ],
+  "no_final_forecast_or_score_exists": true,
+  "preserved_prior_status": "Phase6.3 PARTIAL; no archived code or result changed",
+  "new_task_payload_bound_bytes": 134217728
+}

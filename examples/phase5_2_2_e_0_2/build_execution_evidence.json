@@ -1,0 +1,412 @@
+{
+  "admission_immediately_before_start": {
+    "available_ram_bytes": 6646808576,
+    "container_budget_bytes": 2147483648,
+    "free_disk_bytes": 21152604160,
+    "headroom_bytes": 2147483648,
+    "prohibited_processes": [],
+    "required_available_bytes": 4294967296,
+    "running_containers": 0
+  },
+  "attempts": 1,
+  "binary_checks": [
+    {
+      "path": "usr/share/maven/bin/mvn",
+      "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+    },
+    {
+      "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+      "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+    },
+    {
+      "path": "opt/java/openjdk/bin/java",
+      "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+    },
+    {
+      "path": "opt/java/openjdk/release",
+      "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+    }
+  ],
+  "capture": {
+    "acknowledged": true,
+    "captured": true,
+    "members": [
+      "cache.after.sha256",
+      "cache.paths",
+      "cache.post.sha256",
+      "cgroup.limits.txt",
+      "command-category.txt",
+      "cpu.stat",
+      "disk-usage.txt",
+      "exit.code",
+      "log.sizes",
+      "maven.ended.uptime",
+      "maven.exit",
+      "maven.started.uptime",
+      "maven.state.txt",
+      "maven.stderr",
+      "maven.stdout",
+      "memory.events",
+      "memory.peak",
+      "mount-ownership.txt",
+      "mountinfo.txt",
+      "passed-stages.txt",
+      "post-capture.complete",
+      "processes.txt",
+      "ready",
+      "setup.complete",
+      "setup.stderr",
+      "setup.stdout",
+      "source.after.sha256",
+      "source.paths",
+      "source.post.sha256",
+      "source.verify.exit",
+      "source.verify.stderr",
+      "source.verify.stdout",
+      "stage.txt",
+      "working-directory.txt"
+    ],
+    "race": false
+  },
+  "capture_controller_provisional_status": "BLOCKED_BUILD_OR_RESOURCE",
+  "cleanup_complete": true,
+  "command": [
+    "/usr/share/maven/bin/mvn",
+    "--offline",
+    "--batch-mode",
+    "--no-transfer-progress",
+    "--errors",
+    "-s",
+    "/inspection/settings.xml",
+    "-gs",
+    "/inspection/settings.xml",
+    "-Dmaven.repo.local=/runtime-repository",
+    "-Duser.home=/tmp",
+    "-Dmaven.test.skip=true",
+    "-Dmaven.compiler.release=8",
+    "compile"
+  ],
+  "container": "td522e02-dcd477901a27",
+  "container_id": "9fc8cf71a8c7093c5cf828c8806adc2a00758a767c7f6b7933c065ebd77c7e90",
+  "create_command": [
+    "create",
+    "--name",
+    "td522e02-dcd477901a27",
+    "--label",
+    "techdebt360.phase522e02=td522e02-dcd477901a27",
+    "--pull",
+    "never",
+    "--network",
+    "none",
+    "--memory",
+    "2147483648",
+    "--memory-swap",
+    "2147483648",
+    "--cpus",
+    "1",
+    "--pids-limit",
+    "64",
+    "--user",
+    "1000:1000",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--read-only",
+    "--shm-size",
+    "8388608",
+    "--ulimit",
+    "fsize=8388608:8388608",
+    "--ulimit",
+    "nofile=1024:1024",
+    "--log-driver",
+    "local",
+    "--log-opt",
+    "max-size=1m",
+    "--log-opt",
+    "max-file=1",
+    "--log-opt",
+    "compress=false",
+    "--workdir",
+    "/source",
+    "--entrypoint",
+    "/bin/sh",
+    "--env",
+    "HOME=/tmp",
+    "--env",
+    "MAVEN_CONFIG=/tmp/.m2",
+    "--env",
+    "MAVEN_SKIP_RC=true",
+    "--env",
+    "MAVEN_ARGS=",
+    "--env",
+    "MAVEN_OPTS=-Xms32m -Xmx768m -XX:ActiveProcessorCount=1 -Duser.home=/tmp",
+    "--env",
+    "JAVA_TOOL_OPTIONS=",
+    "--env",
+    "JDK_JAVA_OPTIONS=",
+    "--env",
+    "TD_CAPTURE_HOLD_SECONDS=15",
+    "--tmpfs",
+    "/source:rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+    "--tmpfs",
+    "/runtime-repository:rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+    "--tmpfs",
+    "/tmp:rw,nosuid,nodev,noexec,size=134217728,mode=1777,uid=1000,gid=1000",
+    "--tmpfs",
+    "/output:rw,nosuid,nodev,noexec,size=33554432,mode=1777,uid=1000,gid=1000",
+    "--mount",
+    "type=bind,src=/home/hp/tst/research/forecasting_mvp/phase5_2_2_e_0_2/2026-10-18/inputs,dst=/inputs,readonly",
+    "--mount",
+    "type=bind,src=/home/hp/tst/research/forecasting_mvp/phase5_2_2_e_0_2/2026-10-18/inspection,dst=/inspection,readonly",
+    "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+    "/inspection/wrapper.sh",
+    "--e02-offline-compile"
+  ],
+  "docker_logs": {
+    "exit_code": 0,
+    "stderr_bytes": 675,
+    "stdout_bytes": 12407
+  },
+  "errors": [],
+  "events": [
+    {
+      "action": "create",
+      "exit_code": null,
+      "time_nano": 1792283058973414287
+    },
+    {
+      "action": "archive-path",
+      "exit_code": null,
+      "time_nano": 1792283059023803666
+    },
+    {
+      "action": "archive-path",
+      "exit_code": null,
+      "time_nano": 1792283059051434441
+    },
+    {
+      "action": "archive-path",
+      "exit_code": null,
+      "time_nano": 1792283059078840481
+    },
+    {
+      "action": "archive-path",
+      "exit_code": null,
+      "time_nano": 1792283059107483365
+    },
+    {
+      "action": "start",
+      "exit_code": null,
+      "time_nano": 1792283059253644145
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059291046815
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059291368269
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283059333324228
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059624146780
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059624446173
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283059662561589
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059951125892
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283059951402793
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283060050538349
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283060337214407
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283060337515633
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283060437536319
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283060721849594
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283060722183951
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283060764311602
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061054254870
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061054577956
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283061150160036
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061435467739
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061435838664
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283061537505793
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061822401425
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283061822724622
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283061863364379
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283062159849103
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283062160197396
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283062249903214
+    },
+    {
+      "action": "exec_create: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283062533214141
+    },
+    {
+      "action": "exec_start: /bin/sh -c if test -f /output/ready; then echo READY; fi",
+      "exit_code": null,
+      "time_nano": 1792283062533463241
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283062572164973
+    },
+    {
+      "action": "exec_create: tar --format=ustar -C /output -cf - .",
+      "exit_code": null,
+      "time_nano": 1792283062589429000
+    },
+    {
+      "action": "exec_start: tar --format=ustar -C /output -cf - .",
+      "exit_code": null,
+      "time_nano": 1792283062589707344
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283062628294335
+    },
+    {
+      "action": "exec_create: /bin/sh -c touch /output/collected",
+      "exit_code": null,
+      "time_nano": 1792283062649140959
+    },
+    {
+      "action": "exec_start: /bin/sh -c touch /output/collected",
+      "exit_code": null,
+      "time_nano": 1792283062649410927
+    },
+    {
+      "action": "exec_die",
+      "exit_code": "0",
+      "time_nano": 1792283062689734906
+    },
+    {
+      "action": "die",
+      "exit_code": "1",
+      "time_nano": 1792283063573663674
+    }
+  ],
+  "host_execution_seconds": 4.501222052999765,
+  "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+  "maven_environment": {
+    "MAVEN_OPTS": "-Xms32m -Xmx768m -XX:ActiveProcessorCount=1 -Duser.home=/tmp"
+  },
+  "minimum_host_available_bytes": 6485413888,
+  "mode": "E02_OFFLINE_COMPILE",
+  "raw_receipt_sha256": "5ccc4cb3763372003a17724fd2fa050278d2f3871cde093b5e9c71e9fa6a2034",
+  "raw_receipt_unchanged": true,
+  "status": "BLOCKED_DEPENDENCY",
+  "terminal_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 1,
+    "FinishedAt": "2026-10-18T00:24:23.53885604Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-10-18T00:24:19.186218011Z",
+    "Status": "exited"
+  }
+}

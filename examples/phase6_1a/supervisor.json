@@ -1,0 +1,1 @@
+{"exit_code":0,"failure":null,"rss_limit_bytes":2147483648,"rss_policy":"20ms sampled guard plus worker kernel ru_maxrss check, not cgroup quota","sampled_peak_rss_bytes":511016960,"status":"PASS","timeout_seconds":900,"wall_seconds":19.474878116000127}

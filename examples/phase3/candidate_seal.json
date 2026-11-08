@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "candidate_predictions.csv": "7c9dc42020e59be2f2014147ee6ff16a7262e77f8be4f10e0fb835c8a5949f55"
+  },
+  "metadata": {
+    "forecast_ids": 10791,
+    "phase": 3,
+    "prediction_rows": 64746,
+    "stage": "all_candidate_predictions_sealed_before_any_labels",
+    "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

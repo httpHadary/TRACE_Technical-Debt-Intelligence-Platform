@@ -1,0 +1,196 @@
+{
+  "actual_effective_pom_sha256": null,
+  "actual_profiles": "UNAVAILABLE_NOT_ENUMERATED",
+  "all_sha256_coordinates_central_checksums_pom_and_jar_crc_verified": true,
+  "apache_parent_version": "33",
+  "artifacts": 758,
+  "binary_checks": [
+    {
+      "path": "usr/share/maven/bin/mvn",
+      "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+    },
+    {
+      "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+      "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+    },
+    {
+      "path": "opt/java/openjdk/bin/java",
+      "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+    },
+    {
+      "path": "opt/java/openjdk/release",
+      "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+    }
+  ],
+  "canonical_cache_sha256": "df9f176ceeea2f165cbf463dd3eb43675741b0932d1134c756386f0f7259462d",
+  "commit": "af2b3e72a552cfb2a902556469868763ddea3638",
+  "dependency_manifest": "examples/phase5_2_2_e_5/dependency_manifest.json",
+  "dependency_manifest_sha256": "eb471e18cca6828bb2abbe2273184faaa693298807363b0280630cb180a6adba",
+  "independent_copies": true,
+  "java_sources": 36,
+  "parent_version": "78",
+  "pom_sha256": "87c8ed93cb21deedb52b826d520931bc175e24e5ee48643c6a21ed154c62324b",
+  "source_blob_ids_modes_and_tree_verified": true,
+  "source_manifest": "examples/phase5_2_2_e_5/source_manifest.json",
+  "source_manifest_sha256": "d3be6930859d368842a498e6db9a0f2cee4dd5697ec1b0fe65909c3207ddd792",
+  "static_reverification": {
+    "actual_profiles": "UNAVAILABLE_NOT_EXECUTED",
+    "actual_target_effective_model_sha256": null,
+    "all758_hashes_and_provenance_verified": true,
+    "descriptors_reverified": 20,
+    "expected_compile_lifecycle": [
+      {
+        "execution": "enforce-maven-version",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ],
+        "goal": "enforce",
+        "phase": "validate",
+        "prefix": "enforcer",
+        "version": "3.5.0"
+      },
+      {
+        "execution": "enforce-java-version",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ],
+        "goal": "enforce",
+        "phase": "validate",
+        "prefix": "enforcer",
+        "version": "3.5.0"
+      },
+      {
+        "execution": "rat-check",
+        "gav": [
+          "org.apache.rat",
+          "apache-rat-plugin",
+          "0.16.1"
+        ],
+        "goal": "check",
+        "phase": "validate",
+        "prefix": "apache-rat",
+        "version": "0.16.1"
+      },
+      {
+        "execution": "check-buildplan",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-artifact-plugin",
+          "3.5.1"
+        ],
+        "goal": "check-buildplan",
+        "phase": "validate",
+        "prefix": "artifact",
+        "version": "3.5.1"
+      },
+      {
+        "execution": "parse-version",
+        "gav": [
+          "org.codehaus.mojo",
+          "build-helper-maven-plugin",
+          "3.6.0"
+        ],
+        "goal": "parse-version",
+        "phase": "validate",
+        "prefix": "build-helper",
+        "version": "3.6.0"
+      },
+      {
+        "execution": "javadoc.resources",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-antrun-plugin",
+          "3.1.0"
+        ],
+        "goal": "run",
+        "phase": "generate-sources",
+        "prefix": "antrun",
+        "version": "3.1.0"
+      },
+      {
+        "execution": "process-resource-bundles",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-remote-resources-plugin",
+          "3.2.0"
+        ],
+        "goal": "process",
+        "phase": "generate-resources",
+        "prefix": "remote-resources",
+        "version": "3.2.0"
+      },
+      {
+        "execution": "default",
+        "gav": [
+          "org.codehaus.mojo",
+          "buildnumber-maven-plugin",
+          "3.2.1"
+        ],
+        "goal": "create",
+        "phase": "generate-resources",
+        "prefix": "buildnumber",
+        "version": "3.2.1"
+      },
+      {
+        "execution": "default-resources",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-resources-plugin",
+          "3.3.1"
+        ],
+        "goal": "resources",
+        "phase": "process-resources",
+        "prefix": "resources",
+        "version": "3.3.1"
+      },
+      {
+        "execution": "default-compile",
+        "gav": [
+          "org.apache.maven.plugins",
+          "maven-compiler-plugin",
+          "3.13.0"
+        ],
+        "goal": "compile",
+        "phase": "compile",
+        "prefix": "compiler",
+        "version": "3.13.0"
+      }
+    ],
+    "five_previous_builds_remain_compile_pass": true,
+    "help_package_sources": 10,
+    "independent_copies": true,
+    "new_containers": 0,
+    "new_maven_executions": 0,
+    "original_compile_candidate_references": 318,
+    "other_revision_preparation": false,
+    "parent_chain": [
+      [
+        "org.apache",
+        "apache",
+        "33"
+      ],
+      [
+        "org.apache.commons",
+        "commons-parent",
+        "78"
+      ],
+      [
+        "commons-cli",
+        "commons-cli",
+        "1.10.0-SNAPSHOT"
+      ]
+    ],
+    "peak_rss_kib": 45176,
+    "production_source_count": 36,
+    "status": "PASS",
+    "target_source_count": 138,
+    "target_static_model_plan_and_test_closure_identical": true
+  },
+  "status": "PASS",
+  "tracked_files": 138,
+  "tree": "0d773516c1c7bb0a371b2af6e084b62ef2d36546"
+}

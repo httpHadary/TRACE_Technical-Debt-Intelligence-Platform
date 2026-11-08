@@ -1,0 +1,29 @@
+TD522B_MEMORY_MAX=1073741824
+TD522B_CPU_MAX=100000 100000
+TD522B_START_UPTIME=1673.01
+TD522B_END_UPTIME=1673.45
+TD522B_EXIT=0
+TD522B_MEMORY_PEAK=68644864
+TD522B_CPU_STAT_BEGIN
+usage_usec 489239
+user_usec 381565
+system_usec 107674
+nice_usec 0
+core_sched.force_idle_usec 0
+nr_periods 5
+nr_throttled 3
+throttled_usec 171086
+nr_bursts 0
+burst_usec 0
+TD522B_STDOUT_BEGIN
+Apache Maven 3.9.11 (3e54c93a704957b63ee3494413a2b544fd3d825b)
+Maven home: /usr/share/maven
+Java version: 17.0.17, vendor: Eclipse Adoptium, runtime: /opt/java/openjdk
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "7.0.0-38-generic", arch: "amd64", family: "unix"
+
+TD522B_STDERR_BEGIN
+Failed to load native library:jansi-2.4.2-84797e910187d18c-libjansi.so. The native library file at /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so is not executable, make sure that the directory is mounted on a partition without the noexec flag, or set the jansi.tmpdir system property to point to a proper location.  osinfo: Linux/x86_64
+java.lang.UnsatisfiedLinkError: /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so: /tmp/jansi-2.4.2-84797e910187d18c-libjansi.so: failed to map segment from shared object
+
+TD522B_OUTPUT_END

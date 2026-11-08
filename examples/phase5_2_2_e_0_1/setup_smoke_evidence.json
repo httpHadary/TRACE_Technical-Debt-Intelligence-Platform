@@ -1,0 +1,38 @@
+{
+  "actual_exit": 73,
+  "base_commit": "8e73a0a050fc3f411087666aae1057b66fa3282f",
+  "cache_artifacts_verified": 653,
+  "container_starts": 1,
+  "expected_exit": 73,
+  "failure_category": "deliberate_exit_73",
+  "failure_stage": "INJECTED_PRE_MAVEN_FAILURE",
+  "intended_and_actual_working_directory": "/source",
+  "maven_state": "NOT_STARTED",
+  "mount_ownership_before_copy": "/source 1000:1000:1777\n/runtime-repository 1000:1000:1777\n",
+  "no_debt_measurements_or_predictions": true,
+  "normal_expected_injection": true,
+  "not_a_java_compilation_result": true,
+  "observed_process_names": [
+    "sh"
+  ],
+  "passed_stages": [
+    "MODE",
+    "IDENTITY",
+    "CGROUP",
+    "MOUNT_OWNERSHIP",
+    "SOURCE_COPY",
+    "SOURCE_PERMISSIONS",
+    "ARTIFACT_COPY",
+    "ARTIFACT_PERMISSIONS",
+    "WORKING_DIRECTORY",
+    "SOURCE_HASHES",
+    "CACHE_HASHES",
+    "POPULATION",
+    "WRITABILITY",
+    "FINAL_SOURCE_HASHES",
+    "FINAL_CACHE_HASHES"
+  ],
+  "setup_completed": true,
+  "source_files_verified": 117,
+  "status": "SETUP_AND_CAPTURE_PASS"
+}

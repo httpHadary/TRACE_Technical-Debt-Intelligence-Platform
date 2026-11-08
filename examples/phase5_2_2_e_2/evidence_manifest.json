@@ -1,0 +1,128 @@
+{
+  "credentials": false,
+  "published_files": [
+    {
+      "bytes": 27781,
+      "path": "tools/prepare_tminus90.py",
+      "sha256": "95d89aca32d297ceb3feee77506fdcea7f2e170897d773a32e1dd709289174b8"
+    },
+    {
+      "bytes": 20484,
+      "path": "tests/test_tminus90_readiness.py",
+      "sha256": "35448e3670a91292771b2d667b265ad606d37fd4362ab63658ce808b533eaf2c"
+    },
+    {
+      "bytes": 15246,
+      "path": "PHASE_5_2_2_E_2_REPORT.md",
+      "sha256": "6a3df6908fb714c6e00fb43664e41ac76d563be424c9809871dfac6f67f0be54"
+    },
+    {
+      "bytes": 2841,
+      "path": "examples/phase5_2_2_e_2/E_2_1_HANDOFF.md",
+      "sha256": "e3ec888e855184198b611a9eb54d7c2cd1bf440ff44252d47284aaf1060a93d0"
+    },
+    {
+      "bytes": 540,
+      "path": "examples/phase5_2_2_e_2/README.md",
+      "sha256": "2c8014a09bae0700969b4996e9bb244d6b360751df3fd473a55d8b6db27c6fc8"
+    },
+    {
+      "bytes": 3526,
+      "path": "examples/phase5_2_2_e_2/T_MINUS_90_CONFIGURATION_MATRIX.md",
+      "sha256": "1dc17c055be11d7bf442ffde1e35e9f629bbad8b610cd24c5233e80127042c02"
+    },
+    {
+      "bytes": 4611,
+      "path": "examples/phase5_2_2_e_2/all_source_states_preservation.json",
+      "sha256": "6c4c02ab65402c8999a8d40e3093c8986b07d00847e47129e03d4fc1070fbe23"
+    },
+    {
+      "bytes": 74242,
+      "path": "examples/phase5_2_2_e_2/buildplan_descriptor_verification.json",
+      "sha256": "9a3b3fbcbda3faa6e11f42e5b2058c37b8624378ddc68a5af8645c40095eae88"
+    },
+    {
+      "bytes": 496,
+      "path": "examples/phase5_2_2_e_2/cache_identity.json",
+      "sha256": "ac614b640ab90dda5a4628414f802a6375286432fb9797d3c5d4d790117dee52"
+    },
+    {
+      "bytes": 3515,
+      "path": "examples/phase5_2_2_e_2/changed_compile_plugin_closure.json",
+      "sha256": "5d576f817e72e6f922f63f5f38ad40ec4b7045e7fa4cc4198e23f374971b2da7"
+    },
+    {
+      "bytes": 219648,
+      "path": "examples/phase5_2_2_e_2/configuration_difference.json",
+      "sha256": "49cdec9bb4836c7cf9f1056d829403842c207e715af0de6554300b15853bf6b3"
+    },
+    {
+      "bytes": 624876,
+      "path": "examples/phase5_2_2_e_2/dependency_manifest.json",
+      "sha256": "abbfd6711f2d16b4eb4f0992d819c01cb85c8cef385f6a7c9effb2136d35e4b6"
+    },
+    {
+      "bytes": 11674,
+      "path": "examples/phase5_2_2_e_2/frontier_comparison.json",
+      "sha256": "ab2f56e3531530038258b46975fde9db2bbccbb20955e84157c738ca2f34f051"
+    },
+    {
+      "bytes": 19292,
+      "path": "examples/phase5_2_2_e_2/full_plugin_version_inventory.json",
+      "sha256": "49bf7b5f8737571665a0ff94151ee32a438a0678fcc1df6b797db72a58ccc9e5"
+    },
+    {
+      "bytes": 5193,
+      "path": "examples/phase5_2_2_e_2/initial_frontier_comparison.json",
+      "sha256": "7abb28daaf2c55a12c76a94a64efe6e617993cba4b3fd0cfa3a98e1df2c5af20"
+    },
+    {
+      "bytes": 1524,
+      "path": "examples/phase5_2_2_e_2/preservation.json",
+      "sha256": "e13f4a256a95ed139fb37f25fdfac5e2e1e3cf85c8461f6296a0883aa9273bab"
+    },
+    {
+      "bytes": 315355,
+      "path": "examples/phase5_2_2_e_2/profiles_and_runtime_uncertainty.json",
+      "sha256": "59bbc4c554468e9e74f625047111b18fcd3e641ed96888d23816b2952f65112b"
+    },
+    {
+      "bytes": 118562,
+      "path": "examples/phase5_2_2_e_2/registered_compile_candidates.json",
+      "sha256": "1865e7593cd93eae4506f45674ce70a48caf19d26ae059ec6228dab1e08caa7b"
+    },
+    {
+      "bytes": 2065,
+      "path": "examples/phase5_2_2_e_2/resource_evidence.json",
+      "sha256": "97a49403c5382fba2906b98cccc11783500930f84d87c376711b11c8828ecfce"
+    },
+    {
+      "bytes": 367,
+      "path": "examples/phase5_2_2_e_2/runtime_cache_capacity.json",
+      "sha256": "9409c6e74ac8895d829e55431a36b07ee072f42d34f126dda721a1e47c49971d"
+    },
+    {
+      "bytes": 32830,
+      "path": "examples/phase5_2_2_e_2/source_manifest.json",
+      "sha256": "5b7bf1c7a17537bdd239ba92344f09acb54e2a4d1f96799dceaee547b185d783"
+    },
+    {
+      "bytes": 22347,
+      "path": "examples/phase5_2_2_e_2/successful_builds_preservation.json",
+      "sha256": "7139f0921f834f2211fe75f8336079d28287742c719965d1d0946b68f0c938ac"
+    },
+    {
+      "bytes": 112402,
+      "path": "examples/phase5_2_2_e_2/test_dependency_closure.json",
+      "sha256": "f7862e1cceaaeba9221efca6cdcde98711871ded06bb99eaa68dca4a6bc95358"
+    },
+    {
+      "bytes": 4458,
+      "path": "examples/phase5_2_2_e_2/verification.json",
+      "sha256": "e75a378359b01a08b92b2340ab5a5f41414f6a71a88296247395573dfdfb18e2"
+    }
+  ],
+  "raw_logs": false,
+  "status": "PASS",
+  "third_party_binaries": false
+}

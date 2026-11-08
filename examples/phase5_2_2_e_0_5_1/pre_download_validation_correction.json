@@ -1,0 +1,9 @@
+{
+  "budget_preserved": true,
+  "bytes_before": 0,
+  "elapsed_seconds_before_continuation": 53.24169113389689,
+  "failure": "Tuple/list mismatch in static comparison before any network I/O",
+  "new_batch": false,
+  "original_ledger_sha256": "53779f1d29e16f3842c900c649d0832fa2373d32c3c5b2ea12f027b023b09cdb",
+  "requests_before": 0
+}

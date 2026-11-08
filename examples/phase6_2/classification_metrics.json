@@ -1,0 +1,335 @@
+{
+  "records": [
+    {
+      "brier_score": 0.022625727960854904,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": 0.11998643474770722,
+          "n": 50,
+          "prevalence": 0.04,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.24545039341521274,
+          "n": 5,
+          "prevalence": 0.2,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.47822601551176325,
+          "n": 6,
+          "prevalence": 0.6666666666666666,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9977654770128315,
+          "n": 131,
+          "prevalence": 1,
+          "upper": 1.0
+        }
+      ],
+      "f1": 0.9739776951672863,
+      "false_negative": 7,
+      "false_positive": 0,
+      "horizon": 30,
+      "n": 192,
+      "partition": "test",
+      "positive_prevalence": 0.71875,
+      "pr_auc_average_precision": 0.9974292639377252,
+      "precision": 1.0,
+      "recall": 0.9492753623188406,
+      "roc_auc": 0.9923510466988728,
+      "threshold": 0.75,
+      "true_negative": 54,
+      "true_positive": 131,
+      "undefined_reason": null
+    },
+    {
+      "brier_score": 0.05788927352206778,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": 0.3371584370315129,
+          "n": 25,
+          "prevalence": 0.2,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.5996887075808028,
+          "n": 1,
+          "prevalence": 1,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": 0.7307155780272271,
+          "n": 30,
+          "prevalence": 0.6666666666666666,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9843349751104841,
+          "n": 136,
+          "prevalence": 1,
+          "upper": 1.0
+        }
+      ],
+      "f1": 0.9544072948328267,
+      "false_negative": 5,
+      "false_positive": 10,
+      "horizon": 60,
+      "n": 192,
+      "partition": "test",
+      "positive_prevalence": 0.84375,
+      "pr_auc_average_precision": 0.9942745904260013,
+      "precision": 0.9401197604790419,
+      "recall": 0.9691358024691358,
+      "roc_auc": 0.9676954732510288,
+      "threshold": 0.5,
+      "true_negative": 20,
+      "true_positive": 157,
+      "undefined_reason": null
+    },
+    {
+      "brier_score": 0.04364178253163262,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.5320967084414367,
+          "n": 24,
+          "prevalence": 0.5,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": 0.6808116110214701,
+          "n": 1,
+          "prevalence": 0,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9897132387959994,
+          "n": 167,
+          "prevalence": 0.9880239520958084,
+          "upper": 1.0
+        }
+      ],
+      "f1": 0.9593023255813954,
+      "false_negative": 12,
+      "false_positive": 2,
+      "horizon": 90,
+      "n": 192,
+      "partition": "test",
+      "positive_prevalence": 0.921875,
+      "pr_auc_average_precision": 0.9957160399355696,
+      "precision": 0.9880239520958084,
+      "recall": 0.9322033898305084,
+      "roc_auc": 0.9506591337099811,
+      "threshold": 0.75,
+      "true_negative": 13,
+      "true_positive": 165,
+      "undefined_reason": null
+    },
+    {
+      "brier_score": 3.58810615775086e-05,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9954122896750695,
+          "n": 48,
+          "prevalence": 1,
+          "upper": 1.0
+        }
+      ],
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "horizon": 30,
+      "n": 48,
+      "partition": "ood",
+      "positive_prevalence": 1.0,
+      "pr_auc_average_precision": null,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": null,
+      "threshold": 0.75,
+      "true_negative": 0,
+      "true_positive": 48,
+      "undefined_reason": "SINGLE_CLASS"
+    },
+    {
+      "brier_score": 0.00013130905554185172,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9891135901579837,
+          "n": 48,
+          "prevalence": 1,
+          "upper": 1.0
+        }
+      ],
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "horizon": 60,
+      "n": 48,
+      "partition": "ood",
+      "positive_prevalence": 1.0,
+      "pr_auc_average_precision": null,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": null,
+      "threshold": 0.5,
+      "true_negative": 0,
+      "true_positive": 48,
+      "undefined_reason": "SINGLE_CLASS"
+    },
+    {
+      "brier_score": 1.4743509920633634e-05,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": null,
+          "n": 0,
+          "prevalence": null,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.9964877242201635,
+          "n": 48,
+          "prevalence": 1,
+          "upper": 1.0
+        }
+      ],
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "horizon": 90,
+      "n": 48,
+      "partition": "ood",
+      "positive_prevalence": 1.0,
+      "pr_auc_average_precision": null,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": null,
+      "threshold": 0.75,
+      "true_negative": 0,
+      "true_positive": 48,
+      "undefined_reason": "SINGLE_CLASS"
+    }
+  ],
+  "scope": "SYNTHETIC_ENGINEERING_TEST"
+}

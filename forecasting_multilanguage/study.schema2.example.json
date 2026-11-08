@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "study_id": "TEMPLATE_NOT_REAL_EVIDENCE",
+  "repository_id": "REPLACE_WITH_REGISTERED_ID",
+  "canonical_url": "https://example.invalid/owner/project",
+  "provider_repository_id": "REPLACE_WITH_PROVIDER_ID",
+  "family_id": "UNRESOLVED_TEMPLATE_FAMILY",
+  "source_license_spdx": "unknown",
+  "data_reuse_terms": "unknown",
+  "source_reference": "REPLACE_WITH_OWNER_ARCHIVE_MANIFEST",
+  "source_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+  "exposure_status": "UNRESOLVED",
+  "exposure_evidence_refs": [],
+  "reserved_role": "quarantine",
+  "branch_reference": "REPLACE_WITH_FROZEN_REF",
+  "branch_reference_observed_at": "2026-10-15T00:00:00Z",
+  "tip_sha": "0000000000000000000000000000000000000000",
+  "lineage_policy": "COMPLETE_FIRST_PARENT",
+  "declared_languages": ["py", "js"],
+  "scope_policy_hash": "212e874217417e5179e3338954d11499dd3e9072101b20023e27622f354a71de",
+  "study_mode": "RETROSPECTIVE_FIXED_ANALYZER"
+}

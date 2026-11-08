@@ -1,0 +1,20 @@
+{
+  "analyzer_licensing_and_dataset_rights": "UNCHANGED_UNRESOLVED",
+  "compile_success": false,
+  "current_test_descriptor_issues": [],
+  "d3_project_profile_evidence": "MODEL_VERIFIED for T0 only; preserved",
+  "dependency_profile_uncertainties": [],
+  "missing_static_test_paths": [],
+  "offline_build_readiness": "UNKNOWN",
+  "other_five_revisions": "NOT_REEVALUATED",
+  "plugin_runtime_classpaths": "UNPROVEN",
+  "previous_static_profile_evidence": {
+    "path": "examples/phase5_2_2_d_2/unknown_profile_evidence.json",
+    "records": 15,
+    "sha256": "355e52104b93cb1c25b6bae22af3ce106ed57c22392f27016049454796b1cd1f",
+    "status": "PRESERVED_NOT_RELABELED"
+  },
+  "scm_buildnumber_behavior": "NOT_REACHED in E.0.2",
+  "scope": "Exact E.0.2 test roots, T0 consumer management, required runtime transitives and descriptor parents/BOMs",
+  "version": "e03-uncertainties-v1"
+}

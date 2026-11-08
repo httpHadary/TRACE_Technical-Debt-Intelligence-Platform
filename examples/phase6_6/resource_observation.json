@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-10-20T13:36:16.674144+00:00",
+  "available_host_ram_bytes": 6182109184,
+  "available_disk_bytes": 13898170368,
+  "registered_collection_minimum_ram_bytes": 10737418240,
+  "registered_collection_minimum_disk_bytes": 16106127360,
+  "collection_ram_pass": false,
+  "collection_disk_pass": false,
+  "collection_authorized": false,
+  "services_inspected": false,
+  "limits_changed": false,
+  "caveat": "Resource observation only. No runtime admission or external-owner infrastructure inference; recheck at any future separately authorized execution."
+}

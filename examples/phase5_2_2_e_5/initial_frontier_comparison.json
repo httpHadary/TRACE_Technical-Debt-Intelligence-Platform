@@ -1,0 +1,37 @@
+{
+  "actual_effective_model_sha256": null,
+  "actual_maven_execution": "NOT_EXECUTED",
+  "after": [],
+  "before": [
+    "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar",
+    "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom"
+  ],
+  "capacity_status": "FITS_128_MIB",
+  "compile_success": false,
+  "issues": [
+    {
+      "activation": "UNKNOWN_NOT_MAVEN_EVALUATED",
+      "blocking": true,
+      "path": "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom",
+      "profiles": [
+        "java-8-10",
+        "java-11-21",
+        "java-22-up"
+      ],
+      "status": "UNKNOWN_REMOTE_DESCRIPTOR_DEPENDENCY_PROFILE_ACTIVATION"
+    }
+  ],
+  "missing_paths": [],
+  "newly_exposed_resolved_paths": [
+    "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
+    "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom",
+    "org/apache/commons/commons-parent/73/commons-parent-73.pom"
+  ],
+  "resolved": [
+    "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar",
+    "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom"
+  ],
+  "scope": "Static paths/descriptors/closure only; actual model,profiles and classpaths remain unverified",
+  "status": "PARTIAL",
+  "stop": null
+}

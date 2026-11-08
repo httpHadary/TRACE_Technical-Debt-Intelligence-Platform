@@ -1,0 +1,68 @@
+{
+  "full_manifest_sha256": "b19c9c644d21b9a8700ff1628beb1516aa286f1f4f0b917f2a94dd893868a202",
+  "new_artifacts": [
+    {
+      "bytes": 21092,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.felix",
+        "felix-parent",
+        "7"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/apache/felix/felix-parent/7/felix-parent-7.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/7/felix-parent-7.pom.sha1",
+        "value": "e5ce4820397ddb5eef92435e7b7f5c04999f1de1"
+      },
+      "sha256": "6b00ae161791633b50e0203daf8e5a792cd319c846ddf5a00218e550836f6957",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/7/felix-parent-7.pom"
+    },
+    {
+      "bytes": 210583,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar.sha1",
+        "value": "707d2a73eecc3cd7b208eb8b6f766e944ee486db"
+      },
+      "sha256": "d5379a3b8dd9b898c2953a1efea780cb5dc06029399ac492bbca13d65aa28eaf",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.jar"
+    },
+    {
+      "bytes": 11156,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom.sha1",
+        "value": "5eafeebe45f16f2779ea9b1c66172bc2f8496dac"
+      },
+      "sha256": "5b85e06c7edaef3430c3dfd43e7ae165914a8a7b3cf94f61aa92b9a3f1307890",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.9/maven-bundle-plugin-5.1.9.pom"
+    }
+  ],
+  "status": "RECOVERED_EXACT_FELIX_PLUGIN",
+  "total": 682,
+  "unchanged_seed_count": 679
+}

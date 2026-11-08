@@ -1,0 +1,38 @@
+{
+  "cached_license_sha256": "ab2f2df4ca51a7101b6559d9798c1a2d55d07cfff4dba06435188653fa9cfcc3",
+  "collection_authorized": false,
+  "decisions": 24,
+  "embedded_license_records_rehashed": 3,
+  "evidence_sources_verified": 22,
+  "existing_compilation_gate_referenced": true,
+  "existing_compile_check_counts": {
+    "t0": 19,
+    "tminus30": 22,
+    "tminus90": 22,
+    "tplus30": 25,
+    "tplus60": 25,
+    "tplus90": 25
+  },
+  "existing_compile_records_rechecked": 6,
+  "existing_gate_path": "examples/phase5_2_2_e_5_1/six_revision_compile_gate.json",
+  "existing_gate_sha256": "fd823a20395367f20afe4aa458dfb17b0a541204d575891e622054c5b88e1925",
+  "field_families": 17,
+  "fresh_binary_extraction": false,
+  "legal_acceptance": false,
+  "new_compilation_attempts": 0,
+  "new_gate_created": false,
+  "operations": {
+    "containers": 0,
+    "dataset_reconstruction": 0,
+    "external_contact": 0,
+    "java": 0,
+    "maven": 0,
+    "models": 0,
+    "scans": 0
+  },
+  "peak_rss_kib": 30192,
+  "repeated_dossier_validation_identical": true,
+  "runtime_gates": 16,
+  "status": "RIGHTS_DECISION_DOSSIER_PASS_ADMISSION_BLOCKED",
+  "uses": 15
+}

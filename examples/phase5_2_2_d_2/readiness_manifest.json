@@ -1,0 +1,58 @@
+{
+  "acquisition_elapsed_seconds": 68.81749055100045,
+  "acquisition_peak_rss_kib": 62456,
+  "actual_cache_and_evidence_bytes": 66653980,
+  "base_commit": "e57cfe77241cdda1130ac1a7fd88ee4dd4f8a879",
+  "disk_cap_bytes": 268435456,
+  "distinct_unknown_profile_sources": 15,
+  "downloaded_code_executed": 0,
+  "effective_model_verification": "PENDING",
+  "historical_builds": 0,
+  "jansi_warning_retained": true,
+  "known_missing_after": [],
+  "known_missing_before": [
+    "commons-digester/commons-digester/1.6/commons-digester-1.6.jar",
+    "commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom"
+  ],
+  "later_descriptor_files": 10,
+  "maven_project_goals": 0,
+  "model_runs": 0,
+  "new_artifacts": 13,
+  "new_batch_request_cap": 100,
+  "new_batch_requests": 52,
+  "new_jars": 7,
+  "new_payload_cap_bytes": 33554432,
+  "new_poms": 6,
+  "new_response_payload_bytes": 715695,
+  "next_actions": [
+    "No additional acquisition batch is needed or started for the known static frontier",
+    "Separately establish applicable Maven profile/effective-model/classpath semantics before claiming offline Java build readiness",
+    "Historical compilation, Tasks C/E/F and scans require separate authorization; no licensing or scientific-admission approval inferred"
+  ],
+  "offline_build_readiness": "UNKNOWN",
+  "optional_nonruntime_declarations": 725,
+  "original_caches_modified": false,
+  "per_revision_unknown_profile_counts": {
+    "4ff0d4adbc2161677e71050ba23c152831f6ad83": 20,
+    "7ddf691ac2afbda7473c0d07f1f4e7ae1e69e47b": 20,
+    "aad30eff27ac5c9a13194125226653c6c2826c58": 20,
+    "af2b3e72a552cfb2a902556469868763ddea3638": 20,
+    "e1529b546d9696192f4de52152777403b4a01b39": 21,
+    "fb6293fcd6a9b55ac8ecb550af6572daaed18fa1": 19
+  },
+  "prior_request_ledgers": {
+    "task_d": 2000,
+    "task_d1": 400
+  },
+  "rights_approvals_changed": false,
+  "scans": 0,
+  "seed_artifact_redownloads": 0,
+  "seed_artifacts": 611,
+  "semantics": "All known candidates in the unchanged static projection present; conditional branches remain UNKNOWN, Maven mediation/effective model and build execution not established",
+  "server_starts": 0,
+  "static_required_candidate_files": 378,
+  "status": "PASS_STATIC_CLOSURE_COMPLETE",
+  "tasks_c_e_f_started": false,
+  "total_verified_artifacts": 624,
+  "version": "task-d2-readiness-v1"
+}

@@ -1,0 +1,16 @@
+{
+  "accepted_forecasts": 0,
+  "conclusion": "Validated low-memory loading and one finite native return; not a valid full-decile forecast path or completed comparative benchmark",
+  "full_comparison": "NOT_EXECUTED",
+  "native_loading": "PASS",
+  "native_quantile_path": "FAIL_ALL90_STEPS",
+  "observed_memory": "Below unchanged1.75GiB guard and2GiB ceiling",
+  "original_worker_status": {
+    "native_outputs_verified": false,
+    "reason": "WORKER_FAILED",
+    "status": "BLOCKED_RUNTIME"
+  },
+  "parameter_assignment": "PASS_232_EXACT_HASHES_STORAGE_SHARING",
+  "static_parameter_mapping": "PASS",
+  "status": "PARTIAL"
+}

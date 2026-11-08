@@ -1,0 +1,56 @@
+{
+  "admission": {
+    "available_ram_bytes": 6646808576,
+    "container_budget_bytes": 2147483648,
+    "free_disk_bytes": 21152604160,
+    "headroom_bytes": 2147483648,
+    "prohibited_processes": [],
+    "required_available_bytes": 4294967296,
+    "running_containers": 0
+  },
+  "cgroup_limits": "memory.max=2147483648\nmemory.swap.max=0\ncpu.max=100000 100000\npids.max=64\n",
+  "cleanup_complete": true,
+  "cpu_stat": {
+    "burst_usec": 0,
+    "core_sched.force_idle_usec": 0,
+    "nice_usec": 0,
+    "nr_bursts": 0,
+    "nr_periods": 33,
+    "nr_throttled": 30,
+    "system_usec": 462389,
+    "throttled_usec": 3885874,
+    "usage_usec": 3289657,
+    "user_usec": 2827267
+  },
+  "hard_outer_controller_timeout_seconds": 330,
+  "heap_bytes": 805306368,
+  "host_execution_seconds": 4.501222052999765,
+  "host_monitor_threshold_seconds": 265,
+  "maven_duration_seconds": 2.75,
+  "maven_timeout_seconds": 240,
+  "memory_events": {
+    "high": 0,
+    "low": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_group_kill": 0,
+    "oom_kill": 0,
+    "sock_throttled": 0
+  },
+  "minimum_host_available_bytes": 6485413888,
+  "peak_scope": "EXIT-trap snapshot after post-build diagnostics; excludes later export/cleanup",
+  "terminal_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 1,
+    "FinishedAt": "2026-10-18T00:24:23.53885604Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-10-18T00:24:19.186218011Z",
+    "Status": "exited"
+  },
+  "trap_time_memory_peak_bytes": 199073792
+}

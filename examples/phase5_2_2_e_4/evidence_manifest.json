@@ -1,0 +1,133 @@
+{
+  "credentials": false,
+  "published_files": [
+    {
+      "bytes": 29549,
+      "path": "tools/prepare_tplus60.py",
+      "sha256": "03c4a74ce5363acdf009913b7db65290396bfa5560f84075cd0d05fa7c2c58a4"
+    },
+    {
+      "bytes": 25456,
+      "path": "tests/test_tplus60_readiness.py",
+      "sha256": "aa2430af3cce99732707dda5545e12f16729ab4041d44465f27aa7f2ea889e0c"
+    },
+    {
+      "bytes": 15846,
+      "path": "PHASE_5_2_2_E_4_REPORT.md",
+      "sha256": "70765196694cbbd4aa5839371b92d89ff1abe52850786eac7fb06f8ab5298397"
+    },
+    {
+      "bytes": 3442,
+      "path": "examples/phase5_2_2_e_4/E_4_1_HANDOFF.md",
+      "sha256": "0bb6e8e1ba8c07cd81329dabba6831a914fe2b805abdd495c09487c23d5dd544"
+    },
+    {
+      "bytes": 485,
+      "path": "examples/phase5_2_2_e_4/README.md",
+      "sha256": "9bfab79aa19c87c5bb96fb6c9aa6fad3457d9dd396b1a25e98268fd38df92e6a"
+    },
+    {
+      "bytes": 3145,
+      "path": "examples/phase5_2_2_e_4/T_PLUS_30_T_PLUS_60_CONFIGURATION_MATRIX.md",
+      "sha256": "3624985ee1b45e3316df650ab7f34becd3ca94bea3de87345085cd5c46116f51"
+    },
+    {
+      "bytes": 4610,
+      "path": "examples/phase5_2_2_e_4/all_source_states_preservation.json",
+      "sha256": "d19ae7e032f3535afe27a67e593c4b7f0b5fa034e07b420b4e094c4df1d3f129"
+    },
+    {
+      "bytes": 76072,
+      "path": "examples/phase5_2_2_e_4/buildplan_descriptor_verification.json",
+      "sha256": "06c8355cb6fdf9aee93d351a0b25918b1f2fe16fde62d7f7f20dd9ba6d656993"
+    },
+    {
+      "bytes": 496,
+      "path": "examples/phase5_2_2_e_4/cache_identity.json",
+      "sha256": "78611183bf3a35155ab7cc33f6a041e8ff67f756b140ce2ac1f7a1662e057da5"
+    },
+    {
+      "bytes": 236,
+      "path": "examples/phase5_2_2_e_4/changed_compile_plugin_closure.json",
+      "sha256": "10aef4e34ccbcd29b661b3eaeb51a37da30985e06ae5ca2ad4faa22d57cb58eb"
+    },
+    {
+      "bytes": 67015,
+      "path": "examples/phase5_2_2_e_4/compile_phase_requirements.json",
+      "sha256": "000094a56034bea48bbaae7f32a210a78f583eef440184587e2c72cdfd5976b9"
+    },
+    {
+      "bytes": 106403,
+      "path": "examples/phase5_2_2_e_4/configuration_difference.json",
+      "sha256": "12b3a7245f16642a5824d503b6769285daadd22c467466fbe3a2cb5c0acc6f83"
+    },
+    {
+      "bytes": 629793,
+      "path": "examples/phase5_2_2_e_4/dependency_manifest.json",
+      "sha256": "396219aa616a8724f4a1d00285e04b4ad4f19bc8921e67e0ef6bc79c69c474d7"
+    },
+    {
+      "bytes": 686,
+      "path": "examples/phase5_2_2_e_4/frontier_comparison.json",
+      "sha256": "c2a2b8ec7df989ab1c817d90ba3fee893827151f2851ac60eb5b72837814748d"
+    },
+    {
+      "bytes": 13887,
+      "path": "examples/phase5_2_2_e_4/full_plugin_version_inventory.json",
+      "sha256": "a079735a391bf50cb6701b4faa0c577ddf2453d03ec18ae3bdf14d052fececbf"
+    },
+    {
+      "bytes": 1614,
+      "path": "examples/phase5_2_2_e_4/preservation.json",
+      "sha256": "34e36ac8b9bdce274ccc3a6d8bf08b57d61a0fc3fa0dce2eb048cb98e2b643a3"
+    },
+    {
+      "bytes": 313084,
+      "path": "examples/phase5_2_2_e_4/profiles_and_runtime_uncertainty.json",
+      "sha256": "ee411e6c7f1e380116c738f7832d55104e2e9a135410f0b248f8b05aac50b8bc"
+    },
+    {
+      "bytes": 124980,
+      "path": "examples/phase5_2_2_e_4/registered_compile_candidates.json",
+      "sha256": "9057d84f8d59796c45ec5a609954e11f8988b3d49fc8a475db7fcd9e0d40854d"
+    },
+    {
+      "bytes": 1641,
+      "path": "examples/phase5_2_2_e_4/resource_evidence.json",
+      "sha256": "518bd4ff5d189eeddb5b0834364636cfccddb3b7bf2b86ae586b5b86a568ac2e"
+    },
+    {
+      "bytes": 368,
+      "path": "examples/phase5_2_2_e_4/runtime_cache_capacity.json",
+      "sha256": "130bdc0326cfabe7dccb59891661516aa73a3be8b03a3682717421a79b84f105"
+    },
+    {
+      "bytes": 39735,
+      "path": "examples/phase5_2_2_e_4/source_manifest.json",
+      "sha256": "e7e7286b86b9c1f22935b9e142abc2343243b482b52e823d9a2640ee76a2d016"
+    },
+    {
+      "bytes": 522,
+      "path": "examples/phase5_2_2_e_4/static_tracking_correction.json",
+      "sha256": "7e9080cd4d1aa00b032bca179171adb86132904b3618670e4ea5a9be7c55ba7f"
+    },
+    {
+      "bytes": 47139,
+      "path": "examples/phase5_2_2_e_4/successful_builds_preservation.json",
+      "sha256": "e29eab32b974179f6474ab72d1ded650ef7fd6037694a46983057f6dbeef769e"
+    },
+    {
+      "bytes": 246168,
+      "path": "examples/phase5_2_2_e_4/test_dependency_closure.json",
+      "sha256": "97437691c02cdbe5f09c6a0a8110de32e5e774aab31f7cdbdd01fc50578cb1f3"
+    },
+    {
+      "bytes": 4784,
+      "path": "examples/phase5_2_2_e_4/verification.json",
+      "sha256": "c79706eedeb3d9f521972791a553a576d03a3da10108d8c039fe4de2301347af"
+    }
+  ],
+  "raw_logs": false,
+  "status": "PASS",
+  "third_party_binaries": false
+}

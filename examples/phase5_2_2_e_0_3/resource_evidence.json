@@ -1,0 +1,32 @@
+{
+  "acquisition_elapsed_seconds": 38.893476698000086,
+  "acquisition_peak_rss_kib": 39708,
+  "actual_address_space_limit_bytes": 1073741824,
+  "audit_peak_rss_kib": 35180,
+  "available_ram_kib_after_acquisition": 7876136,
+  "containers_started": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "free_disk_bytes_after_acquisition": 21115871232,
+  "http_checksum_404s": 20,
+  "limits": {
+    "artifact_bytes": 33554432,
+    "cpus": 1,
+    "disk_bytes": 268435456,
+    "process_address_space_bytes": 1073741824,
+    "requests": 200,
+    "response_bytes": 67108864,
+    "wall_seconds": 600
+  },
+  "local_artifacts_revalidated": 16,
+  "local_payload_bytes_reused": 5619293,
+  "maven_executions": 0,
+  "payload_accounting": "Counts artifact and checksum response bytes read; excludes TLS/headers and unread HTTP-error bodies",
+  "remote_artifact_files": 10,
+  "requests": 56,
+  "response_body_bytes_read": 1473004,
+  "task_storage_bytes_at_static_verification": 77355525,
+  "transport_retries": 0,
+  "version": "e03-resource-receipt-v1"
+}

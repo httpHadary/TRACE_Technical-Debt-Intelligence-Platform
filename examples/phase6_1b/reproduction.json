@@ -1,0 +1,7 @@
+{
+  "endpoint_rows": 540,
+  "endpoints_sha256": "3688b5d4707efc7ee04bab8950a4fb15ecc34157156dbd6cc2cbb830a258b7e7",
+  "method": "Independent CSV parse, exact synthetic target/denominator regeneration and full arithmetic recomputation, no model replay",
+  "metrics_sha256": "e880dfa2f2c515e484c68e1fa6c18ae1a20bfceed91670b04a8bf9eefc3f835c",
+  "status": "PASS"
+}

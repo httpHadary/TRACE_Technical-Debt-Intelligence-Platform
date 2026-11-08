@@ -1,0 +1,12 @@
+{
+  "all_seed_hashes_match": true,
+  "copied_not_hardlinked": true,
+  "original_ledgers": {
+    "D": 2000,
+    "D1": 400,
+    "D2": 52,
+    "D3": 112
+  },
+  "seed_count": 653,
+  "status": "PASS"
+}

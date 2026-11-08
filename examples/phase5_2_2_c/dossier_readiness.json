@@ -1,0 +1,30 @@
+{
+  "analyzer_use_permission": "NOT_APPROVED",
+  "approval_evidence": [],
+  "collection_admission": false,
+  "collection_authorized": false,
+  "dataset_use_rights": "NOT_APPROVED",
+  "decisions": 24,
+  "evidence_sources_verified": 22,
+  "existing_compilation_gate_referenced": true,
+  "existing_gate_reference": "compilation_closeout_reference.json",
+  "field_families": 17,
+  "legal_acceptance": false,
+  "new_execution_authority": false,
+  "next_action": "Qualified human review of exact pinned terms/use/field decisions; clarification draft remains unsent.",
+  "operations": {
+    "containers": 0,
+    "dataset_reconstruction": 0,
+    "external_contact": 0,
+    "java": 0,
+    "maven": 0,
+    "models": 0,
+    "scans": 0
+  },
+  "runtime_gates": 16,
+  "runtime_permission": "NOT_APPROVED",
+  "scope": "DOCUMENTARY_COMPLETENESS_ONLY",
+  "source_license_acceptance": "NOT_APPROVED",
+  "status": "RIGHTS_DECISION_DOSSIER_PASS_ADMISSION_BLOCKED",
+  "uses": 15
+}

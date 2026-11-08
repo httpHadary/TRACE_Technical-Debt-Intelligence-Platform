@@ -1,0 +1,196 @@
+{
+  "context_days": 90,
+  "contexts": 6,
+  "cpu_interop_threads": 1,
+  "cpu_threads": 2,
+  "cross_learning": false,
+  "dtype": "float32",
+  "endpoint_predictions": 18,
+  "frozen_split_id": "8b72cb6a93c47f84e6907bd180345c51f005257f5b10b18893fc791d3d0c0208",
+  "held_repository_ids": [
+    "v2-be00cc678f41e66832ccd8eb",
+    "v2-11eb4c34daf05c37fa6838da",
+    "v2-c7c657acd5ed716b76c47c1f",
+    "v2-c5586b674469c147cfada344",
+    "v2-f07bbb56c8cc56591ba77bae",
+    "v2-2fd0e784f917563f1f08d008"
+  ],
+  "horizons_days": [
+    30,
+    60,
+    90
+  ],
+  "input_manifests": {
+    "phase1": {
+      "artifacts": {
+        "excluded_records.json": "292745f6759211720be61d42b4e6a7b8e8083fd2a2adfaa58ec6ff5fa1408684",
+        "git_history.csv": "06f21ead1899354becda2c5f676e03a4a72fc4b66d9458e0f761c0d2bcb25571",
+        "historical_data_audit.json": "223b295e002bc1a3158bc807ff70a83c9655905ee31847b322e56971a5dfc2cf",
+        "historical_debt.csv": "ebed49fc838a2e28c601674c3e771e0d3272ac72679f17929f42359935244bff",
+        "historical_debt_sample.csv": "b05424664161a93fddb89986d677f851928fb46b66c18b22b7b3a4ae04772a37"
+      },
+      "metadata": {
+        "future_labels_constructed": false,
+        "models_executed": false,
+        "phase": 1,
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PARTIAL"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    },
+    "phase2": {
+      "artifacts": {
+        "forecasting_contexts.jsonl.gz": "f5e94c00f3d51c033b8cffcee463cd3a38e429b37744f54e36f1eb2ae1cce27a",
+        "forecasting_dataset.csv": "97c6ea0fa6560e28fce72bc128047827980f028528c99aab1b5ad84c6b5552ac",
+        "forecasting_dataset_sample.csv": "560fca34ee13d763829d2312a9fd447b0f281e6b6c7426a71d3e2abf61056faa",
+        "forecasting_feasibility.json": "68563ee04033cc2315a67263835504b1d73a2fb04f315338b4f0dc9ca7edd8fb",
+        "forecasting_features.csv": "70cb91253b1c3f4af1b0c2262f2ac130ba042caf152fd9fca6462b37824a15ae",
+        "forecasting_labels.csv": "b1de67992ed5f5fee6affbf242bb4258ce006312400daa2ae8148d7edc636842",
+        "forecasting_splits.json": "6a695e05403b89bd74d9560a3fe9f3900727d8782c4f4f048fb7abc98927a6e1"
+      },
+      "metadata": {
+        "models_executed": false,
+        "phase": 2,
+        "primary_track": "core90",
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PARTIAL"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    },
+    "phase3": {
+      "artifacts": {
+        "baseline_comparison.png": "eb01a235d04bf77cdd12a07d3d6b07d6bcbef6a18ac1e56887fba2865ccc762a",
+        "baseline_metrics.csv": "0ab76f4e46afd6aeef70b026b72a5ffdb492482bb8ed80886f7c45936e46f751",
+        "baseline_predictions.csv": "7c84fe411dae3908d4cdb557c4d1dc9f93293dbba2e33d3c5ad958cc759f8f68",
+        "baseline_predictions_sample.csv": "e67aadb99437f86658f6669868bd555e887e3d55bfb0992685681c5aa10ecffb",
+        "candidates/candidate_predictions.csv": "7c9dc42020e59be2f2014147ee6ff16a7262e77f8be4f10e0fb835c8a5949f55",
+        "candidates/manifest.json": "65b008ae1cd3a2a1add702eb9af29fb3054023601824ce3042a9299c929a8eef",
+        "prediction_seal.json": "30731aea0b681661146381b4ce965efea030c685f67e7c0a24a58f2ea47a58e9",
+        "run_audit.json": "67e871f3632d904ad7279da01fe55b3e2661d489f0a31cc0e07cc42591e00d03",
+        "selected_parameters.json": "f0a7d024e40e46f3f699569ed0ddfe3d58f44fe12af22a28212fdad82ae2d82d",
+        "study.json": "e797e63b33a80590d61c9c230ba7b4b93e8604d973e7e27e8f7adb3a9c1f8221"
+      },
+      "metadata": {
+        "phase": 3,
+        "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+        "status": "PASS",
+        "study_id": "7e27bf3e66ff16bd2607d4f10248aee1ce7e729d697d71a36d44d9bb3fabd6a8"
+      },
+      "mvp_schema_version": 1,
+      "serializer": "legacy_sorted_compact_json_utf8_v1",
+      "status": "COMPLETE"
+    }
+  },
+  "labels_opened": false,
+  "max_rss_bytes": 2147483648,
+  "model_id": "autogluon/chronos-2-small",
+  "patterns": [
+    "constant",
+    "increasing",
+    "decreasing"
+  ],
+  "phase": "4.1",
+  "phases": [
+    "train",
+    "validation"
+  ],
+  "prediction_length": 90,
+  "repeats_per_context": 2,
+  "revision": "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+  "samples": [
+    {
+      "context_id": "001714ab1e7e6adc446c5a9e5024da043d772f4ef6448f3e83a9cc56068d2738",
+      "distinct_context_measurements": 1,
+      "evaluation_phase": "train",
+      "forecast_ids": [
+        "9ccfd39a2bcc5493dd808b2936bbeb32b157aaf554e5399f4f7b9d8da96f9cdc",
+        "fe95376699cd2416c44f51391715bba3c3d9223bf524b5b0397836c434fcc703",
+        "3d52d13c3ba252ac82fcbe1739af502eb3f89e1541fed6b486d355e0b125c2a7"
+      ],
+      "origin_utc": "2012-01-02T00:00:00Z",
+      "pattern": "constant",
+      "repository_id": "v2-91429c566e7c1a0cbb0fd178",
+      "sample_id": "db7688c992989747b045b4a76e5723198cfed198b8862bdd0fff95da0f96ae11"
+    },
+    {
+      "context_id": "bc6f7813c3c67b48db27421a33c7596d5b3cfaf9d93dc716e435f8bf3493dfdf",
+      "distinct_context_measurements": 38,
+      "evaluation_phase": "train",
+      "forecast_ids": [
+        "6f9347ed7c2cf56b2b22e74ebd6e7f66b71fd7591d31f357857419403aab1be0",
+        "df4214e0ceb4ca3d187ce99fff0f60c05304adb6d7ba9237a6efd7bb4c1e95d8",
+        "5b3309faca5aafbdb7f9234eabb50b1331d5a5caca63b364662ff2901c5905f6"
+      ],
+      "origin_utc": "2013-04-15T00:00:00Z",
+      "pattern": "decreasing",
+      "repository_id": "v2-5a156039ebb55f29ae7a9601",
+      "sample_id": "3b71557fdc862b7d6300865c4dcc431a4e5b555b9103eec113d5c86d412c5d7c"
+    },
+    {
+      "context_id": "9d8c58b8ae77f265e1d942376be5ffb33b46759f064f2f1064165add980241b1",
+      "distinct_context_measurements": 50,
+      "evaluation_phase": "train",
+      "forecast_ids": [
+        "1cc7973d15a4adbfc9b8275d75462c6d7713cc8b4a02ff4cfba64c3400aec305",
+        "009229a419e3e5946237716cd41470ad47fd76c5cab060f8e573f1bc332c7cd9",
+        "ef6a30869841c930d975bacdf6af833329cce06137fd3323085992629d2126ad"
+      ],
+      "origin_utc": "2013-02-04T00:00:00Z",
+      "pattern": "increasing",
+      "repository_id": "v2-5a156039ebb55f29ae7a9601",
+      "sample_id": "4f7b1938c947aa6319b10b90f8bda5d27fea5fdac6a1751dcacceb3319bce97a"
+    },
+    {
+      "context_id": "019577ed80aa6e74c6b325a849e9ce829a6b88760ac0a834b28eab38bf07ba93",
+      "distinct_context_measurements": 1,
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "80caf374c5bdb349037e4bf82b0c524c07ffbc2e03ad5f82e242715dfd288836",
+        "2f1da8f72affa68d3db0c56765a2ad6781250db1d546c15ce2475cd173dacf7d",
+        "6d3b1d83d732297ec7da70964ea8fdf320661aed9412bef75eca32dee52abcfc"
+      ],
+      "origin_utc": "2015-03-09T00:00:00Z",
+      "pattern": "constant",
+      "repository_id": "v2-46ae23a54214d989ff07551b",
+      "sample_id": "ef5a202af8552082432f6076a1fcdeff2e9ec66213063aa01b171b4c329e30c4"
+    },
+    {
+      "context_id": "0c97ca89593c242775e29963da98169ee1c78a7ea33d28cefc9be083da30a05c",
+      "distinct_context_measurements": 22,
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "5226db26bd4431804da130bcd42c4d11d4e505b689f61371415c9ed95855108e",
+        "a3a8a59f22748c559486fd19a37dd6bb33f4badc31f4e42b10bfdd6d9ff14967",
+        "1960c2358d48421406b409911c79a793561d4e47246c237dad90045902afa351"
+      ],
+      "origin_utc": "2014-10-06T00:00:00Z",
+      "pattern": "decreasing",
+      "repository_id": "v2-5a156039ebb55f29ae7a9601",
+      "sample_id": "fc7e09650d88c38290ab9cb45908d118a8cbebbd776a98d147f04cbd272b64ca"
+    },
+    {
+      "context_id": "12479b9937a1037c0664b5a87b52ae58c6b6d0965526a1dbdbbbecff05407048",
+      "distinct_context_measurements": 28,
+      "evaluation_phase": "validation",
+      "forecast_ids": [
+        "1af4c7529c6615f90a63519fa833dca979e0b7dc60d718c3c32a2200d5af904f",
+        "65aab8c2b2eaf9add4fbcb343010a8031dfef1a8d3513107dc286890f7dddbef",
+        "19d831a40b734bf9569cc226e1b998ff8abba3dcbc0e70481a926dd3cea774fa"
+      ],
+      "origin_utc": "2015-02-16T00:00:00Z",
+      "pattern": "increasing",
+      "repository_id": "v2-ef6e6b7896649c5d7b494c6f",
+      "sample_id": "8b633ed93dfa332ed408933b7ea173ba013308364889bb231b5ba71d803136f8"
+    }
+  ],
+  "seed": 42,
+  "selection_policy": "phase_pattern_past_scan_diversity_then_context_hash_v1",
+  "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+  "status": "PREDEFINED",
+  "test_ids_selected": 0,
+  "timeout_seconds": 900
+}

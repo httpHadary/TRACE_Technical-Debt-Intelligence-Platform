@@ -1,0 +1,7 @@
+# Install only into a new .venv-chronos-cpu; CPU wheel index required.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0+cpu
+chronos-forecasting==2.3.2
+transformers==4.57.6
+numpy==2.4.4
+pandas==3.0.2

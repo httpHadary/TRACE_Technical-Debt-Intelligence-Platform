@@ -1,0 +1,14 @@
+{
+  "all_eight_artifacts_byte_identical": true,
+  "artifacts": {
+    "forecasting_dataset_sample.csv": true,
+    "manifest.json": true,
+    "forecasting_dataset.csv": true,
+    "forecasting_splits.json": true,
+    "forecasting_contexts.jsonl.gz": true,
+    "forecasting_feasibility.json": true,
+    "forecasting_features.csv": true,
+    "forecasting_labels.csv": true
+  },
+  "same_frozen_source_and_code": true
+}

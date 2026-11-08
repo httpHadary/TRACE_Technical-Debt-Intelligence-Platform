@@ -1,0 +1,24 @@
+{
+  "added_cache_metadata": [],
+  "added_isolated_build_outputs": [
+    {
+      "path": "target/rat.txt",
+      "sha256": "bff7a5378dacddc0658a1cffa797a0f3258d3a9c4ccd2c8f56d1fac8f247d03e"
+    }
+  ],
+  "all_artifact_bytes_unchanged": true,
+  "all_tracked_source_bytes_unchanged": true,
+  "artifact_count": 679,
+  "cache_identity_sha256": "f4bc6cbab0f8e0bc14557408173290a8453854c35226b40348bffe7a58011daa",
+  "cache_input_manifest_sha256": "db6b1a0709211b46e774450571dee14c51aa72ee171260352a4fbcf49b1fd2f8",
+  "cache_post_manifest_sha256": "3a8380fd7e7055b7e1a1dc35aefd34c58dd4b7c1fd7cd525c85ae62cb83592ad",
+  "effective_pom_sha256": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+  "git_blob_identities_verified": true,
+  "pom_sha256": "b75fb9813e3c06121caa7d84c31a471b646465966079cf10ec4c7a2e4aba55f2",
+  "raw_build_output_published": false,
+  "seed_manifest_sha256": "73de04d94fe2a1c85fd49f38bfdc14df47e0f93855a8ac5258a10d72f714b113",
+  "source_count": 117,
+  "source_input_manifest_sha256": "5bf740882ad06877f333b28f3503f1bd6d270dd15217de2a643acb190f96aff4",
+  "source_post_manifest_sha256": "55d8afa3b44e8b1457d44e0f8e53f27f67d026f1ed7969790af563ce9d53ae9b",
+  "version": "e04-source-cache-v1"
+}

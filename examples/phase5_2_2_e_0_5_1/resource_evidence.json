@@ -1,0 +1,47 @@
+{
+  "acquisition_elapsed_seconds": 84.28687012489536,
+  "acquisition_peak_rss_kib": 40572,
+  "actual_address_space_limit_bytes": 1073741824,
+  "admission": {
+    "admitted": true,
+    "available_memory_kib": 7583564,
+    "cpu_affinity": [
+      0
+    ],
+    "free_disk_bytes": 20052668416,
+    "heavy_processes": [],
+    "max_address_space_bytes": 1073741824,
+    "single_worker": true
+  },
+  "approved_local_bytes_admitted": 0,
+  "audit_peak_rss_kib": 40936,
+  "available_ram_kib_after_acquisition": 7658872,
+  "checksum_404_count": 22,
+  "conservative_new_task_storage_with_two_checkout_copies_bytes": 83188436,
+  "containers_started": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "free_disk_bytes_after_acquisition": 19968757760,
+  "java_executions": 0,
+  "limits": {
+    "address_space_bytes": 1073741824,
+    "artifact_bytes": 33554432,
+    "cpus": 1,
+    "requests": 160,
+    "response_bytes": 50331648,
+    "task_storage_bytes": 268435456,
+    "wall_seconds": 600
+  },
+  "maven_executions": 0,
+  "network_after_seal": false,
+  "new_payload_bytes": 451223,
+  "payload_policy": "Read response bodies, including checksum probes; excludes unread HTTP-error bodies/TLS/headers",
+  "private_task_storage_bytes_before_publication": 79564088,
+  "requests": 52,
+  "safe_metadata_and_source_bytes_in_canonical_checkout": 1812174,
+  "sequential_workers": 1,
+  "task_storage_bytes_at_static_audit": 79538689,
+  "transferred_response_payload_bytes": 452175,
+  "transport_retries": 0
+}

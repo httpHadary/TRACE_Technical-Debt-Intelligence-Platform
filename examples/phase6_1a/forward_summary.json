@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "observed_forwards": 144,
+  "matching90": 72,
+  "matching512": 72,
+  "normalization_examples": [
+    {
+      "case_id": "synthetic-442394c43df6f24c8a810317d9ed0d63",
+      "context_days": 90,
+      "forward": [
+        {
+          "context_sha256": "96fc198fb194affc7902afb636d3914e747eb44cb3d16ecaeccdef55ba192794",
+          "context_shape": [
+            1,
+            90
+          ],
+          "finite_positions": 90,
+          "matches_requested_float32": true,
+          "native_location": [
+            288.875
+          ],
+          "native_scale": [
+            6.4947896003723145
+          ]
+        }
+      ],
+      "repeat": 0
+    },
+    {
+      "case_id": "synthetic-442394c43df6f24c8a810317d9ed0d63",
+      "context_days": 512,
+      "forward": [
+        {
+          "context_sha256": "8ecddb00b82a03727c6d64db67ff5f590d6b7be944b9c564b186ce307760cf3f",
+          "context_shape": [
+            1,
+            512
+          ],
+          "finite_positions": 512,
+          "matches_requested_float32": true,
+          "native_location": [
+            236.125
+          ],
+          "native_scale": [
+            36.950347900390625
+          ]
+        }
+      ],
+      "repeat": 0
+    }
+  ]
+}

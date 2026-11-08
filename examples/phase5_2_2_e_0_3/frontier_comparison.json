@@ -1,0 +1,35 @@
+{
+  "after": [],
+  "before": [
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom"
+  ],
+  "compile_success": false,
+  "exact_roots_status": "RECOVERED_EXACT_ROOTS",
+  "maven_build_readiness": "UNKNOWN",
+  "missing_or_uncertain": [],
+  "required_identities": 12,
+  "resolved": [
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+    "commons-io/commons-io/2.17.0/commons-io-2.17.0.pom",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar",
+    "org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar",
+    "org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom"
+  ],
+  "status": "STATIC_TEST_DEPENDENCY_CLOSURE_COMPLETE",
+  "stop": null,
+  "version": "e03-frontier-comparison-v1"
+}

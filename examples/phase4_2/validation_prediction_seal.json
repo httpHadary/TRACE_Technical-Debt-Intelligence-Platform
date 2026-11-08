@@ -1,0 +1,8 @@
+{
+  "numerical_labels_loaded": false,
+  "prediction_sha256": "812bacd499b72e8d2d34a4753cbfca26e968111195eb81678994651b052ed88d",
+  "selection_sha256": null,
+  "stage": "validation",
+  "status": "SEALED",
+  "worker_manifest_sha256": "abf71b9d80479a62329c524c3828498ac41536d61a04237c36f252d4f8396ee9"
+}

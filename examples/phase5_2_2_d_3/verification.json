@@ -1,0 +1,73 @@
+{
+  "all_seed_copies_verified": 624,
+  "helper_requests": 112,
+  "helper_response_bytes": 2508354,
+  "historical_compilations": 0,
+  "historical_lifecycle_goals": 0,
+  "model_runs": 0,
+  "old_reports_modified": false,
+  "other_revision_models_inspected": 0,
+  "owned_containers_remaining": 0,
+  "preservation": {
+    "cached_reference_artifacts_rehashed": 75,
+    "central_preexisting_files": 436,
+    "existing_cache_entries_preserved": 5878,
+    "frozen_artifacts": 322,
+    "frozen_bundles": 56,
+    "old_server_state_and_mounts_unchanged": true,
+    "original_task_d1_cache_files_unchanged": 615,
+    "original_task_d1_request_accounting": 400,
+    "original_task_d2_cache_files_unchanged": 630,
+    "original_task_d2_request_accounting": 52,
+    "original_task_d_cache_files_unchanged": 1378,
+    "original_task_d_request_accounting": 2000,
+    "peak_rss_kib": 30692,
+    "phase5_1_bundles": 2,
+    "preexisting_containers_and_volumes_preserved": true,
+    "runtime_cache_verified": 653,
+    "source_db_and_checkpoint_hashes_verified": true,
+    "source_tree_preserved": true,
+    "status": "PASS",
+    "task_containers_remaining": 0,
+    "task_d3_containers_remaining": 0,
+    "temporary_binaries_remaining": 0,
+    "unfinished_untracked_files_preserved": 4,
+    "working_original_head": "2e7999ea436d49449652e6c52e9066ef2e514419",
+    "working_preexisting_files": 347
+  },
+  "prior_ledgers": [
+    2000,
+    400,
+    52
+  ],
+  "runtime_artifacts_verified_after_execution": 653,
+  "sonarqube_operations": 0,
+  "source_sha256": {
+    "tests/test_phase5_2_2_d_3_inspection.py": "1d8afb5a236586b6c6827ed37733862b23dc70cacfb03e0c84919db6f072373f",
+    "tools/inspect_phase5_2_2_d_3.py": "c2b3f8536fd5d47d997f510a9ea2716cfabe277a34cb1bc3ececacd26c2fc9ab"
+  },
+  "status": "PASS",
+  "task_status": "MODEL_VERIFIED",
+  "test_runs": [
+    {
+      "checkout": "central",
+      "failed": 0,
+      "junit_sha256": "3707ba64fed0e843d1925ef3a3436bf17d064b5a2c82c63825e30bf98356359d",
+      "log_sha256": "7ceaf30de5d4a74af04573bf7c4967065415d6b8b6a17ff207cdc2af98fbdfb6",
+      "new_cases": 30,
+      "passed": 313,
+      "seconds": 17.616,
+      "skipped": 0
+    },
+    {
+      "checkout": "working",
+      "failed": 0,
+      "junit_sha256": "6d90737e2f5fb25b5e8f95a5044a07cba2df25b221aca1e127c5db621255611c",
+      "log_sha256": "02209ee820e4658375bda67ebbb84f23cb123c1a5724e4df23bac741427958ff",
+      "new_cases": 30,
+      "passed": 313,
+      "seconds": 16.327,
+      "skipped": 0
+    }
+  ]
+}

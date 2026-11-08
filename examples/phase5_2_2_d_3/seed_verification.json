@@ -1,0 +1,10 @@
+{
+  "all_independently_copied": true,
+  "artifacts": 624,
+  "manifest_sha256": "5e0f8ecd62eb913a539785e4ab7f33364640e98339ecc4972fc96a6dbf0d0a3a",
+  "previous_ledgers": [
+    2000,
+    400,
+    52
+  ]
+}

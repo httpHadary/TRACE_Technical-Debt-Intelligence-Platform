@@ -1,0 +1,74 @@
+{
+  "dataset_files_downloaded": 0,
+  "provenance_limit": "Public URL/version plus reviewed-section metadata; publisher response bytes not archived or cryptographically authenticated; local evidence hashes are separate",
+  "reviewed_date": "2026-10-20",
+  "scope": "BOUNDED_STATIC_PUBLIC_RESEARCH",
+  "sources": [
+    {
+      "id": "LOCAL_PHASE5_1",
+      "kind": "existing_project_metadata",
+      "reference": "PHASE_5_1_IMPLEMENTATION_REPORT.md",
+      "review": "Source availability, path conflicts, empty pilot slots; historical findings only"
+    },
+    {
+      "id": "LOCAL_PHASE6_5",
+      "kind": "existing_project_metadata",
+      "reference": "PHASE_6_5_FORECAST_INFORMATION_REPORT.md",
+      "review": "Controlled information result; no real predictive signal validated"
+    },
+    {
+      "id": "LOCAL_RIGHTS",
+      "kind": "existing_project_metadata",
+      "reference": "PHASE_5_2_2_C_RIGHTS_DECISION_REPORT.md",
+      "review": "24 decisions NOT_APPROVED;16 runtime properties UNKNOWN"
+    },
+    {
+      "id": "SLR2024",
+      "kind": "primary_review_paper",
+      "limitation": "Not a benchmark reproduction or complete independent systematic review by this phase",
+      "reference": "https://arxiv.org/html/2406.12026v1",
+      "review": "Authors reviewed14 primary studies; narrow debt-type coverage and methodological gaps. Used for field maturity, not model superiority.",
+      "reviewed_sections": "abstract and study design"
+    },
+    {
+      "id": "TIME2025",
+      "kind": "primary_empirical_paper",
+      "limitation": "No study data, code execution or independent accuracy reproduction",
+      "reference": "https://arxiv.org/html/2408.08095v2",
+      "review": "Uses TDDv2 and serialized observations; studies temporal/product models. Reported outcomes do not create a fresh independent project cohort here.",
+      "reviewed_sections": "abstract;3.2;3.7.2;3.7.3;discussion of sparse analyses"
+    },
+    {
+      "id": "JIT2022",
+      "kind": "primary_publisher_abstract",
+      "limitation": "Different prediction task; full text was unavailable; no dataset admitted",
+      "reference": "https://doi.org/10.1016/j.jss.2022.111481",
+      "review": "Commit-level product/process forecasting motivates activity ablations.",
+      "reviewed_sections": "publisher abstract as recorded in Phase6.5 research sources"
+    },
+    {
+      "id": "SATD2017",
+      "kind": "primary_institutional_abstract",
+      "limitation": "Comment removal is neither known future intent nor native remediation-minute reduction; original author-PDF URL returned404",
+      "reference": "https://research.tue.nl/en/publications/an-empirical-study-on-the-removal-of-self-admitted-technical-debt/",
+      "review": "SATD removal studied across five projects; repair can accompany bug fixes/features.",
+      "reviewed_sections": "institutional abstract"
+    },
+    {
+      "id": "GIT_DOCS",
+      "kind": "official_documentation",
+      "limitation": "Commit date alone is not publication/availability proof",
+      "reference": "https://git-scm.com/docs/git-commit",
+      "review": "Author/committer dates can be supplied or overridden.",
+      "reviewed_sections": "--date;commit information"
+    },
+    {
+      "id": "EVENTS_DOCS",
+      "kind": "official_documentation",
+      "limitation": "Not a complete retrospective archive or permission to collect it",
+      "reference": "https://docs.github.com/en/rest/activity/events",
+      "review": "Events API documents a300-event/30-day window and latency.",
+      "reviewed_sections": "About GitHub events;list public events"
+    }
+  ]
+}

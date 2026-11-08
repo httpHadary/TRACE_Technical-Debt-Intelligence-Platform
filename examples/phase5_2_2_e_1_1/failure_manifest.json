@@ -1,0 +1,13 @@
+{
+  "automatic_retry": false,
+  "corrective_action_for_this_compile": "NONE_REQUIRED",
+  "docker_exit": 0,
+  "first_error": null,
+  "maven_exit": 0,
+  "nonfatal_findings": [
+    "Three RAT POM warnings",
+    "Jansi native library unavailable on noexec /tmp",
+    "Detached Git export uses original SCM fallback"
+  ],
+  "status": "NO_FATAL_FAILURE"
+}

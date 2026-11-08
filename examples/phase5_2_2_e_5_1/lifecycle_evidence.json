@@ -1,0 +1,227 @@
+{
+  "actual_active_profiles": "UNAVAILABLE_NOT_ENUMERATED_BY_REGISTERED_COMPILE",
+  "actual_effective_pom_sha256": null,
+  "actual_executed_goals": [
+    {
+      "execution": "enforce-maven-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "enforce-java-version",
+      "goal": "enforce",
+      "prefix": "enforcer",
+      "project": "commons-cli",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "rat-check",
+      "goal": "check",
+      "prefix": "apache-rat",
+      "project": "commons-cli",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "goal": "check-buildplan",
+      "prefix": "artifact",
+      "project": "commons-cli",
+      "version": "3.5.1"
+    },
+    {
+      "execution": "parse-version",
+      "goal": "parse-version",
+      "prefix": "build-helper",
+      "project": "commons-cli",
+      "version": "3.6.0"
+    },
+    {
+      "execution": "javadoc.resources",
+      "goal": "run",
+      "prefix": "antrun",
+      "project": "commons-cli",
+      "version": "3.1.0"
+    },
+    {
+      "execution": "process-resource-bundles",
+      "goal": "process",
+      "prefix": "remote-resources",
+      "project": "commons-cli",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default",
+      "goal": "create",
+      "prefix": "buildnumber",
+      "project": "commons-cli",
+      "version": "3.2.1"
+    },
+    {
+      "execution": "default-resources",
+      "goal": "resources",
+      "prefix": "resources",
+      "project": "commons-cli",
+      "version": "3.3.1"
+    },
+    {
+      "execution": "default-compile",
+      "goal": "compile",
+      "prefix": "compiler",
+      "project": "commons-cli",
+      "version": "3.13.0"
+    }
+  ],
+  "check_buildplan": "PASS",
+  "compiler_lines": [
+    "[INFO] --- compiler:3.13.0:compile (default-compile) @ commons-cli ---",
+    "[INFO] Compiling 36 source files with javac [debug release 8] to target/classes"
+  ],
+  "deploy_plan_plugins_checked": 20,
+  "expected_target_compile_candidates": [
+    {
+      "execution": "enforce-maven-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "enforce-java-version",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "goal": "enforce",
+      "phase": "validate",
+      "prefix": "enforcer",
+      "version": "3.5.0"
+    },
+    {
+      "execution": "rat-check",
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "goal": "check",
+      "phase": "validate",
+      "prefix": "apache-rat",
+      "version": "0.16.1"
+    },
+    {
+      "execution": "check-buildplan",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "goal": "check-buildplan",
+      "phase": "validate",
+      "prefix": "artifact",
+      "version": "3.5.1"
+    },
+    {
+      "execution": "parse-version",
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "goal": "parse-version",
+      "phase": "validate",
+      "prefix": "build-helper",
+      "version": "3.6.0"
+    },
+    {
+      "execution": "javadoc.resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "goal": "run",
+      "phase": "generate-sources",
+      "prefix": "antrun",
+      "version": "3.1.0"
+    },
+    {
+      "execution": "process-resource-bundles",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "goal": "process",
+      "phase": "generate-resources",
+      "prefix": "remote-resources",
+      "version": "3.2.0"
+    },
+    {
+      "execution": "default",
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "goal": "create",
+      "phase": "generate-resources",
+      "prefix": "buildnumber",
+      "version": "3.2.1"
+    },
+    {
+      "execution": "default-resources",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "goal": "resources",
+      "phase": "process-resources",
+      "prefix": "resources",
+      "version": "3.3.1"
+    },
+    {
+      "execution": "default-compile",
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "goal": "compile",
+      "phase": "compile",
+      "prefix": "compiler",
+      "version": "3.13.0"
+    }
+  ],
+  "later_lifecycle_goals_executed": false,
+  "observation_rule": "Only actual goal banners count as executions; check-buildplan mentions are descriptor checks",
+  "original_remote_resources_behavior": "[INFO] Skipping remote resources execution.",
+  "rat_summary": "[INFO] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 127 licenses.",
+  "raw_stderr_sha256": "616c4344a44928bdba1c883f68cf7ae6a2cc843f997016799694fbb1c030e591",
+  "raw_stdout_sha256": "1a8d41635ae14c80e3eb0c8cfbc07280e91ceb39c77c1281a5d0bcb87295de39",
+  "scm_identity_for_lineage": {
+    "commit": "af2b3e72a552cfb2a902556469868763ddea3638",
+    "do_not_use_fallback": true,
+    "tree": "0d773516c1c7bb0a371b2af6e084b62ef2d36546"
+  },
+  "scm_lines": [
+    "[INFO] --- buildnumber:3.2.1:create (default) @ commons-cli ---",
+    "[INFO] maven is executed in offline mode, Updating project files from SCM: skipped.",
+    "[INFO] Storing buildNumber: ?????? at timestamp: 1792361620972",
+    "[WARNING] Cannot get the branch information from the git repository: ",
+    "Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /)",
+    "[INFO] Storing scmBranch: UNKNOWN_BRANCH"
+  ],
+  "source_of_skip": "Original inherited configuration; no agent skip property",
+  "status": "FULL_ORIGINAL_COMPILE_COMPLETED",
+  "streams_complete": true,
+  "target_lifecycle_matches": true
+}

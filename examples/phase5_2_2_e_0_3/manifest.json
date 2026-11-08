@@ -1,0 +1,75 @@
+{
+  "artifacts": [
+    {
+      "bytes": 3195,
+      "path": "E_0_4_HANDOFF.md",
+      "sha256": "c4b492f11766f6c6086da3405783cb02b6cb8f987731dac06127c2a3619a4547"
+    },
+    {
+      "bytes": 1574,
+      "path": "README.md",
+      "sha256": "0c8f156674bdf9727ec7f09a61bc12541105c2f0944ac110c2a0c69a3ad46bf0"
+    },
+    {
+      "bytes": 581,
+      "path": "cache_identity.json",
+      "sha256": "cd89cd8f78373ca983fe803412adbb5dbb8ef7b0393d1d8b2d015767b24d6661"
+    },
+    {
+      "bytes": 165064,
+      "path": "closure_evidence.json",
+      "sha256": "b7940f478d50fd5ce4942410238735a81312ae9e0871e01e29de78f26eb3b343"
+    },
+    {
+      "bytes": 575698,
+      "path": "dependency_manifest.json",
+      "sha256": "73de04d94fe2a1c85fd49f38bfdc14df47e0f93855a8ac5258a10d72f714b113"
+    },
+    {
+      "bytes": 1824,
+      "path": "frontier_comparison.json",
+      "sha256": "7caee08cd700bcf3c081020bc73498d738a8a4a235dfc05c536e5eb8314b7863"
+    },
+    {
+      "bytes": 1070,
+      "path": "preservation.json",
+      "sha256": "cb39da0dfcadba4dc08899cabe3abb72bc1be799801f5eff02f91c9e11b8c4a6"
+    },
+    {
+      "bytes": 23249,
+      "path": "recovered_artifacts.json",
+      "sha256": "8de2138a888f71ebffe9101368ba04d21bb8fe4ee3d180d145a2d2cd7eb5f34e"
+    },
+    {
+      "bytes": 1483,
+      "path": "registration.json",
+      "sha256": "9673bee30763f8e3ca4c0c94e5e14a4eb7982a1f2a1fdc6065e04d93b4760991"
+    },
+    {
+      "bytes": 882,
+      "path": "remaining_uncertainties.json",
+      "sha256": "4304d65232d8e6cd8178abbfcfb5e55740807cc3a229ee4e9389edc3f7ee6d83"
+    },
+    {
+      "bytes": 1022,
+      "path": "resource_evidence.json",
+      "sha256": "7b2c4c5455fb67dffa2547ca2074333bbf5f87878f26fd782770eafa7a55f211"
+    },
+    {
+      "bytes": 197,
+      "path": "seed_verification.json",
+      "sha256": "93004244083c48b17c36f0b8ed0dc0b0867e47b6ee54d57b63f3db62b1049cff"
+    },
+    {
+      "bytes": 1085,
+      "path": "static_verification.json",
+      "sha256": "7c6fba415776a88ddbdc882d81e312cacbff5dc86adec882505a1929945242f6"
+    },
+    {
+      "bytes": 827,
+      "path": "verification.json",
+      "sha256": "29cc68b15f0f19afb6e322eec37ad6de0ed298a1920267b45f9478914ee80207"
+    }
+  ],
+  "version": "e03-publication-evidence-v1"
+}

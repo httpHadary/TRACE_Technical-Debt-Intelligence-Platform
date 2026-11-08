@@ -1,0 +1,70 @@
+{
+  "all_raw_and_staged_artifacts_rehashed": true,
+  "downloaded_artifacts_executed": 0,
+  "historical_builds": 0,
+  "jar_crc_verified_on_acquisition": 173,
+  "maven_project_goals": 0,
+  "model_runs": 0,
+  "network_acquisition_stopped_at_cap": true,
+  "offline_requirements_deterministic": true,
+  "pom_coordinate_triples_verified": 336,
+  "preservation": {
+    "cached_reference_artifacts_rehashed": 75,
+    "central_preexisting_files": 397,
+    "existing_cache_entries_preserved": 5878,
+    "frozen_artifacts": 322,
+    "frozen_bundles": 56,
+    "old_server_state_and_mounts_unchanged": true,
+    "peak_rss_kib": 26024,
+    "phase5_1_bundles": 2,
+    "preexisting_containers_and_volumes_preserved": true,
+    "source_db_and_checkpoint_hashes_verified": true,
+    "status": "PASS",
+    "task_containers_remaining": 0,
+    "temporary_binaries_remaining": 0,
+    "unfinished_untracked_files_preserved": 4,
+    "working_original_head": "2e7999ea436d49449652e6c52e9066ef2e514419",
+    "working_preexisting_files": 308
+  },
+  "requests_after_final_offline_audits": 2000,
+  "requirements_sha256": "91a055df88bca2378331602a841126a26936a6c3c05cdb9a715de774d072d165",
+  "reviewed_reference_sha256": {
+    "examples/phase5_2_1/dependency_inspection.json": "232a1cff1eb6a0cb80527c76b947298d0f1ebe4091fc712045048a19d81959fa",
+    "examples/phase5_2_1/readiness_manifest.json": "1381994ca83e92bac89e49e4a464f3759490ee68890813cc31b3165996461492",
+    "examples/phase5_2_1/runtime_artifact_inspection.json": "318f191b806a0857de58dc42db85a72e5aa8b2f026ee59f61b2783e5f99c391b",
+    "examples/phase5_2_2_b/runtime_evidence.json": "d8af5d03b32c8f59a69f7ec511a55b941b539d96082b14a1d89126654e030676"
+  },
+  "scans": 0,
+  "server_starts": 0,
+  "source_sha256": {
+    "tests/test_phase5_2_2_d_recovery.py": "f78aab910cabddb9d45ee7f76ee8487d75f3cf79171a8b03cdf16a3c4df8d10d",
+    "tools/maven_recovery/__init__.py": "656ca45b6dad8b2496d757eab27d955838a8fb1022eba231044d1c69b6b4f812",
+    "tools/maven_recovery/acquisition.py": "1f8db236f4644bb2d7135b6cb7337c56d7a22372f41e3b5ff310c214c04db072",
+    "tools/maven_recovery/model.py": "fdabb85b8030f4610f8d1ae42d22cc8721727ac319aaac6d5948643313d950fd",
+    "tools/recover_phase5_2_2_d.py": "cd8a01d3e11867a5593d2e251e1575e78c5145fb9fcd7c2ef6c7e2be36d72862"
+  },
+  "status": "PASS_VERIFICATION_WITH_PARTIAL_DEPENDENCY_READINESS",
+  "tasks_c_e_f_started": false,
+  "test_runs": [
+    {
+      "checkout": "central",
+      "failed": 0,
+      "junit_sha256": "a18b8872dcb1816f4fec0d456986233ed2fc35b8b9dbdbc42db18e72bd0a07d3",
+      "log_sha256": "c46ae8ba67a7bb1fa1b59f68b6409f7e66b273973e310e136466f209a419ee55",
+      "new_cases": 43,
+      "passed": 247,
+      "seconds": 14.545,
+      "skipped": 0
+    },
+    {
+      "checkout": "working",
+      "failed": 0,
+      "junit_sha256": "5193dbfe36c7ab460d043343c067f6fe12c9ef98c1af8c67c8ccb3f4740bd131",
+      "log_sha256": "849abeed2337b22c98c52d3b8c10195839ea11d6902199cc52bf6047d878c289",
+      "new_cases": 43,
+      "passed": 247,
+      "seconds": 14.042,
+      "skipped": 0
+    }
+  ]
+}

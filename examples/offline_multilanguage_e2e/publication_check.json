@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PORTABLE_PUBLICATION_CHECK",
+  "implementation_commit": "990d3f3aafa3e31f585519e55af62f1b1dbc3bb7",
+  "fixture_bundles": 6,
+  "api_requests": 18,
+  "rendered_browser_checks": 6,
+  "browser_version": "153.0.8010.12",
+  "bundle_ids_match_original": true,
+  "original_bundle_and_screenshot_bytes_preserved": true,
+  "product_files_unchanged": true,
+  "full_regression_rerun": false,
+  "new_scans": 0,
+  "new_model_runs": 0,
+  "authentic_export_validated": false
+}

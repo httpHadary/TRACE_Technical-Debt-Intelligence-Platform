@@ -1,0 +1,115 @@
+{
+  "added_count": 5,
+  "additions": [
+    {
+      "bytes": 673587,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.17.0"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar.sha1",
+        "value": "b17d2136f0460dcc0d2016ceefca8723bdf4ee70"
+      },
+      "sha256": "6ee731df5c8e5a2976a1ca023b6bb320ea8d3539fbe64c8a1d5cb765127c33b4",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar"
+    },
+    {
+      "bytes": 31256,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.commons",
+        "commons-lang3",
+        "3.17.0"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom.sha1",
+        "value": "967463be2b7350cef4fe4c1dac443a4a333a3be1"
+      },
+      "sha256": "351c6e4940e939b1f330df47f60f13ba383db81ee008181af541f3a2a6d2a56c",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom"
+    },
+    {
+      "bytes": 77692,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.commons",
+        "commons-parent",
+        "73"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "APPROVED_LOCAL_BYTES_FRESH_CENTRAL_CHECKSUM",
+      "path": "org/apache/commons/commons-parent/73/commons-parent-73.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom.sha1",
+        "value": "18d2c65d184f8e59bf343ffe79676cbacf270374"
+      },
+      "sha256": "4ed44560b07f8448479dfd1e83a422ba4e83e60b36e51b2871ac502a6d5c1bea",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom"
+    },
+    {
+      "bytes": 257863,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.commons",
+        "commons-text",
+        "1.13.0"
+      ],
+      "extension": "jar",
+      "integrity": "ZIP_CRC",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar.sha1",
+        "value": "ba2ed5521c491cabf7ecdb57f77922561c2e8958"
+      },
+      "sha256": "1e323a501127df78ed0987f345d69d65d0ea7fa3d4fb5b3f84aaeba3a8b20f38",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar"
+    },
+    {
+      "bytes": 23327,
+      "classifier": "",
+      "coordinates": [
+        "org.apache.commons",
+        "commons-text",
+        "1.13.0"
+      ],
+      "extension": "pom",
+      "integrity": "XML_AND_COORDINATES",
+      "origin": "CENTRAL_HTTPS_DOWNLOAD",
+      "path": "org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom",
+      "repository_checksum": {
+        "algorithm": "sha1",
+        "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom.sha1",
+        "value": "0bbb99ccb546128287e8718ef77ae4457ad45e68"
+      },
+      "sha256": "d46614bdca6d1195c333ba9f730cd08585c4f332a43ea7b90b6035ad804871d8",
+      "source_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom"
+    }
+  ],
+  "canonical_sha256": "df9f176ceeea2f165cbf463dd3eb43675741b0932d1134c756386f0f7259462d",
+  "manifest_sha256": "eb471e18cca6828bb2abbe2273184faaa693298807363b0280630cb180a6adba",
+  "original_root": [
+    "org.apache.commons",
+    "commons-text",
+    "1.13.0"
+  ],
+  "seed_count": 753,
+  "trust": "Same-origin published checksum over TLS; locally computed SHA256. No independent publisher signature.",
+  "verified_artifact_count": 758
+}

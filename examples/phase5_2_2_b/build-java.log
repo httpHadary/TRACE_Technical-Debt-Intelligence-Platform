@@ -1,0 +1,25 @@
+TD522B_MEMORY_MAX=1073741824
+TD522B_CPU_MAX=100000 100000
+TD522B_START_UPTIME=1673.93
+TD522B_END_UPTIME=1673.98
+TD522B_EXIT=0
+TD522B_MEMORY_PEAK=18116608
+TD522B_CPU_STAT_BEGIN
+usage_usec 108202
+user_usec 69775
+system_usec 38426
+nice_usec 0
+core_sched.force_idle_usec 0
+nr_periods 1
+nr_throttled 0
+throttled_usec 0
+nr_bursts 0
+burst_usec 0
+TD522B_STDOUT_BEGIN
+
+TD522B_STDERR_BEGIN
+openjdk version "17.0.17" 2025-10-21
+OpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)
+OpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)
+
+TD522B_OUTPUT_END

@@ -1,0 +1,11 @@
+{
+  "class_count": null,
+  "classes": [],
+  "compiler_started": false,
+  "completeness": "NOT_ESTABLISHED",
+  "expected_named_top_level_classes": 25,
+  "expected_production_source_files": 26,
+  "package_info_requires_separate_bytecode_check": true,
+  "reason": "Container exit123 before Maven command; no class artifact export",
+  "status": "NOT_REACHED"
+}

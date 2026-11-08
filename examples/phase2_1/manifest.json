@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "dataset_quality.json": "cb79d131c7f93f2ae430c12f4ffdd27ce9ec538696b60547c0d0182026ef6224",
+    "dataset_validation.json": "87a1bd68272b75103db978f310448c0e8325df6b860790d8f5ca3d89cfa8fda5",
+    "raw_sql_validation_sample.csv": "519c26d7798e61fee49e0d31c8129e18d6c302d4fd966dafea663b3454d0f452"
+  },
+  "metadata": {
+    "models_executed": false,
+    "phase": "2.1",
+    "source_sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+    "status": "PASS"
+  },
+  "mvp_schema_version": 1,
+  "serializer": "legacy_sorted_compact_json_utf8_v1",
+  "status": "COMPLETE"
+}

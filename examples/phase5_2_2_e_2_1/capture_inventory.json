@@ -1,0 +1,203 @@
+{
+  "archive_policy": "Bounded32MiB; flat allowlist/no traversal/symlinks/duplicates,8MiB/member",
+  "files": [
+    {
+      "bytes": 111746,
+      "name": "cache.after.sha256",
+      "sha256": "c2f67a4f175944cd00b4e53f889c00621d17412623eda90f0c7fa88534bbde6d"
+    },
+    {
+      "bytes": 48622,
+      "name": "cache.paths",
+      "sha256": "70b3871eeb26da2a23394242c528dadc1718b9985c5983eda3021208c5cd843f"
+    },
+    {
+      "bytes": 111746,
+      "name": "cache.post.sha256",
+      "sha256": "c2f67a4f175944cd00b4e53f889c00621d17412623eda90f0c7fa88534bbde6d"
+    },
+    {
+      "bytes": 74,
+      "name": "cgroup.limits.txt",
+      "sha256": "e48373859473cbecfa963a000804b2405e23c9b16a0968597570efea099548cf"
+    },
+    {
+      "bytes": 184320,
+      "name": "classes.tar",
+      "sha256": "5f117d0b388d0b63c8d941832aee554b2f418183f24b371622bc9048fdb56b18"
+    },
+    {
+      "bytes": 16,
+      "name": "command-category.txt",
+      "sha256": "0d232b4530e09ea594b9764760cf5ee036df313875ac6e33cfcd7a1fadeb26f2"
+    },
+    {
+      "bytes": 1674,
+      "name": "compiler-created.txt",
+      "sha256": "48212cfb448032ea412af286a37105c6d81dd9526739f0cb915ba4c41596bb08"
+    },
+    {
+      "bytes": 1684,
+      "name": "compiler-inputs.txt",
+      "sha256": "c6eb9e488929fddf8fab630300c19593e1fea11cdc756561c273de5b0969e682"
+    },
+    {
+      "bytes": 177,
+      "name": "cpu.stat",
+      "sha256": "785ab5f37558d75505cb4599c2ad6e584f7a3dabdf15803f07c3f79279727ed4"
+    },
+    {
+      "bytes": 67,
+      "name": "disk-usage.txt",
+      "sha256": "c94521f2634b6a21532fdf3ba4fe4686347cc8029f363cb6b0b48133215b302f"
+    },
+    {
+      "bytes": 2,
+      "name": "exit.code",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 63,
+      "name": "log.sizes",
+      "sha256": "7b4717af46b2ff133252865e1d1a6e7289a0e4854955f77b56f655c86d89ce56"
+    },
+    {
+      "bytes": 9,
+      "name": "maven.ended.uptime",
+      "sha256": "84e76514eaebb0027f5a83e6b02cdf86f62d23420e700c99a6cec143b47b9dfc"
+    },
+    {
+      "bytes": 2,
+      "name": "maven.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 9,
+      "name": "maven.started.uptime",
+      "sha256": "6fb47bdb96deac796f76a3732c803e8f4d16cd505248488455c85f3cbd176f01"
+    },
+    {
+      "bytes": 17,
+      "name": "maven.state.txt",
+      "sha256": "8ce8b5d6e24a9c5a8feff3a6d90ced48601facf1e29e1edbeebc255c9760c3f8"
+    },
+    {
+      "bytes": 569,
+      "name": "maven.stderr",
+      "sha256": "52d3c39148665777ee47186517a4373cb4c736d07a1a98b693962fe9ee140964"
+    },
+    {
+      "bytes": 4817,
+      "name": "maven.stdout",
+      "sha256": "eb34d9a2fbd9c3771bfbf4521cde3e1e84f02eef6307579eb881b86af06eedf7"
+    },
+    {
+      "bytes": 70,
+      "name": "memory.events",
+      "sha256": "0a2d4e7982066cc7dc914627e7b195ccba88b82a5a996201809e529142d2f380"
+    },
+    {
+      "bytes": 10,
+      "name": "memory.peak",
+      "sha256": "89b2b1fb0cf25029125f9853abcadb0ec6c16134bae089a42a32f883b812d663"
+    },
+    {
+      "bytes": 58,
+      "name": "mount-ownership.txt",
+      "sha256": "733696b58f60fa3990139b6f32c8e4f94fb813c150ad34828acbcfcc43186c33"
+    },
+    {
+      "bytes": 4352,
+      "name": "mountinfo.txt",
+      "sha256": "b5c3eab5453b6cf3089026f7d6a464d521fff768016793e1847af17db911ad55"
+    },
+    {
+      "bytes": 226,
+      "name": "passed-stages.txt",
+      "sha256": "d838b7ff50cdf4e5aa36fb0f53ac849691028b5ecb7e38d89bbfd6247ede988a"
+    },
+    {
+      "bytes": 5,
+      "name": "post-capture.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 3,
+      "name": "processes.txt",
+      "sha256": "7018c575f475e3e18f7842706d0c4773aea346bf2ca7cf516dd7697a79fe2e94"
+    },
+    {
+      "bytes": 0,
+      "name": "ready",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5,
+      "name": "setup.complete",
+      "sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74"
+    },
+    {
+      "bytes": 0,
+      "name": "setup.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 692,
+      "name": "setup.stdout",
+      "sha256": "da72f2b57f9dcbca2c1ca935f1243187a19583472400483ebcee2b9fba23151f"
+    },
+    {
+      "bytes": 13874,
+      "name": "source.after.sha256",
+      "sha256": "0bc87fda7c29b46d338c421014521da8ae63fd3c4042b89659084d3cf5fecb91"
+    },
+    {
+      "bytes": 8513,
+      "name": "source.modes.after",
+      "sha256": "b4c45d26d548d2ce61b842dcd8ec0553279c1d48da40fee4cc24c660b6e97d2d"
+    },
+    {
+      "bytes": 5754,
+      "name": "source.modes.before",
+      "sha256": "f5bc53edbd366665b6319381e31fbf6180b37872233c10f4ac19548c9ee3fff7"
+    },
+    {
+      "bytes": 5290,
+      "name": "source.paths",
+      "sha256": "f2bfb18de157a72d4aea01aa29a949fe5a6b8f28e4c33aec16c90032395c1bd9"
+    },
+    {
+      "bytes": 19783,
+      "name": "source.post.sha256",
+      "sha256": "2d1974165337703c116977727e2250eb62a12716ecddfa5a0f51c2e4a445b4f1"
+    },
+    {
+      "bytes": 2,
+      "name": "source.verify.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "bytes": 0,
+      "name": "source.verify.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "name": "source.verify.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 16,
+      "name": "stage.txt",
+      "sha256": "2b9869c0ec94656a35d35646cf9f283a0fc5c67b62ba400d04834ecf1f713718"
+    },
+    {
+      "bytes": 8,
+      "name": "working-directory.txt",
+      "sha256": "528b690443e45716ef5e7e82b8068a54d7095dcca8e1c790adf2a2263078761e"
+    }
+  ],
+  "full_logs_complete": true,
+  "missing_required_measurements": [],
+  "raw_private_files_published": false
+}

@@ -1,0 +1,36 @@
+{
+  "capture_archive_cap_bytes": 33554432,
+  "full_private_logs_complete": true,
+  "logs": [
+    {
+      "bytes": 692,
+      "path": "attempt-1/capture/setup.stdout",
+      "sha256": "7a2224f3d6db2d264c66aa87656cef2315260dbbdc2dcf541feb19837df15c55",
+      "truncated": false
+    },
+    {
+      "bytes": 0,
+      "path": "attempt-1/capture/setup.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "truncated": false
+    },
+    {
+      "bytes": 12542,
+      "path": "attempt-1/capture/maven.stdout",
+      "sha256": "4e395b16b1cfbd050caf98369e991e8a61696ff47a1843d173648ffe56491764",
+      "truncated": false
+    },
+    {
+      "bytes": 569,
+      "path": "attempt-1/capture/maven.stderr",
+      "sha256": "cef4a8be72e4732823e052cb079c2a3c8f6b2438183c6f80d0ee2c44e29e3f17",
+      "truncated": false
+    }
+  ],
+  "per_file_cap_bytes": 8388608,
+  "private_full_logs_in_git": false,
+  "published_excerpt": "maven_failure_excerpt.txt",
+  "published_excerpt_is_complete_log": false,
+  "published_excerpt_processing": "Selected diagnostic lines; trailing formatting whitespace removed; full private logs unchanged",
+  "version": "e04-log-inventory-v1"
+}

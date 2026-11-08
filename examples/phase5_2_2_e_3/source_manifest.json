@@ -1,0 +1,1007 @@
+{
+  "actual_effective_model_sha256": null,
+  "commit": "7ddf691ac2afbda7473c0d07f1f4e7ae1e69e47b",
+  "maven_executions": 0,
+  "pom_sha256": "674975083520370c7a691778fa6fcdfe2eb0ae672c48abc923ffc75688c73e8e",
+  "production_java_sources": [
+    "src/main/java/org/apache/commons/cli/AlreadySelectedException.java",
+    "src/main/java/org/apache/commons/cli/AmbiguousOptionException.java",
+    "src/main/java/org/apache/commons/cli/BasicParser.java",
+    "src/main/java/org/apache/commons/cli/Char.java",
+    "src/main/java/org/apache/commons/cli/CommandLine.java",
+    "src/main/java/org/apache/commons/cli/CommandLineParser.java",
+    "src/main/java/org/apache/commons/cli/Converter.java",
+    "src/main/java/org/apache/commons/cli/DefaultParser.java",
+    "src/main/java/org/apache/commons/cli/DeprecatedAttributes.java",
+    "src/main/java/org/apache/commons/cli/GnuParser.java",
+    "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/MissingArgumentException.java",
+    "src/main/java/org/apache/commons/cli/MissingOptionException.java",
+    "src/main/java/org/apache/commons/cli/Option.java",
+    "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+    "src/main/java/org/apache/commons/cli/OptionGroup.java",
+    "src/main/java/org/apache/commons/cli/OptionValidator.java",
+    "src/main/java/org/apache/commons/cli/Options.java",
+    "src/main/java/org/apache/commons/cli/ParseException.java",
+    "src/main/java/org/apache/commons/cli/Parser.java",
+    "src/main/java/org/apache/commons/cli/PatternOptionBuilder.java",
+    "src/main/java/org/apache/commons/cli/PosixParser.java",
+    "src/main/java/org/apache/commons/cli/TypeHandler.java",
+    "src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java",
+    "src/main/java/org/apache/commons/cli/Util.java",
+    "src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/HelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/HelpFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/OptionFormatter.java",
+    "src/main/java/org/apache/commons/cli/help/TableDefinition.java",
+    "src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java",
+    "src/main/java/org/apache/commons/cli/help/TextStyle.java",
+    "src/main/java/org/apache/commons/cli/help/Util.java",
+    "src/main/java/org/apache/commons/cli/help/package-info.java",
+    "src/main/java/org/apache/commons/cli/package-info.java"
+  ],
+  "source_entries": [
+    {
+      "bytes": 1363,
+      "git_blob": "1c963a88f212569ae8c2dd0dd90651a4bd88fa4c",
+      "mode": "100644",
+      "path": ".asf.yaml",
+      "sha256": "4ddb916a3e471ee83cefcc507eb0c29259afdf45034e4a015051853dcaec4bab"
+    },
+    {
+      "bytes": 923,
+      "git_blob": "e3329e55fb6f68e32bde81a51fb2cf4fbef607fa",
+      "mode": "100644",
+      "path": ".github/GH-ROBOTS.txt",
+      "sha256": "cc89466d5cef69da11d0c7e069a59cef70f1e0232adee2cf2b63a6c971e5d442"
+    },
+    {
+      "bytes": 1030,
+      "git_blob": "9ebcd0ebb1a9e41b46edee6037ea8d0fae443ee8",
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha256": "47f223ce834e2fda597b6f9a07162479aaca72acada7f8bbaf854e24c61fbed4"
+    },
+    {
+      "bytes": 3262,
+      "git_blob": "40aad9b973d78d2760a423534013f4e41091f56d",
+      "mode": "100644",
+      "path": ".github/workflows/codeql-analysis.yml",
+      "sha256": "18c042a694297872fc8fe4ee1c26cc28f2904c059e2095b8d432c04b67cd157d"
+    },
+    {
+      "bytes": 1285,
+      "git_blob": "a932f55dd470e71c2739c970ea54d40e24e45d4b",
+      "mode": "100644",
+      "path": ".github/workflows/dependency-review.yml",
+      "sha256": "44ca9c2a5f3537c96f1236ec0adca03ddcb9ec31ae90da8f3e2728c9214eae76"
+    },
+    {
+      "bytes": 1858,
+      "git_blob": "b83afb7b67412588ce532a7e0909ef298e7822c8",
+      "mode": "100644",
+      "path": ".github/workflows/maven.yml",
+      "sha256": "ac39fcaf1879d0773bfd429532446d430498c5694a7a44629d2672672b298e51"
+    },
+    {
+      "bytes": 2535,
+      "git_blob": "301267fd616aebe0fc19e4f0499a6258e1b0cbd1",
+      "mode": "100644",
+      "path": ".github/workflows/scorecards-analysis.yml",
+      "sha256": "008f8eb926ef8cd20a07be98577c4f995bebe685e7a1aae96025218323baef68"
+    },
+    {
+      "bytes": 426,
+      "git_blob": "9796597132ca2c497272684b64226b964641e8dc",
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha256": "37c21c2426a2e9efc5512122689cfb811ad53f4fc09d4ac14f8bb6333e1cc913"
+    },
+    {
+      "bytes": 929,
+      "git_blob": "3ed501501d395e5a3f0ca2a7f7740623684f6dc9",
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "dadebfea53a68aef92a65d1a5f1b6726b3a093ee4c487c0b28e7792f8a2a9d96"
+    },
+    {
+      "bytes": 6572,
+      "git_blob": "12827966dc5a40eca62d7e487ac7b086bb55742f",
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha256": "a8a5daef344d44e30763dfb3c2d83b127b7c86d7722e1064157a0595f8a2d7ae"
+    },
+    {
+      "bytes": 11358,
+      "git_blob": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "mode": "100644",
+      "path": "LICENSE.txt",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+    },
+    {
+      "bytes": 173,
+      "git_blob": "020d72503a3f828e47730ecfa313c3ec2affde14",
+      "mode": "100644",
+      "path": "NOTICE.txt",
+      "sha256": "873a665587ef21a2e2cfac1762f581bd1510b85d1545bef0f7fe3aedfe185341"
+    },
+    {
+      "bytes": 6515,
+      "git_blob": "a182e763ac4a46f1cdd61f02ab803c4bfb3ab787",
+      "mode": "100644",
+      "path": "README.md",
+      "sha256": "3c0698f1efbd9042830e89367f4491b7707655bba2ef14afaf4c8bc29e1aa7ed"
+    },
+    {
+      "bytes": 23908,
+      "git_blob": "1f6dd18cc7a47bf60327b16d4a50f8d8ae22e432",
+      "mode": "100644",
+      "path": "RELEASE-NOTES.txt",
+      "sha256": "f515574393a66623707c3f9bdf1c1a5e388892b1a157ab0dde48f3915714724d"
+    },
+    {
+      "bytes": 900,
+      "git_blob": "51943ba7b485b574c514ea099a3610a3a338f9f7",
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha256": "edcf9661ae326e285babefb8e9e56e603100a369966f1699b9bd8cb96d765dc7"
+    },
+    {
+      "bytes": 14578,
+      "git_blob": "d7c8a54ae246441c6ff4908996db030746072951",
+      "mode": "100644",
+      "path": "pom.xml",
+      "sha256": "674975083520370c7a691778fa6fcdfe2eb0ae672c48abc923ffc75688c73e8e"
+    },
+    {
+      "bytes": 1880,
+      "git_blob": "459dd49c0437d9ec1157131e3b3fe72e94c3ddf6",
+      "mode": "100644",
+      "path": "src/assembly/bin.xml",
+      "sha256": "75901034d7fb60d6ab42d441e16868dfd4be2fdca74c0f860d77a79d965913a4"
+    },
+    {
+      "bytes": 1687,
+      "git_blob": "684513914b77e8354175d06acc4644c9d1eb98f8",
+      "mode": "100644",
+      "path": "src/assembly/src.xml",
+      "sha256": "c0bb39bb8d2a083cf58a4bcd4f9db5db85e95555307343ffd53f5b8d82a60708"
+    },
+    {
+      "bytes": 32464,
+      "git_blob": "73fa43348634ef4dc43b61e3e2136dc2cb7ed1d5",
+      "mode": "100644",
+      "path": "src/changes/changes.xml",
+      "sha256": "1f768fd3feea09d0c7d1e2e97e1c9a16c6bffb7ecdf17da189a59804b86c4831"
+    },
+    {
+      "bytes": 3523,
+      "git_blob": "e22fd67434b8558d4ef44b505cdb8d983d913e64",
+      "mode": "100644",
+      "path": "src/changes/release-notes.vm",
+      "sha256": "d4bbbfc65c7f914574aa82646a6be66bcbaee7ed236a5dd995daa4f1846fadf2"
+    },
+    {
+      "bytes": 2274,
+      "git_blob": "c06ad761f56a103c90e6dfed11554463fb9632d4",
+      "mode": "100644",
+      "path": "src/conf/checkstyle-suppressions.xml",
+      "sha256": "02f7b0ae6a862d73329808df56b532efe7763e6655bcfdd92bfffa4e41ad1abf"
+    },
+    {
+      "bytes": 6073,
+      "git_blob": "0e89aebc9801ab0ff4cb0fa1202f2fdab173c1a7",
+      "mode": "100644",
+      "path": "src/conf/checkstyle.xml",
+      "sha256": "7c341017b7055394cec19501cf7936698b844d13c6a2ef0c50e4236ed49f7452"
+    },
+    {
+      "bytes": 4155,
+      "git_blob": "e665f0cbe16506f326171d75785cfcf7001f6e73",
+      "mode": "100644",
+      "path": "src/conf/spotbugs-exclude-filter.xml",
+      "sha256": "54e23513f3b172727e8afa16d00fc3e4247f2e5c04398e732730f5c175969542"
+    },
+    {
+      "bytes": 2686,
+      "git_blob": "49dcf726a747f8e870e12c6fa32d7cecce2b210e",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/AlreadySelectedException.java",
+      "sha256": "45ecede06ff7222c60330d587fed5f06c2c576a579b368d214c6600c0adab01b"
+    },
+    {
+      "bytes": 2695,
+      "git_blob": "ed06bb8cfedf8b67866c8ee0c00981c6eac6140d",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/AmbiguousOptionException.java",
+      "sha256": "70f35131600c7098ad0a76b3a3402dc70f571fe1e286a0fabac16e3d5dbfa19a"
+    },
+    {
+      "bytes": 1932,
+      "git_blob": "212e2f64f44f1308ecf1264a544bdc82a6ad6f88",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/BasicParser.java",
+      "sha256": "c7cb7a149762d9e8490c1071366e452b39f72cc7563ee86c2731aa59590caf72"
+    },
+    {
+      "bytes": 1271,
+      "git_blob": "e9a9f85e1787814999d7493cc9c9600112df2798",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Char.java",
+      "sha256": "d1fc4320e775fcbc34637306ad918e3f827ac332754002f59915830bc8736c9b"
+    },
+    {
+      "bytes": 28754,
+      "git_blob": "ef2a119dfa45c858d1264faa6f0014c4e2dd8d24",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/CommandLine.java",
+      "sha256": "5d231972be527f8106373c0e8d1c64129d3306f7e884b837c59a7c1a8a86719d"
+    },
+    {
+      "bytes": 3911,
+      "git_blob": "bc6b17e8c0ac9bb50300273277e6acfcade70def",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/CommandLineParser.java",
+      "sha256": "b6cf1ecb6ca1c671e54158f8d089b0797315fe9a484af0c49c06f487b798211c"
+    },
+    {
+      "bytes": 3153,
+      "git_blob": "09d7760b9362b2d4a9632303f3408fed70d673ce",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Converter.java",
+      "sha256": "cbc8ecd7b1f365cb07474f1cf84a80e92762d67e79d9b9289645679412fb727a"
+    },
+    {
+      "bytes": 30620,
+      "git_blob": "5209038431f2f2f5987ba0a463c0f02fe6d87ad2",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+      "sha256": "b8cd73c1983dbe48ca998879576a5ae58fc5adc355b8fe4e699c3e4754ddcdfb"
+    },
+    {
+      "bytes": 5768,
+      "git_blob": "9f958e9ba16c19ccaf55d734f8a03ff546544d96",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/DeprecatedAttributes.java",
+      "sha256": "b8defeb554e735e0a9160df95814370b36bbde4c06e022accde88b51b0e3f9b8"
+    },
+    {
+      "bytes": 3986,
+      "git_blob": "a5f6c51cbb2042b86755e27554a26deeb9c91ac1",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/GnuParser.java",
+      "sha256": "994b3c9b6f8f35dee06b585b429294e72acae2103855038b3dacb996a31145bc"
+    },
+    {
+      "bytes": 41155,
+      "git_blob": "4dc01db1fdc4d53d9460a5f811797c1b26a177d1",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+      "sha256": "cdf60c83d3f29bfcda3105cd9120ddfa3c5a72a15b9f583fbbcd1311907c36c8"
+    },
+    {
+      "bytes": 2010,
+      "git_blob": "d9b02877cec6844f18ab87213a56c73d4f513c02",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/MissingArgumentException.java",
+      "sha256": "9d0451ee10266f0c2e522845fe4eec4c46a7739604c8a8420d224c5948c214ee"
+    },
+    {
+      "bytes": 2832,
+      "git_blob": "5670af93104976a1fa4b5ec0981d0beb632de87b",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/MissingOptionException.java",
+      "sha256": "bcbbf1f65700c581afee0247723c6c15837fd642069c82a12fb672cb1593c9be"
+    },
+    {
+      "bytes": 32308,
+      "git_blob": "d2c6f5c7b36cd7d05f4f7bee15e04e87170cd5ec",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Option.java",
+      "sha256": "1a32013675877d43716a7a49d5d4c5ddc4e68aaab0a3d619b0f4938c2c3486f3"
+    },
+    {
+      "bytes": 10406,
+      "git_blob": "5b180e35c3977823213102ea52da38e2948ae67a",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+      "sha256": "6884c09f7b93cebab9239d2f2a00f50084427fb414e2854097e50319d7bf01bd"
+    },
+    {
+      "bytes": 5175,
+      "git_blob": "0685179a6a66bf3362eaa519793102e516f9aeae",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/OptionGroup.java",
+      "sha256": "d59d77cc9e84fb2b297598292a50e0807b408d9dfae38d2bfa5b675a90ae422a"
+    },
+    {
+      "bytes": 5672,
+      "git_blob": "b14564f871ba4a5ccda7bd64f52fc2f805aa491b",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/OptionValidator.java",
+      "sha256": "a3338a0f999e55d203a281a8fcca6597afd888d750c7a759745fbb8bf322bd68"
+    },
+    {
+      "bytes": 11653,
+      "git_blob": "bbbc8b2a51801b2e2ed5f58221e6033ce6bd644a",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Options.java",
+      "sha256": "0f973c6c5d8d8bfa27c10b3b8c64f09378a4ad13852594260a7fbaac4b01a986"
+    },
+    {
+      "bytes": 2521,
+      "git_blob": "b2f5dbf90ce9a8ac99055befb75f77168930327d",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/ParseException.java",
+      "sha256": "a66b696e81911aa8482e1ecbe4ba3e3ac2d1475a4a32214f352c99ec7ea7bf59"
+    },
+    {
+      "bytes": 13452,
+      "git_blob": "9f7a40b4fe1f80c9a8d8f43e25ae01412ede538a",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Parser.java",
+      "sha256": "a726a2979901cb53c736996c54353596c6c9416cbbddf34ae277dad4a0a65a9f"
+    },
+    {
+      "bytes": 7063,
+      "git_blob": "547c890b264d1f7cdd34ea902923d3802e00592f",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/PatternOptionBuilder.java",
+      "sha256": "b4ec2c929cb92c17de34f96869fb9b9cabf669b5d2c53f7f25a164d5e62855f9"
+    },
+    {
+      "bytes": 10076,
+      "git_blob": "18a826fc05fd550859f6c96f658145b87b47d4fb",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/PosixParser.java",
+      "sha256": "2a8a5bc1c0c50ed04cd7eaeb7df5ea1269d38a235c3205e1f3853ef4f0a66907"
+    },
+    {
+      "bytes": 10596,
+      "git_blob": "3ec9a519274e2517cb8286c23ad94634d941dc54",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/TypeHandler.java",
+      "sha256": "5aa4de967e6e88626bc63d9b1bce8d7eac793d74dcdb26980b1dd3d85875a8ff"
+    },
+    {
+      "bytes": 1975,
+      "git_blob": "df9bdf8fe44388a1a11bc6585fe4eb6b41f9147b",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java",
+      "sha256": "d6a5b482b501dd89c6af41ca0ff71b2de98a6b0ee229a1d57977b7a36a2d0278"
+    },
+    {
+      "bytes": 2840,
+      "git_blob": "ab46fad0c4699c40bdb29f8bd427ae0bf7488997",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/Util.java",
+      "sha256": "8c22127d91bbbe1f888f7f75af83ee433803fb5ece5716468a38e093ae426f38"
+    },
+    {
+      "bytes": 18182,
+      "git_blob": "d5e5ee6249a96ae11d342ce71439f7265aa1f267",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java",
+      "sha256": "5da0419573cdf04c4cf569c77cc53c05aef5a3354ebd64aafe849cbfafddde17"
+    },
+    {
+      "bytes": 2951,
+      "git_blob": "62db42674811631d28b4221698155027a6a6aa06",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java",
+      "sha256": "84841af0fc7297007a108c1fb583ec825d54ca81d2b3803931198753574cc395"
+    },
+    {
+      "bytes": 4699,
+      "git_blob": "5d88c04da3d865f7827b942c3077d7d3dc4810b7",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/HelpAppendable.java",
+      "sha256": "98d9ad0fc35c7f0cbe401675cef2083aed902b8f41c4ba588f2e4877e354f770"
+    },
+    {
+      "bytes": 6565,
+      "git_blob": "63cf40592fc40defbb6dfbd5e8a8aba5fbdd8028",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/HelpFormatter.java",
+      "sha256": "56b09948ec966dfe2d88f2857f8a74c6918a5ebacfa336168b2bc89a10779e52"
+    },
+    {
+      "bytes": 17815,
+      "git_blob": "5cba55fffdfa99fbc9aca6c054c106aa65188775",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/OptionFormatter.java",
+      "sha256": "2e50263041f0418c44375d7d8b0f3a8dac17702b146003aff615dcac2e07291e"
+    },
+    {
+      "bytes": 3233,
+      "git_blob": "dea550b78f0ba810da0ef2c3947d7d0cb5ae03b9",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/TableDefinition.java",
+      "sha256": "c532278e23100d5b9e3b338bf81eec4858b8a48cbfa849d067b49f8dc0ca8891"
+    },
+    {
+      "bytes": 18815,
+      "git_blob": "e3403addcbfc0c77dfcb0e592451534dbc038e79",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java",
+      "sha256": "a3d5ef8d15a5f715fd974a9a91194b728b70ef3ad74ee692e3bb9e13781296ce"
+    },
+    {
+      "bytes": 11172,
+      "git_blob": "32a6907185a59fa551f5306a8c4c85f35c45eaf7",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/TextStyle.java",
+      "sha256": "3331b7090b766f15bccc4586c3dbf0c4f97be86a688a66b47bcfbf8d4eaaf38f"
+    },
+    {
+      "bytes": 4423,
+      "git_blob": "ea9471793d19d0b63484677855cc474fc097876e",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/Util.java",
+      "sha256": "bc68d649b613ae1ae42a5b414ef7f4c6c0950cec3071ddd88abd2c2b01534ed0"
+    },
+    {
+      "bytes": 1813,
+      "git_blob": "80d32c20ddebba16f93a807c246703309af154fd",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/help/package-info.java",
+      "sha256": "27f77aab387a7974348e043283c5e9912c3e82db16958f0b802c9133ea23f2bb"
+    },
+    {
+      "bytes": 1693,
+      "git_blob": "2af1c30df817c28dbafa6f2672151500f2e2b6ef",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/overview.html",
+      "sha256": "bb97f0169168321573db4ae93ec9f9832efeed139b4b36566ffd0f6c118419b3"
+    },
+    {
+      "bytes": 957,
+      "git_blob": "88df4787316147758384b077509671bee23e9a30",
+      "mode": "100644",
+      "path": "src/main/java/org/apache/commons/cli/package-info.java",
+      "sha256": "8f706951a6286a908a567f06bf232bad27fd362bb6f2672f743a95682d744a6d"
+    },
+    {
+      "bytes": 21179,
+      "git_blob": "df9cbda2c250920107cf9e46a32155bd29705cce",
+      "mode": "100644",
+      "path": "src/media/logo.xcf",
+      "sha256": "99128554b8f487d669666444f69a4b697e9892c56484a12054023b112b8cd3d8"
+    },
+    {
+      "bytes": 810,
+      "git_blob": "750861987e8c219864e847d6f36775d18db2c042",
+      "mode": "100644",
+      "path": "src/site/resources/.htaccess",
+      "sha256": "3d882cac9223d8ca9f89642f2f74cc6a2a56c168d4d8c95b57c6b613747744cf"
+    },
+    {
+      "bytes": 157,
+      "git_blob": "495cde12dc8febbe45696b96fb29c372be24fa0b",
+      "mode": "100644",
+      "path": "src/site/resources/download_cli.cgi",
+      "sha256": "7a222f33a1da2dcbb63825425480af1db9a9132f4755491c1ecedbdfe9704b9f"
+    },
+    {
+      "bytes": 43,
+      "git_blob": "35d42e808f0a8017b8d52a06be2f8fec0b466a66",
+      "mode": "100755",
+      "path": "src/site/resources/images/1x1.gif",
+      "sha256": "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+    },
+    {
+      "bytes": 11003,
+      "git_blob": "442355059a40243df7a5ed80f633bd2cf02c0db6",
+      "mode": "100644",
+      "path": "src/site/resources/images/logo.png",
+      "sha256": "fda055f0fb213b59ae42686451f852e1ca7b2eca71ef1984b9cb03ecd7abf53a"
+    },
+    {
+      "bytes": 27463,
+      "git_blob": "b0f9d8febf66b837cbeb3ec6e5e62cf9f8fdd21c",
+      "mode": "100644",
+      "path": "src/site/resources/images/options.png",
+      "sha256": "6964d1b08aa9ae94686771ad71dcfe3908f281c484fbe3f4dd3e1ff1214bc2f7"
+    },
+    {
+      "bytes": 2417,
+      "git_blob": "3ab520cb63448a21aaca50e34ab8c90ef372d3b5",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/commandlines.svg",
+      "sha256": "d27c0c5adcce906684d833a02ed62d69de255e5161e67505d0f25b1305794089"
+    },
+    {
+      "bytes": 10910,
+      "git_blob": "9f1a9a2773d99d727227fa4faac41d17770c5b06",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/diagrams-cli2.js",
+      "sha256": "5e7f416b49ffa3ce0991420d27d7e71e4d47410b73b39f7150acd673f44ab4bb"
+    },
+    {
+      "bytes": 1598,
+      "git_blob": "d8691da08c2f965eac5847f32d2cb3b626dff727",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/diagrams.css",
+      "sha256": "ec1de8bcd6ba519f05f469f6668145489f58347c6e3c6804dafe3b54d0a0124e"
+    },
+    {
+      "bytes": 9046,
+      "git_blob": "4e8a5a72e896d5c06d1a8a48fa0f5133a5b5513f",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/diagrams.js",
+      "sha256": "09a5eef7c6a68ff57af35fe59a9e46a6d791e8dc546ebcf685ac1a7a1a218f42"
+    },
+    {
+      "bytes": 2859,
+      "git_blob": "cdb5160f9b89bcc5ebdb34fffa391b7dbfce946f",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/options.svg",
+      "sha256": "13fd463b5a27d4cb1e71cc498039457cf6079a574ef63120b1e53f75e05e422b"
+    },
+    {
+      "bytes": 1740,
+      "git_blob": "b86d760c4b5764e7ed0177d6118fb106421f3bab",
+      "mode": "100644",
+      "path": "src/site/resources/images/svg/util.svg",
+      "sha256": "8354209f1a8c03cbe8c9f792f443b4635075f764e38cb48432859ec0fb8a51bb"
+    },
+    {
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "path": "src/site/resources/profile.jacoco",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2007,
+      "git_blob": "b45d24cab6260f324b45352a0e4ab33844d6416c",
+      "mode": "100644",
+      "path": "src/site/site.xml",
+      "sha256": "7af1ad8eb53da3bab88472db17b0fedc4862af6a22426dd12dd81a6ba718ff4c"
+    },
+    {
+      "bytes": 8133,
+      "git_blob": "6deebf897478af401bc9ab55d1233f742a8eab00",
+      "mode": "100644",
+      "path": "src/site/xdoc/download_cli.xml",
+      "sha256": "35f22463abb428da8690612a0f644973691232d83a1d5e6a2a65737d0fe622ad"
+    },
+    {
+      "bytes": 4825,
+      "git_blob": "dafa33feb43dbe1030fc7e49ad35a805798ce914",
+      "mode": "100644",
+      "path": "src/site/xdoc/index.xml",
+      "sha256": "b0d713e964c7bbd8b1ac3f194b537d87482efa09a4a8aec58da9e510241ffe02"
+    },
+    {
+      "bytes": 3911,
+      "git_blob": "c90b6738a17b3e0cf49c5fe882a07bedb6befa35",
+      "mode": "100644",
+      "path": "src/site/xdoc/introduction.xml",
+      "sha256": "c72baf9cf7d9d62ab5ef81df03b74c980f57561ac22bb0ef5eca7f1269f8513b"
+    },
+    {
+      "bytes": 5833,
+      "git_blob": "edcfaf0412728ce30c43c6d7bbecc0380e285132",
+      "mode": "100644",
+      "path": "src/site/xdoc/issue-tracking.xml",
+      "sha256": "b20f08177a3b216fdd3568966e896f71aa894c25244863f1abe572c3bb36b96d"
+    },
+    {
+      "bytes": 8907,
+      "git_blob": "a2f53558b8a8ea09d0f9468a02d901eb5b731839",
+      "mode": "100644",
+      "path": "src/site/xdoc/mail-lists.xml",
+      "sha256": "95b625cd1b708ed784f6cbb7baecc957dac32efabf48665b43cc236f3967962d"
+    },
+    {
+      "bytes": 4622,
+      "git_blob": "e5e43f9d858acee5da23868e78f916f1989dd93d",
+      "mode": "100644",
+      "path": "src/site/xdoc/properties.xml",
+      "sha256": "5c7dc30237bc8da94ef711aa6faa628567319940641c5de9aef8accc7471ef3b"
+    },
+    {
+      "bytes": 1543,
+      "git_blob": "3bceb7e2e2f71a253a368c6301ac1767e9aca068",
+      "mode": "100644",
+      "path": "src/site/xdoc/release_1_0.xml",
+      "sha256": "63ad0c86e9183fc2ab60a5385e00c83e4bebc9d8a1b5896b6afbab2ccd55ccd1"
+    },
+    {
+      "bytes": 3541,
+      "git_blob": "8f83b7eaae8b013477e64337233d20a6bfa0c5d2",
+      "mode": "100644",
+      "path": "src/site/xdoc/release_1_2.xml",
+      "sha256": "809dd57605496f0c832b63602075c1dcf3420eca33f38baa8aefa84dbba0c404"
+    },
+    {
+      "bytes": 6363,
+      "git_blob": "5c2de24a7e81666628ff657125fe56897ae6c0b0",
+      "mode": "100644",
+      "path": "src/site/xdoc/release_1_3.xml",
+      "sha256": "91b9e0cf5543fb9d92a881ddf5100afb1be971eced2b9160d5f2835d095751c9"
+    },
+    {
+      "bytes": 1703,
+      "git_blob": "3a8d6985a8e8bd1ea04d91a75058123dcd01964e",
+      "mode": "100644",
+      "path": "src/site/xdoc/release_1_3_1.xml",
+      "sha256": "04497f38a4fe37d3846fd838b067a5bab5f2824fa2da8a36d1f87e2db954dac7"
+    },
+    {
+      "bytes": 2030,
+      "git_blob": "70545f1df42b052d86a1bee27013c6bc562c9d61",
+      "mode": "100644",
+      "path": "src/site/xdoc/release_1_4.xml",
+      "sha256": "233d087f095dfc56dffe3f583bb2f5515854f1180fc263d28830d7686b5fc223"
+    },
+    {
+      "bytes": 2219,
+      "git_blob": "866477fb0a6eda70643ec49b5160b9d83fb393a0",
+      "mode": "100644",
+      "path": "src/site/xdoc/upgrading-1.0-to-1.1.xml",
+      "sha256": "6e012afe634d13b36aed5606aa35b4d9d009fe4e1e9c62ecb5113071b41ff223"
+    },
+    {
+      "bytes": 28010,
+      "git_blob": "656f8f1ff806ca754bc01e9ff5aaf5d2e565433e",
+      "mode": "100644",
+      "path": "src/site/xdoc/usage.xml",
+      "sha256": "da0b75aa447f758637feb694553846345587b6a74de03add77c29c187858a5b5"
+    },
+    {
+      "bytes": 39231,
+      "git_blob": "f35b523f380909fef67405aff220091556934b2e",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/AbstractParserTestCase.java",
+      "sha256": "efaf95b951c622d2f36e49271cbfcb973d39898ae621c57cefc391f9ae9c0bbf"
+    },
+    {
+      "bytes": 1695,
+      "git_blob": "289b62ff3c4cd962adeb4ef07c71e5800ada0708",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/AlreadySelectedExceptionTest.java",
+      "sha256": "e263f1b5a14ad21343cc7c779b2cf6a3b5264f7761089a13f361a760d8a4ea72"
+    },
+    {
+      "bytes": 17571,
+      "git_blob": "454d05525621fad346f9718dc63649efbb408601",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ApplicationTest.java",
+      "sha256": "b214dc6570e7988320e257e43e2a32c59e09f2dd1ce292414c114cb9150c5480"
+    },
+    {
+      "bytes": 2786,
+      "git_blob": "06e0a16de7a06dfb8cd3b43f9955800bf770fd75",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ArgumentIsOptionTest.java",
+      "sha256": "67a652b1ce558c268425979aca3af66db6f7855cdc52e94e689ee0b0cc4992a1"
+    },
+    {
+      "bytes": 5220,
+      "git_blob": "e474a49e5bd67b8aaec280ed16f3a3d9a83d729a",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/BasicParserTest.java",
+      "sha256": "5bc3cf4974c4f1e29151aaf53ee1fabc46a660c62d2b4d01d4c8963d962ce3af"
+    },
+    {
+      "bytes": 43799,
+      "git_blob": "67a1bb6ecccf50364309ea27a24cd098026e3f04",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/CommandLineTest.java",
+      "sha256": "3910837fb8c42edc8d0b5860c812ef344dfb7f737833908c471fcb96465096a4"
+    },
+    {
+      "bytes": 5677,
+      "git_blob": "99afb96caee60ac49d3221d26f5df006f26a5b6e",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ConverterTests.java",
+      "sha256": "1749e7ffc9e5ab21802ad492bfbdb03532af70ed4228bbe7d837abfb7fe15979"
+    },
+    {
+      "bytes": 10074,
+      "git_blob": "d0507a68f7fe1856f4a89a6c849739f46cb8dfbd",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/DefaultParserTest.java",
+      "sha256": "b3fb933d52e69e5001a92281a932739e9abef85430b3ccebe44fea6a565d9919"
+    },
+    {
+      "bytes": 3023,
+      "git_blob": "c5180358cde9310813097d579800bd8ff84eb1d4",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/DeprecatedAttributesTest.java",
+      "sha256": "19415265e5c3b214af726ec599834d7782286bb3c3d01bbf65c8e79782657616"
+    },
+    {
+      "bytes": 2759,
+      "git_blob": "61d13dc4f0b238ddc2e9af3bceb8dd1a50718090",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/DisablePartialMatchingTest.java",
+      "sha256": "ff0aa442cc91a31efa61af55203e6137d73daa8621c6d121d3e7fb56f9680507"
+    },
+    {
+      "bytes": 4458,
+      "git_blob": "be15624b1f290ac31564a25397c90ad569a648f5",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/GnuParserTest.java",
+      "sha256": "05f9a7acbfad437382ed6c4b6b71048afb40d0aa928664748979a174d92ed96e"
+    },
+    {
+      "bytes": 32950,
+      "git_blob": "fc9904ebf5fc6d69f96f1ce39fed4ed37bbb9bce",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/HelpFormatterTest.java",
+      "sha256": "79b0fe24b0f5b8f5872366eedc8cf63b3f93d728fdfc022e1274131582b96388"
+    },
+    {
+      "bytes": 6141,
+      "git_blob": "5776b6299648a4644ed8583b121ad5b4bf2335f6",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/OptionBuilderTest.java",
+      "sha256": "3656508de7e32765b8702e9acd15c6430f55e270b9fa81ce1a5ac1760d68215d"
+    },
+    {
+      "bytes": 9516,
+      "git_blob": "ee8bbd87bb653203a91be7ab1f514f28d0e91ce1",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/OptionGroupTest.java",
+      "sha256": "44cf5b73abd6f4b794ad754f96dac8d2a5b4cf1e6b2782155364f49df255f698"
+    },
+    {
+      "bytes": 15946,
+      "git_blob": "9f00624f19b03cdbaa38175ad9ac96d1ea30c73a",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/OptionTest.java",
+      "sha256": "db86adcc31243cc25181810c4e580af443583c41da41b87e242d2a0ef370cb3d"
+    },
+    {
+      "bytes": 7224,
+      "git_blob": "5f3405046c0de963de98e3857796fa7e5c82cd8e",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/OptionValidatorTest.java",
+      "sha256": "c55fb7c6193fca1d1edbf853399247d025357bf381d0a70e732da76716896210"
+    },
+    {
+      "bytes": 11940,
+      "git_blob": "be1fb0fb7ec40531473f3133ffceec17fa87449e",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/OptionsTest.java",
+      "sha256": "7760eaf31244eaaaf4ea230b2636eddc7442c548cfe961bd26f1bea2f0717600"
+    },
+    {
+      "bytes": 1418,
+      "git_blob": "293f624691b718804d066dbafc706d354828bd65",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ParseExceptionTest.java",
+      "sha256": "fbd949c63fd3bc497e73535077b8367371aeff8884da5cbef89633a51757460d"
+    },
+    {
+      "bytes": 8999,
+      "git_blob": "edbaa055042a6e396a92b08a7173c3a7c21dec10",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/PatternOptionBuilderTest.java",
+      "sha256": "6696854c6449d92aa44c503a057ca01908c0f90947d19ef217116371297d646e"
+    },
+    {
+      "bytes": 2741,
+      "git_blob": "31af8ec06ead428b44c2ab957badd00a23c3b486",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/PosixParserTest.java",
+      "sha256": "7328be3296c15608d7302317f8e076698affa0d6270c93a209f239f761125305"
+    },
+    {
+      "bytes": 5406,
+      "git_blob": "f625cf40a1ac2736885b3ed14a0890f37361747d",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/SolrCliTest.java",
+      "sha256": "97d463eac85ef3f5a8dc7eb1ea5c985ed19617c811a086362b9730951512829c"
+    },
+    {
+      "bytes": 4121,
+      "git_blob": "69fdd189149cb9f597137a9cf2f25a75c39c6000",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/SolrCreateToolTest.java",
+      "sha256": "38bce0d49e8f269e4281ecc88811c521fb86b79b8c55f580f7a7bd2ae29f90ad"
+    },
+    {
+      "bytes": 11513,
+      "git_blob": "bd51ae40cba7221ecab67ea7dfb7bcbce36b508a",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/TypeHandlerTest.java",
+      "sha256": "5b126f8b798d82fd58dbb2b621d60b0888b755ffc37207f8f5bde776ae07c9ad"
+    },
+    {
+      "bytes": 1317,
+      "git_blob": "53a32d0985235f9adcd34131bd356cd379fc6799",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/UnrecognizedOptionExceptionTest.java",
+      "sha256": "38a11e1f5dbe8b559a9b8635e171237317d3330d3d2529f8fff92bedc7461175"
+    },
+    {
+      "bytes": 1930,
+      "git_blob": "8f24ff1efed89b5dcb82847e590d7e8d8ea4794b",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/UtilTest.java",
+      "sha256": "4e0fb6aeb8785d8f57b14bf105f012997bec650f64fe8c219da419d180a23f54"
+    },
+    {
+      "bytes": 13487,
+      "git_blob": "30331138e5cc8dd9437e98ba3b94131081af1dd7",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ValueTest.java",
+      "sha256": "dd672e5452d95047602ef03c511f42348960a04c54d2bbd0c9482bec9706dca6"
+    },
+    {
+      "bytes": 6437,
+      "git_blob": "ccff86b6017ee8f2bdd6fad6b74528bbce693733",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/ValuesTest.java",
+      "sha256": "3bd674d5f6af15f1a2792f2e1f1ceddb5ae6250c10ffb030ff8a186662fe7d28"
+    },
+    {
+      "bytes": 1604,
+      "git_blob": "7dd0e59bc21e5ac0da68d08bbe05280643f8db96",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI133Test.java",
+      "sha256": "d6f02e19167d3eda2e0884c2cb9e7e803be8f7386326f81d53b2059790ded7df"
+    },
+    {
+      "bytes": 2178,
+      "git_blob": "c616dab632c2700bc450f687eab0362486baef78",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java",
+      "sha256": "1e6f5fc82a84cd8fa731fe8e7d6bb23befbbfaef2a1c08e094abf5dbb241551d"
+    },
+    {
+      "bytes": 2232,
+      "git_blob": "5ecc511670b716737ee529151efd47ce6bf68d11",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java",
+      "sha256": "3e5876d4f0f797e524b7a70422b079431691a2f3a5abb1a48cfd9fe32daa0c9f"
+    },
+    {
+      "bytes": 18817,
+      "git_blob": "c3a6bcc5b5f0e8e8a7dedfe0396e8190102decd2",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI162Test.java",
+      "sha256": "bcc0e49a75aad4fcdd5b64080af4977948e21c32097d12b737422fb179524830"
+    },
+    {
+      "bytes": 1983,
+      "git_blob": "3cc81d31137c7dc50faa7bcf1e7e2fb9c3a70152",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI18Test.java",
+      "sha256": "df12586f719d288e712244eb48d48db43e2f86c6305dbf23c439d95b464e4fcf"
+    },
+    {
+      "bytes": 1829,
+      "git_blob": "1700cfe830812602b7a10903715af3535fac9aae",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI252Test.java",
+      "sha256": "693f5bda5e6b035497e6c3a5401e82ce9ab1cb9ee8bd1a6e9b44df04d67640a7"
+    },
+    {
+      "bytes": 3544,
+      "git_blob": "28ae5f2ca3e8dcb992b9f3164d2bd7a9680809df",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI265Test.java",
+      "sha256": "59a510d82eb3889081208440a05576a16611328bd6180d99c81643b01a005aaf"
+    },
+    {
+      "bytes": 4321,
+      "git_blob": "be8b566138f1902bf2be17c7d99174e5e54fdba5",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI266Test.java",
+      "sha256": "ca9e38b95bb42899d433e789a4905e36caae596befa6f4ad8aca4dc4f926c80b"
+    },
+    {
+      "bytes": 4735,
+      "git_blob": "5f5c6eaa35723b5256e88a3d0ab5e6744906bc7d",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI312Test.java",
+      "sha256": "a5e5203494a055357aaec5c695d8c1a1c1f07ca193b1ed5251b0eea34dc1de6a"
+    },
+    {
+      "bytes": 1878,
+      "git_blob": "10f2069e01e0df6650fd8711f18b1ba2be748a16",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI325Test.java",
+      "sha256": "ac756d2743a44b7ce250ca099d61a6b45a3c23e798a57e95d13e0654c4ccc29f"
+    },
+    {
+      "bytes": 3356,
+      "git_blob": "ac6f236263716e553aa1e837aeb01b49a88db115",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java",
+      "sha256": "fd9800e611c5b4425459a4c99f7f16dc4e2c7b683210d667cd830d7e1701e544"
+    },
+    {
+      "bytes": 13378,
+      "git_blob": "3de7befe63a593e0cc0f4317e13e3f649f80a0e4",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/bug/BugsTest.java",
+      "sha256": "195485ab81fbbf8174a94d778e640f12a67904474d9e3d81d5905ce594e64108"
+    },
+    {
+      "bytes": 5639,
+      "git_blob": "d2e25bece02f5ee8823d2c2930097eb8a9673b41",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/example/AptHelpAppendable.java",
+      "sha256": "aa41fc7a1b68b67607013601152cd763aeb8c62bb670c2330e2b3587d9aaa809"
+    },
+    {
+      "bytes": 5730,
+      "git_blob": "53b2daf34dcf55c2394f42e1c9e92356d6b20047",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/example/AptHelpAppendableTest.java",
+      "sha256": "a70857d791c29603ec9c69ed9c731b92d2bc0b65d6e5ca79b9d47e65c1d7ae2b"
+    },
+    {
+      "bytes": 2671,
+      "git_blob": "7e4ac32f13e32e05e7a9e510f5cd87ac20cda255",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/example/WeirdOptionFormat.java",
+      "sha256": "e441f49f0aaae936bd3a484ef2e81855bb09918b6adbbf726bcc3a98957305ad"
+    },
+    {
+      "bytes": 4230,
+      "git_blob": "47e08f59b0cf659ae11df49801df4308de5e8b2f",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendable.java",
+      "sha256": "955a6c4882be6a639a69dfe8e2f83340487df86d720e12187adef7604b1745d1"
+    },
+    {
+      "bytes": 6085,
+      "git_blob": "1f53776c7f425a21129854d877b57f0d99e6f2b5",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendableTest.java",
+      "sha256": "7f1be642f38a8a5f81c248287909d01328cd1354903c3f870764df4858697ff3"
+    },
+    {
+      "bytes": 19902,
+      "git_blob": "e64d2d6884ba111b7fc6a3ea390a46b16fa174d5",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/help/HelpFormatterTest.java",
+      "sha256": "33430ac212efa41164a3c9513e6d1255f72f4eb2b44a114ccbb5e2ffbe9ae235"
+    },
+    {
+      "bytes": 15059,
+      "git_blob": "6ab7b59fd8c991d872e0bc9cb3cb3f8dfe545a1b",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/help/OptionFormatterTest.java",
+      "sha256": "e97a3bf41bd5cc555e1a4eb80bf83806e24cdc676195eefb5e798199c22368b1"
+    },
+    {
+      "bytes": 19963,
+      "git_blob": "9bf34dd5aa8bf9a0024b3ec50a6d8dbb01a9a2f8",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/help/TextHelpAppendableTest.java",
+      "sha256": "1e42046c2b133cca52cdad75b7561b85e7b3ac323c2525a37b535ddc80c1f1cd"
+    },
+    {
+      "bytes": 4591,
+      "git_blob": "67a6382a9887750619a81015fde372fd70bd37e5",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/help/TextStyleTests.java",
+      "sha256": "be002f2d01ef944e0d5ef302a8eb1262dd61396eaffd3ab9e6abd04dc89f0cda"
+    },
+    {
+      "bytes": 3864,
+      "git_blob": "e5dab7d9d1a489c0781d32fd722aca7b7ced58ff",
+      "mode": "100644",
+      "path": "src/test/java/org/apache/commons/cli/help/UtilTest.java",
+      "sha256": "4569d708baac183758b8ecdac08a02adaa9a0ba2404154ca26cf70b9d55fb8a7"
+    },
+    {
+      "bytes": 793,
+      "git_blob": "2e0deb944fc72c6da52e3042802f16b773a0429c",
+      "mode": "100644",
+      "path": "src/test/resources/org/apache/commons/cli/existing-readable.file",
+      "sha256": "3629c5458cad9f4fcd9e5334b1e8b0a873fd2e4791cb5ae1de0905fb28914d83"
+    }
+  ],
+  "tracked_files": 137,
+  "tree": "a2ff09febdac9da6e6ee422a9144ad09d81113bf"
+}

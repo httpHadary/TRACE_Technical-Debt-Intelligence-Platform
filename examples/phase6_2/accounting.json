@@ -1,0 +1,39 @@
+{
+  "excluded_test_cases": 0,
+  "failed": 0,
+  "methods": 9,
+  "ood_predictions": 1296,
+  "partitions": {
+    "calibration": 128,
+    "ood": 48,
+    "test": 192,
+    "train": 384,
+    "validation": 128
+  },
+  "point_methods": 8,
+  "positive_endpoint_counts": {
+    "30": {
+      "changed": 138,
+      "unchanged": 54
+    },
+    "60": {
+      "changed": 162,
+      "unchanged": 30
+    },
+    "90": {
+      "changed": 177,
+      "unchanged": 15
+    }
+  },
+  "predictions": 6480,
+  "pretrained": {
+    "chronos": "NOT_EXECUTED_NO_SEPARATE_APPROVAL",
+    "timesfm": "NOT_EXECUTED",
+    "ttm": "NOT_EXECUTED"
+  },
+  "registered": 880,
+  "scope": "SYNTHETIC_ENGINEERING_TEST",
+  "selected_is_alias": true,
+  "synthetic_case_warning": "One origin per original synthetic case; shared generating families are not real repositories",
+  "test_predictions": 5184
+}

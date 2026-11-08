@@ -1,0 +1,41 @@
+{
+  "scope": "Static public literature and existing project metadata; no data acquisition",
+  "sources": [
+    {
+      "id": "gneiting2011",
+      "url": "https://www.bundesbank.de/resource/blob/635562/7d3de0f3fc003e5b4864828143f268cf/mL/2012-06-01-eltville-11-gneiting-paper-data.pdf",
+      "title": "Making and Evaluating Point Forecasts",
+      "year": 2011,
+      "evidence": "Primary paper: point functional must match scoring loss; absolute loss targets a median",
+      "limits": "Decision theory, not a claim that technical debt is predictable"
+    },
+    {
+      "id": "gama2014",
+      "url": "https://www.liaad.up.pt/area/jgama/reviewCD_methods.pdf",
+      "title": "A Survey on Concept Drift Adaptation",
+      "year": 2014,
+      "evidence": "Primary author overview and publisher abstract located; concept drift motivates testing changing input-target relationships",
+      "limits": "Author PDF fetch timed out; not presented as a full-text review or validated detector",
+      "author_overview_url": "https://www.zliobaite.com/concept_drift"
+    },
+    {
+      "id": "bernardi2022",
+      "url": "https://doi.org/10.1016/j.jss.2022.111481",
+      "title": "Using deep temporal convolutional networks to just-in-time forecast technical debt principal",
+      "year": 2022,
+      "evidence": "Publisher abstract describes product/process metrics and commit-level evaluation",
+      "limits": "Abstract/metadata only; full-text fetch 403; commit-level task is different from30/60/90calendar horizons; no data or license grant acquired"
+    },
+    {
+      "id": "gibbs2021",
+      "url": "https://arxiv.org/abs/2106.00170v3",
+      "title": "Adaptive Conformal Inference Under Distribution Shift",
+      "year": 2021,
+      "evidence": "Primary paper: online adaptive prediction sets and long-run coverage objective",
+      "limits": "Not a point-skill guarantee, per-case coverage promise or permission to use future labels early"
+    }
+  ],
+  "web_access_limitations": "Publisher full-text endpoints for Gama DOI and Bernardi DOI returned403; author-copy/primary abstract sources used. No study dataset or third-party binary downloaded. Gama author PDF fetch timed out; author overview was accessible.",
+  "real_data_admission": false,
+  "all_24_permissions": "NOT_APPROVED"
+}

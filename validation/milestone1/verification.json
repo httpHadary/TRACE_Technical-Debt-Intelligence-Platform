@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "cli_help": 0,
+    "compileall": 0,
+    "full_pytest": 0,
+    "git_diff_check": 0,
+    "pip_check": 0
+  },
+  "environment": {
+    "catboost": "1.2.8",
+    "networkx": "3.6.1",
+    "numpy": "2.4.4",
+    "openpyxl": "3.1.5",
+    "pandas": "3.0.2",
+    "python": "3.12.3",
+    "requests": "2.32.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.18.1"
+  },
+  "errors": 0,
+  "failures": 0,
+  "forecasting_cases": 29,
+  "handoff_sha256": {
+    "FORECASTING.md": "b72c456bdb64a501dd508a8252823b4769c03318ca34bbaabfa35d8de1c0a190",
+    "M3_M4_DESIGN.md": "d6702d34913416f60789597ca1339c36d18f420b70da74d63df2d4b881942674",
+    "MILESTONE1_REPORT.md": "640fbdfc1c63b400574a58ce09024f70dc35e358b79046ffebea08ada773fded",
+    "tests/test_forecasting.py": "68f2d6a25f40718a9d709d947cfea603dd89913cc5d89d724c408909154c33b8",
+    "validation/milestone1/pytest.xml": "a48463f8dd37f044a3438e3748198920421e52ee97053a5dc6a66af0cf84627e"
+  },
+  "modified_existing_python_files": [],
+  "neural_training_run": false,
+  "real_dataset_available": false,
+  "real_predictive_performance_validated": false,
+  "real_scans_run": false,
+  "scope": "OFFLINE_SOFTWARE_VALIDATION",
+  "skipped": 0,
+  "source_hashes": {
+    "__init__.py": "11952ba6053104d3fe4435b8174e4e2c44d44b0584b1207a39a3c8fceb40d820",
+    "__main__.py": "2857561486c9c13f9a1f54e815645d91bcc39e20cc94132747ea1010a70962f5",
+    "collector_bridge.py": "d22e531a81e6c0c242b8fa55a751f8614cc1ebd69df32aa49050616f135f0659",
+    "dataset.py": "4f1abe9e261cc6d9f26e201e8fb693bfae485f671630272343d29fe0a746d946",
+    "evaluation.py": "b5780fa3135daa5be57bebf29c6829c4c18c1d26fc9fba80521552b3de25fbaa",
+    "git.py": "782085bb3afaa626d826459c3d2b669ea3f6141e2286c3211fc254ea5660ec5e",
+    "graphs.py": "5810e23200eb5ed44142883141fe7c98f36bfa6d366bed3b7e01dbffa070612e",
+    "identity.py": "df747a5ed6207ac422fb6ec790396f88ac98fb2fc44594de8a5036b4158fee10",
+    "interfaces.py": "a766b4f8be9c75036d321ca60960d2d8614f8bbc0acc0104504d6108ded31bf0",
+    "requirements-forecast-lock.txt": "0623ec5c9115909a64c27622fd7be2665e3977c3f9c9b4ffc4e7385c52b948e1",
+    "requirements-forecast.txt": "907586af74c768500448d0b0c098094398c1e489e44f05c565c497a124411913",
+    "schema.py": "04120e20637c4b977c5eff1893460c0ed555c63ad34f7047ad1f087cd4cae9fb"
+  },
+  "status": "PASS",
+  "test_seconds": 27.4,
+  "test_timestamp": "2026-10-11T18:24:51.347340+03:00",
+  "tests": 166
+}

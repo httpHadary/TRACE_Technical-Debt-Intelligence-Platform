@@ -1,0 +1,58 @@
+{
+  "failure_policy": "explicit_persistence_on_failure_full_assigned_plus_success_matched_report",
+  "fine_tuning": false,
+  "frozen_inference": {
+    "batch_size": 1,
+    "clipping": "max_zero_save_raw",
+    "context_length": 90,
+    "cross_learning": false,
+    "device": "cpu",
+    "dtype": "float32",
+    "fine_tune": false,
+    "interop_threads": 1,
+    "point": "q50",
+    "prediction_length": 90,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "seed": 42,
+    "threads": 2
+  },
+  "horizons": {
+    "30": {
+      "champion": "persistence",
+      "validation_macro_mae": {
+        "chronos_small": 57.21502511160714,
+        "linear_trend": 87.01895001734486,
+        "persistence": 53.654421768707486,
+        "rolling_mean": 56.17006802721087
+      }
+    },
+    "60": {
+      "champion": "persistence",
+      "validation_macro_mae": {
+        "chronos_small": 101.26782126913265,
+        "linear_trend": 167.50664388733634,
+        "persistence": 93.2095238095238,
+        "rolling_mean": 94.16754130223515
+      }
+    },
+    "90": {
+      "champion": "persistence",
+      "validation_macro_mae": {
+        "chronos_small": 147.520010894983,
+        "linear_trend": 243.35362592005563,
+        "persistence": 131.86802721088435,
+        "rolling_mean": 132.3743440233236
+      }
+    }
+  },
+  "inference_configuration_changed": false,
+  "interval_policy": "native_q10_q90_only_successes_no_recalibration_no_fabricated_fallback_intervals",
+  "policy": "minimum_validation_repository_macro_MAE_within_1percent_prefer_persistence_mean_trend_chronos",
+  "selection_phase": "validation",
+  "status": "FROZEN",
+  "study_id": "70b372e32c7292aca8b260b1a44c28787c3f03b7c11277159a53dd18cc22c958"
+}

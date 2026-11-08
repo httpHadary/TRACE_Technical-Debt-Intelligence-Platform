@@ -1,0 +1,88 @@
+{
+  "commands": [
+    {
+      "checkout": "canonical",
+      "command": [
+        "timeout",
+        "120s",
+        "taskset",
+        "-c",
+        "0",
+        "prlimit",
+        "--as=1073741824",
+        "--cpu=100",
+        "--fsize=16777216",
+        "--",
+        "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_phase6_6_readiness.py",
+        "tests/test_rights_dossier.py",
+        "tests/test_multilanguage_foundation.py",
+        "tests/test_contracts.py",
+        "--junitxml=/home/hp/tst/research/forecasting_mvp/phase6_6/2026-10-20/canonical-final-regressions.xml"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 5.403024586999891
+    },
+    {
+      "checkout": "working",
+      "command": [
+        "timeout",
+        "120s",
+        "taskset",
+        "-c",
+        "0",
+        "prlimit",
+        "--as=1073741824",
+        "--cpu=100",
+        "--fsize=16777216",
+        "--",
+        "/home/hp/tst/td_pipeline_module_level/td_pipeline/.venv-forecast/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_phase6_6_readiness.py",
+        "tests/test_rights_dossier.py",
+        "tests/test_multilanguage_foundation.py",
+        "tests/test_contracts.py",
+        "--junitxml=/home/hp/tst/research/forecasting_mvp/phase6_6/2026-10-20/working-final-regressions.xml"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 5.405667349999931
+    }
+  ],
+  "corrected_preflight_test_issue": "One fixture control-flow mistake with a return inside pytest.raises was corrected before final245-test runs; retained initial XML outside Git",
+  "forecasts": 0,
+  "identical_readiness_audits": true,
+  "limitations": "Targeted metadata/schema/rights regressions; no old model study, actual database or entire repository suite was executed",
+  "logs": {
+    "canonical": "01d9df5c6ed5b2b19e38fd0d053cb49aeffaad1baa6a0394f6a201a6cdfb4289",
+    "working": "8b8f89d4c42f2f857430085524aa9a67380513270ad1d48bade1a95401602d32"
+  },
+  "model_fits": 0,
+  "new_tests": 64,
+  "prior_experiments_executed": 0,
+  "regressions": {
+    "canonical": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "245",
+      "time": "5.120"
+    },
+    "working": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "245",
+      "time": "5.108"
+    }
+  },
+  "status": "PASS"
+}

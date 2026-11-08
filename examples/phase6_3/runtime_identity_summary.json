@@ -1,0 +1,8 @@
+{
+  "canonical_files_sha256": "deefc630f3d36bc2efef61b208ac00845879a269af608e46bbfd6fde12bbd0c4",
+  "numpy_version": "2.4.4",
+  "provenance": "Existing local environment and installed RECORD, not independent publisher signature",
+  "python_binary_sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "recorded_files": 916
+}

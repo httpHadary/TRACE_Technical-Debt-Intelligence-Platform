@@ -1,0 +1,268 @@
+{
+  "actual_containers_started": 4,
+  "additional_acquisition_after_runtime": false,
+  "base_commit": "fbfd7bb0fde4a367e97d4e118b8cf2a26dd93079",
+  "cleanup_complete": true,
+  "executions": [
+    {
+      "binary_checks": [
+        {
+          "path": "usr/share/maven/bin/mvn",
+          "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+        },
+        {
+          "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+          "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+        },
+        {
+          "path": "opt/java/openjdk/bin/java",
+          "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+        },
+        {
+          "path": "opt/java/openjdk/release",
+          "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+        }
+      ],
+      "cgroup_cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 26,
+        "nr_throttled": 25,
+        "system_usec": 160537,
+        "throttled_usec": 3273659,
+        "usage_usec": 2603494,
+        "user_usec": 2442957
+      },
+      "cgroup_peak_memory_bytes": 85737472,
+      "command": [
+        "/usr/share/maven/bin/mvn",
+        "--offline",
+        "--batch-mode",
+        "--no-transfer-progress",
+        "-s",
+        "/inspection/settings.xml",
+        "-gs",
+        "/inspection/settings.xml",
+        "-Dmaven.repo.local=/runtime-repository",
+        "-Duser.home=/tmp",
+        "-Dmaven.test.skip=true",
+        "-Dmaven.compiler.release=8",
+        "-Doutput=/output/active-profiles.txt",
+        "org.apache.maven.plugins:maven-help-plugin:3.5.1:active-profiles"
+      ],
+      "container": "td522d3-a685a2cc629c-active-profiles",
+      "container_exit_code": 0,
+      "cpus": 1,
+      "environment": {
+        "HOME": "/tmp",
+        "JAVA_TOOL_OPTIONS": "",
+        "JDK_JAVA_OPTIONS": "",
+        "MAVEN_ARGS": "",
+        "MAVEN_CONFIG": "/tmp/.m2",
+        "MAVEN_OPTS": "-Xms32m -Xmx512m -XX:ActiveProcessorCount=1 -Duser.home=/tmp",
+        "MAVEN_SKIP_RC": "true"
+      },
+      "exit_code": 0,
+      "goal": "active-profiles",
+      "goal_wall_seconds": 2.5200000000004366,
+      "heap_max_bytes": 536870912,
+      "host_wall_seconds": 3.9195282910004607,
+      "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+      "inspected_host_config": {
+        "CapDrop": [
+          "ALL"
+        ],
+        "Memory": 1610612736,
+        "MemorySwap": 1610612736,
+        "NanoCpus": 1000000000,
+        "NetworkMode": "none",
+        "PidsLimit": 64,
+        "ReadonlyRootfs": true,
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/output": "rw,nosuid,nodev,noexec,size=33554432,mode=1777",
+          "/tmp": "rw,nosuid,nodev,noexec,size=134217728,mode=1777"
+        },
+        "Ulimits": [
+          {
+            "Hard": 8388608,
+            "Name": "fsize",
+            "Soft": 8388608
+          },
+          {
+            "Hard": 1024,
+            "Name": "nofile",
+            "Soft": 1024
+          }
+        ]
+      },
+      "isolation_verified": true,
+      "memory_bytes": 1610612736,
+      "memory_events": {
+        "high": 0,
+        "low": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_group_kill": 0,
+        "oom_kill": 0,
+        "sock_throttled": 0
+      },
+      "memory_swap_bytes": 1610612736,
+      "minimum_host_available_bytes": 9756450816,
+      "network": "none",
+      "oom_killed": false,
+      "output_sha256": {
+        "active-profiles.txt": "5c6d68f9c40f5e8c00d58b6a274e1b8b4c883a560493aa8ab2281fa7f59f82a9",
+        "maven.stderr": "9a32bdb325f9576d55e8c836c94da49fc3aae7fec65823a46c7e7a0f43632c25",
+        "maven.stdout": "03c85c363595afabe8ba64c100beb5b4fa9d7335c154f38807d04fea9f782595"
+      },
+      "pids": 64,
+      "source_and_artifact_mounts_readonly": true,
+      "timeout_seconds": 180
+    },
+    {
+      "binary_checks": [
+        {
+          "path": "usr/share/maven/bin/mvn",
+          "sha256": "f9381d0cb98abaaf9592dae421eddc497e84ed9bfb723b84c111d1350863c3a2"
+        },
+        {
+          "path": "usr/share/maven/lib/maven-core-3.9.11.jar",
+          "sha256": "93d3c0523dda6c86c6620d9e692e7df39d0e2e4e4cd860061a8c0d274c2ad185"
+        },
+        {
+          "path": "opt/java/openjdk/bin/java",
+          "sha256": "729174c074d064bfcc7703569254158988fa03bc50f26ff4895fb720bf78d2b4"
+        },
+        {
+          "path": "opt/java/openjdk/release",
+          "sha256": "8a05f92b7cfef92b3d5032ccfbdf7d4894aec2a36c3e5dd52cdef0940da8f7ba"
+        }
+      ],
+      "cgroup_cpu_stat": {
+        "burst_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nice_usec": 0,
+        "nr_bursts": 0,
+        "nr_periods": 30,
+        "nr_throttled": 29,
+        "system_usec": 189766,
+        "throttled_usec": 3572939,
+        "usage_usec": 2949826,
+        "user_usec": 2760060
+      },
+      "cgroup_peak_memory_bytes": 90804224,
+      "command": [
+        "/usr/share/maven/bin/mvn",
+        "--offline",
+        "--batch-mode",
+        "--no-transfer-progress",
+        "-s",
+        "/inspection/settings.xml",
+        "-gs",
+        "/inspection/settings.xml",
+        "-Dmaven.repo.local=/runtime-repository",
+        "-Duser.home=/tmp",
+        "-Dmaven.test.skip=true",
+        "-Dmaven.compiler.release=8",
+        "-Doutput=/output/effective-pom.xml",
+        "org.apache.maven.plugins:maven-help-plugin:3.5.1:effective-pom"
+      ],
+      "container": "td522d3-eb2c42a64eef-effective-pom",
+      "container_exit_code": 0,
+      "cpus": 1,
+      "environment": {
+        "HOME": "/tmp",
+        "JAVA_TOOL_OPTIONS": "",
+        "JDK_JAVA_OPTIONS": "",
+        "MAVEN_ARGS": "",
+        "MAVEN_CONFIG": "/tmp/.m2",
+        "MAVEN_OPTS": "-Xms32m -Xmx512m -XX:ActiveProcessorCount=1 -Duser.home=/tmp",
+        "MAVEN_SKIP_RC": "true"
+      },
+      "exit_code": 0,
+      "goal": "effective-pom",
+      "goal_wall_seconds": 2.9099999999998545,
+      "heap_max_bytes": 536870912,
+      "host_wall_seconds": 4.506747469000402,
+      "image": "sha256:e4a7ace3dc0d645ed97f8d9ad0b0d3f0b14fa8d150138f27f116d7105a639b82",
+      "inspected_host_config": {
+        "CapDrop": [
+          "ALL"
+        ],
+        "Memory": 1610612736,
+        "MemorySwap": 1610612736,
+        "NanoCpus": 1000000000,
+        "NetworkMode": "none",
+        "PidsLimit": 64,
+        "ReadonlyRootfs": true,
+        "SecurityOpt": [
+          "no-new-privileges"
+        ],
+        "Tmpfs": {
+          "/output": "rw,nosuid,nodev,noexec,size=33554432,mode=1777",
+          "/tmp": "rw,nosuid,nodev,noexec,size=134217728,mode=1777"
+        },
+        "Ulimits": [
+          {
+            "Hard": 8388608,
+            "Name": "fsize",
+            "Soft": 8388608
+          },
+          {
+            "Hard": 1024,
+            "Name": "nofile",
+            "Soft": 1024
+          }
+        ]
+      },
+      "isolation_verified": true,
+      "memory_bytes": 1610612736,
+      "memory_events": {
+        "high": 0,
+        "low": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_group_kill": 0,
+        "oom_kill": 0,
+        "sock_throttled": 0
+      },
+      "memory_swap_bytes": 1610612736,
+      "minimum_host_available_bytes": 9778544640,
+      "network": "none",
+      "oom_killed": false,
+      "output_sha256": {
+        "effective-pom.xml": "bf4a9243703b32ca363232c2759c8bab4f009ac544897dafab87f4b22f42e449",
+        "maven.stderr": "a485de75b5aa2fd0cf0ed423e675b5a0981d95b19b6a7d9372236df5e7171ad3",
+        "maven.stdout": "bf60666198a0efc1024cd7772485d527143329d398501c21e9b517c4fdddd235"
+      },
+      "pids": 64,
+      "source_and_artifact_mounts_readonly": true,
+      "timeout_seconds": 180
+    }
+  ],
+  "final_capture": "Bounded tar streamed via exec from live namespace before teardown",
+  "historical_lifecycle_goals": 0,
+  "initial_attempt_evidence_accepted_as_success": false,
+  "initial_capture_retries": [
+    {
+      "attempt": 1,
+      "cause": "Stopped-container tmpfs archive was empty",
+      "container_exit": 0,
+      "maven_numerical_output_not_retrieved": true
+    },
+    {
+      "attempt": 2,
+      "cause": "Docker archive API did not export live tmpfs files",
+      "maven_numerical_output_not_retrieved": true
+    }
+  ],
+  "max_concurrent_jvms": 1,
+  "model_goals_only": true,
+  "source_revision_count": 1,
+  "version": "task-d3-offline-execution-v1"
+}

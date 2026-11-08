@@ -1,0 +1,129 @@
+{
+  "descriptor_runtime_dependencies": [
+    [
+      "org.eclipse.sisu",
+      "org.eclipse.sisu.plexus",
+      "0.9.0.M3"
+    ],
+    [
+      "org.eclipse.sisu",
+      "org.eclipse.sisu.inject",
+      "0.9.0.M3"
+    ],
+    [
+      "org.codehaus.plexus",
+      "plexus-classworlds",
+      "2.6.0"
+    ],
+    [
+      "org.codehaus.plexus",
+      "plexus-component-annotations",
+      "2.1.0"
+    ],
+    [
+      "org.apache.maven.plugin-tools",
+      "maven-plugin-tools-generators",
+      "3.13.1"
+    ],
+    [
+      "org.slf4j",
+      "slf4j-api",
+      "1.7.36"
+    ],
+    [
+      "org.jsoup",
+      "jsoup",
+      "1.17.2"
+    ],
+    [
+      "org.apache.maven.shared",
+      "maven-shared-utils",
+      "3.4.2"
+    ],
+    [
+      "org.apache.maven.reporting",
+      "maven-reporting-api",
+      "4.0.0"
+    ],
+    [
+      "org.codehaus.plexus",
+      "plexus-interactivity-api",
+      "1.3"
+    ],
+    [
+      "org.codehaus.plexus",
+      "plexus-utils",
+      "4.0.1"
+    ],
+    [
+      "org.codehaus.plexus",
+      "plexus-xml",
+      "3.0.1"
+    ],
+    [
+      "org.jdom",
+      "jdom2",
+      "2.0.6.1"
+    ],
+    [
+      "com.thoughtworks.xstream",
+      "xstream",
+      "1.4.20"
+    ],
+    [
+      "io.github.x-stream",
+      "mxparser",
+      "1.2.2"
+    ],
+    [
+      "xmlpull",
+      "xmlpull",
+      "1.1.3.1"
+    ]
+  ],
+  "descriptor_sha256": "ff3f67847a0e13f377dcaa214dc1363efc22063d78c78044885b2fee29ed435c",
+  "fully_resolved_project_classpath": false,
+  "goals": [
+    {
+      "fork_goal": null,
+      "fork_phase": null,
+      "goal": "active-profiles",
+      "requires_project": "true"
+    },
+    {
+      "fork_goal": null,
+      "fork_phase": null,
+      "goal": "effective-pom",
+      "requires_project": "true"
+    }
+  ],
+  "helper": [
+    "org.apache.maven.plugins",
+    "maven-help-plugin",
+    "3.5.1"
+  ],
+  "jar_sha256": "db1296f90c93cd1ac763f8262674dc376cf7670166dc2c270a498b1141a51865",
+  "metadata_profile_unknowns": [
+    {
+      "identity": [
+        "org.eclipse.sisu",
+        "org.eclipse.sisu.plexus",
+        "0.9.0.M3"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.eclipse.sisu', 'sisu-inject', '0.9.0.M3'], 'id': 'spotless', 'active': None, 'reason': 'UNRESOLVED_FILE_ACTIVATION'}"
+    },
+    {
+      "identity": [
+        "org.eclipse.sisu",
+        "org.eclipse.sisu.inject",
+        "0.9.0.M3"
+      ],
+      "kind": "PROFILE",
+      "reason": "{'model': ['org.eclipse.sisu', 'sisu-inject', '0.9.0.M3'], 'id': 'spotless', 'active': None, 'reason': 'UNRESOLVED_FILE_ACTIVATION'}"
+    }
+  ],
+  "required_java": "1.8",
+  "required_maven": "3.6.3",
+  "scope": "Pinned helper descriptor runtime plus parent/import metadata only"
+}

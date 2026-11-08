@@ -1,0 +1,2987 @@
+{
+  "actual_maven_plan_calculated": false,
+  "missing_paths": [],
+  "plugins": [
+    {
+      "configured_executions": [
+        {
+          "goal": "process",
+          "id": "process-resource-bundles",
+          "phase": "generate-resources"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 38185,
+      "descriptor_sha256": "f0044d79280eb3b3e4584aac2cd5bacdab22b6671ff35913065ccf4eede71b33",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "d9e0b66d41509cfad2374bfefa2ec07df92d0cbc2f235e1bb9372a52e6ceef93",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "process"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-remote-resources-plugin",
+        "3.2.0"
+      ],
+      "imports": [],
+      "jar_sha256": "8eee784fc343152b5c0b95cbc2723718770577dc49b66c734d63b9e8dcf30b3a",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache.maven.plugins",
+          "maven-remote-resources-plugin",
+          "3.2.0"
+        ]
+      ],
+      "pom_sha256": "067e7dcc561a07aab91583a28fe0be934ecc7c6927b0bfcf6186188c5cffe2ce",
+      "profiles": [
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-remote-resources-plugin",
+            "3.2.0"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "enforce",
+          "id": "enforce-maven-version",
+          "phase": "validate"
+        },
+        {
+          "goal": "enforce",
+          "id": "enforce-java-version",
+          "phase": "validate"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 12177,
+      "descriptor_sha256": "0a8c855bd5c303b3f9ce2cc0f63ba749a8504fb8e0256ab1a35c0f14e0d03287",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "93fcdf388cc3b82d065208517e95d4d0a0445b5e61c76cb42f85dd47ba74b352",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "enforce"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-enforcer-plugin",
+        "3.5.0"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "be757f04f006348df247dcf235ca45a292fe4472b969fddf38ec2c6a70c4d964",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "32"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "42"
+        ],
+        [
+          "org.apache.maven.enforcer",
+          "enforcer",
+          "3.5.0"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-enforcer-plugin",
+          "3.5.0"
+        ]
+      ],
+      "pom_sha256": "f6c0fb5ac4bd107a81df225f63e07997ad76ddf89c29b996cd22652fa20a74a7",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-enforcer-plugin",
+            "3.5.0"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "attach-descriptor",
+          "id": "attach-descriptor",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 105519,
+      "descriptor_sha256": "d282a6508b4178a42bdea23b4661a805531e2144e09d1cb43f8ab7139963eb5c",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "4bca1fe620bfa2f4bc47e7e1ecec62fb490c7491279f0cda8a6a77b7d8929b72",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "attach-descriptor"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-site-plugin",
+        "3.12.1"
+      ],
+      "imports": [],
+      "jar_sha256": "f7bd8e943977ca85022e1252d52575b769d12d49565375550251d2f471aa350c",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "26"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "36"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "36"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-site-plugin",
+          "3.12.1"
+        ]
+      ],
+      "pom_sha256": "6ca9fd4c6bb967bdb44ba03b3de42a79f81ea71dd13404d08fd7a72e3f5d1219",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "26"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "26"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "36"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "36"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "36"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "36"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "36"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "36"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "36"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "3.12.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "3.12.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "dev",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-site-plugin",
+            "3.12.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "run",
+          "id": "javadoc.resources",
+          "phase": "generate-sources"
+        },
+        {
+          "goal": "run",
+          "id": "prepare-checkout",
+          "phase": "pre-site"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 11953,
+      "descriptor_sha256": "74465d2421ea68fd7fda9752858e82bdf737e5d05dc72ebd9f2fc2c9d6ac887d",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "b9978ceca2af2f5fb29950dcadf7bff83ba89e4d69dcb83fa0056c2ed6dce459",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "run"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-antrun-plugin",
+        "3.1.0"
+      ],
+      "imports": [],
+      "jar_sha256": "8ae8f570b8f4ea46fa7f3df27f22ce4c6b6c1f387a6eaeefae6c896aebae1455",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "23"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "34"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "34"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-antrun-plugin",
+          "3.1.0"
+        ]
+      ],
+      "pom_sha256": "978469f5d7558b1a82f596bdd6984e3137a3c0fc1c7af76f1a62824307dfb14e",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "23"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "34"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "34"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "34"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "34"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "34"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "34"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [],
+      "default_bindings": [
+        [
+          "compile",
+          "compile"
+        ],
+        [
+          "test-compile",
+          "testCompile"
+        ]
+      ],
+      "descriptor_bytes": 74082,
+      "descriptor_sha256": "cdd204901521f3a859b7c90a022f8192f1a34ad9cb14e68edf18efd1b440bbbc",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "ff7872cd33d2e0a34b507643c2e00c95468047f16540a321316ffbd1c1bc3a3d",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "compile",
+        "testCompile"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-compiler-plugin",
+        "3.13.0"
+      ],
+      "imports": [],
+      "jar_sha256": "6f819947a2a773792dc91d17f906e22113bfb2fefb6b64dec836175715d7402a",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-compiler-plugin",
+          "3.13.0"
+        ]
+      ],
+      "pom_sha256": "0d00b84f26ff5f3e845bf349302345633ca65f8d8e9101b31082082415912c1e",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-compiler-plugin",
+            "3.13.0"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "test-jar",
+          "id": "default",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [
+        [
+          "package",
+          "jar"
+        ]
+      ],
+      "descriptor_bytes": 25522,
+      "descriptor_sha256": "e982f84dcca36f2a460966aef31ce47bc94e04d49a2b93dc51d3deb328b4d3a9",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "0a469dc0b8bf44c3cf0f8d8ff551637f39edbfd4af38eb5a7c3ff2c3d15be977",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "jar",
+        "test-jar"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-jar-plugin",
+        "3.4.2"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "e02b19fb8e7ea10baed4878a8c51e4ea21f16ef927efcfb2681a8faea86c7abb",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "32"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-jar-plugin",
+          "3.4.2"
+        ]
+      ],
+      "pom_sha256": "1b6e93c9c1d87b893808d9efc07f56638e60909d501558b11838659b937157af",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-jar-plugin",
+            "3.4.2"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package"
+        },
+        {
+          "goal": "test-jar-no-fork",
+          "id": "create-source-jar",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 68019,
+      "descriptor_sha256": "b018edf48276a1f4e853ff1605686e44b820e89472d4d224befb58342c97c5c8",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "a35cfe97568d006fe43f0dcb5273318f90c270152007d0bff027728ab3ba021b",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "jar-no-fork",
+        "test-jar-no-fork"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-source-plugin",
+        "3.2.1"
+      ],
+      "imports": [],
+      "jar_sha256": "436431c4aab177f95c08e6a78b4b38696d06cee6e33755641432ef78f464d4f4",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "21"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "33"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "33"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-source-plugin",
+          "3.2.1"
+        ]
+      ],
+      "pom_sha256": "5da55e1534bcd03682c45118ea17165a9abe76d16490029f3ed5b0b5fb9a52b9",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "21"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-source-plugin",
+            "3.2.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [],
+      "default_bindings": [
+        [
+          "test",
+          "test"
+        ]
+      ],
+      "descriptor_bytes": 71980,
+      "descriptor_sha256": "f2edc47424f6988cbb857934df005f48784230e0d9ed80b4285d706087d06192",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "1ee11f77f62094e9a40f50ea434468b659a61b84674b4c75c247ae20c7cfee5d",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "test"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-surefire-plugin",
+        "3.5.1"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.3"
+        ]
+      ],
+      "jar_sha256": "a722d6a6c8c0decd6956a5d035fcb70dd31e965f4bbbef7c965964c985a43ea8",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "33"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "43"
+        ],
+        [
+          "org.apache.maven.surefire",
+          "surefire",
+          "3.5.1"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-surefire-plugin",
+          "3.5.1"
+        ]
+      ],
+      "pom_sha256": "1e53dc76353dd871ae95ff261444f3724181806bb46378e3b769236eb0eb9acc",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "33"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "43"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "ide-development",
+          "model": [
+            "org.apache.maven.surefire",
+            "surefire",
+            "3.5.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache.maven.surefire",
+            "surefire",
+            "3.5.1"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.surefire",
+            "surefire",
+            "3.5.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "ci",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-surefire-plugin",
+            "3.5.1"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-surefire-plugin",
+            "3.5.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "manifest",
+          "id": "bundle-manifest",
+          "phase": "process-classes"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 142477,
+      "descriptor_sha256": "77573d6537a1b548ce60b11972d588ec31137b1358d92a79174fc689e6a2cb77",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "1f74a38567c7a33338e07f8d244b4bd2cba6d2f21062565bd786500b38e9e572",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "manifest"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.felix",
+        "maven-bundle-plugin",
+        "5.1.9"
+      ],
+      "imports": [],
+      "jar_sha256": "d5379a3b8dd9b898c2953a1efea780cb5dc06029399ac492bbca13d65aa28eaf",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "23"
+        ],
+        [
+          "org.apache.felix",
+          "felix-parent",
+          "7"
+        ],
+        [
+          "org.apache.felix",
+          "maven-bundle-plugin",
+          "5.1.9"
+        ]
+      ],
+      "pom_sha256": "5b85e06c7edaef3430c3dfd43e7ae165914a8a7b3cf94f61aa92b9a3f1307890",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "23"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk8-or-lower",
+          "model": [
+            "org.apache.felix",
+            "felix-parent",
+            "7"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "jdk9-or-higher",
+          "model": [
+            "org.apache.felix",
+            "felix-parent",
+            "7"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache.felix",
+            "felix-parent",
+            "7"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache.felix",
+            "maven-bundle-plugin",
+            "5.1.9"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "check",
+          "id": "rat-check",
+          "phase": "validate"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 38282,
+      "descriptor_sha256": "aeea7b0d539e8ce627ab82d69432c00359dbc2b9df3b3b3131ca2fb4882e9833",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "3f0ec26b0f47d58afd963ba3f9da3944c111e49028d8418a172b1c2edee6e066",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "check"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.rat",
+        "apache-rat-plugin",
+        "0.16.1"
+      ],
+      "imports": [],
+      "jar_sha256": "331971651bd1da6922eea4c9cc86169b9da28a07f281957bd575a50b6d9a4444",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-project",
+          "0.16.1"
+        ],
+        [
+          "org.apache.rat",
+          "apache-rat-plugin",
+          "0.16.1"
+        ]
+      ],
+      "pom_sha256": "ae75978aef81bbef3ada4ee120069ea8fb6973f4708766577c8a05959ab60e41",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "maven.compiler.release",
+          "model": [
+            "org.apache.rat",
+            "apache-rat-project",
+            "0.16.1"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.rat",
+            "apache-rat-project",
+            "0.16.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "release-notes",
+          "model": [
+            "org.apache.rat",
+            "apache-rat-project",
+            "0.16.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "check-buildplan",
+          "id": "check-buildplan",
+          "phase": "validate"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 22864,
+      "descriptor_sha256": "3ef3ebcc346fef156304b26fb8f03913a4b27848b4c58d56bd4db67384ca526d",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "d22b2b08e96e48412535e266dde23f5bf6d2523e4d0d5f0e977b299c93c06d94",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "check-buildplan"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-artifact-plugin",
+        "3.5.1"
+      ],
+      "imports": [],
+      "jar_sha256": "e4b0a098f12d466bda92b2430169ac713f67499dd1a4c508df3c2983be5a2553",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "31"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "41"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-artifact-plugin",
+          "3.5.1"
+        ]
+      ],
+      "pom_sha256": "4800d581465af933230e84e8929e455bff4c6e93547a2c5eefab4af3bb3194d1",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "31"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "41"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-artifact-plugin",
+            "3.5.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "dev",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-artifact-plugin",
+            "3.5.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "pgpverify",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-artifact-plugin",
+            "3.5.1"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "makeAggregateBom",
+          "id": "build-sbom-cyclonedx",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 43596,
+      "descriptor_sha256": "660178f75d92b9e54d921c27f7d3cdf4d901727526e7374041141ca9d07fb563",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "664aaeaeac3130e337d8bbc07062b0892466b9241af82820a4121d54d53d4fb3",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "makeAggregateBom"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.cyclonedx",
+        "cyclonedx-maven-plugin",
+        "2.9.0"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.3"
+        ]
+      ],
+      "jar_sha256": "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.cyclonedx",
+          "cyclonedx-maven-plugin",
+          "2.9.0"
+        ]
+      ],
+      "pom_sha256": "2b3b15a31392fc0ae1c239d8a54f606c70c6341e583f438a8848e36c848e667c",
+      "profiles": [
+        {
+          "active": false,
+          "id": "release",
+          "model": [
+            "org.cyclonedx",
+            "cyclonedx-maven-plugin",
+            "2.9.0"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "jdk-release",
+          "model": [
+            "org.cyclonedx",
+            "cyclonedx-maven-plugin",
+            "2.9.0"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "createSPDX",
+          "id": "build-sbom-spdx",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 35991,
+      "descriptor_sha256": "d8a7b37ee8b329f3a8cadf93b777fbd8d6f44eca69a867136133e33d686f4020",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "b1cef7e5716fbd9f6c749a6181bb8d0ab169ddd1138d5209eaceda82cdce3e42",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "createSPDX"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.spdx",
+        "spdx-maven-plugin",
+        "0.7.4"
+      ],
+      "imports": [],
+      "jar_sha256": "d598da085bfa825271258489b68e18d620c43525427b11934573e66cffa0583d",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.spdx",
+          "spdx-maven-plugin",
+          "0.7.4"
+        ]
+      ],
+      "pom_sha256": "2b8fabfce01d043b22627b8653830a61c47af6d62a668d04a98a276da85c0994",
+      "profiles": [
+        {
+          "active": true,
+          "id": "run-its",
+          "model": [
+            "org.spdx",
+            "spdx-maven-plugin",
+            "0.7.4"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "release",
+          "model": [
+            "org.spdx",
+            "spdx-maven-plugin",
+            "0.7.4"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "parse-version",
+          "id": "parse-version",
+          "phase": "validate"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 58768,
+      "descriptor_sha256": "c57b0aa534989437dc85dcd84af10c7021100a6e6b8222efeb509b7fe315db07",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "056d694ad73b0619bdec34583762862c95f9c969b10ed451588abca0ad04a0ef",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "parse-version"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.codehaus.mojo",
+        "build-helper-maven-plugin",
+        "3.6.0"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "35922fb87521601144fe0b24b812d76a906df65aaa53d6f95962369fd39f4e74",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.codehaus.mojo",
+          "mojo-parent",
+          "82"
+        ],
+        [
+          "org.codehaus.mojo",
+          "build-helper-maven-plugin",
+          "3.6.0"
+        ]
+      ],
+      "pom_sha256": "3b8d3deb8f631259f2938af05d26a1ec05b34e5811ef7fd96f68d73bd259f558",
+      "profiles": [
+        {
+          "active": false,
+          "id": "jdk8",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "82"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "82"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "mojo-release",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "82"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "reporting",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "82"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.codehaus.mojo",
+            "build-helper-maven-plugin",
+            "3.6.0"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.codehaus.mojo",
+            "build-helper-maven-plugin",
+            "3.6.0"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "prepare-agent",
+          "id": "prepare-agent",
+          "phase": "process-test-classes"
+        },
+        {
+          "goal": "report",
+          "id": "report",
+          "phase": "site"
+        },
+        {
+          "goal": "check",
+          "id": "check",
+          "phase": "verify"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 61437,
+      "descriptor_sha256": "bae679a45b9d511eca0970e503ed78156cd313d8bb3706d20102e21fc300af1a",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "9f45d7091f9fbc040be49bb3ee20d08f365dc4c376ebc2dcdd552fe2682c7514",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "check",
+        "prepare-agent"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.jacoco",
+        "jacoco-maven-plugin",
+        "0.8.12"
+      ],
+      "imports": [
+        [
+          "org.ow2.asm",
+          "asm-bom",
+          "9.7"
+        ]
+      ],
+      "jar_sha256": "b305a57535247cff2b7450c4dc1db505c7c246c838cec48c10e52fa71aa423bd",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.jacoco",
+          "org.jacoco.build",
+          "0.8.12"
+        ],
+        [
+          "org.jacoco",
+          "jacoco-maven-plugin",
+          "0.8.12"
+        ]
+      ],
+      "pom_sha256": "8c2fb71ba7c58dcd354e221721946aceb4547c65e90882199f26cd58ff7eb01c",
+      "profiles": [
+        {
+          "active": false,
+          "id": "maven-jdk9",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "maven-jdk12",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "integration-tests",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java18-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java19-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java20-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java21-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java22-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "java23-bytecode",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "ecj",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk6",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk7",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk8",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk9",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk10",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk11",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "jdk12",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "sources",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "release",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "m2e",
+          "model": [
+            "org.jacoco",
+            "org.jacoco.build",
+            "0.8.12"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "create",
+          "id": "default",
+          "phase": "generate-resources"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 47157,
+      "descriptor_sha256": "355bb111fc76b6e07c0c0829d9414a35ae16907393e65c26927667d1924b5327",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "da6782dbc841ea439f480f60705d15edeea52202db8e39848f8595d4364572d0",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "create"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.codehaus.mojo",
+        "buildnumber-maven-plugin",
+        "3.2.1"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.3"
+        ]
+      ],
+      "jar_sha256": "8c13ed2378d148f1365df55e6c5a8c639eb89bfc6479c2d1513e1ac63d135902",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.codehaus.mojo",
+          "mojo-parent",
+          "85"
+        ],
+        [
+          "org.codehaus.mojo",
+          "buildnumber-maven-plugin",
+          "3.2.1"
+        ]
+      ],
+      "pom_sha256": "88bcb123279006ca54959eab96897d0f03347c7dfb329921dd3f09e394b120e9",
+      "profiles": [
+        {
+          "active": false,
+          "id": "jdk8",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "85"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "85"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "mojo-release",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "85"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "reporting",
+          "model": [
+            "org.codehaus.mojo",
+            "mojo-parent",
+            "85"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "run-its",
+          "model": [
+            "org.codehaus.mojo",
+            "buildnumber-maven-plugin",
+            "3.2.1"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "devlocal",
+          "model": [
+            "org.codehaus.mojo",
+            "buildnumber-maven-plugin",
+            "3.2.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [
+        {
+          "goal": "add-module-info",
+          "id": "add-module-infos",
+          "phase": "package"
+        }
+      ],
+      "default_bindings": [],
+      "descriptor_bytes": 20987,
+      "descriptor_sha256": "b48d81e72b99c7a8e6d5c8fe9b12de67f4a9dc5ae96dd6a6ec9905a51bedc75c",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "185209be9804bc06e718ec88eec7e9a52b9f84ae9e87ec6ee991566e5b39cead",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "add-module-info"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.moditect",
+        "moditect-maven-plugin",
+        "1.2.2.Final"
+      ],
+      "imports": [],
+      "jar_sha256": "d9c503b8dd4fef26a40fd7eca1e13a9e4e55a79225fb081dc055de9317e635d8",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.moditect",
+          "moditect-org-parent",
+          "1.4.0.Final"
+        ],
+        [
+          "org.moditect",
+          "moditect-parent",
+          "1.2.2.Final"
+        ],
+        [
+          "org.moditect",
+          "moditect-maven-plugin",
+          "1.2.2.Final"
+        ]
+      ],
+      "pom_sha256": "8e071117979706af51fdb50545dbe5776e5d8614505ec9ba8d16adeeacd62c8a",
+      "profiles": [
+        {
+          "active": false,
+          "id": "publication",
+          "model": [
+            "org.moditect",
+            "moditect-org-parent",
+            "1.4.0.Final"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "stage",
+          "model": [
+            "org.moditect",
+            "moditect-org-parent",
+            "1.4.0.Final"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jreleaser",
+          "model": [
+            "org.moditect",
+            "moditect-org-parent",
+            "1.4.0.Final"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "nochecks",
+          "model": [
+            "org.moditect",
+            "moditect-org-parent",
+            "1.4.0.Final"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "enforcer",
+          "model": [
+            "org.moditect",
+            "moditect-org-parent",
+            "1.4.0.Final"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "stage",
+          "model": [
+            "org.moditect",
+            "moditect-parent",
+            "1.2.2.Final"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jreleaser",
+          "model": [
+            "org.moditect",
+            "moditect-parent",
+            "1.2.2.Final"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [],
+      "default_bindings": [
+        [
+          "process-resources",
+          "resources"
+        ],
+        [
+          "process-test-resources",
+          "testResources"
+        ]
+      ],
+      "descriptor_bytes": 39710,
+      "descriptor_sha256": "d95f2e70f7e8d7027fc14b5785005407fbe2e02a9e7209750bc9ddbd9c2fe166",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "2c3cd007048d603f77876674fab3767055dd22a038b474d1f344abfe1cd9d2a4",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "resources",
+        "testResources"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-resources-plugin",
+        "3.3.1"
+      ],
+      "imports": [],
+      "jar_sha256": "eb4069c7fe50a313b3f5295ccd214f30402f63971c26f443f7f3e798be8cc2a7",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "29"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "39"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "39"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-resources-plugin",
+          "3.3.1"
+        ]
+      ],
+      "pom_sha256": "3269d0a6e3cd614a29486f57fc86488b0f1e458a11bebc61f9408fd6c7cf85ae",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "29"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "29"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "39"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "39"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "39"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "39"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-resources-plugin",
+            "3.3.1"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [],
+      "default_bindings": [
+        [
+          "install",
+          "install"
+        ]
+      ],
+      "descriptor_bytes": 13619,
+      "descriptor_sha256": "b5027eb5d2d420d06875f077e560791b49b413413ee247bfbf8023e0d9dcfce3",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "4530a54eefa235f46ca9d63de9355ee1e9721a25143587f0fdecfd9cd2e92a9d",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "install"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-install-plugin",
+        "3.1.2"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "3541e043252daf4e73b9e0e8badcc74a89bd6855419622d7739873fc9324feac",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "32"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-install-plugin",
+          "3.1.2"
+        ]
+      ],
+      "pom_sha256": "4b2a190117c3d03e73e866d482d466aec4e28eafc4d211485df6a12e713bded9",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-install-plugin",
+            "3.1.2"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    },
+    {
+      "configured_executions": [],
+      "default_bindings": [
+        [
+          "deploy",
+          "deploy"
+        ]
+      ],
+      "descriptor_bytes": 21322,
+      "descriptor_sha256": "2a4f3d758f9399f796e2e38f5c6e39a2d93afee5775bf0942d3314c72623b79c",
+      "embedded_properties_gav_verified": true,
+      "embedded_properties_sha256": "e3d88d5bbd3d1c54b0741453ea4c6c6f2cb719ace9aa2410c81e3c3597347dee",
+      "execution_status": "NOT_EXECUTED",
+      "expected_goals": [
+        "deploy"
+      ],
+      "expected_goals_verified": true,
+      "gav": [
+        "org.apache.maven.plugins",
+        "maven-deploy-plugin",
+        "3.1.2"
+      ],
+      "imports": [
+        [
+          "org.junit",
+          "junit-bom",
+          "5.10.2"
+        ]
+      ],
+      "jar_sha256": "cb3850b77fb0b4ee9330a22fee7c9a73e8036b8a532363147cdf4986c890d7f9",
+      "packaging": "maven-plugin",
+      "parent_chain": [
+        [
+          "org.apache",
+          "apache",
+          "32"
+        ],
+        [
+          "org.apache.maven",
+          "maven-parent",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-plugins",
+          "42"
+        ],
+        [
+          "org.apache.maven.plugins",
+          "maven-deploy-plugin",
+          "3.1.2"
+        ]
+      ],
+      "pom_sha256": "fe044f57bad86ad0d5afc50957b80b8bd5ddf0e2014e352132d9249a307ad0d1",
+      "profiles": [
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "jdk9+",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "only-eclipse",
+          "model": [
+            "org.apache",
+            "apache",
+            "32"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": true,
+          "id": "java11+",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "apache-release",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": true,
+          "id": "format-check",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "format",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "drop-legacy-dependencies",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "jdk-toolchain",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "quality-checks",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "STATIC_JDK17_FILES_AND_FIXED_USER_PROPERTIES"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven",
+            "maven-parent",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "reporting",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-plugins",
+            "42"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        },
+        {
+          "active": false,
+          "id": "run-its",
+          "model": [
+            "org.apache.maven.plugins",
+            "maven-deploy-plugin",
+            "3.1.2"
+          ],
+          "reason": "NO_IMPLICIT_ACTIVATION"
+        }
+      ],
+      "static_model_issues": []
+    }
+  ],
+  "selected_tasks": {
+    "actual_maven_plan_calculated": false,
+    "configured_values": [],
+    "descriptor_default": "deploy",
+    "descriptor_sha256": "3ef3ebcc346fef156304b26fb8f03913a4b27848b4c58d56bd4db67384ca526d",
+    "selected": "deploy"
+  },
+  "status": "ALL20_STATIC_DESCRIPTORS_VERIFIED",
+  "unknown": []
+}

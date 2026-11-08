@@ -1,0 +1,2328 @@
+{
+  "status": "PASS",
+  "integrity_check": [
+    "ok"
+  ],
+  "schema": {
+    "SONAR_ANALYSIS": [
+      {
+        "cid": 0,
+        "name": "PROJECT_ID",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 1,
+        "name": "ANALYSIS_KEY",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "DATE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "REVISION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      }
+    ],
+    "SONAR_MEASURES": [
+      {
+        "cid": 0,
+        "name": "PROJECT_ID",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 1,
+        "name": "ANALYSIS_KEY",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "COMPLEXITY",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "FILE_COMPLEXITY",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "COMPLEXITY_IN_CLASSES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "CLASS_COMPLEXITY",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "COMPLEXITY_IN_FUNCTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "FUNCTION_COMPLEXITY",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "CLASS_COMPLEXITY_DISTRIBUTION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "FUNCTION_COMPLEXITY_DISTRIBUTION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "FILE_COMPLEXITY_DISTRIBUTION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "XS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "XS_PERCENT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 13,
+        "name": "TANGLE_DESIGN",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 14,
+        "name": "FAT_CLASS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 15,
+        "name": "FAT_DESIGN",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 16,
+        "name": "FAT_LEAF_PACKAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 17,
+        "name": "FAT_METHOD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 18,
+        "name": "COGNITIVE_COMPLEXITY",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 19,
+        "name": "TESTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 20,
+        "name": "TEST_EXECUTION_TIME",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 21,
+        "name": "TEST_ERRORS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 22,
+        "name": "SKIPPED_TESTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 23,
+        "name": "TEST_FAILURES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 24,
+        "name": "TEST_SUCCESS_DENSITY",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 25,
+        "name": "TEST_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 26,
+        "name": "COVERAGE",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 27,
+        "name": "NEW_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 28,
+        "name": "LINES_TO_COVER",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 29,
+        "name": "NEW_LINES_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 30,
+        "name": "UNCOVERED_LINES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 31,
+        "name": "NEW_UNCOVERED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 32,
+        "name": "LINE_COVERAGE",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 33,
+        "name": "NEW_LINE_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 34,
+        "name": "COVERAGE_LINE_HITS_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 35,
+        "name": "CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 36,
+        "name": "NEW_CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 37,
+        "name": "UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 38,
+        "name": "NEW_UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 39,
+        "name": "BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 40,
+        "name": "NEW_BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 41,
+        "name": "CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 42,
+        "name": "COVERED_CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 43,
+        "name": "IT_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 44,
+        "name": "NEW_IT_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 45,
+        "name": "IT_LINES_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 46,
+        "name": "NEW_IT_LINES_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 47,
+        "name": "IT_UNCOVERED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 48,
+        "name": "NEW_IT_UNCOVERED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 49,
+        "name": "IT_LINE_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 50,
+        "name": "NEW_IT_LINE_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 51,
+        "name": "IT_COVERAGE_LINE_HITS_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 52,
+        "name": "IT_CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 53,
+        "name": "NEW_IT_CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 54,
+        "name": "IT_UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 55,
+        "name": "NEW_IT_UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 56,
+        "name": "IT_BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 57,
+        "name": "NEW_IT_BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 58,
+        "name": "IT_CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 59,
+        "name": "IT_COVERED_CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 60,
+        "name": "OVERALL_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 61,
+        "name": "NEW_OVERALL_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 62,
+        "name": "OVERALL_LINES_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 63,
+        "name": "NEW_OVERALL_LINES_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 64,
+        "name": "OVERALL_UNCOVERED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 65,
+        "name": "NEW_OVERALL_UNCOVERED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 66,
+        "name": "OVERALL_LINE_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 67,
+        "name": "NEW_OVERALL_LINE_COVEERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 68,
+        "name": "OVERALL_COVERAGE_LINE_HITS_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 69,
+        "name": "OVERALL_CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 70,
+        "name": "NEW_OVERALL_CONDITIONS_TO_COVER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 71,
+        "name": "OVERALL_UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 72,
+        "name": "NEW_OVERALL_UNCOVERED_CONDITIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 73,
+        "name": "OVERALL_BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 74,
+        "name": "NEW_OVERALL_BRANCH_COVERAGE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 75,
+        "name": "OVERALL_CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 76,
+        "name": "OVERALL_COVERED_CONDITIONS_BY_LINE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 77,
+        "name": "EXECUTABLE_LINES_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 78,
+        "name": "ARCH_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 79,
+        "name": "ARCH_VIOLATIONS_WEIGHTED",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 80,
+        "name": "PUBLIC_API",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 81,
+        "name": "PUBLIC_DOCUMENTED_API_DENSITY",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 82,
+        "name": "PUBLIC_UNDOCUMENTED_API",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 83,
+        "name": "COMMENTED_OUT_CODE_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 84,
+        "name": "DUPLICATED_LINES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 85,
+        "name": "DUPLICATED_BLOCKS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 86,
+        "name": "DUPLICATED_FILES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 87,
+        "name": "DUPLICATED_LINES_DENSITY",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 88,
+        "name": "DUPLICATIONS_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 89,
+        "name": "NEW_DUPLICATED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 90,
+        "name": "NEW_DUPLICATED_BLOCKS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 91,
+        "name": "NEW_DUPLICATED_LINES_DENSITY",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 92,
+        "name": "QUALITY_GATE_DETAILS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 93,
+        "name": "QUALITY_PROFILES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 94,
+        "name": "ARCH_DIAGRAMS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 95,
+        "name": "S101.BUILDBREAKER",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 96,
+        "name": "STRUCTURE101_WEB_APPLICATION_URL",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 97,
+        "name": "PROJECT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 98,
+        "name": "VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 99,
+        "name": "BLOCKER_VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 100,
+        "name": "CRITICAL_VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 101,
+        "name": "MAJOR_VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 102,
+        "name": "MINOR_VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 103,
+        "name": "INFO_VIOLATIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 104,
+        "name": "NEW_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 105,
+        "name": "NEW_BLOCKER_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 106,
+        "name": "NEW_CRITICAL_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 107,
+        "name": "NEW_MAJOR_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 108,
+        "name": "NEW_MINOR_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 109,
+        "name": "NEW_INFO_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 110,
+        "name": "FALSE_POSITIVE_ISSUES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 111,
+        "name": "OPEN_ISSUES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 112,
+        "name": "REOPENED_ISSUES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 113,
+        "name": "CONFIRMED_ISSUES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 114,
+        "name": "WONT_FIX_ISSUES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 115,
+        "name": "AFFERENT_COUPLINGS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 116,
+        "name": "EFFERENT_COUPLINGS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 117,
+        "name": "NUMBER_OF_CLASSES_AND_INTERFACES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 118,
+        "name": "PACKAGE_DEPENDENCY_CYCLES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 119,
+        "name": "MISSING_PACKAGE_INFO",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 120,
+        "name": "PACKAGE",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 121,
+        "name": "MISSING_PACKAGE_INFO_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 122,
+        "name": "PACKAGE_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 123,
+        "name": "PACKAGE_INFO_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 124,
+        "name": "JAVA_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 125,
+        "name": "SQALE_INDEX",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 126,
+        "name": "NEW_TECHNICAL_DEBT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 127,
+        "name": "SQALE_RATING",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 128,
+        "name": "DEVELOPMENT_COST",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 129,
+        "name": "SQALE_DEBT_RATIO",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 130,
+        "name": "NEW_SQALE_DEBT_RATION",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 131,
+        "name": "CODE_SMELLS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 132,
+        "name": "NEW_CODE_SMELLS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 133,
+        "name": "EFFORT_TO_REACH_MAINTAINABILITY_RATING_A",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 134,
+        "name": "NEW_MAINTAINABILITY_RATING",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 135,
+        "name": "BURNED_BUDGET",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 136,
+        "name": "BUSINESS_VALUE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 137,
+        "name": "TEAM_SIZE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 138,
+        "name": "FAT_METHOD_LIST",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 139,
+        "name": "S101_MODEL_NAME",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 140,
+        "name": "S101_MODEL_SEQUENTIAL_ACTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 141,
+        "name": "S101_MODEL_REFACTORING_ACTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 142,
+        "name": "S101_MODEL_CLASS_MAPPINGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 143,
+        "name": "S101_MODEL_ALIGNMENT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 144,
+        "name": "ALERT_STATUS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 145,
+        "name": "BUGS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 146,
+        "name": "NEW_BUGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 147,
+        "name": "RELIABILITY_REMEDIATION_EFFORT",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 148,
+        "name": "NEW_RELIABILITY_REMEDIATION_EFFORT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 149,
+        "name": "RELIABILITY_RATING",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 150,
+        "name": "NEW_RELIABILITY_RATING",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 151,
+        "name": "LAST_COMMIT_DATE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 152,
+        "name": "VULNERABILITIES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 153,
+        "name": "NEW_VULNERABILITIES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 154,
+        "name": "SECURITY_REMEDIATION_EFFORT",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 155,
+        "name": "NEW_SECURITY_REMEDIATION_EFFORT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 156,
+        "name": "SECURITY_RATING",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 157,
+        "name": "NEW_SECURITY_RATING",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 158,
+        "name": "LINES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 159,
+        "name": "GENERATED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 160,
+        "name": "NCLOC",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 161,
+        "name": "NCLOC_LANGUAGE_DISTRIBUTION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 162,
+        "name": "GENERATED_NCLOC",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 163,
+        "name": "CLASSES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 164,
+        "name": "FILES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 165,
+        "name": "DIRECTORIES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 166,
+        "name": "FUNCTIONS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 167,
+        "name": "ACCESSORS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 168,
+        "name": "STATEMENTS",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 169,
+        "name": "PROJECTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 170,
+        "name": "COMMENT_LINES",
+        "type": "INTEGER",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 171,
+        "name": "COMMENT_LINES_DENSITY",
+        "type": "REAL",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 172,
+        "name": "NCLOC_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 173,
+        "name": "COMMENT_LINES_DATA",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 174,
+        "name": "NEW_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 175,
+        "name": "sg_i.CORE_VIOLATIONS_COMPONENT_DEPENDENCIES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 176,
+        "name": "sg_i.CORE_BIGGEST_COMPONENT_CYCLE_GROUP",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 177,
+        "name": "sg_i.CORE_UNASSIGNED_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 178,
+        "name": "sg_i.CORE_EMPTY_ARTIFACT_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 179,
+        "name": "sg_i.CORE_LINES_OF_CODE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 180,
+        "name": "sg_i.CORE_NCCD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 181,
+        "name": "sg_i.CORE_DUPLICATES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 182,
+        "name": "sg_i.CORE_COMPONENT_DEPENDENCIES_TO_REMOVE_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 183,
+        "name": "sg_i.CORE_CODE_COMMENT_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 184,
+        "name": "sg_i.CORE_IGNORED_DUPLICATES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 185,
+        "name": "sg_i.CORE_THRESHOLD_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 186,
+        "name": "sg_i.CORE_COMMENT_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 187,
+        "name": "sg_i.CORE_RELATIVE_CYCLICITY_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 188,
+        "name": "sg_i.CORE_IGNORED_VIOLATIONS_PARSER_DEPENDENCIES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 189,
+        "name": "sg_i.CORE_CYCLIC_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 190,
+        "name": "sg_i.JAVA_RELATIVE_CYCLICITY_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 191,
+        "name": "sg_i.CORE_VIOLATIONS_PARSER_DEPENDENCIES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 192,
+        "name": "sg_i.JAVA_COMPONENT_DEPENDENCIES_TO_REMOVE_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 193,
+        "name": "sg_i.CORE_TOTAL_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 194,
+        "name": "sg_i.CORE_ARTIFACT_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 195,
+        "name": "sg_i.JAVA_IGNORED_CYCLIC_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 196,
+        "name": "sg_i.CORE_STRUCTURAL_DEBT_INDEX_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 197,
+        "name": "sg_i.CORE_ACD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 198,
+        "name": "sg_i.JAVA_STRUCTURAL_DEBT_INDEX_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 199,
+        "name": "sg_i.JAVA_CYCLICITY_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 200,
+        "name": "sg_i.CORE_CCD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 201,
+        "name": "sg_i.CORE_VIOLATING_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 202,
+        "name": "sg_i.JAVA_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 203,
+        "name": "sg_i.JAVA_CYCLIC_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 204,
+        "name": "sg_i.CORE_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 205,
+        "name": "sg_i.CORE_MAX_ACD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 206,
+        "name": "sg_i.CORE_RACD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 207,
+        "name": "sg_i.CORE_COMPONENT_CYCLE_GROUPS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 208,
+        "name": "sg_i.CORE_PARSER_DEPENDENCIES_TO_REMOVE_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 209,
+        "name": "sg_i.JAVA_BYTE_CODE_INSTRUCTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 210,
+        "name": "sg_i.CORE_STATEMENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 211,
+        "name": "sg_i.JAVA_BIGGEST_PACKAGE_CYCLE_GROUP",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 212,
+        "name": "sg_i.CORE_IGNORED_THRESHOLD_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 213,
+        "name": "sg_i.CORE_SOURCE_ELEMENT_COUNT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 214,
+        "name": "sg_i.CORE_IGNORED_CYCLIC_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 215,
+        "name": "sg_i.JAVA_PACKAGE_CYCLE_GROUPS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 216,
+        "name": "sg_i.PERCENTAGEOFDEADCODE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 217,
+        "name": "sg_i.CORE_CYCLICITY_COMPONENTS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 218,
+        "name": "sg_i.CORE_DUPLICATED_LINES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 219,
+        "name": "sg_i.JAVA_PARSER_DEPENDENCIES_TO_REMOVE_PACKAGES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 220,
+        "name": "sg_i.STRUCTURAL_DEBT_COST",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 221,
+        "name": "sg_i.CURRENT_VIRTUAL_MODEL",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 222,
+        "name": "sg_i.VIRTUAL_MODEL_FEATURE_AVAILABLE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 223,
+        "name": "sg_i.NUMBER_OF_TASKS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 224,
+        "name": "sg_i.NUMBER_OF_UNAPPLICABLE_TASKS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 225,
+        "name": "sg_i.NUMBER_OF_RESOLUTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 226,
+        "name": "sg_i.NUMBER_OF_UNAPPLICABLE_RESOLUTIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 227,
+        "name": "sg_i.NUMBER_OF_REFACTORINGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 228,
+        "name": "sg_i.NUMBER_OF_UNAPPLICABLE_REFACTORINGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 229,
+        "name": "sg_i.NUMBER_OF_PARSER_DEPENDENCIES_AFFECTED_BY_REFACTORINGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 230,
+        "name": "sg_i.JAVA_CYCLIC_PACKAGES_PERCENT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 231,
+        "name": "sg_i.MAX_MODULE_NCCD",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 232,
+        "name": "sg_i.ARCHITECTURE_FEATURE_AVAILABLE",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 233,
+        "name": "sg_i.NUMBER_OF_ISSUES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 234,
+        "name": "sg_i.NUMBER_OF_CRITICAL_ISSUES_WITHOUT_RESOLUTION",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 235,
+        "name": "sg_i.VIOLATING_COMPONENTS_PERCENT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 236,
+        "name": "sg_i.UNASSIGNED_COMPONENTS_PERCENT",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 237,
+        "name": "sg_i.NUMBER_OF_THRESHOLD_VIOLATIONS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 238,
+        "name": "sg_i.NUMBER_OF_WORKSPACE_WARNINGS",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 239,
+        "name": "sg_i.NUMBER_OF_IGNORED_CRITICAL_ISSUES",
+        "type": "TEXT",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      }
+    ],
+    "GIT_COMMITS": [
+      {
+        "cid": 0,
+        "name": "PROJECT_ID",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 1,
+        "name": "COMMIT_HASH",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "COMMIT_MESSAGE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "AUTHOR",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "AUTHOR_DATE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "AUTHOR_TIMEZONE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "COMMITTER",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "COMMITTER_DATE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "COMMITTER_TIMEZONE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "BRANCHES",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "IN_MAIN_BRANCH",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "MERGE",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "PARENTS",
+        "type": "",
+        "notnull": 0,
+        "default": null,
+        "pk": 0
+      }
+    ]
+  },
+  "missing_columns": {
+    "SONAR_ANALYSIS": [],
+    "SONAR_MEASURES": [],
+    "GIT_COMMITS": []
+  },
+  "counts": {
+    "SONAR_ANALYSIS": 67550,
+    "SONAR_MEASURES": 66711,
+    "GIT_COMMITS": 153994
+  },
+  "repository_count": 31,
+  "repositories": [
+    "org.apache:archiva",
+    "org.apache:batik",
+    "org.apache:bcel",
+    "org.apache:beanutils",
+    "org.apache:cayenne",
+    "org.apache:cocoon",
+    "org.apache:codec",
+    "org.apache:collections",
+    "org.apache:commons-cli",
+    "org.apache:commons-exec",
+    "org.apache:commons-fileupload",
+    "org.apache:commons-io",
+    "org.apache:commons-jelly",
+    "org.apache:commons-jexl",
+    "org.apache:configuration",
+    "org.apache:daemon",
+    "org.apache:dbcp",
+    "org.apache:dbutils",
+    "org.apache:digester",
+    "org.apache:felix",
+    "org.apache:hive",
+    "org.apache:httpclient",
+    "org.apache:httpcore",
+    "org.apache:jxpath",
+    "org.apache:net",
+    "org.apache:ognl",
+    "org.apache:santuario",
+    "org.apache:thrift",
+    "org.apache:validator",
+    "org.apache:vfs",
+    "org.apache:zookeeper"
+  ],
+  "coverage": [
+    {
+      "repository_id": "org.apache:archiva",
+      "measurements": 4677,
+      "first_historical_time": "2005-11-23 23:54:12",
+      "last_historical_time": "2012-02-24 21:18:49"
+    },
+    {
+      "repository_id": "org.apache:batik",
+      "measurements": 2164,
+      "first_historical_time": "2000-10-11 16:43:11",
+      "last_historical_time": "2002-08-13 21:33:16"
+    },
+    {
+      "repository_id": "org.apache:bcel",
+      "measurements": 1324,
+      "first_historical_time": "2001-10-29 19:59:54",
+      "last_historical_time": "2018-07-11 22:07:58"
+    },
+    {
+      "repository_id": "org.apache:beanutils",
+      "measurements": 1210,
+      "first_historical_time": "2001-03-27 05:25:57",
+      "last_historical_time": "2018-10-12 21:05:57"
+    },
+    {
+      "repository_id": "org.apache:cayenne",
+      "measurements": 1251,
+      "first_historical_time": "2007-01-21 11:11:02",
+      "last_historical_time": "2008-07-07 14:52:05"
+    },
+    {
+      "repository_id": "org.apache:cocoon",
+      "measurements": 10206,
+      "first_historical_time": "2003-03-09 00:11:46",
+      "last_historical_time": "2007-02-05 19:13:57"
+    },
+    {
+      "repository_id": "org.apache:codec",
+      "measurements": 1730,
+      "first_historical_time": "2003-04-25 18:07:16",
+      "last_historical_time": "2018-07-01 09:24:58"
+    },
+    {
+      "repository_id": "org.apache:collections",
+      "measurements": 2765,
+      "first_historical_time": "2001-04-14 19:32:38",
+      "last_historical_time": "2017-06-12 18:35:54"
+    },
+    {
+      "repository_id": "org.apache:commons-cli",
+      "measurements": 847,
+      "first_historical_time": "2002-06-10 18:01:16",
+      "last_historical_time": "2017-06-05 16:38:41"
+    },
+    {
+      "repository_id": "org.apache:commons-exec",
+      "measurements": 617,
+      "first_historical_time": "2005-07-29 02:59:37",
+      "last_historical_time": "2018-05-15 18:26:21"
+    },
+    {
+      "repository_id": "org.apache:commons-fileupload",
+      "measurements": 864,
+      "first_historical_time": "2002-04-05 22:29:22",
+      "last_historical_time": "2017-12-05 09:59:05"
+    },
+    {
+      "repository_id": "org.apache:commons-io",
+      "measurements": 1910,
+      "first_historical_time": "2002-01-25 19:10:04",
+      "last_historical_time": "2017-12-05 10:02:20"
+    },
+    {
+      "repository_id": "org.apache:commons-jelly",
+      "measurements": 1937,
+      "first_historical_time": "2002-02-11 18:14:17",
+      "last_historical_time": "2017-09-27 12:33:29"
+    },
+    {
+      "repository_id": "org.apache:commons-jexl",
+      "measurements": 1532,
+      "first_historical_time": "2002-04-26 04:45:28",
+      "last_historical_time": "2018-01-22 12:24:16"
+    },
+    {
+      "repository_id": "org.apache:configuration",
+      "measurements": 2929,
+      "first_historical_time": "2003-12-23 15:56:46",
+      "last_historical_time": "2018-09-27 17:05:37"
+    },
+    {
+      "repository_id": "org.apache:daemon",
+      "measurements": 981,
+      "first_historical_time": "2003-09-04 23:42:57",
+      "last_historical_time": "2018-09-19 18:49:37"
+    },
+    {
+      "repository_id": "org.apache:dbcp",
+      "measurements": 1555,
+      "first_historical_time": "2001-04-15 17:31:40",
+      "last_historical_time": "2017-12-18 11:10:18"
+    },
+    {
+      "repository_id": "org.apache:dbutils",
+      "measurements": 602,
+      "first_historical_time": "2003-11-02 19:30:43",
+      "last_historical_time": "2017-05-30 12:01:56"
+    },
+    {
+      "repository_id": "org.apache:digester",
+      "measurements": 2142,
+      "first_historical_time": "2001-05-12 16:45:34",
+      "last_historical_time": "2017-08-25 22:17:06"
+    },
+    {
+      "repository_id": "org.apache:felix",
+      "measurements": 3490,
+      "first_historical_time": "2005-07-19 10:41:53",
+      "last_historical_time": "2009-07-17 11:22:36"
+    },
+    {
+      "repository_id": "org.apache:hive",
+      "measurements": 5767,
+      "first_historical_time": "2008-09-02 23:58:59",
+      "last_historical_time": "2015-03-03 00:37:22"
+    },
+    {
+      "repository_id": "org.apache:httpclient",
+      "measurements": 2714,
+      "first_historical_time": "2005-12-21 18:47:13",
+      "last_historical_time": "2017-05-10 08:19:07"
+    },
+    {
+      "repository_id": "org.apache:httpcore",
+      "measurements": 1901,
+      "first_historical_time": "2005-02-08 21:51:02",
+      "last_historical_time": "2017-05-09 22:09:03"
+    },
+    {
+      "repository_id": "org.apache:jxpath",
+      "measurements": 596,
+      "first_historical_time": "2001-08-23 03:38:00",
+      "last_historical_time": "2018-05-15 18:57:31"
+    },
+    {
+      "repository_id": "org.apache:net",
+      "measurements": 2089,
+      "first_historical_time": "2002-04-03 03:11:40",
+      "last_historical_time": "2018-10-05 19:36:40"
+    },
+    {
+      "repository_id": "org.apache:ognl",
+      "measurements": 608,
+      "first_historical_time": "2011-05-05 09:38:09",
+      "last_historical_time": "2018-06-08 19:27:28"
+    },
+    {
+      "repository_id": "org.apache:santuario",
+      "measurements": 2718,
+      "first_historical_time": "2001-09-28 17:52:10",
+      "last_historical_time": "2018-10-15 13:22:16"
+    },
+    {
+      "repository_id": "org.apache:thrift",
+      "measurements": 1944,
+      "first_historical_time": "2008-05-16 20:33:47",
+      "last_historical_time": "2012-11-16 01:22:47"
+    },
+    {
+      "repository_id": "org.apache:validator",
+      "measurements": 1340,
+      "first_historical_time": "2002-01-06 05:03:47",
+      "last_historical_time": "2018-10-07 01:19:13"
+    },
+    {
+      "repository_id": "org.apache:vfs",
+      "measurements": 2079,
+      "first_historical_time": "2002-07-17 10:23:44",
+      "last_historical_time": "2018-09-27 15:55:26"
+    },
+    {
+      "repository_id": "org.apache:zookeeper",
+      "measurements": 222,
+      "first_historical_time": "2014-07-23 18:17:17",
+      "last_historical_time": "2016-12-21 22:32:01"
+    }
+  ],
+  "blank_analysis_keys": 839,
+  "duplicate_measure_keys": 0,
+  "duplicate_git_keys": 0,
+  "duplicate_analysis_keys": 0,
+  "joined_measurements": 66711,
+  "sqale": {
+    "unit": "estimated_remediation_minutes",
+    "metric": "SQALE_INDEX",
+    "missing": 0,
+    "invalid": 0,
+    "observed_zero": 31,
+    "valid": 66711,
+    "min": 0.0,
+    "max": 701914.0
+  },
+  "forecasting_eligibility": "NOT_EVALUATED_PHASE_0",
+  "limitations": [
+    "Historical dates are not verified scan execution/online availability",
+    "No state grid, future labels or independent cohort constructed",
+    "Analyzer/rule/scope provenance still needs Phase 1 admission"
+  ],
+  "path": "/home/hp/TECH_DEBT/td_V2.db",
+  "bytes": 1542533120,
+  "sha256": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+  "sha256_after": "8eb329e5e5690b884b98df824c4b94fc7582c5d610fa3bd12784b1e417b2684e",
+  "unchanged": true
+}
