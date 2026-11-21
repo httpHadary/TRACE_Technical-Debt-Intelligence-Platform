@@ -1,0 +1,16 @@
+name,enabled,git_url,sonar_key,paper_csv,weeks,end,mvn_args,gradle_args,build_cmd,with_tests,out,notes
+retrofit,1,https://github.com/square/retrofit.git,square:retrofit,square_retrofit_measures.csv,,,,,,0,,done 2026-10-18 (99/100 weeks); rerun only re-validates
+commonsio,1,https://github.com/apache/commons-io.git,apache:commons-io,commonsio_measures.csv,,,,,,0,,Maven - easiest next one
+java_websocket,1,https://github.com/TooTallNate/Java-WebSocket.git,tootallnate:java-websocket,java_websocket_measures.csv,,,,,,0,,Maven (pom.xml); small
+zxing,1,https://github.com/zxing/zxing.git,zxing:zxing,zxing_zxing_measures.csv,100,2019-02-01,,,,0,,paper rows match no commit (different scope) -> real weeks on the paper dates; paper only compared
+okhttp,1,https://github.com/square/okhttp.git,square:okhttp,square_okhttp_measures.csv,,,,,,0,,paper-aligned (Java diff 0.11%); 2015-12 -> 2018-10 is Maven
+dubbo,1,https://github.com/apache/dubbo.git,apache:dubbo,apache_incubator_dubbo_measures.csv,80,2019-02-01,,,,0,,2017 paper rows have ~35 more files than any commit (scope differs) -> real weeks on the paper dates; paper only compared
+jenkins,1,https://github.com/jenkinsci/jenkins.git,jenkinsci:jenkins,jenkinsci_jenkins_measures.csv,,,,,,0,,Maven; large; needs Jenkins repo for some deps
+guava,1,https://github.com/google/guava.git,google:guava,google_guava_measures.csv,,,,,,0,,Maven; large; may need JDK 8 exactly
+systemml,0,https://github.com/apache/systemds.git,apache:systemml,apache_systemml_measures.csv,,,,,,0,,Maven; repo renamed to systemds; large
+openfire,0,https://github.com/igniterealtime/Openfire.git,igniterealtime:openfire,igniterealtime_openfire_measures.csv,,,,,,0,,Ant before 2017 / Maven after - check build tool at the plan dates
+nifi,0,https://github.com/apache/nifi.git,apache:nifi,apache_nifi_measures.csv,,,,,,0,,Maven; very large (hours per week)
+spring_boot,0,https://github.com/spring-projects/spring-boot.git,spring-projects:spring-boot,spring-projects_spring-boot_measures.csv,,,,,,0,,Maven until 2020; very large
+kafka,0,https://github.com/apache/kafka.git,apache:kafka,apache_kafka_measures.csv,,,,,,0,,Gradle (old versions need old JDK/Gradle)
+groovy,0,https://github.com/apache/groovy.git,apache:groovy,apache_groovy_measures.csv,,,,,,0,,Gradle; large
+ofbiz,0,https://github.com/apache/ofbiz-framework.git,apache:ofbiz,apache_ofbiz_measures.csv,,,,,,0,,Gradle (Ant earlier); large
