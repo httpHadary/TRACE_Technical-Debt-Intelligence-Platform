@@ -1,0 +1,9 @@
+pandas
+requests
+numpy
+scipy
+javalang
+pyarrow
+polars
+pytest
+huggingface_hub
