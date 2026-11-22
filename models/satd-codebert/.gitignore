@@ -1,0 +1,57 @@
+﻿# ================================================================
+# Datasets
+# ================================================================
+
+*.csv
+*.xlsx
+*.xls
+data/
+
+# ================================================================
+# Model weights and training state
+# ================================================================
+
+outputs/*
+!outputs/.gitkeep
+
+checkpoint-*/
+*.safetensors
+pytorch_model.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# ================================================================
+# Generated predictions and archives
+# ================================================================
+
+*_predictions.csv
+*_misclassifications.csv
+*_errors.csv
+*.zip
+*.tar
+*.tar.gz
+
+# ================================================================
+# Credentials and secrets
+# ================================================================
+
+client_secrets.json
+google_drive_credentials.json
+credentials.json
+token.json
+.env
+
+# ================================================================
+# Python, Jupyter, IDE, and operating system files
+# ================================================================
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

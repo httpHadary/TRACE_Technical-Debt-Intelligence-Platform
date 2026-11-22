@@ -1,0 +1,18 @@
+{
+  "label2id": {
+    "NON-SATD": 0,
+    "DESIGN/CODE DEBT": 1,
+    "REQUIREMENT": 2,
+    "DEFECT": 3,
+    "TEST": 4,
+    "DOCUMENTATION": 5
+  },
+  "id2label": {
+    "0": "NON-SATD",
+    "1": "DESIGN/CODE DEBT",
+    "2": "REQUIREMENT",
+    "3": "DEFECT",
+    "4": "TEST",
+    "5": "DOCUMENTATION"
+  }
+}
