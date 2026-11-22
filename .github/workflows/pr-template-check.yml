@@ -80,3 +80,4 @@ jobs:
               core.setFailed(errors.join("\n"));
             } else {
               core.info("PR description is valid!");
+            }
