@@ -1,0 +1,39 @@
+
+name: Sync User Story Assignees
+
+on:
+  issues:
+    types:
+      - assigned
+      - unassigned
+      - opened
+      - reopened
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: sync-story-assignees-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  synchronize:
+    name: Synchronize child Task assignees
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Synchronize assignees
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/sync_story_assignees.py "$ISSUE_NUMBER" --apply --yes
