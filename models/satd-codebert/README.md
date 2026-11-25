@@ -19,7 +19,38 @@ The workflow performs two related tasks:
 The project uses a large multiclass dataset for training and internal evaluation, then evaluates the trained model on a separate binary-labeled comments dataset.
 
 ---
+## Quick Links
 
+### Dataset
+
+The dataset used in this project is publicly available on Kaggle:
+
+**CodeBERT SATD Multiclass Datasets**
+
+https://www.kaggle.com/datasets/ahmedamir7/codebert-satd-multiclass-datasets
+
+Dataset contents:
+
+| File | Purpose |
+|--------|--------|
+| `cppsatd.csv` | Multiclass SATD training, validation, and testing dataset |
+| `comment.csv` | Independent binary SATD evaluation dataset |
+
+### Trained Model
+
+The final fine-tuned model is publicly available on Hugging Face:
+
+**CodeBERT SATD Multiclass**
+
+https://huggingface.co/ahmedamirahmed/codebert-satd-multiclass
+
+The published model includes:
+
+- Fine-tuned CodeBERT weights
+- Tokenizer files
+- Label mappings
+- Configuration files
+- Evaluation artifacts
 ## Project Objectives
 
 The project was developed to address limitations found in an earlier binary SATD classifier.
@@ -148,6 +179,37 @@ comment
 The original `satd` column is preserved separately and used after prediction to calculate binary evaluation metrics.
 
 ---
+## Dataset Access
+
+### Download from Kaggle
+
+Dataset URL:
+
+https://www.kaggle.com/datasets/ahmedamir7/codebert-satd-multiclass-datasets
+
+The dataset package contains:
+
+```text
+cppsatd.csv
+comment.csv
+```
+
+### Using the Dataset in Kaggle
+
+```python
+DATASET_PATH = (
+    "/kaggle/input/"
+    "codebert-satd-multiclass-datasets"
+)
+
+CPPSATD_DATASET = (
+    f"{DATASET_PATH}/cppsatd.csv"
+)
+
+COMMENT_DATASET = (
+    f"{DATASET_PATH}/comment.csv"
+)
+```
 
 ## Target Classes
 
@@ -694,6 +756,42 @@ print("Labels:", model.config.id2label)
 ```
 
 ---
+## Using the Published Hugging Face Model
+
+The final model is available at:
+
+https://huggingface.co/ahmedamirahmed/codebert-satd-multiclass
+
+### Install Dependencies
+
+```bash
+pip install transformers torch safetensors
+```
+
+### Load the Published Model
+
+```python
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
+)
+
+MODEL_ID = (
+    "ahmedamirahmed/"
+    "codebert-satd-multiclass"
+)
+
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_ID
+)
+
+model = (
+    AutoModelForSequenceClassification
+    .from_pretrained(MODEL_ID)
+)
+
+print(model.config.id2label)
+```
 
 ## Predicting One Comment
 
@@ -792,6 +890,25 @@ print(
 ```
 
 ---
+## Binary SATD Mapping
+
+The model predicts one of six classes:
+
+| ID | Label |
+|----|--------|
+| 0 | NON-SATD |
+| 1 | DESIGN/CODE DEBT |
+| 2 | REQUIREMENT |
+| 3 | DEFECT |
+| 4 | TEST |
+| 5 | DOCUMENTATION |
+
+For binary SATD detection:
+
+```text
+NON-SATD      → NO SATD
+Any debt type → SATD
+```
 
 ## Installation
 
@@ -920,24 +1037,41 @@ Potential next steps include:
 ## Project Structure
 
 ```text
-project/
-├── satd-v2-multi-class-codebert-256_Final.ipynb
-├── satd-v2-multi-class-codebert-256_Final.py
-├── README.md
-├── cppsatd.csv
-├── comment.csv
-└── outputs/
-    └── codebert_cppsatd_multiclass/
-        ├── model files
-        ├── tokenizer files
-        ├── reports
-        ├── predictions
-        └── error analyses
+models/
+└── satd-codebert/
+    ├── README.md
+    │
+    ├── notebooks/
+    │   ├── satd-v2-multi-class-codebert-256-final.ipynb
+    │   └── test_model.py
+    │
+    ├── outputs/
+    │   └── .gitkeep
+    │
+    ├── results/
+    │   ├── all_results.json
+    │   ├── binary_satd_classification_report.txt
+    │   ├── class_weights.csv
+    │   ├── config.json
+    │   ├── label_mapping.json
+    │   ├── test_classification_report.txt
+    │   ├── test_results.json
+    │   ├── tokenizer.json
+    │   ├── tokenizer_config.json
+    │   ├── train_results.json
+    │   ├── trainer_state.json
+    │   └── validation_results.json
+    │
+    └── docs/
 ```
 
-The datasets may be supplied through Kaggle Inputs rather than stored directly in the repository.
+Datasets are hosted on Kaggle:
 
----
+https://www.kaggle.com/datasets/ahmedamir7/codebert-satd-multiclass-datasets
+
+The trained model is hosted on Hugging Face:
+
+https://huggingface.co/ahmedamirahmed/codebert-satd-multiclass
 
 ## End-to-End Workflow
 
@@ -974,7 +1108,26 @@ Save all artifacts under /kaggle/working
     ↓
 Recursively copy /kaggle/working to Google Drive
 ```
+## Reproducing the Experiments
 
+1. Download the dataset from Kaggle.
+2. Open the training notebook.
+3. Configure the dataset paths.
+4. Train or fine-tune CodeBERT.
+5. Evaluate the multiclass test set.
+6. Evaluate the external `comment.csv` dataset.
+7. Save the final model.
+8. Compare the results against the published Hugging Face model.
+
+### Resources
+
+**Dataset**
+
+https://www.kaggle.com/datasets/ahmedamir7/codebert-satd-multiclass-datasets
+
+**Model**
+
+https://huggingface.co/ahmedamirahmed/codebert-satd-multiclass
 
 ## Acknowledgments
 
